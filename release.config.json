@@ -8,5 +8,10 @@
   "artifactDirectory": "out",
   "publicUrl": "https://pai45.github.io/statoz-next-games-web/",
   "sourceOnlyWorkflow": "source.yml",
-  "publicationEnabled": false
+  "publicationEnabled": true,
+  "gameLibrary": {
+    "repository": "pai45/statoz-next-games",
+    "releaseTag": "catalogue-artifact-v0.2.0",
+    "sha256": "267426a4e9439a902e1e4dec42cdd89612ef2b3c3d0f9fbd7018e7d061c16261"
+  }
 }

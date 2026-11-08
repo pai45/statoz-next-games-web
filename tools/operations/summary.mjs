@@ -1,0 +1,4 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {configuration,readJson,atomicJson} from '@statoz/release-core/common';
+export async function updateSummary(){const m=await configuration(),root=path.join(m.dataRoot,'release-requests'),names=(await fs.readdir(root).catch(()=>[])).filter(n=>n.endsWith('.json')),records=[];for(const name of names){const r=await readJson(path.join(root,name),null);if(!r||r.repository!==m.repository)continue;records.push({id:r.id,component:r.component,kind:r.kind,state:r.state,commit:r.commit,version:r.kind==='source'?null:r.version,validationPassed:!!r.validation?.passed,workflow:r.receipt?.workflow||null,output:r.receipt?.output||r.receipt?.url||null,updatedAt:r.updatedAt});}records.sort((a,b)=>b.updatedAt.localeCompare(a.updatedAt));await atomicJson(path.join(m.dataRoot,'operation-summary.json'),{schemaVersion:1,module:m.id,operations:records.slice(0,20),updatedAt:new Date().toISOString()});}
