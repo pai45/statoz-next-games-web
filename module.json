@@ -30,6 +30,11 @@
         "node",
         "--test",
         "tests/operations/source.test.mjs"
+      ],
+      [
+        "node",
+        "--test",
+        "tests/operations/static-export.test.mjs"
       ]
     ],
     "build": [
