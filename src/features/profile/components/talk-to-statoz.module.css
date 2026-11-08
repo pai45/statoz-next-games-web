@@ -1,0 +1,318 @@
+/*
+ * Talk to StatOz: the channel hub and the compose console behind each channel.
+ *
+ * Layout, the console's own field, and the send-off's motion. Colour arrives as
+ * the channel's accent, published as `--channel-accent`.
+ */
+
+/* ---- Hub ------------------------------------------------------------------- */
+
+/* `minmax(0, 1fr)`, not `1fr`: a single column otherwise sizes to its widest
+   item, and these cards carry long unbroken hints. */
+.page {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 14px;
+  padding: 14px 16px calc(32px + env(safe-area-inset-bottom));
+}
+
+.intro {
+  display: grid;
+  gap: 6px;
+  padding-bottom: 4px;
+}
+
+.introLabel {
+  margin: 0;
+  color: var(--ds-color-accent-cyan);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p11);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: var(--ds-tracking-ultra);
+}
+
+.introBody {
+  margin: 0;
+  color: var(--ds-color-text-subtle);
+  font-size:var(--ds-size-p12_5);
+  line-height: var(--ds-leading-body);
+}
+
+.channelGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.socialPanel { display: grid; gap: 6px; margin-top: 10px; }
+.socialPanel h2 {
+  margin: 0;
+  color: var(--ds-color-accent-cyan);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p11);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: var(--ds-tracking-ultra);
+}
+.socialPanel p { margin: 0; color: var(--ds-color-text-subtle); font-size:var(--ds-size-p12_5); }
+.socialActions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-top: 6px; }
+.socialActions a {
+  display: grid;
+  min-height: 48px;
+  place-items: center;
+  border: 1px solid var(--ds-color-border-default);
+  background: var(--ds-color-background-elevated);
+  color: var(--ds-color-text-subtle);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p8);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: var(--ds-tracking-wide);
+  text-decoration: none;
+}
+.socialActions a:hover,
+.socialActions a:focus-visible { border-color: var(--ds-color-accent-cyan); color: var(--ds-color-text-default); outline: none; }
+
+/* ---- Compose --------------------------------------------------------------- */
+
+/* A column, not a stack: the app pins TRANSMIT to the bottom edge, so the dock
+   takes whatever room the fields leave. */
+.composePage {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 18px;
+  padding: 14px 16px calc(20px + env(safe-area-inset-bottom));
+}
+
+.headerRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 16px;
+}
+
+.headerTitle {
+  margin: 0;
+  color: var(--ds-color-text-default);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p16);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: var(--ds-tracking-tight);
+}
+
+.headerHint {
+  margin: 7px 0 0;
+  color: var(--ds-color-text-subtle);
+  font-size:var(--ds-size-p12_5);
+  line-height: var(--ds-leading-body);
+}
+
+.fields {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 14px;
+}
+
+.fieldBlock {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 6px;
+}
+
+.fieldLabel {
+  color: var(--ds-color-text-muted);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p10);
+  font-weight:var(--ds-weight-bold);
+  letter-spacing: var(--ds-tracking-ultra);
+}
+
+/* Square, unlike every other field in the app — a console line, not a form. */
+.field {
+  width: 100%;
+  min-height: 46px;
+  padding: 12px;
+  border: 1px solid var(--ds-color-border-default);
+  background: color-mix(in srgb, var(--ds-color-background-primary) 45%, transparent);
+  color: var(--ds-color-text-default);
+  font-family: var(--ds-font-body);
+  font-size:var(--ds-size-p13);
+  line-height: var(--ds-leading-body);
+  resize: vertical;
+}
+.field::placeholder { color: var(--ds-color-text-muted); }
+.field:focus-visible {
+  border-color: var(--ds-color-accent-cyan);
+  border-width: 1.4px;
+  outline: none;
+}
+.fieldError { border-color: var(--ds-color-danger); }
+.fieldError:focus-visible { border-color: var(--ds-color-danger); }
+
+.fieldMessage {
+  margin: 0;
+  color: var(--ds-color-danger);
+  font-size:var(--ds-size-p11_5);
+}
+
+.transmitDock { margin-top: auto; padding-top: 6px; }
+
+/* ---- Transmission sent ----------------------------------------------------- */
+
+.sentScrim {
+  position: fixed;
+  z-index: 70;
+  display: grid;
+  inset: 0;
+  place-items: center;
+  background: color-mix(in srgb, var(--ds-color-background-primary) 92%, transparent);
+  animation: sent-scrim 2200ms linear both;
+  pointer-events: none;
+}
+
+.sentTexture {
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgb(0 0 0 / 14%) 0 1px,
+    transparent 1px 3px
+  );
+}
+
+/* The app lifts the stack a little above centre so the line sits on the eye. */
+.sentStack {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  gap: 22px;
+  transform: translateY(-9%);
+  animation: sent-pop 480ms cubic-bezier(0.2, 1.5, 0.4, 1) both;
+}
+
+.sentBadge {
+  position: relative;
+  display: grid;
+  width: 120px;
+  height: 120px;
+  place-items: center;
+}
+
+/* The flash the badge lands out of. */
+.sentFlash {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    color-mix(in srgb, var(--channel-accent) 65%, transparent) 0%,
+    transparent 70%
+  );
+  animation: sent-flash 260ms linear both;
+}
+
+.sentSeal {
+  display: grid;
+  width: 72px;
+  height: 72px;
+  place-items: center;
+  border: 2px solid color-mix(in srgb, var(--channel-accent) 85%, transparent);
+  border-radius: 50%;
+  background: var(--ds-color-background-elevated);
+  box-shadow: 0 0 18px -2px color-mix(in srgb, var(--channel-accent) 30%, transparent);
+  color: var(--channel-accent);
+}
+
+.sentText {
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  padding: 0 24px;
+  text-align: center;
+  animation: sent-text 360ms ease-out 350ms both;
+}
+
+.sentHeadline {
+  margin: 0;
+  color: var(--channel-accent);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p18);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: var(--ds-tracking-wide);
+}
+
+.sentChannel {
+  margin: -2px 0 0;
+  color: var(--ds-color-text-muted);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p11);
+  font-weight:var(--ds-weight-bold);
+  letter-spacing: var(--ds-tracking-mega);
+}
+
+.sentBody {
+  margin: -2px 0 0;
+  color: var(--ds-color-text-subtle);
+  font-size:var(--ds-size-p13);
+  line-height: var(--ds-leading-tight);
+}
+
+@keyframes sent-scrim {
+  0%, 78% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes sent-pop {
+  0% { transform: translateY(-9%) scale(0.3); }
+  100% { transform: translateY(-9%) scale(1); }
+}
+
+@keyframes sent-flash {
+  0% { opacity: 0.7; }
+  100% { opacity: 0; }
+}
+
+@keyframes sent-text {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* ---- Desktop --------------------------------------------------------------- */
+
+/*
+ * The phone column is the app. Wider, the channels deal two-up, and the console
+ * stops short of the full width — a form that runs the width of a monitor is a
+ * form nobody can read a line of.
+ */
+@media (width >= 64rem) {
+  .page {
+    max-width: 65rem;
+    margin-inline: auto;
+    padding-inline: 24px;
+  }
+
+  .channelGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+  .composePage {
+    width: 100%;
+    max-width: 44rem;
+    margin-inline: auto;
+    padding-inline: 24px;
+  }
+
+  /* No thumb to reach on a desktop: the action follows the form instead of
+     hanging off the bottom of a tall empty column. */
+  .transmitDock { margin-top: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sentScrim,
+  .sentStack,
+  .sentFlash,
+  .sentText {
+    animation: none;
+  }
+  .sentFlash { opacity: 0; }
+}

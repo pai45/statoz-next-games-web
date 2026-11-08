@@ -1,0 +1,148 @@
+{
+  "gameId": "retro-hoops",
+  "agent": "street_hoop_artist (executed inline by the parent session)",
+  "skill": "street-hoop-assets",
+  "build": "character-v16-local",
+  "assets": "16.0.0",
+  "rules": "2.0.0",
+  "scope": "team-select bulk build, square front stance and tougher faces",
+  "changes": [
+    "Arms thickened everywhere (upper arm 13, forearm 9.5) in the atlas and the live contact arm; reach and hand endpoints unchanged.",
+    "Front/back ready and defend: hips centred, legs straight under the hips, arms hanging close with hands at hip height; fixes V15's off-centre front hips that bent one knee inward.",
+    "Broader front shoulders (\u00b113) and barrel torso; tank team shows skin traps between neck and armholes.",
+    "Red team tee gains a yellow horizontal chest band (front, back and side), the most common Street Hoop kit motif; raglan sleeves now sit only at the shoulder ends.",
+    "Faces: squarer jaws; dark shades on four of six identities; moustaches on three."
+  ],
+  "research": [
+    "https://www.youtube.com/watch?v=38Qlqw2re1w team select 16.5-24s, aspect-corrected 16:9 to 320x224 proportions"
+  ],
+  "checks": {
+    "pipelineSteps": {
+      "art": "passed",
+      "bundle": "passed",
+      "console": "passed",
+      "contract": "passed",
+      "fidelity": "passed",
+      "host": "passed",
+      "lint": "passed",
+      "motion-build": "passed",
+      "motion-capture": "passed",
+      "motion-encode": "passed",
+      "pack": "passed",
+      "rules-tests": "passed",
+      "static-build": "passed",
+      "typecheck": "passed",
+      "wire": "passed"
+    },
+    "rulesInputAndIntegrationTests": 86,
+    "assetIntegrity": 13,
+    "rigContract": {
+      "frames": 2276,
+      "ballHoldingHandEndpointsUnchanged": true,
+      "freeHandClips": [
+        "backpedal",
+        "defend",
+        "neutral-a",
+        "neutral-b"
+      ],
+      "freeHandFramesChanged": 144,
+      "dunkPoses": 104,
+      "maxReach": 40.80441152620633,
+      "dribbleOverlayShoulderMatches": 12,
+      "changedAnchorKinds": {
+        "shoulders": 344,
+        "hips": 144,
+        "hands": 144,
+        "ankles": 144,
+        "knees": 144,
+        "toes": 144,
+        "heels": 144,
+        "elbows": 864,
+        "neck": 136,
+        "head": 136,
+        "shoulder": 720
+      },
+      "scope": "V16 vs V15: foot origin, dribble-ball endpoints and every ball-holding hand endpoint unchanged; dunk shoulders/elbows unchanged and reachable. Non-ball ready/defend hands may be re-authored."
+    },
+    "productionActionLoops": 16,
+    "decodedVideos": 16,
+    "hostFlow": 6,
+    "mobileConsole": 12,
+    "lint": "passed (1 unrelated retro-circuit warning)",
+    "typecheck": "passed",
+    "staticBuild": "passed"
+  },
+  "pack": {
+    "bodyFrameEntries": 2276,
+    "distinctBodyFrames": 1228,
+    "headFrameEntries": 36,
+    "atlasPages": 3,
+    "referenceRasterInputs": 0,
+    "previousPackPreserved": true
+  },
+  "correctionRecord": "test-results/retro-hoops-character-v16/correction-record.json",
+  "fidelityMatrix": [
+    {
+      "feature": "Build (arms, shoulders, chest)",
+      "status": "approximate",
+      "review": "Heavier silhouette close to the team-select lineups at equal height."
+    },
+    {
+      "feature": "Front/back standing stance",
+      "status": "approximate",
+      "review": "Square stance with hanging arms like the lineups."
+    },
+    {
+      "feature": "Faces (shades, moustaches, jaws)",
+      "status": "adapted",
+      "review": "Original heads using the observed motifs."
+    },
+    {
+      "feature": "Kits (tank team; tee with chest band)",
+      "status": "adapted",
+      "review": "Fictional palettes in the observed constructions."
+    },
+    {
+      "feature": "Native timing, input windows, hidden AI",
+      "status": "unverified",
+      "review": "Not recovered."
+    }
+  ],
+  "review": {
+    "structural": "passed",
+    "visual": "Matched the heavy Street Hoop build seen on the team-select lineups of the Arcadexzone recording (aspect-corrected from its 16:9 upload): thick arms, broad shoulders, square front stance, chest-band tee, shades and moustaches.",
+    "gameplay": "Simulation/AI/input untouched; 86 tests pass.",
+    "sourceLikenessApproved": false,
+    "exactLikenessAchieved": false,
+    "nativeTimingRecovered": false,
+    "physicalDeviceTested": false,
+    "limitations": [
+      "Source defenders appear to spread their arms wide toward the ball handler; our defend clip keeps the crouch with hands by the knees (needs a closer look).",
+      "Dunk hang at the rim and other actions not yet compared with the new footage.",
+      "Front proof crop from the 16:9 upload remains slightly soft after aspect correction; widths are approximate.",
+      "Venue regressed relative to footage (drapes, HIP HOP stage, scaffold) \u2014 deferred until characters are done, per the user.",
+      "Bodies stay per team; native timing and physical devices unverified."
+    ]
+  },
+  "hashes": {
+    "scripts/retro_hoops_character.py": "a38b480a4c506d95f6c8b1d2ac6cfc2d01bb46ad336117d217b747a279f0eab0",
+    "scripts/build-retro-hoops-authored.py": "c5fc6109c70d96460c638fcb37ded64a8bed27ce795fb8d44f97c817d38530ee",
+    "src/features/games/retro-hoops/contact-arm.ts": "d117302760990f097b1332fa6fbf0d148758ae9962e4695697407080439f7ab8",
+    "src/features/games/retro-hoops/view.ts": "96403e0178bbb98c70b4efbe9b5650f1f766b86851a234e9f7fc736260d78778",
+    "src/features/games/retro-hoops/renderer.ts": "9202e82365872589a272c88ea2a9a78a0c84003e2e1c07201fcdfdefea9f5d78",
+    "src/features/games/retro-hoops/presentation.ts": "9577d626817d5ddcd8cdddc7ef38119efd6022bf3661c3c7ae3edad10aa2fcb6",
+    "src/features/games/retro-hoops/court.ts": "b4e4001ade42dc7d3f6e2496036bd370f661e188844fbf4966116d07bf7546ab",
+    "src/features/games/retro-hoops/crowd.ts": "dd761650932f702eb049330c36a9cc3b59d50890cef7d0c5f14424c2980bdd6e",
+    "src/features/games/retro-hoops/character-pack.ts": "77c566d85fbfcf857996b0ce58c37324f20b2f3e09e73c971e41856591df3b82",
+    "src/features/games/retro-hoops/reference-profile.ts": "c75ea39238c85b908a0589a6d97e1debdccf7dc03c65d12ff9df125b4f295110",
+    "public/games/retro-hoops/authored-v16/manifest.json": "1220d6f5890ca226218ff2c071cd7e1521cda0abcc0438c6f49e0f677fa7388c",
+    "public/games/retro-hoops/credits.json": "88c5f62e797216ab9cb1147b0a1bd58eb4980d6bc7643a6f157c6063391f1e3f",
+    "public/embedded-games/retro-hoops/index.html": "171de3431d2119f14fa81e276d26c41185182613722931f65efef2d18e5888c6"
+  },
+  "release": {
+    "localOnly": true,
+    "pushed": false,
+    "published": false,
+    "pipelineActivated": false
+  }
+}

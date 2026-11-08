@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "sourceUrl": "https://www.youtube.com/watch?v=gFMgYrdlTF8",
+  "view": "UPPER white human car only; lower purple computer excluded",
+  "region": "Unconfirmed",
+  "clips": [
+    {
+      "provenance": "source-study-v2\\gFMgYrdlTF8-125-155\\provenance.json",
+      "clipSha256": "fe4cb3bf4b5ad9b689dd0dd9bbda0e8dc3077d95cb4778a631dfa9f61070681d",
+      "startSeconds": 125.0,
+      "endSeconds": 155.0
+    },
+    {
+      "provenance": "source-study-v2\\gFMgYrdlTF8-155-185\\provenance.json",
+      "clipSha256": "2ece8549fc48e615f88250bb2e9f56923b21d0825edddbda6b26ef79c8968c00",
+      "startSeconds": 155.0,
+      "endSeconds": 185.0
+    },
+    {
+      "provenance": "source-study-v2\\gFMgYrdlTF8-185-215\\provenance.json",
+      "clipSha256": "46d7a19452ae89c922fec701295fa9b902d202af567b00aa7467b7212718ac79",
+      "startSeconds": 185.0,
+      "endSeconds": 215.0
+    }
+  ],
+  "method": "Retained excerpts decoded with FFmpeg at bounded 10Hz and60Hz recording sample grids; upper HUD transcribed by visual inspection. Recording sample timestamps are approximate; repeated recording frames are not native simulation frames.",
+  "events": [
+    {
+      "event": "Race clock begins",
+      "classification": "observed",
+      "recordingSecondsApprox": 137.117,
+      "recordingUncertaintySeconds": 0.1,
+      "upperWhiteHudElapsedSeconds": 0.05,
+      "readoutResolutionSeconds": 0.01,
+      "evidence": "fidelity-v5\\source-events\\dense-137.05\\004.png",
+      "sha256": "168ae514e62313dcb31810551de1d1405b6d9605c78d151fcec4a687d4e8836d",
+      "visible": "N3 / AUTO1 /20th"
+    },
+    {
+      "event": "First lap announcement",
+      "classification": "observed",
+      "recordingSecondsApprox": 164.817,
+      "recordingUncertaintySeconds": 0.1,
+      "upperWhiteHudElapsedSeconds": 27.76,
+      "readoutResolutionSeconds": 0.01,
+      "evidence": "fidelity-v5\\source-events\\dense-164.65\\010.png",
+      "sha256": "80ae3f7927046162d9fd1d158d4788bc29afa789b70095ef227596a3d6f2a09a",
+      "visible": "2 LAPS LEFT / N3 /4th"
+    },
+    {
+      "event": "First nitro consumed",
+      "classification": "observed",
+      "recordingSecondsApprox": 164.883,
+      "recordingUncertaintySeconds": 0.1,
+      "upperWhiteHudElapsedSeconds": 27.81,
+      "readoutResolutionSeconds": 0.01,
+      "evidence": "fidelity-v5\\source-events\\dense-164.65\\014.png",
+      "sha256": "1c5a448f94ce633219343cca4b11ec4154aca402f72186e4a2c043f6f9cb187d",
+      "visible": "N2 / boost exhaust"
+    },
+    {
+      "event": "Second nitro consumed",
+      "classification": "observed",
+      "recordingSecondsApprox": 180.05,
+      "recordingUncertaintySeconds": 0.1,
+      "upperWhiteHudElapsedSeconds": 42.98,
+      "readoutResolutionSeconds": 0.01,
+      "evidence": "fidelity-v5\\source-events\\dense-179.85\\012.png",
+      "sha256": "cd4f3302481414aa3dc73bd1cbeacdbe4bad6b4c7c63f123b754e87224afa4b0",
+      "visible": "N1 /1st"
+    },
+    {
+      "event": "Final lap announcement",
+      "classification": "observed",
+      "recordingSecondsApprox": 183.35,
+      "recordingUncertaintySeconds": 0.1,
+      "upperWhiteHudElapsedSeconds": 46.3,
+      "readoutResolutionSeconds": 0.01,
+      "evidence": "fidelity-v5\\source-events\\dense-183.25\\006.png",
+      "sha256": "89a12beed3db3215487b19fb8d9dce3c73915688dc22412af503aaba4a88fdcf",
+      "visible": "FINAL LAP / N1 /1st"
+    },
+    {
+      "event": "Finish clock freezes",
+      "classification": "observed",
+      "recordingSecondsApprox": 202.05,
+      "recordingUncertaintySeconds": 0.1,
+      "upperWhiteHudElapsedSeconds": 64.96,
+      "readoutResolutionSeconds": 0.01,
+      "evidence": "fidelity-v5\\source-events\\dense-201.9\\009.png",
+      "sha256": "4408d43ed2e6ac0fea8d5b2b5e99292a578cd31afde6351ba5c6cb2be05d2c14",
+      "visible": "1st / N1 / clock frozen"
+    }
+  ],
+  "inferredLapDurations": {
+    "classification": "inferred",
+    "seconds": [
+      27.76,
+      18.54,
+      18.66
+    ],
+    "calculation": "First 2 LAPS LEFT appearance / FINAL LAP appearance minus previous / frozen finish minus FINAL LAP appearance",
+    "uncertaintySeconds": 0.15,
+    "limitation": "Announcement onset may lag actual crossing. These are event-derived comparison targets, not recovered native lap splits."
+  },
+  "supersedes": {
+    "firstLap28_66": "Incorrect for upper white event: first announcement reads27.76; clock28.66 is a later running frame.",
+    "twoRemaining18_15": "Not independently measured; replace with distinct event-derived18.54 and18.66."
+  },
+  "unknowns": [
+    "Player throttle, steering, braking and boost button states unavailable.",
+    "Native tick cadence/region and exact announcement scheduling unavailable.",
+    "No exact input-response calibration inferred from recording alone."
+  ],
+  "reproduce": "python output/retro-circuit/source-events-v5.py"
+}

@@ -1,0 +1,163 @@
+{
+  "version": 2,
+  "steamApp": 1189520,
+  "primaryTarget": "Steam release; revision/settings unverified",
+  "footage": "https://www.youtube.com/watch?v=_k8IIS9n3dk",
+  "cadence": "Selected stream reports 59 fps; not native timing",
+  "inspectedRanges": [
+    [
+      0,
+      283
+    ]
+  ],
+  "completeMatchContinuouslyInspected": false,
+  "coverage": [
+    {
+      "id": "movement",
+      "evidence": "observed",
+      "seconds": [
+        62,
+        69
+      ],
+      "finding": "Independent lanes, forward/diagonal locomotion and defensive recovery; 10 Hz samples.",
+      "status": "approximate"
+    },
+    {
+      "id": "pass",
+      "evidence": "observed",
+      "seconds": [
+        68.7,
+        69.7
+      ],
+      "finding": "Gather ~68.77\u201368.84, release ~68.97\u201369.04, catch ~69.17\u201369.25; decoded recording.",
+      "status": "approximate"
+    },
+    {
+      "id": "shot",
+      "evidence": "observed",
+      "seconds": [
+        37.5,
+        38.7
+      ],
+      "finding": "Teaching takeoff ~37.77, release ~37.97\u201338.11, landing ~38.58\u201338.65.",
+      "status": "approximate"
+    },
+    {
+      "id": "dunk/restart",
+      "evidence": "observed",
+      "seconds": [
+        64.4,
+        68.9
+      ],
+      "finding": "Ball/rim contact, airborne follow-through, score and opposite possession.",
+      "status": "approximate"
+    },
+    {
+      "id": "rebound/block",
+      "evidence": "observed",
+      "seconds": [
+        71,
+        76
+      ],
+      "finding": "Contested flight and next possession; contact partly occluded.",
+      "status": "approximate"
+    },
+    {
+      "id": "dunk fake",
+      "evidence": "documented",
+      "seconds": [
+        148,
+        153
+      ],
+      "finding": "Instruction says press A during dunk to fake; exact window unknown.",
+      "status": "approximate"
+    },
+    {
+      "id": "shot fake",
+      "evidence": "observed",
+      "seconds": [
+        278,
+        283
+      ],
+      "finding": "Instruction says press lightly; mobile second-press implementation is an explicit adaptation.",
+      "status": "adapted"
+    },
+    {
+      "id": "periods",
+      "evidence": "observed",
+      "seconds": [
+        143,
+        163
+      ],
+      "finding": "First-half end, teaching interlude, second-half 2:00 reset.",
+      "status": "matched structure"
+    },
+    {
+      "id": "results",
+      "evidence": "observed",
+      "seconds": [
+        270,
+        278
+      ],
+      "finding": "Win/loss and statistical score board. Original result layout and labels.",
+      "status": "adapted"
+    },
+    {
+      "id": "camera/depth",
+      "evidence": "observed",
+      "seconds": [
+        62,
+        76
+      ],
+      "finding": "Ball-following horizontal camera and depth-dependent scaling; no native geometry recovered.",
+      "status": "approximate"
+    },
+    {
+      "id": "special shot",
+      "evidence": "observed",
+      "seconds": [
+        237,
+        253
+      ],
+      "finding": "Full charge feedback, special attack/impact; complete native effect family not recovered.",
+      "status": "approximate"
+    },
+    {
+      "id": "AI",
+      "evidence": "inferred",
+      "seconds": [
+        62,
+        76
+      ],
+      "finding": "Spacing, marking, rebound responsibilities; hidden decision algorithm unknown.",
+      "status": "approximate"
+    },
+    {
+      "id": "native input windows",
+      "evidence": "unknown",
+      "seconds": null,
+      "finding": "No controller stream or controlled original copy.",
+      "status": "unverified"
+    },
+    {
+      "id": "Steam revision parity",
+      "evidence": "unknown",
+      "seconds": null,
+      "finding": "Steam wrapper announcement is distinct from arcade recording. No verified Steam gameplay capture.",
+      "status": "unverified"
+    },
+    {
+      "id": "character identity",
+      "evidence": "authored",
+      "seconds": null,
+      "finding": "Original geometry, palette maps, shading and motion; no source raster inputs.",
+      "status": "adapted"
+    }
+  ],
+  "limits": [
+    "Original artwork needs visual approval against source; generated frame count is not parity evidence.",
+    "Physical Android/iPhone validation unavailable; emulation is separate.",
+    "Native AI/probability/input values remain unverified.",
+    "Later recording excerpts were inspected in coarse surveys; continuous native action timing is not verified."
+  ]
+}

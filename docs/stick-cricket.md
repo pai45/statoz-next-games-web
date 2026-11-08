@@ -1,0 +1,11 @@
+# Stick Cricket — local native integration
+
+Play `/play/stick-cricket` from Games → Cricket. The maintained implementation lives in `src/features/games/stick-cricket`; Designer stores the REA research evidence. This is the original Stick Cricket Chase Unity WebGL build, with its original players, animation, lessons, chase menus, progression, stadiums and sound; no replacement cricket simulation was written.
+
+On-screen mode preserves native touch arrows and clickable menus. Handheld mode adds independent left/right side buttons, with adjustable size. Keyboard: Left/A, Right/D. P/Escape pauses when the shell has focus; Pause and Settings are always available. The landscape playfield retains 16:9 geometry, caps rendering density at 1.5 and uses safe areas. Portrait interrupts play. Native RAF and game clock stop while paused; input owners clear on interruption. Preferences use the existing host save adapter. Unity IndexedDB and local storage use separate account-and-game namespaces.
+
+Native resources: approximately 81 MiB including the data file, WebAssembly, loader/framework, settings/catalog and 45 available Addressables bundles. See `public/games/stick-cricket/assets-manifest.json` for SHA-256 hashes and catalog source evidence. These proprietary reference files are ignored by Git. A fresh checkout needs its local resource backup restored; a source-only build cannot run this native game. No remote CDN fallback is used.
+
+The local platform adapter supplies lifecycle only. Interstitials continue without ads, rewarded-ad completion is false, and remote Poki account/sharing services are unavailable. Game-earned rewards and progression are native. This does not grant permission to redistribute the original game. Keep local-only until appropriate rights exist.
+
+Commands: `npm run build:stick-cricket`, `npm run test:stick-cricket`, `npm run test:stick-cricket:browser`, `npm run test:device-assets`, `node scripts/check-stick-cricket-route.mjs` after `npm run build:pages`. Browser checks create screenshots and machine-readable results in `test-results/stick-cricket-integration` and `test-results/stick-cricket-route`. Desktop Chrome touch emulation does not replace testing on physical Android/iOS hardware. Full tournament completion is not claimed.

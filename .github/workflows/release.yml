@@ -1,0 +1,55 @@
+name: Accepted local artifact
+run-name: StatOz ${{ inputs.request }}
+on:
+  workflow_dispatch:
+    inputs:
+      request: {required: true, type: string}
+      tag: {required: true, type: string}
+      commit: {required: true, type: string}
+      sha256: {required: true, type: string}
+      kind: {required: true, type: choice, options: [pages, local-tool, native, package]}
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: statoz-publication
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.commit }}
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Download accepted local bytes
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ inputs.tag }}
+        run: gh release download "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --pattern accepted.statozpack --dir accepted
+      - name: Verify identity, size and every file hash
+        env:
+          EXPECTED_SHA256: ${{ inputs.sha256 }}
+          EXPECTED_COMMIT: ${{ inputs.commit }}
+          EXPECTED_REQUEST: ${{ inputs.request }}
+        run: node tools/operations/verify-artifact.mjs accepted/accepted.statozpack accepted/site
+      - name: Reject a stale website snapshot
+        if: inputs.kind == 'pages'
+        run: node tools/operations/check-publication-base.mjs
+      - uses: actions/upload-pages-artifact@v3
+        if: inputs.kind == 'pages'
+        with: {path: accepted/site}
+  deploy:
+    if: inputs.kind == 'pages'
+    needs: verify
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy accepted bytes
+        id: deployment
+        uses: actions/deploy-pages@v4

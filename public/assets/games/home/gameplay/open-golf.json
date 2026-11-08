@@ -1,0 +1,12 @@
+{
+  "gameId": "open-golf",
+  "file": "open-golf.mp4",
+  "durationSeconds": 8,
+  "width": 1280,
+  "height": 720,
+  "fps": 12,
+  "source": "/embedded-games/open-golf/index.html",
+  "method": "Actual local game runtime captured with Playwright; silent H.264 with restrained contrast/saturation grading.",
+  "sha256": "fdddddb13dd9b8610b2048053a2da320ec69d67cb1c7440f9bd07f7285c22f38",
+  "bytes": 375809
+}

@@ -1,0 +1,107 @@
+.panel {
+  display: grid;
+  gap: var(--ds-space-10);
+  padding: var(--ds-space-12);
+  border: 1px solid var(--ds-color-border-default);
+  background: var(--ds-color-background-data);
+}
+
+.header { display: flex; align-items: center; justify-content: space-between; gap: var(--ds-space-12); }
+.header h3,
+.header span,
+.caption,
+.empty,
+.outcomes,
+.detail header {
+  font-family: var(--ds-font-display);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: var(--ds-tracking-wide);
+}
+.header h3 { margin: 0; color: var(--ds-color-accent-cyan); font-size: var(--ds-text-2xs); }
+.header span { color: var(--ds-color-text-muted); font-size: var(--ds-text-micro); }
+
+.filters {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--ds-space-6);
+  padding: 0;
+}
+.filters > button { width: 100%; padding-inline: var(--ds-space-8); font-size: var(--ds-text-2xs); }
+
+.pitch {
+  position: relative;
+  aspect-ratio: 105 / 68;
+  margin: var(--ds-space-8) var(--ds-space-12) 0;
+  background: color-mix(in srgb, var(--ds-color-accent-cyan) 2%, var(--ds-color-background-muted));
+}
+.pitch > svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.pitchLine,
+.pitchFaint,
+.goalLine { fill: none; vector-effect: non-scaling-stroke; }
+.pitchLine { stroke: var(--ds-color-border-strong); stroke-width: 1; }
+.pitchFaint { stroke: color-mix(in srgb, var(--ds-color-border-strong) 62%, transparent); stroke-width: 1; }
+.pitchSpot { fill: var(--ds-color-border-strong); }
+.goalLine { stroke: color-mix(in srgb, var(--ds-color-accent-gold) 48%, transparent); stroke-width: 1.1; }
+
+.shot {
+  position: absolute;
+  display: grid;
+  width: 28px;
+  height: 28px;
+  translate: -50% -50%;
+  place-items: center;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+.shot > span {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border: 1.5px solid var(--shot-color);
+  border-radius: 50%;
+  background: transparent;
+  transition: scale 140ms ease, box-shadow 140ms ease;
+}
+.shot[data-outcome="goal"] > span {
+  width: 11px;
+  height: 11px;
+  border-color: var(--ds-color-background-muted);
+  background: var(--shot-color);
+  box-shadow: 0 0 8px color-mix(in srgb, var(--shot-color) 70%, transparent);
+}
+.shot[data-outcome="saved"] > span { background: color-mix(in srgb, var(--shot-color) 90%, transparent); }
+.shot[data-outcome="blocked"] > span { width: 7px; height: 7px; opacity: .55; }
+.shot[data-selected] > span { scale: 1.3; box-shadow: 0 0 0 4px var(--ds-color-background-muted), 0 0 0 5px var(--shot-color), 0 0 12px var(--shot-color); }
+.shot:focus-visible { outline-color: var(--shot-color); outline-offset: -2px; }
+
+.empty {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  margin: 0;
+  place-items: center;
+  color: var(--ds-color-text-muted);
+  font-size: var(--ds-text-nano);
+}
+
+.outcomes { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--ds-space-8) var(--ds-space-14); color: var(--ds-color-text-muted); font-size: var(--ds-text-nano); }
+.outcomes span { display: inline-flex; align-items: center; gap: var(--ds-space-4); }
+.outcomes i { display: block; width: 8px; height: 8px; border: 1px solid currentcolor; border-radius: 50%; }
+.outcomes span[data-outcome="goal"] i { width: 10px; height: 10px; border: 0; background: currentcolor; box-shadow: 0 0 6px currentcolor; }
+.outcomes span[data-outcome="saved"] i { border: 0; background: currentcolor; }
+.outcomes span[data-outcome="blocked"] i { scale: .78; opacity: .55; }
+
+.detail { grid-template-columns: minmax(0, 1fr) minmax(112px, 34%); align-items: start; gap: var(--ds-space-12); }
+.detailCopy { min-width: 0; }
+.detail header { display: flex; align-items: center; justify-content: space-between; gap: var(--ds-space-8); color: var(--row-accent); font-size: var(--ds-text-micro); }
+.detail h4 { margin: var(--ds-space-8) 0 var(--ds-space-4); color: var(--ds-color-text-default); font-family: var(--ds-font-display); font-size: var(--ds-text-sm); }
+.detail p { margin: 0; color: var(--ds-color-text-muted); font-size: var(--ds-text-xs); line-height: var(--ds-leading-body); }
+
+.caption { margin: 0; color: var(--ds-color-text-muted); text-align: center; font-size: var(--ds-text-nano); line-height: var(--ds-leading-body); }
+
+@media (width < 27rem) {
+  .pitch { margin-inline: 0; }
+  .detail { grid-template-columns: 1fr; }
+}

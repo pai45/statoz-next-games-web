@@ -1,0 +1,71 @@
+import {chromium,expect} from '@playwright/test';
+import assert from 'node:assert/strict';
+import http from 'node:http';
+import fs from 'node:fs/promises';
+
+const html=await fs.readFile('public/embedded-games/penalty-cup/index.html','utf8');
+const out='test-results/penalty-cup-mobile';await fs.mkdir(out,{recursive:true});
+const server=http.createServer((req,res)=>{res.setHeader('content-type','text/html');res.end(html.replace('/*__STATOZ_BOOT__*/',`{const storage=window.localStorage;window.StatozGame={postMessage(raw){const message=JSON.parse(raw);if(message.type==='save')storage.setItem('cup-music-test',JSON.stringify(message.payload));}};window.__STATOZ_BOOT__={sessionId:'music-test',origin:location.origin,storageScope:'audio',stores:{},resultIds:[],...JSON.parse(storage.getItem('cup-music-test')||'{}')};}`));});
+await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
+const browser=await chromium.launch({headless:true});
+try{
+ const page=await browser.newPage({viewport:{width:844,height:390}}),errors=[];
+ page.on('pageerror',e=>errors.push(e.message));
+ await page.addInitScript(()=>{
+  const Native=window.AudioContext,connect=AudioNode.prototype.connect;
+  window.audioContexts=[];
+  window.AudioContext=class extends Native{constructor(...args){super(...args);this.tap=this.createAnalyser();window.audioContexts.push(this);}createGain(){const node=super.createGain();this.firstGain??=node;return node;}};
+  AudioNode.prototype.connect=function(target,...args){if(target===this.context.destination)connect.call(this,this.context.tap);return connect.call(this,target,...args);};
+ });
+ await page.goto(`http://127.0.0.1:${server.address().port}`);
+ await expect(page.locator('[data-audio]')).toHaveAttribute('data-audio','locked');
+ assert.equal(await page.evaluate(()=>audioContexts.length),0,'No audio context before a gesture');
+ await page.getByRole('button',{name:'Controls and settings'}).click();
+ await expect(page.locator('[data-audio]')).toHaveAttribute('data-audio','playing');
+ const level=()=>page.evaluate(async()=>{
+  const tap=audioContexts[0].tap,data=new Float32Array(tap.fftSize);let peak=0,squares=0,samples=0;
+  for(let i=0;i<30;i++){tap.getFloatTimeDomainData(data);for(const x of data){peak=Math.max(peak,Math.abs(x));squares+=x*x;samples++;}await new Promise(resolve=>setTimeout(resolve,40));}
+  return {peak,rms:Math.sqrt(squares/samples)};
+ });
+ const menu=await level();assert.ok(menu.rms>.001,'Music produces an audible signal');assert.ok(menu.peak<.8,'Music leaves mix headroom');
+ await page.getByRole('button',{name:'Mute audio',exact:true}).last().click();
+ await expect(page.locator('[data-audio]')).toHaveAttribute('data-audio','muted');
+ assert.equal(await page.evaluate(()=>audioContexts[0].state),'suspended');
+ await page.getByRole('button',{name:'Unmute audio',exact:true}).last().click();
+ await expect(page.locator('[data-audio]')).toHaveAttribute('data-audio','playing');
+ await page.getByRole('slider',{name:'Music volume'}).fill('0');
+ await expect(page.locator('[data-audio]')).toHaveAttribute('data-audio','muted');
+ assert.equal(await page.evaluate(()=>audioContexts[0].state),'suspended');
+ await page.getByRole('slider',{name:'Music volume'}).fill('0.8');
+ await expect(page.locator('[data-audio]')).toHaveAttribute('data-audio','playing');
+ await page.getByRole('button',{name:'Done',exact:true}).click();
+ const host=type=>page.evaluate(type=>window.__STATOZ_COMMAND__({protocolVersion:1,gameId:'penalty-cup',sessionId:'music-test',type}),type);
+ await host('pause');await expect(page.locator('[data-audio]')).toHaveAttribute('data-audio','paused');
+ assert.equal(await page.evaluate(()=>audioContexts[0].state),'suspended');
+ await host('resume');await expect(page.locator('[data-audio]')).toHaveAttribute('data-audio','playing');
+ const visibility=hidden=>page.evaluate(hidden=>{Object.defineProperty(document,'hidden',{value:hidden,configurable:true});document.dispatchEvent(new Event('visibilitychange'));},hidden);
+ await visibility(true);await expect(page.locator('[data-audio]')).toHaveAttribute('data-audio','paused');
+ await visibility(false);await expect(page.locator('[data-audio]')).toHaveAttribute('data-audio','playing');
+ assert.equal(await page.evaluate(()=>audioContexts.length),1,'Menu transitions reuse the one music context');
+ await expect.poll(()=>page.evaluate(()=>audioContexts[0].firstGain.gain.value)).toBeGreaterThan(.11);
+ const menuGain=await page.evaluate(()=>audioContexts[0].firstGain.gain.value);
+ await page.getByRole('button',{name:'Random Game',exact:true}).click();await page.getByRole('button',{name:'Play',exact:true}).click();
+ await page.locator('[data-phase="preparation"]').waitFor({timeout:60000});
+ const match=await level(),matchGain=await page.evaluate(()=>audioContexts[0].firstGain.gain.value);
+ assert.ok(match.rms>0,'The quieter music bed remains active');assert.ok(matchGain<menuGain*.25,'Music bus ducks during play');
+ await page.getByRole('button',{name:'Pause match',exact:true}).click();
+ await expect.poll(()=>page.evaluate(()=>audioContexts[0].state)).toBe('suspended');
+ await page.getByRole('button',{name:'Exit match',exact:true}).click();
+ await expect(page.locator('[data-audio]')).toHaveAttribute('data-audio','playing');
+ const menuAfterMatch=await level();assert.ok(await page.evaluate(()=>audioContexts[0].firstGain.gain.value)>.11,'Menu mix returns after leaving the match');
+ const contextStates=await page.evaluate(()=>audioContexts.map(c=>c.state));
+ await page.getByRole('button',{name:'Mute audio',exact:true}).click();
+ await host('dispose');await expect.poll(()=>page.evaluate(()=>audioContexts[0].state)).toBe('closed');
+ await page.reload();await expect(page.locator('[data-audio]')).toHaveAttribute('data-audio','locked');
+ await page.getByRole('button',{name:'Controls and settings'}).click();await expect(page.getByRole('slider',{name:'Music volume'})).toHaveValue('0.8');
+ assert.equal(await page.getByRole('button',{name:'Unmute audio',exact:true}).count(),2,'Mute preference persists');
+ assert.equal(await page.evaluate(()=>audioContexts.length),0,'Persisted mute stays silent');
+ assert.deepEqual(errors,[]);
+ await fs.writeFile(out+'/music-checks.json',JSON.stringify({gestureGated:true,menu,match,menuAfterMatch,menuGain,matchGain,contextStates,mute:true,volume:true,persisted:true,pauseResume:true,backgroundPause:true,matchDuck:true,musicContextDisposed:true,errors},null,2));
+ console.log('Music: gesture unlock, signal/headroom, mute, volume, pause/resume, match ducking, persistence and cleanup passed.');
+}finally{await browser.close();server.closeAllConnections();await new Promise(resolve=>server.close(resolve));}

@@ -1,0 +1,12 @@
+{
+  "gameId": "rim-rush",
+  "file": "rim-rush.mp4",
+  "durationSeconds": 8,
+  "width": 1280,
+  "height": 720,
+  "fps": 12,
+  "source": "/embedded-games/rim-rush/index.html",
+  "method": "Actual local game runtime captured with Playwright; silent H.264 with restrained contrast/saturation grading.",
+  "sha256": "3aa2bf3135caf4887ec02aef3484562088229b267568e46aaaf62d87ab8ee1da",
+  "bytes": 297898
+}

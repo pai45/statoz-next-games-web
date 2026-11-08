@@ -1,0 +1,12 @@
+{
+  "gameId": "hoop-legacy",
+  "file": "hoop-legacy.mp4",
+  "durationSeconds": 8,
+  "width": 1280,
+  "height": 720,
+  "fps": 12,
+  "source": "/embedded-games/hoop-legacy/index.html",
+  "method": "Actual local game runtime captured with Playwright; silent H.264 with restrained contrast/saturation grading.",
+  "sha256": "dcc61c35a2caf568d3934b3ce6a1de7e04028c38c44b91f06a6495375b837a3b",
+  "bytes": 2132340
+}

@@ -1,0 +1,6 @@
+import type { SportMatch } from "@/domain/matches";
+import { fixture, team } from "./definitions";
+const teams = { alcaraz: team("alcaraz", "Carlos Alcaraz", "ESP", "#f1bf00", "#aa151b", "#081019"), sinner: team("sinner", "Jannik Sinner", "ITA", "#009246", "#ce2b37"), djokovic: team("djokovic", "Novak Djokovic", "SRB", "#0c4076", "#c6363c"), gauff: team("gauff", "Coco Gauff", "USA", "#3c3b6e", "#b22234"), swiatek: team("swiatek", "Iga Swiatek", "POL", "#ffffff", "#dc143c", "#081019") };
+export const tennisFixtures: SportMatch[] = [
+  fixture("wimbledon_mens_final_26", "tennis", "wimbledon", teams.alcaraz, teams.sinner, "2026-08-27T13:00:00.000Z", "scheduled", 160, 88300), fixture("atp_alc_djo_result", "tennis", "atp", teams.alcaraz, teams.djokovic, "2026-08-24T13:00:00.000Z", "finished", 160, 66400, { homeScore: 3, awayScore: 0, resultLine: "Alcaraz won 6-4, 6-2, 6-1", tennisSets: [[6, 4], [6, 2], [6, 1]] }), fixture("atp_alc_sin", "tennis", "atp", teams.alcaraz, teams.sinner, "2026-08-25T13:00:00.000Z", "scheduled", 150, 75200), fixture("wta_swi_gau", "tennis", "wta", teams.swiatek, teams.gauff, "2026-08-25T16:00:00.000Z", "live", 125, 44100, { homeScore: 1, awayScore: 1, liveMinute: 78, tennisSets: [[6, 4], [3, 6]] }), fixture("atp_sin_djo", "tennis", "atp", teams.alcaraz, teams.sinner, "2026-08-26T12:30:00.000Z", "scheduled", 145, 62800),
+];

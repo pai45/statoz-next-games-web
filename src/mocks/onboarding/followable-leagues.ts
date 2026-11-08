@@ -1,0 +1,218 @@
+import type { Sport } from "@/domain/sports";
+
+import type { FollowableLeague } from "@/domain/onboarding";
+
+/**
+ * The leagues a player can follow during setup, with the clubs they can name a
+ * favourite from. Kept separate from the prediction fixtures so seeding a
+ * league here never spawns an empty section on the home surface. EPL and the
+ * cricket ids mirror the fixture data so a favourite lines up later.
+ */
+export const followableLeagues: FollowableLeague[] = [
+  {
+    sport: "football",
+    id: "epl",
+    name: "English Premier League",
+    shortCode: "EPL",
+    teams: [
+      { id: "ars", name: "Arsenal", shortName: "ARS", color: "#ef0107" },
+      { id: "avl", name: "Aston Villa", shortName: "AVL", color: "#7a003c" },
+      { id: "bou", name: "Bournemouth", shortName: "BOU", color: "#da291c" },
+      { id: "bre", name: "Brentford", shortName: "BRE", color: "#e30613" },
+      { id: "bha", name: "Brighton", shortName: "BHA", color: "#0057b8" },
+      { id: "cfc", name: "Chelsea", shortName: "CFC", color: "#1f4fd6" },
+      { id: "cov", name: "Coventry City", shortName: "COV", color: "#6caddf" },
+      { id: "cry", name: "Crystal Palace", shortName: "CRY", color: "#1b458f" },
+      { id: "eve", name: "Everton", shortName: "EVE", color: "#003399" },
+      { id: "ful", name: "Fulham", shortName: "FUL", color: "#ffffff" },
+      { id: "hul", name: "Hull City", shortName: "HUL", color: "#f5971d" },
+      { id: "ips", name: "Ipswich Town", shortName: "IPS", color: "#3a64a3" },
+      { id: "lee", name: "Leeds United", shortName: "LEE", color: "#ffcd00" },
+      { id: "liv", name: "Liverpool", shortName: "LFC", color: "#c8102e" },
+      { id: "mc", name: "Man City", shortName: "MCI", color: "#6cabdd" },
+      { id: "mu", name: "Man Utd", shortName: "MU", color: "#d5122a" },
+      { id: "new", name: "Newcastle", shortName: "NEW", color: "#edede8" },
+      { id: "nfo", name: "Nottingham Forest", shortName: "NFO", color: "#dd0000" },
+      { id: "sun", name: "Sunderland", shortName: "SUN", color: "#eb172b" },
+      { id: "tot", name: "Tottenham", shortName: "TOT", color: "#132257" },
+    ],
+  },
+  {
+    sport: "football",
+    id: "laliga",
+    name: "La Liga",
+    shortCode: "LAL",
+    teams: [
+      { id: "ath", name: "Athletic Club", shortName: "ATH", color: "#ee2523" },
+      { id: "atm", name: "Atletico", shortName: "ATM", color: "#cb3524" },
+      { id: "osa", name: "Osasuna", shortName: "OSA", color: "#c8102e" },
+      { id: "cel", name: "Celta Vigo", shortName: "CEL", color: "#6bb5e9" },
+      { id: "ala", name: "Alaves", shortName: "ALA", color: "#123d8b" },
+      { id: "elc", name: "Elche", shortName: "ELC", color: "#006b3c" },
+      { id: "fcb", name: "Barcelona", shortName: "FCB", color: "#a50044" },
+      { id: "get", name: "Getafe", shortName: "GET", color: "#00529f" },
+      { id: "lev", name: "Levante", shortName: "LEV", color: "#ae1c28" },
+      { id: "mal", name: "Malaga", shortName: "MAL", color: "#76bfe8" },
+      { id: "rac", name: "Racing Santander", shortName: "RAC", color: "#009b4c" },
+      { id: "ray", name: "Rayo Vallecano", shortName: "RAY", color: "#e30613" },
+      { id: "dep", name: "Deportivo La Coruna", shortName: "DEP", color: "#1572c4" },
+      { id: "esp", name: "Espanyol", shortName: "ESP", color: "#0072ce" },
+      { id: "bet", name: "Real Betis", shortName: "BET", color: "#00954c" },
+      { id: "rma", name: "Real Madrid", shortName: "RMA", color: "#febe10" },
+      { id: "rso", name: "Real Sociedad", shortName: "RSO", color: "#0067b1" },
+      { id: "sev", name: "Sevilla", shortName: "SEV", color: "#d9182b" },
+      { id: "val", name: "Valencia", shortName: "VAL", color: "#f4a900" },
+      { id: "vil", name: "Villarreal", shortName: "VIL", color: "#ffe667" },
+    ],
+  },
+  {
+    sport: "football",
+    id: "seriea",
+    name: "Serie A",
+    shortCode: "SEA",
+    teams: [
+      { id: "ata", name: "Atalanta", shortName: "ATA", color: "#1d3f8b" },
+      { id: "bol", name: "Bologna", shortName: "BOL", color: "#cc0000" },
+      { id: "cag", name: "Cagliari", shortName: "CAG", color: "#b4142d" },
+      { id: "com", name: "Como", shortName: "COM", color: "#004f9e" },
+      { id: "fio", name: "Fiorentina", shortName: "FIO", color: "#5c2d91" },
+      { id: "fro", name: "Frosinone", shortName: "FRO", color: "#ffd700" },
+      { id: "gen", name: "Genoa", shortName: "GEN", color: "#a71930" },
+      { id: "int", name: "Inter", shortName: "INT", color: "#0068a8" },
+      { id: "juv", name: "Juventus", shortName: "JUV", color: "#ffffff" },
+      { id: "laz", name: "Lazio", shortName: "LAZ", color: "#87d8f7" },
+      { id: "lec", name: "Lecce", shortName: "LEC", color: "#e60012" },
+      { id: "mil", name: "AC Milan", shortName: "MIL", color: "#fb090b" },
+      { id: "mon", name: "Monza", shortName: "MON", color: "#e30613" },
+      { id: "nap", name: "Napoli", shortName: "NAP", color: "#12a0d7" },
+      { id: "par", name: "Parma", shortName: "PAR", color: "#ffd100" },
+      { id: "rom", name: "Roma", shortName: "ROM", color: "#8e1f2f" },
+      { id: "sas", name: "Sassuolo", shortName: "SAS", color: "#009246" },
+      { id: "tor", name: "Torino", shortName: "TOR", color: "#8b1c2d" },
+      { id: "udi", name: "Udinese", shortName: "UDI", color: "#000000" },
+      { id: "ven", name: "Venezia", shortName: "VEN", color: "#f47721" },
+    ],
+  },
+  {
+    sport: "football",
+    id: "bundesliga",
+    name: "Bundesliga",
+    shortCode: "BUN",
+    teams: [
+      { id: "fca", name: "Augsburg", shortName: "FCA", color: "#ba3733" },
+      { id: "ube", name: "Union Berlin", shortName: "FCU", color: "#e30613" },
+      { id: "svw", name: "Werder Bremen", shortName: "SVW", color: "#009a44" },
+      { id: "bvb", name: "Dortmund", shortName: "BVB", color: "#fde100" },
+      { id: "elv", name: "Elversberg", shortName: "SVE", color: "#000000" },
+      { id: "sge", name: "Frankfurt", shortName: "SGE", color: "#e1000f" },
+      { id: "scf", name: "Freiburg", shortName: "SCF", color: "#e30613" },
+      { id: "hsv", name: "Hamburg", shortName: "HSV", color: "#005ca9" },
+      { id: "tsg", name: "Hoffenheim", shortName: "TSG", color: "#1c5dab" },
+      { id: "fck", name: "Koln", shortName: "KOE", color: "#ed1c24" },
+      { id: "rbl", name: "RB Leipzig", shortName: "RBL", color: "#dd0741" },
+      { id: "b04", name: "Leverkusen", shortName: "B04", color: "#e32221" },
+      { id: "m05", name: "Mainz 05", shortName: "M05", color: "#c41230" },
+      { id: "bmg", name: "M'gladbach", shortName: "BMG", color: "#000000" },
+      { id: "bay", name: "Bayern", shortName: "BAY", color: "#dc052d" },
+      { id: "scp", name: "Paderborn", shortName: "SCP", color: "#005ca9" },
+      { id: "s04", name: "Schalke 04", shortName: "S04", color: "#004b93" },
+      { id: "vfb", name: "Stuttgart", shortName: "VFB", color: "#e32219" },
+    ],
+  },
+  {
+    sport: "football",
+    id: "ligue1",
+    name: "Ligue 1",
+    shortCode: "LI1",
+    teams: [
+      { id: "ang", name: "Angers", shortName: "SCO", color: "#1a1a1a" },
+      { id: "aja", name: "Auxerre", shortName: "AJA", color: "#0052a5" },
+      { id: "sb29", name: "Brest", shortName: "SB29", color: "#e30613" },
+      { id: "hac", name: "Le Havre", shortName: "HAC", color: "#6caee0" },
+      { id: "lem", name: "Le Mans", shortName: "LEM", color: "#e30613" },
+      { id: "rcl", name: "Lens", shortName: "RCL", color: "#e30613" },
+      { id: "lor", name: "Lorient", shortName: "FCL", color: "#f58220" },
+      { id: "losc", name: "Lille", shortName: "LOSC", color: "#d71920" },
+      { id: "ol", name: "Lyon", shortName: "OL", color: "#003a8c" },
+      { id: "om", name: "Marseille", shortName: "OM", color: "#00a6e0" },
+      { id: "asm", name: "Monaco", shortName: "ASM", color: "#e30613" },
+      { id: "ogcn", name: "Nice", shortName: "OGCN", color: "#d71920" },
+      { id: "pfc", name: "Paris FC", shortName: "PFC", color: "#1f4e8c" },
+      { id: "psg", name: "Paris SG", shortName: "PSG", color: "#004170" },
+      { id: "ren", name: "Rennes", shortName: "SRFC", color: "#e30613" },
+      { id: "rcs", name: "Strasbourg", shortName: "RCSA", color: "#009fe3" },
+      { id: "tfc", name: "Toulouse", shortName: "TFC", color: "#6a1b9a" },
+      { id: "tro", name: "Troyes", shortName: "ESTAC", color: "#005ca9" },
+    ],
+  },
+  {
+    sport: "cricket",
+    id: "23810",
+    name: "International T20",
+    shortCode: "T20I",
+    teams: [
+      { id: "ind", name: "India", shortName: "IND", color: "#1d4ed8" },
+      { id: "eng", name: "England", shortName: "ENG", color: "#ffffff" },
+      { id: "wi", name: "West Indies", shortName: "WI", color: "#7a0016" },
+      { id: "sl", name: "Sri Lanka", shortName: "SL", color: "#002b54" },
+    ],
+  },
+  {
+    sport: "motorsport",
+    id: "formula1",
+    name: "Formula 1",
+    shortCode: "F1",
+    teams: [
+      { id: "rbr", name: "Red Bull Racing", shortName: "RBR", color: "#263bff" },
+      { id: "fer", name: "Ferrari", shortName: "FER", color: "#dc0000" },
+      { id: "mcl", name: "McLaren", shortName: "MCL", color: "#ff8700" },
+      { id: "mer", name: "Mercedes", shortName: "MER", color: "#00d2be" },
+      { id: "ast", name: "Aston Martin", shortName: "AST", color: "#006f62" },
+      { id: "wil", name: "Williams", shortName: "WIL", color: "#00a3e0" },
+    ],
+  },
+  {
+    sport: "basketball",
+    id: "nba",
+    name: "National Basketball Association",
+    shortCode: "NBA",
+    teams: [
+      { id: "lal", name: "LA Lakers", shortName: "LAL", color: "#552583" },
+      { id: "bos", name: "Boston", shortName: "BOS", color: "#007a33" },
+      { id: "gsw", name: "Golden State", shortName: "GSW", color: "#1d428a" },
+      { id: "mia", name: "Miami", shortName: "MIA", color: "#98002e" },
+      { id: "nyk", name: "New York", shortName: "NYK", color: "#006bb6" },
+      { id: "dal", name: "Dallas", shortName: "DAL", color: "#00538c" },
+    ],
+  },
+  {
+    sport: "tennis",
+    id: "atp",
+    name: "ATP Tour",
+    shortCode: "ATP",
+    teams: [
+      { id: "alcaraz", name: "Carlos Alcaraz", shortName: "ALC", color: "#c60b1e" },
+      { id: "sinner", name: "Jannik Sinner", shortName: "SIN", color: "#008c45" },
+      { id: "djokovic", name: "Novak Djokovic", shortName: "DJO", color: "#c6363c" },
+    ],
+  },
+  {
+    // Individual athletes are fetched per tournament, so there is nothing to
+    // pick a favourite from here yet.
+    sport: "tennis",
+    id: "wimbledon",
+    name: "Wimbledon",
+    shortCode: "WIM",
+    teams: [],
+  },
+];
+
+export function followableLeaguesForSport(sport: Sport): FollowableLeague[] {
+  return followableLeagues.filter((entry) => entry.sport === sport);
+}
+
+export function followableLeagueById(
+  id: string,
+): FollowableLeague | undefined {
+  return followableLeagues.find((entry) => entry.id === id);
+}

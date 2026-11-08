@@ -1,0 +1,355 @@
+{
+  "recordedAt": "2026-10-20T10:15:47.369Z",
+  "project": "statoz-games-web",
+  "gameId": "retro-circuit",
+  "gameVersion": "0.4.0-demo",
+  "rulesVersion": 102,
+  "bundle": {
+    "id": "retro-circuit",
+    "title": "RETRO CIRCUIT",
+    "sport": "motorsport",
+    "path": "retro-circuit/index.html",
+    "sha256": "3512a5cb137dc2bb18d29c99b2b617ed104956601892207017109ad162d2731e",
+    "bytes": 1258602,
+    "orientation": "landscape",
+    "saveSchemaVersion": 1
+  },
+  "staticBundleMatches": true,
+  "files": [
+    {
+      "path": "src/features/games/retro-circuit/data.ts",
+      "sha256": "ba38710fbc51bfa5e125f7de556f81769be7a54b2d13619ef9a6428ca19fe665"
+    },
+    {
+      "path": "src/features/games/retro-circuit/types.ts",
+      "sha256": "9b30df525b60f1249bf3a79d339dcfa4db9832227fc4defa8fea5b767412ee32"
+    },
+    {
+      "path": "src/features/games/retro-circuit/simulation.ts",
+      "sha256": "199159ab5c93186b2f4136be0051fd2710c142fff591e001ff087957a8cc966b"
+    },
+    {
+      "path": "src/features/games/retro-circuit/projection.ts",
+      "sha256": "a9b11ed4fd1cf63e30e82d0755f959ac06fd96a14cf402f357918abcfef21fdb"
+    },
+    {
+      "path": "src/features/games/retro-circuit/renderer.ts",
+      "sha256": "f05b4a59bc84fd6c285e9eca2790640741b9b2af1ca54535594d355a685eb489"
+    },
+    {
+      "path": "src/features/games/retro-circuit/presentation.ts",
+      "sha256": "1d7c6c1d78fc4bb5582f178f67f56c15e8ce0e224c4c34454dd8cb4de6d63da3"
+    },
+    {
+      "path": "src/features/games/retro-circuit/environment-art.ts",
+      "sha256": "70574994041dd657987beda3054435a888664759a8f0f1895bfe5882ffdc9fea"
+    },
+    {
+      "path": "src/features/games/retro-circuit/menus.ts",
+      "sha256": "64d07321d2121ae5f8395652e2f7d4978744da19e5758f18843a9ff7c688711b"
+    },
+    {
+      "path": "src/features/games/retro-circuit/mount.ts",
+      "sha256": "3c4d8e49f686d31d0139c7483ebae5b7271adab73f4436f6f01b2440a34b5146"
+    },
+    {
+      "path": "src/features/games/retro-circuit/circuit.css",
+      "sha256": "648490df7f49a319c6767b9b7988b268273c6a5df55fdb2392d01c10b8fd4489"
+    },
+    {
+      "path": "src/features/games/retro-circuit/driver.ts",
+      "sha256": "2420448b5f7f58e3ec9dde290b4a45dbbf986ce101e94f829759605ca290e711"
+    },
+    {
+      "path": "src/features/games/retro-circuit/persistence.ts",
+      "sha256": "0802f957b4fb5e3ffa168d30e48e91165b0067d6f6130d71334cfa3f612694a1"
+    },
+    {
+      "path": "src/features/auth/state/auth-session.ts",
+      "sha256": "e3b012f96ac19413f5a3ad2112f46c233f06367f1540e3fada9a93084c4e858e"
+    },
+    {
+      "path": "public/games/retro-circuit/reference/white-straight.png",
+      "sha256": "d238aaf40e78d17bee0b7ba7ae5b2767be388e341c033a4469469b30f72f6dd0"
+    },
+    {
+      "path": "public/games/retro-circuit/reference/white-left-visible.png",
+      "sha256": "15dbdc2b0cd4dcb348c71c5f5998c677100705f3af56ce5ae1ba64240cf5b7d8"
+    },
+    {
+      "path": "public/games/retro-circuit/reference/white-right-visible.png",
+      "sha256": "a3fe61084bc87eee378ba9d8682da2d3df3c87ae967e38958f66a1aed5ccdbd1"
+    },
+    {
+      "path": "public/games/retro-circuit/reference/purple-straight.png",
+      "sha256": "c8d326e43027938b5e816ed6369c28ad9051207d5fd685b993f6cad1f9e240e3"
+    },
+    {
+      "path": "public/games/retro-circuit/reference/orange-near.png",
+      "sha256": "b9383bd48044ec3e467d447d0f659f8daf7f3f74bcf90a8a3644db82ac4374d1"
+    },
+    {
+      "path": "public/games/retro-circuit/reference/black-near.png",
+      "sha256": "1980b34f191553b174bcb2459d100dde89a1912a30ab0bc2df22c719f44bd352"
+    },
+    {
+      "path": "public/games/retro-circuit/reference/black-distant.png",
+      "sha256": "859d8ddb9b98ece8536c355da9caee5ae6a0020600adedec7073c1690fa3e8b5"
+    },
+    {
+      "path": "public/games/retro-circuit/reference/orange-distant.png",
+      "sha256": "79284e4034992aae5fb496f89baf232b2f978745fd19c846bf23a9bd26bf082f"
+    },
+    {
+      "path": "public/games/retro-circuit/reference/desert-mountain-patch.png",
+      "sha256": "e27a83e5e86ddbe466418d995b1c8c8ccb7ae83ce64acc63c7fa72100a4782d3"
+    },
+    {
+      "path": "public/games/retro-circuit/reference/desert-cactus.png",
+      "sha256": "41623be4b2bd0b3d90268ae4c40fb759114460e60b9fdb554365f00ef23757b7"
+    },
+    {
+      "path": "public/games/retro-circuit/reference/desert-bush.png",
+      "sha256": "1e66ea6c4c6ea28126b07ce25c161edfd93ee6d9bae723d41fe958eefb029380"
+    },
+    {
+      "path": "public/games/retro-circuit/reference/chevron-left.png",
+      "sha256": "ba0fb04d3f138faf4dd9c598408bf3fe202655a8b765c05a91f73fe11952afc1"
+    },
+    {
+      "path": "public/games/retro-circuit/reference/chevron-right.png",
+      "sha256": "18cde33baa7698c88a5df37a4e2a717f8b0e0d2cf26de0a901ed8cf81cf856f4"
+    },
+    {
+      "path": "public/games/retro-circuit/reference/white-overhead-composite.png",
+      "sha256": "2af6ec52c80ab2b2c15c93576518ed8f695c7de2e846ecb29ec47f0e96f37216"
+    },
+    {
+      "path": "public/games/retro-circuit/reference/pit-bay-topdown.png",
+      "sha256": "635dd317f82d85520c88e1dabe636ae82980a446cdc1e0e6cdb71822aea3dae2"
+    },
+    {
+      "path": "public/games/retro-circuit/reference/pit-floor-patch.png",
+      "sha256": "3883e0c8897f8a069f9b96d831ba799617f1b85f540a3b387b79a2fccc8498da"
+    },
+    {
+      "path": "public/games/retro-circuit/reference/purple-left-visible.png",
+      "sha256": "1361e0de62bfd2d6b583eeb78e5c64d7d2c10534be6908a6e3dadab97ff84cb2"
+    },
+    {
+      "path": "public/games/retro-circuit/reference/purple-right-visible.png",
+      "sha256": "7de6d3e0f1de76766ac458093276f7c271db50cfac2fe080909e7834519bbc86"
+    },
+    {
+      "path": "public/games/retro-circuit/reference/orange-left-visible.png",
+      "sha256": "330b93548d8d36d7c32674d5c134dfef0551f3aa65e978f2bcf7fb938f3870ce"
+    },
+    {
+      "path": "public/games/retro-circuit/reference/manifest.json",
+      "sha256": "fd93ca210e4ae6ada13a02aa62a543c669ee71a5b25ca83990e25de9f14c308e"
+    },
+    {
+      "path": "public/games/retro-circuit/reference/NOTICE.txt",
+      "sha256": "09b4a191df28c6019b141ae962eb99257dc6d9f158f85ced9237aade284bb188"
+    },
+    {
+      "path": "scripts/build-retro-circuit-assets.mjs",
+      "sha256": "f20dd47c308325edbaa1e245a8acd03c80a2f41b53e484b26968a1842948d8fd"
+    },
+    {
+      "path": "src/features/games/retro-circuit/reference-assets.ts",
+      "sha256": "b8058a81a8e37cda15f415885c400a6c2ef3214406f2dc726e59b76b52290f0f"
+    },
+    {
+      "path": "src/features/games/retro-circuit/screen.tsx",
+      "sha256": "0c0ca58b2f37479aec89df07bd65f1af6c6a5f718d40723c2a16ace04fa2bcc8"
+    },
+    {
+      "path": "scripts/build-game-bundles.mjs",
+      "sha256": "d687a2e418164f2a222991ca106fecfdd7b48f59308d9ea3a3914247f5515c23"
+    },
+    {
+      "path": "src/features/games/retro-circuit/definition.ts",
+      "sha256": "74a34199d9807b5736c877c350179fea09a42c0dbea0db8f06019d54f3a1ffa6"
+    },
+    {
+      "path": "tests/retro-circuit.test.ts",
+      "sha256": "440ced4dca47dc4f2f731d3e6f7da77b7a6263b046e2d5723546ba3adc633ae9"
+    },
+    {
+      "path": "tests/retro-circuit-enhanced.test.ts",
+      "sha256": "fff46539406e4b7ab730d5271e88c3b92d4fbc5c7ea3f5e0e894c98033c2dc1e"
+    },
+    {
+      "path": "ASSET-REPLACEMENTS.md",
+      "sha256": "8d2ac96ee4c1692ff912b8de462fe59749de29e46d73a84f5f641038fe3a165f"
+    },
+    {
+      "path": "src/features/games/retro-circuit/reference-data.ts",
+      "sha256": "4e945fc9d25213494738a6c6070877238697055e9ddefb3636973f4915019e96"
+    },
+    {
+      "path": "tests/retro-circuit-enhanced-account.test.ts",
+      "sha256": "cc471a554a795524e12088d0c4757ad1adef980360b28f0efd53d72553ed8c53"
+    },
+    {
+      "path": "docs/retro-circuit/enhancement-v4.md",
+      "sha256": "bd53b6d0b58dacc610abca407c61ea8d41e30f65cba06f928873d3db1a0ae624"
+    }
+  ],
+  "checks": [
+    {
+      "name": "bundle",
+      "exitCode": 0,
+      "timedOut": false,
+      "finishedAt": "2026-10-20T10:07:20.529Z"
+    },
+    {
+      "name": "typecheck",
+      "exitCode": 0,
+      "timedOut": false,
+      "finishedAt": "2026-10-20T10:07:35.409Z"
+    },
+    {
+      "name": "lint",
+      "exitCode": 0,
+      "timedOut": false,
+      "finishedAt": "2026-10-20T10:08:19.072Z"
+    },
+    {
+      "name": "tests",
+      "exitCode": 0,
+      "timedOut": false,
+      "finishedAt": "2026-10-20T10:08:42.699Z"
+    },
+    {
+      "name": "build",
+      "exitCode": 0,
+      "timedOut": false,
+      "finishedAt": "2026-10-20T10:09:57.800Z"
+    },
+    {
+      "name": "static-export",
+      "exitCode": 0,
+      "timedOut": false,
+      "finishedAt": "2026-10-20T10:10:22.015Z"
+    }
+  ],
+  "browserChecks": [
+    {
+      "name": "All six menu actions fit 568x320",
+      "passed": true,
+      "bounds": [
+        {
+          "label": "START RACE",
+          "top": 83.796875,
+          "bottom": 127.796875,
+          "left": 289,
+          "right": 552,
+          "width": 263,
+          "height": 44
+        },
+        {
+          "label": "TRACK: CANYON RUN",
+          "top": 129.796875,
+          "bottom": 173.796875,
+          "left": 289,
+          "right": 419.5,
+          "width": 130.5,
+          "height": 44
+        },
+        {
+          "label": "CAR: WHITE / GT",
+          "top": 129.796875,
+          "bottom": 173.796875,
+          "left": 421.5,
+          "right": 552,
+          "width": 130.5,
+          "height": 44
+        },
+        {
+          "label": "PRACTICE",
+          "top": 175.796875,
+          "bottom": 219.796875,
+          "left": 289,
+          "right": 419.5,
+          "width": 130.5,
+          "height": 44
+        },
+        {
+          "label": "LOCAL RECORDS",
+          "top": 175.796875,
+          "bottom": 219.796875,
+          "left": 421.5,
+          "right": 552,
+          "width": 130.5,
+          "height": 44
+        },
+        {
+          "label": "OPTIONS / HELP",
+          "top": 221.796875,
+          "bottom": 265.796875,
+          "left": 289,
+          "right": 419.5,
+          "width": 130.5,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "Car selection and all three tracks launch; keyboard accelerates selected rival car",
+      "passed": true
+    },
+    {
+      "name": "Simultaneous emulated touch and cancellation work through host iframe",
+      "passed": true
+    },
+    {
+      "name": "Session-authenticated host pause/resume works; wrong session ignored",
+      "passed": true
+    },
+    {
+      "name": "Legacy bytes preserved; new settings use v2 host store and keep audio controls",
+      "passed": true
+    },
+    {
+      "name": "Game exit reaches existing host bridge",
+      "passed": true
+    },
+    {
+      "name": "Host dispose clears runtime",
+      "passed": true
+    },
+    {
+      "name": "Actual static-export app launch, restart and exit work",
+      "passed": true
+    }
+  ],
+  "otherBundlesPreserved": [
+    {
+      "id": "retro-hoops",
+      "path": "retro-hoops/index.html",
+      "sha256": "90daaf140034e0406477833add1f0cc346cfa777ba4782b51dc83000c22f9a9c"
+    },
+    {
+      "id": "retro-football",
+      "path": "retro-football/index.html",
+      "sha256": "02cb67e2ee7416bbc6668ab7f2ca97ddb9fce9021afb3013402e333523966ce9"
+    },
+    {
+      "id": "retro-innings",
+      "path": "retro-innings/index.html",
+      "sha256": "73947273cf7c448320a1f3854a1212577acd3a2f1e3a0f208f9168c6f6714a9c"
+    }
+  ],
+  "tests": 113,
+  "circuitTests": 28,
+  "allTwelveCombinationsFinished": true,
+  "remoteActions": [],
+  "flutterBundleImported": false,
+  "limitations": [
+    "Physical Android/iPhone and subjective audio listening remain unverified",
+    "Temporary commercial reference car/pit art; original scenery; no native-source fidelity or production-rights approval",
+    "Some rival turning poses remain incomplete"
+  ]
+}

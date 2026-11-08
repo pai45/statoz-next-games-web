@@ -1,0 +1,55 @@
+.spacer {
+  display: block;
+  flex: none;
+  height: calc(4.75rem + env(safe-area-inset-bottom));
+}
+
+.dock {
+  position: fixed;
+  z-index: 40;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  padding-bottom: max(var(--ds-space-8), env(safe-area-inset-bottom));
+  pointer-events: none;
+  background: linear-gradient(
+    to top,
+    color-mix(in srgb, var(--ds-color-background-primary) 96%, transparent) 0%,
+    color-mix(in srgb, var(--ds-color-background-primary) 78%, transparent) 72%,
+    transparent 100%
+  );
+}
+
+.panel {
+  position: relative;
+  width: min(100%, 20rem);
+  pointer-events: auto;
+  box-shadow: var(--ds-shadow-panel);
+}
+
+.dismiss {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  display: grid;
+  width: 2.75rem;
+  height: 2.75rem;
+  place-items: center;
+  border: 1px solid var(--ds-color-border-strong);
+  color: var(--ds-color-text-default);
+  background: color-mix(in srgb, var(--ds-color-background-primary) 94%, transparent);
+  cursor: pointer;
+}
+
+@media (min-width: 48rem) {
+  .spacer {
+    height: calc(7.25rem + env(safe-area-inset-bottom));
+  }
+
+  .panel {
+    width: min(100%, 45.5rem);
+  }
+}

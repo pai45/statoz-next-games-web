@@ -1,0 +1,866 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "id": "close-entry",
+      "width": 160,
+      "height": 224,
+      "atlas": [
+        4,
+        1536,
+        160,
+        224
+      ],
+      "anchors": {
+        "ground": [
+          70,
+          218
+        ],
+        "ballContact": [
+          128,
+          198
+        ],
+        "kickingFoot": [
+          108,
+          216
+        ],
+        "plantedFoot": [
+          49,
+          208
+        ]
+      },
+      "sourceSha256": "62828f94272b15f7d9b5e6bd347d5bc8dad83761f57f0d34444e0b852e9eba9b",
+      "approval": "reference",
+      "authorship": "Original StatOz revised rear-three-quarter foreground anatomy; tapered shaded limbs, fabric planes and layered copper hair. Composition informed by source study; no source pixels traced/extracted.",
+      "sourceAssetId": "f42129a2-9cb3-46be-81c4-4fd5c2203f76"
+    },
+    {
+      "id": "orchard-close-entry",
+      "width": 160,
+      "height": 224,
+      "atlas": [
+        172,
+        1536,
+        160,
+        224
+      ],
+      "anchors": {
+        "ground": [
+          70,
+          218
+        ],
+        "ballContact": [
+          128,
+          198
+        ],
+        "kickingFoot": [
+          108,
+          216
+        ],
+        "plantedFoot": [
+          49,
+          208
+        ]
+      },
+      "sourceSha256": "b47901348c6e3afc560c7095a2fe1b7d4519d93781a4ff704d708b9e9a347519",
+      "approval": "reference",
+      "authorship": "Original StatOz revised rear-three-quarter foreground anatomy; tapered shaded limbs, fabric planes and layered copper hair. Composition informed by source study; no source pixels traced/extracted.",
+      "sourceAssetId": "827902d7-4e04-4614-9b46-ecdd2a1dfda9"
+    },
+    {
+      "id": "close-entry-alt",
+      "width": 160,
+      "height": 224,
+      "atlas": [
+        340,
+        1536,
+        160,
+        224
+      ],
+      "anchors": {
+        "ground": [
+          70,
+          218
+        ],
+        "ballContact": [
+          128,
+          198
+        ],
+        "kickingFoot": [
+          62,
+          197
+        ],
+        "plantedFoot": [
+          93,
+          216
+        ]
+      },
+      "sourceSha256": "8468a7e465d11833830d05010f9a075ec33134b1c49dfb2b25392f8d0a9273f9",
+      "approval": "reference",
+      "authorship": "Original StatOz revised rear-three-quarter foreground anatomy; tapered shaded limbs, fabric planes and layered copper hair. Composition informed by source study; no source pixels traced/extracted.",
+      "sourceAssetId": "619ea463-4f4f-451e-b677-d05b6f9df64d"
+    },
+    {
+      "id": "orchard-close-entry-alt",
+      "width": 160,
+      "height": 224,
+      "atlas": [
+        508,
+        1536,
+        160,
+        224
+      ],
+      "anchors": {
+        "ground": [
+          70,
+          218
+        ],
+        "ballContact": [
+          128,
+          198
+        ],
+        "kickingFoot": [
+          62,
+          197
+        ],
+        "plantedFoot": [
+          93,
+          216
+        ]
+      },
+      "sourceSha256": "2ed6e36312e29b8ffc32a66e118a2e0735130597f12b79dd4679aaee843a918f",
+      "approval": "reference",
+      "authorship": "Original StatOz revised rear-three-quarter foreground anatomy; tapered shaded limbs, fabric planes and layered copper hair. Composition informed by source study; no source pixels traced/extracted.",
+      "sourceAssetId": "91272419-2477-46d2-9670-414a3e3fed2b"
+    },
+    {
+      "id": "close-ready",
+      "width": 160,
+      "height": 224,
+      "atlas": [
+        676,
+        1536,
+        160,
+        224
+      ],
+      "anchors": {
+        "ground": [
+          70,
+          218
+        ],
+        "ballContact": [
+          128,
+          198
+        ],
+        "kickingFoot": [
+          110,
+          211
+        ],
+        "plantedFoot": [
+          83,
+          218
+        ]
+      },
+      "sourceSha256": "d63154c9827f0d35f424fe1b44693d48798ede74ed24b1a42674cef98c847bfe",
+      "approval": "reference",
+      "authorship": "Original StatOz revised rear-three-quarter foreground anatomy; tapered shaded limbs, fabric planes and layered copper hair. Composition informed by source study; no source pixels traced/extracted.",
+      "sourceAssetId": "68799274-b4d4-4d3f-a267-0e8dc210136c"
+    },
+    {
+      "id": "orchard-close-ready",
+      "width": 160,
+      "height": 224,
+      "atlas": [
+        844,
+        1536,
+        160,
+        224
+      ],
+      "anchors": {
+        "ground": [
+          70,
+          218
+        ],
+        "ballContact": [
+          128,
+          198
+        ],
+        "kickingFoot": [
+          110,
+          211
+        ],
+        "plantedFoot": [
+          83,
+          218
+        ]
+      },
+      "sourceSha256": "2f0bcf7e540383e3e3c52e0c6e60e0a9e86d7c2c7a802fbc589275e5913cc9ac",
+      "approval": "reference",
+      "authorship": "Original StatOz revised rear-three-quarter foreground anatomy; tapered shaded limbs, fabric planes and layered copper hair. Composition informed by source study; no source pixels traced/extracted.",
+      "sourceAssetId": "bc2c2764-0226-4ba8-aa3b-a52af2e14634"
+    },
+    {
+      "id": "close-windup",
+      "width": 160,
+      "height": 224,
+      "atlas": [
+        4,
+        1768,
+        160,
+        224
+      ],
+      "anchors": {
+        "ground": [
+          70,
+          218
+        ],
+        "ballContact": [
+          128,
+          198
+        ],
+        "kickingFoot": [
+          12,
+          184
+        ],
+        "plantedFoot": [
+          83,
+          218
+        ]
+      },
+      "sourceSha256": "c723917918ed778aaf6dc1084f5db9af8a92631d11c98c82fe5d3f15776fd961",
+      "approval": "reference",
+      "authorship": "Original StatOz revised rear-three-quarter foreground anatomy; tapered shaded limbs, fabric planes and layered copper hair. Composition informed by source study; no source pixels traced/extracted.",
+      "sourceAssetId": "22d37d6a-1ddf-490d-8129-c50690babd0f"
+    },
+    {
+      "id": "orchard-close-windup",
+      "width": 160,
+      "height": 224,
+      "atlas": [
+        172,
+        1768,
+        160,
+        224
+      ],
+      "anchors": {
+        "ground": [
+          70,
+          218
+        ],
+        "ballContact": [
+          128,
+          198
+        ],
+        "kickingFoot": [
+          12,
+          184
+        ],
+        "plantedFoot": [
+          83,
+          218
+        ]
+      },
+      "sourceSha256": "e13b95c003fcb29e5f8c8df9604724d8b2b7ee619e600a46743141a419b7efc2",
+      "approval": "reference",
+      "authorship": "Original StatOz revised rear-three-quarter foreground anatomy; tapered shaded limbs, fabric planes and layered copper hair. Composition informed by source study; no source pixels traced/extracted.",
+      "sourceAssetId": "be4f8b1e-ca59-4fd1-8360-cfc0ecbe38d4"
+    },
+    {
+      "id": "close-plant",
+      "width": 160,
+      "height": 224,
+      "atlas": [
+        340,
+        1768,
+        160,
+        224
+      ],
+      "anchors": {
+        "ground": [
+          70,
+          218
+        ],
+        "ballContact": [
+          128,
+          198
+        ],
+        "kickingFoot": [
+          124,
+          189
+        ],
+        "plantedFoot": [
+          83,
+          218
+        ]
+      },
+      "sourceSha256": "95fa80599fdd2da919fd9e49aae09cfc18f04f9ba83b770ef01b82ef8055b543",
+      "approval": "reference",
+      "authorship": "Original StatOz revised rear-three-quarter foreground anatomy; tapered shaded limbs, fabric planes and layered copper hair. Composition informed by source study; no source pixels traced/extracted.",
+      "sourceAssetId": "d99fc3db-d3ee-47d4-8b01-80fd07488682"
+    },
+    {
+      "id": "orchard-close-plant",
+      "width": 160,
+      "height": 224,
+      "atlas": [
+        508,
+        1768,
+        160,
+        224
+      ],
+      "anchors": {
+        "ground": [
+          70,
+          218
+        ],
+        "ballContact": [
+          128,
+          198
+        ],
+        "kickingFoot": [
+          124,
+          189
+        ],
+        "plantedFoot": [
+          83,
+          218
+        ]
+      },
+      "sourceSha256": "a7fd506d22c33cd8bb03a58216eeec06432547ca930e2b2d091edbed5aa26253",
+      "approval": "reference",
+      "authorship": "Original StatOz revised rear-three-quarter foreground anatomy; tapered shaded limbs, fabric planes and layered copper hair. Composition informed by source study; no source pixels traced/extracted.",
+      "sourceAssetId": "2f5c44bf-4cac-46ef-84e8-783e2c5465ec"
+    },
+    {
+      "id": "close-contact",
+      "width": 160,
+      "height": 224,
+      "atlas": [
+        676,
+        1768,
+        160,
+        224
+      ],
+      "anchors": {
+        "ground": [
+          70,
+          218
+        ],
+        "ballContact": [
+          128,
+          198
+        ],
+        "kickingFoot": [
+          128,
+          198
+        ],
+        "plantedFoot": [
+          83,
+          218
+        ]
+      },
+      "sourceSha256": "ac06b5195a4d1d1b8b49af79ed18d2a89b2bf29efd2b4100ad810e48da812d6d",
+      "approval": "reference",
+      "authorship": "Original StatOz revised rear-three-quarter foreground anatomy; tapered shaded limbs, fabric planes and layered copper hair. Composition informed by source study; no source pixels traced/extracted.",
+      "sourceAssetId": "8d78fd4b-9bc0-4579-86d0-a03865bc9842"
+    },
+    {
+      "id": "orchard-close-contact",
+      "width": 160,
+      "height": 224,
+      "atlas": [
+        844,
+        1768,
+        160,
+        224
+      ],
+      "anchors": {
+        "ground": [
+          70,
+          218
+        ],
+        "ballContact": [
+          128,
+          198
+        ],
+        "kickingFoot": [
+          128,
+          198
+        ],
+        "plantedFoot": [
+          83,
+          218
+        ]
+      },
+      "sourceSha256": "8cee9ed4767c14c132faeb0b99cb86553e2336746c8949521f81756bb359600d",
+      "approval": "reference",
+      "authorship": "Original StatOz revised rear-three-quarter foreground anatomy; tapered shaded limbs, fabric planes and layered copper hair. Composition informed by source study; no source pixels traced/extracted.",
+      "sourceAssetId": "80fa1d41-07a5-4b56-a45d-65c8e66a691e"
+    },
+    {
+      "id": "close-follow",
+      "width": 160,
+      "height": 224,
+      "atlas": [
+        4,
+        2000,
+        160,
+        224
+      ],
+      "anchors": {
+        "ground": [
+          70,
+          218
+        ],
+        "ballContact": [
+          128,
+          198
+        ],
+        "kickingFoot": [
+          129,
+          123
+        ],
+        "plantedFoot": [
+          83,
+          218
+        ]
+      },
+      "sourceSha256": "cacfa30dcfb755f8b93477a0768f1f650f55e8b4fdb137876ba8f4cd9fc50e62",
+      "approval": "reference",
+      "authorship": "Original StatOz revised rear-three-quarter foreground anatomy; tapered shaded limbs, fabric planes and layered copper hair. Composition informed by source study; no source pixels traced/extracted.",
+      "sourceAssetId": "1a5f3554-312a-4e61-a9d1-8d159d68a077"
+    },
+    {
+      "id": "orchard-close-follow",
+      "width": 160,
+      "height": 224,
+      "atlas": [
+        172,
+        2000,
+        160,
+        224
+      ],
+      "anchors": {
+        "ground": [
+          70,
+          218
+        ],
+        "ballContact": [
+          128,
+          198
+        ],
+        "kickingFoot": [
+          129,
+          123
+        ],
+        "plantedFoot": [
+          83,
+          218
+        ]
+      },
+      "sourceSha256": "09f2deb94793dab93c159ce1b0cda5740d7e58d53589274da36f18dc71d61ebd",
+      "approval": "reference",
+      "authorship": "Original StatOz revised rear-three-quarter foreground anatomy; tapered shaded limbs, fabric planes and layered copper hair. Composition informed by source study; no source pixels traced/extracted.",
+      "sourceAssetId": "8259f2cd-9037-46f9-bad9-64be2c2c84bc"
+    },
+    {
+      "id": "close-recover",
+      "width": 160,
+      "height": 224,
+      "atlas": [
+        340,
+        2000,
+        160,
+        224
+      ],
+      "anchors": {
+        "ground": [
+          70,
+          218
+        ],
+        "ballContact": [
+          128,
+          198
+        ],
+        "kickingFoot": [
+          106,
+          205
+        ],
+        "plantedFoot": [
+          83,
+          218
+        ]
+      },
+      "sourceSha256": "49f0541ee0edfdb70cc82f64ebbfe13b78b2ba8ffa21c2ca77cef9cb7b936ad0",
+      "approval": "reference",
+      "authorship": "Original StatOz revised rear-three-quarter foreground anatomy; tapered shaded limbs, fabric planes and layered copper hair. Composition informed by source study; no source pixels traced/extracted.",
+      "sourceAssetId": "c9a381d6-ceee-441e-adbe-b2b4d1ad06a5"
+    },
+    {
+      "id": "orchard-close-recover",
+      "width": 160,
+      "height": 224,
+      "atlas": [
+        508,
+        2000,
+        160,
+        224
+      ],
+      "anchors": {
+        "ground": [
+          70,
+          218
+        ],
+        "ballContact": [
+          128,
+          198
+        ],
+        "kickingFoot": [
+          106,
+          205
+        ],
+        "plantedFoot": [
+          83,
+          218
+        ]
+      },
+      "sourceSha256": "c149946d477e57e7b45c04a10ac4ff7d6d984809f42c1f91ceae0dd749d9edbd",
+      "approval": "reference",
+      "authorship": "Original StatOz revised rear-three-quarter foreground anatomy; tapered shaded limbs, fabric planes and layered copper hair. Composition informed by source study; no source pixels traced/extracted.",
+      "sourceAssetId": "c583f3f2-735b-431a-917e-2f1100234c0e"
+    }
+  ],
+  "phases": [
+    {
+      "id": "entry",
+      "lean": -8,
+      "arm": [
+        [
+          65,
+          101
+        ],
+        [
+          89,
+          114
+        ],
+        [
+          109,
+          106
+        ]
+      ],
+      "plant": [
+        [
+          52,
+          146
+        ],
+        [
+          44,
+          177
+        ],
+        [
+          34,
+          202
+        ],
+        [
+          49,
+          208
+        ]
+      ],
+      "leg": [
+        [
+          66,
+          146
+        ],
+        [
+          88,
+          177
+        ],
+        [
+          91,
+          210
+        ],
+        [
+          108,
+          216
+        ]
+      ]
+    },
+    {
+      "id": "entry-alt",
+      "lean": -3,
+      "arm": [
+        [
+          65,
+          101
+        ],
+        [
+          85,
+          117
+        ],
+        [
+          105,
+          111
+        ]
+      ],
+      "plant": [
+        [
+          52,
+          146
+        ],
+        [
+          65,
+          175
+        ],
+        [
+          79,
+          208
+        ],
+        [
+          93,
+          216
+        ]
+      ],
+      "leg": [
+        [
+          66,
+          146
+        ],
+        [
+          54,
+          167
+        ],
+        [
+          48,
+          192
+        ],
+        [
+          62,
+          197
+        ]
+      ]
+    },
+    {
+      "id": "ready",
+      "lean": 0,
+      "arm": [
+        [
+          65,
+          101
+        ],
+        [
+          84,
+          115
+        ],
+        [
+          99,
+          107
+        ]
+      ],
+      "leg": [
+        [
+          66,
+          146
+        ],
+        [
+          87,
+          177
+        ],
+        [
+          95,
+          208
+        ],
+        [
+          110,
+          211
+        ]
+      ]
+    },
+    {
+      "id": "windup",
+      "lean": -5,
+      "arm": [
+        [
+          65,
+          101
+        ],
+        [
+          92,
+          96
+        ],
+        [
+          110,
+          87
+        ]
+      ],
+      "leg": [
+        [
+          66,
+          146
+        ],
+        [
+          45,
+          163
+        ],
+        [
+          23,
+          183
+        ],
+        [
+          12,
+          184
+        ]
+      ]
+    },
+    {
+      "id": "plant",
+      "lean": 3,
+      "arm": [
+        [
+          65,
+          101
+        ],
+        [
+          91,
+          114
+        ],
+        [
+          108,
+          103
+        ]
+      ],
+      "leg": [
+        [
+          66,
+          146
+        ],
+        [
+          91,
+          166
+        ],
+        [
+          114,
+          184
+        ],
+        [
+          124,
+          189
+        ]
+      ]
+    },
+    {
+      "id": "contact",
+      "lean": 5,
+      "arm": [
+        [
+          65,
+          101
+        ],
+        [
+          86,
+          118
+        ],
+        [
+          103,
+          110
+        ]
+      ],
+      "leg": [
+        [
+          66,
+          146
+        ],
+        [
+          97,
+          174
+        ],
+        [
+          119,
+          195
+        ],
+        [
+          128,
+          198
+        ]
+      ]
+    },
+    {
+      "id": "follow",
+      "lean": 8,
+      "arm": [
+        [
+          65,
+          101
+        ],
+        [
+          84,
+          120
+        ],
+        [
+          99,
+          115
+        ]
+      ],
+      "leg": [
+        [
+          66,
+          146
+        ],
+        [
+          98,
+          145
+        ],
+        [
+          116,
+          126
+        ],
+        [
+          129,
+          123
+        ]
+      ]
+    },
+    {
+      "id": "recover",
+      "lean": 1,
+      "arm": [
+        [
+          65,
+          101
+        ],
+        [
+          83,
+          124
+        ],
+        [
+          94,
+          136
+        ]
+      ],
+      "leg": [
+        [
+          66,
+          146
+        ],
+        [
+          87,
+          170
+        ],
+        [
+          90,
+          201
+        ],
+        [
+          106,
+          205
+        ]
+      ]
+    }
+  ],
+  "approval": "reference",
+  "nativeTimingRecovered": false,
+  "contact": [
+    128,
+    198
+  ],
+  "source": "Saved Super Sidekicks 2 CHANCE composition study; original dedicated foreground polygons and palette, no enlarged pitch sprite"
+}

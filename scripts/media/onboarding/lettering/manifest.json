@@ -1,0 +1,67 @@
+{
+  "ONE ARENA.:72:#ffffff:true": {
+    "file": "00.png",
+    "w": 518,
+    "h": 60
+  },
+  "EVERY GAME.:72:#5cdfff:true": {
+    "file": "01.png",
+    "w": 590,
+    "h": 60
+  },
+  "StatOz:42:#ffffff:true": {
+    "file": "02.png",
+    "w": 175,
+    "h": 40
+  },
+  "YOUR WORLD OF SPORT:18:#90a1b9:false": {
+    "file": "03.png",
+    "w": 233,
+    "h": 22
+  },
+  "MESSI:22:#ffffff:true": {
+    "file": "04.png",
+    "w": 87,
+    "h": 24
+  },
+  "RONALDO:22:#ffffff:true": {
+    "file": "05.png",
+    "w": 135,
+    "h": 24
+  },
+  "KOHLI:22:#ffffff:true": {
+    "file": "06.png",
+    "w": 85,
+    "h": 24
+  },
+  "HAMILTON:22:#ffffff:true": {
+    "file": "07.png",
+    "w": 141,
+    "h": 24
+  },
+  "LEBRON:22:#ffffff:true": {
+    "file": "08.png",
+    "w": 115,
+    "h": 24
+  },
+  "FOOTBALL:24:#5cdfff:true": {
+    "file": "09.png",
+    "w": 161,
+    "h": 26
+  },
+  "CRICKET:24:#fdc700:true": {
+    "file": "10.png",
+    "w": 129,
+    "h": 26
+  },
+  "FORMULA 1:24:#f42d29:true": {
+    "file": "11.png",
+    "w": 164,
+    "h": 26
+  },
+  "BASKETBALL:24:#ff8904:true": {
+    "file": "12.png",
+    "w": 202,
+    "h": 26
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": "character-motion-4",
+  "kickAndReplay": "passed",
+  "transportBytes": 7328978,
+  "models": [
+    {
+      "status": 200,
+      "bytes": 3349704,
+      "sha256": "0773408b6ad1c5645c3304cf64db5f4641eaee095c7219c65b874e08047d926c"
+    }
+  ],
+  "errors": [],
+  "failures": []
+}

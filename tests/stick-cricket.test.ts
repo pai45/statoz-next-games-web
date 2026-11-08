@@ -1,0 +1,10 @@
+import {test} from "node:test";
+import assert from "node:assert/strict";
+import {CricketInput} from "../src/features/games/stick-cricket/input";
+import {gameRegistry} from "../src/mocks/games/game-registry";
+import {sportGameDecks} from "../src/mocks/games/sport-decks";
+const wait=(ms:number)=>new Promise(resolve=>setTimeout(resolve,ms));
+test("bat input survives a short tap but releases after the native poll",async()=>{const events:unknown[]=[];const input=new CricketInput((...event)=>events.push(event));input.down("one","left");input.up("one");assert.deepEqual(events,[["left",1]]);await wait(80);assert.deepEqual(events,[["left",1],["left",0]]);});
+test("one input owner cannot release another finger or keyboard",()=>{const events:unknown[]=[];const input=new CricketInput((...event)=>events.push(event));input.down("touch","right");input.key("KeyD",true);input.up("touch",true);assert.deepEqual(events,[["right",1]]);input.clear();assert.deepEqual(events,[["right",1],["right",0]]);});
+test("clear cancels delayed releases and avoids stuck inputs",async()=>{const events:unknown[]=[];const input=new CricketInput((...event)=>events.push(event));input.key("ArrowLeft",true);input.key("ArrowLeft",false);input.clear();await wait(80);assert.deepEqual(events,[["left",1],["left",0]]);assert.equal(input.key("Enter",true),false);});
+test("Stick Cricket is independently launchable in the cricket catalog",()=>{assert.equal(gameRegistry["stick-cricket"].href,"/play/stick-cricket");assert.equal(gameRegistry["stick-cricket"].requiresDeck,undefined);assert.ok(sportGameDecks.cricket.includes("stick-cricket"));});

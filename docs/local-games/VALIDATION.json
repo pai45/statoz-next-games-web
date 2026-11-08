@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-30",
+  "status": "passed-main-application-and-local-asset-cache",
+  "checkout": "C:\\Users\\priya\\OneDrive\\Desktop\\StatOz Future\\statoz-games-web",
+  "preview": "http://127.0.0.1:3211/",
+  "onlineBackendRequired": false,
+  "pushedOrPublished": false,
+  "games": [
+    {
+      "game": "stick-cricket",
+      "route": "/play/stick-cricket",
+      "passed": true,
+      "coverage": "original native Unity client; native lesson/input/lifecycle/storage, not exhaustive chases",
+      "report": "test-results/stick-cricket-integration/checks.json",
+      "reportSha256": "4257f247ae30d838e7b35077515c70de207fb6b69a0234dff698f3934f4a17e1",
+      "checks": [
+        "Native Unity build loads with a 16:9 canvas and original lesson",
+        "Native canvas touch and keyboard focus keep the game running",
+        "Handheld buttons are at least 44px and leave native display unobscured",
+        "Two-finger batting input reaches Unity and releases without stuck keys",
+        "Pause freezes native rendering and game clock; resume advances both",
+        "Wrong-session input is ignored",
+        "Both handheld touch controls fit a 667x375 phone",
+        "Unity persistent storage is namespaced to the host account",
+        "Portrait rotation interrupts play and clears held buttons"
+      ],
+      "observedFailures": {
+        "errors": 0,
+        "remote": 0,
+        "failed": 0
+      }
+    },
+    {
+      "game": "archery-test",
+      "route": "/play/archery-test",
+      "passed": true,
+      "coverage": "original browser client; ordinary native touch level completion, earned progression, reload/account isolation",
+      "report": "test-results/archery-test-integration/checks.json",
+      "reportSha256": "e48cb92f1f7fe6fdd3c92bb0d765dbdc0f97f9f085dac2cfd63940b9d8c61266",
+      "checks": [
+        "Portrait phone canvas fills the available screen without clipping native menus",
+        "Pausing during a held draw cancels it without firing or losing an arrow",
+        "Three ordinary native touch shots complete original Level 1 without state edits",
+        "Original level progression writes to this account\u2019s device namespace",
+        "Host pause stops the native game loop and resume advances it",
+        "Volume control reaches native audio",
+        "Landscape retains a fully visible portrait target view",
+        "Reload restores earned level progression",
+        "A different account starts at Level 1 without borrowing saved progress"
+      ],
+      "observedFailures": {
+        "errors": 0,
+        "remote": 0,
+        "failed": 0
+      }
+    },
+    {
+      "game": "penalty-shooters-2",
+      "route": "/play/penalty-shooters-2",
+      "passed": true,
+      "coverage": "original Construct client; ordinary native complete cup match, actual score/round result, scoped storage, suspension",
+      "report": "test-results/local-games/penalty-shooters-2-final/checks.json",
+      "reportSha256": "12ddef6d891eb356f9e74c5ba16e9c7d5002fac127b46e2b21681f522fc7f5d2",
+      "checks": [
+        "Original league/team selection starts the native cup match",
+        "Ordinary native pointer shots/saves complete a match, update group progression and emit its real result",
+        "Host pause suspends the actual Construct runtime"
+      ],
+      "observedFailures": {
+        "errors": 0,
+        "remote": 0,
+        "failed": 0
+      }
+    },
+    {
+      "game": "football-shooting",
+      "route": "/play/football-shooting",
+      "passed": true,
+      "coverage": "authored browser recreation using recovered original Football Strike character meshes and clips; complete practice and CPU match, not an APK port",
+      "report": "test-results/football-shooting/report.json",
+      "reportSha256": "c8188682f5e8d7c436e89a8da464e38cb9260c5657c278700dc26b33a1c23899",
+      "checks": [
+        "Recovered original Football Strike skinned characters load successfully",
+        "Real touch cancel and pause during a swipe do not fire a shot",
+        "A real curved upward swipe launches; a paused flight does not resolve",
+        "A full five-ball practice produces one host result and a scoped local save",
+        "Ten alternating attack/save turns finish a five-round CPU shootout",
+        "Presentation, sound and progress survive an account reload",
+        "A second account gets a separate fresh save",
+        "Small phone, landscape phone and desktop menus fit without horizontal overflow",
+        "Host session validation, pause/resume and WebGL disposal work",
+        "No browser errors, failed resource loads or external network requests"
+      ],
+      "observedFailures": {
+        "errors": 0,
+        "remote": 0,
+        "failed": 0
+      }
+    },
+    {
+      "game": "tennis-bits",
+      "route": "/play/tennis-bits",
+      "passed": true,
+      "coverage": "original native Unity client with explicit copied host-policy adaptation; original result/reward flow, frame pause/resume, SDK data persistence, reload and account isolation; automated play need not win",
+      "report": "test-results/local-games/tennis-bits-final/checks.json",
+      "reportSha256": "f67dfa37c45c91e76b7cbd34274527606ab4385973db5e9e9493911911aa0778",
+      "checks": [
+        "Native movement, serve and rally inputs reach the original result/reward panel (win or loss)",
+        "A named local control preference exercises the native SDK data bridge without changing score or inventory",
+        "Host pause freezes the actual native frame gate and resume advances it",
+        "Reload restores account-scoped native SDK data and any earned item",
+        "Second host account starts without borrowing the first account control preference"
+      ],
+      "observedFailures": {
+        "errors": 0,
+        "remote": 0,
+        "failed": 0
+      }
+    },
+    {
+      "game": "soccer-real",
+      "route": "/play/soccer-real",
+      "passed": true,
+      "coverage": "original Three.js client with local CPU entry adapter; full ordinary native CPU match, actual result and frame pause",
+      "report": "test-results/local-games/soccer-real-final/checks.json",
+      "reportSha256": "9efefb33ac641434f509f0f9483fe1a45003bb33bc665959096c20634bbc0bf8",
+      "checks": [
+        "Original local team/quick-match setup loads without a provider request",
+        "Ordinary pointer drags and native CPU behavior finish a complete match; score comes from the original client",
+        "Host pause freezes the native frame gate"
+      ],
+      "observedFailures": {
+        "errors": 0,
+        "remote": 0,
+        "failed": 0
+      }
+    },
+    {
+      "game": "retro-innings",
+      "route": "/play/retro-innings",
+      "passed": true,
+      "coverage": "existing source-owned game; built-in manual-clock inspection completes two innings via normal commands without direct score/state assignment; not human timing validation",
+      "report": "test-results/local-games/retro-innings/checks.json",
+      "reportSha256": "c402c0d5167ed36c0b3038b7264cb1e7f8e7df27db2180edfe26168ac032f69f",
+      "checks": [],
+      "observedFailures": {
+        "errors": 0,
+        "remote": 0
+      }
+    },
+    {
+      "game": "f1-racing",
+      "route": "/play/f1-racing",
+      "passed": true,
+      "coverage": "original native Unity client with explicit copied host-policy adaptation; driver/team setup, career/practice driving/camera, scoped persistence, pause/resume/dispose; not full career or lap completion",
+      "report": "test-results/local-games/f1-racing-final/checks.json",
+      "reportSha256": "4ed6072c33831caac018ac5035d8ff740f2aab8b3b30c4df94433114c420468e",
+      "checks": [
+        "Original native client completes local driver/team setup with all external requests blocked",
+        "Native career/practice selection, driving and camera input run; screenshots retain the visible bounded sequence, not an exhaustive campaign completion claim",
+        "Host pause/resume reaches the actual native scheduler/audio boundary",
+        "Unity persistence databases are namespaced to the host account",
+        "Host disposal removes the local engine frame"
+      ],
+      "observedFailures": {
+        "errors": 0,
+        "remote": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "editableLibraries": {
+    "files": 80612,
+    "bytes": 1520020783,
+    "allInstalledAndVerified": true,
+    "loopbackServingHashChecks": 8,
+    "servingReport": "test-results/local-games/library-serving.json"
+  },
+  "lateLoadedResourceClosure": {
+    "tennisCataloguedBundles": 752,
+    "tennisAdditionalBundles": 660,
+    "tennisAdditionalBytes": 20549463,
+    "penaltyDeclaredWebMAudio": 7,
+    "missingDeclaredResources": []
+  },
+  "validation": {
+    "existingFocusedTests": 22,
+    "localIntegrationTests": 9,
+    "deviceCacheTests": 12,
+    "typecheck": "passed",
+    "eslint": {
+      "errors": 0,
+      "warnings": 3,
+      "log": "test-results/local-games/app-real-frame-lint.log"
+    },
+    "productionBuild": "passed",
+    "buildLog": "test-results/local-games/app-production-real-frames.log",
+    "deviceManifest": "public/_game-assets/034c7a56-bc29-4ff1-9039-2fefff0ec6e4.json",
+    "deviceBuildId": "034c7a56-bc29-4ff1-9039-2fefff0ec6e4",
+    "deviceFiles": 3211,
+    "deviceBytes": 608814842,
+    "optionalLibrariesAndOriginalInputsExcluded": true
+  },
+  "limits": [
+    "Physical-phone testing and exhaustive campaigns/equipment variants have not been completed.",
+    "Recovered native binaries and exports are not original developer repositories, Unity authoring projects or original C# source.",
+    "Online matchmaking, provider accounts, ads, commerce and cloud services remain unavailable. Earned rewards are native; ad/purchase rewards are never fabricated.",
+    "Football remains an authored browser recreation with original recovered character art and curves, not identical Android gameplay, physics, shaders or IK.",
+    "Archery retains its documented exact available 512-quality EnvironmentA fallback. Retro Innings retains existing keeper/movement fidelity gaps."
+  ],
+  "developmentPreview": "http://127.0.0.1:3210/",
+  "qaPreview": "http://127.0.0.1:5240/local-games.html",
+  "mainApplication": {
+    "passed": true,
+    "checks": [
+      "stick-cricket: real catalogue card, correct account scope, original/runtime boot and sport-page exit",
+      "archery-test: real catalogue card, correct account scope, original/runtime boot and sport-page exit",
+      "penalty-shooters-2: real catalogue card, correct account scope, original/runtime boot and sport-page exit",
+      "football-shooting: real catalogue card, correct account scope, original/runtime boot and sport-page exit",
+      "tennis-bits: real catalogue card, correct account scope, original/runtime boot and sport-page exit",
+      "soccer-real: real catalogue card, correct account scope, original/runtime boot and sport-page exit",
+      "retro-innings: real catalogue card, correct account scope, original/runtime boot and sport-page exit",
+      "f1-racing: real catalogue card, correct account scope, original/runtime boot and sport-page exit",
+      "Native SDK data survives a real app reload and remains isolated after switching accounts in the same browser storage",
+      "archery-test: phone orientation, native viewport and exit through the outer mobile navigation bridge",
+      "soccer-real: phone orientation, native viewport and exit through the outer mobile navigation bridge",
+      "tennis-bits: phone orientation, native viewport and exit through the outer mobile navigation bridge",
+      "Guest opens a native local game without a login or starter-pack gate",
+      "A deliberately unavailable bundle shows a useful error, retries successfully and preserves normal exit"
+    ],
+    "report": "test-results/local-games/app-integration/checks.json",
+    "reportSha256": "59d40287e2dd9f4a71e5544c119e513e24e79bb88c11fd2b37cc04d637d6860e",
+    "runtimeErrors": 0,
+    "failedRequests": 0,
+    "externalRequests": 0,
+    "onDemandFallbackExercised": true,
+    "physicalDevice": false,
+    "gameDocuments": "Normal same-origin bundle URLs with session-validated parent bootstrap. Legacy wrappers remain compatible."
+  },
+  "deviceCache": {
+    "passed": true,
+    "files": 3211,
+    "bytes": 608814842,
+    "nativeGameBoots": [
+      "stick-cricket",
+      "archery-test",
+      "penalty-shooters-2",
+      "football-shooting",
+      "tennis-bits",
+      "soccer-real",
+      "retro-innings",
+      "f1-racing"
+    ],
+    "additionalVibeGameplayCheck": true,
+    "assetNetworkRequestsAfterReady": 0,
+    "runtimeErrors": 0,
+    "downloadRetry": true,
+    "missingFileRepair": true,
+    "unsupportedStorageFallback": true,
+    "report": "test-results/device-assets/results.json",
+    "reportSha256": "f027004aaabd3a66c5690c8c793f3bc722f6075016b54e6037d628ff71fbfc23",
+    "applicationNavigation": "Network-only local server pages; accounts and saves are not cached. This does not claim navigation without the local app server."
+  },
+  "localIntegrationFixes": [
+    "Native entries, game-owned covers, stable play routes, sport-page exits and eight launchable rules guides.",
+    "Account changes remount the live game; valid saves and display preferences survive bundle reloads.",
+    "Loading, retry, unavailable-storage notices and incompatible-save preservation.",
+    "Penalty uses the inherited URL base and supported native suspension, avoiding unsupported Release/audio-close races.",
+    "Real bundle iframe navigation pins native clients to the compiled build before requests.",
+    "Native session/account query fields and Soccer?s exact static texture v=1 tag resolve to immutable cached bytes.",
+    "The authored Penalty Shootout runtime character manifest is included in device downloads."
+  ],
+  "cleanup": {
+    "temporaryBrowserProfilesRemaining": 2,
+    "path": ".cache/device-cache-e2e",
+    "reason": "Automatic approval review blocked recursive deletion (blocked by policy). No active test browsers use these profiles."
+  }
+}

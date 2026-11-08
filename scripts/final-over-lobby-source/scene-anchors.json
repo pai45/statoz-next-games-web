@@ -1,0 +1,204 @@
+{
+  "anchors": {
+    "release": [
+      108,
+      92
+    ],
+    "bounce": [
+      106,
+      163
+    ],
+    "contact": [
+      105,
+      195
+    ],
+    "landing": [
+      157,
+      81
+    ],
+    "pivot": [
+      54,
+      229
+    ]
+  },
+  "batterPoses": [
+    "Guard",
+    "Grip adjustment",
+    "Ready",
+    "Load stance",
+    "Crouch",
+    "Backlift",
+    "High backlift",
+    "Front stride",
+    "Downswing high",
+    "Downswing middle",
+    "Contact",
+    "Extension",
+    "Follow through low",
+    "Follow through high",
+    "Finish",
+    "Watch six",
+    "Relax finish",
+    "Lower bat high",
+    "Lower bat middle",
+    "Lower bat low",
+    "Recover",
+    "Settled",
+    "Blink",
+    "Downswing quarter",
+    "Downswing before contact",
+    "Front foot lift",
+    "Front foot step back"
+  ],
+  "bowlerPoses": [
+    "Ready",
+    "Run right plant",
+    "Run right drive",
+    "Run flight one",
+    "Run crossing one",
+    "Run left plant",
+    "Run left drive",
+    "Run flight two",
+    "Run crossing two",
+    "Gather arms",
+    "Gather knee",
+    "Bound",
+    "Front leg brace",
+    "Arm vertical",
+    "Release",
+    "Release extension",
+    "Follow across",
+    "Follow bent",
+    "Follow recovery",
+    "Turn",
+    "Walk right",
+    "Walk rise",
+    "Walk pass",
+    "Walk left",
+    "Walk crossing",
+    "Walk settle",
+    "Face crease"
+  ],
+  "batterKeys": [
+    [
+      0,
+      0
+    ],
+    [
+      17,
+      1
+    ],
+    [
+      28,
+      0
+    ],
+    [
+      96,
+      2
+    ],
+    [
+      102,
+      3
+    ],
+    [
+      108,
+      4
+    ],
+    [
+      114,
+      5
+    ],
+    [
+      119,
+      6
+    ],
+    [
+      123,
+      7
+    ],
+    [
+      126,
+      8
+    ],
+    [
+      129,
+      23
+    ],
+    [
+      130,
+      9
+    ],
+    [
+      131,
+      24
+    ],
+    [
+      132,
+      10
+    ],
+    [
+      135,
+      11
+    ],
+    [
+      139,
+      12
+    ],
+    [
+      145,
+      13
+    ],
+    [
+      152,
+      14
+    ],
+    [
+      165,
+      15
+    ],
+    [
+      183,
+      16
+    ],
+    [
+      198,
+      17
+    ],
+    [
+      209,
+      25
+    ],
+    [
+      219,
+      26
+    ],
+    [
+      230,
+      19
+    ],
+    [
+      239,
+      20
+    ],
+    [
+      253,
+      21
+    ],
+    [
+      270,
+      0
+    ],
+    [
+      315,
+      22
+    ],
+    [
+      318,
+      0
+    ],
+    [
+      360,
+      0
+    ]
+  ]
+}

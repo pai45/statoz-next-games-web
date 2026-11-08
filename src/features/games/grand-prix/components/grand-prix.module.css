@@ -1,0 +1,176 @@
+/**
+ * Motion and pseudo-state only.
+ *
+ * Everything that moves per frame — the road, the cars, the sparks — runs off a
+ * rAF loop into a canvas, because that is geometry rather than style. What is
+ * left here is the chrome around it: the things that flash, rise, or light up,
+ * which the cascade does better than a controller ever could.
+ *
+ * The global `prefers-reduced-motion` damper in `globals.css` stills all of it;
+ * the canvas asks for itself.
+ */
+
+/* ---- Race flashes ---------------------------------------------------------- */
+
+/*
+ * The launch grade: in over the first sixth of its life with an overshoot, held
+ * lit, then out over the last quarter — Flutter's `(t * 6).clamp` appear and
+ * its fade past 0.75, as keyframes.
+ */
+.launchFlash {
+  animation: launch-flash 1900ms cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+}
+
+@keyframes launch-flash {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  16.7% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  75% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+/* A lap crossing: the same beat, a little quicker and a little calmer. */
+.lapFlash {
+  animation: lap-flash 1600ms cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+}
+
+@keyframes lap-flash {
+  0% {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+  20% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  72% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+/* An overtake toast rises ten pixels as it lands, then leaves. */
+.overtakeToast {
+  animation: overtake-toast 1500ms cubic-bezier(0, 0, 0.58, 1) both;
+}
+
+@keyframes overtake-toast {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  70% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+}
+
+/* The retirement countdown breathes, because it is a deadline. */
+.stuckWarning {
+  animation: stuck-warning 900ms ease-in-out infinite alternate;
+}
+
+@keyframes stuck-warning {
+  from {
+    box-shadow: 0 0 18px -6px color-mix(in srgb, var(--ds-color-danger) 40%, transparent);
+  }
+  to {
+    box-shadow: 0 0 26px -4px color-mix(in srgb, var(--ds-color-danger) 70%, transparent);
+  }
+}
+
+/* ---- Result ---------------------------------------------------------------- */
+
+/* Each beat of the post-race reveal rises onto its mark. */
+.revealIn {
+  animation: reveal-in 420ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation-delay: var(--reveal-delay, 0ms);
+}
+
+@keyframes reveal-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+}
+
+/* The finishing position lands with the overshoot the banner does not. */
+.positionIn {
+  animation: position-in 520ms cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+  animation-delay: var(--reveal-delay, 0ms);
+}
+
+@keyframes position-in {
+  from {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+}
+
+/* ---- Lobby ----------------------------------------------------------------- */
+
+/* The lobby deals itself in, each block on its own delay. */
+.rise {
+  animation: rise-in 460ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation-delay: var(--rise-delay, 0ms);
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+}
+
+/* The emblem's idle breathing — the lobby's one glow. */
+.emblemPulse {
+  animation: emblem-pulse 1800ms ease-in-out infinite alternate;
+}
+
+@keyframes emblem-pulse {
+  from {
+    box-shadow: 0 0 18px -4px color-mix(in srgb, var(--ds-color-accent-racing) 20%, transparent);
+    border-color: color-mix(in srgb, var(--ds-color-accent-racing) 26%, transparent);
+  }
+  to {
+    box-shadow: 0 0 22px -4px color-mix(in srgb, var(--ds-color-accent-racing) 28%, transparent);
+    border-color: color-mix(in srgb, var(--ds-color-accent-racing) 38%, transparent);
+  }
+}
+
+/* The live dot on the lobby's status strip. */
+.pitLaneOpen {
+  box-shadow: 0 0 8px color-mix(in srgb, var(--ds-color-success) 60%, transparent);
+}
+
+/* The circuit strip scrolls sideways; its scrollbar is not part of the design. */
+.circuitStrip {
+  scrollbar-width: none;
+}
+
+.circuitStrip::-webkit-scrollbar {
+  display: none;
+}

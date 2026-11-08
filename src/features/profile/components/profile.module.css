@@ -1,0 +1,138 @@
+/*
+ * Motion and pseudo-state only. Every colour, size and space on the profile
+ * comes from the token layer or a Tailwind utility built on it; what lives here
+ * is what a style attribute cannot express.
+ */
+
+/* ---- Entrances ---------------------------------------------------------- */
+
+/**
+ * Sections deal themselves in as the dossier opens, staggered by a per-element
+ * `--enter-delay`. Flutter runs one AnimationController per card; a keyframe
+ * with a delay is the same beat with nothing to dispose.
+ *
+ * `backwards`, never `both`: the fill only has to hold the from-state through
+ * the delay, and a forwards fill would keep the animation in effect forever —
+ * which leaves an animated `transform` applied, and with it a stacking context
+ * and a containing block that anything `position: fixed` inside would anchor to
+ * instead of the viewport.
+ */
+.enter {
+  animation: enter 380ms cubic-bezier(0.16, 1, 0.3, 1) backwards;
+  animation-delay: var(--enter-delay, 0ms);
+}
+
+@keyframes enter {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/** A badge lands rather than fades, so an earned one reads as a reward. */
+.badgeIn {
+  animation: badge-in 420ms cubic-bezier(0.34, 1.56, 0.64, 1) backwards;
+  animation-delay: var(--enter-delay, 0ms);
+}
+
+@keyframes badge-in {
+  from {
+    opacity: 0;
+    transform: scale(0.82);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ---- Overlays ------------------------------------------------------------ */
+
+.scrim {
+  animation: fade-in 160ms ease-out both;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/** A sheet rises from the bottom edge on a phone. */
+.sheet {
+  animation: sheet-up 240ms cubic-bezier(0.16, 1, 0.3, 1) backwards;
+}
+
+@keyframes sheet-up {
+  from {
+    transform: translateY(16px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+/**
+ * Once there is room the same overlay is centred rather than docked, so it
+ * scales in place instead of arriving from an edge it no longer sits on.
+ */
+@media (min-width: 40rem) {
+  .sheet {
+    animation-name: sheet-in;
+  }
+}
+
+@keyframes sheet-in {
+  from {
+    transform: scale(0.97);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+/* ---- Interactive chrome -------------------------------------------------- */
+
+/**
+ * A tappable panel lifts a hair. Flutter has no hover at all, so this is one of
+ * the divergences the web is expected to add rather than avoid.
+ */
+.pressable {
+  transition:
+    transform 150ms ease-out,
+    border-color 150ms ease-out;
+}
+
+.pressable:hover {
+  transform: translateY(-1px);
+}
+
+.pressable:active {
+  transform: translateY(0);
+}
+
+/** The copy confirmation replaces Flutter's SnackBar, in place and brief. */
+.copied {
+  animation: copied 1.6s ease-out both;
+}
+
+@keyframes copied {
+  0%,
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

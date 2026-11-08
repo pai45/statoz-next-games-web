@@ -1,0 +1,52 @@
+{
+  "gameId": "retro-hoops",
+  "buildVersion": "character-v3-local",
+  "assetVersion": "3.0.0",
+  "rulesVersion": "2.0.0",
+  "changes": "Authored athlete anatomy, directional torso/head rendering, muscle/kit/shoe clusters, footwork and pose-driven contact-arm placement. Rules, AI and audio unchanged in this pass.",
+  "checks": {
+    "tests": 84,
+    "artStructural": 8,
+    "productionActionLoops": 16,
+    "decodedLoops": 16,
+    "mobileLifecycle": 9,
+    "teamScenarios": 6,
+    "exportedHostFlow": 6,
+    "lint": "passed",
+    "typecheck": "passed",
+    "staticBuild": "passed",
+    "diffCheck": "passed"
+  },
+  "pack": {
+    "frameEntries": 2276,
+    "distinctPixelFrames": 1264,
+    "atlases": [
+      "family-0.png",
+      "family-1.png",
+      "family-2.png"
+    ],
+    "originalV2Preserved": true,
+    "inputReferenceRasters": 0
+  },
+  "review": {
+    "performed": "Assistant inspected native/enlarged construction sheets, before/after body layers and actual production action captures. Initial inward/bowed knees and raised preparatory elbows were corrected.",
+    "visualApproval": false,
+    "sourceParityVerified": false,
+    "physicalDeviceTested": false,
+    "limits": "Original independent reconstruction. Full source-specific pose nuance and animation likeness remain outside this asset improvement sign-off."
+  },
+  "hashes": {
+    "scripts/build-retro-hoops-authored.py": "8b52fbfa36ee68f6fe3c2c11acea5abe80201cee283dc77419a4e0854ec3a6bc",
+    "scripts/retro_hoops_character.py": "be28cc856a25069901a28e5037f2dd0872ce22c61771719ae1adc6d7d0720b36",
+    "src/features/games/retro-hoops/presentation.ts": "70e9ed490470cc7de23961ccca1bb5d1568f17808ebb1a7446e2e04a1c52c367",
+    "src/features/games/retro-hoops/contact-arm.ts": "7bc4fe034b765350c35d049e70f129f44c2de5c71db3911690a083da428ecc1b",
+    "src/features/games/retro-hoops/renderer.ts": "ef2207d2a5136fe612d9fae7249e6c887772404a09f7263fcacd8d7570915e54",
+    "public/embedded-games/retro-hoops/index.html": "ed6e24be43b0726db265a3bdc38d76a5ecfec417ac0eb860d0479943af20e170"
+  },
+  "release": {
+    "localOnly": true,
+    "pushed": false,
+    "pipelineActivated": false,
+    "published": false
+  }
+}

@@ -1,0 +1,306 @@
+.scene {
+  position: relative;
+  min-height: 100dvh;
+  overflow: hidden;
+  background: var(--ds-color-background-primary);
+  color: var(--ds-color-text-default);
+  isolation: isolate;
+}
+
+.canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  min-height: 100dvh;
+  flex-direction: column;
+  align-items: center;
+  padding:
+    calc(40px + env(safe-area-inset-top))
+    24px
+    calc(32px + env(safe-area-inset-bottom));
+}
+
+.header {
+  flex: none;
+  text-align: center;
+  opacity: var(--reward-intro-opacity);
+  transform: translateY(var(--reward-intro-y));
+}
+
+.eyebrow,
+.systemLabel,
+.credited,
+.balanceLabel,
+.continueLabel {
+  font-family: var(--ds-font-display);
+  font-weight:var(--ds-weight-extrabold);
+  line-height: 1;
+}
+
+.eyebrow {
+  color: var(--ds-color-accent-cyan);
+  font-size:var(--ds-size-p12);
+  letter-spacing: 4px;
+}
+
+.systemLabel {
+  margin-top: 8px;
+  color: var(--ds-color-text-muted);
+  font-size: var(--ds-text-micro);
+  letter-spacing: 2.2px;
+}
+
+.spacer {
+  flex: 1 1 0;
+}
+
+.artMotion {
+  flex: none;
+  opacity: var(--reward-art-opacity);
+  transform: translate(var(--reward-art-x), var(--reward-art-y))
+    scale(var(--reward-art-scale));
+}
+
+.artFrame {
+  position: relative;
+  width: min(232px, 58vw, 34vh);
+  aspect-ratio: 1;
+  overflow: hidden;
+  box-shadow: 0 0 34px 2px
+    color-mix(in srgb, var(--ds-color-accent-gold) 46%, transparent);
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 12px),
+    calc(100% - 12px) 100%,
+    12px 100%,
+    0 calc(100% - 12px)
+  );
+}
+
+.artImage {
+  object-fit: cover;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 11px),
+    calc(100% - 11px) 100%,
+    11px 100%,
+    0 calc(100% - 11px)
+  );
+}
+
+.artBorder {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.artBorder path {
+  fill: none;
+  stroke: color-mix(
+    in srgb,
+    var(--ds-color-accent-gold) 86%,
+    transparent
+  );
+  stroke-width: 1.8;
+  vector-effect: non-scaling-stroke;
+}
+
+.rewardBlock {
+  flex: none;
+  margin-top: 24px;
+  text-align: center;
+  opacity: var(--reward-line-opacity);
+  transform: translateY(var(--reward-line-y));
+}
+
+.rewardLine {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.rewardCoin {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  flex: none;
+}
+
+.coinGlyph {
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.rewardAmount {
+  color: var(--ds-color-accent-gold);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p48);
+  font-weight:var(--ds-weight-black);
+  font-feature-settings: var(--ds-numeric-tabular);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 1.2px;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.credited {
+  margin-top: 12px;
+  font-size: var(--ds-text-xs);
+  letter-spacing: 2.8px;
+  opacity: var(--reward-settlement-opacity);
+  transform: scale(var(--reward-settlement-scale));
+}
+
+.balanceOuter {
+  flex: none;
+  margin-top: 24px;
+  padding: 1px;
+  background: var(--ds-color-border-default);
+  opacity: var(--reward-settlement-opacity);
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 12px),
+    calc(100% - 12px) 100%,
+    12px 100%,
+    0 calc(100% - 12px)
+  );
+}
+
+.balancePlate {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 20px;
+  background: var(--ds-color-background-elevated);
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 11px),
+    calc(100% - 11px) 100%,
+    11px 100%,
+    0 calc(100% - 11px)
+  );
+}
+
+.balanceLabel {
+  margin-right: 10px;
+  color: var(--ds-color-text-muted);
+  font-size: var(--ds-text-micro);
+  letter-spacing: 1.8px;
+  white-space: nowrap;
+}
+
+.balanceValue {
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p16);
+  font-weight:var(--ds-weight-black);
+  font-feature-settings: var(--ds-numeric-tabular);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.8px;
+  line-height: 1;
+}
+
+.balanceCoin {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  flex: none;
+}
+
+.continueLabel {
+  flex: none;
+  color: var(--ds-color-text-muted);
+  font-size: var(--ds-text-2xs);
+  letter-spacing: 2.4px;
+  opacity: var(--reward-tap-opacity);
+}
+
+.flash {
+  position: absolute;
+  z-index: 2;
+  inset: 0;
+  background: var(--ds-color-accent-gold);
+  opacity: var(--reward-flash-opacity);
+  pointer-events: none;
+}
+
+.tapTarget {
+  position: absolute;
+  z-index: 3;
+  inset: 0;
+  cursor: default;
+}
+
+.tapTarget:focus-visible {
+  outline-offset: -4px;
+}
+
+@media (max-height: 679px) {
+  .content {
+    padding-top: calc(20px + env(safe-area-inset-top));
+    padding-bottom: calc(20px + env(safe-area-inset-bottom));
+  }
+
+  .artFrame {
+    width: min(184px, 58vw, 34vh);
+  }
+
+  .rewardBlock,
+  .balanceOuter {
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 419px), (max-height: 679px) {
+  .rewardCoin {
+    width: 34px;
+    height: 34px;
+  }
+
+  .rewardAmount {
+    font-size:var(--ds-size-p38);
+  }
+}
+
+@media (max-width: 359px) {
+  .content {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .balancePlate {
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+
+  .balanceLabel {
+    margin-right: 4px;
+    letter-spacing: 1.3px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scene *,
+  .scene *::before,
+  .scene *::after {
+    transition: none;
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-10-20T20:21:32.362Z",
+  "pageErrors": [],
+  "frames": {
+    "medianMs": 16.69999999999709,
+    "p95Ms": 16.799999999999272
+  },
+  "checks": [
+    "desktop lobby",
+    "10 team choices",
+    "5 circuits",
+    "selection persistence",
+    "time trial launch and exit",
+    "quick race launch",
+    "pause and background handling",
+    "portrait prompt",
+    "mobile landscape",
+    "touch input release"
+  ],
+  "screenshots": [
+    "audio-review.wav",
+    "audio.json",
+    "browser.json",
+    "lobby-desktop.png",
+    "lobby-mobile.png",
+    "quick-race-desktop.png",
+    "race-mobile.png",
+    "teams.png",
+    "time-trial-desktop.png"
+  ]
+}

@@ -1,0 +1,524 @@
+/*
+ * The seven shop tiles' own layout: the grids they sit in, the preview slot each
+ * category fills, and the copy under it. The surface itself — cut, wash, edge,
+ * footer rail, stamp — comes from `shop-card.module.css`.
+ */
+
+/* ---- Grids ----------------------------------------------------------------- */
+
+/* Three across, four at 480, five at 720 — the app's own breakpoints. */
+.tileGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+@media (width >= 30rem) {
+  .tileGrid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+@media (width >= 45rem) {
+  .tileGrid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+}
+/* Past the phone's five columns the app has nothing to say, so the grid keeps
+   the tile's size and adds columns instead of stretching them. */
+@media (width >= 64rem) {
+  .tileGrid { grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr)); }
+}
+
+/* A portrait tile is 3 wide to 5 tall, whatever the column width. */
+.portraitTile { aspect-ratio: 0.6; }
+
+.stripList {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 12px;
+  justify-items: center;
+}
+
+.strip {
+  width: 100%;
+  max-width: 35rem;
+  height: 148px;
+}
+
+.packGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+@media (width >= 45rem) {
+  .packGrid { grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr)); }
+}
+.packTile { aspect-ratio: 0.68; }
+@media (width >= 45rem) {
+  .packTile { aspect-ratio: 0.74; }
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+@media (width >= 45rem) {
+  .cardGrid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (width >= 64rem) {
+  .cardGrid { grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr)); }
+}
+.cardTile { aspect-ratio: 0.68; }
+
+/* ---- Shared column --------------------------------------------------------- */
+
+.column {
+  display: flex;
+  min-height: 0;
+  flex: 1;
+  flex-direction: column;
+}
+
+/* The square preview slot: a portrait, a pile of coins. */
+.square {
+  position: relative;
+  flex: none;
+  overflow: hidden;
+  aspect-ratio: 1;
+}
+
+.squareFallback {
+  display: grid;
+  height: 100%;
+  place-items: center;
+  background: var(--ds-color-background-elevated);
+  color: color-mix(in srgb, var(--ds-color-accent-cyan) 30%, transparent);
+}
+
+.tileName {
+  display: flex;
+  min-height: 0;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  overflow: hidden;
+  padding: 0 10px 8px;
+  color: var(--ds-color-text-default);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p11);
+  font-weight:var(--ds-weight-extrabold);
+  letter-spacing: 0.6px;
+  line-height: 1;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ---- Frames ---------------------------------------------------------------- */
+
+.ringSlot {
+  display: grid;
+  min-height: 0;
+  flex: 1;
+  padding-top: 10px;
+  place-items: center;
+}
+
+.ring {
+  width: 66px;
+  height: 66px;
+}
+
+.ringFace {
+  display: grid;
+  height: 100%;
+  place-items: center;
+  background: var(--ds-color-background-elevated);
+  color: color-mix(in srgb, var(--ds-color-text-default) 45%, transparent);
+}
+
+.hairline {
+  display: block;
+  height: 1px;
+  flex: none;
+}
+
+.frameLabel {
+  margin: 0;
+  overflow: hidden;
+  padding: 8px 10px;
+  color: var(--ds-color-text-default);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p11);
+  font-weight:var(--ds-weight-extrabold);
+  letter-spacing: 0.6px;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ---- Banners --------------------------------------------------------------- */
+
+.bannerBody {
+  display: flex;
+  min-height: 0;
+  flex: 1;
+  flex-direction: column;
+  padding-bottom: 8px;
+}
+
+.bannerArt {
+  position: relative;
+  min-height: 0;
+  flex: 1;
+  overflow: hidden;
+}
+
+.bannerTag {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bannerLabel {
+  margin: 8px 0 0;
+  overflow: hidden;
+  padding: 0 10px;
+  color: var(--ds-color-text-default);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p11);
+  font-weight:var(--ds-weight-extrabold);
+  letter-spacing: 0.6px;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ---- Kits ------------------------------------------------------------------ */
+
+.kitRow {
+  display: flex;
+  min-height: 0;
+  flex: 1;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 14px 0;
+}
+
+.kitCopy {
+  display: grid;
+  min-width: 0;
+  gap: 6px;
+}
+
+.kitName {
+  margin: 0;
+  overflow: hidden;
+  color: var(--ds-color-text-default);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p16);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: 1.2px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.kitCaption {
+  margin: 0;
+  color: color-mix(in srgb, var(--ds-color-text-default) 54%, transparent);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p8);
+  font-weight:var(--ds-weight-bold);
+  letter-spacing: 1.2px;
+}
+
+.swatches {
+  display: flex;
+  gap: 6px;
+  margin-top: 2px;
+}
+.swatches > span {
+  display: block;
+  width: 10px;
+  height: 10px;
+}
+
+/* The garment itself, in the kit's three colours. */
+.kitPreview {
+  display: grid;
+  width: 88px;
+  height: 100%;
+  flex: none;
+  place-items: center;
+}
+
+.shirt {
+  position: relative;
+  width: 64px;
+  height: 72px;
+  background: var(--kit-primary);
+  clip-path: polygon(
+    22% 0,
+    38% 0,
+    50% 9%,
+    62% 0,
+    78% 0,
+    100% 17%,
+    86% 34%,
+    82% 26%,
+    82% 100%,
+    18% 100%,
+    18% 26%,
+    14% 34%,
+    0 17%
+  );
+}
+
+.shirtPanel {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    var(--kit-secondary) 0 14%,
+    transparent 14% 86%,
+    var(--kit-secondary) 86%
+  );
+}
+
+.shirtTrim {
+  position: absolute;
+  inset: auto 0 12% 0;
+  height: 6px;
+  background: var(--kit-accent);
+}
+
+.car {
+  position: relative;
+  width: 76px;
+  height: 34px;
+  background: var(--kit-primary);
+  clip-path: polygon(0 62%, 12% 30%, 34% 24%, 44% 0, 62% 0, 70% 24%, 92% 32%, 100% 62%, 100% 100%, 0 100%);
+}
+
+.carStripe {
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 8px;
+  background: var(--kit-accent);
+}
+
+.carCanopy {
+  position: absolute;
+  top: 4px;
+  left: 44%;
+  width: 22%;
+  height: 12px;
+  background: var(--kit-secondary);
+}
+
+/* ---- Coins ----------------------------------------------------------------- */
+
+/* The app scales this row down to fit; three columns on a phone leave a chip
+   pair a little wider than the tile, so it shrinks the same way. */
+.coinTags {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  max-width: 100%;
+  gap: 4px;
+  transform: scale(0.8);
+  transform-origin: top left;
+  white-space: nowrap;
+}
+@media (width >= 30rem) {
+  .coinTags { transform: none; }
+}
+
+/* ---- Packs ----------------------------------------------------------------- */
+
+.packBody {
+  display: flex;
+  min-height: 0;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 8px 4px;
+}
+
+.packArtWrap {
+  position: relative;
+  display: block;
+  width: 50%;
+}
+@media (width >= 30rem) {
+  .packArtWrap { width: 44%; }
+}
+
+.packArt {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 1 / 1.42;
+}
+
+/* The foil: one diagonal band per rarity step, travelling left to right and
+   adding its light to the art rather than covering it. */
+.holo {
+  position: absolute;
+  inset: 0;
+  width: 48%;
+  mix-blend-mode: plus-lighter;
+  animation-name: pack-holo;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  pointer-events: none;
+}
+
+@keyframes pack-holo {
+  from { transform: translateX(-120%) skewX(-18deg); }
+  to { transform: translateX(320%) skewX(-18deg); }
+}
+
+.packName {
+  margin: 8px 0 0;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p10);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: 0.6px;
+  line-height: 1.15;
+  text-align: center;
+}
+@media (width >= 30rem) {
+  .packName { font-size:var(--ds-size-p11); }
+}
+
+.packMeta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin: 4px 0 0;
+  color: var(--ds-color-accent-cyan);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p8);
+  font-weight:var(--ds-weight-bold);
+  letter-spacing: 1px;
+}
+@media (width >= 30rem) {
+  .packMeta { font-size:var(--ds-size-p9); }
+}
+
+.packStar {
+  position: absolute;
+  top: -4px;
+  right: 4%;
+  color: var(--ds-color-accent-gold);
+  filter: drop-shadow(0 0 6px color-mix(in srgb, var(--ds-color-accent-gold) 60%, transparent));
+}
+
+.inrRail {
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p12);
+  font-weight:var(--ds-weight-black);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- Collectible cards ----------------------------------------------------- */
+
+.cardSlot {
+  display: grid;
+  min-height: 0;
+  flex: 1;
+  place-items: center;
+  padding: 2px 4px 4px;
+}
+
+/* ---- Empty ----------------------------------------------------------------- */
+
+.empty {
+  display: grid;
+  min-height: 18rem;
+  align-content: center;
+  justify-items: center;
+  gap: 10px;
+  padding: 24px;
+  border: 1px dashed var(--ds-color-border-strong);
+  background: color-mix(in srgb, var(--ds-color-background-elevated) 40%, transparent);
+  text-align: center;
+}
+
+.emptyTitle {
+  margin: 0;
+  color: var(--ds-color-text-muted);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p13);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: var(--ds-tracking-ultra);
+}
+
+.emptyBody {
+  margin: 0;
+  color: var(--ds-color-text-muted);
+  font-size:var(--ds-size-p12);
+}
+
+.emptySport {
+  margin: 0;
+  padding: 2px 8px;
+  border: 1px solid var(--ds-color-border-strong);
+  color: var(--ds-color-text-muted);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p9);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: var(--ds-tracking-ultra);
+}
+
+/* ---- Storefront rails ------------------------------------------------------ */
+
+/* One shelf row: scrolls sideways and snaps to a tile. */
+.rail {
+  --rail-item: 8.25rem;
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  padding: 4px 2px 12px;
+  scroll-padding-inline: 2px;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+}
+.rail[data-size="pack"] { --rail-item: 10.5rem; }
+/* Matches a card tile in the two-up phone grid, so names clear the price rail. */
+.rail[data-size="card"] { --rail-item: 11.25rem; }
+.rail[data-size="deal"] { --rail-item: 11.5rem; }
+.rail[data-size="strip"] { --rail-item: min(21rem, 80vw); }
+
+.rail > *,
+.rail > .focusTarget > * {
+  min-width: 0;
+  flex: 0 0 var(--rail-item);
+  scroll-snap-align: start;
+}
+
+/* ---- Deep-link focus ------------------------------------------------------- */
+
+/* Adds no box, so the tile lays out as if unwrapped. */
+.focusTarget { display: contents; }
+
+.focusTarget[data-focused] > * {
+  animation: shop-focus-pulse 1.4s ease-out 2;
+  filter: drop-shadow(0 0 16px color-mix(in srgb, var(--ds-color-accent-cyan) 55%, transparent));
+}
+
+@keyframes shop-focus-pulse {
+  0%, 100% { filter: drop-shadow(0 0 16px color-mix(in srgb, var(--ds-color-accent-cyan) 55%, transparent)); }
+  50% { filter: drop-shadow(0 0 4px color-mix(in srgb, var(--ds-color-accent-cyan) 20%, transparent)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .focusTarget[data-focused] > * { animation: none; }
+}

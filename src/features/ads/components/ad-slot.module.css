@@ -1,0 +1,228 @@
+.slot {
+  width: 100%;
+  color: var(--ds-color-text-default);
+}
+
+.desktopOnly {
+  display: none;
+}
+
+.frame {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  border: 1px solid var(--ds-color-border-strong);
+  background: var(--ds-color-background-secondary);
+}
+
+.horizontal {
+  width: min(100%, 20rem);
+  min-height: 6.25rem;
+  margin: 0 auto;
+}
+
+.rectangle {
+  width: min(100%, 18.75rem);
+  min-height: 15.625rem;
+  margin: 0 auto;
+  aspect-ratio: 6 / 5;
+}
+
+.skyscraper {
+  width: min(100%, 10rem);
+  height: 37.5rem;
+  margin: 0 auto;
+}
+
+.anchor {
+  width: min(100%, 20rem);
+  height: 3.125rem;
+  margin: 0 auto;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.horizontal .image {
+  object-position: 72% 56%;
+}
+
+.rectangle .image {
+  object-position: 70% center;
+}
+
+.scrim {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  pointer-events: none;
+}
+
+.campaign .scrim {
+  background: linear-gradient(90deg, rgb(4 8 14 / 96%) 0%, rgb(4 8 14 / 78%) 42%, rgb(4 8 14 / 5%) 76%);
+}
+
+.rectangle.campaign .scrim {
+  background: linear-gradient(135deg, rgb(4 8 14 / 96%) 0%, rgb(4 8 14 / 69%) 58%, rgb(4 8 14 / 4%) 100%);
+}
+
+.copy {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: var(--ds-space-12);
+  display: flex;
+  max-width: 54%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--ds-space-4);
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.copyEyebrow,
+.copyTitle,
+.copyDetail {
+  margin: 0;
+  font-family: var(--ds-font-display);
+  font-weight:var(--ds-weight-black);
+  line-height: var(--ds-leading-compact);
+  text-transform: uppercase;
+}
+
+.copyEyebrow {
+  color: var(--ds-color-text-muted);
+  font-size: var(--ds-size-p8);
+  letter-spacing: var(--ds-tracking-ultra);
+}
+
+.copyTitle {
+  color: var(--ds-color-text-default);
+  font-size: clamp(var(--ds-size-p12), 2.7vw, var(--ds-size-p20));
+  letter-spacing: var(--ds-tracking-tight);
+}
+
+.copyDetail {
+  color: var(--ds-color-accent-lime);
+  font-size: var(--ds-size-p8);
+  letter-spacing: var(--ds-tracking-wide);
+}
+
+.rectangle .copy {
+  top: var(--ds-space-16);
+  max-width: 62%;
+  transform: none;
+}
+
+.skyscraper .copy {
+  top: var(--ds-space-20);
+  max-width: calc(100% - 2 * var(--ds-space-24));
+  transform: none;
+}
+
+.rectangle .copyTitle,
+.skyscraper .copyTitle {
+  font-size: var(--ds-text-lg);
+}
+
+.wireframe {
+  display: grid;
+  place-items: center;
+  border-style: dashed;
+  background:
+    linear-gradient(90deg, transparent 49.7%, color-mix(in srgb, var(--ds-color-border-strong) 54%, transparent) 50%, transparent 50.3%),
+    linear-gradient(transparent 49.7%, color-mix(in srgb, var(--ds-color-border-strong) 54%, transparent) 50%, transparent 50.3%),
+    var(--ds-color-background-muted);
+}
+
+.wireframeImage {
+  object-fit: cover;
+  opacity: 0.42;
+}
+
+.wireframeCopy {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  gap: var(--ds-space-6);
+  padding: var(--ds-space-12);
+  text-align: center;
+}
+
+.wireframeCopy span,
+.wireframeCopy strong,
+.wireframeCopy small {
+  font-family: var(--ds-font-display);
+  font-weight:var(--ds-weight-black);
+  line-height: var(--ds-leading-compact);
+  text-transform: uppercase;
+}
+
+.wireframeCopy span {
+  color: var(--ds-color-text-muted);
+  font-size: var(--ds-text-2xs);
+  letter-spacing: var(--ds-tracking-ultra);
+}
+
+.wireframeCopy strong {
+  color: var(--ds-color-accent-cyan);
+  font-size: var(--ds-text-sm);
+  letter-spacing: var(--ds-tracking-wide);
+}
+
+.wireframeCopy small {
+  color: var(--ds-color-text-subtle);
+  font-size: var(--ds-text-2xs);
+  letter-spacing: var(--ds-tracking-label);
+}
+
+.anchor .wireframeCopy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--ds-space-4) var(--ds-space-8);
+  padding: var(--ds-space-6) var(--ds-space-48) var(--ds-space-6) var(--ds-space-8);
+}
+
+.anchor .wireframeCopy span {
+  width: 100%;
+  font-size: var(--ds-text-nano);
+}
+
+.anchor .wireframeCopy strong,
+.anchor .wireframeCopy small {
+  font-size: var(--ds-text-2xs);
+}
+
+@media (min-width: 48rem) {
+  .horizontal {
+    width: min(100%, 60.625rem);
+    min-height: 5.625rem;
+  }
+
+  .anchor {
+    width: min(100%, 45.5rem);
+    height: 5.625rem;
+  }
+
+  .copy {
+    left: var(--ds-space-20);
+  }
+
+  .copyEyebrow,
+  .copyDetail {
+    font-size: var(--ds-text-2xs);
+  }
+
+  .copyTitle {
+    font-size: var(--ds-text-xl);
+  }
+}
+
+@media (min-width: 64rem) {
+  .desktopOnly {
+    display: block;
+  }
+}

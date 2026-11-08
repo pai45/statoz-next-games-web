@@ -1,0 +1,1 @@
+const [action,...args]=process.argv.slice(2);if(action==='release')await(await import('@statoz/release-core/release')).main(args);else if(action==='transfer')await(await import('@statoz/release-core/transfer')).main(args);else await(await import('@statoz/release-core/launch')).main([action||'dev',...args]);

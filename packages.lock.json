@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "packages": [
+    {
+      "name": "@statoz/contracts",
+      "version": "0.1.0",
+      "file": "vendor/statoz-contracts-0.1.0.tgz",
+      "sha256": "1e5490855a09e4daa763706e761371528cb988322293aa5bb7ba493c0985d4bd",
+      "integrity": "sha512-pThaB4Xs/s2+qUtazMyBprWClcpeLZRsaaYZhD9ksLc/BLRibDLDEDy5Vc1mKMQFg/KQqcxGSKnXK0Pu9VczPw==",
+      "publication": "bootstrap-unpublished"
+    },
+    {
+      "name": "@statoz/design-system",
+      "version": "0.1.0",
+      "file": "vendor/statoz-design-system-0.1.0.tgz",
+      "sha256": "2ccdff7eafca8c5a4f9b63513b96cda5d17dc250022b3ebfb9aff5a0ac88df6d",
+      "integrity": "sha512-maPmE2jLk4gdGYU5GQttgsSKvyuj4s5HUy4kW2bL6dNHQWZsz8xiCvdZdC8jiMNXzRJ4OmpQGDM4bamZuBKjrQ==",
+      "publication": "bootstrap-unpublished"
+    },
+    {
+      "name": "@statoz/game-host-sdk",
+      "version": "0.1.0",
+      "file": "vendor/statoz-game-host-sdk-0.1.0.tgz",
+      "sha256": "0ad0b6097d05efec696dffdb0ad1df11e333467e7bb3824d3f94b9d4ca59b8a2",
+      "integrity": "sha512-3EI2eLvYMcK4HGgfHzzAyDLRF1cRe3hqQcWFSJzi784A28KcEkf0DCGeRud+otatKtnmwFfEAhbFlXblUd79AA==",
+      "publication": "bootstrap-unpublished"
+    },
+    {
+      "name": "@statoz/release-core",
+      "version": "0.1.0",
+      "file": "vendor/statoz-release-core-0.1.0.tgz",
+      "sha256": "13617b6b9628b35a94f8930df871305c5f33d07bbb2ee4136284527a07521e52",
+      "integrity": "sha512-OCZ/+2L//TdgULd6J1xt4LxwoAkaU9hAiA/GSnEwYd8WQSk199jPkgoCA0pX4n8zhVHsUroIi9NQAcKpaxuImA==",
+      "publication": "bootstrap-unpublished"
+    }
+  ]
+}

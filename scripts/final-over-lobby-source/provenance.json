@@ -1,0 +1,20 @@
+{
+  "type": "original-authored-pixel-vectors",
+  "revision": "compact-athletic",
+  "date": "2026-10-16",
+  "references": [
+    "User-provided cricket-gameplay-loop (1).gif: composition and timing only",
+    "User-provided cricket-gameplay-loop.gif: timing only",
+    "User-supplied retro batsman image: silhouette, kit and guard inspiration only"
+  ],
+  "referenceUsage": "No copied GIF frames, AI-generated images, embedded bitmaps or third-party character sprites.",
+  "batsman": "Original anonymous right-handed compact athletic navy/cyan cricketer",
+  "bowler": "Original anonymous right-arm amber/navy cricketer; fixed-size simplified distance poses",
+  "runtime": "192x256 / 360 frames / 30 fps / silent",
+  "events": {
+    "release": 114,
+    "bounce": 125,
+    "contact": 132
+  },
+  "armClearance": "Authored guard/backlift and behind-shoulder blade depth; all poses checked outside the shared grip."
+}

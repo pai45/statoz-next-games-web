@@ -1,0 +1,26 @@
+STATOZ GAMEPLAY PREVIEW CREDITS
+
+These silent eight-second clips were recorded from the local games using Playwright, then resized and color graded with FFmpeg. No third-party video or music was downloaded. Original game source notices remain in the game-owned PROVENANCE.json files referenced by PROVENANCE.json in this folder.
+
+CRICKETER AND YORKER CHARACTER CREDIT
+Virat Kohli Cricket Batting Animation - Low Poly by bhagathartworks
+https://sketchfab.com/3d-models/virat-kohli-cricket-batting-animation-low-poly-a21f5e7ee14f4b6aa5cf6c94a1016932
+Licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+Game adaptations include fictional kits, replaced materials, independently authored details and animation/rig integration; the videos show those adapted game versions, with edited framing and contrast/saturation. No athlete endorsement is implied. See /games/cricketer/PROVENANCE.json and /games/yorker/PROVENANCE.json for complete asset credits and adaptation details.
+
+OTHER GAME NOTICES
+cricketer: /games/cricketer/PROVENANCE.json, /games/cricketer/provenance.json
+f1-racing: /games/f1-racing/PROVENANCE.json, /games/f1-racing/provenance.json
+football-chess: Original procedural game visuals; see game documentation.
+grand-prix-dash: /assets/games/grand-prix-dash/PROVENANCE.json
+holdover: /games/holdover/PROVENANCE.json, /games/holdover/provenance.json
+hoop-legacy: Original procedural game visuals; see game documentation.
+longbow: /games/longbow/PROVENANCE.json, /games/longbow/provenance.json
+open-golf: Original procedural game visuals; see game documentation.
+penalty-cup: /games/penalty-cup/PROVENANCE.json, /games/penalty-cup/provenance.json
+pitch-duel: /games/pitch-duel/PROVENANCE.json, /games/pitch-duel/provenance.json
+pitch-rush: Original procedural game visuals; see game documentation.
+portfolio-formula: Original procedural game visuals; see game documentation.
+rim-rush: /games/rim-rush/PROVENANCE.json, /games/rim-rush/provenance.json
+vibe-basketball: Original procedural game visuals; see game documentation.
+yorker: /games/yorker/PROVENANCE.json, /games/yorker/provenance.json

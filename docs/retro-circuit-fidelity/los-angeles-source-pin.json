@@ -1,0 +1,281 @@
+{
+  "build": "0.8.1-render-state-fix",
+  "rules": 106,
+  "files": [
+    {
+      "file": "src/features/games/retro-circuit/art.ts",
+      "bytes": 4793,
+      "sha256": "3fd8cade0206ea02c5e9f0b3009e5bb4e5494fd1488aac5b9cb4e08e18ccb6e4"
+    },
+    {
+      "file": "src/features/games/retro-circuit/audio.ts",
+      "bytes": 4865,
+      "sha256": "5cbeca1829e364d7cc446fbdd102fee419fa588c59300f9b3a564f94777e59f3"
+    },
+    {
+      "file": "src/features/games/retro-circuit/car-family.ts",
+      "bytes": 11879,
+      "sha256": "0fbc17bf1e48f88eda2fb1e5398b8a07c1bf2d6df7255e435edb65d22159041f"
+    },
+    {
+      "file": "src/features/games/retro-circuit/circuit.css",
+      "bytes": 25656,
+      "sha256": "0843d715271a73adcfae3389d6d72ccaa1a3da1c344b7d45ffc59e2199f73187"
+    },
+    {
+      "file": "src/features/games/retro-circuit/data.ts",
+      "bytes": 10141,
+      "sha256": "5f463cecc42de6276488e8522a2b2e073d329b4b354e8e7928379e49b79a0378"
+    },
+    {
+      "file": "src/features/games/retro-circuit/definition.ts",
+      "bytes": 535,
+      "sha256": "74a34199d9807b5736c877c350179fea09a42c0dbea0db8f06019d54f3a1ffa6"
+    },
+    {
+      "file": "src/features/games/retro-circuit/detailed-art.ts",
+      "bytes": 2827,
+      "sha256": "30775f91e9ab74a8fee35916f29ef5018279b71016cd15aa95d041db3b7f5d01"
+    },
+    {
+      "file": "src/features/games/retro-circuit/driver.ts",
+      "bytes": 2010,
+      "sha256": "2edde00bd8e1823a54642bf43b56890a668755cee1457fa6d96639a0f2869b8f"
+    },
+    {
+      "file": "src/features/games/retro-circuit/environment-art.ts",
+      "bytes": 18619,
+      "sha256": "227079f0bd9f22a54d23e8ecc1bef0669d999b891d7c3e22c8b0ce0e0de5a887"
+    },
+    {
+      "file": "src/features/games/retro-circuit/fidelity.ts",
+      "bytes": 2315,
+      "sha256": "32fd5e60fdd7ee046dbabe9c07c1857e4e14bbc4c5ce2f50f54590778a370c53"
+    },
+    {
+      "file": "src/features/games/retro-circuit/frame-timing.ts",
+      "bytes": 399,
+      "sha256": "5899d0d70339c028158824989bdf0980fc674efe860357239edb60fc0d199078"
+    },
+    {
+      "file": "src/features/games/retro-circuit/index.ts",
+      "bytes": 200,
+      "sha256": "f5ca8537927b2b394481b371272d3fb56d7b7753ad2f63102ec2949b93b95db0"
+    },
+    {
+      "file": "src/features/games/retro-circuit/los-angeles-art.ts",
+      "bytes": 7060,
+      "sha256": "d4a4d0e8b809a7df191e547fa5a6a65d9f61c840bec5556477ec21728f83d6dc"
+    },
+    {
+      "file": "src/features/games/retro-circuit/menus.ts",
+      "bytes": 10538,
+      "sha256": "46c01900de60c83b1552b3322721f5331540e7f4253b96193be8053e54441f64"
+    },
+    {
+      "file": "src/features/games/retro-circuit/mount.ts",
+      "bytes": 14867,
+      "sha256": "e6d9a7c866b6e997f1b631c97429000f08bdc4a40fea93b75a8753d3158408db"
+    },
+    {
+      "file": "src/features/games/retro-circuit/persistence.ts",
+      "bytes": 5256,
+      "sha256": "6a28741001656b5afa2c44f8bdb112cdef849668b8214dab789b08d2700b99fc"
+    },
+    {
+      "file": "src/features/games/retro-circuit/pixel-ui.ts",
+      "bytes": 2112,
+      "sha256": "5a6c2b28bbf53228409dc3ad002affb22b16da954f72c1686e18f429d462f5bb"
+    },
+    {
+      "file": "src/features/games/retro-circuit/presentation.ts",
+      "bytes": 9507,
+      "sha256": "56fe704679d2be6504a47a7aa5cc497d104f80a490e6d77c95db4f28a2e00842"
+    },
+    {
+      "file": "src/features/games/retro-circuit/projection.ts",
+      "bytes": 3487,
+      "sha256": "300e711b307910f3ca7b4c10626dad4b38cebc1a6803934ee2afefda8ba86a15"
+    },
+    {
+      "file": "src/features/games/retro-circuit/reference-assets.ts",
+      "bytes": 822,
+      "sha256": "b8058a81a8e37cda15f415885c400a6c2ef3214406f2dc726e59b76b52290f0f"
+    },
+    {
+      "file": "src/features/games/retro-circuit/reference-data.ts",
+      "bytes": 189050,
+      "sha256": "4e945fc9d25213494738a6c6070877238697055e9ddefb3636973f4915019e96"
+    },
+    {
+      "file": "src/features/games/retro-circuit/renderer.ts",
+      "bytes": 20799,
+      "sha256": "c5dd2e88669a8e8cc14a247e4ec91e61db5e604a0bb2f232c5e67fdfffc4f09a"
+    },
+    {
+      "file": "src/features/games/retro-circuit/simulation.ts",
+      "bytes": 12321,
+      "sha256": "59fd0c245403e65296c42546ee9510a9c9284e2bc9cf57f7b7d8c78f5baa5c71"
+    },
+    {
+      "file": "src/features/games/retro-circuit/types.ts",
+      "bytes": 2857,
+      "sha256": "536a3425c164fcc71acb2e59fd6c6fd55f0bcb3043448443d31c25ccff6e9aa1"
+    },
+    {
+      "file": "src/features/games/retro-circuit/vegas-course.ts",
+      "bytes": 2081,
+      "sha256": "d370bf120a830406e8eb30e6215436382f11e784c0fa7b13dc564d5ba8b1d70b"
+    }
+  ],
+  "artManifest": {
+    "version": "sunset-hills-original-1.1.0",
+    "authors": "Original code-authored pixel clusters",
+    "editableSource": "los-angeles-art.ts",
+    "reference": "../../fidelity-v6/coastal-source/sources.json",
+    "commercialPixels": false,
+    "traced": false,
+    "sceneApproval": "pending",
+    "assets": [
+      {
+        "id": "panorama",
+        "file": "panorama.png",
+        "width": 1024,
+        "height": 140,
+        "anchor": null,
+        "sha256": "a2e8e802e33cc01227bd82e13f26d1045d44e10389a18ad048e3b73b4a299414",
+        "approval": "reference; pending scene review"
+      },
+      {
+        "id": "palm",
+        "file": "palm.png",
+        "width": 64,
+        "height": 96,
+        "anchor": [
+          32,
+          94
+        ],
+        "sha256": "83beb3ee81a2de4a8900f93e00c075ea48fd271ff00b822deda5b5fa4915cb26",
+        "approval": "reference; pending scene review"
+      },
+      {
+        "id": "round-tree",
+        "file": "round-tree.png",
+        "width": 64,
+        "height": 96,
+        "anchor": [
+          32,
+          94
+        ],
+        "sha256": "deb3dbc36876c13b8ab0d084881baf4322e08d05febf7e2eee818fa39128fc3c",
+        "approval": "reference; pending scene review"
+      },
+      {
+        "id": "rock",
+        "file": "rock.png",
+        "width": 64,
+        "height": 96,
+        "anchor": [
+          32,
+          94
+        ],
+        "sha256": "c4c280fbe16a2533cb88a92456f419836418932cc1b7a85671c71e03f63a5676",
+        "approval": "reference; pending scene review"
+      },
+      {
+        "id": "left-chevron",
+        "file": "left-chevron.png",
+        "width": 64,
+        "height": 96,
+        "anchor": [
+          32,
+          94
+        ],
+        "sha256": "06d8f093ca854b1070c1264f6f749ef49053d1759c25a4a8bfcd7f2aa635da5e",
+        "approval": "reference; pending scene review"
+      },
+      {
+        "id": "right-chevron",
+        "file": "right-chevron.png",
+        "width": 64,
+        "height": 96,
+        "anchor": [
+          32,
+          94
+        ],
+        "sha256": "be1db9f479674a6bab6f587712876d507dfbb9256332bf7fbc524a8234491d2c",
+        "approval": "reference; pending scene review"
+      },
+      {
+        "id": "pit",
+        "file": "pit.png",
+        "width": 64,
+        "height": 96,
+        "anchor": [
+          32,
+          94
+        ],
+        "sha256": "4dfbc74983be9adeba583b6cfa7e1a12535fed374cd6d8e59a0842e2c696beb8",
+        "approval": "reference; pending scene review"
+      },
+      {
+        "id": "lamp",
+        "file": "lamp.png",
+        "width": 64,
+        "height": 96,
+        "anchor": [
+          32,
+          94
+        ],
+        "sha256": "dc760db05df7cc54e41af190f75ca9fa919840f64af39155e81e4d1805a16c26",
+        "approval": "reference; pending scene review"
+      },
+      {
+        "id": "sunset-sign",
+        "file": "sunset-sign.png",
+        "width": 64,
+        "height": 96,
+        "anchor": [
+          32,
+          94
+        ],
+        "sha256": "e9c5d3a8fa2ccc1ece47036d9d45e782690ac82926cff9eed09db447642f96a9",
+        "approval": "reference; pending scene review"
+      }
+    ]
+  },
+  "registration": {
+    "current": [
+      {
+        "file": "contact.png",
+        "assetId": "deaeb2cb-b990-42f8-b89d-03d6923f1aed",
+        "sha256": "74444eb70034cbe7c45b7128f682f6dc2384eeccb869e5056a1a8f0c85865caf",
+        "approval": "reference"
+      },
+      {
+        "file": "panorama.png",
+        "assetId": "2ec4c540-dc3f-4171-9d93-666657bb2bf4",
+        "sha256": "a2e8e802e33cc01227bd82e13f26d1045d44e10389a18ad048e3b73b4a299414",
+        "approval": "reference"
+      }
+    ],
+    "history": [
+      {
+        "file": "contact.png",
+        "assetId": "deaeb2cb-b990-42f8-b89d-03d6923f1aed",
+        "sha256": "74444eb70034cbe7c45b7128f682f6dc2384eeccb869e5056a1a8f0c85865caf",
+        "approval": "reference"
+      },
+      {
+        "file": "panorama.png",
+        "assetId": "2ec4c540-dc3f-4171-9d93-666657bb2bf4",
+        "sha256": "a2e8e802e33cc01227bd82e13f26d1045d44e10389a18ad048e3b73b4a299414",
+        "approval": "reference"
+      }
+    ],
+    "approval": "reference",
+    "productionEligible": false,
+    "manifestSha256": "18e8592322175b51be37ee2cdb3bb2862125dc77ede25de71777b912d8b16472",
+    "importer": "Existing studio POST /api/assets; no licensed-source catalogue changes."
+  }
+}

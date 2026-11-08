@@ -1,0 +1,443 @@
+{
+  "date": "2026-10-31",
+  "title": "Racer - acceleration and braking correction",
+  "scope": "Local only. No publication.",
+  "url": "http://127.0.0.1:3212/play/racer",
+  "buildId": "566de226-ab2a-4c28-a8b3-35a447943e67",
+  "bundleSha256": "923512ed12c477978c96efc0e073d60c2544f40c0c9b2a8b7f52b3281386a6db",
+  "bundleBytes": 1763656,
+  "gridSize": 20,
+  "defaultControls": "Manual: W/up or Gas accelerates; release to coast; S/down or Brake stops. Brake overrides all throttle. Automatic acceleration is optional in Pause.",
+  "fixed": [
+    "Top-speed acceleration oscillation",
+    "Reported speed while movement is blocked in traffic",
+    "Slow sequential CPU grid launch",
+    "Key release after focus changes",
+    "Resume focus allowing Space release to activate Pause",
+    "Accessible keyboard pedal activation and multitouch release ownership"
+  ],
+  "checks": {
+    "productionBuild": "passed",
+    "typecheck": "passed",
+    "lint": "passed; four warnings, including a non-blocking canvas-cleanup dependency warning in Racer",
+    "focusedUnitTests": 28,
+    "fullBrowserRace": "passed: two laps, 16 checkpoints, ordinary keyboard input",
+    "pedalBrowserSessions": 3,
+    "pedalBrowserSamples": 19,
+    "fullSimulationModes": [
+      "manual",
+      "automatic",
+      "manual-coasting"
+    ],
+    "mobileLayouts": [
+      "851x393",
+      "667x375",
+      "568x320"
+    ],
+    "physicalDeviceTested": false
+  },
+  "browserReports": {
+    "checks.json": [
+      "Authored 3D Racer opens with recovered meshes and no native Unity download or external calls.",
+      "All four desktop steering keys move and render in the correct screen direction; 20 cars are present.",
+      "Analog steering responds and releases; phone landscape controls fit without a surrounding handheld frame.",
+      "Ordinary keyboard steering/braking/boosting finishes two laps, records checkpoints, result and personal best. Automated play is not human acceptance.",
+      "Reload restores Racer progress; a second account has independent progress.",
+      "Host disposal unmounts the renderer and control listeners."
+    ],
+    "mobile-controls.json": [
+      "Two fingers can steer and boost together; cancellation clears both inputs.",
+      "Larger controls fit 851\u00d7393, 667\u00d7375 and 568\u00d7320; manual acceleration keeps telemetry clear.",
+      "Quick Race remains fully visible on the smallest tested landscape screen."
+    ],
+    "app-checks.json": [
+      "Production catalogue launches RACER at /play/racer with the new cover and no nested native client.",
+      "Production play/pause and sport-page exit work through the account-owned host.",
+      "The old /play/f1-racing address launches Racer compatibly.",
+      "A portrait phone enters the real app landscape surface with the enlarged touch controls."
+    ],
+    "motion-video.json": []
+  },
+  "pedalReports": {
+    "reports": [
+      {
+        "name": "desktop-manual",
+        "samples": [
+          {
+            "label": "no pedal after lights",
+            "time": 0.3250000000000002,
+            "speed": 0,
+            "progress": -30.9951758794557,
+            "input": {
+              "steer": 0,
+              "brake": false,
+              "boost": false,
+              "gas": false
+            },
+            "options": {
+              "autoAccelerate": false,
+              "sensitivity": 1
+            },
+            "boosting": false,
+            "status": "racing"
+          },
+          {
+            "label": "W held",
+            "time": 1.333333333333331,
+            "speed": 20.646637474040542,
+            "progress": -20.159855156518006,
+            "input": {
+              "steer": 0,
+              "brake": false,
+              "boost": false,
+              "gas": true
+            },
+            "options": {
+              "autoAccelerate": false,
+              "sensitivity": 1
+            },
+            "boosting": false,
+            "status": "racing"
+          },
+          {
+            "label": "W released",
+            "time": 1.7083333333333297,
+            "speed": 19.97098208795537,
+            "progress": -12.467158760258144,
+            "input": {
+              "steer": 0,
+              "brake": false,
+              "boost": false,
+              "gas": false
+            },
+            "options": {
+              "autoAccelerate": false,
+              "sensitivity": 1
+            },
+            "boosting": false,
+            "status": "racing"
+          },
+          {
+            "label": "gas and brake held",
+            "time": 3.57499999999999,
+            "speed": 0,
+            "progress": 5.500364933540519,
+            "input": {
+              "steer": 0,
+              "brake": true,
+              "boost": false,
+              "gas": true
+            },
+            "options": {
+              "autoAccelerate": false,
+              "sensitivity": 1
+            },
+            "boosting": false,
+            "status": "racing"
+          },
+          {
+            "label": "brake holds at standstill",
+            "time": 3.883333333333322,
+            "speed": 0,
+            "progress": 5.500364933540519,
+            "input": {
+              "steer": 0,
+              "brake": true,
+              "boost": false,
+              "gas": true
+            },
+            "options": {
+              "autoAccelerate": false,
+              "sensitivity": 1
+            },
+            "boosting": false,
+            "status": "racing"
+          },
+          {
+            "label": "brake released while gas remains held",
+            "time": 4.441666666666677,
+            "speed": 11.69220129440667,
+            "progress": 8.739125265517748,
+            "input": {
+              "steer": 0,
+              "brake": false,
+              "boost": false,
+              "gas": true
+            },
+            "options": {
+              "autoAccelerate": false,
+              "sensitivity": 1
+            },
+            "boosting": false,
+            "status": "racing"
+          },
+          {
+            "label": "gas released after focus changes",
+            "time": 4.466666666666678,
+            "speed": 12.20994853926052,
+            "progress": 9.03779609031471,
+            "input": {
+              "steer": 0,
+              "brake": false,
+              "boost": false,
+              "gas": false
+            },
+            "options": {
+              "autoAccelerate": false,
+              "sensitivity": 1
+            },
+            "boosting": false,
+            "status": "racing"
+          },
+          {
+            "label": "keyboard activation of brake button",
+            "time": 5.025000000000039,
+            "speed": 0,
+            "progress": 11.789746327826887,
+            "input": {
+              "steer": 0,
+              "brake": true,
+              "boost": false,
+              "gas": false
+            },
+            "options": {
+              "autoAccelerate": false,
+              "sensitivity": 1
+            },
+            "boosting": false,
+            "status": "racing"
+          },
+          {
+            "label": "brake button key released",
+            "time": 5.041666666666707,
+            "speed": 0,
+            "progress": 11.789746327826887,
+            "input": {
+              "steer": 0,
+              "brake": false,
+              "boost": false,
+              "gas": false
+            },
+            "options": {
+              "autoAccelerate": false,
+              "sensitivity": 1
+            },
+            "boosting": false,
+            "status": "racing"
+          }
+        ],
+        "errors": []
+      },
+      {
+        "name": "desktop-automatic",
+        "samples": [
+          {
+            "label": "auto accelerates",
+            "time": 1.274999999999998,
+            "speed": 19.113014045132758,
+            "progress": -21.833615972476764,
+            "input": {
+              "steer": 0,
+              "brake": false,
+              "boost": false,
+              "gas": false
+            },
+            "options": {
+              "autoAccelerate": true,
+              "sensitivity": 1
+            },
+            "boosting": false,
+            "status": "racing"
+          },
+          {
+            "label": "brake overrides auto gas and boost",
+            "time": 2.783333333333326,
+            "speed": 0,
+            "progress": -16.52692535430947,
+            "input": {
+              "steer": 0,
+              "brake": true,
+              "boost": true,
+              "gas": true
+            },
+            "options": {
+              "autoAccelerate": true,
+              "sensitivity": 1
+            },
+            "boosting": false,
+            "status": "racing"
+          },
+          {
+            "label": "auto cannot defeat held brake",
+            "time": 3.0916666666666583,
+            "speed": 0,
+            "progress": -16.52692535430947,
+            "input": {
+              "steer": 0,
+              "brake": true,
+              "boost": true,
+              "gas": true
+            },
+            "options": {
+              "autoAccelerate": true,
+              "sensitivity": 1
+            },
+            "boosting": false,
+            "status": "racing"
+          },
+          {
+            "label": "auto resumes after brake release",
+            "time": 3.716666666666656,
+            "speed": 13.236726721877687,
+            "progress": -12.329922163189622,
+            "input": {
+              "steer": 0,
+              "brake": false,
+              "boost": false,
+              "gas": false
+            },
+            "options": {
+              "autoAccelerate": true,
+              "sensitivity": 1
+            },
+            "boosting": false,
+            "status": "racing"
+          },
+          {
+            "label": "resume has no stuck pedal",
+            "time": 3.7749999999999893,
+            "speed": 12.16011942832697,
+            "progress": -11.593807310831153,
+            "input": {
+              "steer": 0,
+              "brake": false,
+              "boost": false,
+              "gas": false
+            },
+            "options": {
+              "autoAccelerate": true,
+              "sensitivity": 1
+            },
+            "boosting": false,
+            "status": "racing"
+          }
+        ],
+        "errors": []
+      },
+      {
+        "name": "mobile-multitouch",
+        "samples": [
+          {
+            "label": "touch gas held",
+            "time": 1.63333333333333,
+            "speed": 20.03877189237766,
+            "progress": -20.845443440958206,
+            "input": {
+              "steer": 0,
+              "brake": false,
+              "boost": false,
+              "gas": true
+            },
+            "options": {
+              "autoAccelerate": false,
+              "sensitivity": 1
+            },
+            "boosting": false,
+            "status": "racing"
+          },
+          {
+            "label": "three fingers gas brake steering",
+            "time": 2.974999999999992,
+            "speed": 0,
+            "progress": -14.034133549797843,
+            "input": {
+              "steer": 0.5555556016267786,
+              "brake": true,
+              "boost": false,
+              "gas": true
+            },
+            "options": {
+              "autoAccelerate": false,
+              "sensitivity": 1
+            },
+            "boosting": false,
+            "status": "racing"
+          },
+          {
+            "label": "touch cancellation",
+            "time": 3.3083333333333242,
+            "speed": 0,
+            "progress": -14.034133549797843,
+            "input": {
+              "steer": 0,
+              "brake": false,
+              "boost": false,
+              "gas": false
+            },
+            "options": {
+              "autoAccelerate": false,
+              "sensitivity": 1
+            },
+            "boosting": false,
+            "status": "racing"
+          },
+          {
+            "label": "touch gas works after interruption",
+            "time": 3.9666666666666552,
+            "speed": 13.236726721877687,
+            "progress": -9.874401254491886,
+            "input": {
+              "steer": 0,
+              "brake": false,
+              "boost": false,
+              "gas": true
+            },
+            "options": {
+              "autoAccelerate": false,
+              "sensitivity": 1
+            },
+            "boosting": false,
+            "status": "racing"
+          },
+          {
+            "label": "touch gas release",
+            "time": 4.149999999999996,
+            "speed": 13.561040968940583,
+            "progress": -7.372032950537459,
+            "input": {
+              "steer": 0,
+              "brake": false,
+              "boost": false,
+              "gas": false
+            },
+            "options": {
+              "autoAccelerate": false,
+              "sensitivity": 1
+            },
+            "boosting": false,
+            "status": "racing"
+          }
+        ],
+        "errors": []
+      }
+    ],
+    "physicalDevice": false,
+    "method": "Three independent Chrome sessions; real keyboard, focused button keyboard activation, and CDP multitouch. Ordinary inputs only."
+  },
+  "desktopFrameTiming": {
+    "samples": 360,
+    "medianFrameMs": 13.300000000017462,
+    "p95FrameMs": 13.5,
+    "drawCalls": 351,
+    "vehicleBatches": 9
+  },
+  "motionClip": {
+    "clip": "test-results\\racer\\silverstone-motion.mp4",
+    "sha256": "f8fa6abc65b44ccd0ea3eec63a466b94f7c9562a18c3b11ae83830ffefb4087c",
+    "bytes": 2765608,
+    "decode": "passed",
+    "durationSeconds": 10,
+    "outputFps": 30,
+    "method": "Browser compositor capture; ordinary live driving. Export frame rate is not a measurement of native game frame rate."
+  }
+}

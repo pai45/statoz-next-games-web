@@ -1,0 +1,313 @@
+/*
+ * One card's reveal, stage by stage.
+ *
+ * Flutter chains an AnimationController per stage and rebuilds the tree on
+ * every tick. Here each stage is a keyframe animation with a delay measured
+ * from the start of its phase, so the whole pack half of the sequence runs
+ * without React re-rendering once.
+ *
+ * Durations mirror features/packs/constants.ts; the two are read side by side.
+ */
+
+/* ── Pack: slide in, breathe, rattle ────────────────────────────────────── */
+
+.pack {
+  animation:
+    pack-enter 400ms cubic-bezier(0.34, 1.56, 0.64, 1) both,
+    pack-pulse 400ms ease-in-out 400ms both,
+    pack-shake 300ms linear 800ms both;
+}
+
+@keyframes pack-enter {
+  from {
+    transform: translateY(150%);
+  }
+  to {
+    transform: none;
+  }
+}
+
+@keyframes pack-pulse {
+  0%,
+  100% {
+    scale: 1;
+  }
+  50% {
+    scale: 1.05;
+  }
+}
+
+/* Nine damping steps, straight from the Flutter TweenSequence. */
+@keyframes pack-shake {
+  0% {
+    translate: 0;
+    rotate: 0deg;
+  }
+  11% {
+    translate: -12px;
+    rotate: -2.3deg;
+  }
+  22% {
+    translate: 12px;
+    rotate: 2.3deg;
+  }
+  33% {
+    translate: -10px;
+    rotate: -1.9deg;
+  }
+  44% {
+    translate: 10px;
+    rotate: 1.9deg;
+  }
+  55% {
+    translate: -6px;
+    rotate: -1.1deg;
+  }
+  67% {
+    translate: 6px;
+    rotate: 1.1deg;
+  }
+  78% {
+    translate: -3px;
+    rotate: -0.6deg;
+  }
+  89% {
+    translate: 3px;
+    rotate: 0.6deg;
+  }
+  100% {
+    translate: 0;
+    rotate: 0deg;
+  }
+}
+
+/* The pack's own bloom swells with its breath. */
+.packGlow {
+  animation: pack-glow 400ms ease-in-out 400ms both;
+}
+
+@keyframes pack-glow {
+  0%,
+  100% {
+    filter: blur(8px);
+    opacity: 0.7;
+  }
+  50% {
+    filter: blur(24px);
+    opacity: 1;
+  }
+}
+
+/* ── The white-out ──────────────────────────────────────────────────────── */
+
+.flash {
+  animation: flash-out 150ms linear both;
+}
+
+@keyframes flash-out {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* ── Card: flip, settle, hover ──────────────────────────────────────────── */
+
+.flipper {
+  transform-style: preserve-3d;
+  animation: card-flip 600ms ease-in-out both;
+}
+
+@keyframes card-flip {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(180deg);
+  }
+}
+
+.face {
+  backface-visibility: hidden;
+}
+
+.faceFront {
+  transform: rotateY(180deg);
+}
+
+/*
+ * The settle and the glow run on one element because they share a clock; the
+ * levitation runs on its parent because it loops on a different one.
+ */
+.settle {
+  animation:
+    card-settle 450ms linear 600ms both,
+    card-glow 450ms linear 600ms both;
+}
+
+@keyframes card-settle {
+  0% {
+    scale: 1;
+  }
+  44.4% {
+    scale: 1.15;
+  }
+  77.8% {
+    scale: 0.95;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+@keyframes card-glow {
+  0% {
+    box-shadow: 0 0 0 2px transparent;
+  }
+  50% {
+    box-shadow: 0 0 60px 2px var(--reveal-glow);
+  }
+  100% {
+    box-shadow: 0 0 20px 2px var(--reveal-glow-rest);
+  }
+}
+
+.idle {
+  animation:
+    card-levitate 2000ms ease-in-out infinite alternate,
+    card-idle-glow 2000ms ease-in-out infinite alternate;
+}
+
+@keyframes card-levitate {
+  from {
+    translate: 0 0;
+  }
+  to {
+    translate: 0 -8px;
+  }
+}
+
+@keyframes card-idle-glow {
+  from {
+    box-shadow: 0 0 20px 2px var(--reveal-glow-rest);
+  }
+  to {
+    box-shadow: 0 0 35px 2px var(--reveal-glow);
+  }
+}
+
+.dismissing {
+  animation: card-dismiss 300ms cubic-bezier(0.42, 0, 1, 1) both;
+}
+
+@keyframes card-dismiss {
+  from {
+    scale: 1;
+    opacity: 1;
+  }
+  to {
+    scale: 0;
+    opacity: 0;
+  }
+}
+
+/* ── The rarity word ────────────────────────────────────────────────────── */
+
+.rarityTitle {
+  animation: rarity-drop 300ms cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  animation-delay: var(--rarity-delay);
+}
+
+@keyframes rarity-drop {
+  from {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Platinum alone gets a shine across the word, and only twice. */
+.shimmer {
+  background-image: linear-gradient(
+    100deg,
+    transparent 40%,
+    color-mix(in srgb, var(--ds-color-text-default) 60%, transparent) 50%,
+    transparent 60%
+  );
+  background-size: 300% 100%;
+  background-repeat: no-repeat;
+  background-clip: text;
+  animation: title-shimmer 800ms linear 2 both;
+  animation-delay: var(--shimmer-delay);
+}
+
+@keyframes title-shimmer {
+  from {
+    background-position: 150% 0;
+  }
+  to {
+    background-position: -150% 0;
+  }
+}
+
+/* ── The OVR slam ───────────────────────────────────────────────────────── */
+
+.ovrPop {
+  animation:
+    ovr-slam 750ms cubic-bezier(0, 0, 0.58, 1) var(--ovr-delay) both,
+    ovr-fade 260ms linear var(--ovr-fade-delay) both;
+}
+
+@keyframes ovr-slam {
+  0% {
+    opacity: 0;
+    scale: 1.7;
+  }
+  6% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+@keyframes ovr-fade {
+  to {
+    opacity: 0;
+  }
+}
+
+/* ── Skip and dismiss affordances ───────────────────────────────────────── */
+
+.tapHint {
+  animation: tap-breathe 1200ms ease-in-out infinite alternate;
+}
+
+@keyframes tap-breathe {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.4;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pack,
+  .packGlow,
+  .settle,
+  .rarityTitle,
+  .shimmer,
+  .ovrPop {
+    animation-delay: 0ms;
+  }
+}

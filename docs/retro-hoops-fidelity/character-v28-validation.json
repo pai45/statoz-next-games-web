@@ -1,0 +1,130 @@
+{
+  "gameId": "retro-hoops",
+  "agent": "street_hoop_artist (executed inline by the parent session)",
+  "skill": "street-hoop-assets",
+  "build": "character-v28-local",
+  "assets": "28.0.0",
+  "rules": "2.1.0",
+  "scope": "held shot follow-through and one-arm block",
+  "changes": [
+    "Shot follow-through: post-release hands hold the extended release position until tick 36, then lower to the chest by tick 50 (was lowering from tick 26). Post-release hands are cosmetic (the ball is in flight).",
+    "Block jump: near arm straight up, far arm out at shoulder height during the rise, both lowering on the descent. Block contact is computed by the simulation, not the drawn hands.",
+    "Catch-overhead and reach poses that hold the ball are unchanged.",
+    "Teammate body/skin variety assessed and not adopted: the body atlases use ~88 MB of texture memory (2304x4096 x2 + 2304x1792 RGBA); three variants per team would need ~260 MB, too much for phones. Heads remain per identity."
+  ],
+  "research": [],
+  "checks": {
+    "pipelineSteps": {
+      "art": "passed",
+      "bundle": "passed",
+      "console": "passed",
+      "contract": "passed",
+      "fidelity": "passed",
+      "host": "passed",
+      "lint": "passed",
+      "motion-build": "passed",
+      "motion-capture": "passed",
+      "motion-encode": "passed",
+      "pack": "passed",
+      "rules-tests": "passed",
+      "static-build": "passed",
+      "typecheck": "passed",
+      "wire": "passed"
+    },
+    "rulesInputAndIntegrationTests": 86,
+    "assetIntegrity": 13,
+    "rigContract": {
+      "frames": 2276,
+      "ballHoldingHandEndpointsUnchanged": true,
+      "freeHandClips": [
+        "backpedal",
+        "defend",
+        "jump-block",
+        "neutral-a",
+        "neutral-b",
+        "run",
+        "s-follow"
+      ],
+      "freeHandFramesChanged": 136,
+      "dunkPoses": 104,
+      "maxReach": 40.80441152620633,
+      "dribbleOverlayShoulderMatches": 12,
+      "dribbleBallMatchesSimulationPath": 108,
+      "changedAnchorKinds": {
+        "hands": 136,
+        "elbows": 136
+      },
+      "scope": "V28 vs V27: foot origin and every ball-holding hand endpoint unchanged; dribble-ball anchors equal the simulation dribble path; dunk shoulders/elbows unchanged and reachable. Non-ball ready/defend hands may be re-authored."
+    },
+    "productionActionLoops": 16,
+    "decodedVideos": 16,
+    "hostFlow": 6,
+    "mobileConsole": 12,
+    "lint": "passed (1 unrelated retro-circuit warning)",
+    "typecheck": "passed",
+    "staticBuild": "passed"
+  },
+  "pack": {
+    "bodyFrameEntries": 2276,
+    "distinctBodyFrames": 1198,
+    "headFrameEntries": 36,
+    "atlasPages": 3,
+    "referenceRasterInputs": 0,
+    "previousPackPreserved": true
+  },
+  "correctionRecord": "test-results/retro-hoops-character-v28/correction-record.json",
+  "fidelityMatrix": [
+    {
+      "feature": "Shot follow-through",
+      "status": "approximate",
+      "review": "Arm held up through the descent like the reference."
+    },
+    {
+      "feature": "Block jump",
+      "status": "approximate",
+      "review": "One-arm reach like the observed blockers."
+    },
+    {
+      "feature": "Native timing, input windows, hidden AI",
+      "status": "unverified",
+      "review": "Not recovered."
+    }
+  ],
+  "review": {
+    "structural": "passed",
+    "visual": "Two reference-motion refinements: the released shooting arm now stays fully extended through the descent (tick 26 to 36) before lowering over 14 ticks, and the block jump reaches up with one straight arm while the other stays out at shoulder height, as Street Hoop blockers do.",
+    "gameplay": "Simulation/AI/input untouched; 86 tests pass.",
+    "sourceLikenessApproved": false,
+    "exactLikenessAchieved": false,
+    "nativeTimingRecovered": false,
+    "physicalDeviceTested": false,
+    "limitations": [
+      "Shot arm folds briefly over the head mid-lowering (transitional frames 18-21).",
+      "Pass reads as an overhead outlet pass; a chest-pass variant would need new simulation anchors.",
+      "Street Hoop changes venue by matchup; Retro Hoops keeps the shared reference venue.",
+      "Bodies stay per team (memory budget); native timing and physical devices unverified."
+    ]
+  },
+  "hashes": {
+    "scripts/retro_hoops_character.py": "d0232b0d036e23768ec4de75e33514a948153a67efcd0dcdfd92d91e1a82aba6",
+    "scripts/retro_hoops_volume.py": "83cb5d769ca7667ab4dfb9df8023f47bac5df724537e07c97748a310d9d38524",
+    "scripts/build-retro-hoops-authored.py": "1211d706b8622db827fb46bdea50969fdd947cd0fc5f8a1e55963cf64b9ed16d",
+    "src/features/games/retro-hoops/contact-arm.ts": "5c49e58741a260a985cad2c476344777916acf1aa15e57e6e4edf72f26d165aa",
+    "src/features/games/retro-hoops/view.ts": "96403e0178bbb98c70b4efbe9b5650f1f766b86851a234e9f7fc736260d78778",
+    "src/features/games/retro-hoops/renderer.ts": "9202e82365872589a272c88ea2a9a78a0c84003e2e1c07201fcdfdefea9f5d78",
+    "src/features/games/retro-hoops/presentation.ts": "5fe50638805999ecadba35eb43a61177d23b923fc7a75aa2683b297f7729afd6",
+    "src/features/games/retro-hoops/court.ts": "c8b9b23daa96cb744f00ac9d312a78cfec06c96ec46d956d0aa578d076d80e34",
+    "src/features/games/retro-hoops/crowd.ts": "83efab4569bca191bcf4174928cbac7c474110e865967c70d49666e50e552907",
+    "src/features/games/retro-hoops/character-pack.ts": "1f7d736e0a7e6f41c93e3f2048117efcbab4a09defb7ebb94bd74b39830834bf",
+    "src/features/games/retro-hoops/reference-profile.ts": "30bcb06cf8f692e18ab95fd06c091ee88debbdd006a992f4f896d01b04c924c8",
+    "public/games/retro-hoops/authored-v28/manifest.json": "aa4e3f5d9dc4bd3794d6382d96e5f6ee87bd69e22a103628df986c3d8a7e0574",
+    "public/games/retro-hoops/credits.json": "4735f7f5e51229f7cacb49021914123e0c4f3cc09c3b850bcac15769d47f6c70",
+    "public/embedded-games/retro-hoops/index.html": "9d5b380e4fe786409b032515edc10f9591d2559b0fd3246f4a9f6a5f32000a30"
+  },
+  "release": {
+    "localOnly": true,
+    "pushed": false,
+    "published": false,
+    "pipelineActivated": false
+  }
+}

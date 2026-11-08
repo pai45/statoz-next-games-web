@@ -1,0 +1,19 @@
+# Retro Circuit — Future Games Web enhancement
+
+Integrated locally on 2026-10-20, game 0.4.0-demo / rules102. Source: Designer source-race-v2, with Future Games account, four-car and audio integration. This update supersedes the original-art/source-exclusion descriptions in the historical retro-circuit.md below.
+
+The actual launcher uses the self-contained offline bundle at public/embedded-games/retro-circuit/index.html through BundledGame. The bundle is rebuilt from the maintained src/features/games/retro-circuit source. It contains three selectable tracks with independent geometry, continuous hills, crest occlusion, six hazards including staggered roadworks, faster acceleration, anticipatory seeded rivals, additional observed purple/orange poses, grid lights/GO and a receding-car/place-stamp finish. The DNF road remains stationary. Landscape keeps steering left and pedals/nitro right.
+
+Four selectable cars and the previous original synthesized music/SFX remain; settings expose separate toggles. White-only source pit imagery appears only for the white car. Other selected cars retain their behind-car refuelling view and fuel/departure HUD. Full black turn art and some orange poses remain unfinished. Audio listening and physical Android/iPhone acceptance are not established by automated checks.
+
+New layouts use statoz.games.web.retro-circuit:v2. Existing v1 bytes remain untouched: settings migrate, old route records do not mix into the new leaderboard. Both keys participate in local-account switching; iframe saves remain in the existing per-profile/game host store. Practice/DNF do not award leaderboard records or shared rewards.
+
+Demo asset boundary: original scenery is code-authored in environment-art.ts. Nineteen commercial car/pit reference PNGs, URLs, hashes, contour/crop metadata and notices are pinned in public/games/retro-circuit/reference. These are temporary demo/UI-reference assets, not original StatOz car art or cleared production assets. No source audio, ROM or longplay video is bundled. Source-native timing, physics and AI were not recovered. ASSET-REPLACEMENTS.md records replacement before production.
+
+Build only this game with node scripts/build-game-bundles.mjs --game=retro-circuit. The maintained asset generator validates hashes and embeds the same checked-in PNG bytes into the runtime; it has no dependency on Designer. Selected builds preserve other game entries and bundle files. Existing owner changes to football, cricket and hoops are preserved. Future Games Flutter still has its previously imported bytes until a separate explicit import/build. Current StatOz, Future Sports and Flutter projects are outside this change.
+
+Validation: all 113 repository tests pass, including28 Circuit checks and all12 car/track completions around207–224 seconds with a useful pit stop. Repository typecheck/lint, production build and local Pages-style static export pass. Browser evidence covers actual offline iframe, short568x320 menu, three tracks/car selection, keyboard acceleration, simultaneous emulated touch/cancellation, host session validation/pause/resume/dispose, legacy save preservation, audio settings and exit. Actual static-app launch/restart/exit is recorded separately.
+
+An integration review found white-only pit imagery on other cars, corrected with the bounded fallback above. Existing finish-line coverage caught a stopped-frame crossing regression; trapezoid movement and within-step finish interpolation now preserve the crossing. Browser checks caught a global postMessage wrapper changing the incumbent message source; Retro Circuit now keeps native postMessage for authenticated parent commands. Other games retain their previous wrapper behavior.
+
+Evidence: Designer output/retro-circuit/future-games-integration and this repository's tests. No push, remote pipeline, deployment or Flutter import performed. Physical-device controls, frame times and audio acceptance remain open.

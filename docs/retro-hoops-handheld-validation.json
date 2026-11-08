@@ -1,0 +1,522 @@
+{
+  "scope": "Future Games Web only",
+  "rulesVersion": "1.3.0",
+  "motionVersion": "1.0.0",
+  "presentation": "future-games-handheld-v1",
+  "viewport": [
+    640,
+    360
+  ],
+  "world": [
+    900,
+    360
+  ],
+  "tests": {
+    "retroHoops": 42,
+    "retroCircuit": 16,
+    "productCatalog": 1
+  },
+  "requiredChecks": {
+    "retroCircuit": 0,
+    "build": 0,
+    "lint": 0,
+    "typecheck": 0,
+    "retroHoops": 0,
+    "catalog": 0
+  },
+  "browserChecks": [
+    {
+      "name": "Console fits 844x390 without scrolling or clipped controls",
+      "passed": true,
+      "layout": {
+        "overflow": false,
+        "canvas": {
+          "x": 151,
+          "y": 40,
+          "width": 562,
+          "height": 324
+        },
+        "controls": [
+          {
+            "label": "Move up",
+            "x": 55,
+            "y": 144.5,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "Move left",
+            "x": 11,
+            "y": 188.5,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "Move right",
+            "x": 99,
+            "y": 188.5,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "Move down",
+            "x": 55,
+            "y": 232.5,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "Shoot or block",
+            "x": 751.984375,
+            "y": 129.5,
+            "w": 50,
+            "h": 50
+          },
+          {
+            "label": "Pass or steal",
+            "x": 752,
+            "y": 207.5,
+            "w": 50,
+            "h": 50
+          }
+        ]
+      }
+    },
+    {
+      "name": "Simultaneous movement/action and cancelled touch release visual/input holds",
+      "passed": true,
+      "trace": [
+        {
+          "type": "pointerdown",
+          "id": 2
+        },
+        {
+          "type": "pointerdown",
+          "id": 3
+        },
+        {
+          "type": "pointercancel",
+          "id": 2
+        },
+        {
+          "type": "pointercancel",
+          "id": 3
+        }
+      ]
+    },
+    {
+      "name": "Audio modal pauses; native slider keys and Escape work; resume is explicit",
+      "passed": true
+    },
+    {
+      "name": "Browser fullscreen enters/exits from a user action",
+      "passed": true
+    },
+    {
+      "name": "Console fits 915x412 without scrolling or clipped controls",
+      "passed": true,
+      "layout": {
+        "overflow": false,
+        "canvas": {
+          "x": 151,
+          "y": 40,
+          "width": 633,
+          "height": 346
+        },
+        "controls": [
+          {
+            "label": "Move up",
+            "x": 55,
+            "y": 155.5,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "Move left",
+            "x": 11,
+            "y": 199.5,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "Move right",
+            "x": 99,
+            "y": 199.5,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "Move down",
+            "x": 55,
+            "y": 243.5,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "Shoot or block",
+            "x": 822.984375,
+            "y": 140.5,
+            "w": 50,
+            "h": 50
+          },
+          {
+            "label": "Pass or steal",
+            "x": 823,
+            "y": 218.5,
+            "w": 50,
+            "h": 50
+          }
+        ]
+      }
+    },
+    {
+      "name": "Console fits 667x375 without scrolling or clipped controls",
+      "passed": true,
+      "layout": {
+        "overflow": false,
+        "canvas": {
+          "x": 151,
+          "y": 40,
+          "width": 385,
+          "height": 309
+        },
+        "controls": [
+          {
+            "label": "Move up",
+            "x": 55,
+            "y": 137,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "Move left",
+            "x": 11,
+            "y": 181,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "Move right",
+            "x": 99,
+            "y": 181,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "Move down",
+            "x": 55,
+            "y": 225,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "Shoot or block",
+            "x": 574.984375,
+            "y": 122,
+            "w": 50,
+            "h": 50
+          },
+          {
+            "label": "Pass or steal",
+            "x": 575,
+            "y": 200,
+            "w": 50,
+            "h": 50
+          }
+        ]
+      }
+    },
+    {
+      "name": "Console fits 568x320 without scrolling or clipped controls",
+      "passed": true,
+      "layout": {
+        "overflow": false,
+        "canvas": {
+          "x": 151,
+          "y": 40,
+          "width": 286,
+          "height": 254
+        },
+        "controls": [
+          {
+            "label": "Move up",
+            "x": 55,
+            "y": 109.5,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "Move left",
+            "x": 11,
+            "y": 153.5,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "Move right",
+            "x": 99,
+            "y": 153.5,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "Move down",
+            "x": 55,
+            "y": 197.5,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "Shoot or block",
+            "x": 475.984375,
+            "y": 94.5,
+            "w": 50,
+            "h": 50
+          },
+          {
+            "label": "Pass or steal",
+            "x": 476,
+            "y": 172.5,
+            "w": 50,
+            "h": 50
+          }
+        ]
+      }
+    },
+    {
+      "name": "Console fits 390x844 without scrolling or clipped controls",
+      "passed": true,
+      "layout": {
+        "overflow": false,
+        "canvas": {
+          "x": 27,
+          "y": 115,
+          "width": 336,
+          "height": 464
+        },
+        "controls": [
+          {
+            "label": "Move up",
+            "x": 87,
+            "y": 650,
+            "w": 38,
+            "h": 38
+          },
+          {
+            "label": "Move left",
+            "x": 49,
+            "y": 688,
+            "w": 38,
+            "h": 38
+          },
+          {
+            "label": "Move right",
+            "x": 125,
+            "y": 688,
+            "w": 38,
+            "h": 38
+          },
+          {
+            "label": "Move down",
+            "x": 87,
+            "y": 726,
+            "w": 38,
+            "h": 38
+          },
+          {
+            "label": "Shoot or block",
+            "x": 223.359375,
+            "y": 664.5,
+            "w": 48,
+            "h": 48
+          },
+          {
+            "label": "Pass or steal",
+            "x": 300.4375,
+            "y": 684.5,
+            "w": 48,
+            "h": 48
+          }
+        ]
+      }
+    },
+    {
+      "name": "Console fits 1280x720 without scrolling or clipped controls",
+      "passed": true,
+      "layout": {
+        "overflow": false,
+        "canvas": {
+          "x": 199,
+          "y": 40,
+          "width": 902,
+          "height": 654
+        },
+        "controls": [
+          {
+            "label": "Move up",
+            "x": 79,
+            "y": 284.5,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "Move left",
+            "x": 35,
+            "y": 328.5,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "Move right",
+            "x": 123,
+            "y": 328.5,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "Move down",
+            "x": 79,
+            "y": 372.5,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "Shoot or block",
+            "x": 1155,
+            "y": 246.5,
+            "w": 68,
+            "h": 68
+          },
+          {
+            "label": "Pass or steal",
+            "x": 1155,
+            "y": 352.5,
+            "w": 68,
+            "h": 68
+          }
+        ]
+      }
+    }
+  ],
+  "hostChecks": [
+    {
+      "name": "Existing auth boundary retained",
+      "passed": true
+    },
+    {
+      "name": "Basketball catalog retains Retro Hoops",
+      "passed": true
+    },
+    {
+      "name": "Actual authenticated iframe launches the 640x360 handheld park scene",
+      "passed": true
+    },
+    {
+      "name": "Actual iframe fullscreen request handled with viewport fallback",
+      "passed": true,
+      "browserFullscreenEntered": true
+    },
+    {
+      "name": "Complete hosted match stores/emits one rules1.3 result and rematches",
+      "passed": true
+    },
+    {
+      "name": "Exit and repeated navigation cleanly reload the game",
+      "passed": true
+    }
+  ],
+  "animationChecks": [
+    {
+      "name": "dribble direction0 complete61frame loop / ownedmask constraints",
+      "passed": true
+    },
+    {
+      "name": "dribble direction1 complete61frame loop / ownedmask constraints",
+      "passed": true
+    },
+    {
+      "name": "block direction0 complete61frame loop / ownedmask constraints",
+      "passed": true
+    },
+    {
+      "name": "block direction1 complete61frame loop / ownedmask constraints",
+      "passed": true
+    },
+    {
+      "name": "dunk direction0 complete61frame loop / ownedmask constraints",
+      "passed": true
+    },
+    {
+      "name": "dunk direction1 complete61frame loop / ownedmask constraints",
+      "passed": true
+    },
+    {
+      "name": "super-dunk direction0 complete61frame loop / ownedmask constraints",
+      "passed": true
+    },
+    {
+      "name": "super-dunk direction1 complete61frame loop / ownedmask constraints",
+      "passed": true
+    },
+    {
+      "name": "pass direction0 complete61frame loop / ownedmask constraints",
+      "passed": true
+    },
+    {
+      "name": "pass direction1 complete61frame loop / ownedmask constraints",
+      "passed": true
+    },
+    {
+      "name": "shoot direction0 complete61frame loop / ownedmask constraints",
+      "passed": true
+    },
+    {
+      "name": "shoot direction1 complete61frame loop / ownedmask constraints",
+      "passed": true
+    },
+    {
+      "name": "recoil direction0 complete61frame loop / ownedmask constraints",
+      "passed": true
+    },
+    {
+      "name": "recoil direction1 complete61frame loop / ownedmask constraints",
+      "passed": true
+    }
+  ],
+  "decodedLoops": 14,
+  "sourceHashes": {
+    "game.tsx": "d0cb0646380df5c12851519b86481df5b9975e926c4471cb3fafc2b24a120fd4",
+    "simulation.ts": "ee954251eece36466eab346929a9ba4d2695134fc70c7d8cbcdf75b5fc0bde75",
+    "presentation.ts": "6ded840656e2770a0e74120232fb63068464a6ebe6df65ec3da8fe66384eec24",
+    "renderer.ts": "da23feac68cde62ee28061b7362284b05f415299ac6f78f8a169f0f15a25d116",
+    "screen.module.css": "62ff00a7abe763d82c9d9300b556150a364b786a4d963cfc6d57b0788471071b",
+    "motion.ts": "56225ef264e9dce95daaafddf8d14fd8a401455e263a11abc46963b0c1f36c23",
+    "court.ts": "ff1aee3a48d21411828cdba0de95bd8130763c0254257e74bc6024aae85c29e1"
+  },
+  "visualReview": {
+    "reviewer": "Owner separate visual pass",
+    "inspected": [
+      "844x390 handheld game and actual iframe capture",
+      "568x320 small landscape and390x844 portrait",
+      "Native640x360 dunk gather/contact/descent/landing",
+      "Both-direction dribble and pass frames",
+      "Park composition against retained source opening/score reference frames"
+    ],
+    "finding": "Accepted for demo preview: enlarged play area, source-observed venue layers, preserved anchors and readable court. Decorative crowd remains an authored simplified pixel family."
+  },
+  "limits": [
+    "No native Street Hoop frame timing or input stream recovered",
+    "Dedicated running/backpedal/defensive slide art remains incomplete",
+    "No physical phone or Flutter WebView acceptance test",
+    "Original procedural audio retained with prior provisional approval; no acoustic listening performed",
+    "Player/basket art remains source-derived reference material; scenery is original code reconstruction, not pixel-exact extraction",
+    "Historical rejected Canvas labs remain unchanged"
+  ],
+  "unchangedProjects": [
+    "Future Sports Web",
+    "Future Sports Flutter",
+    "Future Games Flutter (pinned imported bundle)",
+    "Current StatOz Web",
+    "Current StatOz Flutter"
+  ]
+}

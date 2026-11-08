@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-31",
+  "scope": "Crazy Grand Prix race/control/CPU mechanics adapted into Racer; local only",
+  "source": {
+    "buildId": "6c65ae46-cd7f-4feb-be39-441821588cdf",
+    "wasmSha256": "8380d1bc31a4b614ccce006d705653a9485b15160e57ce7373c6fc1c563f0bba",
+    "metadataSha256": "ae7a57b1089cc5e03fc5515e5038a191b042976113fea1cb91c53f68ec472700",
+    "method": "Existing REA declarations, source-bound serialized RCC data and supplementary metadata-to-WAT mapping",
+    "focusedTypes": 12,
+    "focusedNativeBodies": 191,
+    "originalSourceRecovered": false,
+    "unityPhysicsParityClaimed": false
+  },
+  "checks": {
+    "focusedUnitAndIntegrationTests": {"passed": 35, "failed": 0},
+    "simulationRaces": ["manual", "automatic", "manual-coasting", "ordinary steering/braking/boost"],
+    "cpuPack": {"opponents": 19, "allFinishedTwoLaps": true, "uncommandedPositionJumps": 0},
+    "realChromeRace": {
+      "cars": 20,
+      "laps": 2,
+      "routeGatesValidated": 168,
+      "timeSeconds": 161.4291958781468,
+      "lapTimesSeconds": [85.38453663201925, 76.04465924612755],
+      "finishPosition": 1,
+      "steeringKeysVerified": ["ArrowLeft", "KeyA", "ArrowRight", "KeyD"],
+      "rearViewHeldAndReleased": true,
+      "pauseTimeAndPoseFrozen": true,
+      "saveReloadAndAccountIsolation": true,
+      "hostDisposal": true,
+      "runtimeErrors": 0,
+      "externalRequests": 0,
+      "report": "test-results/racer/checks.json"
+    },
+    "pedals": {
+      "browserSessions": 3,
+      "samples": 19,
+      "modes": ["manual keyboard", "automatic with conflicting pedals", "mobile simultaneous touch and interruption"],
+      "runtimeErrors": 0,
+      "report": "test-results/racer/pedals/checks.json"
+    },
+    "phoneLayouts": {"viewports": ["851x393", "667x375", "568x320"], "passed": true, "report": "test-results/racer/mobile-controls.json"},
+    "productionApp": {
+      "catalogueLaunch": true,
+      "pauseAndSportExit": true,
+      "compatibleOldRoute": true,
+      "portraitPhoneLandscapeHost": true,
+      "runtimeErrors": 0,
+      "method": "Real Chrome host integration using the unsupported-storage Play Online fallback; not a new exhaustive device-download/cache test",
+      "report": "test-results/racer/app-checks.json"
+    },
+    "typecheck": "passed",
+    "lint": {"errors": 0, "warnings": 4, "racerWarnings": 1, "note": "Existing canvas.current effect-cleanup warning; remaining warnings outside Racer"},
+    "productionBuild": "passed",
+    "diffWhitespace": "passed"
+  },
+  "artifacts": {
+    "nextBuildId": "gxyda3sBup3QjBKIivNEi",
+    "assetManifestBuildId": "3289da96-3bf5-447b-8aa6-eda7cd4b9a92",
+    "assetFileCount": 1210,
+    "racerBundleSha256": "f2c94a98ebe1e5e21bfdce3498eb330c67498a0cf3cc74829624fdebd2f52f2e",
+    "bundleMatchesManifest": true,
+    "preview": "http://127.0.0.1:3212/play/racer",
+    "previewHttpStatus": 200,
+    "motionVideo": "test-results/racer/silverstone-motion.mp4",
+    "motionVideoSha256": "5d39f2f010d79c5032a957a2e1986ec8da53d4fd85e8470c1d7f541470d9ca73",
+    "motionDecoded": true,
+    "motionDurationSeconds": 10,
+    "motionExportFps": 30
+  },
+  "desktopFrameSample": {"samples": 360, "medianMs": 13.3, "p95Ms": 13.7, "drawCalls": 296, "vehicleBatches": 9},
+  "limitations": [
+    "Automated driving is not human driving-feel acceptance or physical Android/iOS testing.",
+    "Torque interpolation, speed scale, grip, brake envelope and Silverstone route are browser adaptations, not a full Unity/PhysX port.",
+    "Boost, slipstream recharge, auto-throttle and clearance-checked passing lanes are Racer additions.",
+    "The compositor recording is visual QA; export timestamps do not measure the native simulation clock.",
+    "No career, multiplayer, economy, remote publication or push was performed."
+  ]
+}

@@ -1,0 +1,88 @@
+/*
+ * Motion and pseudo-state only. Every colour, size and space on the board comes
+ * from the token layer or a Tailwind utility built on it; what lives here is
+ * what a style attribute cannot express.
+ */
+
+/* ---- Entrances ---------------------------------------------------------- */
+
+/**
+ * Rows and podium tiles are dealt in from the left, staggered by a per-element
+ * `--enter-delay`. The app runs a `TweenAnimationBuilder` per card with an
+ * `Interval` curve standing in for the delay; a keyframe with a real delay is
+ * the same 320ms ease-out over the same 48px, with nothing to dispose.
+ *
+ * `backwards`, never `both`: the fill only has to hold the from-state through
+ * the delay, and a forwards fill would keep the animation in effect forever —
+ * which leaves an animated `transform` applied, and with it a containing block
+ * that the rival dossier's `position: fixed` scrim would anchor to instead of
+ * the viewport.
+ */
+.dealIn {
+  animation: deal-in 320ms cubic-bezier(0.33, 1, 0.68, 1) backwards;
+  animation-delay: var(--enter-delay, 0ms);
+}
+
+@keyframes deal-in {
+  from {
+    opacity: 0;
+    transform: translateX(-48px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/**
+ * Changing board, scope or mode replaces the whole body rather than mutating
+ * it, so it arrives the way the app's `AnimatedSwitcher` brings it in.
+ */
+.boardIn {
+  animation: board-in 280ms cubic-bezier(0.33, 1, 0.68, 1) backwards;
+}
+
+@keyframes board-in {
+  from {
+    opacity: 0;
+    transform: translateY(0.6rem);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ---- Interactive chrome -------------------------------------------------- */
+
+/**
+ * A tappable plate lifts a hair. Flutter has no hover at all — its `_Pressable`
+ * fakes one with a shadow — so this is one of the divergences the web is
+ * expected to add rather than avoid.
+ */
+.pressable {
+  transition: transform 150ms ease-out;
+}
+
+.pressable:hover {
+  transform: translateY(-1px);
+}
+
+.pressable:active {
+  transform: translateY(0);
+}
+
+/** The mode strip scrolls sideways on a phone; its scrollbar would be chrome. */
+.railScroll {
+  scrollbar-width: none;
+}
+
+.railScroll::-webkit-scrollbar {
+  display: none;
+}
+
+.leagueDial { display: flex; gap: var(--ds-space-2); overflow-x: auto; padding: var(--ds-space-2) var(--ds-space-4); scroll-snap-type: x mandatory; scrollbar-width: none; cursor: grab; touch-action: pan-x; border-bottom: 1px solid var(--ds-color-border-subtle); }
+.leagueDial:active { cursor: grabbing; }
+.leagueDial::-webkit-scrollbar { display: none; }
+.leagueDial button { flex: 0 0 auto; min-width: 132px; min-height: 38px; padding: 0 var(--ds-space-3); scroll-snap-align: center; border: 1px solid var(--ds-color-border-muted); background: transparent; color: var(--ds-color-text-muted); font:var(--ds-weight-black) var(--ds-text-2xs) var(--ds-font-display); letter-spacing: var(--ds-tracking-wide); }
+.leagueDial button[aria-selected="true"] { border-color: var(--leaderboard-accent,var(--ds-color-accent-cyan)); color: var(--leaderboard-accent,var(--ds-color-accent-cyan)); background: color-mix(in srgb,var(--leaderboard-accent,var(--ds-color-accent-cyan)) 10%,transparent); }

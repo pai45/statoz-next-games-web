@@ -1,0 +1,5017 @@
+{
+  "sport": "motorsport",
+  "mode": "easy",
+  "version": 1,
+  "bands": {
+    "1": [
+      {
+        "p": "In motorsport, what does “pole position” mean?",
+        "o": [
+          "fastest qualifying lap",
+          "a drag reduction rear wing flap",
+          "a service stop in the pit lane",
+          "the lap before a standing start"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2025 MotoGP riders’ title?",
+        "o": [
+          "Francesco Bagnaia",
+          "Marc Márquez",
+          "Fabio Quartararo",
+          "Joan Mir"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2024 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Martin Truex Jr",
+          "Jimmie Johnson",
+          "Joey Logano",
+          "Denny Hamlin"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2025 Indianapolis 500?",
+        "o": [
+          "Alexander Rossi",
+          "Josef Newgarden",
+          "Marcus Ericsson",
+          "Álex Palou"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 2025 24 Hours of Le Mans?",
+        "o": [
+          "Ferrari",
+          "Audi",
+          "Peugeot",
+          "Toyota"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2024 World Rally Championship drivers’ title?",
+        "o": [
+          "Kalle Rovanperä",
+          "Thierry Neuville",
+          "Ott Tänak",
+          "Elfyn Evans"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2024-25 Formula E drivers’ title?",
+        "o": [
+          "Mitch Evans",
+          "Nick Cassidy",
+          "Oliver Rowland",
+          "Pascal Wehrlein"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In motorsport, what does “DRS” mean?",
+        "o": [
+          "a run-off area of loose stones",
+          "fastest qualifying lap",
+          "a service stop in the pit lane",
+          "a drag reduction rear wing flap"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2024 MotoGP riders’ title?",
+        "o": [
+          "Jorge Martín",
+          "Jorge Lorenzo",
+          "Maverick Viñales",
+          "Brad Binder"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2023 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Kyle Larson",
+          "Ryan Blaney",
+          "Chase Elliott",
+          "Kyle Busch"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2024 Indianapolis 500?",
+        "o": [
+          "Scott Dixon",
+          "Alexander Rossi",
+          "Josef Newgarden",
+          "Álex Palou"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 2024 24 Hours of Le Mans?",
+        "o": [
+          "Porsche",
+          "Audi",
+          "Peugeot",
+          "Ferrari"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2023 World Rally Championship drivers’ title?",
+        "o": [
+          "Kalle Rovanperä",
+          "Thierry Neuville",
+          "Ott Tänak",
+          "Elfyn Evans"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2023-24 Formula E drivers’ title?",
+        "o": [
+          "Mitch Evans",
+          "Pascal Wehrlein",
+          "Nick Cassidy",
+          "Oliver Rowland"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In motorsport, what does “pit stop” mean?",
+        "o": [
+          "the lap before a standing start",
+          "a car that neutralises the race",
+          "a service stop in the pit lane",
+          "the starting order on track"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2023 MotoGP riders’ title?",
+        "o": [
+          "Maverick Viñales",
+          "Brad Binder",
+          "Marc Márquez",
+          "Francesco Bagnaia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2022 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Joey Logano",
+          "Denny Hamlin",
+          "Kevin Harvick",
+          "Ryan Blaney"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2023 Indianapolis 500?",
+        "o": [
+          "Will Power",
+          "Josef Newgarden",
+          "Scott Dixon",
+          "Alexander Rossi"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 2023 24 Hours of Le Mans?",
+        "o": [
+          "Toyota",
+          "Porsche",
+          "Ferrari",
+          "Audi"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2022 World Rally Championship drivers’ title?",
+        "o": [
+          "Sébastien Ogier",
+          "Thierry Neuville",
+          "Ott Tänak",
+          "Kalle Rovanperä"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In motorsport, what does “formation lap” mean?",
+        "o": [
+          "the lap before a standing start",
+          "fastest qualifying lap",
+          "a drag reduction rear wing flap",
+          "a service stop in the pit lane"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2022 MotoGP riders’ title?",
+        "o": [
+          "Marc Márquez",
+          "Francesco Bagnaia",
+          "Jorge Martín",
+          "Fabio Quartararo"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2021 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Chase Elliott",
+          "Kyle Busch",
+          "Kyle Larson",
+          "Martin Truex Jr"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2022 Indianapolis 500?",
+        "o": [
+          "Josef Newgarden",
+          "Hélio Castroneves",
+          "Takuma Sato",
+          "Marcus Ericsson"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 2022 24 Hours of Le Mans?",
+        "o": [
+          "Toyota",
+          "Ferrari",
+          "Porsche",
+          "Audi"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In motorsport, what does “safety car” mean?",
+        "o": [
+          "the top three finishers",
+          "a car that neutralises the race",
+          "a tight sequence of corners",
+          "the inner point of a corner"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2021 MotoGP riders’ title?",
+        "o": [
+          "Maverick Viñales",
+          "Brad Binder",
+          "Fabio Quartararo",
+          "Marc Márquez"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2020 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Kyle Larson",
+          "Kyle Busch",
+          "Martin Truex Jr",
+          "Chase Elliott"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2021 Indianapolis 500?",
+        "o": [
+          "Hélio Castroneves",
+          "Alexander Rossi",
+          "Álex Palou",
+          "Josef Newgarden"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 2021 24 Hours of Le Mans?",
+        "o": [
+          "Peugeot",
+          "Toyota",
+          "Ferrari",
+          "Porsche"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In motorsport, what does “grid” mean?",
+        "o": [
+          "restricted car storage rules",
+          "officials who judge incidents",
+          "the starting order on track",
+          "the team compound behind pits"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2020 MotoGP riders’ title?",
+        "o": [
+          "Jorge Martín",
+          "Francesco Bagnaia",
+          "Fabio Quartararo",
+          "Joan Mir"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2019 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Kyle Busch",
+          "Ryan Blaney",
+          "Kyle Larson",
+          "Chase Elliott"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2020 Indianapolis 500?",
+        "o": [
+          "Marcus Ericsson",
+          "Takuma Sato",
+          "Hélio Castroneves",
+          "Simon Pagenaud"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 2020 24 Hours of Le Mans?",
+        "o": [
+          "Audi",
+          "Peugeot",
+          "Toyota",
+          "Ferrari"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In motorsport, what does “podium” mean?",
+        "o": [
+          "a run-off area of loose stones",
+          "fastest qualifying lap",
+          "a drag reduction rear wing flap",
+          "the top three finishers"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2019 MotoGP riders’ title?",
+        "o": [
+          "Marc Márquez",
+          "Jorge Lorenzo",
+          "Maverick Viñales",
+          "Brad Binder"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2018 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Kyle Busch",
+          "Joey Logano",
+          "Martin Truex Jr",
+          "Jimmie Johnson"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2019 Indianapolis 500?",
+        "o": [
+          "Alexander Rossi",
+          "Álex Palou",
+          "Simon Pagenaud",
+          "Josef Newgarden"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In motorsport, what does “chicane” mean?",
+        "o": [
+          "the starting order on track",
+          "the top three finishers",
+          "the inner point of a corner",
+          "a tight sequence of corners"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2018 MotoGP riders’ title?",
+        "o": [
+          "Marc Márquez",
+          "Jorge Lorenzo",
+          "Maverick Viñales",
+          "Brad Binder"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2017 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Jimmie Johnson",
+          "Martin Truex Jr",
+          "Denny Hamlin",
+          "Kevin Harvick"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2018 Indianapolis 500?",
+        "o": [
+          "Scott Dixon",
+          "Alexander Rossi",
+          "Will Power",
+          "Álex Palou"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In motorsport, what does “apex” mean?",
+        "o": [
+          "the lap before a standing start",
+          "a car that neutralises the race",
+          "the starting order on track",
+          "the inner point of a corner"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2017 MotoGP riders’ title?",
+        "o": [
+          "Marc Márquez",
+          "Francesco Bagnaia",
+          "Fabio Quartararo",
+          "Joan Mir"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2016 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Denny Hamlin",
+          "Jimmie Johnson",
+          "Kevin Harvick",
+          "Joey Logano"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In motorsport, what does “slipstream” mean?",
+        "o": [
+          "live data sent from the car",
+          "aerodynamic load pushing down",
+          "a tow in the car ahead's wake",
+          "discarded rubber off the line"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2016 MotoGP riders’ title?",
+        "o": [
+          "Fabio Quartararo",
+          "Joan Mir",
+          "Jorge Lorenzo",
+          "Marc Márquez"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2015 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Kyle Busch",
+          "Jimmie Johnson",
+          "Denny Hamlin",
+          "Kevin Harvick"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In motorsport, what does “undercut” mean?",
+        "o": [
+          "fastest qualifying lap",
+          "pitting early to gain position",
+          "a drag reduction rear wing flap",
+          "a service stop in the pit lane"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2015 MotoGP riders’ title?",
+        "o": [
+          "Francesco Bagnaia",
+          "Fabio Quartararo",
+          "Jorge Lorenzo",
+          "Joan Mir"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In motorsport, what does “overcut” mean?",
+        "o": [
+          "a service stop in the pit lane",
+          "the lap before a standing start",
+          "a car that neutralises the race",
+          "staying out to gain position"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In motorsport, what does “parc fermé” mean?",
+        "o": [
+          "restricted car storage rules",
+          "live data sent from the car",
+          "aerodynamic load pushing down",
+          "discarded rubber off the line"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In motorsport, what does “stewards” mean?",
+        "o": [
+          "a run-off area of loose stones",
+          "officials who judge incidents",
+          "fastest qualifying lap",
+          "a drag reduction rear wing flap"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In motorsport, what does “paddock” mean?",
+        "o": [
+          "aerodynamic load pushing down",
+          "discarded rubber off the line",
+          "the team compound behind pits",
+          "a wheel sliding under braking"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In motorsport, what does “telemetry” mean?",
+        "o": [
+          "discarded rubber off the line",
+          "a wheel sliding under braking",
+          "a run-off area of loose stones",
+          "live data sent from the car"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In motorsport, what does “downforce” mean?",
+        "o": [
+          "aerodynamic load pushing down",
+          "the top three finishers",
+          "a tight sequence of corners",
+          "the inner point of a corner"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In motorsport, what does “marbles” mean?",
+        "o": [
+          "fastest qualifying lap",
+          "discarded rubber off the line",
+          "a drag reduction rear wing flap",
+          "a service stop in the pit lane"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In motorsport, what does “lock-up” mean?",
+        "o": [
+          "the inner point of a corner",
+          "a tow in the car ahead's wake",
+          "a wheel sliding under braking",
+          "pitting early to gain position"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In motorsport, what does “gravel trap” mean?",
+        "o": [
+          "pitting early to gain position",
+          "staying out to gain position",
+          "restricted car storage rules",
+          "a run-off area of loose stones"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In motor racing, what does the yellow flag signal?",
+        "o": [
+          "danger ahead, do not overtake",
+          "the track is clear again",
+          "a car has a mechanical fault",
+          "the session has been stopped"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In motor racing, what does the red flag signal?",
+        "o": [
+          "let a faster car through",
+          "the session has been stopped",
+          "the driver is disqualified",
+          "a slow vehicle is on track"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In motor racing, what does the chequered flag signal?",
+        "o": [
+          "the driver is disqualified",
+          "a slow vehicle is on track",
+          "the end of the session",
+          "the track is clear again"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In motor racing, what does the blue flag signal?",
+        "o": [
+          "a slow vehicle is on track",
+          "the track is clear again",
+          "a car has a mechanical fault",
+          "let a faster car through"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In motor racing, what does the black flag signal?",
+        "o": [
+          "the driver is disqualified",
+          "let a faster car through",
+          "a slow vehicle is on track",
+          "the track is clear again"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In motor racing, what does the white flag signal?",
+        "o": [
+          "a car has a mechanical fault",
+          "a slow vehicle is on track",
+          "danger ahead, do not overtake",
+          "the session has been stopped"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In motor racing, what does the green flag signal?",
+        "o": [
+          "a slow vehicle is on track",
+          "a car has a mechanical fault",
+          "the track is clear again",
+          "danger ahead, do not overtake"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In motor racing, what does the black and orange flag signal?",
+        "o": [
+          "danger ahead, do not overtake",
+          "the session has been stopped",
+          "the end of the session",
+          "a car has a mechanical fault"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Max Verstappen represent?",
+        "o": [
+          "Netherlands",
+          "Thailand",
+          "China",
+          "United Kingdom"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Lewis Hamilton represent?",
+        "o": [
+          "Netherlands",
+          "United Kingdom",
+          "Monaco",
+          "Spain"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Charles Leclerc represent?",
+        "o": [
+          "Denmark",
+          "Germany",
+          "Monaco",
+          "Thailand"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Lando Norris represent?",
+        "o": [
+          "Mexico",
+          "Australia",
+          "France",
+          "United Kingdom"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Carlos Sainz represent?",
+        "o": [
+          "Spain",
+          "Thailand",
+          "China",
+          "Netherlands"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did George Russell represent?",
+        "o": [
+          "Australia",
+          "United Kingdom",
+          "France",
+          "Canada"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Sergio Pérez represent?",
+        "o": [
+          "Japan",
+          "Finland",
+          "Mexico",
+          "Denmark"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Fernando Alonso represent?",
+        "o": [
+          "Canada",
+          "Japan",
+          "Finland",
+          "Spain"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Oscar Piastri represent?",
+        "o": [
+          "Australia",
+          "Denmark",
+          "Germany",
+          "Thailand"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Pierre Gasly represent?",
+        "o": [
+          "United Kingdom",
+          "France",
+          "Monaco",
+          "Spain"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Esteban Ocon represent?",
+        "o": [
+          "Finland",
+          "Denmark",
+          "France",
+          "Germany"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Lance Stroll represent?",
+        "o": [
+          "Germany",
+          "Thailand",
+          "China",
+          "Canada"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Yuki Tsunoda represent?",
+        "o": [
+          "Japan",
+          "Mexico",
+          "Australia",
+          "France"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Valtteri Bottas represent?",
+        "o": [
+          "Germany",
+          "Finland",
+          "Thailand",
+          "China"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Kevin Magnussen represent?",
+        "o": [
+          "Japan",
+          "Finland",
+          "Denmark",
+          "Germany"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Nico Hülkenberg represent?",
+        "o": [
+          "Finland",
+          "Denmark",
+          "Thailand",
+          "Germany"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Alexander Albon represent?",
+        "o": [
+          "Thailand",
+          "Finland",
+          "Denmark",
+          "Germany"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Zhou Guanyu represent?",
+        "o": [
+          "Japan",
+          "China",
+          "Finland",
+          "Denmark"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Daniel Ricciardo represent?",
+        "o": [
+          "France",
+          "Canada",
+          "Australia",
+          "Japan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Sebastian Vettel represent?",
+        "o": [
+          "Spain",
+          "Mexico",
+          "Australia",
+          "Germany"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In which country is Scuderia Ferrari based?",
+        "o": [
+          "Italy",
+          "Switzerland",
+          "United Kingdom",
+          "France"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which country is McLaren based?",
+        "o": [
+          "Switzerland",
+          "United Kingdom",
+          "Italy",
+          "France"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which country is Mercedes based?",
+        "o": [
+          "France",
+          "United States",
+          "United Kingdom",
+          "Switzerland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which country is Red Bull Racing based?",
+        "o": [
+          "Switzerland",
+          "Italy",
+          "France",
+          "United Kingdom"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In which country is Williams based?",
+        "o": [
+          "United Kingdom",
+          "Switzerland",
+          "Italy",
+          "France"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which country is Aston Martin based?",
+        "o": [
+          "Italy",
+          "United Kingdom",
+          "France",
+          "United States"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which country is Alpine based?",
+        "o": [
+          "Italy",
+          "United Kingdom",
+          "France",
+          "United States"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which country is Haas based?",
+        "o": [
+          "United Kingdom",
+          "France",
+          "Switzerland",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In which country is Sauber based?",
+        "o": [
+          "Switzerland",
+          "United States",
+          "Italy",
+          "United Kingdom"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which country is AlphaTauri based?",
+        "o": [
+          "United States",
+          "Italy",
+          "Switzerland",
+          "United Kingdom"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which country is Toro Rosso based?",
+        "o": [
+          "United Kingdom",
+          "France",
+          "Italy",
+          "United States"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which country is Minardi based?",
+        "o": [
+          "Switzerland",
+          "United Kingdom",
+          "France",
+          "Italy"
+        ],
+        "a": 3
+      }
+    ],
+    "2": [
+      {
+        "p": "Which country did Jenson Button represent?",
+        "o": [
+          "United Kingdom",
+          "Japan",
+          "Poland",
+          "Switzerland"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2014 MotoGP riders’ title?",
+        "o": [
+          "Nicky Hayden",
+          "Marc Márquez",
+          "Dani Pedrosa",
+          "Andrea Dovizioso"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2014 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Jimmie Johnson",
+          "Brad Keselowski",
+          "Kevin Harvick",
+          "Tony Stewart"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2017 Indianapolis 500?",
+        "o": [
+          "Dario Franchitti",
+          "Dan Wheldon",
+          "Will Power",
+          "Takuma Sato"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 2019 24 Hours of Le Mans?",
+        "o": [
+          "Toyota",
+          "Ferrari",
+          "Peugeot",
+          "Nissan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2021 World Rally Championship drivers’ title?",
+        "o": [
+          "Ott Tänak",
+          "Sébastien Ogier",
+          "Thierry Neuville",
+          "Elfyn Evans"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2022-23 Formula E drivers’ title?",
+        "o": [
+          "Stoffel Vandoorne",
+          "Nyck de Vries",
+          "Jake Dennis",
+          "Mitch Evans"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Nico Rosberg represent?",
+        "o": [
+          "United Kingdom",
+          "Finland",
+          "Brazil",
+          "Germany"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2013 MotoGP riders’ title?",
+        "o": [
+          "Marc Márquez",
+          "Jorge Lorenzo",
+          "Casey Stoner",
+          "Valentino Rossi"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2013 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Matt Kenseth",
+          "Jimmie Johnson",
+          "Kevin Harvick",
+          "Brad Keselowski"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2016 Indianapolis 500?",
+        "o": [
+          "Scott Dixon",
+          "Takuma Sato",
+          "Alexander Rossi",
+          "Juan Pablo Montoya"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 2018 24 Hours of Le Mans?",
+        "o": [
+          "Audi",
+          "Ferrari",
+          "Peugeot",
+          "Toyota"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2020 World Rally Championship drivers’ title?",
+        "o": [
+          "Sébastien Ogier",
+          "Thierry Neuville",
+          "Elfyn Evans",
+          "Kalle Rovanperä"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2021-22 Formula E drivers’ title?",
+        "o": [
+          "Edoardo Mortara",
+          "Stoffel Vandoorne",
+          "Jake Dennis",
+          "Nyck de Vries"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Kimi Räikkönen represent?",
+        "o": [
+          "United Kingdom",
+          "Germany",
+          "Finland",
+          "Brazil"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2012 MotoGP riders’ title?",
+        "o": [
+          "Andrea Dovizioso",
+          "Marc Márquez",
+          "Casey Stoner",
+          "Jorge Lorenzo"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2012 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Brad Keselowski",
+          "Matt Kenseth",
+          "Kevin Harvick",
+          "Jimmie Johnson"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2015 Indianapolis 500?",
+        "o": [
+          "Takuma Sato",
+          "Juan Pablo Montoya",
+          "Alexander Rossi",
+          "Ryan Hunter-Reay"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 2017 24 Hours of Le Mans?",
+        "o": [
+          "Nissan",
+          "Toyota",
+          "Porsche",
+          "Audi"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2019 World Rally Championship drivers’ title?",
+        "o": [
+          "Kalle Rovanperä",
+          "Sébastien Ogier",
+          "Thierry Neuville",
+          "Ott Tänak"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Felipe Massa represent?",
+        "o": [
+          "Brazil",
+          "Spain",
+          "Sweden",
+          "Mexico"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2011 MotoGP riders’ title?",
+        "o": [
+          "Valentino Rossi",
+          "Casey Stoner",
+          "Nicky Hayden",
+          "Dani Pedrosa"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2011 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Jimmie Johnson",
+          "Brad Keselowski",
+          "Tony Stewart",
+          "Carl Edwards"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2014 Indianapolis 500?",
+        "o": [
+          "Scott Dixon",
+          "Takuma Sato",
+          "Alexander Rossi",
+          "Ryan Hunter-Reay"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 2016 24 Hours of Le Mans?",
+        "o": [
+          "Porsche",
+          "Peugeot",
+          "Nissan",
+          "Toyota"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Mark Webber represent?",
+        "o": [
+          "Poland",
+          "Australia",
+          "Switzerland",
+          "Spain"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2010 MotoGP riders’ title?",
+        "o": [
+          "Andrea Dovizioso",
+          "Marc Márquez",
+          "Jorge Lorenzo",
+          "Casey Stoner"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2010 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Carl Edwards",
+          "Matt Kenseth",
+          "Kevin Harvick",
+          "Jimmie Johnson"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2013 Indianapolis 500?",
+        "o": [
+          "Tony Kanaan",
+          "Takuma Sato",
+          "Alexander Rossi",
+          "Juan Pablo Montoya"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 2015 24 Hours of Le Mans?",
+        "o": [
+          "Nissan",
+          "Porsche",
+          "Toyota",
+          "Audi"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Romain Grosjean represent?",
+        "o": [
+          "Australia",
+          "Venezuela",
+          "France",
+          "Russia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2009 MotoGP riders’ title?",
+        "o": [
+          "Andrea Dovizioso",
+          "Marc Márquez",
+          "Jorge Lorenzo",
+          "Valentino Rossi"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2009 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Jimmie Johnson",
+          "Carl Edwards",
+          "Matt Kenseth",
+          "Kevin Harvick"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2012 Indianapolis 500?",
+        "o": [
+          "Tony Kanaan",
+          "Dario Franchitti",
+          "Dan Wheldon",
+          "Will Power"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 2014 24 Hours of Le Mans?",
+        "o": [
+          "Toyota",
+          "Porsche",
+          "Audi",
+          "Ferrari"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Jean-Éric Vergne represent?",
+        "o": [
+          "Japan",
+          "Poland",
+          "Switzerland",
+          "France"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2008 MotoGP riders’ title?",
+        "o": [
+          "Valentino Rossi",
+          "Marc Márquez",
+          "Jorge Lorenzo",
+          "Casey Stoner"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2008 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Matt Kenseth",
+          "Jimmie Johnson",
+          "Kevin Harvick",
+          "Brad Keselowski"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2011 Indianapolis 500?",
+        "o": [
+          "Will Power",
+          "Scott Dixon",
+          "Dan Wheldon",
+          "Takuma Sato"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Paul di Resta represent?",
+        "o": [
+          "Sweden",
+          "Mexico",
+          "Belgium",
+          "United Kingdom"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2007 MotoGP riders’ title?",
+        "o": [
+          "Casey Stoner",
+          "Jorge Lorenzo",
+          "Valentino Rossi",
+          "Nicky Hayden"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2007 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Tony Stewart",
+          "Jimmie Johnson",
+          "Carl Edwards",
+          "Matt Kenseth"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2010 Indianapolis 500?",
+        "o": [
+          "Juan Pablo Montoya",
+          "Ryan Hunter-Reay",
+          "Dario Franchitti",
+          "Tony Kanaan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Adrian Sutil represent?",
+        "o": [
+          "Switzerland",
+          "Spain",
+          "Sweden",
+          "Germany"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2006 MotoGP riders’ title?",
+        "o": [
+          "Nicky Hayden",
+          "Jorge Lorenzo",
+          "Casey Stoner",
+          "Valentino Rossi"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2006 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Brad Keselowski",
+          "Jimmie Johnson",
+          "Tony Stewart",
+          "Carl Edwards"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Jules Bianchi represent?",
+        "o": [
+          "Japan",
+          "Poland",
+          "France",
+          "Switzerland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2005 MotoGP riders’ title?",
+        "o": [
+          "Nicky Hayden",
+          "Dani Pedrosa",
+          "Andrea Dovizioso",
+          "Valentino Rossi"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2005 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Tony Stewart",
+          "Jimmie Johnson",
+          "Brad Keselowski",
+          "Carl Edwards"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Pastor Maldonado represent?",
+        "o": [
+          "Mexico",
+          "Venezuela",
+          "Belgium",
+          "New Zealand"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2004 MotoGP riders’ title?",
+        "o": [
+          "Marc Márquez",
+          "Jorge Lorenzo",
+          "Valentino Rossi",
+          "Casey Stoner"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Bruno Senna represent?",
+        "o": [
+          "New Zealand",
+          "United Kingdom",
+          "Germany",
+          "Brazil"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Heikki Kovalainen represent?",
+        "o": [
+          "Finland",
+          "Poland",
+          "Switzerland",
+          "Spain"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Vitaly Petrov represent?",
+        "o": [
+          "Switzerland",
+          "Russia",
+          "Spain",
+          "Sweden"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Kamui Kobayashi represent?",
+        "o": [
+          "France",
+          "Venezuela",
+          "Japan",
+          "Russia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Timo Glock represent?",
+        "o": [
+          "Spain",
+          "Sweden",
+          "Mexico",
+          "Germany"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Robert Kubica represent?",
+        "o": [
+          "Poland",
+          "Australia",
+          "France",
+          "Venezuela"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Sébastien Buemi represent?",
+        "o": [
+          "New Zealand",
+          "Switzerland",
+          "United Kingdom",
+          "Germany"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Jaime Alguersuari represent?",
+        "o": [
+          "Japan",
+          "Poland",
+          "Spain",
+          "Switzerland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Marcus Ericsson represent?",
+        "o": [
+          "Brazil",
+          "Australia",
+          "France",
+          "Sweden"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Felipe Nasr represent?",
+        "o": [
+          "Brazil",
+          "Germany",
+          "Finland",
+          "Australia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Pascal Wehrlein represent?",
+        "o": [
+          "Venezuela",
+          "Germany",
+          "Russia",
+          "Japan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Esteban Gutiérrez represent?",
+        "o": [
+          "Australia",
+          "France",
+          "Mexico",
+          "Venezuela"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Stoffel Vandoorne represent?",
+        "o": [
+          "Poland",
+          "Switzerland",
+          "Spain",
+          "Belgium"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Brendon Hartley represent?",
+        "o": [
+          "New Zealand",
+          "Switzerland",
+          "Spain",
+          "Sweden"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country hosts Silverstone Circuit?",
+        "o": [
+          "Monaco",
+          "United Kingdom",
+          "Italy",
+          "Belgium"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts Circuit de Monaco?",
+        "o": [
+          "Brazil",
+          "United States",
+          "Monaco",
+          "Russia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country hosts Autodromo Nazionale Monza?",
+        "o": [
+          "Bahrain",
+          "Brazil",
+          "United States",
+          "Italy"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts Circuit de Spa-Francorchamps?",
+        "o": [
+          "Belgium",
+          "Italy",
+          "Japan",
+          "Canada"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country hosts Suzuka Circuit?",
+        "o": [
+          "Singapore",
+          "Japan",
+          "United Arab Emirates",
+          "Bahrain"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts Circuit Gilles Villeneuve?",
+        "o": [
+          "United Arab Emirates",
+          "Bahrain",
+          "Canada",
+          "Brazil"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country hosts the Hungaroring?",
+        "o": [
+          "France",
+          "Germany",
+          "Türkiye",
+          "Hungary"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Red Bull Ring?",
+        "o": [
+          "Austria",
+          "Bahrain",
+          "Brazil",
+          "United States"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country hosts Circuit de Barcelona-Catalunya?",
+        "o": [
+          "Hungary",
+          "Spain",
+          "Austria",
+          "Singapore"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts Marina Bay Street Circuit?",
+        "o": [
+          "Bahrain",
+          "Brazil",
+          "Singapore",
+          "United States"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country hosts Yas Marina Circuit?",
+        "o": [
+          "Japan",
+          "Canada",
+          "Hungary",
+          "United Arab Emirates"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts Bahrain International Circuit?",
+        "o": [
+          "Bahrain",
+          "Malaysia",
+          "Qatar",
+          "United Kingdom"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country hosts Interlagos?",
+        "o": [
+          "Qatar",
+          "Brazil",
+          "United Kingdom",
+          "Monaco"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts Circuit of the Americas?",
+        "o": [
+          "Azerbaijan",
+          "China",
+          "United States",
+          "Netherlands"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country hosts Sochi Autodrom?",
+        "o": [
+          "Germany",
+          "Türkiye",
+          "Malaysia",
+          "Russia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts Baku City Circuit?",
+        "o": [
+          "Azerbaijan",
+          "Belgium",
+          "Japan",
+          "Canada"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country hosts Shanghai International Circuit?",
+        "o": [
+          "Spain",
+          "China",
+          "Singapore",
+          "United Arab Emirates"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts Circuit Zandvoort?",
+        "o": [
+          "China",
+          "France",
+          "Netherlands",
+          "Germany"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country hosts Imola?",
+        "o": [
+          "United States",
+          "Russia",
+          "Azerbaijan",
+          "Italy"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts Circuit Paul Ricard?",
+        "o": [
+          "France",
+          "United Kingdom",
+          "Monaco",
+          "Italy"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country hosts the Nürburgring?",
+        "o": [
+          "Türkiye",
+          "Germany",
+          "Malaysia",
+          "Qatar"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Hockenheimring?",
+        "o": [
+          "United States",
+          "Russia",
+          "Germany",
+          "Azerbaijan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country hosts Istanbul Park?",
+        "o": [
+          "Canada",
+          "Hungary",
+          "Austria",
+          "Türkiye"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts Sepang International Circuit?",
+        "o": [
+          "Malaysia",
+          "Bahrain",
+          "Brazil",
+          "United States"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country hosts Losail International Circuit?",
+        "o": [
+          "Austria",
+          "Qatar",
+          "Spain",
+          "Singapore"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2010 Formula 1 drivers’ title?",
+        "o": [
+          "Fernando Alonso",
+          "Max Verstappen",
+          "Sebastian Vettel",
+          "Kimi Räikkönen"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2011 Formula 1 drivers’ title?",
+        "o": [
+          "Max Verstappen",
+          "Kimi Räikkönen",
+          "Lewis Hamilton",
+          "Sebastian Vettel"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2012 Formula 1 drivers’ title?",
+        "o": [
+          "Sebastian Vettel",
+          "Kimi Räikkönen",
+          "Lewis Hamilton",
+          "Nico Rosberg"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2013 Formula 1 drivers’ title?",
+        "o": [
+          "Max Verstappen",
+          "Sebastian Vettel",
+          "Kimi Räikkönen",
+          "Lewis Hamilton"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2014 Formula 1 drivers’ title?",
+        "o": [
+          "Fernando Alonso",
+          "Max Verstappen",
+          "Lewis Hamilton",
+          "Kimi Räikkönen"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2015 Formula 1 drivers’ title?",
+        "o": [
+          "Sebastian Vettel",
+          "Nico Rosberg",
+          "Fernando Alonso",
+          "Lewis Hamilton"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2016 Formula 1 drivers’ title?",
+        "o": [
+          "Nico Rosberg",
+          "Kimi Räikkönen",
+          "Sebastian Vettel",
+          "Lewis Hamilton"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2017 Formula 1 drivers’ title?",
+        "o": [
+          "Nico Rosberg",
+          "Lewis Hamilton",
+          "Fernando Alonso",
+          "Max Verstappen"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2018 Formula 1 drivers’ title?",
+        "o": [
+          "Sebastian Vettel",
+          "Nico Rosberg",
+          "Lewis Hamilton",
+          "Fernando Alonso"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2019 Formula 1 drivers’ title?",
+        "o": [
+          "Max Verstappen",
+          "Kimi Räikkönen",
+          "Sebastian Vettel",
+          "Lewis Hamilton"
+        ],
+        "a": 3
+      }
+    ],
+    "3": [
+      {
+        "p": "Who won the 2000 Formula 1 drivers’ title?",
+        "o": [
+          "Michael Schumacher",
+          "Lewis Hamilton",
+          "Jenson Button",
+          "David Coulthard"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2003 MotoGP riders’ title?",
+        "o": [
+          "Kevin Schwantz",
+          "Valentino Rossi",
+          "Max Biaggi",
+          "Loris Capirossi"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2004 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Jeff Gordon",
+          "Bobby Labonte",
+          "Kurt Busch",
+          "Dale Jarrett"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2009 Indianapolis 500?",
+        "o": [
+          "Dario Franchitti",
+          "Sam Hornish Jr",
+          "Dan Wheldon",
+          "Hélio Castroneves"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 2013 24 Hours of Le Mans?",
+        "o": [
+          "Audi",
+          "Aston Martin",
+          "Peugeot",
+          "Porsche"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2018 World Rally Championship drivers’ title?",
+        "o": [
+          "Ott Tänak",
+          "Sébastien Ogier",
+          "Thierry Neuville",
+          "Jari-Matti Latvala"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2020-21 Formula E drivers’ title?",
+        "o": [
+          "António Félix da Costa",
+          "Jean-Éric Vergne",
+          "Nyck de Vries",
+          "Lucas di Grassi"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2001 Formula 1 drivers’ title?",
+        "o": [
+          "David Coulthard",
+          "Juan Pablo Montoya",
+          "Felipe Massa",
+          "Michael Schumacher"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2002 MotoGP riders’ title?",
+        "o": [
+          "Valentino Rossi",
+          "Max Biaggi",
+          "Loris Capirossi",
+          "Kenny Roberts Jr"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2003 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Mark Martin",
+          "Matt Kenseth",
+          "Rusty Wallace",
+          "Kurt Busch"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2008 Indianapolis 500?",
+        "o": [
+          "Dan Wheldon",
+          "Buddy Rice",
+          "Scott Dixon",
+          "Gil de Ferran"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 2012 24 Hours of Le Mans?",
+        "o": [
+          "Toyota",
+          "Aston Martin",
+          "Peugeot",
+          "Audi"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2017 World Rally Championship drivers’ title?",
+        "o": [
+          "Sébastien Ogier",
+          "Thierry Neuville",
+          "Jari-Matti Latvala",
+          "Ott Tänak"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2019-20 Formula E drivers’ title?",
+        "o": [
+          "Lucas di Grassi",
+          "António Félix da Costa",
+          "Sam Bird",
+          "Nyck de Vries"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2002 Formula 1 drivers’ title?",
+        "o": [
+          "Lewis Hamilton",
+          "Jenson Button",
+          "Michael Schumacher",
+          "David Coulthard"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2001 500cc riders’ title?",
+        "o": [
+          "Max Biaggi",
+          "Loris Capirossi",
+          "Kenny Roberts Jr",
+          "Valentino Rossi"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2002 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Tony Stewart",
+          "Rusty Wallace",
+          "Kurt Busch",
+          "Matt Kenseth"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2007 Indianapolis 500?",
+        "o": [
+          "Tony Kanaan",
+          "Dario Franchitti",
+          "Buddy Lazier",
+          "Hélio Castroneves"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 2011 24 Hours of Le Mans?",
+        "o": [
+          "Porsche",
+          "Toyota",
+          "Audi",
+          "Aston Martin"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2016 World Rally Championship drivers’ title?",
+        "o": [
+          "Thierry Neuville",
+          "Jari-Matti Latvala",
+          "Ott Tänak",
+          "Sébastien Ogier"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2003 Formula 1 drivers’ title?",
+        "o": [
+          "Michael Schumacher",
+          "Jenson Button",
+          "David Coulthard",
+          "Juan Pablo Montoya"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2000 500cc riders’ title?",
+        "o": [
+          "Max Biaggi",
+          "Kenny Roberts Jr",
+          "Loris Capirossi",
+          "Valentino Rossi"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2001 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Tony Stewart",
+          "Bobby Labonte",
+          "Jeff Gordon",
+          "Dale Jarrett"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2006 Indianapolis 500?",
+        "o": [
+          "Gil de Ferran",
+          "Tony Kanaan",
+          "Buddy Lazier",
+          "Sam Hornish Jr"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 2010 24 Hours of Le Mans?",
+        "o": [
+          "Audi",
+          "Peugeot",
+          "Porsche",
+          "Toyota"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2004 Formula 1 drivers’ title?",
+        "o": [
+          "David Coulthard",
+          "Michael Schumacher",
+          "Juan Pablo Montoya",
+          "Felipe Massa"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1999 500cc riders’ title?",
+        "o": [
+          "Kevin Schwantz",
+          "Max Biaggi",
+          "Àlex Crivillé",
+          "Loris Capirossi"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2000 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Tony Stewart",
+          "Jeff Gordon",
+          "Dale Jarrett",
+          "Bobby Labonte"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2005 Indianapolis 500?",
+        "o": [
+          "Dan Wheldon",
+          "Scott Dixon",
+          "Dario Franchitti",
+          "Sam Hornish Jr"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 2009 24 Hours of Le Mans?",
+        "o": [
+          "Audi",
+          "Peugeot",
+          "Porsche",
+          "Toyota"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2005 Formula 1 drivers’ title?",
+        "o": [
+          "Juan Pablo Montoya",
+          "Felipe Massa",
+          "Fernando Alonso",
+          "Michael Schumacher"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1998 500cc riders’ title?",
+        "o": [
+          "Kevin Schwantz",
+          "Max Biaggi",
+          "Loris Capirossi",
+          "Mick Doohan"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1999 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Dale Jarrett",
+          "Rusty Wallace",
+          "Kurt Busch",
+          "Matt Kenseth"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2004 Indianapolis 500?",
+        "o": [
+          "Gil de Ferran",
+          "Buddy Rice",
+          "Tony Kanaan",
+          "Buddy Lazier"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 2008 24 Hours of Le Mans?",
+        "o": [
+          "Aston Martin",
+          "Peugeot",
+          "Audi",
+          "Porsche"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2006 Formula 1 drivers’ title?",
+        "o": [
+          "Kimi Räikkönen",
+          "Lewis Hamilton",
+          "Jenson Button",
+          "Fernando Alonso"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1997 500cc riders’ title?",
+        "o": [
+          "Mick Doohan",
+          "Valentino Rossi",
+          "Kenny Roberts Jr",
+          "Àlex Crivillé"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1998 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Kurt Busch",
+          "Jeff Gordon",
+          "Matt Kenseth",
+          "Tony Stewart"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2003 Indianapolis 500?",
+        "o": [
+          "Buddy Lazier",
+          "Hélio Castroneves",
+          "Gil de Ferran",
+          "Scott Dixon"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2007 Formula 1 drivers’ title?",
+        "o": [
+          "Lewis Hamilton",
+          "Jenson Button",
+          "David Coulthard",
+          "Kimi Räikkönen"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1996 500cc riders’ title?",
+        "o": [
+          "Mick Doohan",
+          "Kevin Schwantz",
+          "Max Biaggi",
+          "Loris Capirossi"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1997 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Matt Kenseth",
+          "Jeff Gordon",
+          "Tony Stewart",
+          "Bobby Labonte"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2002 Indianapolis 500?",
+        "o": [
+          "Sam Hornish Jr",
+          "Dan Wheldon",
+          "Hélio Castroneves",
+          "Buddy Rice"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2008 Formula 1 drivers’ title?",
+        "o": [
+          "Fernando Alonso",
+          "Kimi Räikkönen",
+          "Jenson Button",
+          "Lewis Hamilton"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1995 500cc riders’ title?",
+        "o": [
+          "Mick Doohan",
+          "Max Biaggi",
+          "Loris Capirossi",
+          "Valentino Rossi"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1996 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Dale Jarrett",
+          "Terry Labonte",
+          "Mark Martin",
+          "Rusty Wallace"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2009 Formula 1 drivers’ title?",
+        "o": [
+          "David Coulthard",
+          "Juan Pablo Montoya",
+          "Jenson Button",
+          "Felipe Massa"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1994 500cc riders’ title?",
+        "o": [
+          "Kenny Roberts Jr",
+          "Àlex Crivillé",
+          "Kevin Schwantz",
+          "Mick Doohan"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1995 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Jeff Gordon",
+          "Bobby Labonte",
+          "Dale Jarrett",
+          "Terry Labonte"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did David Coulthard represent?",
+        "o": [
+          "Canada",
+          "United Kingdom",
+          "Finland",
+          "France"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1993 500cc riders’ title?",
+        "o": [
+          "Àlex Crivillé",
+          "Mick Doohan",
+          "Kevin Schwantz",
+          "Max Biaggi"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Ralf Schumacher represent?",
+        "o": [
+          "Netherlands",
+          "Spain",
+          "Japan",
+          "Germany"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Juan Pablo Montoya represent?",
+        "o": [
+          "Colombia",
+          "Portugal",
+          "Brazil",
+          "United Kingdom"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Giancarlo Fisichella represent?",
+        "o": [
+          "Spain",
+          "Italy",
+          "Japan",
+          "Austria"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Jacques Villeneuve represent?",
+        "o": [
+          "Brazil",
+          "United Kingdom",
+          "Canada",
+          "Germany"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Eddie Irvine represent?",
+        "o": [
+          "Netherlands",
+          "Spain",
+          "Japan",
+          "United Kingdom"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Mika Häkkinen represent?",
+        "o": [
+          "Finland",
+          "United Kingdom",
+          "Germany",
+          "Colombia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Olivier Panis represent?",
+        "o": [
+          "United States",
+          "France",
+          "Portugal",
+          "Brazil"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Jos Verstappen represent?",
+        "o": [
+          "Austria",
+          "United States",
+          "Netherlands",
+          "Portugal"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Pedro de la Rosa represent?",
+        "o": [
+          "United States",
+          "Portugal",
+          "Brazil",
+          "Spain"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Takuma Sato represent?",
+        "o": [
+          "Japan",
+          "Portugal",
+          "Brazil",
+          "United Kingdom"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Christian Klien represent?",
+        "o": [
+          "Spain",
+          "Austria",
+          "Japan",
+          "United States"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Anthony Davidson represent?",
+        "o": [
+          "France",
+          "Netherlands",
+          "United Kingdom",
+          "Spain"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Scott Speed represent?",
+        "o": [
+          "Austria",
+          "Portugal",
+          "Brazil",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Robert Doornbos represent?",
+        "o": [
+          "Netherlands",
+          "United Kingdom",
+          "Germany",
+          "Colombia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Tiago Monteiro represent?",
+        "o": [
+          "United Kingdom",
+          "Portugal",
+          "Germany",
+          "Colombia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Christijan Albers represent?",
+        "o": [
+          "Germany",
+          "Colombia",
+          "Netherlands",
+          "Italy"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Alexander Wurz represent?",
+        "o": [
+          "France",
+          "Netherlands",
+          "Spain",
+          "Austria"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Ricardo Zonta represent?",
+        "o": [
+          "Brazil",
+          "Austria",
+          "United States",
+          "Portugal"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Cristiano da Matta represent?",
+        "o": [
+          "United States",
+          "Brazil",
+          "Portugal",
+          "United Kingdom"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts Indianapolis Motor Speedway?",
+        "o": [
+          "Spain",
+          "Japan",
+          "United States",
+          "Australia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country hosts Circuit de Nevers Magny-Cours?",
+        "o": [
+          "Spain",
+          "Japan",
+          "Australia",
+          "France"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts Autódromo do Estoril?",
+        "o": [
+          "Portugal",
+          "Belgium",
+          "United Kingdom",
+          "Argentina"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country hosts the A1-Ring?",
+        "o": [
+          "Japan",
+          "Austria",
+          "Australia",
+          "South Africa"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts Circuit Ricardo Tormo?",
+        "o": [
+          "Argentina",
+          "United States",
+          "Spain",
+          "France"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country hosts Fuji Speedway?",
+        "o": [
+          "United Kingdom",
+          "Argentina",
+          "United States",
+          "Japan"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Adelaide Street Circuit?",
+        "o": [
+          "Australia",
+          "Portugal",
+          "Austria",
+          "Spain"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country hosts Kyalami?",
+        "o": [
+          "Argentina",
+          "South Africa",
+          "United States",
+          "France"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts Buddh International Circuit?",
+        "o": [
+          "Argentina",
+          "United States",
+          "India",
+          "France"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country hosts Korea International Circuit?",
+        "o": [
+          "United States",
+          "France",
+          "Portugal",
+          "South Korea"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Valencia Street Circuit?",
+        "o": [
+          "Spain",
+          "Italy",
+          "Belgium",
+          "United Kingdom"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country hosts Circuito de Jerez?",
+        "o": [
+          "Austria",
+          "Spain",
+          "Japan",
+          "Australia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts Autódromo do Algarve?",
+        "o": [
+          "France",
+          "Austria",
+          "Portugal",
+          "Spain"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country hosts Mugello Circuit?",
+        "o": [
+          "Belgium",
+          "United Kingdom",
+          "Argentina",
+          "Italy"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts Circuit Zolder?",
+        "o": [
+          "Belgium",
+          "Spain",
+          "Japan",
+          "Australia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country hosts Donington Park?",
+        "o": [
+          "India",
+          "United Kingdom",
+          "South Korea",
+          "Italy"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts Brands Hatch?",
+        "o": [
+          "Argentina",
+          "United States",
+          "United Kingdom",
+          "France"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country hosts Autódromo Óscar Gálvez?",
+        "o": [
+          "India",
+          "South Korea",
+          "Italy",
+          "Argentina"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Las Vegas Strip Circuit?",
+        "o": [
+          "United States",
+          "Argentina",
+          "France",
+          "Portugal"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country hosts Miami International Autodrome?",
+        "o": [
+          "Belgium",
+          "United States",
+          "United Kingdom",
+          "Argentina"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which circuit hosts the Italian Grand Prix?",
+        "o": [
+          "Marina Bay Street Circuit",
+          "Autódromo Hermanos Rodríguez",
+          "Monza",
+          "Interlagos"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which circuit hosts the British Grand Prix?",
+        "o": [
+          "Autódromo Hermanos Rodríguez",
+          "Interlagos",
+          "Monza",
+          "Silverstone"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which circuit hosts the Belgian Grand Prix?",
+        "o": [
+          "Spa-Francorchamps",
+          "Suzuka",
+          "the Hungaroring",
+          "the Red Bull Ring"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which circuit hosts the Japanese Grand Prix?",
+        "o": [
+          "the Red Bull Ring",
+          "Suzuka",
+          "Circuit Gilles Villeneuve",
+          "Marina Bay Street Circuit"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which circuit hosts the Hungarian Grand Prix?",
+        "o": [
+          "Marina Bay Street Circuit",
+          "Autódromo Hermanos Rodríguez",
+          "the Hungaroring",
+          "Interlagos"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which circuit hosts the Austrian Grand Prix?",
+        "o": [
+          "Interlagos",
+          "Monza",
+          "Silverstone",
+          "the Red Bull Ring"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which circuit hosts the Canadian Grand Prix?",
+        "o": [
+          "Circuit Gilles Villeneuve",
+          "the Hungaroring",
+          "the Red Bull Ring",
+          "Marina Bay Street Circuit"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which circuit hosts the Singapore Grand Prix?",
+        "o": [
+          "the Red Bull Ring",
+          "Marina Bay Street Circuit",
+          "Circuit Gilles Villeneuve",
+          "Autódromo Hermanos Rodríguez"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which circuit hosts the Mexico City Grand Prix?",
+        "o": [
+          "Silverstone",
+          "Spa-Francorchamps",
+          "Autódromo Hermanos Rodríguez",
+          "Suzuka"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which circuit hosts the Brazilian Grand Prix?",
+        "o": [
+          "Silverstone",
+          "Spa-Francorchamps",
+          "Suzuka",
+          "Interlagos"
+        ],
+        "a": 3
+      }
+    ],
+    "4": [
+      {
+        "p": "Who won the 1980 Formula 1 drivers’ title?",
+        "o": [
+          "Alan Jones",
+          "Nelson Piquet",
+          "Keke Rosberg",
+          "Niki Lauda"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1992 500cc riders’ title?",
+        "o": [
+          "Randy Mamola",
+          "Wayne Rainey",
+          "Kevin Schwantz",
+          "Eddie Lawson"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1994 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Harry Gant",
+          "Alan Kulwicki",
+          "Dale Earnhardt",
+          "Rusty Wallace"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2001 Indianapolis 500?",
+        "o": [
+          "Arie Luyendyk",
+          "Buddy Lazier",
+          "Jacques Villeneuve",
+          "Hélio Castroneves"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 2007 24 Hours of Le Mans?",
+        "o": [
+          "Audi",
+          "Bentley",
+          "Porsche",
+          "Cadillac"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2015 World Rally Championship drivers’ title?",
+        "o": [
+          "Sébastien Loeb",
+          "Sébastien Ogier",
+          "Mikko Hirvonen",
+          "Jari-Matti Latvala"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2018-19 Formula E drivers’ title?",
+        "o": [
+          "Sam Bird",
+          "Lucas di Grassi",
+          "Jean-Éric Vergne",
+          "Sébastien Buemi"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1981 Formula 1 drivers’ title?",
+        "o": [
+          "Alan Jones",
+          "Keke Rosberg",
+          "Niki Lauda",
+          "Nelson Piquet"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1991 500cc riders’ title?",
+        "o": [
+          "Wayne Rainey",
+          "Wayne Gardner",
+          "Freddie Spencer",
+          "Franco Uncini"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1993 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Alan Kulwicki",
+          "Dale Earnhardt",
+          "Rusty Wallace",
+          "Bill Elliott"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2000 Indianapolis 500?",
+        "o": [
+          "Kenny Bräck",
+          "Eddie Cheever",
+          "Juan Pablo Montoya",
+          "Arie Luyendyk"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 2006 24 Hours of Le Mans?",
+        "o": [
+          "Porsche",
+          "Cadillac",
+          "Panoz",
+          "Audi"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2014 World Rally Championship drivers’ title?",
+        "o": [
+          "Sébastien Ogier",
+          "Sébastien Loeb",
+          "Mikko Hirvonen",
+          "Jari-Matti Latvala"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2017-18 Formula E drivers’ title?",
+        "o": [
+          "Sam Bird",
+          "Jean-Éric Vergne",
+          "Lucas di Grassi",
+          "Sébastien Buemi"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1982 Formula 1 drivers’ title?",
+        "o": [
+          "Gerhard Berger",
+          "Riccardo Patrese",
+          "Keke Rosberg",
+          "Jean Alesi"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1990 500cc riders’ title?",
+        "o": [
+          "Freddie Spencer",
+          "Franco Uncini",
+          "Randy Mamola",
+          "Wayne Rainey"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1992 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Alan Kulwicki",
+          "Rusty Wallace",
+          "Bill Elliott",
+          "Darrell Waltrip"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1999 Indianapolis 500?",
+        "o": [
+          "Michael Andretti",
+          "Kenny Bräck",
+          "Hélio Castroneves",
+          "Juan Pablo Montoya"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 2005 24 Hours of Le Mans?",
+        "o": [
+          "Cadillac",
+          "Panoz",
+          "Audi",
+          "Bentley"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2013 World Rally Championship drivers’ title?",
+        "o": [
+          "Sébastien Loeb",
+          "Mikko Hirvonen",
+          "Jari-Matti Latvala",
+          "Sébastien Ogier"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1983 Formula 1 drivers’ title?",
+        "o": [
+          "Nelson Piquet",
+          "Damon Hill",
+          "Jacques Villeneuve",
+          "Mika Häkkinen"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1989 500cc riders’ title?",
+        "o": [
+          "Wayne Gardner",
+          "Eddie Lawson",
+          "Freddie Spencer",
+          "Franco Uncini"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1991 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Bill Elliott",
+          "Darrell Waltrip",
+          "Dale Earnhardt",
+          "Davey Allison"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1998 Indianapolis 500?",
+        "o": [
+          "Jacques Villeneuve",
+          "Al Unser Jr",
+          "Scott Goodyear",
+          "Eddie Cheever"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 2004 24 Hours of Le Mans?",
+        "o": [
+          "Audi",
+          "Panoz",
+          "Bentley",
+          "Porsche"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1984 Formula 1 drivers’ title?",
+        "o": [
+          "Mika Häkkinen",
+          "Niki Lauda",
+          "Gerhard Berger",
+          "Riccardo Patrese"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1988 500cc riders’ title?",
+        "o": [
+          "Freddie Spencer",
+          "Franco Uncini",
+          "Eddie Lawson",
+          "Randy Mamola"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1990 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Harry Gant",
+          "Alan Kulwicki",
+          "Rusty Wallace",
+          "Dale Earnhardt"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1997 Indianapolis 500?",
+        "o": [
+          "Arie Luyendyk",
+          "Hélio Castroneves",
+          "Juan Pablo Montoya",
+          "Kenny Bräck"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 2003 24 Hours of Le Mans?",
+        "o": [
+          "Audi",
+          "Bentley",
+          "Porsche",
+          "Cadillac"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1985 Formula 1 drivers’ title?",
+        "o": [
+          "Damon Hill",
+          "Jacques Villeneuve",
+          "Alain Prost",
+          "Mika Häkkinen"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1987 500cc riders’ title?",
+        "o": [
+          "Eddie Lawson",
+          "Freddie Spencer",
+          "Franco Uncini",
+          "Wayne Gardner"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1989 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Rusty Wallace",
+          "Dale Earnhardt",
+          "Alan Kulwicki",
+          "Bill Elliott"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1996 Indianapolis 500?",
+        "o": [
+          "Scott Goodyear",
+          "Buddy Lazier",
+          "Michael Andretti",
+          "Hélio Castroneves"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 2002 24 Hours of Le Mans?",
+        "o": [
+          "Porsche",
+          "Cadillac",
+          "Audi",
+          "Panoz"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1986 Formula 1 drivers’ title?",
+        "o": [
+          "Jacques Villeneuve",
+          "Mika Häkkinen",
+          "Gerhard Berger",
+          "Alain Prost"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1986 500cc riders’ title?",
+        "o": [
+          "Eddie Lawson",
+          "Wayne Rainey",
+          "Wayne Gardner",
+          "Freddie Spencer"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1988 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Alan Kulwicki",
+          "Bill Elliott",
+          "Rusty Wallace",
+          "Darrell Waltrip"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1995 Indianapolis 500?",
+        "o": [
+          "Hélio Castroneves",
+          "Juan Pablo Montoya",
+          "Jacques Villeneuve",
+          "Kenny Bräck"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1987 Formula 1 drivers’ title?",
+        "o": [
+          "Michael Schumacher",
+          "Damon Hill",
+          "Jacques Villeneuve",
+          "Nelson Piquet"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1985 500cc riders’ title?",
+        "o": [
+          "Freddie Spencer",
+          "Eddie Lawson",
+          "Wayne Gardner",
+          "Franco Uncini"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1987 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Darrell Waltrip",
+          "Dale Earnhardt",
+          "Davey Allison",
+          "Harry Gant"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1994 Indianapolis 500?",
+        "o": [
+          "Arie Luyendyk",
+          "Buddy Lazier",
+          "Al Unser Jr",
+          "Jacques Villeneuve"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1988 Formula 1 drivers’ title?",
+        "o": [
+          "Mika Häkkinen",
+          "Gerhard Berger",
+          "Riccardo Patrese",
+          "Ayrton Senna"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1984 500cc riders’ title?",
+        "o": [
+          "Eddie Lawson",
+          "Randy Mamola",
+          "Kevin Schwantz",
+          "Wayne Rainey"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1986 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Davey Allison",
+          "Dale Earnhardt",
+          "Harry Gant",
+          "Alan Kulwicki"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1989 Formula 1 drivers’ title?",
+        "o": [
+          "Mika Häkkinen",
+          "Gerhard Berger",
+          "Alain Prost",
+          "Riccardo Patrese"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1983 500cc riders’ title?",
+        "o": [
+          "Kevin Schwantz",
+          "Wayne Rainey",
+          "Eddie Lawson",
+          "Freddie Spencer"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1985 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Darrell Waltrip",
+          "Bill Elliott",
+          "Davey Allison",
+          "Harry Gant"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1990 Formula 1 drivers’ title?",
+        "o": [
+          "Michael Schumacher",
+          "Ayrton Senna",
+          "Damon Hill",
+          "Jacques Villeneuve"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1982 500cc riders’ title?",
+        "o": [
+          "Wayne Rainey",
+          "Eddie Lawson",
+          "Franco Uncini",
+          "Wayne Gardner"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1991 Formula 1 drivers’ title?",
+        "o": [
+          "Riccardo Patrese",
+          "Jean Alesi",
+          "Alan Jones",
+          "Ayrton Senna"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1992 Formula 1 drivers’ title?",
+        "o": [
+          "Nigel Mansell",
+          "Jean Alesi",
+          "Alan Jones",
+          "Nelson Piquet"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1993 Formula 1 drivers’ title?",
+        "o": [
+          "Keke Rosberg",
+          "Alain Prost",
+          "Niki Lauda",
+          "Ayrton Senna"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1994 Formula 1 drivers’ title?",
+        "o": [
+          "Riccardo Patrese",
+          "Jean Alesi",
+          "Michael Schumacher",
+          "Alan Jones"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1995 Formula 1 drivers’ title?",
+        "o": [
+          "Mika Häkkinen",
+          "Gerhard Berger",
+          "Riccardo Patrese",
+          "Michael Schumacher"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1996 Formula 1 drivers’ title?",
+        "o": [
+          "Damon Hill",
+          "Ayrton Senna",
+          "Nigel Mansell",
+          "Michael Schumacher"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1997 Formula 1 drivers’ title?",
+        "o": [
+          "Mika Häkkinen",
+          "Jacques Villeneuve",
+          "Gerhard Berger",
+          "Riccardo Patrese"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1998 Formula 1 drivers’ title?",
+        "o": [
+          "Damon Hill",
+          "Jacques Villeneuve",
+          "Mika Häkkinen",
+          "Gerhard Berger"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1999 Formula 1 drivers’ title?",
+        "o": [
+          "Damon Hill",
+          "Jacques Villeneuve",
+          "Gerhard Berger",
+          "Mika Häkkinen"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Ayrton Senna represent?",
+        "o": [
+          "Brazil",
+          "Portugal",
+          "France",
+          "United Kingdom"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Alain Prost represent?",
+        "o": [
+          "Japan",
+          "France",
+          "United States",
+          "Sweden"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Nigel Mansell represent?",
+        "o": [
+          "Portugal",
+          "Brazil",
+          "United Kingdom",
+          "France"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Nelson Piquet represent?",
+        "o": [
+          "France",
+          "United Kingdom",
+          "Austria",
+          "Brazil"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Niki Lauda represent?",
+        "o": [
+          "Austria",
+          "United Kingdom",
+          "Finland",
+          "Australia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Keke Rosberg represent?",
+        "o": [
+          "Portugal",
+          "Finland",
+          "Brazil",
+          "France"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Alan Jones represent?",
+        "o": [
+          "Belgium",
+          "Portugal",
+          "Australia",
+          "Brazil"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Damon Hill represent?",
+        "o": [
+          "Brazil",
+          "France",
+          "Austria",
+          "United Kingdom"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Gerhard Berger represent?",
+        "o": [
+          "Austria",
+          "Brazil",
+          "France",
+          "United Kingdom"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Riccardo Patrese represent?",
+        "o": [
+          "Austria",
+          "Italy",
+          "Finland",
+          "Australia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Jean Alesi represent?",
+        "o": [
+          "Belgium",
+          "Portugal",
+          "France",
+          "Brazil"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Martin Brundle represent?",
+        "o": [
+          "Japan",
+          "United States",
+          "Sweden",
+          "United Kingdom"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Johnny Herbert represent?",
+        "o": [
+          "United Kingdom",
+          "United States",
+          "Sweden",
+          "Belgium"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Heinz-Harald Frentzen represent?",
+        "o": [
+          "Austria",
+          "Germany",
+          "Finland",
+          "Australia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Ukyo Katayama represent?",
+        "o": [
+          "Italy",
+          "Germany",
+          "Japan",
+          "United States"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Aguri Suzuki represent?",
+        "o": [
+          "Brazil",
+          "France",
+          "United Kingdom",
+          "Japan"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Eddie Cheever represent?",
+        "o": [
+          "United States",
+          "Brazil",
+          "France",
+          "United Kingdom"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Michele Alboreto represent?",
+        "o": [
+          "Portugal",
+          "Italy",
+          "Brazil",
+          "France"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Elio de Angelis represent?",
+        "o": [
+          "Germany",
+          "Japan",
+          "Italy",
+          "United States"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Stefan Johansson represent?",
+        "o": [
+          "United States",
+          "Belgium",
+          "Portugal",
+          "Sweden"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Thierry Boutsen represent?",
+        "o": [
+          "Belgium",
+          "Germany",
+          "Japan",
+          "United States"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did JJ Lehto represent?",
+        "o": [
+          "Italy",
+          "Finland",
+          "Germany",
+          "Japan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Andrea de Cesaris represent?",
+        "o": [
+          "Portugal",
+          "Brazil",
+          "Italy",
+          "France"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Satoru Nakajima represent?",
+        "o": [
+          "Austria",
+          "Finland",
+          "Australia",
+          "Japan"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Pedro Lamy represent?",
+        "o": [
+          "Portugal",
+          "Sweden",
+          "Belgium",
+          "Brazil"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country hosts the Österreichring?",
+        "o": [
+          "Japan",
+          "Austria",
+          "France",
+          "Spain"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts Circuit de Dijon-Prenois?",
+        "o": [
+          "Canada",
+          "Belgium",
+          "France",
+          "Italy"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country hosts Circuito del Jarama?",
+        "o": [
+          "Japan",
+          "Austria",
+          "France",
+          "Spain"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts Autódromo de Jacarepaguá?",
+        "o": [
+          "Brazil",
+          "Italy",
+          "Germany",
+          "Japan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country hosts the Long Beach street circuit?",
+        "o": [
+          "Japan",
+          "United States",
+          "Austria",
+          "France"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts Watkins Glen International?",
+        "o": [
+          "Sweden",
+          "Canada",
+          "United States",
+          "Belgium"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country hosts Circuit de Charade?",
+        "o": [
+          "Sweden",
+          "Canada",
+          "Belgium",
+          "France"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts Anderstorp Raceway?",
+        "o": [
+          "Sweden",
+          "Austria",
+          "France",
+          "Spain"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country hosts Circuit Mont-Tremblant?",
+        "o": [
+          "Japan",
+          "Canada",
+          "Austria",
+          "France"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts Nivelles-Baulers?",
+        "o": [
+          "Brazil",
+          "United States",
+          "Belgium",
+          "Sweden"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country hosts the Montjuïc circuit?",
+        "o": [
+          "United States",
+          "Sweden",
+          "Canada",
+          "Spain"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Pescara Circuit?",
+        "o": [
+          "Italy",
+          "Brazil",
+          "United States",
+          "Sweden"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country hosts Reims-Gueux?",
+        "o": [
+          "United States",
+          "France",
+          "Sweden",
+          "Canada"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts AVUS?",
+        "o": [
+          "France",
+          "Spain",
+          "Germany",
+          "Brazil"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country hosts the TI Circuit at Aida?",
+        "o": [
+          "United States",
+          "Sweden",
+          "Canada",
+          "Japan"
+        ],
+        "a": 3
+      }
+    ],
+    "5": [
+      {
+        "p": "Who won the 1950 Formula 1 drivers’ title?",
+        "o": [
+          "Nino Farina",
+          "Niki Lauda",
+          "James Hunt",
+          "Mario Andretti"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1981 500cc riders’ title?",
+        "o": [
+          "Kenny Roberts",
+          "Marco Lucchinelli",
+          "Barry Sheene",
+          "Giacomo Agostini"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1984 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Bobby Allison",
+          "Darrell Waltrip",
+          "Terry Labonte",
+          "Dale Earnhardt"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1993 Indianapolis 500?",
+        "o": [
+          "Arie Luyendyk",
+          "Al Unser",
+          "Bobby Rahal",
+          "Emerson Fittipaldi"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 2001 24 Hours of Le Mans?",
+        "o": [
+          "Audi",
+          "Porsche",
+          "Toyota",
+          "Nissan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2012 World Rally Championship drivers’ title?",
+        "o": [
+          "Marcus Grönholm",
+          "Sébastien Loeb",
+          "Mikko Hirvonen",
+          "Petter Solberg"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2016-17 Formula E drivers’ title?",
+        "o": [
+          "Sam Bird",
+          "Sébastien Buemi",
+          "Lucas di Grassi",
+          "Nelson Piquet Jr"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1951 Formula 1 drivers’ title?",
+        "o": [
+          "Jackie Stewart",
+          "Jochen Rindt",
+          "Emerson Fittipaldi",
+          "Juan Manuel Fangio"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1980 500cc riders’ title?",
+        "o": [
+          "Kenny Roberts",
+          "Barry Sheene",
+          "Giacomo Agostini",
+          "Phil Read"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1983 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Terry Labonte",
+          "Bobby Allison",
+          "Darrell Waltrip",
+          "Dale Earnhardt"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1992 Indianapolis 500?",
+        "o": [
+          "Bobby Rahal",
+          "Danny Sullivan",
+          "Al Unser Jr",
+          "Mario Andretti"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 2000 24 Hours of Le Mans?",
+        "o": [
+          "Porsche",
+          "Toyota",
+          "Nissan",
+          "Audi"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2011 World Rally Championship drivers’ title?",
+        "o": [
+          "Sébastien Loeb",
+          "Petter Solberg",
+          "Marcus Grönholm",
+          "Mikko Hirvonen"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2015-16 Formula E drivers’ title?",
+        "o": [
+          "Lucas di Grassi",
+          "Sébastien Buemi",
+          "Nelson Piquet Jr",
+          "Jean-Éric Vergne"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1952 Formula 1 drivers’ title?",
+        "o": [
+          "Nino Farina",
+          "Juan Manuel Fangio",
+          "Alberto Ascari",
+          "Mike Hawthorn"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1979 500cc riders’ title?",
+        "o": [
+          "Barry Sheene",
+          "Giacomo Agostini",
+          "Phil Read",
+          "Kenny Roberts"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1982 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Darrell Waltrip",
+          "David Pearson",
+          "Terry Labonte",
+          "Bobby Allison"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1991 Indianapolis 500?",
+        "o": [
+          "Al Unser Jr",
+          "Rick Mears",
+          "Arie Luyendyk",
+          "Al Unser"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 1999 24 Hours of Le Mans?",
+        "o": [
+          "Audi",
+          "Porsche",
+          "BMW",
+          "Toyota"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2010 World Rally Championship drivers’ title?",
+        "o": [
+          "Mikko Hirvonen",
+          "Petter Solberg",
+          "Marcus Grönholm",
+          "Sébastien Loeb"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1953 Formula 1 drivers’ title?",
+        "o": [
+          "Alberto Ascari",
+          "Jochen Rindt",
+          "Emerson Fittipaldi",
+          "Niki Lauda"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1978 500cc riders’ title?",
+        "o": [
+          "Mike Hailwood",
+          "Kenny Roberts",
+          "Franco Uncini",
+          "Marco Lucchinelli"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1981 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Dale Earnhardt",
+          "Richard Petty",
+          "Darrell Waltrip",
+          "Cale Yarborough"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1990 Indianapolis 500?",
+        "o": [
+          "Emerson Fittipaldi",
+          "Al Unser Jr",
+          "Rick Mears",
+          "Arie Luyendyk"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1998 24 Hours of Le Mans?",
+        "o": [
+          "Porsche",
+          "Nissan",
+          "Mercedes-Benz",
+          "Audi"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1954 Formula 1 drivers’ title?",
+        "o": [
+          "Stirling Moss",
+          "Juan Manuel Fangio",
+          "Ronnie Peterson",
+          "Chris Amon"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1977 500cc riders’ title?",
+        "o": [
+          "Franco Uncini",
+          "Marco Lucchinelli",
+          "Barry Sheene",
+          "Kenny Roberts"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1980 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Benny Parsons",
+          "David Pearson",
+          "Terry Labonte",
+          "Dale Earnhardt"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1989 Indianapolis 500?",
+        "o": [
+          "Emerson Fittipaldi",
+          "Arie Luyendyk",
+          "Al Unser",
+          "Bobby Rahal"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 1997 24 Hours of Le Mans?",
+        "o": [
+          "Mercedes-Benz",
+          "Porsche",
+          "Audi",
+          "BMW"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1955 Formula 1 drivers’ title?",
+        "o": [
+          "Stirling Moss",
+          "Ronnie Peterson",
+          "Juan Manuel Fangio",
+          "Chris Amon"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1976 500cc riders’ title?",
+        "o": [
+          "Mike Hailwood",
+          "Franco Uncini",
+          "Marco Lucchinelli",
+          "Barry Sheene"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1979 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Richard Petty",
+          "Terry Labonte",
+          "Bobby Allison",
+          "Darrell Waltrip"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1988 Indianapolis 500?",
+        "o": [
+          "Danny Sullivan",
+          "Rick Mears",
+          "Mario Andretti",
+          "Emerson Fittipaldi"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 1996 24 Hours of Le Mans?",
+        "o": [
+          "Toyota",
+          "Nissan",
+          "Porsche",
+          "Mercedes-Benz"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1956 Formula 1 drivers’ title?",
+        "o": [
+          "Jack Brabham",
+          "Phil Hill",
+          "Graham Hill",
+          "Juan Manuel Fangio"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1975 500cc riders’ title?",
+        "o": [
+          "Giacomo Agostini",
+          "Marco Lucchinelli",
+          "Kenny Roberts",
+          "Barry Sheene"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1978 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Terry Labonte",
+          "Cale Yarborough",
+          "Bobby Allison",
+          "Darrell Waltrip"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1987 Indianapolis 500?",
+        "o": [
+          "Emerson Fittipaldi",
+          "Al Unser Jr",
+          "Al Unser",
+          "Rick Mears"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1957 Formula 1 drivers’ title?",
+        "o": [
+          "Phil Hill",
+          "Graham Hill",
+          "Jim Clark",
+          "Juan Manuel Fangio"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1974 500cc riders’ title?",
+        "o": [
+          "Phil Read",
+          "Giacomo Agostini",
+          "Mike Hailwood",
+          "Franco Uncini"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1977 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Richard Petty",
+          "Cale Yarborough",
+          "Benny Parsons",
+          "David Pearson"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1986 Indianapolis 500?",
+        "o": [
+          "Arie Luyendyk",
+          "Al Unser",
+          "Bobby Rahal",
+          "Danny Sullivan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1958 Formula 1 drivers’ title?",
+        "o": [
+          "John Surtees",
+          "Denny Hulme",
+          "Jackie Stewart",
+          "Mike Hawthorn"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1973 500cc riders’ title?",
+        "o": [
+          "Phil Read",
+          "Marco Lucchinelli",
+          "Kenny Roberts",
+          "Barry Sheene"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1976 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Richard Petty",
+          "Cale Yarborough",
+          "Benny Parsons",
+          "David Pearson"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1959 Formula 1 drivers’ title?",
+        "o": [
+          "Stirling Moss",
+          "Ronnie Peterson",
+          "Jack Brabham",
+          "Chris Amon"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1972 500cc riders’ title?",
+        "o": [
+          "Franco Uncini",
+          "Marco Lucchinelli",
+          "Kenny Roberts",
+          "Giacomo Agostini"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1975 NASCAR Cup Series drivers’ title?",
+        "o": [
+          "Richard Petty",
+          "Terry Labonte",
+          "Bobby Allison",
+          "Darrell Waltrip"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1960 Formula 1 drivers’ title?",
+        "o": [
+          "Stirling Moss",
+          "Jack Brabham",
+          "Ronnie Peterson",
+          "Chris Amon"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1971 500cc riders’ title?",
+        "o": [
+          "Mike Hailwood",
+          "Franco Uncini",
+          "Giacomo Agostini",
+          "Marco Lucchinelli"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1961 Formula 1 drivers’ title?",
+        "o": [
+          "Denny Hulme",
+          "Jackie Stewart",
+          "Jochen Rindt",
+          "Phil Hill"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1962 Formula 1 drivers’ title?",
+        "o": [
+          "Graham Hill",
+          "Mario Andretti",
+          "Jody Scheckter",
+          "Stirling Moss"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1963 Formula 1 drivers’ title?",
+        "o": [
+          "Jody Scheckter",
+          "Jim Clark",
+          "Stirling Moss",
+          "Ronnie Peterson"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1964 Formula 1 drivers’ title?",
+        "o": [
+          "Niki Lauda",
+          "James Hunt",
+          "John Surtees",
+          "Mario Andretti"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1965 Formula 1 drivers’ title?",
+        "o": [
+          "Emerson Fittipaldi",
+          "Niki Lauda",
+          "James Hunt",
+          "Jim Clark"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1966 Formula 1 drivers’ title?",
+        "o": [
+          "Jack Brabham",
+          "Emerson Fittipaldi",
+          "Niki Lauda",
+          "James Hunt"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1967 Formula 1 drivers’ title?",
+        "o": [
+          "Chris Amon",
+          "Denny Hulme",
+          "Nino Farina",
+          "Juan Manuel Fangio"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1968 Formula 1 drivers’ title?",
+        "o": [
+          "Mike Hawthorn",
+          "Jack Brabham",
+          "Graham Hill",
+          "Phil Hill"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1969 Formula 1 drivers’ title?",
+        "o": [
+          "Chris Amon",
+          "Nino Farina",
+          "Juan Manuel Fangio",
+          "Jackie Stewart"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1970 Formula 1 drivers’ title?",
+        "o": [
+          "Jochen Rindt",
+          "Juan Manuel Fangio",
+          "Alberto Ascari",
+          "Mike Hawthorn"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1971 Formula 1 drivers’ title?",
+        "o": [
+          "Jim Clark",
+          "Jackie Stewart",
+          "John Surtees",
+          "Denny Hulme"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1972 Formula 1 drivers’ title?",
+        "o": [
+          "Jack Brabham",
+          "Phil Hill",
+          "Emerson Fittipaldi",
+          "Graham Hill"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1973 Formula 1 drivers’ title?",
+        "o": [
+          "Graham Hill",
+          "Jim Clark",
+          "John Surtees",
+          "Jackie Stewart"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1974 Formula 1 drivers’ title?",
+        "o": [
+          "Emerson Fittipaldi",
+          "Jochen Rindt",
+          "Niki Lauda",
+          "James Hunt"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1975 Formula 1 drivers’ title?",
+        "o": [
+          "Stirling Moss",
+          "Niki Lauda",
+          "Ronnie Peterson",
+          "Chris Amon"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1976 Formula 1 drivers’ title?",
+        "o": [
+          "Jim Clark",
+          "John Surtees",
+          "James Hunt",
+          "Denny Hulme"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1977 Formula 1 drivers’ title?",
+        "o": [
+          "Mike Hawthorn",
+          "Jack Brabham",
+          "Phil Hill",
+          "Niki Lauda"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1978 Formula 1 drivers’ title?",
+        "o": [
+          "Mario Andretti",
+          "Denny Hulme",
+          "Jackie Stewart",
+          "Jochen Rindt"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1979 Formula 1 drivers’ title?",
+        "o": [
+          "Jackie Stewart",
+          "Jody Scheckter",
+          "Jochen Rindt",
+          "Emerson Fittipaldi"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Juan Manuel Fangio represent?",
+        "o": [
+          "Brazil",
+          "Austria",
+          "Argentina",
+          "Sweden"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Alberto Ascari represent?",
+        "o": [
+          "Austria",
+          "Sweden",
+          "South Africa",
+          "Italy"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Nino Farina represent?",
+        "o": [
+          "Italy",
+          "Belgium",
+          "Argentina",
+          "United Kingdom"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Stirling Moss represent?",
+        "o": [
+          "South Africa",
+          "United Kingdom",
+          "Switzerland",
+          "Germany"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Jim Clark represent?",
+        "o": [
+          "Switzerland",
+          "Germany",
+          "United Kingdom",
+          "France"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Graham Hill represent?",
+        "o": [
+          "France",
+          "Mexico",
+          "Belgium",
+          "United Kingdom"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Jackie Stewart represent?",
+        "o": [
+          "United Kingdom",
+          "France",
+          "Mexico",
+          "Belgium"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Jack Brabham represent?",
+        "o": [
+          "Italy",
+          "Australia",
+          "United Kingdom",
+          "New Zealand"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Denny Hulme represent?",
+        "o": [
+          "United States",
+          "Brazil",
+          "New Zealand",
+          "Austria"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Bruce McLaren represent?",
+        "o": [
+          "United States",
+          "Brazil",
+          "Austria",
+          "New Zealand"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Phil Hill represent?",
+        "o": [
+          "United States",
+          "Italy",
+          "United Kingdom",
+          "Australia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Dan Gurney represent?",
+        "o": [
+          "Germany",
+          "United States",
+          "France",
+          "Mexico"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Mario Andretti represent?",
+        "o": [
+          "United Kingdom",
+          "Australia",
+          "United States",
+          "New Zealand"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Emerson Fittipaldi represent?",
+        "o": [
+          "Mexico",
+          "Belgium",
+          "Argentina",
+          "Brazil"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Jochen Rindt represent?",
+        "o": [
+          "Austria",
+          "Germany",
+          "France",
+          "Mexico"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Ronnie Peterson represent?",
+        "o": [
+          "United Kingdom",
+          "Sweden",
+          "Australia",
+          "New Zealand"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Jody Scheckter represent?",
+        "o": [
+          "Austria",
+          "Sweden",
+          "South Africa",
+          "Switzerland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did James Hunt represent?",
+        "o": [
+          "France",
+          "Mexico",
+          "Belgium",
+          "United Kingdom"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Carlos Reutemann represent?",
+        "o": [
+          "Argentina",
+          "New Zealand",
+          "United States",
+          "Brazil"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Clay Regazzoni represent?",
+        "o": [
+          "United Kingdom",
+          "Switzerland",
+          "Australia",
+          "New Zealand"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Jo Siffert represent?",
+        "o": [
+          "Germany",
+          "France",
+          "Switzerland",
+          "Mexico"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Mike Hawthorn represent?",
+        "o": [
+          "Brazil",
+          "Austria",
+          "Sweden",
+          "United Kingdom"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did John Surtees represent?",
+        "o": [
+          "United Kingdom",
+          "United States",
+          "Brazil",
+          "Austria"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Wolfgang von Trips represent?",
+        "o": [
+          "South Africa",
+          "Germany",
+          "Switzerland",
+          "France"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Jean Behra represent?",
+        "o": [
+          "Sweden",
+          "South Africa",
+          "France",
+          "Switzerland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Maurice Trintignant represent?",
+        "o": [
+          "New Zealand",
+          "United States",
+          "Brazil",
+          "France"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Luigi Musso represent?",
+        "o": [
+          "Italy",
+          "New Zealand",
+          "United States",
+          "Brazil"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Chris Amon represent?",
+        "o": [
+          "Sweden",
+          "New Zealand",
+          "South Africa",
+          "Switzerland"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Pedro Rodríguez represent?",
+        "o": [
+          "Belgium",
+          "Argentina",
+          "Mexico",
+          "Italy"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Jacky Ickx represent?",
+        "o": [
+          "Australia",
+          "New Zealand",
+          "United States",
+          "Belgium"
+        ],
+        "a": 3
+      }
+    ]
+  }
+}

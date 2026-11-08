@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 600" role="img" aria-label="Neutral skyscraper ad space wireframe">
+  <rect width="160" height="600" fill="#0f1929"/>
+  <path d="M0 300H160M80 0V600" stroke="#395068" stroke-dasharray="6 6"/>
+  <rect x="1" y="1" width="158" height="598" fill="none" stroke="#718aa3" stroke-dasharray="8 6"/>
+  <text x="80" y="280" fill="#9eb2c5" font-family="Arial, sans-serif" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="1">DEMO AD SPACE</text>
+  <text x="80" y="310" fill="#53d8ff" font-family="Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="2">160×600</text>
+</svg>

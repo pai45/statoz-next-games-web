@@ -1,0 +1,200 @@
+[
+  {
+    "test": "viewport 1280x720",
+    "status": "passed",
+    "src": "http://127.0.0.1:3001/assets/backgrounds/onboarding/desktop.webm",
+    "w": 1080,
+    "h": 1200,
+    "duration": 6,
+    "muted": true,
+    "loop": true,
+    "inline": true,
+    "requests": [
+      "http://127.0.0.1:3001/assets/backgrounds/onboarding/desktop.webm",
+      "http://127.0.0.1:3001/assets/backgrounds/onboarding/desktop.webm",
+      "http://127.0.0.1:3001/assets/backgrounds/onboarding/desktop.webm"
+    ],
+    "geometry": {
+      "video": {
+        "x": 0,
+        "y": 0,
+        "w": 672,
+        "h": 720,
+        "right": 672,
+        "bottom": 720
+      },
+      "form": {
+        "x": 772.5,
+        "y": 256.0625
+      },
+      "overflow": false
+    }
+  },
+  {
+    "test": "viewport 1440x900",
+    "status": "passed",
+    "src": "http://127.0.0.1:3001/assets/backgrounds/onboarding/desktop.webm",
+    "w": 1080,
+    "h": 1200,
+    "duration": 6,
+    "muted": true,
+    "loop": true,
+    "inline": true,
+    "requests": [
+      "http://127.0.0.1:3001/assets/backgrounds/onboarding/desktop.webm",
+      "http://127.0.0.1:3001/assets/backgrounds/onboarding/desktop.webm",
+      "http://127.0.0.1:3001/assets/backgrounds/onboarding/desktop.webm"
+    ],
+    "geometry": {
+      "video": {
+        "x": 0,
+        "y": 0,
+        "w": 755.984375,
+        "h": 900,
+        "right": 755.984375,
+        "bottom": 900
+      },
+      "form": {
+        "x": 894.484375,
+        "y": 346.0625
+      },
+      "overflow": false
+    }
+  },
+  {
+    "test": "viewport 360x800",
+    "status": "passed",
+    "src": "http://127.0.0.1:3001/assets/backgrounds/onboarding/mobile.webm",
+    "w": 900,
+    "h": 720,
+    "duration": 6,
+    "muted": true,
+    "loop": true,
+    "inline": true,
+    "requests": [
+      "http://127.0.0.1:3001/assets/backgrounds/onboarding/mobile.webm",
+      "http://127.0.0.1:3001/assets/backgrounds/onboarding/mobile.webm",
+      "http://127.0.0.1:3001/assets/backgrounds/onboarding/mobile.webm"
+    ],
+    "geometry": {
+      "video": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 288,
+        "right": 360,
+        "bottom": 288
+      },
+      "form": {
+        "x": 20,
+        "y": 450.96875
+      },
+      "overflow": false
+    }
+  },
+  {
+    "test": "viewport 390x844",
+    "status": "passed",
+    "src": "http://127.0.0.1:3001/assets/backgrounds/onboarding/mobile.webm",
+    "w": 900,
+    "h": 720,
+    "duration": 6,
+    "muted": true,
+    "loop": true,
+    "inline": true,
+    "requests": [
+      "http://127.0.0.1:3001/assets/backgrounds/onboarding/mobile.webm",
+      "http://127.0.0.1:3001/assets/backgrounds/onboarding/mobile.webm",
+      "http://127.0.0.1:3001/assets/backgrounds/onboarding/mobile.webm"
+    ],
+    "geometry": {
+      "video": {
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 312,
+        "right": 390,
+        "bottom": 312
+      },
+      "form": {
+        "x": 20,
+        "y": 493.765625
+      },
+      "overflow": false
+    }
+  },
+  {
+    "test": "viewport 430x932",
+    "status": "passed",
+    "src": "http://127.0.0.1:3001/assets/backgrounds/onboarding/mobile.webm",
+    "w": 900,
+    "h": 720,
+    "duration": 6,
+    "muted": true,
+    "loop": true,
+    "inline": true,
+    "requests": [
+      "http://127.0.0.1:3001/assets/backgrounds/onboarding/mobile.webm",
+      "http://127.0.0.1:3001/assets/backgrounds/onboarding/mobile.webm",
+      "http://127.0.0.1:3001/assets/backgrounds/onboarding/mobile.webm"
+    ],
+    "geometry": {
+      "video": {
+        "x": 0,
+        "y": 0,
+        "w": 430,
+        "h": 344,
+        "right": 430,
+        "bottom": 344
+      },
+      "form": {
+        "x": 20,
+        "y": 553.765625
+      },
+      "overflow": false
+    }
+  },
+  {
+    "test": "Reduced motion: poster only, explicit play, live preference updates",
+    "status": "passed"
+  },
+  {
+    "test": "Breakpoint changes remount a single correct video",
+    "status": "passed"
+  },
+  {
+    "test": "WebM failure plays MP4 fallback",
+    "status": "passed",
+    "requests": [
+      "http://127.0.0.1:3001/assets/backgrounds/onboarding/mobile.webm",
+      "http://127.0.0.1:3001/assets/backgrounds/onboarding/mobile.webm",
+      "http://127.0.0.1:3001/assets/backgrounds/onboarding/mobile.webm",
+      "http://127.0.0.1:3001/assets/backgrounds/onboarding/mobile.mp4",
+      "http://127.0.0.1:3001/assets/backgrounds/onboarding/mobile.mp4",
+      "http://127.0.0.1:3001/assets/backgrounds/onboarding/mobile.mp4"
+    ]
+  },
+  {
+    "test": "Both video sources fail: poster remains visible",
+    "status": "passed"
+  },
+  {
+    "test": "Autoplay rejection retains poster and Play control",
+    "status": "passed"
+  },
+  {
+    "test": "Mobile WebKit",
+    "status": "limited",
+    "detail": "Local WebKit rejects both formats with MEDIA_ERR_SRC_NOT_SUPPORTED in standalone players. Poster fallback verified; Safari playback not confirmed.",
+    "probe": [
+      {
+        "format": "mp4",
+        "code": 4
+      },
+      {
+        "format": "webm",
+        "code": 4
+      }
+    ]
+  }
+]

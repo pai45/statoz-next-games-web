@@ -1,0 +1,7952 @@
+{
+  "commentary": [
+    {
+      "ball": 1,
+      "batter": "Virat Kohli",
+      "boundary": false,
+      "bowler": "Arshad Khan",
+      "dismissal": null,
+      "id": "215010",
+      "innings": 2,
+      "over": "15.1",
+      "overNumber": 16,
+      "postText": null,
+      "preText": "Rabada should've bowled out by now, Ravi Shastri says on air",
+      "required": {
+        "balls": 29,
+        "runRate": 3.51,
+        "runs": 17
+      },
+      "runRate": 9.16,
+      "runs": 0,
+      "score": "139/5",
+      "sequence": 201501,
+      "shortText": "Arshad Khan to Kohli, no run",
+      "text": "Length in the channel, defended to backward point",
+      "wicket": false
+    },
+    {
+      "ball": 2,
+      "batter": "Virat Kohli",
+      "boundary": true,
+      "bowler": "Arshad Khan",
+      "dismissal": null,
+      "id": "215020",
+      "innings": 2,
+      "over": "15.2",
+      "overNumber": 16,
+      "postText": null,
+      "preText": null,
+      "required": {
+        "balls": 28,
+        "runRate": 2.78,
+        "runs": 13
+      },
+      "runRate": 9.32,
+      "runs": 4,
+      "score": "143/5",
+      "sequence": 201502,
+      "shortText": "Arshad Khan to Kohli, FOUR",
+      "text": "Pulled fine, rolls to the cushion in front of the GT dugout. Short ball from over the wicket at chest-height. Middle stump line. Kohli slightly square on, inside the line and helping it along",
+      "wicket": false
+    },
+    {
+      "ball": 3,
+      "batter": "Virat Kohli",
+      "boundary": false,
+      "bowler": "Arshad Khan",
+      "dismissal": null,
+      "id": "215030",
+      "innings": 2,
+      "over": "15.3",
+      "overNumber": 16,
+      "postText": null,
+      "preText": null,
+      "required": {
+        "balls": 27,
+        "runRate": 2.66,
+        "runs": 12
+      },
+      "runRate": 9.29,
+      "runs": 1,
+      "score": "144/5",
+      "sequence": 201503,
+      "shortText": "Arshad Khan to Kohli, 1 run",
+      "text": "Trademark cover drive, bit more than a punch. Hit off a length to deep cover",
+      "wicket": false
+    },
+    {
+      "ball": 4,
+      "batter": "Jitesh Sharma",
+      "boundary": false,
+      "bowler": "Arshad Khan",
+      "dismissal": null,
+      "id": "215040",
+      "innings": 2,
+      "over": "15.4",
+      "overNumber": 16,
+      "postText": null,
+      "preText": null,
+      "required": {
+        "balls": 26,
+        "runRate": 2.76,
+        "runs": 12
+      },
+      "runRate": 9.19,
+      "runs": 0,
+      "score": "144/5",
+      "sequence": 201504,
+      "shortText": "Arshad Khan to Sharma, no run",
+      "text": "Length in the channel, defended to cover. Jitesh was back in the crease, just outside off and square on",
+      "wicket": false
+    },
+    {
+      "ball": 5,
+      "batter": "Jitesh Sharma",
+      "boundary": false,
+      "bowler": "Arshad Khan",
+      "dismissal": null,
+      "id": "215050",
+      "innings": 2,
+      "over": "15.5",
+      "overNumber": 16,
+      "postText": null,
+      "preText": null,
+      "required": {
+        "balls": 25,
+        "runRate": 2.64,
+        "runs": 11
+      },
+      "runRate": 9.15,
+      "runs": 1,
+      "score": "145/5",
+      "sequence": 201505,
+      "shortText": "Arshad Khan to Sharma, 1 run",
+      "text": "Length on off, punched off the back foot to mid-off's right",
+      "wicket": false
+    },
+    {
+      "ball": 6,
+      "batter": "Virat Kohli",
+      "boundary": false,
+      "bowler": "Arshad Khan",
+      "dismissal": null,
+      "id": "215060",
+      "innings": 2,
+      "over": "15.6",
+      "overNumber": 16,
+      "postText": null,
+      "preText": null,
+      "required": {
+        "balls": 24,
+        "runRate": 2.75,
+        "runs": 11
+      },
+      "runRate": 9.06,
+      "runs": 0,
+      "score": "145/5",
+      "sequence": 201506,
+      "shortText": "Arshad Khan to Kohli, no run",
+      "text": "Kohli finally falls? He's asking someone if that's out. Walks back to Jitesh. The umpire, Nitin Menon, seems to signal him to walk. And he does... And he turns again. Third umpire's voice comes on for the first time, he'll check. Gill was forward, on his right knee as he tried to take a low catch. The catch was taken inches above the ground, ball popping down... and the question is did he plonk it like Cox did in the first innings? \"I can see the fingers on the side of the ball and some part of the ball touching the ground\", Madanagopal says. \"Ball is touching the ground between the fingers\" and a massive cheer erupts as not out is called. \"Told you so\" signals Kohli. Fist pump and a c'mon from him, Gill looks down in disappointment. Length ball outside off, driven uppishly on the up. Was dying on Gill at mid-off",
+      "wicket": false
+    },
+    {
+      "ball": 1,
+      "batter": "Jitesh Sharma",
+      "boundary": false,
+      "bowler": "Rashid Khan",
+      "dismissal": null,
+      "id": "216010",
+      "innings": 2,
+      "over": "16.1",
+      "overNumber": 17,
+      "postText": null,
+      "preText": null,
+      "required": {
+        "balls": 23,
+        "runRate": 2.86,
+        "runs": 11
+      },
+      "runRate": 8.96,
+      "runs": 0,
+      "score": "145/5",
+      "sequence": 201601,
+      "shortText": "Rashid Khan to Sharma, no run",
+      "text": "Length on leg, low bounce. Leading edge off the flick goes to cover.",
+      "wicket": false
+    },
+    {
+      "ball": 2,
+      "batter": "Jitesh Sharma",
+      "boundary": false,
+      "bowler": "Rashid Khan",
+      "dismissal": null,
+      "id": "216020",
+      "innings": 2,
+      "over": "16.2",
+      "overNumber": 17,
+      "postText": null,
+      "preText": null,
+      "required": {
+        "balls": 22,
+        "runRate": 2.72,
+        "runs": 10
+      },
+      "runRate": 8.93,
+      "runs": 1,
+      "score": "146/5",
+      "sequence": 201602,
+      "shortText": "Rashid Khan to Sharma, 1 run",
+      "text": "Catch is the call, goes safely to long-on. Jitesh went back and pulled the short skiddy ball from outside off. Bounce a touch low",
+      "wicket": false
+    },
+    {
+      "ball": 3,
+      "batter": "Virat Kohli",
+      "boundary": false,
+      "bowler": "Rashid Khan",
+      "dismissal": null,
+      "id": "216030",
+      "innings": 2,
+      "over": "16.3",
+      "overNumber": 17,
+      "postText": null,
+      "preText": null,
+      "required": {
+        "balls": 21,
+        "runRate": 2.57,
+        "runs": 9
+      },
+      "runRate": 8.9,
+      "runs": 1,
+      "score": "147/5",
+      "sequence": 201603,
+      "shortText": "Rashid Khan to Kohli, 1 run",
+      "text": "Flicked off the back foot to long-on. Shortish ball on off, legbreak spun. Kohli stayed leg side of the ball and played it nicely. Down to single figures now",
+      "wicket": false
+    },
+    {
+      "ball": 4,
+      "batter": "Jitesh Sharma",
+      "boundary": false,
+      "bowler": "Rashid Khan",
+      "dismissal": null,
+      "id": "216040",
+      "innings": 2,
+      "over": "16.4",
+      "overNumber": 17,
+      "postText": "Shriram M: \"What a turnaround it has been for patidar at Ahmedabad. It was at this ground in 2021 vs PBKS where he was dropped from RCB and went unsold the next year. Now he is in the verge of winning back to back titles at this ground.\"",
+      "preText": null,
+      "required": {
+        "balls": 20,
+        "runRate": 2.7,
+        "runs": 9
+      },
+      "runRate": 8.82,
+      "runs": 0,
+      "score": "147/5",
+      "sequence": 201604,
+      "shortText": "Rashid Khan to Sharma, no run",
+      "text": "Length around top of off, driven back to the bowler",
+      "wicket": false
+    },
+    {
+      "ball": 5,
+      "batter": "Jitesh Sharma",
+      "boundary": false,
+      "bowler": "Rashid Khan",
+      "dismissal": null,
+      "id": "216050",
+      "innings": 2,
+      "over": "16.5",
+      "overNumber": 17,
+      "postText": null,
+      "preText": null,
+      "required": {
+        "balls": 19,
+        "runRate": 2.52,
+        "runs": 8
+      },
+      "runRate": 8.79,
+      "runs": 1,
+      "score": "148/5",
+      "sequence": 201605,
+      "shortText": "Rashid Khan to Sharma, 1 run",
+      "text": "Wide and fullish, slapped over extra cover with a nice drive. Long-off stops it",
+      "wicket": false
+    },
+    {
+      "ball": 6,
+      "batter": "Virat Kohli",
+      "boundary": false,
+      "bowler": "Rashid Khan",
+      "dismissal": null,
+      "id": "216060",
+      "innings": 2,
+      "over": "16.6",
+      "overNumber": 17,
+      "postText": "Alex: \"Was Kohli stoic as ever?\" emo as ever",
+      "preText": null,
+      "required": {
+        "balls": 18,
+        "runRate": 2.66,
+        "runs": 8
+      },
+      "runRate": 8.7,
+      "runs": 0,
+      "score": "148/5",
+      "sequence": 201606,
+      "shortText": "Rashid Khan to Kohli, no run",
+      "text": "Chops the length ball to cover. Overhit that, dribbled to the left and smiled at himself",
+      "wicket": false
+    },
+    {
+      "ball": 1,
+      "batter": "Jitesh Sharma",
+      "boundary": false,
+      "bowler": "Arshad Khan",
+      "dismissal": null,
+      "id": "217010",
+      "innings": 2,
+      "over": "17.1",
+      "overNumber": 18,
+      "postText": "Sid-M : \"Cramps in the air tonight \"",
+      "preText": null,
+      "required": {
+        "balls": 17,
+        "runRate": 2.47,
+        "runs": 7
+      },
+      "runRate": 8.67,
+      "runs": 1,
+      "score": "149/5",
+      "sequence": 201701,
+      "shortText": "Arshad Khan to Sharma, 1 run",
+      "text": "Length on fourth, run down to deep third with a fully open face. Arshad falls into the ground, likely cramps. Left leg.",
+      "wicket": false
+    },
+    {
+      "ball": 2,
+      "batter": "Virat Kohli",
+      "boundary": false,
+      "bowler": "Arshad Khan",
+      "dismissal": null,
+      "id": "217020",
+      "innings": 2,
+      "over": "17.2",
+      "overNumber": 18,
+      "postText": "sahil : \"lots of on-field interaction b/w Kohli and Gill today\"",
+      "preText": "Takes a couple of minutes but Arshad good to continue",
+      "required": {
+        "balls": 16,
+        "runRate": 2.25,
+        "runs": 6
+      },
+      "runRate": 8.65,
+      "runs": 1,
+      "score": "150/5",
+      "sequence": 201702,
+      "shortText": "Arshad Khan to Kohli, 1 run",
+      "text": "Back of length outside off, guided to deep third",
+      "wicket": false
+    },
+    {
+      "ball": 3,
+      "batter": "Jitesh Sharma",
+      "boundary": false,
+      "bowler": "Arshad Khan",
+      "dismissal": null,
+      "id": "217030",
+      "innings": 2,
+      "over": "17.3",
+      "overNumber": 18,
+      "postText": null,
+      "preText": "One biggie needed",
+      "required": {
+        "balls": 15,
+        "runRate": 2.4,
+        "runs": 6
+      },
+      "runRate": 8.57,
+      "runs": 0,
+      "score": "150/5",
+      "sequence": 201703,
+      "shortText": "Arshad Khan to Sharma, no run",
+      "text": "Low full toss on middle and off. Jitesh was nearly on fourth stump as he flicked to midwicket. Stayed well inside the crease",
+      "wicket": false
+    },
+    {
+      "ball": 4,
+      "batter": "Jitesh Sharma",
+      "boundary": false,
+      "bowler": "Arshad Khan",
+      "dismissal": null,
+      "id": "217040",
+      "innings": 2,
+      "over": "17.4",
+      "overNumber": 18,
+      "postText": null,
+      "preText": null,
+      "required": {
+        "balls": 14,
+        "runRate": 2.14,
+        "runs": 5
+      },
+      "runRate": 8.54,
+      "runs": 1,
+      "score": "151/5",
+      "sequence": 201704,
+      "shortText": "Arshad Khan to Sharma, 1 run",
+      "text": "Rabada at deep third is very fine. So it'll be just one. Back of length just outside off, Jitesh, on the back foot, opened up proper as he opened the face and got it wide of the keeper",
+      "wicket": false
+    },
+    {
+      "ball": 5,
+      "batter": "Virat Kohli",
+      "boundary": true,
+      "bowler": "Arshad Khan",
+      "dismissal": null,
+      "id": "217050",
+      "innings": 2,
+      "over": "17.5",
+      "overNumber": 18,
+      "postText": null,
+      "preText": null,
+      "required": {
+        "balls": 13,
+        "runRate": 0.46,
+        "runs": 1
+      },
+      "runRate": 8.69,
+      "runs": 4,
+      "score": "155/5",
+      "sequence": 201705,
+      "shortText": "Arshad Khan to Kohli, FOUR",
+      "text": "<strong>Pulled wide of mid-on and the scores are level!</strong> Back of length over off, pulled into the gap between midwicket and mid-on.",
+      "wicket": false
+    },
+    {
+      "ball": 6,
+      "batter": "Virat Kohli",
+      "boundary": true,
+      "bowler": "Arshad Khan",
+      "dismissal": null,
+      "id": "217060",
+      "innings": 2,
+      "over": "17.6",
+      "overNumber": 18,
+      "postText": "What a time to be an RCB fan, could things have together any better for them?! <a href=\"https://www.espncricinfo.com/series/ipl-2016-968923/royal-challengers-bangalore-vs-sunrisers-hyderabad-final-981019/full-scorecard\">Ten years ago</a>, they would've felt the world was against them. That sentiment continued for nearly a decade. Chris Gayle left, AB de Villiers left. Virat Kohli stayed and they reworked their strategy, it was a gradual shift earlier in the decade. It took full flight after the mega auction last year, now they have two trophies to show for. This could be a dynasty forming. Even if not, it's been special. On that note, it's time to say goodbye one last time. I'm Ekanth, signing off on behalf of Ashish Pant, our scorers Chandan Duorah and M Venkat Raghav, and everyone from the Cricinfo team who've covered the comp. Thanks again for joining us. See you again soon.\n\n<!--\nname: twitter\nurl: https://twitter.com/ESPNcricinfo/status/2061165552752787793\n-->\n\n\n<strong>Rajat Patidar collects the IPL trophy</strong>, the team-mates run in onto the dais. Captain holds it aloft, everyone's screaming their hearts out. Trophy handed to Kohli as confetti rains along with the cheers. Turns taken with the trophy-lifting. Dinesh Karthik and Coach Andy Flower join in. They pose and everyone walks across to the Champions tag. Fingers signal a V for the two-time champions.\n\n<strong>Rajat Patidar, RCB captain</strong> It feels superb. There were a lot of memories from last year but we had to stay in the present. Don't have words to express but feeling good. Plan was clear, it was easier to chase. Wanted to get their top-three. Our bowlers throughout the tournament have been superb. Bhuvi, Hazlewood, Rasikh, Krunal, Sheppie, all have been superb. Never dreamt I'd win for RCB, it's all written. Last year, there was a lot of pressure. This year, we were confident. All were in a good frame of mind as compared to last year. Was good to see fans coming, everywhere you go it was like home. Pre-tournament prep was very good for me. The way I look at my batting, I try to work on where I can improve, against pacers especially. Got a lot of ideas and help from DK and Kohli bhail. Whenever I see him, he's always there for the team and all players. He goes to the young players even if they're nervous approaching. This one's for you again: RCB fans - <em>EE salanoo cup namdu</em>\n\n<!--\nname: twitter\nurl: https://twitter.com/ESPNcricinfo/status/2061164728286908504\n-->\n\n\nRCB captain <strong>Rajat Patidar</strong> collects the winners' cheque of <strong>INR 20 crore</strong>\n\nGill collects the runner-up shield. Winners award presented to RCB. Andy Flower collects a watch\n\n<strong>Shubman Gill, GT captain</strong> If we'd have gotten 180-190, it'd have been a good match. Maybe a little two-paced but not too much. There's some early movement for pacers. We lost early wickets and never got momentum. We felt we'll be in the game if we took 1-2 in the powerplay. We gave 15-20 too many, they got away in the powerplay. We were one of the best bowling sides. We came back strong after losing the first two games. Kept challenging and improving ourselves. Very happy overall. Couldn't get over the line. Still would've had things to improve on even if we'd won the trophy.\n\nShubman Gill of <strong>Gujarat Titans</strong> walks out to collect the runner-up cheque of INR 12.5 crores\n\nThere's also a <strong>Pitch and Ground award</strong> for the ground hosting under four games and that goes to the <strong>Himachal Pradesh Cricket Association</strong> (ground, Dharamsala)\n\n<strong>Cricket Association of Bengal</strong> (Eden Gardens) wins the <strong>Pitch and Ground award</strong>\n\n<b>Vaibhav Sooryavanshi</b>: It feels nice, but there is pressure because I am doing interviews. It is a proud moment and I will try and do well next season, too. [Intent] I try to back my game and if the ball is there to be hit, I go allout for it and just try to play that way. [Learning] How to play the pressure game, how to change myself every game, you can't play every game in one mode, you need to read the game situation and play according to the team's requirements. These are my learnings from this season. [On fitness] Yes, my focus is on that. If I have to play long, I have to stay clear of injuries and work on my fitness and have to focus more. [On RR and Jaiswal] Everyone is supportive, they all back me, the senior players, the support staff. They have backed me a lot. I have had lots to learn from the senior players. There is a great environment\n\n<!--\nname: twitter\nurl: https://twitter.com/ESPNcricinfo/status/2061158746773221463?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet\n-->\n\n\n<strong>Vaibhav Sooryavanshi</strong> is the <strong>Most Valuable Player</strong> - 436.5 points\n\n<strong>Vaibhav Sooryavanshi</strong> wins the <strong>Orange Cap</strong> for being the highest run-getter - 776\n\n\n<strong>Kagiso Rabada</strong> wins the <strong>Purple Cap</strong> for being the highest wicket-taker - 29 scalps\n\n<strong>Punjab Kings</strong> win the <strong>Fairplay award</strong>\n\nKKR's <strong>Manish Pandey</strong> wins the award for the <strong>Catch of the Season</strong> for taking Tim David's catch at backward point. Devdutt Padikkal collects the award on his behalf\n\n<strong>Mohammed Siraj</strong> wins an award for bowling the <strong>most dots</strong> - 172\n\n<strong>Sai Sudharsan</strong> wins the award for the <strong>most fours</strong> - 75\n\n<strong>Vaibhav Sooryavanshi</strong> wins the award for hitting the most sixes - 72\n\n<strong>Vaibhav Sooryavanshi</strong> is the Super Striker (for the highest strike rate of 237), and the 15-year-old wins a car\n\n<strong>Vaibhav Sooryavanshi</strong> gets the <strong>Emerging Player of the Season</strong> award\n\n<strong>Virat Kohli, POTM</strong>: Stuff you dream of. Thought of this moment many times, wanting to hit the winning run. Felt really relaxed coming in. The team we have gives confidence to see any kind of situation through. Knew exactly what to do in the chase. Such is the demand super young players pushing you to up the ante. (On his fastest fifty) Gives you something to work towards. I had to change my mindset not my game so much, take on bowlers and get extra runs. First target was to go top of the table. We didn't care what jersey was in front of us thereon. We're respectful, don't poke any team. We have mature professionals and experience shines through. Come the big situation you need the big boys to step up. I know it's a chase and they'll look to get me out early, but I knew we have a champion side that can chase it down with 3-4 overs to go. When we won last year, Mo Bobat said this is not the end of the journey and we had to go back to back. Told Venky we need to kill the game in the powerplay. There was total clarity. We had small targets and played free cricket. His intent was the difference-maker in the last three-four games. We have 14 home games, not seven, we have fans behind us all the time. 90 percent fans are on our side despite it being GT's home ground\n\n<strong>12:02am</strong> Time for the presentations. There'll be a host of awards handed out before the match and POTS are handed out.\n\nShaurya: \"Well I am still interested to know what all awards Vaibhav is not winning today..and will he come to recieve it..!!?!\" He's at the ground and will receive his Orange Cap likely among a few other awards\n\n<!--\nname: twitter\nurl: https://twitter.com/ESPNcricinfo/status/2061145385868140843\n-->\n\n\n<strong>Patidar etches RCB's name onto the trophy. The strip is stuck to the sound of cheers, kisses and caresses on top of the trophy from Krunal and Jitesh</strong>\n\nSandip : \"Somewhat unfair that Bhuvi misses out on the purple cap. He has better average and runs per over than Rabada. His wickets of Gill in Q1 and Sai in final were also very instrumental in RCB winning the title whereas Rabada was taken to the cleaners today\" unfortunate maybe but not unfair. Can't win the purple cap without doing a lot of things right through the season\n\nAbinash Das: \"Eighteen years of absolute heartbreak, and now they stand at the gates of a historic dynasty! By sealing the ultimate triumph tonight, RCB has transformed from the eternal underdogs into a back-to-back powerhouse with a shot at a legendary three-peat next year. It is no longer just a transformation\"\n\n<strong>Matthew Hayden</strong> Always hard to put it down to one thing for a season that's so long. We have apex predators but couldn't get going in the powerplay. All our bowlers have been amazing. Krunal's spell was good as any tonight. It's a very successful franchise. We've developed a nice fanbase that's sticking behind Gill, Sai and Buttler. This group is calm, does nothing urgently. Nehra is chilled out. Biggest thing in this franchise is family, that'll keep it in good stead. (To Finch on interviewing Kohli) I was doing the same thing last time. Experience as coach was beyond my expectations. It was more detailed with bowling plans. We're a conservative batting side but crush the ball out of the ground at times. Credit to all our staff, makes it possible for us to play harder and recover quicker. Trying to understand what's happened is difficult. Comp brings talent to life. Guys like Sooryavanshi, extraordinary and exciting to watch. All those youngsters watching, keep playing and looking at your heroes.\n\n<b>Devdutt Padikkal</b>: Yeah it has been incredible. Just batting with these guys has been special. When you have quality around you, it makes you go up and that's what happened with me. [Bowlers] They have been unbelievable. The plans they execute is great, I have been in a few meetings, and they are meticulous. They execute it to the T. [On Kohli] When each wicket fell, I was just telling Venky, as long as he is there, then are no nerves. He has not stayed still, he has evolved, he has continuously improved. [Back to back] After the season finished, we spoke about going back to back and making sure of sticking to the feeling of winning. Grateful I made it to this season injury free and won it\n\n<b>Bhuvneshwar Kumar</b>: Trophy's most important, happy to trade Purple cap. Season went well. There was a lot of planning. Confidence goes up with wickets. If I didn't do well, Josh did, or Rasikh did. \n\n<!--\nname: twitter\nurl: https://twitter.com/ESPNcricinfo/status/2061148311168663566\n-->\n\n<b>Josh Hazlewood</b>: Right up there. More relaxed with the group, got the monkey off the back last year. Calm and composed throughout. Someone or other stepped up. 10 POTMs. Can't remember a game where he went over 35 runs. Took wickets, we could be relaxed. It's nice. Franchise, support staff put together beautifully. Everyone has a good time. Tough to build a good culture when teams shuffle but we've got it. (Threepeat) Can't see why not\n\n<b>Jitesh Sharma</b>: Mo [Bobat] had said earlier, we are not defending, we are chasing the title. The mindset changed there. [Atmosphere] All the credit goes to the management. The way they have pushed us forward, DK has helped me, so has Mo. They have nourished us. We knew we are very strong. Our focus was one game at a time. Just one match. We never thought, how well we are playing. Focus was on our tactics. Next year, we will have a third.\n\n<b>Virat Kohli</b>: I said to a few of the boys that it doesn't feel like the same pressure as last year. We knew what kind of ability we have in the group. We topped the table. There's a reason why we got here first. And we just said one thing. If we stick to our cricket, if we execute our plans, we are the best team in the comp. And there's a reason why we have done well so far in the group stage. We ended up topping the league stage. And yeah, just the skill sets we have, the maturity, the composure of the guys just shone through again tonight. And it was a clinical performance. [Doubts] Well, to be fair, after the break we had a couple of losses. I mean, one loss and then we had a close win against MI. I'd say that week for us was a bit tricky because we wanted to finish top. But as soon as we got that win against MI, the belief kicked back in. And then we had a comprehensive win against KKR. And then, yeah, just ended up topping the table and just on our way to the finals. [Give us a couple of words about this group. Oh, it's amazing. I mean, we've had to wait for so long. And then, you know, just to have a group of guys where you feel like you're stepping onto the ground, you don't need to be the one to step up every time. There's guys behind you, around you, who can win games of cricket for you. We have so many Man of the Match awards spread throughout the group as well. I mean, you look at world-class bowling like Hoff, Bhuv, Duff. I mean, Krunal Pandya, you know, you can bank on him as good as ever. Rasikh Dar was brilliant this season. All the batsmen chipped in as well. So, I feel so happy to play in a group where we have balance, we have strength. And we are an all-round strong team. And, yeah, that's why we have the confidence we have on the field right now.\n<b>Krunal Pandya</b>: [Five titles in 11 years] There is no doubt about it, winning back to back. It is like having kids, you can't pick. To have five trophies in 11 years, it is pretty special. Lot of credit goes to support staff. The way they prepared before the auction and set the team, half the battle is won in the auction. Glad that we have a hand on the trophy back to back. This is for the RCB fans, and also for Virat\n\n\n<!--\nname: twitter\nurl: https://twitter.com/ESPNcricinfo/status/2061144789777797157\n-->\n\n\nNaman: \"3 titles on the trot for Phil Salt. I guess he only the 2nd player to do so after Karn Sharma.\" Suyash is a hunch from our stats team\n\nAravind: \"Hazlewood remains unbeaten in white ball finals and Krunal wins every IPL final he's been in\"\n\n<strong>11:27pm</strong> There were cramps but never the danger of falling. The first title win took 18 seasons, the second just one. So clinical it has been that the celebrations seem rather subdued. Kohli was in tears of joy at long-on last time, this time there's no melodrama and no thrills. Not great for the neutrals, or GT, who have been dominant at home but didn't really turn up on the final. The game was lost in the first dig. The bowlers tried to cook something up in the chase but cramping Venkatesh and an on-fire Kohli won the powerplay in style. Rabada being taken down was a sight to watch. Rashid took a couple but the momentum didn't last as RCB's middle order stood tall with Kohli for company.",
+      "preText": null,
+      "required": {
+        "balls": 12,
+        "runRate": null,
+        "runs": null
+      },
+      "runRate": 8.94,
+      "runs": 6,
+      "score": "161/5",
+      "sequence": 201706,
+      "shortText": "Arshad Khan to Kohli, SIX",
+      "text": "<em>Ee salanoo cup namde</em>. Kohli goes back in the crease, opens his stance and smears the length ball over long-on. Points to the stands and shakes his hands in a cupping motion. The players run out for celebrations. Gill looks on with a blank face. Fireworks begin",
+      "wicket": false
+    }
+  ],
+  "deliveries": [
+    [
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      2,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      3,
+      0,
+      1,
+      4,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      4,
+      0,
+      1,
+      4,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      5,
+      0,
+      1,
+      1,
+      2,
+      0
+    ],
+    [
+      1,
+      1,
+      6,
+      0,
+      1,
+      1,
+      2,
+      0
+    ],
+    [
+      1,
+      1,
+      7,
+      0,
+      1,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      1,
+      8,
+      2,
+      1,
+      1,
+      2,
+      0
+    ],
+    [
+      1,
+      1,
+      9,
+      2,
+      1,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      2,
+      1,
+      2,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      2,
+      2,
+      2,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      2,
+      3,
+      2,
+      3,
+      4,
+      1,
+      0
+    ],
+    [
+      1,
+      2,
+      4,
+      2,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      2,
+      5,
+      2,
+      3,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      2,
+      6,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      3,
+      1,
+      2,
+      4,
+      4,
+      1,
+      0
+    ],
+    [
+      1,
+      3,
+      2,
+      2,
+      4,
+      0,
+      4,
+      1
+    ],
+    [
+      1,
+      3,
+      3,
+      5,
+      4,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      3,
+      4,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      3,
+      5,
+      0,
+      4,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      3,
+      6,
+      5,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      4,
+      1,
+      0,
+      3,
+      2,
+      3,
+      0
+    ],
+    [
+      1,
+      4,
+      2,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      4,
+      3,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      4,
+      4,
+      0,
+      3,
+      0,
+      4,
+      1
+    ],
+    [
+      1,
+      4,
+      5,
+      6,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      4,
+      6,
+      6,
+      3,
+      4,
+      1,
+      0
+    ],
+    [
+      1,
+      5,
+      1,
+      5,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      5,
+      2,
+      5,
+      4,
+      4,
+      1,
+      0
+    ],
+    [
+      1,
+      5,
+      3,
+      5,
+      4,
+      4,
+      1,
+      0
+    ],
+    [
+      1,
+      5,
+      4,
+      5,
+      4,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      5,
+      5,
+      6,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      5,
+      6,
+      6,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      6,
+      1,
+      5,
+      7,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      6,
+      2,
+      5,
+      7,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      6,
+      3,
+      5,
+      7,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      6,
+      4,
+      6,
+      7,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      6,
+      5,
+      5,
+      7,
+      4,
+      1,
+      0
+    ],
+    [
+      1,
+      6,
+      6,
+      5,
+      7,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      7,
+      1,
+      6,
+      8,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      7,
+      2,
+      5,
+      8,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      7,
+      3,
+      6,
+      8,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      7,
+      4,
+      5,
+      8,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      7,
+      5,
+      6,
+      8,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      7,
+      6,
+      5,
+      8,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      8,
+      1,
+      6,
+      7,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      8,
+      2,
+      5,
+      7,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      8,
+      3,
+      6,
+      7,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      8,
+      4,
+      5,
+      7,
+      2,
+      3,
+      0
+    ],
+    [
+      1,
+      8,
+      5,
+      5,
+      7,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      8,
+      6,
+      5,
+      7,
+      0,
+      4,
+      1
+    ],
+    [
+      1,
+      9,
+      1,
+      6,
+      8,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      9,
+      2,
+      6,
+      8,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      9,
+      3,
+      9,
+      8,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      9,
+      4,
+      6,
+      8,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      9,
+      5,
+      9,
+      8,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      9,
+      6,
+      9,
+      8,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      10,
+      1,
+      9,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      10,
+      2,
+      9,
+      1,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      10,
+      3,
+      6,
+      1,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      10,
+      4,
+      9,
+      1,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      10,
+      5,
+      6,
+      1,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      10,
+      6,
+      9,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      11,
+      1,
+      6,
+      8,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      11,
+      2,
+      6,
+      8,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      11,
+      3,
+      6,
+      8,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      11,
+      4,
+      9,
+      8,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      11,
+      5,
+      9,
+      8,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      11,
+      6,
+      6,
+      8,
+      2,
+      3,
+      0
+    ],
+    [
+      1,
+      12,
+      1,
+      9,
+      1,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      12,
+      2,
+      6,
+      1,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      12,
+      3,
+      9,
+      1,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      12,
+      4,
+      6,
+      1,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      12,
+      5,
+      9,
+      1,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      12,
+      6,
+      6,
+      1,
+      1,
+      5,
+      0
+    ],
+    [
+      1,
+      13,
+      1,
+      6,
+      8,
+      0,
+      4,
+      1
+    ],
+    [
+      1,
+      13,
+      2,
+      10,
+      8,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      13,
+      3,
+      9,
+      8,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      13,
+      4,
+      10,
+      8,
+      6,
+      6,
+      0
+    ],
+    [
+      1,
+      13,
+      5,
+      10,
+      8,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      13,
+      6,
+      9,
+      8,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      14,
+      1,
+      9,
+      1,
+      4,
+      1,
+      0
+    ],
+    [
+      1,
+      14,
+      2,
+      9,
+      1,
+      4,
+      1,
+      0
+    ],
+    [
+      1,
+      14,
+      3,
+      9,
+      1,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      14,
+      4,
+      10,
+      1,
+      6,
+      6,
+      0
+    ],
+    [
+      1,
+      14,
+      5,
+      10,
+      1,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      14,
+      6,
+      9,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      15,
+      1,
+      10,
+      4,
+      0,
+      4,
+      1
+    ],
+    [
+      1,
+      15,
+      2,
+      11,
+      4,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      15,
+      3,
+      9,
+      4,
+      2,
+      3,
+      0
+    ],
+    [
+      1,
+      15,
+      4,
+      9,
+      4,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      15,
+      5,
+      11,
+      4,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      15,
+      6,
+      9,
+      4,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      16,
+      1,
+      9,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      16,
+      2,
+      9,
+      3,
+      2,
+      3,
+      0
+    ],
+    [
+      1,
+      16,
+      3,
+      9,
+      3,
+      2,
+      3,
+      0
+    ],
+    [
+      1,
+      16,
+      4,
+      9,
+      3,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      16,
+      5,
+      11,
+      3,
+      4,
+      1,
+      0
+    ],
+    [
+      1,
+      16,
+      6,
+      11,
+      3,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      17,
+      1,
+      11,
+      7,
+      0,
+      4,
+      1
+    ],
+    [
+      1,
+      17,
+      2,
+      12,
+      7,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      17,
+      3,
+      9,
+      7,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      17,
+      4,
+      12,
+      7,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      17,
+      5,
+      9,
+      7,
+      2,
+      3,
+      0
+    ],
+    [
+      1,
+      17,
+      6,
+      9,
+      7,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      18,
+      1,
+      9,
+      4,
+      4,
+      1,
+      0
+    ],
+    [
+      1,
+      18,
+      2,
+      9,
+      4,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      18,
+      3,
+      12,
+      4,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      18,
+      4,
+      9,
+      4,
+      4,
+      1,
+      0
+    ],
+    [
+      1,
+      18,
+      5,
+      9,
+      4,
+      1,
+      2,
+      0
+    ],
+    [
+      1,
+      18,
+      6,
+      9,
+      4,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      18,
+      7,
+      12,
+      4,
+      4,
+      1,
+      0
+    ],
+    [
+      1,
+      19,
+      1,
+      9,
+      3,
+      4,
+      1,
+      0
+    ],
+    [
+      1,
+      19,
+      2,
+      9,
+      3,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      19,
+      3,
+      12,
+      3,
+      0,
+      4,
+      1
+    ],
+    [
+      1,
+      19,
+      4,
+      13,
+      3,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      19,
+      5,
+      9,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      19,
+      6,
+      9,
+      3,
+      2,
+      3,
+      0
+    ],
+    [
+      1,
+      20,
+      1,
+      13,
+      7,
+      6,
+      6,
+      0
+    ],
+    [
+      1,
+      20,
+      2,
+      13,
+      7,
+      0,
+      4,
+      1
+    ],
+    [
+      1,
+      20,
+      3,
+      14,
+      7,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      20,
+      4,
+      14,
+      7,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      20,
+      5,
+      9,
+      7,
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      20,
+      6,
+      14,
+      7,
+      2,
+      3,
+      0
+    ],
+    [
+      2,
+      1,
+      1,
+      15,
+      16,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      1,
+      2,
+      17,
+      16,
+      1,
+      5,
+      0
+    ],
+    [
+      2,
+      1,
+      3,
+      15,
+      16,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      1,
+      4,
+      15,
+      16,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      1,
+      5,
+      15,
+      16,
+      2,
+      3,
+      0
+    ],
+    [
+      2,
+      1,
+      6,
+      15,
+      16,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      2,
+      1,
+      15,
+      14,
+      4,
+      1,
+      0
+    ],
+    [
+      2,
+      2,
+      2,
+      15,
+      14,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      2,
+      3,
+      15,
+      14,
+      6,
+      6,
+      0
+    ],
+    [
+      2,
+      2,
+      4,
+      15,
+      14,
+      4,
+      1,
+      0
+    ],
+    [
+      2,
+      2,
+      5,
+      15,
+      14,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      2,
+      6,
+      15,
+      14,
+      4,
+      1,
+      0
+    ],
+    [
+      2,
+      3,
+      1,
+      17,
+      16,
+      4,
+      1,
+      0
+    ],
+    [
+      2,
+      3,
+      2,
+      17,
+      16,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      3,
+      3,
+      17,
+      16,
+      4,
+      1,
+      0
+    ],
+    [
+      2,
+      3,
+      4,
+      17,
+      16,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      3,
+      5,
+      15,
+      16,
+      4,
+      1,
+      0
+    ],
+    [
+      2,
+      3,
+      6,
+      15,
+      16,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      4,
+      1,
+      17,
+      14,
+      4,
+      1,
+      0
+    ],
+    [
+      2,
+      4,
+      2,
+      17,
+      14,
+      4,
+      1,
+      0
+    ],
+    [
+      2,
+      4,
+      3,
+      17,
+      14,
+      6,
+      6,
+      0
+    ],
+    [
+      2,
+      4,
+      4,
+      17,
+      14,
+      4,
+      1,
+      0
+    ],
+    [
+      2,
+      4,
+      5,
+      17,
+      14,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      4,
+      6,
+      15,
+      14,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      5,
+      1,
+      17,
+      16,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      5,
+      2,
+      15,
+      16,
+      6,
+      6,
+      0
+    ],
+    [
+      2,
+      5,
+      3,
+      15,
+      16,
+      0,
+      4,
+      1
+    ],
+    [
+      2,
+      5,
+      4,
+      18,
+      16,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      5,
+      5,
+      18,
+      16,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      5,
+      6,
+      18,
+      16,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      6,
+      1,
+      18,
+      14,
+      0,
+      4,
+      1
+    ],
+    [
+      2,
+      6,
+      2,
+      19,
+      14,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      6,
+      3,
+      19,
+      14,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      6,
+      4,
+      19,
+      14,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      6,
+      5,
+      19,
+      14,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      6,
+      6,
+      17,
+      14,
+      6,
+      6,
+      0
+    ],
+    [
+      2,
+      7,
+      1,
+      19,
+      16,
+      6,
+      6,
+      0
+    ],
+    [
+      2,
+      7,
+      2,
+      19,
+      16,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      7,
+      3,
+      19,
+      16,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      7,
+      4,
+      17,
+      16,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      7,
+      5,
+      19,
+      16,
+      2,
+      3,
+      0
+    ],
+    [
+      2,
+      7,
+      6,
+      19,
+      16,
+      1,
+      2,
+      0
+    ],
+    [
+      2,
+      7,
+      7,
+      19,
+      16,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      8,
+      1,
+      17,
+      12,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      8,
+      2,
+      19,
+      12,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      8,
+      3,
+      17,
+      12,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      8,
+      4,
+      17,
+      12,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      8,
+      5,
+      19,
+      12,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      8,
+      6,
+      19,
+      12,
+      4,
+      1,
+      0
+    ],
+    [
+      2,
+      9,
+      1,
+      17,
+      13,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      9,
+      2,
+      19,
+      13,
+      0,
+      4,
+      1
+    ],
+    [
+      2,
+      9,
+      3,
+      8,
+      13,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      9,
+      4,
+      17,
+      13,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      9,
+      5,
+      8,
+      13,
+      0,
+      4,
+      1
+    ],
+    [
+      2,
+      9,
+      6,
+      20,
+      13,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      10,
+      1,
+      17,
+      12,
+      4,
+      1,
+      0
+    ],
+    [
+      2,
+      10,
+      2,
+      17,
+      12,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      10,
+      3,
+      17,
+      12,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      10,
+      4,
+      20,
+      12,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      10,
+      5,
+      20,
+      12,
+      4,
+      1,
+      0
+    ],
+    [
+      2,
+      10,
+      6,
+      20,
+      12,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      11,
+      1,
+      17,
+      13,
+      2,
+      3,
+      0
+    ],
+    [
+      2,
+      11,
+      2,
+      17,
+      13,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      11,
+      3,
+      20,
+      13,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      11,
+      4,
+      20,
+      13,
+      2,
+      3,
+      0
+    ],
+    [
+      2,
+      11,
+      5,
+      20,
+      13,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      11,
+      6,
+      20,
+      13,
+      4,
+      1,
+      0
+    ],
+    [
+      2,
+      12,
+      1,
+      17,
+      10,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      12,
+      2,
+      17,
+      10,
+      4,
+      1,
+      0
+    ],
+    [
+      2,
+      12,
+      3,
+      17,
+      10,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      12,
+      4,
+      20,
+      10,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      12,
+      5,
+      17,
+      10,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      12,
+      6,
+      17,
+      10,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      13,
+      1,
+      17,
+      13,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      13,
+      2,
+      20,
+      13,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      13,
+      3,
+      20,
+      13,
+      6,
+      6,
+      0
+    ],
+    [
+      2,
+      13,
+      4,
+      20,
+      13,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      13,
+      5,
+      17,
+      13,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      13,
+      6,
+      20,
+      13,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      14,
+      1,
+      20,
+      10,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      14,
+      2,
+      17,
+      10,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      14,
+      3,
+      17,
+      10,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      14,
+      4,
+      20,
+      10,
+      4,
+      1,
+      0
+    ],
+    [
+      2,
+      14,
+      5,
+      20,
+      10,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      14,
+      6,
+      20,
+      10,
+      0,
+      4,
+      1
+    ],
+    [
+      2,
+      15,
+      1,
+      17,
+      21,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      15,
+      2,
+      22,
+      21,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      15,
+      3,
+      22,
+      21,
+      4,
+      1,
+      0
+    ],
+    [
+      2,
+      15,
+      4,
+      22,
+      21,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      15,
+      5,
+      22,
+      21,
+      2,
+      3,
+      0
+    ],
+    [
+      2,
+      15,
+      6,
+      22,
+      21,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      16,
+      1,
+      17,
+      10,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      16,
+      2,
+      17,
+      10,
+      4,
+      1,
+      0
+    ],
+    [
+      2,
+      16,
+      3,
+      17,
+      10,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      16,
+      4,
+      22,
+      10,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      16,
+      5,
+      22,
+      10,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      16,
+      6,
+      17,
+      10,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      17,
+      1,
+      22,
+      13,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      17,
+      2,
+      22,
+      13,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      17,
+      3,
+      17,
+      13,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      17,
+      4,
+      22,
+      13,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      17,
+      5,
+      22,
+      13,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      17,
+      6,
+      17,
+      13,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      18,
+      1,
+      22,
+      10,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      18,
+      2,
+      17,
+      10,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      18,
+      3,
+      22,
+      10,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      18,
+      4,
+      22,
+      10,
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      18,
+      5,
+      17,
+      10,
+      4,
+      1,
+      0
+    ],
+    [
+      2,
+      18,
+      6,
+      17,
+      10,
+      6,
+      6,
+      0
+    ]
+  ],
+  "deliveryAthletes": [
+    "1151288",
+    "547766",
+    "1070173",
+    "326016",
+    "288284",
+    "1292506",
+    "308967",
+    "1161489",
+    "471342",
+    "719715",
+    "1244751",
+    "423838",
+    "391485",
+    "793463",
+    "550215",
+    "851403",
+    "940973",
+    "253802",
+    "1119026",
+    "823703",
+    "892749",
+    "917159",
+    "721867"
+  ],
+  "deliveryOutcomes": [
+    "no run",
+    "four",
+    "wide",
+    "run",
+    "out",
+    "leg bye",
+    "six"
+  ],
+  "espnEventId": "1535465",
+  "innings": [
+    {
+      "abbreviation": "GT",
+      "current": false,
+      "description": "complete",
+      "fours": 15,
+      "innings": 1,
+      "overs": 20,
+      "runs": 155,
+      "score": "155/8",
+      "sixes": 3,
+      "target": null,
+      "team": "Gujarat Titans",
+      "teamId": "1298769",
+      "wickets": 8
+    },
+    {
+      "abbreviation": "RCB",
+      "current": true,
+      "description": "target reached",
+      "fours": 18,
+      "innings": 2,
+      "overs": 18,
+      "runs": 161,
+      "score": "161/5 (18/20 ov, target 156)",
+      "sixes": 7,
+      "target": 156,
+      "team": "Royal Challengers Bengaluru",
+      "teamId": "335970",
+      "wickets": 5
+    }
+  ],
+  "inningsProgress": [
+    {
+      "innings": 1,
+      "points": [
+        {
+          "over": 0,
+          "runs": 0,
+          "wicket": false,
+          "wickets": 0
+        },
+        {
+          "over": 1,
+          "runs": 13,
+          "wicket": false,
+          "wickets": 0
+        },
+        {
+          "over": 2,
+          "runs": 18,
+          "wicket": false,
+          "wickets": 0
+        },
+        {
+          "over": 3,
+          "runs": 24,
+          "wicket": true,
+          "wickets": 1
+        },
+        {
+          "over": 4,
+          "runs": 30,
+          "wicket": true,
+          "wickets": 2
+        },
+        {
+          "over": 5,
+          "runs": 39,
+          "wicket": false,
+          "wickets": 2
+        },
+        {
+          "over": 6,
+          "runs": 45,
+          "wicket": false,
+          "wickets": 2
+        },
+        {
+          "over": 7,
+          "runs": 50,
+          "wicket": false,
+          "wickets": 2
+        },
+        {
+          "over": 8,
+          "runs": 55,
+          "wicket": true,
+          "wickets": 3
+        },
+        {
+          "over": 9,
+          "runs": 59,
+          "wicket": false,
+          "wickets": 3
+        },
+        {
+          "over": 10,
+          "runs": 63,
+          "wicket": false,
+          "wickets": 3
+        },
+        {
+          "over": 11,
+          "runs": 67,
+          "wicket": false,
+          "wickets": 3
+        },
+        {
+          "over": 12,
+          "runs": 73,
+          "wicket": false,
+          "wickets": 3
+        },
+        {
+          "over": 13,
+          "runs": 83,
+          "wicket": true,
+          "wickets": 4
+        },
+        {
+          "over": 14,
+          "runs": 99,
+          "wicket": false,
+          "wickets": 4
+        },
+        {
+          "over": 15,
+          "runs": 105,
+          "wicket": true,
+          "wickets": 5
+        },
+        {
+          "over": 16,
+          "runs": 115,
+          "wicket": false,
+          "wickets": 5
+        },
+        {
+          "over": 17,
+          "runs": 121,
+          "wicket": true,
+          "wickets": 6
+        },
+        {
+          "over": 18,
+          "runs": 137,
+          "wicket": false,
+          "wickets": 6
+        },
+        {
+          "over": 19,
+          "runs": 145,
+          "wicket": true,
+          "wickets": 7
+        },
+        {
+          "over": 20,
+          "runs": 155,
+          "wicket": true,
+          "wickets": 8
+        }
+      ],
+      "teamId": "1298769"
+    },
+    {
+      "innings": 2,
+      "points": [
+        {
+          "over": 0,
+          "runs": 0,
+          "wicket": false,
+          "wickets": 0
+        },
+        {
+          "over": 1,
+          "runs": 5,
+          "wicket": false,
+          "wickets": 0
+        },
+        {
+          "over": 2,
+          "runs": 23,
+          "wicket": false,
+          "wickets": 0
+        },
+        {
+          "over": 3,
+          "runs": 36,
+          "wicket": false,
+          "wickets": 0
+        },
+        {
+          "over": 4,
+          "runs": 55,
+          "wicket": false,
+          "wickets": 0
+        },
+        {
+          "over": 5,
+          "runs": 63,
+          "wicket": true,
+          "wickets": 1
+        },
+        {
+          "over": 6,
+          "runs": 70,
+          "wicket": true,
+          "wickets": 2
+        },
+        {
+          "over": 7,
+          "runs": 81,
+          "wicket": false,
+          "wickets": 2
+        },
+        {
+          "over": 8,
+          "runs": 88,
+          "wicket": false,
+          "wickets": 2
+        },
+        {
+          "over": 9,
+          "runs": 91,
+          "wicket": true,
+          "wickets": 4
+        },
+        {
+          "over": 10,
+          "runs": 100,
+          "wicket": false,
+          "wickets": 4
+        },
+        {
+          "over": 11,
+          "runs": 109,
+          "wicket": false,
+          "wickets": 4
+        },
+        {
+          "over": 12,
+          "runs": 116,
+          "wicket": false,
+          "wickets": 4
+        },
+        {
+          "over": 13,
+          "runs": 126,
+          "wicket": false,
+          "wickets": 4
+        },
+        {
+          "over": 14,
+          "runs": 132,
+          "wicket": true,
+          "wickets": 5
+        },
+        {
+          "over": 15,
+          "runs": 139,
+          "wicket": false,
+          "wickets": 5
+        },
+        {
+          "over": 16,
+          "runs": 145,
+          "wicket": false,
+          "wickets": 5
+        },
+        {
+          "over": 17,
+          "runs": 148,
+          "wicket": false,
+          "wickets": 5
+        },
+        {
+          "over": 18,
+          "runs": 161,
+          "wicket": false,
+          "wickets": 5
+        }
+      ],
+      "teamId": "335970"
+    }
+  ],
+  "inningsRateProgress": [
+    {
+      "innings": 1,
+      "points": [
+        {
+          "innings": 1,
+          "legalBall": 1,
+          "over": "0.1",
+          "runs": 0,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 2,
+          "over": "0.2",
+          "runs": 0,
+          "teamId": "1298769"
+        },
+        {
+          "boundary": 4,
+          "innings": 1,
+          "legalBall": 3,
+          "over": "0.3",
+          "runs": 4,
+          "teamId": "1298769"
+        },
+        {
+          "boundary": 4,
+          "innings": 1,
+          "legalBall": 4,
+          "over": "0.4",
+          "runs": 8,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 5,
+          "over": "0.5",
+          "runs": 11,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 6,
+          "over": "0.6",
+          "runs": 13,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 7,
+          "over": "1.1",
+          "runs": 13,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 8,
+          "over": "1.2",
+          "runs": 13,
+          "teamId": "1298769"
+        },
+        {
+          "boundary": 4,
+          "innings": 1,
+          "legalBall": 9,
+          "over": "1.3",
+          "runs": 17,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 10,
+          "over": "1.4",
+          "runs": 17,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 11,
+          "over": "1.5",
+          "runs": 18,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 12,
+          "over": "1.6",
+          "runs": 18,
+          "teamId": "1298769"
+        },
+        {
+          "boundary": 4,
+          "innings": 1,
+          "legalBall": 13,
+          "over": "2.1",
+          "runs": 22,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 14,
+          "over": "2.2",
+          "runs": 22,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 15,
+          "over": "2.3",
+          "runs": 23,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 16,
+          "over": "2.4",
+          "runs": 23,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 17,
+          "over": "2.5",
+          "runs": 24,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 18,
+          "over": "2.6",
+          "runs": 24,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 19,
+          "over": "3.1",
+          "runs": 26,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 20,
+          "over": "3.2",
+          "runs": 26,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 21,
+          "over": "3.3",
+          "runs": 26,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 22,
+          "over": "3.4",
+          "runs": 26,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 23,
+          "over": "3.5",
+          "runs": 26,
+          "teamId": "1298769"
+        },
+        {
+          "boundary": 4,
+          "innings": 1,
+          "legalBall": 24,
+          "over": "3.6",
+          "runs": 30,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 25,
+          "over": "4.1",
+          "runs": 30,
+          "teamId": "1298769"
+        },
+        {
+          "boundary": 4,
+          "innings": 1,
+          "legalBall": 26,
+          "over": "4.2",
+          "runs": 34,
+          "teamId": "1298769"
+        },
+        {
+          "boundary": 4,
+          "innings": 1,
+          "legalBall": 27,
+          "over": "4.3",
+          "runs": 38,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 28,
+          "over": "4.4",
+          "runs": 39,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 29,
+          "over": "4.5",
+          "runs": 39,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 30,
+          "over": "4.6",
+          "runs": 39,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 31,
+          "over": "5.1",
+          "runs": 39,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 32,
+          "over": "5.2",
+          "runs": 39,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 33,
+          "over": "5.3",
+          "runs": 40,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 34,
+          "over": "5.4",
+          "runs": 41,
+          "teamId": "1298769"
+        },
+        {
+          "boundary": 4,
+          "innings": 1,
+          "legalBall": 35,
+          "over": "5.5",
+          "runs": 45,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 36,
+          "over": "5.6",
+          "runs": 45,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 37,
+          "over": "6.1",
+          "runs": 46,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 38,
+          "over": "6.2",
+          "runs": 47,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 39,
+          "over": "6.3",
+          "runs": 48,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 40,
+          "over": "6.4",
+          "runs": 49,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 41,
+          "over": "6.5",
+          "runs": 50,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 42,
+          "over": "6.6",
+          "runs": 50,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 43,
+          "over": "7.1",
+          "runs": 51,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 44,
+          "over": "7.2",
+          "runs": 52,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 45,
+          "over": "7.3",
+          "runs": 53,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 46,
+          "over": "7.4",
+          "runs": 55,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 47,
+          "over": "7.5",
+          "runs": 55,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 48,
+          "over": "7.6",
+          "runs": 55,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 49,
+          "over": "8.1",
+          "runs": 55,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 50,
+          "over": "8.2",
+          "runs": 56,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 51,
+          "over": "8.3",
+          "runs": 57,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 52,
+          "over": "8.4",
+          "runs": 58,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 53,
+          "over": "8.5",
+          "runs": 58,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 54,
+          "over": "8.6",
+          "runs": 59,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 55,
+          "over": "9.1",
+          "runs": 59,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 56,
+          "over": "9.2",
+          "runs": 60,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 57,
+          "over": "9.3",
+          "runs": 61,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 58,
+          "over": "9.4",
+          "runs": 62,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 59,
+          "over": "9.5",
+          "runs": 63,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 60,
+          "over": "9.6",
+          "runs": 63,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 61,
+          "over": "10.1",
+          "runs": 63,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 62,
+          "over": "10.2",
+          "runs": 63,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 63,
+          "over": "10.3",
+          "runs": 64,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 64,
+          "over": "10.4",
+          "runs": 64,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 65,
+          "over": "10.5",
+          "runs": 65,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 66,
+          "over": "10.6",
+          "runs": 67,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 67,
+          "over": "11.1",
+          "runs": 68,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 68,
+          "over": "11.2",
+          "runs": 69,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 69,
+          "over": "11.3",
+          "runs": 70,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 70,
+          "over": "11.4",
+          "runs": 71,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 71,
+          "over": "11.5",
+          "runs": 72,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 72,
+          "over": "11.6",
+          "runs": 73,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 73,
+          "over": "12.1",
+          "runs": 73,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 74,
+          "over": "12.2",
+          "runs": 74,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 75,
+          "over": "12.3",
+          "runs": 75,
+          "teamId": "1298769"
+        },
+        {
+          "boundary": 6,
+          "innings": 1,
+          "legalBall": 76,
+          "over": "12.4",
+          "runs": 81,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 77,
+          "over": "12.5",
+          "runs": 82,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 78,
+          "over": "12.6",
+          "runs": 83,
+          "teamId": "1298769"
+        },
+        {
+          "boundary": 4,
+          "innings": 1,
+          "legalBall": 79,
+          "over": "13.1",
+          "runs": 87,
+          "teamId": "1298769"
+        },
+        {
+          "boundary": 4,
+          "innings": 1,
+          "legalBall": 80,
+          "over": "13.2",
+          "runs": 91,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 81,
+          "over": "13.3",
+          "runs": 92,
+          "teamId": "1298769"
+        },
+        {
+          "boundary": 6,
+          "innings": 1,
+          "legalBall": 82,
+          "over": "13.4",
+          "runs": 98,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 83,
+          "over": "13.5",
+          "runs": 99,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 84,
+          "over": "13.6",
+          "runs": 99,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 85,
+          "over": "14.1",
+          "runs": 99,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 86,
+          "over": "14.2",
+          "runs": 100,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 87,
+          "over": "14.3",
+          "runs": 102,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 88,
+          "over": "14.4",
+          "runs": 103,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 89,
+          "over": "14.5",
+          "runs": 104,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 90,
+          "over": "14.6",
+          "runs": 105,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 91,
+          "over": "15.1",
+          "runs": 105,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 92,
+          "over": "15.2",
+          "runs": 107,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 93,
+          "over": "15.3",
+          "runs": 109,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 94,
+          "over": "15.4",
+          "runs": 110,
+          "teamId": "1298769"
+        },
+        {
+          "boundary": 4,
+          "innings": 1,
+          "legalBall": 95,
+          "over": "15.5",
+          "runs": 114,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 96,
+          "over": "15.6",
+          "runs": 115,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 97,
+          "over": "16.1",
+          "runs": 115,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 98,
+          "over": "16.2",
+          "runs": 116,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 99,
+          "over": "16.3",
+          "runs": 117,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 100,
+          "over": "16.4",
+          "runs": 118,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 101,
+          "over": "16.5",
+          "runs": 120,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 102,
+          "over": "16.6",
+          "runs": 121,
+          "teamId": "1298769"
+        },
+        {
+          "boundary": 4,
+          "innings": 1,
+          "legalBall": 103,
+          "over": "17.1",
+          "runs": 125,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 104,
+          "over": "17.2",
+          "runs": 126,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 105,
+          "over": "17.3",
+          "runs": 127,
+          "teamId": "1298769"
+        },
+        {
+          "boundary": 4,
+          "innings": 1,
+          "legalBall": 106,
+          "over": "17.4",
+          "runs": 131,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 107,
+          "over": "17.5",
+          "runs": 133,
+          "teamId": "1298769"
+        },
+        {
+          "boundary": 4,
+          "innings": 1,
+          "legalBall": 108,
+          "over": "17.6",
+          "runs": 137,
+          "teamId": "1298769"
+        },
+        {
+          "boundary": 4,
+          "innings": 1,
+          "legalBall": 109,
+          "over": "18.1",
+          "runs": 141,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 110,
+          "over": "18.2",
+          "runs": 142,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 111,
+          "over": "18.3",
+          "runs": 142,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 112,
+          "over": "18.4",
+          "runs": 143,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 113,
+          "over": "18.5",
+          "runs": 143,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 114,
+          "over": "18.6",
+          "runs": 145,
+          "teamId": "1298769"
+        },
+        {
+          "boundary": 6,
+          "innings": 1,
+          "legalBall": 115,
+          "over": "19.1",
+          "runs": 151,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 116,
+          "over": "19.2",
+          "runs": 151,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 117,
+          "over": "19.3",
+          "runs": 151,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 118,
+          "over": "19.4",
+          "runs": 152,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 119,
+          "over": "19.5",
+          "runs": 153,
+          "teamId": "1298769"
+        },
+        {
+          "innings": 1,
+          "legalBall": 120,
+          "over": "19.6",
+          "runs": 155,
+          "teamId": "1298769"
+        }
+      ],
+      "teamId": "1298769"
+    },
+    {
+      "innings": 2,
+      "points": [
+        {
+          "innings": 2,
+          "legalBall": 1,
+          "over": "0.1",
+          "runs": 1,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 2,
+          "over": "0.2",
+          "runs": 2,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 3,
+          "over": "0.3",
+          "runs": 2,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 4,
+          "over": "0.4",
+          "runs": 2,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 5,
+          "over": "0.5",
+          "runs": 4,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 6,
+          "over": "0.6",
+          "runs": 5,
+          "teamId": "335970"
+        },
+        {
+          "boundary": 4,
+          "innings": 2,
+          "legalBall": 7,
+          "over": "1.1",
+          "runs": 9,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 8,
+          "over": "1.2",
+          "runs": 9,
+          "teamId": "335970"
+        },
+        {
+          "boundary": 6,
+          "innings": 2,
+          "legalBall": 9,
+          "over": "1.3",
+          "runs": 15,
+          "teamId": "335970"
+        },
+        {
+          "boundary": 4,
+          "innings": 2,
+          "legalBall": 10,
+          "over": "1.4",
+          "runs": 19,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 11,
+          "over": "1.5",
+          "runs": 19,
+          "teamId": "335970"
+        },
+        {
+          "boundary": 4,
+          "innings": 2,
+          "legalBall": 12,
+          "over": "1.6",
+          "runs": 23,
+          "teamId": "335970"
+        },
+        {
+          "boundary": 4,
+          "innings": 2,
+          "legalBall": 13,
+          "over": "2.1",
+          "runs": 27,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 14,
+          "over": "2.2",
+          "runs": 27,
+          "teamId": "335970"
+        },
+        {
+          "boundary": 4,
+          "innings": 2,
+          "legalBall": 15,
+          "over": "2.3",
+          "runs": 31,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 16,
+          "over": "2.4",
+          "runs": 32,
+          "teamId": "335970"
+        },
+        {
+          "boundary": 4,
+          "innings": 2,
+          "legalBall": 17,
+          "over": "2.5",
+          "runs": 36,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 18,
+          "over": "2.6",
+          "runs": 36,
+          "teamId": "335970"
+        },
+        {
+          "boundary": 4,
+          "innings": 2,
+          "legalBall": 19,
+          "over": "3.1",
+          "runs": 40,
+          "teamId": "335970"
+        },
+        {
+          "boundary": 4,
+          "innings": 2,
+          "legalBall": 20,
+          "over": "3.2",
+          "runs": 44,
+          "teamId": "335970"
+        },
+        {
+          "boundary": 6,
+          "innings": 2,
+          "legalBall": 21,
+          "over": "3.3",
+          "runs": 50,
+          "teamId": "335970"
+        },
+        {
+          "boundary": 4,
+          "innings": 2,
+          "legalBall": 22,
+          "over": "3.4",
+          "runs": 54,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 23,
+          "over": "3.5",
+          "runs": 55,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 24,
+          "over": "3.6",
+          "runs": 55,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 25,
+          "over": "4.1",
+          "runs": 56,
+          "teamId": "335970"
+        },
+        {
+          "boundary": 6,
+          "innings": 2,
+          "legalBall": 26,
+          "over": "4.2",
+          "runs": 62,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 27,
+          "over": "4.3",
+          "runs": 62,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 28,
+          "over": "4.4",
+          "runs": 62,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 29,
+          "over": "4.5",
+          "runs": 62,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 30,
+          "over": "4.6",
+          "runs": 63,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 31,
+          "over": "5.1",
+          "runs": 63,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 32,
+          "over": "5.2",
+          "runs": 63,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 33,
+          "over": "5.3",
+          "runs": 63,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 34,
+          "over": "5.4",
+          "runs": 63,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 35,
+          "over": "5.5",
+          "runs": 64,
+          "teamId": "335970"
+        },
+        {
+          "boundary": 6,
+          "innings": 2,
+          "legalBall": 36,
+          "over": "5.6",
+          "runs": 70,
+          "teamId": "335970"
+        },
+        {
+          "boundary": 6,
+          "innings": 2,
+          "legalBall": 37,
+          "over": "6.1",
+          "runs": 76,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 38,
+          "over": "6.2",
+          "runs": 76,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 39,
+          "over": "6.3",
+          "runs": 77,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 40,
+          "over": "6.4",
+          "runs": 78,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 41,
+          "over": "6.5",
+          "runs": 80,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 42,
+          "over": "6.6",
+          "runs": 81,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 43,
+          "over": "7.1",
+          "runs": 82,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 44,
+          "over": "7.2",
+          "runs": 83,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 45,
+          "over": "7.3",
+          "runs": 83,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 46,
+          "over": "7.4",
+          "runs": 84,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 47,
+          "over": "7.5",
+          "runs": 84,
+          "teamId": "335970"
+        },
+        {
+          "boundary": 4,
+          "innings": 2,
+          "legalBall": 48,
+          "over": "7.6",
+          "runs": 88,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 49,
+          "over": "8.1",
+          "runs": 89,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 50,
+          "over": "8.2",
+          "runs": 89,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 51,
+          "over": "8.3",
+          "runs": 90,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 52,
+          "over": "8.4",
+          "runs": 91,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 53,
+          "over": "8.5",
+          "runs": 91,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 54,
+          "over": "8.6",
+          "runs": 91,
+          "teamId": "335970"
+        },
+        {
+          "boundary": 4,
+          "innings": 2,
+          "legalBall": 55,
+          "over": "9.1",
+          "runs": 95,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 56,
+          "over": "9.2",
+          "runs": 95,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 57,
+          "over": "9.3",
+          "runs": 96,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 58,
+          "over": "9.4",
+          "runs": 96,
+          "teamId": "335970"
+        },
+        {
+          "boundary": 4,
+          "innings": 2,
+          "legalBall": 59,
+          "over": "9.5",
+          "runs": 100,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 60,
+          "over": "9.6",
+          "runs": 100,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 61,
+          "over": "10.1",
+          "runs": 102,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 62,
+          "over": "10.2",
+          "runs": 103,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 63,
+          "over": "10.3",
+          "runs": 103,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 64,
+          "over": "10.4",
+          "runs": 105,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 65,
+          "over": "10.5",
+          "runs": 105,
+          "teamId": "335970"
+        },
+        {
+          "boundary": 4,
+          "innings": 2,
+          "legalBall": 66,
+          "over": "10.6",
+          "runs": 109,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 67,
+          "over": "11.1",
+          "runs": 109,
+          "teamId": "335970"
+        },
+        {
+          "boundary": 4,
+          "innings": 2,
+          "legalBall": 68,
+          "over": "11.2",
+          "runs": 113,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 69,
+          "over": "11.3",
+          "runs": 114,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 70,
+          "over": "11.4",
+          "runs": 115,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 71,
+          "over": "11.5",
+          "runs": 115,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 72,
+          "over": "11.6",
+          "runs": 116,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 73,
+          "over": "12.1",
+          "runs": 117,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 74,
+          "over": "12.2",
+          "runs": 117,
+          "teamId": "335970"
+        },
+        {
+          "boundary": 6,
+          "innings": 2,
+          "legalBall": 75,
+          "over": "12.3",
+          "runs": 123,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 76,
+          "over": "12.4",
+          "runs": 124,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 77,
+          "over": "12.5",
+          "runs": 125,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 78,
+          "over": "12.6",
+          "runs": 126,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 79,
+          "over": "13.1",
+          "runs": 127,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 80,
+          "over": "13.2",
+          "runs": 127,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 81,
+          "over": "13.3",
+          "runs": 128,
+          "teamId": "335970"
+        },
+        {
+          "boundary": 4,
+          "innings": 2,
+          "legalBall": 82,
+          "over": "13.4",
+          "runs": 132,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 83,
+          "over": "13.5",
+          "runs": 132,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 84,
+          "over": "13.6",
+          "runs": 132,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 85,
+          "over": "14.1",
+          "runs": 133,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 86,
+          "over": "14.2",
+          "runs": 133,
+          "teamId": "335970"
+        },
+        {
+          "boundary": 4,
+          "innings": 2,
+          "legalBall": 87,
+          "over": "14.3",
+          "runs": 137,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 88,
+          "over": "14.4",
+          "runs": 137,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 89,
+          "over": "14.5",
+          "runs": 139,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 90,
+          "over": "14.6",
+          "runs": 139,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 91,
+          "over": "15.1",
+          "runs": 139,
+          "teamId": "335970"
+        },
+        {
+          "boundary": 4,
+          "innings": 2,
+          "legalBall": 92,
+          "over": "15.2",
+          "runs": 143,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 93,
+          "over": "15.3",
+          "runs": 144,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 94,
+          "over": "15.4",
+          "runs": 144,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 95,
+          "over": "15.5",
+          "runs": 145,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 96,
+          "over": "15.6",
+          "runs": 145,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 97,
+          "over": "16.1",
+          "runs": 145,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 98,
+          "over": "16.2",
+          "runs": 146,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 99,
+          "over": "16.3",
+          "runs": 147,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 100,
+          "over": "16.4",
+          "runs": 147,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 101,
+          "over": "16.5",
+          "runs": 148,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 102,
+          "over": "16.6",
+          "runs": 148,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 103,
+          "over": "17.1",
+          "runs": 149,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 104,
+          "over": "17.2",
+          "runs": 150,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 105,
+          "over": "17.3",
+          "runs": 150,
+          "teamId": "335970"
+        },
+        {
+          "innings": 2,
+          "legalBall": 106,
+          "over": "17.4",
+          "runs": 151,
+          "teamId": "335970"
+        },
+        {
+          "boundary": 4,
+          "innings": 2,
+          "legalBall": 107,
+          "over": "17.5",
+          "runs": 155,
+          "teamId": "335970"
+        },
+        {
+          "boundary": 6,
+          "innings": 2,
+          "legalBall": 108,
+          "over": "17.6",
+          "runs": 161,
+          "teamId": "335970"
+        }
+      ],
+      "teamId": "335970"
+    }
+  ],
+  "matchDetails": {
+    "attendance": null,
+    "completed": true,
+    "date": "2026-05-31",
+    "end": "2026-06-01T23:59Z",
+    "format": "T20",
+    "formatName": "Twenty20 matches",
+    "gameType": "cricket",
+    "innings": [
+      {
+        "abbreviation": "GT",
+        "current": false,
+        "description": "complete",
+        "fours": 15,
+        "innings": 1,
+        "overs": 20,
+        "runs": 155,
+        "score": "155/8",
+        "sixes": 3,
+        "target": null,
+        "team": "Gujarat Titans",
+        "teamId": "1298769",
+        "wickets": 8
+      },
+      {
+        "abbreviation": "RCB",
+        "current": true,
+        "description": "target reached",
+        "fours": 18,
+        "innings": 2,
+        "overs": 18,
+        "runs": 161,
+        "score": "161/5 (18/20 ov, target 156)",
+        "sixes": 7,
+        "target": 156,
+        "team": "Royal Challengers Bengaluru",
+        "teamId": "335970",
+        "wickets": 5
+      }
+    ],
+    "league": "Indian Premier League",
+    "leagueAbbreviation": "IPL",
+    "limitedOvers": true,
+    "location": {
+      "city": "Ahmedabad",
+      "country": "India",
+      "neutralSite": true,
+      "venue": "Narendra Modi Stadium, Motera, Ahmedabad"
+    },
+    "officials": [
+      {
+        "country": "India",
+        "name": "KN Ananthapadmanabhan",
+        "role": "umpire"
+      },
+      {
+        "country": "India",
+        "name": "Nitin Menon",
+        "role": "umpire"
+      },
+      {
+        "country": "India",
+        "name": "Jayaraman Madanagopal",
+        "role": "tv umpire"
+      },
+      {
+        "country": "India",
+        "name": "Javagal Srinath",
+        "role": "referee"
+      },
+      {
+        "country": "India",
+        "name": "Virender Sharma",
+        "role": "reserve umpire"
+      },
+      {
+        "country": "India",
+        "name": "Vaibhav Sooryavanshi",
+        "role": "non-playing award"
+      }
+    ],
+    "playerOfTheMatch": {
+      "award": "Player Of The Match",
+      "id": "253802",
+      "name": "Virat Kohli",
+      "team": "Royal Challengers Bengaluru",
+      "teamId": "335970"
+    },
+    "playerOfTheSeries": {
+      "award": "Player Of The Series",
+      "id": "1408688",
+      "name": "Vaibhav Sooryavanshi",
+      "team": "Rajasthan Royals",
+      "teamId": "335977"
+    },
+    "result": "RCB won by 5 wkts (12b rem)",
+    "score": {
+      "away": {
+        "abbreviation": "GT",
+        "innings": [
+          1
+        ],
+        "overs": 20,
+        "runs": 155,
+        "score": "155/8",
+        "team": "Gujarat Titans",
+        "teamId": "1298769",
+        "wickets": 8
+      },
+      "display": "RCB 161/5 (18/20 ov, target 156) v GT 155/8",
+      "home": {
+        "abbreviation": "RCB",
+        "innings": [
+          2
+        ],
+        "overs": 18,
+        "runs": 161,
+        "score": "161/5 (18/20 ov, target 156)",
+        "team": "Royal Challengers Bengaluru",
+        "teamId": "335970",
+        "wickets": 5
+      },
+      "winner": "Royal Challengers Bengaluru",
+      "winnerId": "335970"
+    },
+    "season": 2026,
+    "seriesNote": "Royal Challengers Bengaluru won the 2026 Indian Premier League",
+    "stage": "Final",
+    "start": "2026-05-31T14:00Z",
+    "state": "post",
+    "status": "Result",
+    "time": "14:00",
+    "title": "Royal Challengers Bengaluru v Gujarat Titans",
+    "toss": {
+      "decision": "bowl",
+      "team": "Royal Challengers Bengaluru"
+    }
+  },
+  "notes": [
+    {
+      "day": 0,
+      "id": "756708",
+      "innings": 1,
+      "kind": "innings",
+      "text": "Gujarat Titans innings"
+    },
+    {
+      "day": 0,
+      "id": "756709",
+      "innings": 1,
+      "kind": "powerplay",
+      "text": "Powerplay 1: Overs 0.1 - 6.0 (Mandatory - 45 runs, 2 wickets)"
+    },
+    {
+      "day": 0,
+      "id": "756710",
+      "innings": 1,
+      "kind": "review",
+      "text": "Over 0.4: Review by Gujarat Titans (Batting), Decision Challenged - Wicket, Umpire - Nitin Menon, Batter - B Sai Sudharsan (Upheld)"
+    },
+    {
+      "day": 0,
+      "id": "756711",
+      "innings": 1,
+      "kind": "impact-sub",
+      "text": "Gujarat Titans Impact Player Subs: Prasidh Krishna, Glenn Phillips, Anuj Rawat, Kumar Kushagra, Sai Kishore."
+    },
+    {
+      "day": 0,
+      "id": "756712",
+      "innings": 1,
+      "kind": "impact-sub",
+      "text": "Royal Challengers Bengaluru Impact Player Subs: Venkatesh Iyer, Kanishk Chohan, Swapnil Singh, Abhinandan Singh, Jordan Cox."
+    },
+    {
+      "day": 0,
+      "id": "756713",
+      "innings": 1,
+      "kind": "milestone",
+      "text": "Gujarat Titans: 50 runs in 6.5 overs (41 balls), Extras 3"
+    },
+    {
+      "day": 0,
+      "id": "756714",
+      "innings": 1,
+      "kind": "timeout",
+      "text": "Strategic Timeout: Gujarat Titans - 59/3 in 9.0 overs (JC Buttler 12, Washington Sundar 2)"
+    },
+    {
+      "day": 0,
+      "id": "756715",
+      "innings": 1,
+      "kind": "impact-sub",
+      "text": "Royal Challengers Bengaluru Impact Player Sub: Venkatesh Iyer in for Jacob Duffy (Gujarat Titans innings, 13.6 ov)"
+    },
+    {
+      "day": 0,
+      "id": "756722",
+      "innings": 2,
+      "kind": "milestone",
+      "text": "Gujarat Titans: 100 runs in 14.2 overs (86 balls), Extras 4"
+    },
+    {
+      "day": 0,
+      "id": "756724",
+      "innings": 2,
+      "kind": "review",
+      "text": "Over 17.4: Review by Royal Challengers Bengaluru (Bowling), Decision Challenged - Wide, Umpire - KN Ananthapadmanabhan, Batter - Washington Sundar (Struck down)"
+    },
+    {
+      "day": 0,
+      "id": "756725",
+      "innings": 2,
+      "kind": "milestone",
+      "text": "Gujarat Titans: 150 runs in 19.1 overs (115 balls), Extras 5"
+    },
+    {
+      "day": 0,
+      "id": "756727",
+      "innings": 2,
+      "kind": "note",
+      "text": "Washington Sundar: 50 off 37 balls (5 x 4)"
+    },
+    {
+      "day": 0,
+      "id": "756728",
+      "innings": 2,
+      "kind": "break",
+      "text": "Innings Break: Gujarat Titans - 155/8 in 20.0 overs (Washington Sundar 50, K Rabada 3)"
+    },
+    {
+      "day": 0,
+      "id": "756733",
+      "innings": 3,
+      "kind": "innings",
+      "text": "Royal Challengers Bengaluru innings"
+    },
+    {
+      "day": 0,
+      "id": "756734",
+      "innings": 3,
+      "kind": "powerplay",
+      "text": "Powerplay 1: Overs 0.1 - 6.0 (Mandatory - 70 runs, 2 wickets)"
+    },
+    {
+      "day": 0,
+      "id": "756736",
+      "innings": 3,
+      "kind": "impact-sub",
+      "text": "Gujarat Titans Impact Player Sub: Prasidh Krishna in for Rahul Tewatia (Gujarat Titans innings, 19.6 ov)"
+    },
+    {
+      "day": 0,
+      "id": "756737",
+      "innings": 3,
+      "kind": "milestone",
+      "text": "Royal Challengers Bengaluru: 50 runs in 3.3 overs (21 balls), Extras 1"
+    },
+    {
+      "day": 0,
+      "id": "756740",
+      "innings": 3,
+      "kind": "milestone",
+      "text": "1st Wicket: 50 runs in 21 balls (VR Iyer 26, V Kohli 23, Ex 1)"
+    },
+    {
+      "day": 0,
+      "id": "756742",
+      "innings": 3,
+      "kind": "timeout",
+      "text": "Strategic Timeout: Royal Challengers Bengaluru - 88/2 in 8.0 overs (V Kohli 38, RM Patidar 15)"
+    },
+    {
+      "day": 0,
+      "id": "756743",
+      "innings": 3,
+      "kind": "milestone",
+      "text": "Royal Challengers Bengaluru: 100 runs in 9.5 overs (59 balls), Extras 2"
+    },
+    {
+      "day": 0,
+      "id": "756746",
+      "innings": 3,
+      "kind": "note",
+      "text": "V Kohli: 50 off 25 balls (7 x 4, 2 x 6)"
+    },
+    {
+      "day": 0,
+      "id": "756749",
+      "innings": 3,
+      "kind": "timeout",
+      "text": "Strategic Timeout: Royal Challengers Bengaluru - 126/4 in 13.0 overs (V Kohli 56, TH David 19)"
+    },
+    {
+      "day": 0,
+      "id": "756753",
+      "innings": 3,
+      "kind": "review",
+      "text": "Over 13.6: Review by Gujarat Titans (Bowling), Decision Challenged - Wicket, Umpire - KN Ananthapadmanabhan, Batter - TH David (Upheld)"
+    },
+    {
+      "day": 0,
+      "id": "756754",
+      "innings": 3,
+      "kind": "milestone",
+      "text": "Royal Challengers Bengaluru: 150 runs in 17.2 overs (104 balls), Extras 2"
+    },
+    {
+      "day": 0,
+      "id": "756755",
+      "innings": 3,
+      "kind": "note",
+      "text": "Final was shifted to Ahmedabad from Bangalore and Royal Challengers Bengaluru played the game as designated home team."
+    }
+  ],
+  "playerStatKeys": [
+    "balls",
+    "ballsFaced",
+    "batted",
+    "battingPosition",
+    "bowled",
+    "bowlingPosition",
+    "bpo",
+    "caught",
+    "caughtFielder",
+    "caughtKeeper",
+    "conceded",
+    "dismissal",
+    "dismissalCard",
+    "dismissals",
+    "dots",
+    "ducks",
+    "economyRate",
+    "fielded",
+    "fielderKeeper",
+    "fielderSub",
+    "fiftyPlus",
+    "fiveWickets",
+    "fourPlusWickets",
+    "fours",
+    "foursConceded",
+    "hundreds",
+    "illegalOverLimit",
+    "innings",
+    "inningsBowled",
+    "inningsFielded",
+    "inningsNumber",
+    "maidens",
+    "minutes",
+    "noballs",
+    "notouts",
+    "outs",
+    "overs",
+    "retiredDescription",
+    "runs",
+    "sixes",
+    "sixesConceded",
+    "strikeRate",
+    "stumped",
+    "tenWickets",
+    "wickets",
+    "wides"
+  ],
+  "playerStats": {
+    "253802": [
+      0,
+      42,
+      1,
+      2,
+      0,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      12,
+      null,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      9,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      2,
+      0,
+      102,
+      0,
+      1,
+      0,
+      0,
+      0,
+      75,
+      3,
+      0,
+      178.57,
+      0,
+      0,
+      0,
+      0
+    ],
+    "288284": [
+      24,
+      0,
+      0,
+      10,
+      1,
+      3,
+      6,
+      1,
+      1,
+      0,
+      37,
+      0,
+      0,
+      1,
+      7,
+      0,
+      9.25,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0,
+      0,
+      1,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      1
+    ],
+    "308967": [
+      0,
+      23,
+      1,
+      4,
+      0,
+      0,
+      6,
+      1,
+      0,
+      1,
+      0,
+      5,
+      null,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      2,
+      0,
+      40,
+      0,
+      0,
+      1,
+      0,
+      0,
+      19,
+      0,
+      0,
+      82.6,
+      0,
+      0,
+      0,
+      0
+    ],
+    "326016": [
+      24,
+      0,
+      0,
+      9,
+      1,
+      2,
+      6,
+      0,
+      0,
+      0,
+      29,
+      0,
+      0,
+      0,
+      11,
+      0,
+      7.25,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      1,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    "391485": [
+      12,
+      5,
+      1,
+      8,
+      1,
+      3,
+      6,
+      0,
+      0,
+      0,
+      16,
+      1,
+      null,
+      0,
+      5,
+      0,
+      8,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      3,
+      0,
+      0,
+      1,
+      1,
+      1,
+      2,
+      0,
+      13,
+      0,
+      0,
+      1,
+      2,
+      0,
+      7,
+      0,
+      0,
+      140,
+      0,
+      0,
+      0,
+      0
+    ],
+    "423838": [
+      0,
+      5,
+      1,
+      7,
+      0,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      1,
+      null,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      2,
+      0,
+      12,
+      0,
+      0,
+      1,
+      0,
+      0,
+      7,
+      0,
+      0,
+      140,
+      0,
+      0,
+      0,
+      0
+    ],
+    "471342": [
+      24,
+      2,
+      1,
+      5,
+      1,
+      5,
+      6,
+      0,
+      0,
+      0,
+      23,
+      3,
+      null,
+      0,
+      7,
+      0,
+      5.75,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      2,
+      0,
+      2,
+      0,
+      0,
+      1,
+      4,
+      0,
+      1,
+      0,
+      1,
+      50,
+      0,
+      0,
+      1,
+      0
+    ],
+    "547766": [
+      24,
+      0,
+      0,
+      0,
+      1,
+      1,
+      6,
+      0,
+      0,
+      0,
+      38,
+      0,
+      0,
+      0,
+      6,
+      0,
+      9.5,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      1,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      3
+    ],
+    "550215": [
+      18,
+      3,
+      1,
+      10,
+      1,
+      2,
+      6,
+      2,
+      2,
+      0,
+      44,
+      12,
+      null,
+      2,
+      7,
+      0,
+      14.66,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0,
+      1,
+      1,
+      1,
+      2,
+      0,
+      3,
+      0,
+      1,
+      0,
+      3,
+      0,
+      3,
+      0,
+      3,
+      100,
+      0,
+      0,
+      1,
+      0
+    ],
+    "677077": [
+      0,
+      0,
+      0,
+      8,
+      0,
+      0,
+      6,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "719715": [
+      0,
+      37,
+      1,
+      5,
+      0,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      12,
+      null,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      2,
+      0,
+      66,
+      0,
+      1,
+      0,
+      0,
+      0,
+      50,
+      0,
+      0,
+      135.13,
+      0,
+      0,
+      0,
+      0
+    ],
+    "721867": [
+      0,
+      14,
+      1,
+      7,
+      0,
+      0,
+      6,
+      1,
+      0,
+      1,
+      0,
+      12,
+      null,
+      2,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      2,
+      0,
+      22,
+      0,
+      1,
+      0,
+      0,
+      0,
+      11,
+      0,
+      0,
+      78.57,
+      1,
+      0,
+      0,
+      0
+    ],
+    "793463": [
+      24,
+      3,
+      1,
+      9,
+      1,
+      4,
+      6,
+      0,
+      0,
+      0,
+      25,
+      1,
+      null,
+      0,
+      9,
+      0,
+      6.25,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      2,
+      0,
+      4,
+      0,
+      0,
+      1,
+      4,
+      0,
+      7,
+      1,
+      1,
+      233.33,
+      0,
+      0,
+      2,
+      0
+    ],
+    "823703": [
+      0,
+      13,
+      1,
+      4,
+      0,
+      0,
+      6,
+      2,
+      2,
+      0,
+      0,
+      1,
+      null,
+      2,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      2,
+      0,
+      18,
+      0,
+      0,
+      1,
+      0,
+      0,
+      15,
+      1,
+      0,
+      115.38,
+      0,
+      0,
+      0,
+      0
+    ],
+    "851403": [
+      0,
+      16,
+      1,
+      1,
+      0,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      1,
+      null,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      2,
+      0,
+      25,
+      0,
+      0,
+      1,
+      0,
+      0,
+      32,
+      2,
+      0,
+      200,
+      0,
+      0,
+      0,
+      0
+    ],
+    "892749": [
+      0,
+      17,
+      1,
+      6,
+      0,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      1,
+      null,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      2,
+      0,
+      28,
+      0,
+      0,
+      1,
+      0,
+      0,
+      24,
+      1,
+      0,
+      141.17,
+      0,
+      0,
+      0,
+      0
+    ],
+    "917159": [
+      6,
+      0,
+      0,
+      0,
+      1,
+      6,
+      6,
+      0,
+      0,
+      0,
+      7,
+      0,
+      0,
+      0,
+      3,
+      0,
+      7,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "940973": [
+      24,
+      0,
+      0,
+      11,
+      1,
+      1,
+      6,
+      0,
+      0,
+      0,
+      36,
+      0,
+      0,
+      0,
+      10,
+      0,
+      9,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      1,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "1070173": [
+      0,
+      8,
+      1,
+      2,
+      0,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      1,
+      null,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      2,
+      0,
+      13,
+      0,
+      0,
+      1,
+      0,
+      0,
+      10,
+      0,
+      0,
+      125,
+      0,
+      0,
+      0,
+      0
+    ],
+    "1119026": [
+      0,
+      4,
+      1,
+      3,
+      0,
+      0,
+      6,
+      1,
+      1,
+      0,
+      0,
+      1,
+      null,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      2,
+      0,
+      4,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      25,
+      0,
+      0,
+      0,
+      0
+    ],
+    "1151288": [
+      0,
+      12,
+      1,
+      1,
+      0,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      1,
+      null,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      2,
+      0,
+      20,
+      0,
+      0,
+      1,
+      0,
+      0,
+      12,
+      0,
+      0,
+      100,
+      0,
+      0,
+      0,
+      0
+    ],
+    "1161489": [
+      24,
+      0,
+      0,
+      11,
+      1,
+      4,
+      6,
+      1,
+      1,
+      0,
+      27,
+      0,
+      0,
+      1,
+      8,
+      0,
+      6.75,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      3,
+      0
+    ],
+    "1244751": [
+      24,
+      6,
+      1,
+      6,
+      1,
+      5,
+      6,
+      1,
+      1,
+      0,
+      32,
+      1,
+      null,
+      1,
+      9,
+      0,
+      8,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      1,
+      1,
+      1,
+      2,
+      0,
+      10,
+      0,
+      0,
+      1,
+      4,
+      0,
+      15,
+      2,
+      1,
+      250,
+      0,
+      0,
+      1,
+      0
+    ],
+    "1292506": [
+      0,
+      18,
+      1,
+      3,
+      0,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      1,
+      null,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      2,
+      0,
+      26,
+      0,
+      0,
+      1,
+      0,
+      0,
+      20,
+      0,
+      0,
+      111.11,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "playerStatsGeneratedAt": "2026-09-07T06:59:41.105041Z",
+  "scorecard": [
+    {
+      "batting": [
+        {
+          "balls": 12,
+          "dismissal": "c",
+          "fours": 2,
+          "id": "1151288",
+          "innings": 1,
+          "milestone": null,
+          "minutes": 20,
+          "name": "Sai Sudharsan",
+          "notOut": false,
+          "position": 1,
+          "runs": 12,
+          "score": "12 (12)",
+          "sixes": 0,
+          "strikeRate": 100
+        },
+        {
+          "balls": 8,
+          "dismissal": "c",
+          "fours": 2,
+          "id": "1070173",
+          "innings": 1,
+          "milestone": null,
+          "minutes": 13,
+          "name": "Shubman Gill",
+          "notOut": false,
+          "position": 2,
+          "runs": 10,
+          "score": "10 (8)",
+          "sixes": 0,
+          "strikeRate": 125
+        },
+        {
+          "balls": 18,
+          "dismissal": "c",
+          "fours": 3,
+          "id": "1292506",
+          "innings": 1,
+          "milestone": null,
+          "minutes": 26,
+          "name": "Nishant Sindhu",
+          "notOut": false,
+          "position": 3,
+          "runs": 20,
+          "score": "20 (18)",
+          "sixes": 0,
+          "strikeRate": 111.11
+        },
+        {
+          "balls": 23,
+          "dismissal": "st",
+          "fours": 1,
+          "id": "308967",
+          "innings": 1,
+          "milestone": null,
+          "minutes": 40,
+          "name": "Jos Buttler",
+          "notOut": false,
+          "position": 4,
+          "runs": 19,
+          "score": "19 (23)",
+          "sixes": 0,
+          "strikeRate": 82.6
+        },
+        {
+          "balls": 37,
+          "dismissal": "not out",
+          "fours": 5,
+          "id": "719715",
+          "innings": 1,
+          "milestone": "fifty",
+          "minutes": 66,
+          "name": "Washington Sundar",
+          "notOut": true,
+          "position": 5,
+          "runs": 50,
+          "score": "50* (37)",
+          "sixes": 0,
+          "strikeRate": 135.13
+        },
+        {
+          "balls": 6,
+          "dismissal": "c",
+          "fours": 0,
+          "id": "1244751",
+          "innings": 1,
+          "milestone": null,
+          "minutes": 10,
+          "name": "Arshad Khan",
+          "notOut": false,
+          "position": 6,
+          "runs": 15,
+          "score": "15 (6)",
+          "sixes": 2,
+          "strikeRate": 250
+        },
+        {
+          "balls": 5,
+          "dismissal": "c",
+          "fours": 1,
+          "id": "423838",
+          "innings": 1,
+          "milestone": null,
+          "minutes": 12,
+          "name": "Rahul Tewatia",
+          "notOut": false,
+          "position": 7,
+          "runs": 7,
+          "score": "7 (5)",
+          "sixes": 0,
+          "strikeRate": 140
+        },
+        {
+          "balls": 5,
+          "dismissal": "c",
+          "fours": 1,
+          "id": "391485",
+          "innings": 1,
+          "milestone": null,
+          "minutes": 13,
+          "name": "Jason Holder",
+          "notOut": false,
+          "position": 8,
+          "runs": 7,
+          "score": "7 (5)",
+          "sixes": 0,
+          "strikeRate": 140
+        },
+        {
+          "balls": 3,
+          "dismissal": "c",
+          "fours": 0,
+          "id": "793463",
+          "innings": 1,
+          "milestone": null,
+          "minutes": 4,
+          "name": "Rashid Khan",
+          "notOut": false,
+          "position": 9,
+          "runs": 7,
+          "score": "7 (3)",
+          "sixes": 1,
+          "strikeRate": 233.33
+        },
+        {
+          "balls": 3,
+          "dismissal": "not out",
+          "fours": 0,
+          "id": "550215",
+          "innings": 1,
+          "milestone": null,
+          "minutes": 3,
+          "name": "Kagiso Rabada",
+          "notOut": true,
+          "position": 10,
+          "runs": 3,
+          "score": "3* (3)",
+          "sixes": 0,
+          "strikeRate": 100
+        }
+      ],
+      "battingTeam": "Gujarat Titans",
+      "battingTeamId": "1298769",
+      "bowling": [
+        {
+          "balls": 24,
+          "dots": 6,
+          "economy": 9.5,
+          "figures": "0/38",
+          "foursConceded": 4,
+          "id": "547766",
+          "innings": 1,
+          "maidens": 0,
+          "name": "Jacob Duffy",
+          "noballs": 0,
+          "overs": 4,
+          "position": 1,
+          "runs": 38,
+          "sixesConceded": 1,
+          "wickets": 0,
+          "wides": 3
+        },
+        {
+          "balls": 24,
+          "dots": 11,
+          "economy": 7.25,
+          "figures": "2/29",
+          "foursConceded": 4,
+          "id": "326016",
+          "innings": 1,
+          "maidens": 0,
+          "name": "Bhuvneshwar Kumar",
+          "noballs": 0,
+          "overs": 4,
+          "position": 2,
+          "runs": 29,
+          "sixesConceded": 0,
+          "wickets": 2,
+          "wides": 0
+        },
+        {
+          "balls": 24,
+          "dots": 7,
+          "economy": 9.25,
+          "figures": "2/37",
+          "foursConceded": 6,
+          "id": "288284",
+          "innings": 1,
+          "maidens": 0,
+          "name": "Josh Hazlewood",
+          "noballs": 0,
+          "overs": 4,
+          "position": 3,
+          "runs": 37,
+          "sixesConceded": 0,
+          "wickets": 2,
+          "wides": 1
+        },
+        {
+          "balls": 24,
+          "dots": 8,
+          "economy": 6.75,
+          "figures": "3/27",
+          "foursConceded": 1,
+          "id": "1161489",
+          "innings": 1,
+          "maidens": 0,
+          "name": "Rasikh Salam",
+          "noballs": 0,
+          "overs": 4,
+          "position": 4,
+          "runs": 27,
+          "sixesConceded": 1,
+          "wickets": 3,
+          "wides": 0
+        },
+        {
+          "balls": 24,
+          "dots": 7,
+          "economy": 5.75,
+          "figures": "1/23",
+          "foursConceded": 0,
+          "id": "471342",
+          "innings": 1,
+          "maidens": 0,
+          "name": "Krunal Pandya",
+          "noballs": 0,
+          "overs": 4,
+          "position": 5,
+          "runs": 23,
+          "sixesConceded": 1,
+          "wickets": 1,
+          "wides": 0
+        }
+      ],
+      "bowlingTeam": "Royal Challengers Bengaluru",
+      "bowlingTeamId": "335970",
+      "didNotBat": [
+        "Mohammed Siraj",
+        "Prasidh Krishna"
+      ],
+      "extras": {
+        "byes": 0,
+        "legByes": 1,
+        "noballs": 0,
+        "total": 5,
+        "wides": 4
+      },
+      "fallOfWickets": [],
+      "innings": 1,
+      "overs": 20,
+      "partnerships": [],
+      "runRate": 7.75,
+      "runs": 155,
+      "score": "155/8",
+      "target": null,
+      "wickets": 8
+    },
+    {
+      "batting": [
+        {
+          "balls": 16,
+          "dismissal": "c",
+          "fours": 4,
+          "id": "851403",
+          "innings": 2,
+          "milestone": null,
+          "minutes": 25,
+          "name": "Venkatesh Iyer",
+          "notOut": false,
+          "position": 1,
+          "runs": 32,
+          "score": "32 (16)",
+          "sixes": 2,
+          "strikeRate": 200
+        },
+        {
+          "balls": 42,
+          "dismissal": "not out",
+          "fours": 9,
+          "id": "253802",
+          "innings": 2,
+          "milestone": "fifty",
+          "minutes": 102,
+          "name": "Virat Kohli",
+          "notOut": true,
+          "position": 2,
+          "runs": 75,
+          "score": "75* (42)",
+          "sixes": 3,
+          "strikeRate": 178.57
+        },
+        {
+          "balls": 4,
+          "dismissal": "c",
+          "fours": 0,
+          "id": "1119026",
+          "innings": 2,
+          "milestone": null,
+          "minutes": 4,
+          "name": "Devdutt Padikkal",
+          "notOut": false,
+          "position": 3,
+          "runs": 1,
+          "score": "1 (4)",
+          "sixes": 0,
+          "strikeRate": 25
+        },
+        {
+          "balls": 13,
+          "dismissal": "c",
+          "fours": 1,
+          "id": "823703",
+          "innings": 2,
+          "milestone": null,
+          "minutes": 18,
+          "name": "Rajat Patidar",
+          "notOut": false,
+          "position": 4,
+          "runs": 15,
+          "score": "15 (13)",
+          "sixes": 1,
+          "strikeRate": 115.38
+        },
+        {
+          "balls": 2,
+          "dismissal": "lbw",
+          "fours": 0,
+          "id": "471342",
+          "innings": 2,
+          "milestone": null,
+          "minutes": 2,
+          "name": "Krunal Pandya",
+          "notOut": false,
+          "position": 5,
+          "runs": 1,
+          "score": "1 (2)",
+          "sixes": 0,
+          "strikeRate": 50
+        },
+        {
+          "balls": 17,
+          "dismissal": "c",
+          "fours": 3,
+          "id": "892749",
+          "innings": 2,
+          "milestone": null,
+          "minutes": 28,
+          "name": "Tim David",
+          "notOut": false,
+          "position": 6,
+          "runs": 24,
+          "score": "24 (17)",
+          "sixes": 1,
+          "strikeRate": 141.17
+        },
+        {
+          "balls": 14,
+          "dismissal": "not out",
+          "fours": 1,
+          "id": "721867",
+          "innings": 2,
+          "milestone": null,
+          "minutes": 22,
+          "name": "Jitesh Sharma",
+          "notOut": true,
+          "position": 7,
+          "runs": 11,
+          "score": "11* (14)",
+          "sixes": 0,
+          "strikeRate": 78.57
+        }
+      ],
+      "battingTeam": "Royal Challengers Bengaluru",
+      "battingTeamId": "335970",
+      "bowling": [
+        {
+          "balls": 24,
+          "dots": 10,
+          "economy": 9,
+          "figures": "1/36",
+          "foursConceded": 3,
+          "id": "940973",
+          "innings": 2,
+          "maidens": 0,
+          "name": "Mohammed Siraj",
+          "noballs": 0,
+          "overs": 4,
+          "position": 1,
+          "runs": 36,
+          "sixesConceded": 2,
+          "wickets": 1,
+          "wides": 1
+        },
+        {
+          "balls": 18,
+          "dots": 7,
+          "economy": 14.66,
+          "figures": "1/44",
+          "foursConceded": 6,
+          "id": "550215",
+          "innings": 2,
+          "maidens": 0,
+          "name": "Kagiso Rabada",
+          "noballs": 0,
+          "overs": 3,
+          "position": 2,
+          "runs": 44,
+          "sixesConceded": 3,
+          "wickets": 1,
+          "wides": 0
+        },
+        {
+          "balls": 12,
+          "dots": 5,
+          "economy": 8,
+          "figures": "0/16",
+          "foursConceded": 3,
+          "id": "391485",
+          "innings": 2,
+          "maidens": 0,
+          "name": "Jason Holder",
+          "noballs": 0,
+          "overs": 2,
+          "position": 3,
+          "runs": 16,
+          "sixesConceded": 0,
+          "wickets": 0,
+          "wides": 0
+        },
+        {
+          "balls": 24,
+          "dots": 9,
+          "economy": 6.25,
+          "figures": "2/25",
+          "foursConceded": 1,
+          "id": "793463",
+          "innings": 2,
+          "maidens": 0,
+          "name": "Rashid Khan",
+          "noballs": 0,
+          "overs": 4,
+          "position": 4,
+          "runs": 25,
+          "sixesConceded": 1,
+          "wickets": 2,
+          "wides": 0
+        },
+        {
+          "balls": 24,
+          "dots": 9,
+          "economy": 8,
+          "figures": "1/32",
+          "foursConceded": 4,
+          "id": "1244751",
+          "innings": 2,
+          "maidens": 0,
+          "name": "Arshad Khan",
+          "noballs": 0,
+          "overs": 4,
+          "position": 5,
+          "runs": 32,
+          "sixesConceded": 1,
+          "wickets": 1,
+          "wides": 0
+        },
+        {
+          "balls": 6,
+          "dots": 3,
+          "economy": 7,
+          "figures": "0/7",
+          "foursConceded": 1,
+          "id": "917159",
+          "innings": 2,
+          "maidens": 0,
+          "name": "Prasidh Krishna",
+          "noballs": 0,
+          "overs": 1,
+          "position": 6,
+          "runs": 7,
+          "sixesConceded": 0,
+          "wickets": 0,
+          "wides": 0
+        }
+      ],
+      "bowlingTeam": "Gujarat Titans",
+      "bowlingTeamId": "1298769",
+      "didNotBat": [
+        "Romario Shepherd",
+        "Bhuvneshwar Kumar",
+        "Josh Hazlewood",
+        "Rasikh Salam",
+        "Jacob Duffy"
+      ],
+      "extras": {
+        "byes": 0,
+        "legByes": 1,
+        "noballs": 0,
+        "total": 2,
+        "wides": 1
+      },
+      "fallOfWickets": [
+        {
+          "batter": "VR Iyer",
+          "overs": 4.3,
+          "runs": 62,
+          "score": "62/1",
+          "wicket": 1
+        },
+        {
+          "batter": "D Padikkal",
+          "overs": 5.1,
+          "runs": 63,
+          "score": "63/2",
+          "wicket": 2
+        },
+        {
+          "batter": "RM Patidar",
+          "overs": 8.2,
+          "runs": 89,
+          "score": "89/3",
+          "wicket": 3
+        },
+        {
+          "batter": "KH Pandya",
+          "overs": 8.5,
+          "runs": 91,
+          "score": "91/4",
+          "wicket": 4
+        },
+        {
+          "batter": "TH David",
+          "overs": 14,
+          "runs": 132,
+          "score": "132/5",
+          "wicket": 5
+        }
+      ],
+      "innings": 2,
+      "overs": 18,
+      "partnerships": [
+        {
+          "batters": [
+            {
+              "name": "V Kohli",
+              "runs": 29
+            },
+            {
+              "name": "VR Iyer",
+              "runs": 32
+            }
+          ],
+          "overs": 4.3,
+          "runs": 62,
+          "wicket": "1st"
+        },
+        {
+          "batters": [
+            {
+              "name": "V Kohli",
+              "runs": 0
+            },
+            {
+              "name": "D Padikkal",
+              "runs": 1
+            }
+          ],
+          "overs": 0.4,
+          "runs": 1,
+          "wicket": "2nd"
+        },
+        {
+          "batters": [
+            {
+              "name": "V Kohli",
+              "runs": 10
+            },
+            {
+              "name": "RM Patidar",
+              "runs": 15
+            }
+          ],
+          "overs": 3.1,
+          "runs": 26,
+          "wicket": "3rd"
+        },
+        {
+          "batters": [
+            {
+              "name": "V Kohli",
+              "runs": 1
+            },
+            {
+              "name": "KH Pandya",
+              "runs": 1
+            }
+          ],
+          "overs": 0.3,
+          "runs": 2,
+          "wicket": "4th"
+        },
+        {
+          "batters": [
+            {
+              "name": "V Kohli",
+              "runs": 17
+            },
+            {
+              "name": "TH David",
+              "runs": 24
+            }
+          ],
+          "overs": 5.1,
+          "runs": 41,
+          "wicket": "5th"
+        },
+        {
+          "batters": [
+            {
+              "name": "V Kohli",
+              "runs": 18
+            },
+            {
+              "name": "JM Sharma",
+              "runs": 11
+            }
+          ],
+          "overs": 4,
+          "runs": 29,
+          "wicket": "6th"
+        }
+      ],
+      "runRate": 8.94,
+      "runs": 161,
+      "score": "161/5 (18/20 ov, target 156)",
+      "target": 156,
+      "wickets": 5
+    }
+  ],
+  "teamStats": [
+    {
+      "available": true,
+      "away": 155,
+      "higher": "home",
+      "home": 161,
+      "label": "Runs",
+      "name": "runs"
+    },
+    {
+      "available": true,
+      "away": 8,
+      "higher": "away",
+      "home": 5,
+      "label": "Wickets Lost",
+      "name": "wickets"
+    },
+    {
+      "available": true,
+      "away": 20,
+      "higher": "away",
+      "home": 18,
+      "label": "Overs",
+      "name": "overs"
+    },
+    {
+      "available": true,
+      "away": 7.75,
+      "higher": "home",
+      "home": 8.94,
+      "label": "Run Rate",
+      "name": "runRate"
+    },
+    {
+      "available": true,
+      "away": 15,
+      "higher": "home",
+      "home": 18,
+      "label": "Fours",
+      "name": "fours"
+    },
+    {
+      "available": true,
+      "away": 3,
+      "higher": "home",
+      "home": 7,
+      "label": "Sixes",
+      "name": "sixes"
+    },
+    {
+      "available": true,
+      "away": 5,
+      "higher": "away",
+      "home": 2,
+      "label": "Extras",
+      "name": "extras"
+    }
+  ],
+  "teams": [
+    {
+      "abbreviation": "RCB",
+      "captain": "Rajat Patidar",
+      "homeAway": "home",
+      "id": "335970",
+      "keeper": "Jitesh Sharma",
+      "name": "Royal Challengers Bengaluru",
+      "playerCount": 12,
+      "players": [
+        {
+          "active": false,
+          "batting": [
+            {
+              "balls": 16,
+              "dismissal": "c",
+              "fours": 4,
+              "innings": 2,
+              "milestone": null,
+              "minutes": 25,
+              "notOut": false,
+              "position": 1,
+              "runs": 32,
+              "score": "32 (16)",
+              "sixes": 2,
+              "strikeRate": 200
+            }
+          ],
+          "battingName": "VR Iyer",
+          "battingStyle": "Left-hand bat",
+          "bowling": [],
+          "bowlingStyle": "Right-arm medium",
+          "captain": false,
+          "fielding": [],
+          "fullName": "Venkatesh Rajasekaran Iyer",
+          "id": "851403",
+          "keeper": false,
+          "name": "Venkatesh Iyer",
+          "role": "Allrounder",
+          "starter": true,
+          "subbedIn": false,
+          "subbedOut": false
+        },
+        {
+          "active": true,
+          "batting": [
+            {
+              "balls": 42,
+              "dismissal": "not out",
+              "fours": 9,
+              "innings": 2,
+              "milestone": "fifty",
+              "minutes": 102,
+              "notOut": true,
+              "position": 2,
+              "runs": 75,
+              "score": "75* (42)",
+              "sixes": 3,
+              "strikeRate": 178.57
+            }
+          ],
+          "battingName": "V Kohli",
+          "battingStyle": "Right-hand bat",
+          "bowling": [],
+          "bowlingStyle": "Right-arm medium",
+          "captain": false,
+          "fielding": [],
+          "fullName": "Virat Kohli",
+          "id": "253802",
+          "keeper": false,
+          "name": "Virat Kohli",
+          "role": "Unknown",
+          "starter": true,
+          "subbedIn": false,
+          "subbedOut": false
+        },
+        {
+          "active": false,
+          "batting": [
+            {
+              "balls": 4,
+              "dismissal": "c",
+              "fours": 0,
+              "innings": 2,
+              "milestone": null,
+              "minutes": 4,
+              "notOut": false,
+              "position": 3,
+              "runs": 1,
+              "score": "1 (4)",
+              "sixes": 0,
+              "strikeRate": 25
+            }
+          ],
+          "battingName": "D Padikkal",
+          "battingStyle": "Left-hand bat",
+          "bowling": [],
+          "bowlingStyle": "Right-arm offbreak",
+          "captain": false,
+          "fielding": [
+            {
+              "catches": 1,
+              "innings": 1,
+              "stumpings": 0
+            }
+          ],
+          "fullName": "Devdutt Padikkal",
+          "id": "1119026",
+          "keeper": false,
+          "name": "Devdutt Padikkal",
+          "role": "Unknown",
+          "starter": true,
+          "subbedIn": false,
+          "subbedOut": false
+        },
+        {
+          "active": false,
+          "batting": [
+            {
+              "balls": 13,
+              "dismissal": "c",
+              "fours": 1,
+              "innings": 2,
+              "milestone": null,
+              "minutes": 18,
+              "notOut": false,
+              "position": 4,
+              "runs": 15,
+              "score": "15 (13)",
+              "sixes": 1,
+              "strikeRate": 115.38
+            }
+          ],
+          "battingName": "RM Patidar",
+          "battingStyle": "Right-hand bat",
+          "bowling": [],
+          "bowlingStyle": "Right-arm offbreak",
+          "captain": true,
+          "fielding": [
+            {
+              "catches": 2,
+              "innings": 1,
+              "stumpings": 0
+            }
+          ],
+          "fullName": "Rajat Manohar Patidar",
+          "id": "823703",
+          "keeper": false,
+          "name": "Rajat Patidar",
+          "role": "Unknown",
+          "starter": true,
+          "subbedIn": false,
+          "subbedOut": false
+        },
+        {
+          "active": false,
+          "batting": [
+            {
+              "balls": 2,
+              "dismissal": "lbw",
+              "fours": 0,
+              "innings": 2,
+              "milestone": null,
+              "minutes": 2,
+              "notOut": false,
+              "position": 5,
+              "runs": 1,
+              "score": "1 (2)",
+              "sixes": 0,
+              "strikeRate": 50
+            }
+          ],
+          "battingName": "KH Pandya",
+          "battingStyle": "Left-hand bat",
+          "bowling": [
+            {
+              "balls": 24,
+              "dots": 7,
+              "economy": 5.75,
+              "figures": "1/23",
+              "foursConceded": 0,
+              "innings": 1,
+              "maidens": 0,
+              "noballs": 0,
+              "overs": 4,
+              "position": 5,
+              "runs": 23,
+              "sixesConceded": 1,
+              "wickets": 1,
+              "wides": 0
+            }
+          ],
+          "bowlingStyle": "Slow left-arm orthodox",
+          "captain": false,
+          "fielding": [],
+          "fullName": "Krunal Himanshu Pandya",
+          "id": "471342",
+          "keeper": false,
+          "name": "Krunal Pandya",
+          "role": "Allrounder",
+          "starter": true,
+          "subbedIn": false,
+          "subbedOut": false
+        },
+        {
+          "active": false,
+          "batting": [
+            {
+              "balls": 17,
+              "dismissal": "c",
+              "fours": 3,
+              "innings": 2,
+              "milestone": null,
+              "minutes": 28,
+              "notOut": false,
+              "position": 6,
+              "runs": 24,
+              "score": "24 (17)",
+              "sixes": 1,
+              "strikeRate": 141.17
+            }
+          ],
+          "battingName": "TH David",
+          "battingStyle": "Right-hand bat",
+          "bowling": [],
+          "bowlingStyle": "Right-arm offbreak",
+          "captain": false,
+          "fielding": [],
+          "fullName": "Timothy Hays David",
+          "id": "892749",
+          "keeper": false,
+          "name": "Tim David",
+          "role": "Unknown",
+          "starter": true,
+          "subbedIn": false,
+          "subbedOut": false
+        },
+        {
+          "active": true,
+          "batting": [
+            {
+              "balls": 14,
+              "dismissal": "not out",
+              "fours": 1,
+              "innings": 2,
+              "milestone": null,
+              "minutes": 22,
+              "notOut": true,
+              "position": 7,
+              "runs": 11,
+              "score": "11* (14)",
+              "sixes": 0,
+              "strikeRate": 78.57
+            }
+          ],
+          "battingName": "JM Sharma",
+          "battingStyle": "Right-hand bat",
+          "bowling": [],
+          "bowlingStyle": null,
+          "captain": false,
+          "fielding": [
+            {
+              "catches": 1,
+              "innings": 1,
+              "stumpings": 1
+            }
+          ],
+          "fullName": "Jitesh Mohan Sharma",
+          "id": "721867",
+          "keeper": true,
+          "name": "Jitesh Sharma",
+          "role": "Wicketkeeper",
+          "starter": true,
+          "subbedIn": false,
+          "subbedOut": false
+        },
+        {
+          "active": false,
+          "batting": [],
+          "battingName": "R Shepherd",
+          "battingStyle": "Right-hand bat",
+          "bowling": [],
+          "bowlingStyle": "Right-arm fast-medium",
+          "captain": false,
+          "fielding": [
+            {
+              "catches": 1,
+              "innings": 1,
+              "stumpings": 0
+            }
+          ],
+          "fullName": "Romario Shepherd",
+          "id": "677077",
+          "keeper": false,
+          "name": "Romario Shepherd",
+          "role": "Allrounder",
+          "starter": true,
+          "subbedIn": false,
+          "subbedOut": false
+        },
+        {
+          "active": false,
+          "batting": [],
+          "battingName": "B Kumar",
+          "battingStyle": "Right-hand bat",
+          "bowling": [
+            {
+              "balls": 24,
+              "dots": 11,
+              "economy": 7.25,
+              "figures": "2/29",
+              "foursConceded": 4,
+              "innings": 1,
+              "maidens": 0,
+              "noballs": 0,
+              "overs": 4,
+              "position": 2,
+              "runs": 29,
+              "sixesConceded": 0,
+              "wickets": 2,
+              "wides": 0
+            }
+          ],
+          "bowlingStyle": "Right-arm medium",
+          "captain": false,
+          "fielding": [],
+          "fullName": "Bhuvneshwar Kumar Singh",
+          "id": "326016",
+          "keeper": false,
+          "name": "Bhuvneshwar Kumar",
+          "role": "Bowler",
+          "starter": true,
+          "subbedIn": false,
+          "subbedOut": false
+        },
+        {
+          "active": false,
+          "batting": [],
+          "battingName": "JR Hazlewood",
+          "battingStyle": "Left-hand bat",
+          "bowling": [
+            {
+              "balls": 24,
+              "dots": 7,
+              "economy": 9.25,
+              "figures": "2/37",
+              "foursConceded": 6,
+              "innings": 1,
+              "maidens": 0,
+              "noballs": 0,
+              "overs": 4,
+              "position": 3,
+              "runs": 37,
+              "sixesConceded": 0,
+              "wickets": 2,
+              "wides": 1
+            }
+          ],
+          "bowlingStyle": "Right-arm fast-medium",
+          "captain": false,
+          "fielding": [
+            {
+              "catches": 1,
+              "innings": 1,
+              "stumpings": 0
+            }
+          ],
+          "fullName": "Josh Reginald Hazlewood",
+          "id": "288284",
+          "keeper": false,
+          "name": "Josh Hazlewood",
+          "role": "Bowler",
+          "starter": true,
+          "subbedIn": false,
+          "subbedOut": false
+        },
+        {
+          "active": false,
+          "batting": [],
+          "battingName": "Rasikh Salam",
+          "battingStyle": "Right-hand bat",
+          "bowling": [
+            {
+              "balls": 24,
+              "dots": 8,
+              "economy": 6.75,
+              "figures": "3/27",
+              "foursConceded": 1,
+              "innings": 1,
+              "maidens": 0,
+              "noballs": 0,
+              "overs": 4,
+              "position": 4,
+              "runs": 27,
+              "sixesConceded": 1,
+              "wickets": 3,
+              "wides": 0
+            }
+          ],
+          "bowlingStyle": "Right-arm fast-medium",
+          "captain": false,
+          "fielding": [
+            {
+              "catches": 1,
+              "innings": 1,
+              "stumpings": 0
+            }
+          ],
+          "fullName": "Rasikh Salam Dar",
+          "id": "1161489",
+          "keeper": false,
+          "name": "Rasikh Salam",
+          "role": "Bowler",
+          "starter": true,
+          "subbedIn": false,
+          "subbedOut": false
+        },
+        {
+          "active": false,
+          "batting": [],
+          "battingName": "JA Duffy",
+          "battingStyle": "Right-hand bat",
+          "bowling": [
+            {
+              "balls": 24,
+              "dots": 6,
+              "economy": 9.5,
+              "figures": "0/38",
+              "foursConceded": 4,
+              "innings": 1,
+              "maidens": 0,
+              "noballs": 0,
+              "overs": 4,
+              "position": 1,
+              "runs": 38,
+              "sixesConceded": 1,
+              "wickets": 0,
+              "wides": 3
+            }
+          ],
+          "bowlingStyle": "Right-arm fast-medium",
+          "captain": false,
+          "fielding": [],
+          "fullName": "Jacob Andrew Duffy",
+          "id": "547766",
+          "keeper": false,
+          "name": "Jacob Duffy",
+          "role": "Bowler",
+          "starter": true,
+          "subbedIn": false,
+          "subbedOut": false
+        }
+      ],
+      "squadPublished": true
+    },
+    {
+      "abbreviation": "GT",
+      "captain": "Shubman Gill",
+      "homeAway": "away",
+      "id": "1298769",
+      "keeper": "Jos Buttler",
+      "name": "Gujarat Titans",
+      "playerCount": 12,
+      "players": [
+        {
+          "active": false,
+          "batting": [
+            {
+              "balls": 12,
+              "dismissal": "c",
+              "fours": 2,
+              "innings": 1,
+              "milestone": null,
+              "minutes": 20,
+              "notOut": false,
+              "position": 1,
+              "runs": 12,
+              "score": "12 (12)",
+              "sixes": 0,
+              "strikeRate": 100
+            }
+          ],
+          "battingName": "B Sai Sudharsan",
+          "battingStyle": "Left-hand bat",
+          "bowling": [],
+          "bowlingStyle": "Legbreak",
+          "captain": false,
+          "fielding": [],
+          "fullName": "Bhardwaj Sai Sudharsan",
+          "id": "1151288",
+          "keeper": false,
+          "name": "Sai Sudharsan",
+          "role": "Unknown",
+          "starter": true,
+          "subbedIn": false,
+          "subbedOut": false
+        },
+        {
+          "active": false,
+          "batting": [
+            {
+              "balls": 8,
+              "dismissal": "c",
+              "fours": 2,
+              "innings": 1,
+              "milestone": null,
+              "minutes": 13,
+              "notOut": false,
+              "position": 2,
+              "runs": 10,
+              "score": "10 (8)",
+              "sixes": 0,
+              "strikeRate": 125
+            }
+          ],
+          "battingName": "Shubman Gill",
+          "battingStyle": "Right-hand bat",
+          "bowling": [],
+          "bowlingStyle": "Right-arm offbreak",
+          "captain": true,
+          "fielding": [],
+          "fullName": "Shubman Gill",
+          "id": "1070173",
+          "keeper": false,
+          "name": "Shubman Gill",
+          "role": "Unknown",
+          "starter": true,
+          "subbedIn": false,
+          "subbedOut": false
+        },
+        {
+          "active": false,
+          "batting": [
+            {
+              "balls": 18,
+              "dismissal": "c",
+              "fours": 3,
+              "innings": 1,
+              "milestone": null,
+              "minutes": 26,
+              "notOut": false,
+              "position": 3,
+              "runs": 20,
+              "score": "20 (18)",
+              "sixes": 0,
+              "strikeRate": 111.11
+            }
+          ],
+          "battingName": "N Sindhu",
+          "battingStyle": "Left-hand bat",
+          "bowling": [],
+          "bowlingStyle": "Slow left-arm orthodox",
+          "captain": false,
+          "fielding": [],
+          "fullName": "Nishant Sindhu",
+          "id": "1292506",
+          "keeper": false,
+          "name": "Nishant Sindhu",
+          "role": "Allrounder",
+          "starter": true,
+          "subbedIn": false,
+          "subbedOut": false
+        },
+        {
+          "active": false,
+          "batting": [
+            {
+              "balls": 23,
+              "dismissal": "st",
+              "fours": 1,
+              "innings": 1,
+              "milestone": null,
+              "minutes": 40,
+              "notOut": false,
+              "position": 4,
+              "runs": 19,
+              "score": "19 (23)",
+              "sixes": 0,
+              "strikeRate": 82.6
+            }
+          ],
+          "battingName": "JC Buttler",
+          "battingStyle": "Right-hand bat",
+          "bowling": [],
+          "bowlingStyle": null,
+          "captain": false,
+          "fielding": [
+            {
+              "catches": 1,
+              "innings": 2,
+              "stumpings": 0
+            }
+          ],
+          "fullName": "Joseph Charles Buttler",
+          "id": "308967",
+          "keeper": true,
+          "name": "Jos Buttler",
+          "role": "Wicketkeeper",
+          "starter": true,
+          "subbedIn": false,
+          "subbedOut": false
+        },
+        {
+          "active": false,
+          "batting": [
+            {
+              "balls": 37,
+              "dismissal": "not out",
+              "fours": 5,
+              "innings": 1,
+              "milestone": "fifty",
+              "minutes": 66,
+              "notOut": true,
+              "position": 5,
+              "runs": 50,
+              "score": "50* (37)",
+              "sixes": 0,
+              "strikeRate": 135.13
+            }
+          ],
+          "battingName": "Washington Sundar",
+          "battingStyle": "Left-hand bat",
+          "bowling": [],
+          "bowlingStyle": "Right-arm offbreak",
+          "captain": false,
+          "fielding": [],
+          "fullName": "Washington Sundar",
+          "id": "719715",
+          "keeper": false,
+          "name": "Washington Sundar",
+          "role": "Allrounder",
+          "starter": true,
+          "subbedIn": false,
+          "subbedOut": false
+        },
+        {
+          "active": true,
+          "batting": [
+            {
+              "balls": 6,
+              "dismissal": "c",
+              "fours": 0,
+              "innings": 1,
+              "milestone": null,
+              "minutes": 10,
+              "notOut": false,
+              "position": 6,
+              "runs": 15,
+              "score": "15 (6)",
+              "sixes": 2,
+              "strikeRate": 250
+            }
+          ],
+          "battingName": "Arshad Khan",
+          "battingStyle": "Left-hand bat",
+          "bowling": [
+            {
+              "balls": 24,
+              "dots": 9,
+              "economy": 8,
+              "figures": "1/32",
+              "foursConceded": 4,
+              "innings": 2,
+              "maidens": 0,
+              "noballs": 0,
+              "overs": 4,
+              "position": 5,
+              "runs": 32,
+              "sixesConceded": 1,
+              "wickets": 1,
+              "wides": 0
+            }
+          ],
+          "bowlingStyle": "Left-arm fast-medium",
+          "captain": false,
+          "fielding": [
+            {
+              "catches": 1,
+              "innings": 2,
+              "stumpings": 0
+            }
+          ],
+          "fullName": "Mohd Arshad Khan",
+          "id": "1244751",
+          "keeper": false,
+          "name": "Arshad Khan",
+          "role": "Bowler",
+          "starter": true,
+          "subbedIn": false,
+          "subbedOut": false
+        },
+        {
+          "active": false,
+          "batting": [
+            {
+              "balls": 5,
+              "dismissal": "c",
+              "fours": 1,
+              "innings": 1,
+              "milestone": null,
+              "minutes": 12,
+              "notOut": false,
+              "position": 7,
+              "runs": 7,
+              "score": "7 (5)",
+              "sixes": 0,
+              "strikeRate": 140
+            }
+          ],
+          "battingName": "R Tewatia",
+          "battingStyle": "Left-hand bat",
+          "bowling": [],
+          "bowlingStyle": "Legbreak",
+          "captain": false,
+          "fielding": [],
+          "fullName": "Rahul Tewatia",
+          "id": "423838",
+          "keeper": false,
+          "name": "Rahul Tewatia",
+          "role": "Allrounder",
+          "starter": true,
+          "subbedIn": false,
+          "subbedOut": false
+        },
+        {
+          "active": false,
+          "batting": [
+            {
+              "balls": 5,
+              "dismissal": "c",
+              "fours": 1,
+              "innings": 1,
+              "milestone": null,
+              "minutes": 13,
+              "notOut": false,
+              "position": 8,
+              "runs": 7,
+              "score": "7 (5)",
+              "sixes": 0,
+              "strikeRate": 140
+            }
+          ],
+          "battingName": "JO Holder",
+          "battingStyle": "Right-hand bat",
+          "bowling": [
+            {
+              "balls": 12,
+              "dots": 5,
+              "economy": 8,
+              "figures": "0/16",
+              "foursConceded": 3,
+              "innings": 2,
+              "maidens": 0,
+              "noballs": 0,
+              "overs": 2,
+              "position": 3,
+              "runs": 16,
+              "sixesConceded": 0,
+              "wickets": 0,
+              "wides": 0
+            }
+          ],
+          "bowlingStyle": "Right-arm medium-fast",
+          "captain": false,
+          "fielding": [],
+          "fullName": "Jason Omar Holder",
+          "id": "391485",
+          "keeper": false,
+          "name": "Jason Holder",
+          "role": "Allrounder",
+          "starter": true,
+          "subbedIn": false,
+          "subbedOut": false
+        },
+        {
+          "active": true,
+          "batting": [
+            {
+              "balls": 3,
+              "dismissal": "c",
+              "fours": 0,
+              "innings": 1,
+              "milestone": null,
+              "minutes": 4,
+              "notOut": false,
+              "position": 9,
+              "runs": 7,
+              "score": "7 (3)",
+              "sixes": 1,
+              "strikeRate": 233.33
+            }
+          ],
+          "battingName": "Rashid Khan",
+          "battingStyle": "Right-hand bat",
+          "bowling": [
+            {
+              "balls": 24,
+              "dots": 9,
+              "economy": 6.25,
+              "figures": "2/25",
+              "foursConceded": 1,
+              "innings": 2,
+              "maidens": 0,
+              "noballs": 0,
+              "overs": 4,
+              "position": 4,
+              "runs": 25,
+              "sixesConceded": 1,
+              "wickets": 2,
+              "wides": 0
+            }
+          ],
+          "bowlingStyle": "Legbreak googly",
+          "captain": false,
+          "fielding": [],
+          "fullName": "Rashid Khan Arman",
+          "id": "793463",
+          "keeper": false,
+          "name": "Rashid Khan",
+          "role": "Allrounder",
+          "starter": true,
+          "subbedIn": false,
+          "subbedOut": false
+        },
+        {
+          "active": false,
+          "batting": [
+            {
+              "balls": 3,
+              "dismissal": "not out",
+              "fours": 0,
+              "innings": 1,
+              "milestone": null,
+              "minutes": 3,
+              "notOut": true,
+              "position": 10,
+              "runs": 3,
+              "score": "3* (3)",
+              "sixes": 0,
+              "strikeRate": 100
+            }
+          ],
+          "battingName": "K Rabada",
+          "battingStyle": "Left-hand bat",
+          "bowling": [
+            {
+              "balls": 18,
+              "dots": 7,
+              "economy": 14.66,
+              "figures": "1/44",
+              "foursConceded": 6,
+              "innings": 2,
+              "maidens": 0,
+              "noballs": 0,
+              "overs": 3,
+              "position": 2,
+              "runs": 44,
+              "sixesConceded": 3,
+              "wickets": 1,
+              "wides": 0
+            }
+          ],
+          "bowlingStyle": "Right-arm fast",
+          "captain": false,
+          "fielding": [
+            {
+              "catches": 2,
+              "innings": 2,
+              "stumpings": 0
+            }
+          ],
+          "fullName": "Kagiso Rabada",
+          "id": "550215",
+          "keeper": false,
+          "name": "Kagiso Rabada",
+          "role": "Bowler",
+          "starter": true,
+          "subbedIn": false,
+          "subbedOut": false
+        },
+        {
+          "active": false,
+          "batting": [],
+          "battingName": "Mohammed Siraj",
+          "battingStyle": "Right-hand bat",
+          "bowling": [
+            {
+              "balls": 24,
+              "dots": 10,
+              "economy": 9,
+              "figures": "1/36",
+              "foursConceded": 3,
+              "innings": 2,
+              "maidens": 0,
+              "noballs": 0,
+              "overs": 4,
+              "position": 1,
+              "runs": 36,
+              "sixesConceded": 2,
+              "wickets": 1,
+              "wides": 1
+            }
+          ],
+          "bowlingStyle": "Right-arm fast",
+          "captain": false,
+          "fielding": [],
+          "fullName": "Mohammed Siraj",
+          "id": "940973",
+          "keeper": false,
+          "name": "Mohammed Siraj",
+          "role": "Bowler",
+          "starter": true,
+          "subbedIn": false,
+          "subbedOut": false
+        },
+        {
+          "active": false,
+          "batting": [],
+          "battingName": "M Prasidh Krishna",
+          "battingStyle": "Right-hand bat",
+          "bowling": [
+            {
+              "balls": 6,
+              "dots": 3,
+              "economy": 7,
+              "figures": "0/7",
+              "foursConceded": 1,
+              "innings": 2,
+              "maidens": 0,
+              "noballs": 0,
+              "overs": 1,
+              "position": 6,
+              "runs": 7,
+              "sixesConceded": 0,
+              "wickets": 0,
+              "wides": 0
+            }
+          ],
+          "bowlingStyle": "Right-arm fast-medium",
+          "captain": false,
+          "fielding": [],
+          "fullName": "Muralikrishna Prasidh Krishna",
+          "id": "917159",
+          "keeper": false,
+          "name": "Prasidh Krishna",
+          "role": "Bowler",
+          "starter": true,
+          "subbedIn": false,
+          "subbedOut": false
+        }
+      ],
+      "squadPublished": true
+    }
+  ]
+}

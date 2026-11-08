@@ -1,0 +1,56 @@
+{
+  "revision": "retro-hoops-movement-v2-local",
+  "rulesVersion": "1.4.0",
+  "scope": "Future Games Web only",
+  "checks": {
+    "retroHoopsTestsPassed": 46,
+    "retroCircuitRegressionTestsPassed": 16,
+    "scopedLint": "passed",
+    "typecheck": "passed",
+    "staticProductionBuild": "passed",
+    "assetLayersVerified": 216,
+    "comparisonLoopsDecoded": 8,
+    "productionActionLoopsDecoded": 14,
+    "browserChecksPassed": 9,
+    "exportedAppIntegrationChecksPassed": 6
+  },
+  "repositoryLint": {
+    "status": "failed",
+    "reason": "Concurrent Retro Football changes report lint errors; scoped Retro Hoops lint passes. Unrelated files were preserved."
+  },
+  "visualReview": {
+    "status": "reviewed for local preview",
+    "reviewer": "assistant",
+    "evidence": [
+      "family-loops/run-1/contact-sheet.png",
+      "family-loops/brake-1/contact-sheet.png",
+      "actions/dribble-0/0013.png"
+    ],
+    "assetApproval": "reference-derived classification unchanged; no user visual approval or rights clearance inferred"
+  },
+  "limitations": [
+    "Native Street Hoop frame cadence is not recovered; new movement timing and limb poses are authored adaptations.",
+    "Dedicated eight-direction torso/pivot variants remain a gap.",
+    "Physical mobile devices and Flutter WebViews were not tested in this pass.",
+    "No new listening review was performed."
+  ],
+  "preview": {
+    "game": "http://127.0.0.1:8933/play/",
+    "comparison": "http://127.0.0.1:8933/"
+  },
+  "release": {
+    "githubPush": false,
+    "pipelineActivated": false,
+    "published": false,
+    "flutterImported": false
+  },
+  "sha256": {
+    "src/features/games/retro-hoops/motion.ts": "957ee3aacd64c088cbe5393e3b96388ac7d5160afb4759fae29ec5da4e541d8a",
+    "src/features/games/retro-hoops/presentation.ts": "51bce47e176b56131484b5ea7c09a8e9cc2980f7930fc3dc4989b54b55ce461d",
+    "src/features/games/retro-hoops/renderer.ts": "f9884d58869e47f5b594f93fcb95b7cf96c3c9952c4ad4da8d31658cf6dac2f4",
+    "src/features/games/retro-hoops/simulation.ts": "96773a5a5e7677ffee2fa6b1a8f0b9b06a8002c84f9cf50ecb06d4782c741fdf",
+    "scripts/build-retro-hoops-locomotion.py": "0d6e23b5a673eb7064b6ceb402589465c1a747de9efc5355b31520720cd693ce",
+    "public/games/retro-hoops/locomotion-v2/manifest.json": "39bce4cf04366458a14e842932286a540bad08c4e69c83599dd120e422327fb8"
+  },
+  "artifactsDirectory": "test-results/retro-hoops-movement-v2"
+}

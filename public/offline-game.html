@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Game download required — StatOz</title>
+<style>
+  :root { color-scheme: dark; --ds-color-background-primary:#0d111a; --ds-color-background-elevated:#1d293d; --ds-color-text-default:#fff; --ds-color-text-muted:#90a1b9; --ds-color-border-default:#314158; --ds-color-accent-cyan:#5cdfff; }
+  * { box-sizing:border-box; }
+  body { margin:0; min-height:100dvh; display:grid; place-items:center; padding:24px; background:var(--ds-color-background-primary); color:var(--ds-color-text-default); font:16px/1.5 system-ui,sans-serif; }
+  main { width:min(100%,36rem); border:1px solid var(--ds-color-border-default); background:var(--ds-color-background-elevated); padding:24px; }
+  h1 { font-size:24px; line-height:1.25; } p { color:var(--ds-color-text-muted); }
+  nav { display:flex; flex-wrap:wrap; gap:12px; margin-top:24px; }
+  button,a { min-height:44px; display:inline-flex; align-items:center; padding:8px 20px; border:1px solid var(--ds-color-accent-cyan); color:var(--ds-color-text-default); background:transparent; font:inherit; text-decoration:none; cursor:pointer; }
+  :focus-visible { outline:2px solid var(--ds-color-accent-cyan); outline-offset:3px; }
+</style>
+<main data-offline-game>
+  <p>STATOZ GAMES</p>
+  <h1>Internet required to download this game</h1>
+  <p>This game is not fully downloaded on this device. Connect to the internet and retry, or return to your downloaded games.</p>
+  <nav><button type="button" id="retry">Retry</button><a id="home" href="./">Back to Games</a></nav>
+</main>
+<script>
+  document.getElementById('retry').onclick = () => location.reload();
+  document.getElementById('home').href = location.pathname.split('/play/')[0] + '/';
+</script>
+</html>

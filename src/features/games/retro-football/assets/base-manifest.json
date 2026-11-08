@@ -1,0 +1,2183 @@
+{
+  "schemaVersion": 1,
+  "version": "football-complete-atlas-v1",
+  "approval": "reference",
+  "productionEligible": false,
+  "atlasUrl": "./team-atlas.png",
+  "atlasSha256": "bcd5e07a8e18e58c3aab93eea37e98c441beeed65731358fad98ecfae247c85d",
+  "atlasSize": [
+    1024,
+    2048
+  ],
+  "records": [
+    {
+      "id": "idle-n",
+      "width": 38,
+      "height": 66,
+      "anchors": {
+        "ground": [
+          19,
+          62
+        ],
+        "foot": [
+          28,
+          61
+        ],
+        "upperTorso": [
+          19,
+          20
+        ]
+      },
+      "atlas": [
+        4,
+        4,
+        38,
+        66
+      ],
+      "sourceAssetId": "6b546bf7-ad72-48c0-82b4-3ee395a41e74",
+      "sourceSha256": "ed8b1941417584289610d7c8040c43d411204457a2391647a225254f2ad1389c",
+      "approval": "reference"
+    },
+    {
+      "id": "run-n-0",
+      "width": 36,
+      "height": 70,
+      "anchors": {
+        "ground": [
+          19,
+          62
+        ],
+        "foot": [
+          21,
+          61
+        ],
+        "upperTorso": [
+          19,
+          21
+        ]
+      },
+      "atlas": [
+        132,
+        4,
+        36,
+        70
+      ],
+      "sourceAssetId": "94420e8d-0406-413e-81f8-8ac7d5f9031a",
+      "sourceSha256": "b659dbc52d24e9d693d746b3994fe8dd87f0868b3fcf6c4568b99d1616b1f331",
+      "approval": "reference"
+    },
+    {
+      "id": "run-n-1",
+      "width": 40,
+      "height": 70,
+      "anchors": {
+        "ground": [
+          19,
+          66
+        ],
+        "foot": [
+          24,
+          65
+        ],
+        "upperTorso": [
+          19,
+          23
+        ]
+      },
+      "atlas": [
+        260,
+        4,
+        40,
+        70
+      ],
+      "sourceAssetId": "501b878d-d41d-44e8-bf0d-e7d24a88c79d",
+      "sourceSha256": "97b229acabcba18c8b6d9e733d86ecc0ff070845393649a83a5b47831c8d5913",
+      "approval": "reference"
+    },
+    {
+      "id": "run-s-0",
+      "width": 36,
+      "height": 70,
+      "anchors": {
+        "ground": [
+          17,
+          65
+        ],
+        "foot": [
+          20,
+          64
+        ],
+        "upperTorso": [
+          17,
+          23
+        ]
+      },
+      "atlas": [
+        388,
+        4,
+        36,
+        70
+      ],
+      "sourceAssetId": "ca679b73-4f50-4c60-8fe9-7e11259796a4",
+      "sourceSha256": "cd27dd91fc31a41887f017b152ad2f35fa3e626ab3b624f5c521cab275fce9da",
+      "approval": "reference"
+    },
+    {
+      "id": "run-s-1",
+      "width": 43,
+      "height": 72,
+      "anchors": {
+        "ground": [
+          16,
+          61
+        ],
+        "foot": [
+          17,
+          60
+        ],
+        "upperTorso": [
+          18,
+          22
+        ]
+      },
+      "atlas": [
+        516,
+        4,
+        43,
+        72
+      ],
+      "sourceAssetId": "febece3b-92aa-4d8c-a32b-88b90908083f",
+      "sourceSha256": "266be45cf678531f4f775d7f3969138e9810eec743317bf8633fa2c0b579e74a",
+      "approval": "reference"
+    },
+    {
+      "id": "signal",
+      "width": 32,
+      "height": 85,
+      "anchors": {
+        "ground": [
+          14,
+          78
+        ],
+        "upperTorso": [
+          11,
+          30
+        ],
+        "foot": [
+          14,
+          77
+        ]
+      },
+      "atlas": [
+        644,
+        4,
+        32,
+        85
+      ],
+      "sourceAssetId": "1a93a5e5-0ffe-4fca-9a92-185e7c7b3201",
+      "sourceSha256": "0e7efa475c03c9baad9f1ba6505645c865e30a3c21404a99f7daed504d2222dd",
+      "approval": "reference"
+    },
+    {
+      "id": "crouch",
+      "width": 43,
+      "height": 72,
+      "anchors": {
+        "ground": [
+          18,
+          61
+        ],
+        "upperTorso": [
+          17,
+          21
+        ],
+        "foot": [
+          18,
+          60
+        ]
+      },
+      "atlas": [
+        772,
+        4,
+        43,
+        72
+      ],
+      "sourceAssetId": "258463a2-2e6f-4dd4-8383-9ac14a1a5910",
+      "sourceSha256": "aae1c33e5ab6a1457b0c2e50e59bb1dd2721e059f39870ae3077bc035edc8db5",
+      "approval": "reference"
+    },
+    {
+      "id": "compress",
+      "width": 42,
+      "height": 70,
+      "anchors": {
+        "ground": [
+          23,
+          63
+        ],
+        "upperTorso": [
+          24,
+          24
+        ],
+        "foot": [
+          23,
+          62
+        ]
+      },
+      "atlas": [
+        900,
+        4,
+        42,
+        70
+      ],
+      "sourceAssetId": "6c739b81-cad4-4790-92f6-e284230c1560",
+      "sourceSha256": "fcbfb1fd0abd2b950b15931e92b3fd4b5c2b849d1d3d8ad1766f50575b9d0734",
+      "approval": "reference"
+    },
+    {
+      "id": "settle",
+      "width": 40,
+      "height": 70,
+      "anchors": {
+        "ground": [
+          16,
+          61
+        ],
+        "upperTorso": [
+          16,
+          22
+        ],
+        "foot": [
+          16,
+          60
+        ]
+      },
+      "atlas": [
+        4,
+        132,
+        40,
+        70
+      ],
+      "sourceAssetId": "7778992c-fee2-4037-8489-940af7275fd8",
+      "sourceSha256": "a3c1e2b704b26b7b4b843e1912908ccfda89f4201ab684ab7a1598b2ef1f6cf8",
+      "approval": "reference"
+    },
+    {
+      "id": "ready",
+      "width": 43,
+      "height": 72,
+      "anchors": {
+        "ground": [
+          20,
+          59
+        ],
+        "upperTorso": [
+          16,
+          24
+        ],
+        "foot": [
+          20,
+          58
+        ]
+      },
+      "atlas": [
+        132,
+        132,
+        43,
+        72
+      ],
+      "sourceAssetId": "36b084fe-40c9-45fb-b288-b01329e7ff51",
+      "sourceSha256": "d589bc2ee61c589c9afdcbe39e453a6cdaa091e1c96c0183146361d79cfd54c9",
+      "approval": "reference"
+    },
+    {
+      "id": "run-e-0",
+      "width": 38,
+      "height": 65,
+      "anchors": {
+        "ground": [
+          18,
+          54
+        ],
+        "foot": [
+          30,
+          53
+        ],
+        "upperTorso": [
+          18,
+          18
+        ]
+      },
+      "atlas": [
+        260,
+        132,
+        38,
+        65
+      ],
+      "sourceAssetId": "69dfac42-7a21-4bc0-ad94-6f55afa29a40",
+      "sourceSha256": "cd24c6910e2437cc65196c32f9dc8931286d18a3b5d709a6615256dce7773e07",
+      "approval": "reference"
+    },
+    {
+      "id": "run-e-1",
+      "width": 32,
+      "height": 65,
+      "anchors": {
+        "ground": [
+          14,
+          57
+        ],
+        "foot": [
+          19,
+          57
+        ],
+        "upperTorso": [
+          14,
+          18
+        ]
+      },
+      "atlas": [
+        388,
+        132,
+        32,
+        65
+      ],
+      "sourceAssetId": "d52ac3e9-a076-4ac1-8625-188dabcf6001",
+      "sourceSha256": "254eb21bbba464b4a80c18949ec9b65394c6b662e5c3d07ddc3ae6db1773236d",
+      "approval": "reference"
+    },
+    {
+      "id": "run-e-2",
+      "width": 39,
+      "height": 62,
+      "anchors": {
+        "ground": [
+          20,
+          53
+        ],
+        "foot": [
+          29,
+          52
+        ],
+        "upperTorso": [
+          20,
+          17
+        ]
+      },
+      "atlas": [
+        516,
+        132,
+        39,
+        62
+      ],
+      "sourceAssetId": "d9aa1d67-d686-4443-817e-3225c03b5a2a",
+      "sourceSha256": "2db283511e40d6768ef1059a0eb8155ea5c617fe9a2a03f881894e3fda6d7c12",
+      "approval": "reference"
+    },
+    {
+      "id": "run-e-3",
+      "width": 35,
+      "height": 62,
+      "anchors": {
+        "ground": [
+          15,
+          54
+        ],
+        "foot": [
+          16,
+          53
+        ],
+        "upperTorso": [
+          15,
+          17
+        ]
+      },
+      "atlas": [
+        644,
+        132,
+        35,
+        62
+      ],
+      "sourceAssetId": "175fcebe-a4d8-4137-b816-0ad55f97ba5f",
+      "sourceSha256": "4b2a67e7abca36e156d2c0a7926ae93e8113ad28e5018c6e9a845fcb95a7e330",
+      "approval": "reference"
+    },
+    {
+      "id": "keeper-00",
+      "width": 35,
+      "height": 70,
+      "anchors": {
+        "ground": [
+          23,
+          60
+        ],
+        "leftHand": [
+          7,
+          29
+        ],
+        "rightHand": [
+          23,
+          31
+        ]
+      },
+      "atlas": [
+        772,
+        132,
+        35,
+        70
+      ],
+      "sourceAssetId": "4d4eea49-6a0c-431d-a148-1b1b59b45b8a",
+      "sourceSha256": "38b9834d085bcb60ec0b39d9cde6b77bb43149389b107a32a8bc641036b714b0",
+      "approval": "reference"
+    },
+    {
+      "id": "keeper-01",
+      "width": 40,
+      "height": 65,
+      "anchors": {
+        "ground": [
+          27,
+          58
+        ],
+        "leftHand": [
+          12,
+          27
+        ],
+        "rightHand": [
+          28,
+          28
+        ]
+      },
+      "atlas": [
+        900,
+        132,
+        40,
+        65
+      ],
+      "sourceAssetId": "eb9daf3a-6e93-4990-9149-7f689d5e4c1e",
+      "sourceSha256": "e164bd283d435f6358203e5ecd5a4d4d4521eb2fa534906c60944e6e03ec777c",
+      "approval": "reference"
+    },
+    {
+      "id": "keeper-03",
+      "width": 73,
+      "height": 45,
+      "anchors": {
+        "ground": [
+          25,
+          36
+        ],
+        "leftHand": [
+          68,
+          25
+        ],
+        "rightHand": [
+          64,
+          36
+        ]
+      },
+      "atlas": [
+        4,
+        260,
+        73,
+        45
+      ],
+      "sourceAssetId": "5d26e8b0-fdd4-4f96-9f8e-154acd83da35",
+      "sourceSha256": "53dbeb6992f81bd46f484ead2c567bd1a202fd91375d34d817c352c159188df5",
+      "approval": "reference"
+    },
+    {
+      "id": "tackle-windup",
+      "width": 90,
+      "height": 100,
+      "anchors": {
+        "ground": [
+          49,
+          85
+        ],
+        "boot": [
+          72,
+          82
+        ]
+      },
+      "atlas": [
+        132,
+        260,
+        90,
+        100
+      ],
+      "sourceAssetId": "14717151-81f6-4e32-bb6c-55cec57de832",
+      "sourceSha256": "fa3a3e271e082cb6beaff220904d0211799d1e0da8e97924be0d986888bde2cc",
+      "approval": "reference"
+    },
+    {
+      "id": "tackle-entry",
+      "width": 75,
+      "height": 100,
+      "anchors": {
+        "ground": [
+          35,
+          73
+        ],
+        "boot": [
+          63,
+          68
+        ]
+      },
+      "atlas": [
+        260,
+        260,
+        75,
+        100
+      ],
+      "sourceAssetId": "5b34268e-e2bf-41de-b380-a7e06470fac4",
+      "sourceSha256": "83ba615993e4453782aa8914939349201881857923912f20f7146eead075629b",
+      "approval": "reference"
+    },
+    {
+      "id": "tackle-slide",
+      "width": 100,
+      "height": 85,
+      "anchors": {
+        "ground": [
+          47,
+          71
+        ],
+        "boot": [
+          78,
+          56
+        ]
+      },
+      "atlas": [
+        388,
+        260,
+        100,
+        85
+      ],
+      "sourceAssetId": "b05bdb5b-2d24-401b-beb2-409e258cd22f",
+      "sourceSha256": "300765f5b71b3ea62b45597c4030fb77103af4753304830c2e26ca3c38befd11",
+      "approval": "reference"
+    },
+    {
+      "id": "tackle-follow",
+      "width": 100,
+      "height": 85,
+      "anchors": {
+        "ground": [
+          48,
+          56
+        ],
+        "boot": [
+          74,
+          42
+        ]
+      },
+      "atlas": [
+        516,
+        260,
+        100,
+        85
+      ],
+      "sourceAssetId": "e749b4c4-58b9-4965-a94e-e7ec19ce35bd",
+      "sourceSha256": "f5b634622c3a7084b500ff1290893d1332dfab5144a123f3488722251cc41d89",
+      "approval": "reference"
+    },
+    {
+      "id": "tackle-sit",
+      "width": 80,
+      "height": 85,
+      "anchors": {
+        "ground": [
+          27,
+          58
+        ],
+        "boot": [
+          51,
+          54
+        ]
+      },
+      "atlas": [
+        644,
+        260,
+        80,
+        85
+      ],
+      "sourceAssetId": "7ab74348-7184-4d6a-93d6-2130b3199924",
+      "sourceSha256": "cf11dc9f0defb3d65217e8c6fc4354c407d1101527f35bbd2caa161fa7c20958",
+      "approval": "reference"
+    },
+    {
+      "id": "tackle-crouch",
+      "width": 70,
+      "height": 90,
+      "anchors": {
+        "ground": [
+          44,
+          69
+        ],
+        "boot": [
+          58,
+          64
+        ]
+      },
+      "atlas": [
+        772,
+        260,
+        70,
+        90
+      ],
+      "sourceAssetId": "0f405083-f34a-459b-8596-08ef9fc442a6",
+      "sourceSha256": "14af0cad943fe670ebe866a578653ced0ff89edaad6884bd86bf4e026a71881c",
+      "approval": "reference"
+    },
+    {
+      "id": "tackle-rise",
+      "width": 65,
+      "height": 85,
+      "anchors": {
+        "ground": [
+          45,
+          66
+        ],
+        "boot": [
+          60,
+          62
+        ]
+      },
+      "atlas": [
+        900,
+        260,
+        65,
+        85
+      ],
+      "sourceAssetId": "2d7846bb-cb62-482e-86d6-4b2ea697ebf5",
+      "sourceSha256": "a58c544397c0189728b48484eacd90774771fb9ecde0366949d8ac28a472ea73",
+      "approval": "reference"
+    },
+    {
+      "id": "tackle-recover-ready",
+      "width": 55,
+      "height": 85,
+      "anchors": {
+        "ground": [
+          25,
+          67
+        ],
+        "boot": [
+          26,
+          64
+        ]
+      },
+      "atlas": [
+        4,
+        388,
+        55,
+        85
+      ],
+      "sourceAssetId": "9849866f-d77a-4b6d-855e-1d64591d322d",
+      "sourceSha256": "534a371e7fd0b3ce3012ee698c9d15a7defd03112626af2ede651e228a9b1f57",
+      "approval": "reference"
+    },
+    {
+      "id": "orchard-idle-n",
+      "width": 38,
+      "height": 66,
+      "anchors": {
+        "ground": [
+          19,
+          62
+        ],
+        "foot": [
+          28,
+          61
+        ],
+        "upperTorso": [
+          19,
+          20
+        ]
+      },
+      "atlas": [
+        132,
+        388,
+        38,
+        66
+      ],
+      "sourceAssetId": "ef95c7b1-9cdc-4541-8ff1-f2358d492fee",
+      "sourceSha256": "a92d7fa4a551fc040fc6c8730e92eb232fe24b2c780da12790e79921dffb81f7",
+      "approval": "reference"
+    },
+    {
+      "id": "orchard-run-n-0",
+      "width": 36,
+      "height": 70,
+      "anchors": {
+        "ground": [
+          19,
+          62
+        ],
+        "foot": [
+          21,
+          61
+        ],
+        "upperTorso": [
+          19,
+          21
+        ]
+      },
+      "atlas": [
+        260,
+        388,
+        36,
+        70
+      ],
+      "sourceAssetId": "fb90b919-839f-4d61-af84-bf1870a8fc00",
+      "sourceSha256": "3c6d07f4d51d2f863956365185e63ebc0bb44e3ef48429cca96efd75e77a603a",
+      "approval": "reference"
+    },
+    {
+      "id": "orchard-run-n-1",
+      "width": 40,
+      "height": 70,
+      "anchors": {
+        "ground": [
+          19,
+          66
+        ],
+        "foot": [
+          24,
+          65
+        ],
+        "upperTorso": [
+          19,
+          23
+        ]
+      },
+      "atlas": [
+        388,
+        388,
+        40,
+        70
+      ],
+      "sourceAssetId": "30e12070-7eec-4451-8993-8767468276fd",
+      "sourceSha256": "734ebd2074cc6548deb371b828559ea350290714632090616fff7694f0278717",
+      "approval": "reference"
+    },
+    {
+      "id": "orchard-run-s-0",
+      "width": 36,
+      "height": 70,
+      "anchors": {
+        "ground": [
+          17,
+          65
+        ],
+        "foot": [
+          20,
+          64
+        ],
+        "upperTorso": [
+          17,
+          23
+        ]
+      },
+      "atlas": [
+        516,
+        388,
+        36,
+        70
+      ],
+      "sourceAssetId": "de8deedd-9b96-4682-aa81-a0f62adc0e2f",
+      "sourceSha256": "0a0312790948227557eed03edcfbf4f357d1a35c2bfdedaa10c7c57faf5476f8",
+      "approval": "reference"
+    },
+    {
+      "id": "orchard-run-s-1",
+      "width": 43,
+      "height": 72,
+      "anchors": {
+        "ground": [
+          16,
+          61
+        ],
+        "foot": [
+          17,
+          60
+        ],
+        "upperTorso": [
+          18,
+          22
+        ]
+      },
+      "atlas": [
+        644,
+        388,
+        43,
+        72
+      ],
+      "sourceAssetId": "542e35cb-0915-45e9-bddf-29fecf03b14a",
+      "sourceSha256": "21ff92f654bb8a2e3e17b726511a6482f4161286e0e168bac3fee7b464b434e8",
+      "approval": "reference"
+    },
+    {
+      "id": "orchard-signal",
+      "width": 32,
+      "height": 85,
+      "anchors": {
+        "ground": [
+          14,
+          78
+        ],
+        "upperTorso": [
+          11,
+          30
+        ],
+        "foot": [
+          14,
+          77
+        ]
+      },
+      "atlas": [
+        772,
+        388,
+        32,
+        85
+      ],
+      "sourceAssetId": "0c35b420-de8d-40b1-a0c2-cd5b61a074c0",
+      "sourceSha256": "500e61540e280b2a5ba21ef8732173e091ff4a01d68fa31f5136c509d4925395",
+      "approval": "reference"
+    },
+    {
+      "id": "orchard-crouch",
+      "width": 43,
+      "height": 72,
+      "anchors": {
+        "ground": [
+          18,
+          61
+        ],
+        "upperTorso": [
+          17,
+          21
+        ],
+        "foot": [
+          18,
+          60
+        ]
+      },
+      "atlas": [
+        900,
+        388,
+        43,
+        72
+      ],
+      "sourceAssetId": "9c78c51b-074b-4a01-8bc2-e66949fe7c24",
+      "sourceSha256": "972e2c2ca8b79041e7de62134472cdc63ab987c3d649328fff809ef943e3cdf8",
+      "approval": "reference"
+    },
+    {
+      "id": "orchard-compress",
+      "width": 42,
+      "height": 70,
+      "anchors": {
+        "ground": [
+          23,
+          63
+        ],
+        "upperTorso": [
+          24,
+          24
+        ],
+        "foot": [
+          23,
+          62
+        ]
+      },
+      "atlas": [
+        4,
+        516,
+        42,
+        70
+      ],
+      "sourceAssetId": "b2f092e5-8696-4045-91d2-61929f7cf8e3",
+      "sourceSha256": "ae81a23aa2893895fa1ae7d719385437b0a74a419e95704a6f33a938ef0c7f88",
+      "approval": "reference"
+    },
+    {
+      "id": "orchard-settle",
+      "width": 40,
+      "height": 70,
+      "anchors": {
+        "ground": [
+          16,
+          61
+        ],
+        "upperTorso": [
+          16,
+          22
+        ],
+        "foot": [
+          16,
+          60
+        ]
+      },
+      "atlas": [
+        132,
+        516,
+        40,
+        70
+      ],
+      "sourceAssetId": "f57e98b7-763d-4fd8-94bb-3fe9621e5f2b",
+      "sourceSha256": "58aa6ecf96df0759a12168f06a7f84ca58056b8c232fc39a66104577210893b7",
+      "approval": "reference"
+    },
+    {
+      "id": "orchard-ready",
+      "width": 43,
+      "height": 72,
+      "anchors": {
+        "ground": [
+          20,
+          59
+        ],
+        "upperTorso": [
+          16,
+          24
+        ],
+        "foot": [
+          20,
+          58
+        ]
+      },
+      "atlas": [
+        260,
+        516,
+        43,
+        72
+      ],
+      "sourceAssetId": "2c3311c6-b127-4ce6-8ec6-8d04b0b4ced6",
+      "sourceSha256": "b627ec8fb1ae2d2e1d87c6f3744cca1c459ff15a78c134087895d283a25f52f1",
+      "approval": "reference"
+    },
+    {
+      "id": "orchard-run-e-0",
+      "width": 38,
+      "height": 65,
+      "anchors": {
+        "ground": [
+          18,
+          54
+        ],
+        "foot": [
+          30,
+          53
+        ],
+        "upperTorso": [
+          18,
+          18
+        ]
+      },
+      "atlas": [
+        388,
+        516,
+        38,
+        65
+      ],
+      "sourceAssetId": "3fc9dbe8-c844-4a18-a9eb-64e08575e242",
+      "sourceSha256": "cdc78ace4483ccd4becf3dd8746d49f89dd3fbeadc82ec43b734e8b99cca22e8",
+      "approval": "reference"
+    },
+    {
+      "id": "orchard-run-e-1",
+      "width": 32,
+      "height": 65,
+      "anchors": {
+        "ground": [
+          14,
+          57
+        ],
+        "foot": [
+          19,
+          57
+        ],
+        "upperTorso": [
+          14,
+          18
+        ]
+      },
+      "atlas": [
+        516,
+        516,
+        32,
+        65
+      ],
+      "sourceAssetId": "6d2bc8af-e5e1-46a3-a5bb-ec159f0dc09e",
+      "sourceSha256": "bae7ef2f15e58b76732e5c99831dbfa8176fd42ae97a941d2a8fae8ca76281da",
+      "approval": "reference"
+    },
+    {
+      "id": "orchard-run-e-2",
+      "width": 39,
+      "height": 62,
+      "anchors": {
+        "ground": [
+          20,
+          53
+        ],
+        "foot": [
+          29,
+          52
+        ],
+        "upperTorso": [
+          20,
+          17
+        ]
+      },
+      "atlas": [
+        644,
+        516,
+        39,
+        62
+      ],
+      "sourceAssetId": "0d8d176b-1898-4383-8a37-cb6a7383dca7",
+      "sourceSha256": "5102f56d6cc56de11fe102f904215bbf519dfe1817effaf0138ae2d9fb1f56c5",
+      "approval": "reference"
+    },
+    {
+      "id": "orchard-run-e-3",
+      "width": 35,
+      "height": 62,
+      "anchors": {
+        "ground": [
+          15,
+          54
+        ],
+        "foot": [
+          16,
+          53
+        ],
+        "upperTorso": [
+          15,
+          17
+        ]
+      },
+      "atlas": [
+        772,
+        516,
+        35,
+        62
+      ],
+      "sourceAssetId": "c9a6c300-77ca-42b8-bf19-4f135de048d6",
+      "sourceSha256": "309c2b49d48d69caf1b1f419615f0690da21d8f828926b5946c12780a7a8a2a0",
+      "approval": "reference"
+    },
+    {
+      "id": "orchard-tackle-windup",
+      "width": 90,
+      "height": 100,
+      "anchors": {
+        "ground": [
+          49,
+          85
+        ],
+        "boot": [
+          72,
+          82
+        ]
+      },
+      "atlas": [
+        900,
+        516,
+        90,
+        100
+      ],
+      "sourceAssetId": "4d00f023-a9ac-48ff-b652-aea5c1ffb19e",
+      "sourceSha256": "0142100cca23e498acd8db7e2533cee8772777f088f0d352a6b6467dfc8554bf",
+      "approval": "reference"
+    },
+    {
+      "id": "orchard-tackle-entry",
+      "width": 75,
+      "height": 100,
+      "anchors": {
+        "ground": [
+          35,
+          73
+        ],
+        "boot": [
+          63,
+          68
+        ]
+      },
+      "atlas": [
+        4,
+        644,
+        75,
+        100
+      ],
+      "sourceAssetId": "70c82f84-657a-4c23-a093-e7334793963f",
+      "sourceSha256": "c47cbe06bf16e8590d79acbb5f67872dc150348cf994c6bc591749a5d1792dc5",
+      "approval": "reference"
+    },
+    {
+      "id": "orchard-tackle-slide",
+      "width": 100,
+      "height": 85,
+      "anchors": {
+        "ground": [
+          47,
+          71
+        ],
+        "boot": [
+          78,
+          56
+        ]
+      },
+      "atlas": [
+        132,
+        644,
+        100,
+        85
+      ],
+      "sourceAssetId": "adf055c5-d725-459e-b3f5-c8bba7ae841b",
+      "sourceSha256": "a9009034b5f24ea35838ee0c7d06ad05f069d0af3fe56d04b8ca04b3d0648fa5",
+      "approval": "reference"
+    },
+    {
+      "id": "orchard-tackle-follow",
+      "width": 100,
+      "height": 85,
+      "anchors": {
+        "ground": [
+          48,
+          56
+        ],
+        "boot": [
+          74,
+          42
+        ]
+      },
+      "atlas": [
+        260,
+        644,
+        100,
+        85
+      ],
+      "sourceAssetId": "c6a03a1a-f4b9-493c-85c5-d842ad2fd23a",
+      "sourceSha256": "63c19dd3dcb3777ab97590f8e1346ed9adc10584fde2ec8196e9328d5c7a6487",
+      "approval": "reference"
+    },
+    {
+      "id": "orchard-tackle-sit",
+      "width": 80,
+      "height": 85,
+      "anchors": {
+        "ground": [
+          27,
+          58
+        ],
+        "boot": [
+          51,
+          54
+        ]
+      },
+      "atlas": [
+        388,
+        644,
+        80,
+        85
+      ],
+      "sourceAssetId": "4d56c8c3-6b71-469a-8c03-0f8995f5a70e",
+      "sourceSha256": "0994c79b5a2bbd7ca492948853d3b9b62fec97555056534a8cb798bdffd021a4",
+      "approval": "reference"
+    },
+    {
+      "id": "orchard-tackle-crouch",
+      "width": 70,
+      "height": 90,
+      "anchors": {
+        "ground": [
+          44,
+          69
+        ],
+        "boot": [
+          58,
+          64
+        ]
+      },
+      "atlas": [
+        516,
+        644,
+        70,
+        90
+      ],
+      "sourceAssetId": "cc34aa41-e57c-4cc0-b253-c951350929fe",
+      "sourceSha256": "f65ae9dfdcdefa3210469cde36b10e7e4504076908ce3fb83af91dfd02432896",
+      "approval": "reference"
+    },
+    {
+      "id": "orchard-tackle-rise",
+      "width": 65,
+      "height": 85,
+      "anchors": {
+        "ground": [
+          45,
+          66
+        ],
+        "boot": [
+          60,
+          62
+        ]
+      },
+      "atlas": [
+        644,
+        644,
+        65,
+        85
+      ],
+      "sourceAssetId": "54a01e88-1066-4f41-a8ae-ed6897c73065",
+      "sourceSha256": "25945b964ef35d220ec8bb65aba266698462b0b5aa9239ad361d4a37a84a2e27",
+      "approval": "reference"
+    },
+    {
+      "id": "orchard-tackle-recover-ready",
+      "width": 55,
+      "height": 85,
+      "anchors": {
+        "ground": [
+          25,
+          67
+        ],
+        "boot": [
+          26,
+          64
+        ]
+      },
+      "atlas": [
+        772,
+        644,
+        55,
+        85
+      ],
+      "sourceAssetId": "decb0cd4-1fcf-4413-b4c3-db955b6afb61",
+      "sourceSha256": "a084ed30d193841793850d0955cc8105cf38ab16a5783c7b8f82a429827d73e3",
+      "approval": "reference"
+    },
+    {
+      "id": "keeper-ready",
+      "width": 80,
+      "height": 84,
+      "atlas": [
+        4,
+        1028,
+        80,
+        84
+      ],
+      "anchors": {
+        "ground": [
+          24,
+          72
+        ]
+      },
+      "sourceSha256": "7c5ea02c2e1061b9e330329430d6b2c8601ffd1df9713f1bd030236b2bab03f9",
+      "approval": "reference",
+      "sourceAssetId": "034cf2e7-6d6a-4a21-9a66-7fb379098a7e"
+    },
+    {
+      "id": "keeper-reach",
+      "width": 80,
+      "height": 84,
+      "atlas": [
+        92,
+        1028,
+        80,
+        84
+      ],
+      "anchors": {
+        "ground": [
+          24,
+          72
+        ],
+        "leftHand": [
+          36,
+          44
+        ],
+        "rightHand": [
+          42,
+          41
+        ],
+        "ball": [
+          39,
+          43
+        ]
+      },
+      "sourceSha256": "67d243c14c9d50425aa6ed2cf52cba6e47a0719a5f604c1afb807fed09bf39bf",
+      "approval": "reference",
+      "sourceAssetId": "806e92f2-5deb-46bd-b6f1-300b613e684a"
+    },
+    {
+      "id": "keeper-standing-secure",
+      "width": 80,
+      "height": 84,
+      "atlas": [
+        180,
+        1028,
+        80,
+        84
+      ],
+      "anchors": {
+        "ground": [
+          24,
+          72
+        ],
+        "leftHand": [
+          34,
+          45
+        ],
+        "rightHand": [
+          40,
+          42
+        ],
+        "ball": [
+          37,
+          43
+        ]
+      },
+      "sourceSha256": "eefe71fb6a170da89efbc58437759b5f7a1779d0167990ee939bf6c0c7cc3c07",
+      "approval": "reference",
+      "sourceAssetId": "094a9bf7-c4f0-4657-8a6e-d426db8ec777"
+    },
+    {
+      "id": "keeper-standing-tuck",
+      "width": 80,
+      "height": 84,
+      "atlas": [
+        268,
+        1028,
+        80,
+        84
+      ],
+      "anchors": {
+        "ground": [
+          24,
+          72
+        ],
+        "leftHand": [
+          28,
+          47
+        ],
+        "rightHand": [
+          34,
+          47
+        ],
+        "ball": [
+          31,
+          46
+        ]
+      },
+      "sourceSha256": "8dd08630d85b4ee3ff8ade8d42a81d70ee3683ab90beee75945f4c55e19ca399",
+      "approval": "reference",
+      "sourceAssetId": "d126ad86-c9ab-423d-b392-65fba31bbf82"
+    },
+    {
+      "id": "keeper-carry",
+      "width": 80,
+      "height": 84,
+      "atlas": [
+        356,
+        1028,
+        80,
+        84
+      ],
+      "anchors": {
+        "ground": [
+          24,
+          72
+        ],
+        "leftHand": [
+          29,
+          46
+        ],
+        "rightHand": [
+          35,
+          47
+        ],
+        "ball": [
+          32,
+          46
+        ]
+      },
+      "sourceSha256": "1b670b655a79c0c65b3dcf3492770dfee41f11f9e37359f9610105a7fdfb3e92",
+      "approval": "reference",
+      "sourceAssetId": "91141e6d-3f6a-4836-998d-2fbbf1f016ec"
+    },
+    {
+      "id": "keeper-release-prep",
+      "width": 80,
+      "height": 84,
+      "atlas": [
+        444,
+        1028,
+        80,
+        84
+      ],
+      "anchors": {
+        "ground": [
+          24,
+          72
+        ],
+        "leftHand": [
+          33,
+          49
+        ],
+        "rightHand": [
+          39,
+          48
+        ],
+        "ball": [
+          36,
+          50
+        ]
+      },
+      "sourceSha256": "4df46c54aaeb2c9a11add318f84e68bb259bbb4d83049c1551651ad59da362a2",
+      "approval": "reference",
+      "sourceAssetId": "e67a0b6f-b77c-4f86-900f-6a5f09b0ed36"
+    },
+    {
+      "id": "keeper-drop",
+      "width": 80,
+      "height": 84,
+      "atlas": [
+        532,
+        1028,
+        80,
+        84
+      ],
+      "anchors": {
+        "ground": [
+          24,
+          72
+        ]
+      },
+      "sourceSha256": "8e6528530472ce7fcf03ff4da87b0d0d70680af21cbf2225a45a0b61dca11c21",
+      "approval": "reference",
+      "sourceAssetId": "e86382f0-d473-4dcd-b459-237562d41c10"
+    },
+    {
+      "id": "keeper-punt",
+      "width": 80,
+      "height": 84,
+      "atlas": [
+        620,
+        1028,
+        80,
+        84
+      ],
+      "anchors": {
+        "ground": [
+          24,
+          72
+        ],
+        "kickingFoot": [
+          46,
+          60
+        ]
+      },
+      "sourceSha256": "974771ac25aea8734d118e956d59e7af76ece2fa4648063cf733107fdd32516c",
+      "approval": "reference",
+      "sourceAssetId": "bfdac875-7cd9-49f4-b176-d44c019832a8"
+    },
+    {
+      "id": "keeper-follow-through",
+      "width": 80,
+      "height": 84,
+      "atlas": [
+        708,
+        1028,
+        80,
+        84
+      ],
+      "anchors": {
+        "ground": [
+          24,
+          72
+        ]
+      },
+      "sourceSha256": "f28195c355ec4b52ee62682231fc44ef7203f456dbad28f4f344beb4d27a7d26",
+      "approval": "reference",
+      "sourceAssetId": "799ea036-e84b-4745-9f99-62899634135b"
+    },
+    {
+      "id": "keeper-settle",
+      "width": 80,
+      "height": 84,
+      "atlas": [
+        796,
+        1028,
+        80,
+        84
+      ],
+      "anchors": {
+        "ground": [
+          24,
+          72
+        ]
+      },
+      "sourceSha256": "f527ad068bbdc1f153a4e95e1b67525dcaae3615d42e9ef3d7250eb18f5b5e95",
+      "approval": "reference",
+      "sourceAssetId": "5a39eb11-2ae0-4bfa-b498-cf04c0c8ae83"
+    },
+    {
+      "id": "kick-prep",
+      "width": 80,
+      "height": 84,
+      "anchors": {
+        "ground": [
+          44,
+          71
+        ],
+        "foot": [
+          39,
+          66
+        ],
+        "kickingFoot": [
+          39,
+          66
+        ],
+        "upperTorso": [
+          45,
+          32
+        ]
+      },
+      "approval": "reference",
+      "atlas": [
+        4,
+        1120,
+        80,
+        84
+      ],
+      "sourceSha256": "c7e23f49e6c461520671fb23ce49198636b67803ec32d8006559c471f212a449",
+      "sourceAssetId": "5aaab685-1091-414c-ad40-2a89e83a21cf"
+    },
+    {
+      "id": "orchard-kick-prep",
+      "width": 80,
+      "height": 84,
+      "anchors": {
+        "ground": [
+          44,
+          71
+        ],
+        "foot": [
+          39,
+          66
+        ],
+        "kickingFoot": [
+          39,
+          66
+        ],
+        "upperTorso": [
+          45,
+          32
+        ]
+      },
+      "approval": "reference",
+      "atlas": [
+        92,
+        1120,
+        80,
+        84
+      ],
+      "sourceSha256": "d56ec3cc2f5b7d5b01f3a33587bfe6ba1222f3ab4e1d5939315b0e15b8f384d1",
+      "sourceAssetId": "0f0cd2c6-4fce-4e7b-8b11-12e6fb76a694"
+    },
+    {
+      "id": "kick-contact",
+      "width": 80,
+      "height": 84,
+      "anchors": {
+        "ground": [
+          44,
+          71
+        ],
+        "foot": [
+          56,
+          71
+        ],
+        "kickingFoot": [
+          56,
+          71
+        ],
+        "upperTorso": [
+          45,
+          32
+        ]
+      },
+      "approval": "reference",
+      "atlas": [
+        180,
+        1120,
+        80,
+        84
+      ],
+      "sourceSha256": "50865788cfbd2bac38d8ca8e28ac3f97eca7e3a1ed5e26c8cdb74f34ca7e679a",
+      "sourceAssetId": "fbe714cf-a15a-4606-b690-3b4c01707c2f"
+    },
+    {
+      "id": "orchard-kick-contact",
+      "width": 80,
+      "height": 84,
+      "anchors": {
+        "ground": [
+          44,
+          71
+        ],
+        "foot": [
+          56,
+          71
+        ],
+        "kickingFoot": [
+          56,
+          71
+        ],
+        "upperTorso": [
+          45,
+          32
+        ]
+      },
+      "approval": "reference",
+      "atlas": [
+        268,
+        1120,
+        80,
+        84
+      ],
+      "sourceSha256": "de8a99fdb4d86371e900c58463a6c3e1c210c32615f443e241e08fb2788eba19",
+      "sourceAssetId": "dcecd7ae-98f7-4c46-9bad-4ef1e39351c5"
+    },
+    {
+      "id": "kick-follow",
+      "width": 80,
+      "height": 84,
+      "anchors": {
+        "ground": [
+          44,
+          71
+        ],
+        "foot": [
+          68,
+          50
+        ],
+        "kickingFoot": [
+          68,
+          50
+        ],
+        "upperTorso": [
+          45,
+          32
+        ]
+      },
+      "approval": "reference",
+      "atlas": [
+        356,
+        1120,
+        80,
+        84
+      ],
+      "sourceSha256": "4a575fdc93b993de5c59fd457b1468a78f70d2f94034e33ed0acb17c09fe3784",
+      "sourceAssetId": "55820c11-4b84-463b-89a8-55222256836c"
+    },
+    {
+      "id": "orchard-kick-follow",
+      "width": 80,
+      "height": 84,
+      "anchors": {
+        "ground": [
+          44,
+          71
+        ],
+        "foot": [
+          68,
+          50
+        ],
+        "kickingFoot": [
+          68,
+          50
+        ],
+        "upperTorso": [
+          45,
+          32
+        ]
+      },
+      "approval": "reference",
+      "atlas": [
+        444,
+        1120,
+        80,
+        84
+      ],
+      "sourceSha256": "7d19a11eb521db41f137464536d3e87018f075bd051a79325ff60a00c1f2854e",
+      "sourceAssetId": "deb04885-d6ac-4aee-bbe5-f2c02501aa61"
+    },
+    {
+      "id": "throw-hold",
+      "width": 80,
+      "height": 84,
+      "anchors": {
+        "ground": [
+          44,
+          71
+        ],
+        "foot": [
+          54,
+          71
+        ],
+        "kickingFoot": [
+          54,
+          71
+        ],
+        "upperTorso": [
+          45,
+          32
+        ],
+        "leftHand": [
+          47,
+          38
+        ],
+        "rightHand": [
+          50,
+          38
+        ],
+        "ball": [
+          48,
+          38
+        ]
+      },
+      "approval": "reference",
+      "atlas": [
+        532,
+        1120,
+        80,
+        84
+      ],
+      "sourceSha256": "5b5abccf9c9dc09e59b016eb42333cde50769e455179debe8983824f478854ab",
+      "sourceAssetId": "c9ed347d-5e60-440f-b71f-f2196cd93bdf"
+    },
+    {
+      "id": "orchard-throw-hold",
+      "width": 80,
+      "height": 84,
+      "anchors": {
+        "ground": [
+          44,
+          71
+        ],
+        "foot": [
+          54,
+          71
+        ],
+        "kickingFoot": [
+          54,
+          71
+        ],
+        "upperTorso": [
+          45,
+          32
+        ],
+        "leftHand": [
+          47,
+          38
+        ],
+        "rightHand": [
+          50,
+          38
+        ],
+        "ball": [
+          48,
+          38
+        ]
+      },
+      "approval": "reference",
+      "atlas": [
+        620,
+        1120,
+        80,
+        84
+      ],
+      "sourceSha256": "2a17088028cecff292622cbdd3db093c5b2bfeec62e6f75a64f176e8d3116f97",
+      "sourceAssetId": "7f892466-b35e-4218-b6aa-529094d048fe"
+    },
+    {
+      "id": "throw-overhead",
+      "width": 80,
+      "height": 84,
+      "anchors": {
+        "ground": [
+          44,
+          71
+        ],
+        "foot": [
+          54,
+          71
+        ],
+        "kickingFoot": [
+          54,
+          71
+        ],
+        "upperTorso": [
+          45,
+          32
+        ],
+        "leftHand": [
+          44,
+          17
+        ],
+        "rightHand": [
+          48,
+          17
+        ],
+        "ball": [
+          46,
+          17
+        ]
+      },
+      "approval": "reference",
+      "atlas": [
+        708,
+        1120,
+        80,
+        84
+      ],
+      "sourceSha256": "61358beb06eb07030faf06b579617f5b6afe80e692c507d11a2085e987e352fa",
+      "sourceAssetId": "9667796c-5837-4f41-a1b8-01b3bc487ff4"
+    },
+    {
+      "id": "orchard-throw-overhead",
+      "width": 80,
+      "height": 84,
+      "anchors": {
+        "ground": [
+          44,
+          71
+        ],
+        "foot": [
+          54,
+          71
+        ],
+        "kickingFoot": [
+          54,
+          71
+        ],
+        "upperTorso": [
+          45,
+          32
+        ],
+        "leftHand": [
+          44,
+          17
+        ],
+        "rightHand": [
+          48,
+          17
+        ],
+        "ball": [
+          46,
+          17
+        ]
+      },
+      "approval": "reference",
+      "atlas": [
+        796,
+        1120,
+        80,
+        84
+      ],
+      "sourceSha256": "3c7fb10c141ec03ad9fd3a1e0f5f11e08fab547c08ae92cb37fac5ded884074b",
+      "sourceAssetId": "ee7368d0-c079-483a-b4b3-5fd3d8dd39c3"
+    },
+    {
+      "id": "throw-release",
+      "width": 80,
+      "height": 84,
+      "anchors": {
+        "ground": [
+          44,
+          71
+        ],
+        "foot": [
+          54,
+          71
+        ],
+        "kickingFoot": [
+          54,
+          71
+        ],
+        "upperTorso": [
+          45,
+          32
+        ],
+        "leftHand": [
+          55,
+          20
+        ],
+        "rightHand": [
+          59,
+          20
+        ],
+        "ball": [
+          57,
+          20
+        ]
+      },
+      "approval": "reference",
+      "atlas": [
+        4,
+        1210,
+        80,
+        84
+      ],
+      "sourceSha256": "8db9ea6e37991bb26637bbbcf74c6620e8b0986f158d04a001c4c331685aeb45",
+      "sourceAssetId": "059027ce-b903-4c50-9c13-c553a86f957c"
+    },
+    {
+      "id": "orchard-throw-release",
+      "width": 80,
+      "height": 84,
+      "anchors": {
+        "ground": [
+          44,
+          71
+        ],
+        "foot": [
+          54,
+          71
+        ],
+        "kickingFoot": [
+          54,
+          71
+        ],
+        "upperTorso": [
+          45,
+          32
+        ],
+        "leftHand": [
+          55,
+          20
+        ],
+        "rightHand": [
+          59,
+          20
+        ],
+        "ball": [
+          57,
+          20
+        ]
+      },
+      "approval": "reference",
+      "atlas": [
+        92,
+        1210,
+        80,
+        84
+      ],
+      "sourceSha256": "633fef31e359dea6d5aac1fe8ef8c8397e4f7d328fef8c4df2fc5de6614610c5",
+      "sourceAssetId": "fa96da9a-70e5-4acc-a8ce-0adfd77f0ddc"
+    },
+    {
+      "id": "throw-follow",
+      "width": 80,
+      "height": 84,
+      "anchors": {
+        "ground": [
+          44,
+          71
+        ],
+        "foot": [
+          54,
+          71
+        ],
+        "kickingFoot": [
+          54,
+          71
+        ],
+        "upperTorso": [
+          45,
+          32
+        ],
+        "leftHand": [
+          57,
+          31
+        ],
+        "rightHand": [
+          61,
+          31
+        ],
+        "ball": [
+          59,
+          31
+        ]
+      },
+      "approval": "reference",
+      "atlas": [
+        180,
+        1210,
+        80,
+        84
+      ],
+      "sourceSha256": "6e9dc33df1626bee3569b1f901f72a8919ac44124332c83dd034c33c640d6d3c",
+      "sourceAssetId": "2a9d4348-e255-49a1-bc65-72540a2ca724"
+    },
+    {
+      "id": "orchard-throw-follow",
+      "width": 80,
+      "height": 84,
+      "anchors": {
+        "ground": [
+          44,
+          71
+        ],
+        "foot": [
+          54,
+          71
+        ],
+        "kickingFoot": [
+          54,
+          71
+        ],
+        "upperTorso": [
+          45,
+          32
+        ],
+        "leftHand": [
+          57,
+          31
+        ],
+        "rightHand": [
+          61,
+          31
+        ],
+        "ball": [
+          59,
+          31
+        ]
+      },
+      "approval": "reference",
+      "atlas": [
+        268,
+        1210,
+        80,
+        84
+      ],
+      "sourceSha256": "7f144063364bafd21a64375e1134dfa1967dce7011df8a7c6829236fcc4873de",
+      "sourceAssetId": "b830dbaf-6a61-4a4c-a09d-2a5a53ba434c"
+    }
+  ],
+  "movement": {
+    "cycles": {
+      "N": [
+        {
+          "id": "run-n-0",
+          "mirror": false
+        },
+        {
+          "id": "run-n-1",
+          "mirror": false
+        },
+        {
+          "id": "run-n-0",
+          "mirror": true
+        },
+        {
+          "id": "run-n-1",
+          "mirror": true
+        }
+      ],
+      "S": [
+        {
+          "id": "run-s-0",
+          "mirror": false
+        },
+        {
+          "id": "run-s-1",
+          "mirror": false
+        },
+        {
+          "id": "run-s-0",
+          "mirror": true
+        },
+        {
+          "id": "run-s-1",
+          "mirror": true
+        }
+      ],
+      "E": [
+        {
+          "id": "run-e-0",
+          "mirror": false
+        },
+        {
+          "id": "run-e-1",
+          "mirror": false
+        },
+        {
+          "id": "run-e-2",
+          "mirror": false
+        },
+        {
+          "id": "run-e-3",
+          "mirror": false
+        }
+      ],
+      "W": [
+        {
+          "id": "run-e-0",
+          "mirror": true
+        },
+        {
+          "id": "run-e-1",
+          "mirror": true
+        },
+        {
+          "id": "run-e-2",
+          "mirror": true
+        },
+        {
+          "id": "run-e-3",
+          "mirror": true
+        }
+      ]
+    },
+    "poseTicks30Hz": 3,
+    "idle": {
+      "N": {
+        "id": "idle-n",
+        "mirror": false
+      },
+      "S": {
+        "id": "ready",
+        "mirror": false
+      },
+      "W": {
+        "id": "settle",
+        "mirror": false
+      },
+      "E": {
+        "id": "settle",
+        "mirror": true
+      }
+    },
+    "directionPolicy": "Eight movement vectors use four facing families. Dominant-axis selection with previous-facing tie retention is an original bounded prototype choice. Distinct diagonal sprite families remain incomplete.",
+    "mirrors": "N/S alternate stride phases mirror only an already observed front/back view. W mirrors observed E art. No mirror is used as evidence for an unseen front/back view.",
+    "timing": "Authored four-pose loops at 3 ticks per pose; reordered/mirrored stride phases are adaptations, not recovered native cycles."
+  },
+  "parents": {
+    "team-chain-v1/index.html": "3b4fea0ba0cd9ffd107de6f22fdbc464127c657240ff7adfce3a079fa1e201b7",
+    "team-chain-v1/runtime-readable.js": "4bff7a7cda2b9bc792fd1a1e40558b02b06bc885691310299121a85d4b965668",
+    "team-chain-v1/source.json": "d86c5c6b711c24891a991a73b510f07baefd907368368c4214e2541c6f1f06ed",
+    "team-chain-v1/asset-admission.json": "7c23d2ecaed78892b840cb47c9b8de6e82350b7d774fafaba4a776598cfcd140",
+    "opponent-pack-v1/assets.json": "463b723fee1f6b39774d6338a811695714189ddb537aa3baa596ba8a5c4b4058",
+    "opponent-pack-v1/action-coverage.json": "3a9cefb53bb93924ae8d42e3b738dd517caf6633a709c2502298b8df2a8e8190",
+    "brief.json": "8699cab86654e12d549d848dc4000ea8860a60cf7de5efd5c3fc74bca3af668b",
+    "standingKeeperSelection": "dd7d6d9995fe87feb51629073764bec0de01886459bf7b9a36bf317e434cf865",
+    "actionArt": "4be5fdaa1059e89d71bc7596009295e113adb83f1dfe544303d6e51f4344f4fd"
+  }
+}

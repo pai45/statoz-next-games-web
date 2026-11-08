@@ -1,0 +1,115 @@
+{
+  "gameId": "retro-hoops",
+  "agent": "street_hoop_artist",
+  "skill": "street-hoop-assets",
+  "build": "character-v12-local",
+  "assets": "12.0.0",
+  "rules": "2.0.0",
+  "scope": "Original reference-style athlete contour, face and material reconstruction",
+  "changes": [
+    "Original skull, brow, nose, jaw, ear and neck pixel construction, with neutral sports expressions.",
+    "Near-black contours, coherent warm skin shadow/light clusters and saturated cloth planes/edge trim.",
+    "Finer authored hard-pixel drawing grid with matching head/body/dynamic-arm rendering; no raster stretching.",
+    "All2276 body/contact/ground anchor dictionaries and104 validated dunk reaches retained from V11.",
+    "Six coherent blue/red identities across all existing views/actions, without gameplay or host changes."
+  ],
+  "checks": {
+    "rulesInputAndIntegrationTests": 86,
+    "assetIntegrity": 13,
+    "rigContract": 3,
+    "productionActionLoops": 16,
+    "decodedVideos": 16,
+    "normalSpeedBrowserPlayback": 16,
+    "sameSimulationBeforeAfterScenarios": 16,
+    "heldContactSequences": 8,
+    "mobileLifecycle": 12,
+    "teamScenarios": 6,
+    "galleryCombinations": 36,
+    "hostFlow": 6,
+    "lint": "passed; see validation-lint.log for warnings",
+    "typecheck": "passed",
+    "staticBuild": "passed",
+    "preservedV11BaselineFiles": 8
+  },
+  "pack": {
+    "bodyFrameEntries": 2276,
+    "distinctBodyFrames": 1232,
+    "headFrameEntries": 36,
+    "atlasPages": 3,
+    "nativeArtwork": [
+      144,
+      128
+    ],
+    "exportScale": 1.0,
+    "headLayer": {
+      "canvas": [
+        32,
+        32
+      ],
+      "nativeArtwork": [
+        32,
+        32
+      ],
+      "anchor": [
+        16,
+        16
+      ],
+      "bodyContainsHead": false
+    },
+    "referenceRasterInputs": 0,
+    "previousPackPreserved": true
+  },
+  "correctionRecord": "test-results/retro-hoops-character-v12/correction-record.json",
+  "fidelityMatrix": [
+    {
+      "feature": "Contours, face profiles and skin/kit material clusters",
+      "status": "approximate",
+      "review": "Direction reviewed against processed footage at equal athlete height and in production; no exact source-pixel match claimed."
+    },
+    {
+      "feature": "Fictional blue/red identity family",
+      "status": "adapted",
+      "review": "Original identities and palettes; commercial sprites/branding excluded."
+    },
+    {
+      "feature": "Body/contact anchors and dunk reach",
+      "status": "adapted",
+      "review": "Validated V11 contracts retained, with unchanged captured simulation."
+    },
+    {
+      "feature": "Native source pixel grid, frame holds, input windows and hidden AI",
+      "status": "unverified",
+      "review": "The new artwork grid is authored, not recovered from the recording."
+    }
+  ],
+  "review": {
+    "structural": "passed",
+    "visual": "Revised representative source/V11/V12 proof and actual production frames inspected; style improved, exact reference likeness unapproved.",
+    "sourceLikenessApproved": false,
+    "exactLikenessAchieved": false,
+    "nativeTimingRecovered": false,
+    "physicalDeviceTested": false,
+    "limitations": [
+      "Equal displayed athlete height does not align source and production pose, camera or court depth.",
+      "Individual body builds and finer source-specific action silhouettes remain incomplete.",
+      "Existing held shot/dunk ball-height jumps remain unchanged.",
+      "Physical Android/iPhone performance and native input/animation timing remain unverified."
+    ]
+  },
+  "hashes": {
+    "scripts/retro_hoops_character.py": "a3cd7d3922868c5301c7a86bb86f0ebdc5d679de5a91d718a7f8b7b5e419b023",
+    "scripts/build-retro-hoops-authored.py": "f28e0aefff4b73e4856071b5ad1eeb7b9b1f99ce113e8a502a50ffa19d0330c9",
+    "src/features/games/retro-hoops/contact-arm.ts": "2f15df25b7eb950c4b8d65954d44c47a506910ea475a552c474a7effe6ddb554",
+    "src/features/games/retro-hoops/character-pack.ts": "eef88abcd3bfb49b9cbbf43d1b2fd1de5324ba4f6b3f0e0643acb5c64a482f2b",
+    "src/features/games/retro-hoops/reference-profile.ts": "d253f1a0614322f9c3578cf2b80d96f43d5315e3c8046acc9989c5aaab067b35",
+    "public/games/retro-hoops/authored-v12/manifest.json": "542d312d30ad55a4307cd210ff9ecad5514601b6ce932cf9ded59d397b34bb6f",
+    "public/games/retro-hoops/credits.json": "68cdfb3724cf52ca18476e48745fc5a9f085903caf207c0c331a1a29c03e4dd5",
+    "public/embedded-games/retro-hoops/index.html": "67155f5e09fd95b61eef71615ca8bcf5a5765faf54a13330ffc5c3853c3486ef"
+  },
+  "release": {
+    "localOnly": true,
+    "pushed": false,
+    "published": false,
+    "pipelineActivated": false
+  }
+}

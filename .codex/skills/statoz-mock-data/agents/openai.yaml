@@ -1,0 +1,4 @@
+interface:
+  display_name: "Statoz Mock Data"
+  short_description: "Create consistent StatOz demo fixtures"
+  default_prompt: "Create or update StatOz mock data using the repository mock-data boundary."

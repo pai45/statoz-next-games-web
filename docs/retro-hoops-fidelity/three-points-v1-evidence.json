@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "nativeTimingRecovered": false,
+  "exactRevisionVerified": false,
+  "sourceInputsRecorded": false,
+  "files": [
+    {
+      "path": "C:\\Users\\priya\\OneDrive\\Desktop\\StatOz Designer\\output\\retro-hoops\\source-study-v1\\sources.json",
+      "sha256": "eb103a3d7d49407b0c1834bf1672d618613b2b17bc695e1dca7179e61af2d884"
+    },
+    {
+      "path": "C:\\Users\\priya\\OneDrive\\Desktop\\StatOz Designer\\output\\retro-hoops\\source-study-v1\\advanced-instructions\\sample-0046.png",
+      "sha256": "ee4ba1095fefc7c4ccffee34b3c9a94361667290857b988ee663bc7ec886ff47"
+    }
+  ],
+  "tracks": {
+    "movement": {
+      "implementation": "integrated",
+      "nativeParity": "unverified"
+    },
+    "actionChains": {
+      "implementation": "integrated",
+      "nativeParity": "unverified"
+    },
+    "rulesSelectionAI": {
+      "implementation": "integrated",
+      "nativeParity": "unverified"
+    }
+  },
+  "documentedGap": "Light A fake requires duration-sensitive input and remains unimplemented."
+}

@@ -1,0 +1,877 @@
+{
+  "schemaVersion": 1,
+  "id": "top-gear-reference-calibration-v1",
+  "date": "2026-10-23",
+  "primaryRecording": "gFMgYrdlTF8",
+  "primaryUrl": "https://www.youtube.com/watch?v=gFMgYrdlTF8",
+  "reference": "Original Top Gear SNES",
+  "region": "unconfirmed",
+  "units": "km/h",
+  "selectedCar": "white / upper pane / automatic",
+  "course": "Las Vegas",
+  "nativeTimingRecovered": false,
+  "inputTraceAvailable": false,
+  "sources": [
+    {
+      "id": "gFMgYrdlTF8-125-155",
+      "sourceUrl": "https://www.youtube.com/watch?v=gFMgYrdlTF8",
+      "startSeconds": 125.0,
+      "endSeconds": 155.0,
+      "width": 960,
+      "height": 720,
+      "recordingFps": 60,
+      "sha256": "fe4cb3bf4b5ad9b689dd0dd9bbda0e8dc3077d95cb4778a631dfa9f61070681d",
+      "decodeVerified": true,
+      "provenance": "../source-study-v2/gFMgYrdlTF8-125-155/provenance.json"
+    },
+    {
+      "id": "gFMgYrdlTF8-155-185",
+      "sourceUrl": "https://www.youtube.com/watch?v=gFMgYrdlTF8",
+      "startSeconds": 155.0,
+      "endSeconds": 185.0,
+      "width": 960,
+      "height": 720,
+      "recordingFps": 60,
+      "sha256": "2ece8549fc48e615f88250bb2e9f56923b21d0825edddbda6b26ef79c8968c00",
+      "decodeVerified": true,
+      "provenance": "../source-study-v2/gFMgYrdlTF8-155-185/provenance.json"
+    },
+    {
+      "id": "gFMgYrdlTF8-185-215",
+      "sourceUrl": "https://www.youtube.com/watch?v=gFMgYrdlTF8",
+      "startSeconds": 185.0,
+      "endSeconds": 215.0,
+      "width": 960,
+      "height": 720,
+      "recordingFps": 60,
+      "sha256": "46d7a19452ae89c922fec701295fa9b902d202af567b00aa7467b7212718ac79",
+      "decodeVerified": true,
+      "provenance": "../source-study-v2/gFMgYrdlTF8-185-215/provenance.json"
+    },
+    {
+      "id": "gFMgYrdlTF8-210-240",
+      "sourceUrl": "https://www.youtube.com/watch?v=gFMgYrdlTF8",
+      "startSeconds": 210.0,
+      "endSeconds": 240.0,
+      "width": 960,
+      "height": 720,
+      "recordingFps": 60,
+      "sha256": "1f8a56ebf1f78df58fff689cd1e9117e4d3c18d99b0471562f44bbb1c11fedfa",
+      "decodeVerified": true,
+      "provenance": "../source-study-v2/gFMgYrdlTF8-210-240/provenance.json"
+    }
+  ],
+  "timing": {
+    "sampleHz": 2,
+    "denseGridSampleHz": 30,
+    "recordingFps": 60,
+    "sourceTimestampMeaning": "Approximate position in recording; bounded MP4 seeking and resampling may introduce offset. Not console frames.",
+    "manualReadingUncertaintyPixels": 4,
+    "eventWindowUncertaintySeconds": 0.5
+  },
+  "framing": {
+    "classification": "observed",
+    "recordingPixels": {
+      "drivingPane": [
+        10,
+        13,
+        940,
+        334
+      ],
+      "lowerPane": [
+        10,
+        373,
+        940,
+        334
+      ],
+      "playerBody": [
+        393,
+        228,
+        178,
+        89
+      ],
+      "tyreContact": [
+        482,
+        315
+      ],
+      "straightVanishingRegion": [
+        455,
+        96,
+        55,
+        15
+      ],
+      "map": [
+        39,
+        25,
+        136,
+        101
+      ],
+      "revBar": [
+        598,
+        25,
+        324,
+        72
+      ],
+      "speed": [
+        685,
+        50,
+        257,
+        48
+      ],
+      "elapsed": [
+        685,
+        104,
+        241,
+        25
+      ],
+      "nitro": [
+        39,
+        255,
+        87,
+        33
+      ],
+      "automaticGear": [
+        39,
+        293,
+        181,
+        42
+      ],
+      "position": [
+        743,
+        293,
+        126,
+        42
+      ],
+      "fuel": [
+        892,
+        151,
+        33,
+        183
+      ]
+    },
+    "normalizedUpperPane": {
+      "playerBody": [
+        0.4074,
+        0.6437,
+        0.1894,
+        0.2665
+      ],
+      "tyreContact": [
+        0.5021,
+        0.9042
+      ],
+      "straightVanishingRegion": [
+        0.4734,
+        0.2485,
+        0.0585,
+        0.0449
+      ],
+      "map": [
+        0.0309,
+        0.0359,
+        0.1447,
+        0.3024
+      ],
+      "revBar": [
+        0.6255,
+        0.0359,
+        0.3447,
+        0.2156
+      ],
+      "speed": [
+        0.7181,
+        0.1108,
+        0.2734,
+        0.1437
+      ],
+      "elapsed": [
+        0.7181,
+        0.2725,
+        0.2564,
+        0.0749
+      ],
+      "nitro": [
+        0.0309,
+        0.7246,
+        0.0926,
+        0.0988
+      ],
+      "automaticGear": [
+        0.0309,
+        0.8383,
+        0.1926,
+        0.1257
+      ],
+      "position": [
+        0.7798,
+        0.8383,
+        0.134,
+        0.1257
+      ],
+      "fuel": [
+        0.9383,
+        0.4132,
+        0.0351,
+        0.5479
+      ]
+    },
+    "anchorEvidence": {
+      "file": "../source-study-v2/gFMgYrdlTF8-125-155/sample-031.png",
+      "approxSourceSeconds": 140.0,
+      "sha256": "9754e918e5868aa4327f39c0002b51af63cdd39efc1a27f6a0be9a80249d35fa"
+    },
+    "aspect": 2.81437125748503,
+    "notes": "Measurements manually read from recording.256x224 native raster and pixel aspect not established by this recording. Full single view is product adaptation; preserve car width/height when adapting480x180/othergrid."
+  },
+  "handling": {
+    "classification": "observed",
+    "launchReadings": [
+      {
+        "sourceSeconds": 136,
+        "kmh": 0
+      },
+      {
+        "sourceSeconds": 136.5,
+        "kmh": 0
+      },
+      {
+        "sourceSeconds": 137,
+        "kmh": 7
+      },
+      {
+        "sourceSeconds": 137.5,
+        "kmh": 23
+      },
+      {
+        "sourceSeconds": 138,
+        "kmh": 34
+      },
+      {
+        "sourceSeconds": 138.5,
+        "kmh": 61
+      },
+      {
+        "sourceSeconds": 139,
+        "kmh": 84
+      },
+      {
+        "sourceSeconds": 139.5,
+        "kmh": 110
+      },
+      {
+        "sourceSeconds": 140,
+        "kmh": 125
+      },
+      {
+        "sourceSeconds": 140.5,
+        "kmh": 141
+      },
+      {
+        "sourceSeconds": 141,
+        "kmh": 151
+      },
+      {
+        "sourceSeconds": 141.5,
+        "kmh": 153
+      },
+      {
+        "sourceSeconds": 142,
+        "kmh": 156
+      },
+      {
+        "sourceSeconds": 142.5,
+        "kmh": 172
+      },
+      {
+        "sourceSeconds": 143,
+        "kmh": 175
+      },
+      {
+        "sourceSeconds": 143.5,
+        "kmh": 179
+      },
+      {
+        "sourceSeconds": 144,
+        "kmh": 202
+      },
+      {
+        "sourceSeconds": 144.5,
+        "kmh": 204
+      },
+      {
+        "sourceSeconds": 145,
+        "kmh": 206
+      },
+      {
+        "sourceSeconds": 145.5,
+        "kmh": 174
+      }
+    ],
+    "boostReadings": [
+      {
+        "sourceSeconds": 164,
+        "kmh": 210
+      },
+      {
+        "sourceSeconds": 165,
+        "kmh": 211
+      },
+      {
+        "sourceSeconds": 166,
+        "kmh": 234
+      },
+      {
+        "sourceSeconds": 167,
+        "kmh": 249
+      },
+      {
+        "sourceSeconds": 168,
+        "kmh": 262
+      },
+      {
+        "sourceSeconds": 169,
+        "kmh": 274
+      },
+      {
+        "sourceSeconds": 170,
+        "kmh": 284
+      },
+      {
+        "sourceSeconds": 171,
+        "kmh": 273
+      },
+      {
+        "sourceSeconds": 172,
+        "kmh": 264
+      },
+      {
+        "sourceSeconds": 173,
+        "kmh": 255
+      },
+      {
+        "sourceSeconds": 174,
+        "kmh": 249
+      },
+      {
+        "sourceSeconds": 175,
+        "kmh": 246
+      },
+      {
+        "sourceSeconds": 176,
+        "kmh": 242
+      },
+      {
+        "sourceSeconds": 177,
+        "kmh": 238
+      },
+      {
+        "sourceSeconds": 178,
+        "kmh": 231
+      },
+      {
+        "sourceSeconds": 179,
+        "kmh": 201
+      },
+      {
+        "sourceSeconds": 180,
+        "kmh": 189
+      },
+      {
+        "sourceSeconds": 181,
+        "kmh": 206
+      },
+      {
+        "sourceSeconds": 182,
+        "kmh": 239
+      },
+      {
+        "sourceSeconds": 183,
+        "kmh": 261
+      },
+      {
+        "sourceSeconds": 184,
+        "kmh": 276
+      },
+      {
+        "sourceSeconds": 185,
+        "kmh": 286
+      },
+      {
+        "sourceSeconds": 186,
+        "kmh": 277
+      },
+      {
+        "sourceSeconds": 187,
+        "kmh": 267
+      },
+      {
+        "sourceSeconds": 188,
+        "kmh": 258
+      },
+      {
+        "sourceSeconds": 189,
+        "kmh": 252
+      },
+      {
+        "sourceSeconds": 190,
+        "kmh": 246
+      }
+    ],
+    "clockOriginApproxSourceSeconds": 136.84,
+    "notes": [
+      "Unknown controller input, contact and grade prohibit recovering exact acceleration/friction/steering constants.",
+      "Upper white and lower purple numeric readings must remain separate.",
+      "Manual white normal131MPH\u2248210.82kmh; observedboosttransient284\u2013286kmh. Avoid instantaneous clamp to normal top speed when boost ends; preserve/decay overspeed continuously.",
+      "FirstNitroobservedexhaust165\u2013168+. Durationnotisolated;speedresponse5sriseand9sdecayiscontextualenvelope,notnativepowerduration."
+    ]
+  },
+  "documentedCars": [
+    {
+      "id": "white-sidewinder",
+      "mph": 131,
+      "kmh": 210.823104,
+      "zeroTo60MphSeconds": 3.5,
+      "grip": "high",
+      "fuel": "low"
+    },
+    {
+      "id": "red-cannibal",
+      "mph": 147,
+      "kmh": 236.572608,
+      "zeroTo60MphSeconds": 5.9,
+      "grip": "low",
+      "fuel": "high"
+    },
+    {
+      "id": "purple-razor",
+      "mph": 137,
+      "kmh": 220.480128,
+      "zeroTo60MphSeconds": 5,
+      "grip": "low",
+      "fuel": "mid"
+    },
+    {
+      "id": "blue-weasel",
+      "mph": 137,
+      "kmh": 220.480128,
+      "zeroTo60MphSeconds": 4.3,
+      "grip": "mid",
+      "fuel": "mid"
+    }
+  ],
+  "manual": {
+    "url": "https://www.retrogames.cz/manualy/SNES/Top_Gear_-_SNES_-_Manual.pdf",
+    "file": "../research/manual.pdf",
+    "carPages": [
+      17,
+      18
+    ],
+    "nitroPitPages": [
+      19,
+      20
+    ],
+    "classification": "documented",
+    "nitro": "Three portions per course; temporarily powers acceleration. No nitro refill at pit.",
+    "pit": "Fuel low warning;pit arrow;slow entry;accelerator departs after partial fill."
+  },
+  "events": [
+    {
+      "id": "track-card",
+      "sourceWindow": [
+        125,
+        126.5
+      ],
+      "classification": "observed",
+      "details": "LAS VEGAS U.S.A;DISTANCE1.20Km;LAPS3;seededLAP RECORD1'03\"45. Seeded record is not this race outcome.",
+      "evidence": {
+        "file": "../source-study-v2/gFMgYrdlTF8-125-155/sample-001.png",
+        "approxSourceSeconds": 125.0,
+        "sha256": "3402da25555e19e2e3357c4ed10ca4744be96bd2fbf6c5d2a891814b4475ba95"
+      }
+    },
+    {
+      "id": "name",
+      "sourceWindow": [
+        132,
+        133.1
+      ],
+      "classification": "observed",
+      "details": "Upper pane ABS;lower COMPUTER. Cars roll into place.",
+      "evidence": {
+        "file": "../source-study-v2/gFMgYrdlTF8-125-155/sample-016.png",
+        "approxSourceSeconds": 132.5,
+        "sha256": "78c5bfecc7efc1b1393b223595876dbc006b4ba8c0f252b794c91b3531f526ec"
+      }
+    },
+    {
+      "id": "countdown",
+      "sourceWindow": [
+        134.1,
+        137.2
+      ],
+      "classification": "observed",
+      "details": "White outlined central3\u21922\u21921 aroundone second each; not traffic lights.",
+      "evidence": {
+        "file": "../source-study-v2/gFMgYrdlTF8-125-155/sample-021.png",
+        "approxSourceSeconds": 135.0,
+        "sha256": "054cb256c8292af8b4b26a66afca8a27bc32a5bf891c22e6885e545c6eab1ebf"
+      }
+    },
+    {
+      "id": "go",
+      "sourceWindow": [
+        137.2,
+        138.9
+      ],
+      "classification": "observed",
+      "details": "GO! central;timer starts near136.84 recording seconds. Exact input and video seek offsets unavailable.",
+      "evidence": {
+        "file": "../source-study-v2/gFMgYrdlTF8-125-155/sample-026.png",
+        "approxSourceSeconds": 137.5,
+        "sha256": "faecba4be7d8dce485f09797f3336ff2386fe601011b832f5d8c63e1bb32ce0d"
+      }
+    },
+    {
+      "id": "lap1",
+      "sourceWindow": [
+        164.5,
+        165.5
+      ],
+      "classification": "observed",
+      "details": "White passes first START gate;2LAPSLEFT visible165.5. Clock~28.66. First nitro charge decrements between164.5 and165.0.",
+      "evidence": {
+        "file": "../source-study-v2/gFMgYrdlTF8-155-185/sample-022.png",
+        "approxSourceSeconds": 165.5,
+        "sha256": "de0842b49c04f7a5ef83e32f9d0d0557a695a996b1c1b621f3f2615086851a84"
+      }
+    },
+    {
+      "id": "nitro2",
+      "sourceWindow": [
+        179.5,
+        180
+      ],
+      "classification": "observed",
+      "details": "WhiteNx2\u2192Nx1;red exhaust returns. Charge1remains throughfinish.",
+      "evidence": {
+        "file": "../source-study-v2/gFMgYrdlTF8-155-185/sample-051.png",
+        "approxSourceSeconds": 180.0,
+        "sha256": "27e419f7fa45fea2300b4d2d06222f41de52aa8c03c2a4d42f877f785c7720a5"
+      }
+    },
+    {
+      "id": "final-lap",
+      "sourceWindow": [
+        183,
+        184.5
+      ],
+      "classification": "observed",
+      "details": "Second START crossing around183.5;final-lap banner shortly after. Exact lap time not transcribed.",
+      "evidence": {
+        "file": "../source-study-v2/gFMgYrdlTF8-155-185/sample-058.png",
+        "approxSourceSeconds": 183.5,
+        "sha256": "0b9eeace1b1353e1771e1e52bc25e97a9a815c908d454eb756ae6ea01764583c"
+      }
+    },
+    {
+      "id": "finish",
+      "sourceWindow": [
+        201.5,
+        202
+      ],
+      "classification": "observed",
+      "details": "Clockfreezes1'04\"96;whitecar recedes far up road;center1ST starts. Nitro1;fuelroughlyhalf, no pit stop in this race.",
+      "evidence": {
+        "file": "../source-study-v2/gFMgYrdlTF8-185-215/sample-035.png",
+        "approxSourceSeconds": 202.0,
+        "sha256": "6389702a5641262ad73a5f3d09d7b590b6eee354dda76895d10385555b2c796b"
+      }
+    },
+    {
+      "id": "finish-runout",
+      "sourceWindow": [
+        202,
+        209.5
+      ],
+      "classification": "observed",
+      "details": "Top pane road moves while white disappears;1ST flashes over road. Lowerpane continuesracinguntil~206.5. Sharedresultswaitforbothpanes, not suitable singleplayerdelaytarget.",
+      "evidence": {
+        "file": "../source-study-v2/gFMgYrdlTF8-185-215/sample-036.png",
+        "approxSourceSeconds": 202.5,
+        "sha256": "facf3957ac809164793512b25c668503594ef0169c1ae635550649ba855ae326"
+      }
+    },
+    {
+      "id": "results",
+      "sourceWindow": [
+        211,
+        221
+      ],
+      "classification": "observed",
+      "details": "RESULTS gold title over grayscale city,white italic classification rows andpoints;ABS1'04\"96 20PTS,COMPUTER+0'03\"56 15PTS.",
+      "evidence": {
+        "file": "../source-study-v2/gFMgYrdlTF8-210-240/sample-006.png",
+        "approxSourceSeconds": 212.5,
+        "sha256": "4278c828e5c81ce4b03343d47946b0cb721fa9ad742d73e64a9a6c776d178e1c"
+      }
+    },
+    {
+      "id": "world-ranking",
+      "sourceWindow": [
+        221.5,
+        228
+      ],
+      "classification": "observed",
+      "details": "WORLD RANKING campaign standings. Local-only StatOz records are an explicit adaptation, never worldwide competitors.",
+      "evidence": {
+        "file": "../source-study-v2/gFMgYrdlTF8-210-240/sample-026.png",
+        "approxSourceSeconds": 222.5,
+        "sha256": "4e4c61e81755a7b70a80e09eac2fc06c3aa305abb426fbc33ec2ca37312236e9"
+      }
+    }
+  ],
+  "route": {
+    "classification": "inferred",
+    "lengthDisplayedKm": 1.2,
+    "lapsDisplayed": 3,
+    "mapEvidence": {
+      "file": "../source-study-v2/gFMgYrdlTF8-125-155/sample-001.png",
+      "approxSourceSeconds": 125.0,
+      "sha256": "3402da25555e19e2e3357c4ed10ca4744be96bd2fbf6c5d2a891814b4475ba95"
+    },
+    "mapOutlineRecordingPixels": [
+      [
+        80,
+        105
+      ],
+      [
+        149,
+        105
+      ],
+      [
+        168,
+        91
+      ],
+      [
+        151,
+        75
+      ],
+      [
+        57,
+        32
+      ],
+      [
+        46,
+        38
+      ],
+      [
+        50,
+        67
+      ],
+      [
+        62,
+        104
+      ],
+      [
+        80,
+        105
+      ]
+    ],
+    "traversal": "start at lower-left\u2192rightward bottom leg\u2192left-turn onto diagonal toward upper-left\u2192left-turn down short left leg\u2192left-turn onto start straight",
+    "distanceMeaning": "Relative spacing inferred from minimap/temporal ordering; not recovered world metres.",
+    "sections": [
+      {
+        "id": "start-straight",
+        "time": [
+          136.8,
+          143.5
+        ],
+        "relativeDistance": [
+          0,
+          0.23
+        ],
+        "observation": "Start gate recedes; two close traffic columns spread into a long tan desert straight. Cacti and yellow scrub increase.",
+        "curvature": "straight",
+        "verge": "tan",
+        "evidence": {
+          "file": "../source-study-v2/gFMgYrdlTF8-125-155/sample-031.png",
+          "approxSourceSeconds": 140.0,
+          "sha256": "9754e918e5868aa4327f39c0002b51af63cdd39efc1a27f6a0be9a80249d35fa"
+        }
+      },
+      {
+        "id": "first-left",
+        "time": [
+          143.5,
+          150
+        ],
+        "relativeDistance": [
+          0.23,
+          0.37
+        ],
+        "observation": "First broad left sweep; repeated red/white left chevrons on outer right verge, congested overtaking.",
+        "curvature": "left",
+        "verge": "tan",
+        "evidence": {
+          "file": "../source-study-v2/gFMgYrdlTF8-125-155/sample-041.png",
+          "approxSourceSeconds": 145.0,
+          "sha256": "94b003fa4ec1c271a5c07ecb894d9130ecc56ffb3276ec5c9d1a3a102badc9cf"
+        }
+      },
+      {
+        "id": "diagonal-straight",
+        "time": [
+          150,
+          154.5
+        ],
+        "relativeDistance": [
+          0.37,
+          0.64
+        ],
+        "observation": "Straightens after first left. A crest makes far traffic/road disappear. Verge changes from sand to green before next turn.",
+        "curvature": "straight",
+        "verge": "tan-to-green",
+        "evidence": {
+          "file": "../source-study-v2/gFMgYrdlTF8-125-155/sample-056.png",
+          "approxSourceSeconds": 152.5,
+          "sha256": "4fd647a3d57505d4f69a7da731dd40e64bae48b7039c225514de4499e49a18e6"
+        }
+      },
+      {
+        "id": "upper-left",
+        "time": [
+          154.5,
+          159.5
+        ],
+        "relativeDistance": [
+          0.64,
+          0.79
+        ],
+        "observation": "Second left around triangular map upper vertex; green verge and red/white chevrons outside right. Hill descent changes distant-road reveal.",
+        "curvature": "left",
+        "verge": "green",
+        "evidence": {
+          "file": "../source-study-v2/gFMgYrdlTF8-155-185/sample-006.png",
+          "approxSourceSeconds": 157.5,
+          "sha256": "150cf83d79f4aec44514f64762beacd15520edf1eddaaeaf1a7725261665dadc"
+        }
+      },
+      {
+        "id": "down-leg",
+        "time": [
+          159.5,
+          161.5
+        ],
+        "relativeDistance": [
+          0.79,
+          0.9
+        ],
+        "observation": "Brief straight toward bottom-left map corner. Green returns to tan; nearby rival is passed.",
+        "curvature": "straight",
+        "verge": "green-to-tan",
+        "evidence": {
+          "file": "../source-study-v2/gFMgYrdlTF8-155-185/sample-011.png",
+          "approxSourceSeconds": 160.0,
+          "sha256": "9d8e2bf21db68396db5380275d2f290948b7c365e9e18da44aeb66ac1c540685"
+        }
+      },
+      {
+        "id": "last-left-crest",
+        "time": [
+          161.5,
+          164.5
+        ],
+        "relativeDistance": [
+          0.9,
+          1
+        ],
+        "observation": "Final left followed by strongly rising/cresting road: skyline fully leaves top pane at163.5; START gate reappears164.0, then straight.",
+        "curvature": "left-to-straight",
+        "verge": "tan",
+        "evidence": {
+          "file": "../source-study-v2/gFMgYrdlTF8-155-185/sample-018.png",
+          "approxSourceSeconds": 163.5,
+          "sha256": "9d9e84c88f3f9833989e45b8c72a8f12718dc329e01f116e0c0952eb10fc8ae0"
+        }
+      }
+    ],
+    "obstacles": "No on-road barricade corridor isolated in this primary first race. E9firstLasVegasroadworks are secondary observed configuration; additions must be labelled variant/adaptation.",
+    "pit": "No pit stop required/used in this primary firstwhite race;fuelroughlyhalf atfinish. Pit presentation established separately, not by this course.",
+    "closure": "Approximate triangular contour,allthreecornersleft;ordered route/elevation inference still needs candidate side-by-side validation."
+  },
+  "contrasts": [
+    {
+      "id": "green-hills",
+      "classification": "observed",
+      "sourceUrl": "https://www.youtube.com/watch?v=E9QJZSBpvg0",
+      "sourceWindow": [
+        900,
+        930
+      ],
+      "evidence": "../source-study-v2/crest-descent/sample-0151.png",
+      "details": "Winding multi-turn outline;green verges,mountain/city/waterpanorama;crest905fullyoccludessky;descent908restorespanorama;offroadorangegroundvisible910. Not the LasVegas route."
+    },
+    {
+      "id": "dusk",
+      "classification": "observed",
+      "sourceUrl": "https://www.youtube.com/watch?v=gFMgYrdlTF8",
+      "sourceWindow": [
+        2015,
+        2030
+      ],
+      "evidence": "../source-study-v2/gFMgYrdlTF8-2000-2030/sample-051.png",
+      "details": "HIROSHIMA JAPAN card2015, orange/darkstart2025;differentrouteoutline;5laps displayed. Only start retained, full orderedcourse not reconstructed."
+    },
+    {
+      "id": "night",
+      "classification": "observed",
+      "sourceUrl": "https://www.youtube.com/watch?v=gFMgYrdlTF8",
+      "sourceWindow": [
+        6000,
+        6030
+      ],
+      "evidence": "../source-study-v2/gFMgYrdlTF8-6000-6030/sample-051.png",
+      "details": "Green hill route transitions to nearblack environment around6020;stripes/chevrons/map/carsretainreadability. Capturednightwindowdoesnotestablisha full thirdcourse."
+    },
+    {
+      "id": "roadworks",
+      "classification": "observed",
+      "sourceUrl": "https://www.youtube.com/watch?v=E9QJZSBpvg0",
+      "sourceWindow": [
+        126,
+        130
+      ],
+      "evidence": "../source-study-v2/roadworks/sample-0046.png",
+      "details": "Staggeredblackyellowon-roadbarriers createalternatingpassingcorridor. SecondaryMPHrecording;do not mixnumeric speedcalibration."
+    },
+    {
+      "id": "snow",
+      "classification": "observed",
+      "sourceUrl": "https://www.youtube.com/watch?v=E9QJZSBpvg0",
+      "sourceWindow": [
+        4000,
+        4007
+      ],
+      "evidence": "../source-study-v2/snow-finish/sample-0121.png",
+      "details": "Snowverge,pinetrees,water/cityalternatepanorama;similarfinishrecession/stamp. Deferredcourse."
+    }
+  ],
+  "remaining": [
+    "Exact native/input-frame parity is unmeasured.",
+    "Region,difficulty,console/emulator configuration remainunconfirmed.",
+    "Exact throttle/steering/nitro release/grade response unknown.",
+    "Full green/dusk orderedroute evidence is incomplete.",
+    "No evidence yet for full championship/manual/multiplayer parity.",
+    "Commercial recording art remains reference-only; no release-clearance claim."
+  ],
+  "decisions": [
+    {
+      "classification": "designed for StatOz",
+      "detail": "One landscape driving view;handheldcontrols;autothrottle;local profile records;originalaudio;APEXBREAK identity."
+    },
+    {
+      "classification": "designed for StatOz",
+      "detail": "Preserve prior originalcourses as distinctarcadeprofile;source-led variants must not overwrite historicalrecords. Course obstaclevariant andpit availabilitymay adaptuserrequestedfeatures."
+    }
+  ]
+}

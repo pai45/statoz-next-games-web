@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 2,
+  "gameId": "retro-hoops",
+  "rulesVersion": "2.0.0",
+  "buildVersion": "fidelity-authored-v2-local",
+  "assetPackVersion": "2.0.0",
+  "referenceProfileVersion": 2,
+  "checks": {
+    "targetedTests": 82,
+    "lint": "passed",
+    "typecheck": "passed",
+    "staticProductionBuild": "passed",
+    "staticSegmentAliases": 51,
+    "artStructuralChecks": 6,
+    "frameEntries": 1556,
+    "distinctPixelFrames": 900,
+    "actionLoops": 16,
+    "decodedLoops": 16,
+    "teamScenarios": 6,
+    "mobileAndLifecycleChecks": 9,
+    "extendedBrowserChecks": 9,
+    "exportedHostFlowChecks": 6,
+    "audioRenders": 16,
+    "clippedAudioRenders": 0
+  },
+  "performance": {
+    "name": "Measured desktop-emulated frame pacing",
+    "passed": true,
+    "renderer": "Headless Chromium / SwiftShader; not physical mobile",
+    "samples": 85,
+    "medianMs": 16.699999999999818,
+    "p95Ms": 16.800000000000182,
+    "target60fpsMet": true
+  },
+  "hashes": {
+    "simulation.ts": "b62457464be1ef142004ee30b444f5b02fee379515b63be469cf9d4186025b5b",
+    "game.tsx": "5b3b0720d1c6ea3be015ba4a3909ce9128c89fc12102eaa6dc7972f60df70c99",
+    "renderer.ts": "253732db77e92b949c81fe1a6348fb3f3dcf52fa231aa98148335f90a4a8f3f1",
+    "presentation.ts": "513e5a92e1471ab8d813465f60b18a87bac0404447e3c02fae4e70fca83cd063",
+    "off-ball.ts": "d1d95eb358af1e0e3a5d4283a0b4f693784a521a530ad7244ebbdfe37682ecde",
+    "reference-profile.ts": "bcc5fa8a4e8c06983d3803328e9355dba325ca4c86fa60ce4a0fc7abb27d019e",
+    "reference-tuning.ts": "1a0141697e082a17f23723ceb70674ade4d5bc5715b4074d01eeed45a3115fa8",
+    "action-spec.ts": "5df6a686bbbe1ca91990ab3bf99179542c7380056ee15d016d6eaa2105768d6d",
+    "contact-arm.ts": "2fe793e784f96cedf48d3382a2df1a0ee65a1264d5cb805883afdfd6c5531b62",
+    "view.ts": "7c0e148b7a966f2f3fe79229bc5d6e573a1604f2cc8bddeb33a56c3a9c84a4fd",
+    "input.ts": "a078372909ed4ca6858e11f9550ff5ae0619457d1a47f3726130db14b1c4efa0",
+    "persistence.ts": "c521893cc70fc1420b399095d5dc57829b53f7fb69473097745258fc4ac3131b",
+    "audio.ts": "af34a42b0a80e5581108ff70cec932a8cb46cadf07c9411f42072169877af64c",
+    "screen.module.css": "4cf24d857c5a584b225e961d8622ace6a7f35e2d55e797febb6e8777c4768511"
+  },
+  "bundle": {
+    "sha256": "b623fa013a49d5c85060aa37c5aad07d43a2f2f7ce2128ceea02ca6be3a176b8",
+    "bytes": 2529632
+  },
+  "fidelity": {
+    "visualApproval": false,
+    "nativeParityVerified": false,
+    "exactSteamRevisionVerified": false,
+    "physicalDeviceTested": false,
+    "listeningPerformed": false,
+    "status": "Implemented local candidate; source fidelity sign-off remains incomplete",
+    "remaining": [
+      "Independent actual-size review and further authored anatomy, directional motion, scenery/camera and special-effect refinement.",
+      "Physical Android Chrome and iPhone Safari lifecycle/performance testing.",
+      "Listening review of revised original cues/music and gameplay mix.",
+      "Controlled native input/AI/probability verification remains unavailable with public footage only."
+    ]
+  },
+  "release": {
+    "localOnly": true,
+    "pushed": false,
+    "pipelineActivated": false,
+    "published": false,
+    "flutterImported": false
+  },
+  "unrelatedEdits": "Concurrent cricket, Vibe Basketball and shared-route changes preserved, not staged or reset."
+}

@@ -1,0 +1,145 @@
+@import "tailwindcss" source("../");
+@import "@statoz/design-system/games/styles/tokens.css";
+
+/* Embedded games compile their own styles in isolated source workspaces. */
+@source not "../features/games/*/source";
+
+/* A phone held sideways (or the rotated platform frame): wide but short. */
+@custom-variant phone-land (@media (orientation: landscape) and (max-height: 540px));
+
+@theme inline {
+  /* Surfaces */
+  --color-background: var(--ds-color-background-primary);
+  --color-surface: var(--ds-color-background-secondary);
+  --color-surface-elevated: var(--ds-color-background-elevated);
+  --color-surface-muted: var(--ds-color-background-muted);
+  --color-surface-nav: var(--ds-color-background-nav);
+
+  /* Text */
+  --color-foreground: var(--ds-color-text-default);
+  --color-muted: var(--ds-color-text-muted);
+  --color-subtle: var(--ds-color-text-subtle);
+  --color-inverse: var(--ds-color-text-inverse);
+  --color-disabled: var(--ds-color-text-disabled);
+
+  /* Borders */
+  --color-line: var(--ds-color-border-default);
+  --color-line-muted: var(--ds-color-border-muted);
+  --color-line-subtle: var(--ds-color-border-subtle);
+  --color-line-strong: var(--ds-color-border-strong);
+  --color-line-inactive: var(--ds-color-border-inactive);
+
+  /* Accents */
+  --color-accent: var(--ds-color-accent-cyan);
+  --color-sport-white: var(--ds-color-accent-white);
+  --color-cyan: var(--ds-color-accent-cyan);
+  --color-violet: var(--ds-color-accent-violet);
+  --color-orange: var(--ds-color-accent-orange);
+  --color-lime: var(--ds-color-accent-lime);
+  --color-gold: var(--ds-color-accent-gold);
+  --color-blue: var(--ds-color-accent-blue);
+  --color-racing: var(--ds-color-accent-racing);
+  --color-pink: var(--ds-color-accent-pink);
+
+  /* Rarity */
+  --color-bronze: var(--ds-color-rarity-bronze-base);
+  --color-bronze-light: var(--ds-color-rarity-bronze-light);
+  --color-bronze-deep: var(--ds-color-rarity-bronze-deep);
+  --color-silver: var(--ds-color-rarity-silver-base);
+  --color-silver-light: var(--ds-color-rarity-silver-light);
+  --color-silver-deep: var(--ds-color-rarity-silver-deep);
+  --color-gold-light: var(--ds-color-rarity-gold-light);
+  --color-gold-deep: var(--ds-color-rarity-gold-deep);
+  --color-platinum: var(--ds-color-rarity-platinum-base);
+  --color-platinum-light: var(--ds-color-rarity-platinum-light);
+  --color-platinum-deep: var(--ds-color-rarity-platinum-deep);
+
+  /* Feedback */
+  --color-success: var(--ds-color-success);
+  --color-warning: var(--ds-color-warning);
+  --color-danger: var(--ds-color-danger);
+  --color-info: var(--ds-color-info);
+
+  /* Type */
+  --font-sans: var(--ds-font-body);
+  --font-display: var(--ds-font-display);
+  --font-mono: var(--ds-font-mono);
+  --text-nano: var(--ds-text-nano);
+  --text-micro: var(--ds-text-micro);
+  --text-2xs: var(--ds-text-2xs);
+  --text-xs: var(--ds-text-xs);
+  --text-compact: var(--ds-text-compact);
+  --text-sm: var(--ds-text-sm);
+  --text-md: var(--ds-text-md);
+  --text-base: var(--ds-text-base);
+  --text-lg: var(--ds-text-lg);
+  --text-badge: var(--ds-text-badge);
+  --text-xl: var(--ds-text-xl);
+  --text-2xl: var(--ds-text-2xl);
+  --text-3xl: var(--ds-text-3xl);
+  --text-hero: var(--ds-text-hero);
+  --text-celebration: var(--ds-text-celebration);
+  --text-countdown: var(--ds-text-countdown);
+  --leading-compact: var(--ds-leading-compact);
+  --leading-tight: var(--ds-leading-tight);
+  --leading-body: var(--ds-leading-body);
+  --leading-relaxed: var(--ds-leading-relaxed);
+  --tracking-tight: var(--ds-tracking-tight);
+  --tracking-label: var(--ds-tracking-label);
+  --tracking-wide: var(--ds-tracking-wide);
+  --tracking-display: var(--ds-tracking-display);
+  --tracking-ultra: var(--ds-tracking-ultra);
+  --tracking-mega: var(--ds-tracking-mega);
+  --tracking-max: var(--ds-tracking-max);
+
+  --font-weight-light: var(--ds-weight-light);
+  --font-weight-regular: var(--ds-weight-regular);
+  --font-weight-medium: var(--ds-weight-medium);
+  --font-weight-semibold: var(--ds-weight-semibold);
+  --font-weight-bold: var(--ds-weight-bold);
+  --font-weight-extrabold: var(--ds-weight-extrabold);
+  --font-weight-black: var(--ds-weight-black);
+
+  /* Shape */
+  --radius-sm: var(--ds-radius-sm);
+  --radius-md: var(--ds-radius-md);
+  --radius-pill: var(--ds-radius-pill);
+  --shadow-streak-card: var(--ds-shadow-streak-card);
+  --background-image-streak-milestone: var(--ds-gradient-streak-milestone);
+}
+
+body {
+  font-size: var(--ds-type-body-size);
+  font-weight: var(--ds-type-body-weight);
+  line-height: var(--ds-type-body-leading);
+  background: var(--ds-color-background-primary);
+  color: var(--ds-color-text-default);
+  font-family: var(--ds-font-body);
+}
+
+/* Numbers that sit in columns or animate must not jitter. */
+.ds-tabular {
+  font-feature-settings: var(--ds-numeric-tabular);
+  font-variant-numeric: tabular-nums;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ds-color-accent-cyan);
+  outline-offset: 2px;
+}
+
+/* InputField paints its own chamfered focus edge; a rectangular browser
+   outline would make the two focus treatments compete. */
+input[data-ds-input-field]:focus-visible {
+  outline: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

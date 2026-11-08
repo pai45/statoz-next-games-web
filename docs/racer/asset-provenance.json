@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "title": "Racer",
+  "originalTitle": "Crazy Grand Prix",
+  "scope": "Local adaptation of recovered proprietary reference geometry; original rights and source notices retained. New game code is authored in this checkout.",
+  "assets": [
+    {
+      "id": "body",
+      "source": ".local-game-assets/f1-racing/objects/Mesh/resources_assets_190.obj",
+      "sha256": "6251e3169b816b71c30e29f2dbe8b0ee2efb879440ef0bfc73d4c8c72ac6fa8d",
+      "vertices": 3943,
+      "triangles": 5542,
+      "adaptation": "Geometry retained; textures omitted; newly authored materials, placement, lighting and circuit signage."
+    },
+    {
+      "id": "chassis",
+      "source": ".local-game-assets/f1-racing/objects/Mesh/resources_assets_189.obj",
+      "sha256": "38696ced0f6e8dde753a83a9b9a887a1d98319b2a94471f92eea02e2fb1808bc",
+      "vertices": 6675,
+      "triangles": 5920,
+      "adaptation": "Geometry retained; textures omitted; newly authored materials, placement, lighting and circuit signage."
+    },
+    {
+      "id": "frontWheel",
+      "source": ".local-game-assets/f1-racing/objects/Mesh/resources_assets_188.obj",
+      "sha256": "1ccfe0e4a24eb00a9a610e2cda64ab4a1b733bca3b2a89ef9626101ed93020e1",
+      "vertices": 832,
+      "triangles": 838,
+      "adaptation": "Geometry retained; textures omitted; newly authored materials, placement, lighting and circuit signage."
+    },
+    {
+      "id": "rearWheel",
+      "source": ".local-game-assets/f1-racing/objects/Mesh/resources_assets_180.obj",
+      "sha256": "c3ebed30e96c773653fb8745b1880a0ab2481d5d38e910a60977a3ce65483b52",
+      "vertices": 832,
+      "triangles": 838,
+      "adaptation": "Geometry retained; textures omitted; newly authored materials, placement, lighting and circuit signage."
+    },
+    {
+      "id": "grandstand",
+      "source": ".local-game-assets/f1-racing/objects/Mesh/resources_assets_186.obj",
+      "sha256": "d2f217cea40589c2f5c5f35e5e8fb554d3086afa41cf4f58e1e514a4db6d763b",
+      "vertices": 3790,
+      "triangles": 2204,
+      "adaptation": "Geometry retained; textures omitted; newly authored materials, placement, lighting and circuit signage."
+    },
+    {
+      "id": "gantry",
+      "source": ".local-game-assets/f1-racing/objects/Mesh/sharedassets1_assets_75.obj",
+      "sha256": "734f3333b8f0405888301f20646e5f65d56d6d49cca6ea28461d115fb47a3ddf",
+      "vertices": 496,
+      "triangles": 248,
+      "adaptation": "Geometry retained; textures omitted; newly authored materials, placement, lighting and circuit signage."
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "gameId": "retro-hoops",
+  "agent": "street_hoop_artist (executed inline by the parent session)",
+  "skill": "street-hoop-assets",
+  "build": "character-v25-local",
+  "assets": "25.0.0",
+  "rules": "2.0.0",
+  "scope": "reference street-event venue",
+  "changes": [
+    "Backdrop: near-black warehouse with drape folds and three warm overhead light pools; brick wall, buildings and chain-link fence removed.",
+    "Crowd: standing rows of muscular spectators in muted beige/grey/khaki/olive tees and tanks with generic printed numbers, maroon/brown shorts, caps; seated front row cross-legged on the floor; occasional cheering.",
+    "Centre DJ booth: DJ in headphones behind turntables over a navy booth banner with a red stripe, gold star and original text STREET JAM (source lettering and logos not copied).",
+    "Baskets: chunky braced light-grey steel scaffold towers behind each baseline with arms to the backboards; spare balls and a duffel bag at each tower foot.",
+    "Backboard art: perforated grey-white board in a dark steel frame, white net, orange rim; rim anchors unchanged.",
+    "Court surface and legal markings unchanged."
+  ],
+  "research": [
+    "https://www.youtube.com/watch?v=38Qlqw2re1w venue frames 27-162s"
+  ],
+  "checks": {
+    "pipelineSteps": {
+      "art": "passed",
+      "bundle": "passed",
+      "console": "passed",
+      "contract": "passed",
+      "fidelity": "passed",
+      "host": "passed",
+      "lint": "passed",
+      "motion-build": "passed",
+      "motion-capture": "passed",
+      "motion-encode": "passed",
+      "pack": "passed",
+      "rules-tests": "passed",
+      "static-build": "passed",
+      "typecheck": "passed",
+      "wire": "passed"
+    },
+    "rulesInputAndIntegrationTests": 86,
+    "assetIntegrity": 13,
+    "rigContract": {
+      "frames": 2276,
+      "ballHoldingHandEndpointsUnchanged": true,
+      "freeHandClips": [
+        "backpedal",
+        "defend",
+        "neutral-a",
+        "neutral-b"
+      ],
+      "freeHandFramesChanged": 0,
+      "dunkPoses": 104,
+      "maxReach": 40.80441152620633,
+      "dribbleOverlayShoulderMatches": 12,
+      "changedAnchorKinds": {},
+      "scope": "V25 vs V24: foot origin, dribble-ball endpoints and every ball-holding hand endpoint unchanged; dunk shoulders/elbows unchanged and reachable. Non-ball ready/defend hands may be re-authored."
+    },
+    "productionActionLoops": 16,
+    "decodedVideos": 16,
+    "hostFlow": 6,
+    "mobileConsole": 12,
+    "lint": "passed (1 unrelated retro-circuit warning)",
+    "typecheck": "passed",
+    "staticBuild": "passed"
+  },
+  "pack": {
+    "bodyFrameEntries": 2276,
+    "distinctBodyFrames": 1184,
+    "headFrameEntries": 36,
+    "atlasPages": 3,
+    "referenceRasterInputs": 0,
+    "previousPackPreserved": true
+  },
+  "correctionRecord": "test-results/retro-hoops-character-v25/correction-record.json",
+  "fidelityMatrix": [
+    {
+      "feature": "Backdrop, crowd and DJ booth arrangement",
+      "status": "approximate",
+      "review": "Arrangement and palette follow the shared reference venue; all code-drawn original art."
+    },
+    {
+      "feature": "Scaffold-mounted baskets",
+      "status": "approximate",
+      "review": "Tower construction follows observed frames; rim anchors unchanged."
+    },
+    {
+      "feature": "Branding and lettering",
+      "status": "adapted",
+      "review": "Original STREET JAM banner; no source logos or text."
+    },
+    {
+      "feature": "Native timing, input windows, hidden AI",
+      "status": "unverified",
+      "review": "Not recovered."
+    }
+  ],
+  "review": {
+    "structural": "passed",
+    "visual": "Rebuilt the venue after the one shared by both reference videos (GameLog Korea vs France; Arcadexzone Italy vs Taiwan): dark draped warehouse with warm light, a dense muted crowd standing and sitting on the floor, a centre DJ booth, and baskets mounted on steel scaffold towers with spare balls and bags. Characters unchanged from V24.",
+    "gameplay": "Simulation/AI/input untouched; 86 tests pass.",
+    "sourceLikenessApproved": false,
+    "exactLikenessAchieved": false,
+    "nativeTimingRecovered": false,
+    "physicalDeviceTested": false,
+    "limitations": [
+      "Duffel bag near the left tower base reads as a floating black box; scaffold towers stand taller than the backboards (next pass).",
+      "Street Hoop changes venue by matchup (brick street court with fence, park court, Champion Ship arena); Retro Hoops keeps one venue (the one shared by both reference videos).",
+      "DJ figure and crowd are simpler than the source's painted spectators.",
+      "Knock-down after super dunks deferred by the user (gameplay unchanged).",
+      "Bodies stay per team; native timing and physical devices unverified."
+    ]
+  },
+  "hashes": {
+    "scripts/retro_hoops_character.py": "6ad5c605f9399ecf0c14944c375fef7fc3d3d7c14cb13de3163bc33ac045a56a",
+    "scripts/retro_hoops_volume.py": "93debf78c29124b28ee0f1c1f88e9f27bad4efd1e70d91def878e146572cb1f9",
+    "scripts/build-retro-hoops-authored.py": "ef152b2703fbd8114451a723b1615440111b5683059ae50feddee34e6c68ecbd",
+    "src/features/games/retro-hoops/contact-arm.ts": "5c49e58741a260a985cad2c476344777916acf1aa15e57e6e4edf72f26d165aa",
+    "src/features/games/retro-hoops/view.ts": "96403e0178bbb98c70b4efbe9b5650f1f766b86851a234e9f7fc736260d78778",
+    "src/features/games/retro-hoops/renderer.ts": "9202e82365872589a272c88ea2a9a78a0c84003e2e1c07201fcdfdefea9f5d78",
+    "src/features/games/retro-hoops/presentation.ts": "9577d626817d5ddcd8cdddc7ef38119efd6022bf3661c3c7ae3edad10aa2fcb6",
+    "src/features/games/retro-hoops/court.ts": "c7b347de7389ca47b997a116e6083a6bccadd628a34a3686eb8428b9c409a28b",
+    "src/features/games/retro-hoops/crowd.ts": "83efab4569bca191bcf4174928cbac7c474110e865967c70d49666e50e552907",
+    "src/features/games/retro-hoops/character-pack.ts": "bbb533c13bed538081ae825b01a76d0d0ecf22ab455b4557532f6b165b3b4ecf",
+    "src/features/games/retro-hoops/reference-profile.ts": "1e0f51d9dbe1323aa2f88afe77cf1034326c5afc4f1ff741e79ca76892fa843d",
+    "public/games/retro-hoops/authored-v25/manifest.json": "a4577f0b55bf99bc0e6e6853711ec14982d162188315533d7a5082d92cf2dd90",
+    "public/games/retro-hoops/credits.json": "37d905df6561479a53a18be3a89ed8a4b2e088f5ba37d023aa434ade4ec82b16",
+    "public/embedded-games/retro-hoops/index.html": "3996fa5e3cf90e651e457c5cd9f343958e29f4323e0e1c7a7811aad4223dada2"
+  },
+  "release": {
+    "localOnly": true,
+    "pushed": false,
+    "published": false,
+    "pipelineActivated": false
+  }
+}

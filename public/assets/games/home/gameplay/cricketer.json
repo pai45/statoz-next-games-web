@@ -1,0 +1,12 @@
+{
+  "gameId": "cricketer",
+  "file": "cricketer.mp4",
+  "durationSeconds": 8,
+  "width": 1280,
+  "height": 720,
+  "fps": 12,
+  "source": "/embedded-games/cricketer/index.html",
+  "method": "Actual local game runtime captured with Playwright; silent H.264 with restrained contrast/saturation grading.",
+  "sha256": "0a31cfac26521f4e7f97709b5397ff38195861b0e3997474f8cb7aa9ce990e9e",
+  "bytes": 206074
+}

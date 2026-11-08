@@ -1,0 +1,228 @@
+{
+  "version": 1,
+  "created": "2026-11-06",
+  "description": "Original silent recordings of the local playable games. Source artwork, code and asset notices remain with their games; original game styles are unchanged.",
+  "assets": [
+    {
+      "gameId": "cricketer",
+      "file": "cricketer.mp4",
+      "durationSeconds": 8,
+      "width": 1280,
+      "height": 720,
+      "fps": 12,
+      "source": "/embedded-games/cricketer/index.html",
+      "method": "Actual local game runtime captured with Playwright; silent H.264 with restrained contrast/saturation grading.",
+      "sha256": "0a31cfac26521f4e7f97709b5397ff38195861b0e3997474f8cb7aa9ce990e9e",
+      "bytes": 206074,
+      "sourceNotices": [
+        "/games/cricketer/PROVENANCE.json",
+        "/games/cricketer/provenance.json"
+      ]
+    },
+    {
+      "gameId": "f1-racing",
+      "file": "f1-racing.mp4",
+      "durationSeconds": 8,
+      "width": 1280,
+      "height": 720,
+      "fps": 12,
+      "source": "/embedded-games/f1-racing/index.html",
+      "method": "Actual local game runtime captured with Playwright; silent H.264 with restrained contrast/saturation grading.",
+      "sha256": "7873ea4a9010cabb73440fd6ac00e157270f9c07bc5a1d967fb22bf88e265809",
+      "bytes": 2263400,
+      "sourceNotices": [
+        "/games/f1-racing/PROVENANCE.json",
+        "/games/f1-racing/provenance.json"
+      ]
+    },
+    {
+      "gameId": "football-chess",
+      "file": "football-chess.mp4",
+      "durationSeconds": 8,
+      "width": 1280,
+      "height": 720,
+      "fps": 12,
+      "source": "/play/football-chess",
+      "method": "Actual local game runtime captured with Playwright; silent H.264 with restrained contrast/saturation grading.",
+      "sha256": "42be65d785cd7bf02897043b537a4d98455999bc54b919b265cbc8f0cc1d8c90",
+      "bytes": 261335,
+      "sourceNotices": []
+    },
+    {
+      "gameId": "grand-prix-dash",
+      "file": "grand-prix-dash.mp4",
+      "durationSeconds": 8,
+      "width": 1280,
+      "height": 720,
+      "fps": 12,
+      "source": "/play/rally",
+      "method": "Actual local game runtime captured with Playwright; silent H.264 with restrained contrast/saturation grading.",
+      "sha256": "4c91f7b062fea233ad0dd3d53232ee845b399258ca793b42eb4de114fbd1fb0e",
+      "bytes": 1308311,
+      "sourceNotices": [
+        "/assets/games/grand-prix-dash/PROVENANCE.json"
+      ]
+    },
+    {
+      "gameId": "holdover",
+      "file": "holdover.mp4",
+      "durationSeconds": 8,
+      "width": 1280,
+      "height": 720,
+      "fps": 12,
+      "source": "/embedded-games/holdover/index.html",
+      "method": "Actual local game runtime captured with Playwright; silent H.264 with restrained contrast/saturation grading.",
+      "sha256": "6d59d91c08c4085f5419934e36fc59214951fad3e12ee97ec818557949bdd399",
+      "bytes": 622527,
+      "sourceNotices": [
+        "/games/holdover/PROVENANCE.json",
+        "/games/holdover/provenance.json"
+      ]
+    },
+    {
+      "gameId": "hoop-legacy",
+      "file": "hoop-legacy.mp4",
+      "durationSeconds": 8,
+      "width": 1280,
+      "height": 720,
+      "fps": 12,
+      "source": "/embedded-games/hoop-legacy/index.html",
+      "method": "Actual local game runtime captured with Playwright; silent H.264 with restrained contrast/saturation grading.",
+      "sha256": "dcc61c35a2caf568d3934b3ce6a1de7e04028c38c44b91f06a6495375b837a3b",
+      "bytes": 2132340,
+      "sourceNotices": []
+    },
+    {
+      "gameId": "longbow",
+      "file": "longbow.mp4",
+      "durationSeconds": 8,
+      "width": 1280,
+      "height": 720,
+      "fps": 12,
+      "source": "/embedded-games/longbow/index.html",
+      "method": "Actual local game runtime captured with Playwright; silent H.264 with restrained contrast/saturation grading.",
+      "sha256": "9f6274bb03da1157d9a5e73a91f56148a8d830ec84d5366a89d30f284ce554db",
+      "bytes": 1220001,
+      "sourceNotices": [
+        "/games/longbow/PROVENANCE.json",
+        "/games/longbow/provenance.json"
+      ]
+    },
+    {
+      "gameId": "open-golf",
+      "file": "open-golf.mp4",
+      "durationSeconds": 8,
+      "width": 1280,
+      "height": 720,
+      "fps": 12,
+      "source": "/embedded-games/open-golf/index.html",
+      "method": "Actual local game runtime captured with Playwright; silent H.264 with restrained contrast/saturation grading.",
+      "sha256": "fdddddb13dd9b8610b2048053a2da320ec69d67cb1c7440f9bd07f7285c22f38",
+      "bytes": 375809,
+      "sourceNotices": []
+    },
+    {
+      "gameId": "penalty-cup",
+      "file": "penalty-cup.mp4",
+      "durationSeconds": 8,
+      "width": 1280,
+      "height": 720,
+      "fps": 12,
+      "source": "/embedded-games/penalty-cup/index.html",
+      "method": "Actual local game runtime captured with Playwright; silent H.264 with restrained contrast/saturation grading.",
+      "sha256": "3d1fe7b441b5a764156e91d27b04bc60bdf111f6053fa17a8c52cb015466a92f",
+      "bytes": 1306560,
+      "sourceNotices": [
+        "/games/penalty-cup/PROVENANCE.json",
+        "/games/penalty-cup/provenance.json"
+      ]
+    },
+    {
+      "gameId": "pitch-duel",
+      "file": "pitch-duel.mp4",
+      "durationSeconds": 8,
+      "width": 1280,
+      "height": 720,
+      "fps": 12,
+      "source": "/play/pitch-duel",
+      "method": "Actual local game runtime captured with Playwright; silent H.264 with restrained contrast/saturation grading.",
+      "sha256": "dbb70d35686e5bd3044ebbff50775e855716d2c266c56886f8541779e0346ad9",
+      "bytes": 1391349,
+      "sourceNotices": [
+        "/games/pitch-duel/PROVENANCE.json",
+        "/games/pitch-duel/provenance.json"
+      ]
+    },
+    {
+      "gameId": "pitch-rush",
+      "file": "pitch-rush.mp4",
+      "durationSeconds": 8,
+      "width": 1280,
+      "height": 720,
+      "fps": 12,
+      "source": "/embedded-games/pitch-rush/index.html",
+      "method": "Actual local game runtime captured with Playwright; silent H.264 with restrained contrast/saturation grading.",
+      "sha256": "5a172aa6a2f83e3f513c1f3ff979c57da4927c9128dc15bfc3391f9789a1e291",
+      "bytes": 200366,
+      "sourceNotices": []
+    },
+    {
+      "gameId": "portfolio-formula",
+      "file": "portfolio-formula.mp4",
+      "durationSeconds": 8,
+      "width": 1280,
+      "height": 720,
+      "fps": 12,
+      "source": "/embedded-games/portfolio-formula/index.html",
+      "method": "Actual local game runtime captured with Playwright; silent H.264 with restrained contrast/saturation grading.",
+      "sha256": "411e8aed0fcfbb7754a98a140a4669ed6e3b13f4b6bafbe48e02f483b0210cf8",
+      "bytes": 1000871,
+      "sourceNotices": []
+    },
+    {
+      "gameId": "rim-rush",
+      "file": "rim-rush.mp4",
+      "durationSeconds": 8,
+      "width": 1280,
+      "height": 720,
+      "fps": 12,
+      "source": "/embedded-games/rim-rush/index.html",
+      "method": "Actual local game runtime captured with Playwright; silent H.264 with restrained contrast/saturation grading.",
+      "sha256": "3aa2bf3135caf4887ec02aef3484562088229b267568e46aaaf62d87ab8ee1da",
+      "bytes": 297898,
+      "sourceNotices": [
+        "/games/rim-rush/PROVENANCE.json",
+        "/games/rim-rush/provenance.json"
+      ]
+    },
+    {
+      "gameId": "vibe-basketball",
+      "file": "vibe-basketball.mp4",
+      "durationSeconds": 8,
+      "width": 1280,
+      "height": 720,
+      "fps": 12,
+      "source": "/embedded-games/vibe-basketball/index.html",
+      "method": "Actual local game runtime captured with Playwright; silent H.264 with restrained contrast/saturation grading.",
+      "sha256": "824b14001145002c3ff6f23959e9189a33c09818515cddb1f6e133201d7a72a6",
+      "bytes": 1239635,
+      "sourceNotices": []
+    },
+    {
+      "gameId": "yorker",
+      "file": "yorker.mp4",
+      "durationSeconds": 8,
+      "width": 1280,
+      "height": 720,
+      "fps": 12,
+      "source": "/embedded-games/yorker/index.html",
+      "method": "Actual local game runtime captured with Playwright; silent H.264 with restrained contrast/saturation grading.",
+      "sha256": "0a2d1508f538ac8c1e0f76bcbb3b27ad51d47ea225c9301cd9b97c585c65e9cd",
+      "bytes": 297127,
+      "sourceNotices": [
+        "/games/yorker/PROVENANCE.json",
+        "/games/yorker/provenance.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+interface:
+  display_name: "StatOz Design System"
+  short_description: "Keep StatOz UI consistent and correctly organized"
+  brand_color: "#5CDFFF"
+  default_prompt: "Use $statoz-design-system to build this UI with the project's design tokens and component boundaries."

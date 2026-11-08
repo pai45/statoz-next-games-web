@@ -1,0 +1,256 @@
+/*
+ * The team sheet as a board. The surface is drawn in CSS — a survey grid, the
+ * boundary, a halfway line and a centre circle, plus the boxes each sport
+ * marks — so it scales with the panel instead of being an image.
+ */
+
+.view { display: flex; min-height: 0; height: 100%; flex-direction: column; container-type: inline-size; }
+
+.scroll {
+  display: grid;
+  min-height: 0;
+  flex: 1;
+  align-content: start;
+  gap: 12px;
+  padding: 4px 16px 28px;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+}
+
+.panel {
+  padding: 14px;
+  border: 1px solid color-mix(in srgb, var(--team-color) 40%, transparent);
+  background: var(--ds-color-background-secondary);
+  clip-path: var(--ds-clip-panel);
+}
+
+.boardPanel { padding: 8px; }
+
+/* ---- Identity -------------------------------------------------------------- */
+
+.identity { display: flex; align-items: center; gap: 12px; }
+.identityCopy { display: grid; min-width: 0; flex: 1; gap: 4px; }
+.identityCopy strong { overflow: hidden; color: var(--ds-color-text-default); font-family: var(--ds-font-display); font-size:var(--ds-size-p15); font-weight:var(--ds-weight-black); letter-spacing: .04em; text-overflow: ellipsis; white-space: nowrap; }
+.identityCopy small { color: var(--ds-color-text-muted); font-family: var(--ds-font-display); font-size:var(--ds-size-p8_5); font-weight:var(--ds-weight-black); letter-spacing: .09em; }
+
+.sheetState {
+  flex: none;
+  padding: 5px 8px;
+  border: 1px solid color-mix(in srgb, var(--state-color) 50%, transparent);
+  background: color-mix(in srgb, var(--state-color) 10%, transparent);
+  color: var(--state-color);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p8);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: .09em;
+}
+
+/* ---- The surface ----------------------------------------------------------- */
+
+.pitch {
+  position: relative;
+  aspect-ratio: 0.66;
+  overflow: hidden;
+  background: var(--ds-color-background-secondary);
+  clip-path: var(--ds-clip-panel);
+}
+.pitchCourt { aspect-ratio: 0.74; }
+
+/* Every marking is drawn in this one colour. */
+.pitch { --line: color-mix(in srgb, var(--ds-color-border-strong) 32%, transparent); }
+
+/* The survey grid, the boundary and the halfway line. */
+
+.markings {
+  position: absolute;
+  inset: 0;
+  background:
+    /* Halfway line. */
+    linear-gradient(var(--line), var(--line)) 0 50% / 100% 1.2px no-repeat;
+  box-shadow: inset 0 0 0 1.2px var(--line);
+}
+
+/* The penalty area at each end; the goal area nests inside it. */
+.markings::before,
+.markings::after {
+  position: absolute;
+  left: 50%;
+  width: 54%;
+  height: 15%;
+  transform: translateX(-50%);
+  content: "";
+  box-shadow: inset 0 0 0 1.2px var(--line);
+}
+.markings::before { top: 0; }
+.markings::after { bottom: 0; }
+
+.goalAreas { position: absolute; inset: 0; pointer-events: none; }
+.goalAreas::before,
+.goalAreas::after {
+  position: absolute;
+  left: 50%;
+  width: 26%;
+  height: 5.5%;
+  transform: translateX(-50%);
+  content: "";
+  box-shadow: inset 0 0 0 1.2px var(--line);
+}
+.goalAreas::before { top: 0; }
+.goalAreas::after { bottom: 0; }
+
+/* A court marks a key at each end and no goal area. */
+.pitchCourt .markings::before,
+.pitchCourt .markings::after { width: 36%; height: 22%; }
+.pitchCourt .goalAreas { display: none; }
+
+/* The centre circle: 15% of the width as a radius, so 30% across. */
+.centreCircle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30%;
+  aspect-ratio: 1;
+  transform: translate(-50%, -50%);
+  border: 1.2px solid var(--line);
+  border-radius: 50%;
+}
+
+.centreSpot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--team-color) 12%, transparent);
+}
+
+.rows {
+  position: relative;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 12px 8px;
+}
+.row { display: flex; justify-content: space-evenly; gap: 4px; }
+
+.player {
+  display: grid;
+  width: 72px;
+  min-height: 60px;
+  justify-items: center;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: inherit;
+  cursor: default;
+}
+button.player { cursor: pointer; transition: scale 110ms ease; }
+button.player:hover .playerNumber { box-shadow: inset 0 0 0 1.5px var(--team-color), 0 0 9px color-mix(in srgb, var(--team-color) 30%, transparent); }
+button.player:active { scale: .92; }
+button.player:focus-visible { outline-color: var(--team-color); outline-offset: 2px; }
+
+.playerBadge { position: relative; display: block; width: 38px; height: 38px; }
+
+.playerNumber {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  clip-path: var(--ds-clip-octagon);
+  background: var(--ds-color-background-secondary);
+  box-shadow: inset 0 0 0 1.5px color-mix(in srgb, var(--team-color) 78%, transparent);
+  color: var(--team-color);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p12);
+  font-weight:var(--ds-weight-black);
+  font-variant-numeric: tabular-nums;
+}
+
+.playerName {
+  max-width: 100%;
+  margin-top: 4px;
+  overflow: hidden;
+  padding: 3px 4px;
+  border: 1px solid color-mix(in srgb, var(--ds-color-border-strong) 20%, transparent);
+  background: color-mix(in srgb, var(--ds-color-background-primary) 82%, transparent);
+  color: var(--ds-color-text-default);
+  font-size:var(--ds-size-p8_5);
+  font-weight:var(--ds-weight-extrabold);
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.playerMarks {
+  position: absolute;
+  top: -5px;
+  right: -8px;
+  display: flex;
+  gap: 1px;
+}
+.playerMarks i {
+  display: grid;
+  width: 14px;
+  height: 14px;
+  place-items: center;
+  border: 1px solid color-mix(in srgb, var(--mark-color) 75%, transparent);
+  border-radius: 50%;
+  background: var(--ds-color-background-primary);
+  color: var(--mark-color);
+}
+.playerMarks i[data-tone="goal"] { --mark-color: var(--ds-color-accent-gold); box-shadow: 0 0 6px color-mix(in srgb, var(--ds-color-accent-gold) 50%, transparent); }
+.playerMarks i[data-tone="assist"] { --mark-color: var(--ds-color-accent-cyan); }
+.playerMarks i[data-tone="red"] { --mark-color: var(--ds-color-danger); }
+.playerMarks i[data-tone="yellow"] { --mark-color: var(--ds-color-accent-gold); }
+.playerMarks i[data-tone="sub"] { --mark-color: var(--ds-color-text-muted); }
+
+/* ---- Bench ----------------------------------------------------------------- */
+
+.benchHead { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 12px; font-family: var(--ds-font-display); font-weight:var(--ds-weight-black); }
+.benchHead b { color: var(--team-color); font-size:var(--ds-size-p10); letter-spacing: .12em; }
+.benchHead small { color: var(--ds-color-text-muted); font-size:var(--ds-size-p8); letter-spacing: .08em; }
+
+.benchEmpty { margin: 0; color: var(--ds-color-text-muted); font-size:var(--ds-size-p12); }
+
+.bench { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+
+.benchTile {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 9px;
+  border: 1px solid color-mix(in srgb, var(--ds-color-border-strong) 20%, transparent);
+  background: color-mix(in srgb, var(--ds-color-background-secondary) 48%, transparent);
+  color: inherit;
+  text-align: left;
+}
+button.benchTile { cursor: pointer; transition: border-color 130ms ease, background 130ms ease, scale 110ms ease; }
+button.benchTile:hover { border-color: color-mix(in srgb, var(--team-color) 50%, transparent); background: color-mix(in srgb, var(--team-color) 7%, var(--ds-color-background-secondary)); }
+button.benchTile:active { scale: .97; }
+button.benchTile:focus-visible { outline-color: var(--team-color); }
+.benchTile > b { width: 28px; flex: none; color: var(--team-color); font-family: var(--ds-font-display); font-size:var(--ds-size-p10); font-weight:var(--ds-weight-black); font-variant-numeric: tabular-nums; }
+.benchTile > span { display: grid; min-width: 0; }
+.benchTile > .playerMarks { position: static; display: flex; min-width: auto; margin-left: auto; }
+.benchTile strong { overflow: hidden; color: var(--ds-color-text-default); font-size:var(--ds-size-p10); font-weight:var(--ds-weight-extrabold); text-overflow: ellipsis; white-space: nowrap; }
+.benchTile small { overflow: hidden; color: var(--ds-color-text-muted); font-family: var(--ds-font-display); font-size:var(--ds-size-p7); font-weight:var(--ds-weight-black); letter-spacing: .06em; text-overflow: ellipsis; white-space: nowrap; }
+
+/* ---- Desktop --------------------------------------------------------------- */
+
+@container (width >= 52rem) {
+  /* The board and the squad read side by side rather than stacked. */
+  .scroll {
+    grid-template-columns: minmax(0, 1fr) minmax(260px, 0.7fr);
+    grid-template-areas: "identity identity" "board bench";
+    padding: 4px 24px 28px;
+    overflow: visible;
+  }
+  .scroll > :first-child { grid-area: identity; }
+  .boardPanel { grid-area: board; }
+  .scroll > :last-child { grid-area: bench; align-self: start; }
+  .bench { grid-template-columns: minmax(0, 1fr); }
+  .view { height: auto; }
+}

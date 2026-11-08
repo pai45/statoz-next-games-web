@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" preserveAspectRatio="none">
+<defs>
+  <linearGradient id="signal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5cdfff" stop-opacity=".16"/><stop offset=".55" stop-color="#5cdfff" stop-opacity=".045"/><stop offset="1" stop-color="#5cdfff" stop-opacity="0"/></linearGradient>
+  <linearGradient id="edge" x1="1" y1="0" x2="0" y2="1"><stop stop-color="#5cdfff" stop-opacity=".13"/><stop offset=".7" stop-color="#5cdfff" stop-opacity=".03"/><stop offset="1" stop-color="#5cdfff" stop-opacity="0"/></linearGradient>
+  <linearGradient id="armour" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0f172b" stop-opacity=".7"/><stop offset="1" stop-color="#0f172b" stop-opacity=".1"/></linearGradient>
+</defs>
+<g opacity=".368">
+<path d="M0 0H450L300 150H170L0 320Z" fill="url(#armour)"/>
+<path d="M0 410L410 0H610L0 610Z" fill="url(#signal)"/>
+<path d="M1000 120V690L730 960H540L880 620V240Z" fill="url(#edge)"/>
+<path d="M0 510L190 700H350L570 920V1000H0Z" fill="url(#armour)"/>
+<g fill="none" stroke="#5cdfff" stroke-width="1.3" stroke-opacity=".19">
+  <path d="M0 145H160L255 50H450"/>
+  <path d="M1000 335H966L920 381V655L772 803H668"/>
+  <path d="M0 733H72L130 791H230"/>
+</g>
+<g fill="#5cdfff" fill-opacity=".22"><path d="M970 205H980V228H970ZM970 235H980V250H970ZM970 257H980V265H970Z"/><path d="M16 760H53L66 773H29Z"/></g>
+</g>
+</svg>

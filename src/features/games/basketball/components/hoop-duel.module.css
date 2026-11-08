@@ -1,0 +1,318 @@
+/**
+ * Motion and pseudo-state only.
+ *
+ * Everything the duel animates per frame — the court, the rigs, the ball, the
+ * crowd — runs off a rAF loop into a canvas, because those are geometry rather
+ * than style. What is left here is the chrome around it: things that enter,
+ * pulse, or light up, which the cascade does better than a controller.
+ *
+ * The global `prefers-reduced-motion` damper in `globals.css` already stills
+ * everything below; the canvas asks for itself.
+ */
+
+/* ---- Controls ------------------------------------------------------------- */
+
+/* The ACTION pad's copy crossfades when the cue changes under your thumb. */
+.cueSwitch {
+  animation: cue-in 140ms cubic-bezier(0, 0, 0.58, 1) both;
+}
+
+@keyframes cue-in {
+  from {
+    opacity: 0;
+    transform: translateY(3px);
+  }
+}
+
+/* The first-match hints breathe up rather than appearing fully lit. */
+.hintLabel {
+  animation: hint-in 700ms ease-out both;
+}
+
+@keyframes hint-in {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* ---- Stings --------------------------------------------------------------- */
+
+/* A major sting slams from 1.6x down onto its mark; a minor one just fades up. */
+.stingMajor,
+.stingMinor {
+  display: grid;
+  place-items: center;
+  font-family: var(--ds-font-display), sans-serif;
+  font-weight:var(--ds-weight-black);
+  line-height: 1;
+}
+
+.stingMajor {
+  animation: sting-major 1600ms cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+}
+
+.stingMinor {
+  animation: sting-minor 1100ms cubic-bezier(0, 0, 0.58, 1) both;
+}
+
+@keyframes sting-major {
+  0% {
+    opacity: 0;
+    transform: scale(1.6) translateY(8px);
+  }
+  12% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+  72% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes sting-minor {
+  0% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  18% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  72% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+}
+
+/* ---- Shot meter ----------------------------------------------------------- */
+
+/* The meter appears the instant a gather starts; it must not slide in late. */
+.meterEnter {
+  animation: meter-in 120ms ease-out both;
+}
+
+@keyframes meter-in {
+  from {
+    opacity: 0;
+    transform: scaleY(0.7);
+  }
+}
+
+/* ---- Overlays ------------------------------------------------------------- */
+
+.overtimeStinger {
+  animation: overtime-in 600ms cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+}
+
+@keyframes overtime-in {
+  from {
+    opacity: 0;
+    transform: scale(1.4);
+  }
+}
+
+/* Each beat of the result reveal rises as it lands. */
+.revealIn {
+  animation: reveal-in 340ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@keyframes reveal-in {
+  from {
+    opacity: 0;
+    transform: translateY(8%);
+  }
+}
+
+/* ---- Lobby ---------------------------------------------------------------- */
+
+.lobbyShell {
+  position: relative;
+  display: flex;
+  min-height: 100dvh;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  isolation: isolate;
+  background: var(--ds-gradient-arena-backdrop);
+}
+
+.lobbyShell::before {
+  position: fixed;
+  z-index: 0;
+  inset: 0;
+  content: "";
+  pointer-events: none;
+  background:
+    linear-gradient(
+      to bottom,
+      color-mix(in srgb, var(--ds-color-background-primary) 46%, transparent),
+      color-mix(in srgb, var(--ds-color-background-primary) 72%, transparent) 62%,
+      var(--ds-color-background-primary)
+    ),
+    var(--hoop-arena-image) center / cover no-repeat;
+  opacity: 0.72;
+}
+
+.lobbyTopBar {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  width: 100%;
+  min-height: 64px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 13px 8px 20px;
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(to right, transparent, var(--ds-color-accent-cyan), var(--ds-color-accent-violet), transparent) 1;
+  background: color-mix(in srgb, var(--ds-color-background-primary) 90%, transparent);
+}
+
+.lobbyTopBar > button {
+  display: grid;
+  width: 44px;
+  height: 44px;
+  place-items: center;
+  color: var(--ds-color-accent-cyan);
+}
+
+.lobbyLevel {
+  position: relative;
+  display: grid;
+  width: 132px;
+  min-height: 46px;
+  grid-template-columns: 36px 1px 42px 1fr;
+  grid-template-rows: 17px 21px;
+  align-items: center;
+  column-gap: 8px;
+  padding: 3px 8px 3px 13px;
+  border: 1px solid color-mix(in srgb, var(--ds-color-accent-cyan) 48%, transparent);
+  background: color-mix(in srgb, var(--ds-color-background-elevated) 72%, transparent);
+}
+
+.lobbyLevel::before { grid-column: 2; grid-row: 1 / -1; width: 1px; height: 30px; content: ""; background: var(--ds-color-border-strong); }
+.lobbyLevel > span { grid-column: 1; grid-row: 1; align-self: end; color: var(--ds-color-accent-cyan); font:var(--ds-weight-black) var(--ds-text-nano) var(--ds-font-display); letter-spacing: var(--ds-tracking-label); }
+.lobbyLevel > b { grid-column: 1; grid-row: 2; align-self: start; color: var(--ds-color-accent-gold); font:var(--ds-weight-black) var(--ds-text-2xl) var(--ds-font-display); line-height: .9; }
+.lobbyLevel > i { grid-column: 3; grid-row: 1; align-self: end; overflow: hidden; width: 34px; height: 2px; background: var(--ds-color-border-strong); }
+.lobbyLevel > i > span { display: block; height: 100%; background: var(--ds-color-accent-gold); }
+.lobbyLevel > small { grid-column: 3; grid-row: 2; align-self: start; color: var(--ds-color-text-muted); font:var(--ds-weight-extrabold) var(--ds-text-nano) var(--ds-font-mono); }
+.lobbyLevel > svg { grid-column: 4; grid-row: 1 / -1; justify-self: end; color: var(--ds-color-accent-cyan); transform: rotate(90deg); }
+
+.lobbyContent {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 440px);
+  margin-block: auto;
+  padding: 16px 20px 24px;
+}
+
+.statusStrip { display: flex; min-height: 18px; align-items: center; gap: 8px; }
+.statusStrip > i { width: 7px; height: 7px; flex: none; border-radius: 50%; background: var(--ds-color-success); box-shadow: 0 0 8px color-mix(in srgb, var(--ds-color-success) 60%, transparent); }
+.statusStrip > b { color: var(--ds-color-success); font:var(--ds-weight-black) var(--ds-size-p9) var(--ds-font-display); letter-spacing: 2px; }
+.statusStrip > span { height: 1px; flex: 1; background: color-mix(in srgb, var(--ds-color-accent-gold) 16%, transparent); }
+.statusStrip > small { color: var(--ds-color-text-muted); font:var(--ds-weight-extrabold) var(--ds-size-p8_5) var(--ds-font-display); letter-spacing: 1.2px; white-space: nowrap; }
+
+.lobbyHero { display: flex; align-items: center; gap: 16px; margin-top: 16px; }
+.hoopEmblem { display: grid; width: 84px; height: 84px; flex: none; place-items: center; border: 1px solid color-mix(in srgb, var(--ds-color-accent-gold) 26%, transparent); border-radius: 50%; color: var(--ds-color-accent-gold); background: color-mix(in srgb, var(--ds-color-background-primary) 50%, transparent); animation: emblem-pulse 2600ms ease-in-out infinite alternate; }
+.lobbyHero > div { min-width: 0; flex: 1; }
+.lobbyHero h1 { margin: 0; font:var(--ds-weight-black) var(--ds-size-p23) var(--ds-font-display); letter-spacing: 1.2px; line-height: 1; text-shadow: 0 0 14px color-mix(in srgb, var(--ds-color-accent-gold) 45%, transparent); }
+.lobbyHero p { margin: 6px 0 10px; color: var(--ds-color-text-muted); font:var(--ds-weight-extrabold) var(--ds-size-p8_5) var(--ds-font-display); letter-spacing: 1.8px; line-height: var(--ds-leading-tight); }
+.freshLegs { display: inline-block; padding: 3px 8px; border: 1px solid; font:var(--ds-weight-black) var(--ds-size-p8) var(--ds-font-display); letter-spacing: 1.2px; line-height: 1; }
+
+.difficulty { margin-top: 18px; }
+.difficulty > p { margin: 0; color: var(--ds-color-text-muted); font:var(--ds-weight-black) var(--ds-size-p9) var(--ds-font-display); letter-spacing: 2px; line-height: 1; }
+.difficulty > div { display: flex; gap: 8px; margin-top: 10px; }
+.difficulty button { min-height: 52px; flex: 1; padding: 8px 4px; border: 1px solid color-mix(in srgb, var(--ds-color-border-default) 50%, transparent); background: var(--ds-color-background-elevated); transition: border-color 160ms ease, background 160ms ease; }
+.difficulty button[aria-pressed="true"] { border-width: 2px; border-color: var(--ds-color-accent-gold); background: color-mix(in srgb, var(--ds-color-accent-gold) 14%, var(--ds-color-background-elevated)); }
+.difficulty b { display: block; color: var(--ds-color-text-muted); font:var(--ds-weight-black) var(--ds-size-p11) var(--ds-font-display); letter-spacing: 1px; line-height: 1; }
+.difficulty button[aria-pressed="true"] b { color: var(--ds-color-accent-gold); }
+.difficulty small { display: block; margin-top: 5px; color: var(--ds-color-text-muted); font-size:var(--ds-size-p9); line-height: 1; }
+
+.playWrap { margin-top: 18px; }
+
+.tipOffButton {
+  position: relative;
+  display: grid;
+  width: 100%;
+  min-height: 66px;
+  grid-template-columns: 44px 1px 1fr 16px;
+  align-items: center;
+  overflow: hidden;
+  padding: 2px;
+  border: 0;
+  color: var(--ds-color-text-inverse);
+  background: color-mix(in srgb, var(--ds-color-text-default) 76%, var(--ds-color-accent-gold));
+  clip-path: var(--ds-clip-hud-sheet);
+  filter: drop-shadow(0 0 12px color-mix(in srgb, var(--ds-color-accent-gold) 24%, transparent));
+  cursor: pointer;
+  transition: filter 150ms ease, transform 150ms ease;
+}
+
+.tipOffButton::before { position: absolute; inset: 2px; content: ""; background: linear-gradient(135deg, color-mix(in srgb, var(--ds-color-accent-gold) 72%, var(--ds-color-text-default)), var(--ds-color-accent-gold)); clip-path: var(--ds-clip-hud-sheet); }
+.tipOffIcon { position: relative; display: grid; place-items: center; }
+.tipOffButton > i { position: relative; width: 1px; height: 38px; background: color-mix(in srgb, var(--ds-color-text-inverse) 28%, transparent); }
+.tipOffCopy { position: relative; display: flex; min-width: 0; flex-direction: column; align-items: center; padding-inline: 8px; }
+.tipOffCopy b { font:var(--ds-weight-black) var(--ds-text-lg) var(--ds-font-display); letter-spacing: var(--ds-tracking-ultra); line-height: 1; }
+.tipOffCopy small { overflow: hidden; max-width: 100%; margin-top: 7px; font:var(--ds-weight-black) var(--ds-text-nano) var(--ds-font-display); letter-spacing: var(--ds-tracking-label); line-height: 1; text-overflow: ellipsis; white-space: nowrap; }
+.tipOffButton:hover { filter: brightness(1.08); transform: translateY(-1px); }
+.tipOffButton:active { transform: translateY(0); }
+.tipOffButton:disabled { cursor: not-allowed; opacity: .5; }
+
+.lobbyActions { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 14px; }
+.lobbyActions a { display: grid; min-height: 56px; place-items: center; border: 1px solid color-mix(in srgb, var(--ds-color-accent-cyan) 35%, var(--ds-color-border-default)); color: var(--ds-color-accent-cyan); background: color-mix(in srgb, var(--ds-color-background-elevated) 84%, transparent); font:var(--ds-weight-black) var(--ds-text-sm) var(--ds-font-display); letter-spacing: var(--ds-tracking-label); }
+.lobbyActions a:hover { background: color-mix(in srgb, var(--ds-color-accent-cyan) 10%, var(--ds-color-background-elevated)); }
+.howToLink { display: block; min-height: 44px; padding-top: 16px; color: var(--ds-color-accent-gold); font:var(--ds-weight-black) var(--ds-size-p11) var(--ds-font-display); letter-spacing: 1.4px; text-align: center; }
+
+@media (min-width: 768px) {
+  .lobbyContent { width: min(100%, 480px); }
+}
+
+@media (max-height: 620px) {
+  .lobbyContent { margin-block: 0; }
+}
+
+/* The lobby deals itself in, each block on its own delay. */
+.rise {
+  animation: rise-in 460ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation-delay: var(--rise-delay, 0ms);
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+}
+
+/* The emblem's idle breathing — the lobby's one glow. */
+.emblemPulse {
+  animation: emblem-pulse 2600ms ease-in-out infinite alternate;
+}
+
+@keyframes emblem-pulse {
+  from {
+    box-shadow: 0 0 18px -4px color-mix(in srgb, var(--ds-color-accent-gold) 20%, transparent);
+    border-color: color-mix(in srgb, var(--ds-color-accent-gold) 26%, transparent);
+  }
+  to {
+    box-shadow: 0 0 22px -4px color-mix(in srgb, var(--ds-color-accent-gold) 28%, transparent);
+    border-color: color-mix(in srgb, var(--ds-color-accent-gold) 38%, transparent);
+  }
+}
+
+/* The live dot on the lobby's status strip. */
+.courtOpen {
+  box-shadow: 0 0 8px color-mix(in srgb, var(--ds-color-success) 60%, transparent);
+}

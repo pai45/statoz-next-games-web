@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "created": "2026-11-06",
+  "assets": [
+    {
+      "file": "pitch-rush.webp",
+      "width": 1200,
+      "height": 800,
+      "tool": "Built-in image_gen",
+      "prompt": "Create original premium illustrated game cover art for PITCH RUSH. Landscape 3:2 aspect, polished painterly arcade football key art matching the supplied other football collectible-cover family's rich color, clear silhouettes, high energy. Two fictional football players in blue and red unbranded kits sprinting after a football on a sunlit vivid green stadium pitch, dynamic perspective, white goal visible, bold cream dimensional title PITCH RUSH across upper left. The actual game is top-down eleven-a-side arcade football, so include subtle top-down tactical pitch lines as part of the stadium composition; energetic and playful rather than photorealistic. No real clubs, athletes, sponsor marks, brands or watermarks. No StatOz logo, no UI mockup frame. Full bleed professional game box art, readable at 200px wide.",
+      "reference": "public/assets/games/covers/pitch-rush.webp",
+      "sha256": "2052a92f8fb8d95d7fbd4aad43eafc3247e1c8247354e62ec7e34fd9f746c09f"
+    },
+    {
+      "file": "fot-duel.webp",
+      "width": 1200,
+      "height": 800,
+      "tool": "Built-in image_gen",
+      "prompt": "Create a new cover variant based on the supplied existing illustrated football collectible player card cover. Retain its original three fictional footballers with red center, blue left and green right kits, gold collectible card frames, bright sunny stadium and football. Add the exact game title FOT DUEL as large bold cream and gold sports lettering across upper left, professionally integrated into the image with clearly readable typography at 200px thumbnail width. Improve composition to accommodate the title without obscuring faces. Landscape 3:2 full bleed premium illustrated card-football game cover, no real athlete likeness, no brands, no sponsor logos, no other text, no watermark, no UI frames. Original game's collectible card identity remains.",
+      "reference": "public/assets/games/covers/pitch-duel.webp",
+      "sha256": "7515d197237e2c9a5f12b174b35d29138f59935581d3f084870baba8a86caf18"
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "id": "run-n-2",
+      "file": "run-n-2.png",
+      "sha256": "96f59952680cbb4200e0bef653429ac4d768520c1100e1243ab97f1ebaca449f",
+      "parentPose": "run-n-0",
+      "parentAtlasRegion": [
+        132,
+        4,
+        36,
+        70
+      ],
+      "anchors": {
+        "ground": [
+          36,
+          74
+        ],
+        "foot": [
+          34,
+          73
+        ],
+        "upperTorso": [
+          36,
+          33
+        ]
+      },
+      "method": "Native integer-grid counter-stride: preserve head/torso, exchange lower legs and outer arm clusters. Authored adaptation; no recovered native phase/timing claim."
+    },
+    {
+      "id": "orchard-run-n-2",
+      "file": "orchard-run-n-2.png",
+      "sha256": "738dedcc4c63c256c85f7fcfa7066eeabbc960c57c7d2831da85efe579f8cfaf",
+      "parentPose": "orchard-run-n-0",
+      "parentAtlasRegion": [
+        260,
+        388,
+        36,
+        70
+      ],
+      "anchors": {
+        "ground": [
+          36,
+          74
+        ],
+        "foot": [
+          34,
+          73
+        ],
+        "upperTorso": [
+          36,
+          33
+        ]
+      },
+      "method": "Native integer-grid counter-stride: preserve head/torso, exchange lower legs and outer arm clusters. Authored adaptation; no recovered native phase/timing claim."
+    },
+    {
+      "id": "run-n-3",
+      "file": "run-n-3.png",
+      "sha256": "77b88838fb9acf57f7bad1179cdf95814cc6ccb4b31543b6129aad3dc232b482",
+      "parentPose": "run-n-1",
+      "parentAtlasRegion": [
+        260,
+        4,
+        40,
+        70
+      ],
+      "anchors": {
+        "ground": [
+          36,
+          74
+        ],
+        "foot": [
+          31,
+          73
+        ],
+        "upperTorso": [
+          36,
+          31
+        ]
+      },
+      "method": "Native integer-grid counter-stride: preserve head/torso, exchange lower legs and outer arm clusters. Authored adaptation; no recovered native phase/timing claim."
+    },
+    {
+      "id": "orchard-run-n-3",
+      "file": "orchard-run-n-3.png",
+      "sha256": "1156adee58672187cc622de1657b5599d95a8f640342aa8aca07ad8182e1f406",
+      "parentPose": "orchard-run-n-1",
+      "parentAtlasRegion": [
+        388,
+        388,
+        40,
+        70
+      ],
+      "anchors": {
+        "ground": [
+          36,
+          74
+        ],
+        "foot": [
+          31,
+          73
+        ],
+        "upperTorso": [
+          36,
+          31
+        ]
+      },
+      "method": "Native integer-grid counter-stride: preserve head/torso, exchange lower legs and outer arm clusters. Authored adaptation; no recovered native phase/timing claim."
+    },
+    {
+      "id": "run-s-2",
+      "file": "run-s-2.png",
+      "sha256": "021f2093d905941ca19cdf74cd51c89100fa66c9590b716645386f2e25ecdf7a",
+      "parentPose": "run-s-0",
+      "parentAtlasRegion": [
+        388,
+        4,
+        36,
+        70
+      ],
+      "anchors": {
+        "ground": [
+          36,
+          74
+        ],
+        "foot": [
+          33,
+          73
+        ],
+        "upperTorso": [
+          36,
+          32
+        ]
+      },
+      "method": "Native integer-grid counter-stride: preserve head/torso, exchange lower legs and outer arm clusters. Authored adaptation; no recovered native phase/timing claim."
+    },
+    {
+      "id": "orchard-run-s-2",
+      "file": "orchard-run-s-2.png",
+      "sha256": "8fe7d6ec1f7b4cd96b16b1afe24e14e9dd9d5c56b0b0b318b5945afc0098569c",
+      "parentPose": "orchard-run-s-0",
+      "parentAtlasRegion": [
+        516,
+        388,
+        36,
+        70
+      ],
+      "anchors": {
+        "ground": [
+          36,
+          74
+        ],
+        "foot": [
+          33,
+          73
+        ],
+        "upperTorso": [
+          36,
+          32
+        ]
+      },
+      "method": "Native integer-grid counter-stride: preserve head/torso, exchange lower legs and outer arm clusters. Authored adaptation; no recovered native phase/timing claim."
+    },
+    {
+      "id": "run-s-3",
+      "file": "run-s-3.png",
+      "sha256": "84d583c17534db4e8e2902b349a4d051a0fc79d12dd06578a61ead2950c63ca9",
+      "parentPose": "run-s-1",
+      "parentAtlasRegion": [
+        516,
+        4,
+        43,
+        72
+      ],
+      "anchors": {
+        "ground": [
+          36,
+          74
+        ],
+        "foot": [
+          35,
+          73
+        ],
+        "upperTorso": [
+          38,
+          35
+        ]
+      },
+      "method": "Native integer-grid counter-stride: preserve head/torso, exchange lower legs and outer arm clusters. Authored adaptation; no recovered native phase/timing claim."
+    },
+    {
+      "id": "orchard-run-s-3",
+      "file": "orchard-run-s-3.png",
+      "sha256": "3f70cde6b8878a27fffdaf4e22f126d2db4c0e659bfc577681b9f7c7216cb25e",
+      "parentPose": "orchard-run-s-1",
+      "parentAtlasRegion": [
+        644,
+        388,
+        43,
+        72
+      ],
+      "anchors": {
+        "ground": [
+          36,
+          74
+        ],
+        "foot": [
+          35,
+          73
+        ],
+        "upperTorso": [
+          38,
+          35
+        ]
+      },
+      "method": "Native integer-grid counter-stride: preserve head/torso, exchange lower legs and outer arm clusters. Authored adaptation; no recovered native phase/timing claim."
+    }
+  ],
+  "approval": "reference",
+  "source": "Source-derived Super Sidekicks 2 family; unchanged parent pixels outside declared edit clusters",
+  "nativeTimingRecovered": false
+}

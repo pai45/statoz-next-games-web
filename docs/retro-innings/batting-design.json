@@ -1,0 +1,566 @@
+{
+  "date": "2026-10-21",
+  "source": "Super International Cricket; user supplied tn2SvnEA9w4",
+  "mappings": "Observed across-body/high-finish/front-stroke sequences assigned tentatively to LEG/OFF/DEFEND as approved by user; source inputs unknown.",
+  "sourceRecords": [
+    "../batting-cleanup-v2/leg-contact-sheet.png",
+    "../batting-cleanup-v2/off-contact-sheet.png",
+    "../batting-cleanup-v2/defend-contact-sheet.png",
+    "../crease-recovery-v2/contact-geometry.json",
+    "../crease-recovery-v2/review.md"
+  ],
+  "changes": [
+    "Restore readable individual preparation holds previously compressed into100ms",
+    "Queue/commit/cue follow each family active-window centre",
+    "40ms authored contact freeze instead of100ms",
+    "Explicit phase/timing/anchor metadata; sprite RGB/alpha/atlas/collision cells unchanged"
+  ],
+  "records": [
+    {
+      "family": "leg",
+      "before": [
+        {
+          "id": "batter-leg-0",
+          "durationMs": 100
+        },
+        {
+          "id": "batter-leg-1",
+          "durationMs": 200
+        },
+        {
+          "id": "batter-leg-2",
+          "durationMs": 90
+        },
+        {
+          "id": "batter-leg-3",
+          "durationMs": 110
+        },
+        {
+          "id": "batter-leg-4",
+          "durationMs": 100
+        },
+        {
+          "id": "batter-leg-5",
+          "durationMs": 110
+        },
+        {
+          "id": "batter-leg-return",
+          "durationMs": 120
+        },
+        {
+          "id": "batter-leg-6",
+          "durationMs": 180
+        }
+      ],
+      "poses": [
+        {
+          "id": "batter-leg-0",
+          "phase": "step-and-load",
+          "startMs": 0,
+          "endMs": 90,
+          "durationMs": 90,
+          "active": false,
+          "sourceOrigin": [
+            111,
+            111
+          ],
+          "sole": [
+            126,
+            152
+          ]
+        },
+        {
+          "id": "batter-leg-1",
+          "phase": "blade-contact",
+          "startMs": 90,
+          "endMs": 200,
+          "durationMs": 110,
+          "active": true,
+          "sourceOrigin": [
+            113,
+            111
+          ],
+          "sole": [
+            128,
+            152
+          ]
+        },
+        {
+          "id": "batter-leg-2",
+          "phase": "high-follow-through",
+          "startMs": 200,
+          "endMs": 290,
+          "durationMs": 90,
+          "active": false,
+          "sourceOrigin": [
+            136,
+            103
+          ],
+          "sole": [
+            138,
+            155
+          ]
+        },
+        {
+          "id": "batter-leg-3",
+          "phase": "turn-and-settle",
+          "startMs": 290,
+          "endMs": 400,
+          "durationMs": 110,
+          "active": false,
+          "sourceOrigin": [
+            127,
+            105
+          ],
+          "sole": [
+            148,
+            153
+          ]
+        },
+        {
+          "id": "batter-leg-4",
+          "phase": "turn-and-settle",
+          "startMs": 400,
+          "endMs": 500,
+          "durationMs": 100,
+          "active": false,
+          "sourceOrigin": [
+            127,
+            105
+          ],
+          "sole": [
+            148,
+            153
+          ]
+        },
+        {
+          "id": "batter-leg-5",
+          "phase": "lower-bat",
+          "startMs": 500,
+          "endMs": 610,
+          "durationMs": 110,
+          "active": false,
+          "sourceOrigin": [
+            112,
+            102
+          ],
+          "sole": [
+            147,
+            155
+          ]
+        },
+        {
+          "id": "batter-leg-return",
+          "phase": "return",
+          "startMs": 610,
+          "endMs": 730,
+          "durationMs": 120,
+          "active": false,
+          "sourceOrigin": [
+            136,
+            112
+          ],
+          "sole": [
+            143,
+            157
+          ]
+        },
+        {
+          "id": "batter-leg-6",
+          "phase": "guard",
+          "startMs": 730,
+          "endMs": 910,
+          "durationMs": 180,
+          "active": false,
+          "sourceOrigin": [
+            128,
+            115
+          ],
+          "sole": [
+            141,
+            159
+          ]
+        }
+      ],
+      "timing": {
+        "leadMs": 145,
+        "bufferMs": 300,
+        "contactFreezeMs": 40,
+        "settleMs": 150
+      },
+      "target": [
+        120.03488372093024,
+        129.59302325581396
+      ],
+      "limits": [
+        "Source button mapping and exact native pose cadence are unverified"
+      ]
+    },
+    {
+      "family": "off",
+      "before": [
+        {
+          "id": "batter-off-0",
+          "durationMs": 23.333333333333332
+        },
+        {
+          "id": "batter-off-1",
+          "durationMs": 23.333333333333332
+        },
+        {
+          "id": "batter-off-2",
+          "durationMs": 26.666666666666668
+        },
+        {
+          "id": "batter-off-3",
+          "durationMs": 26.666666666666668
+        },
+        {
+          "id": "batter-off-4",
+          "durationMs": 200
+        },
+        {
+          "id": "batter-off-5",
+          "durationMs": 140
+        },
+        {
+          "id": "batter-off-6",
+          "durationMs": 180
+        }
+      ],
+      "poses": [
+        {
+          "id": "batter-off-0",
+          "phase": "guard",
+          "startMs": 0,
+          "endMs": 70,
+          "durationMs": 70,
+          "active": false,
+          "sourceOrigin": [
+            118,
+            112
+          ],
+          "sole": [
+            124,
+            156
+          ]
+        },
+        {
+          "id": "batter-off-1",
+          "phase": "load",
+          "startMs": 70,
+          "endMs": 140,
+          "durationMs": 70,
+          "active": false,
+          "sourceOrigin": [
+            118,
+            112
+          ],
+          "sole": [
+            124,
+            156
+          ]
+        },
+        {
+          "id": "batter-off-2",
+          "phase": "raise-bat",
+          "startMs": 140,
+          "endMs": 220,
+          "durationMs": 80,
+          "active": false,
+          "sourceOrigin": [
+            121,
+            101
+          ],
+          "sole": [
+            125,
+            156
+          ]
+        },
+        {
+          "id": "batter-off-3",
+          "phase": "rotate",
+          "startMs": 220,
+          "endMs": 300,
+          "durationMs": 80,
+          "active": false,
+          "sourceOrigin": [
+            117,
+            99
+          ],
+          "sole": [
+            130,
+            153
+          ]
+        },
+        {
+          "id": "batter-off-4",
+          "phase": "blade-contact-adaptation",
+          "startMs": 300,
+          "endMs": 430,
+          "durationMs": 130,
+          "active": true,
+          "sourceOrigin": [
+            103,
+            97
+          ],
+          "sole": [
+            135,
+            152
+          ]
+        },
+        {
+          "id": "batter-off-5",
+          "phase": "follow-through",
+          "startMs": 430,
+          "endMs": 570,
+          "durationMs": 140,
+          "active": false,
+          "sourceOrigin": [
+            116,
+            100
+          ],
+          "sole": [
+            128,
+            152
+          ]
+        },
+        {
+          "id": "batter-off-6",
+          "phase": "guard",
+          "startMs": 570,
+          "endMs": 750,
+          "durationMs": 180,
+          "active": false,
+          "sourceOrigin": [
+            119,
+            105
+          ],
+          "sole": [
+            124,
+            151
+          ]
+        }
+      ],
+      "timing": {
+        "leadMs": 365,
+        "bufferMs": 300,
+        "contactFreezeMs": 40,
+        "settleMs": 150
+      },
+      "target": [
+        111.57142857142857,
+        104.77142857142857
+      ],
+      "limits": [
+        "Active pose remains an observed high follow-through repurposed for contact; source-native impact not established"
+      ]
+    },
+    {
+      "family": "defend",
+      "before": [
+        {
+          "id": "batter-defend-0",
+          "durationMs": 30.76923076923077
+        },
+        {
+          "id": "batter-defend-1",
+          "durationMs": 30.76923076923077
+        },
+        {
+          "id": "batter-defend-2",
+          "durationMs": 38.46153846153846
+        },
+        {
+          "id": "batter-defend-3",
+          "durationMs": 200
+        },
+        {
+          "id": "batter-defend-4",
+          "durationMs": 110
+        },
+        {
+          "id": "batter-defend-5",
+          "durationMs": 110
+        },
+        {
+          "id": "batter-defend-return-a",
+          "durationMs": 120
+        },
+        {
+          "id": "batter-defend-return-b",
+          "durationMs": 120
+        },
+        {
+          "id": "batter-defend-6",
+          "durationMs": 180
+        }
+      ],
+      "poses": [
+        {
+          "id": "batter-defend-0",
+          "phase": "guard",
+          "startMs": 0,
+          "endMs": 80,
+          "durationMs": 80,
+          "active": false,
+          "sourceOrigin": [
+            113,
+            110
+          ],
+          "sole": [
+            120,
+            155
+          ]
+        },
+        {
+          "id": "batter-defend-1",
+          "phase": "load",
+          "startMs": 80,
+          "endMs": 160,
+          "durationMs": 80,
+          "active": false,
+          "sourceOrigin": [
+            113,
+            110
+          ],
+          "sole": [
+            120,
+            155
+          ]
+        },
+        {
+          "id": "batter-defend-2",
+          "phase": "lift",
+          "startMs": 160,
+          "endMs": 260,
+          "durationMs": 100,
+          "active": false,
+          "sourceOrigin": [
+            113,
+            99
+          ],
+          "sole": [
+            124,
+            156
+          ]
+        },
+        {
+          "id": "batter-defend-3",
+          "phase": "blade-contact",
+          "startMs": 260,
+          "endMs": 390,
+          "durationMs": 130,
+          "active": true,
+          "sourceOrigin": [
+            113,
+            107
+          ],
+          "sole": [
+            124,
+            156
+          ]
+        },
+        {
+          "id": "batter-defend-4",
+          "phase": "check-and-recover",
+          "startMs": 390,
+          "endMs": 500,
+          "durationMs": 110,
+          "active": false,
+          "sourceOrigin": [
+            112,
+            108
+          ],
+          "sole": [
+            124,
+            156
+          ]
+        },
+        {
+          "id": "batter-defend-5",
+          "phase": "lower-bat",
+          "startMs": 500,
+          "endMs": 610,
+          "durationMs": 110,
+          "active": false,
+          "sourceOrigin": [
+            111,
+            108
+          ],
+          "sole": [
+            124,
+            158
+          ]
+        },
+        {
+          "id": "batter-defend-return-a",
+          "phase": "return",
+          "startMs": 610,
+          "endMs": 730,
+          "durationMs": 120,
+          "active": false,
+          "sourceOrigin": [
+            113,
+            110
+          ],
+          "sole": [
+            121,
+            156
+          ]
+        },
+        {
+          "id": "batter-defend-return-b",
+          "phase": "return",
+          "startMs": 730,
+          "endMs": 850,
+          "durationMs": 120,
+          "active": false,
+          "sourceOrigin": [
+            109,
+            112
+          ],
+          "sole": [
+            116,
+            157
+          ]
+        },
+        {
+          "id": "batter-defend-6",
+          "phase": "guard",
+          "startMs": 850,
+          "endMs": 1030,
+          "durationMs": 180,
+          "active": false,
+          "sourceOrigin": [
+            113,
+            114
+          ],
+          "sole": [
+            126,
+            156
+          ]
+        }
+      ],
+      "timing": {
+        "leadMs": 325,
+        "bufferMs": 300,
+        "contactFreezeMs": 40,
+        "settleMs": 150
+      },
+      "target": [
+        137.3936170212766,
+        132.45744680851064
+      ],
+      "limits": [
+        "Source button mapping and exact native pose cadence are unverified"
+      ]
+    }
+  ],
+  "notEstablished": [
+    "Native frame cadence or button inputs",
+    "OFF native contact pose",
+    "New anatomical pivots between unrelated guards",
+    "Missing straight/height-selected variants"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "errors": [
+    {
+      "name": "portrait",
+      "request": "http://127.0.0.1:3139/statoz_web/assets/games/penalty-shootout/athlete-low.glb",
+      "failure": "net::ERR_ABORTED"
+    }
+  ],
+  "metrics": [
+    {
+      "name": "desktop",
+      "drawCalls": "88",
+      "fps": "71.6",
+      "overflow": false
+    },
+    {
+      "name": "portrait",
+      "drawCalls": "89",
+      "fps": "72.5",
+      "overflow": false
+    },
+    {
+      "name": "landscape",
+      "drawCalls": "88",
+      "fps": "66.5",
+      "overflow": false
+    }
+  ]
+}

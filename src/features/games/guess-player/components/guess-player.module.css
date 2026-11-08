@@ -1,0 +1,160 @@
+/**
+ * Motion and pseudo-state for Guess The Player. Layout is Tailwind, colour and
+ * type are `--ds-*` custom properties; only what the cascade alone can express
+ * lives here.
+ *
+ * The global `prefers-reduced-motion` damper in `globals.css` stills all of it.
+ */
+
+/* ---- Arrivals -------------------------------------------------------------- */
+
+/* `CyberSlideUpFadeIn`: up and in, on a delay the caller sets. */
+.enter {
+  animation: enter 420ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation-delay: var(--enter-delay, 0ms);
+}
+
+@keyframes enter {
+  from {
+    opacity: 0;
+    transform: translateY(var(--enter-offset, 18px));
+  }
+}
+
+/* ---- The career route ------------------------------------------------------ */
+
+/*
+ * A clue flips from locked to decrypted. The app cross-fades the two badges
+ * through an `AnimatedSwitcher`; one keyed element and a scale-in says the same
+ * thing, and only the badge that actually changed replays it.
+ */
+.decrypt {
+  animation: decrypt 260ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@keyframes decrypt {
+  from {
+    opacity: 0;
+    transform: scale(0.72);
+  }
+}
+
+/* The next badge to fall marks itself, so the eye knows where to look. */
+.nextNode {
+  animation: pulse 1.8s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  50% {
+    opacity: 0.45;
+  }
+}
+
+/* ---- Feedback -------------------------------------------------------------- */
+
+/* A wrong guess knocks the bay sideways, as the app's shake does. */
+.shake {
+  animation: shake 420ms ease-out both;
+}
+
+@keyframes shake {
+  20% {
+    transform: translateX(-7px);
+  }
+
+  40% {
+    transform: translateX(6px);
+  }
+
+  60% {
+    transform: translateX(-4px);
+  }
+
+  80% {
+    transform: translateX(2px);
+  }
+}
+
+/* A note that shows itself and goes. */
+.notice {
+  animation: notice var(--notice-ms, 2400ms) ease-out both;
+}
+
+@keyframes notice {
+  0% {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+
+  8%,
+  84% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+/* ---- Interactive plates ---------------------------------------------------- */
+
+.plate {
+  transition:
+    background-color 160ms ease-out,
+    border-color 160ms ease-out;
+}
+
+.plate:hover:not(:disabled) {
+  border-color: color-mix(in srgb, var(--ds-color-accent-pink) 70%, transparent);
+}
+
+.plate:focus-visible {
+  outline: 2px solid var(--ds-color-accent-pink);
+  outline-offset: 2px;
+}
+
+.link:focus-visible {
+  outline: 2px solid var(--ds-color-accent-pink);
+  outline-offset: 3px;
+}
+
+/* A row in the search list, highlighted by keyboard as well as by pointer. */
+.option {
+  transition: background-color 120ms ease-out;
+}
+
+.option:hover,
+.option[data-active="true"] {
+  background: color-mix(in srgb, var(--ds-color-accent-cyan) 10%, transparent);
+}
+
+.option:focus-visible {
+  outline: 2px solid var(--ds-color-accent-cyan);
+  outline-offset: -2px;
+}
+
+/* ---- The silhouette -------------------------------------------------------- */
+
+/*
+ * The app blurs the portrait and drains its colour once five clues are out —
+ * enough shape to read, not enough to name. Two CSS filters do the work of its
+ * `ImageFiltered` plus `ColorFiltered` pair.
+ */
+.silhouette {
+  filter: blur(9px) saturate(0);
+  transform: scale(1.14);
+}
+
+/* ---- The confirmation dialog ----------------------------------------------- */
+
+.confirm {
+  animation: confirmIn 220ms cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+@keyframes confirmIn {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+}

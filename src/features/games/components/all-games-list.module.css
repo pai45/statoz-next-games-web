@@ -1,0 +1,55 @@
+.dialog {
+  position: fixed;
+  inset: var(--library-header-height, var(--ds-dashboard-header-height)) 0 0;
+  z-index: 20;
+  isolation: isolate;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  color: var(--ds-color-text-default);
+  background: var(--ds-color-background-primary);
+}
+.backdrop { position: absolute; inset: 0; z-index: -1; overflow: hidden; pointer-events: none; background: radial-gradient(ellipse at 85% 12%, color-mix(in srgb, var(--ds-color-accent-violet) 15%, transparent), transparent 55%), radial-gradient(ellipse at 10% 65%, color-mix(in srgb, var(--ds-color-accent-cyan) 10%, transparent), transparent 55%), var(--ds-color-background-primary); }
+.backdrop::before { content: ""; position: absolute; inset: 0; opacity: .16; background: linear-gradient(120deg, transparent 28%, var(--ds-color-accent-cyan) 28.05%, transparent 28.15%, transparent 78%, var(--ds-color-accent-violet) 78.05%, transparent 78.15%); }
+.backdropGrid { position: absolute; inset: 20% -30% -60%; opacity: .14; background: linear-gradient(var(--ds-color-accent-cyan) 1px, transparent 1px) 0 0 / 100% var(--ds-space-64), linear-gradient(90deg, var(--ds-color-accent-violet) 1px, transparent 1px) 0 0 / var(--ds-space-64) 100%; transform: perspective(700px) rotateX(58deg); mask-image: linear-gradient(transparent, black 30%, transparent 85%); }
+.panel { display: flex; flex-direction: column; width: 100%; height: 100%; min-height: 0; max-width: 88rem; margin-inline: auto; padding: var(--ds-space-16) var(--ds-dashboard-gutter) max(var(--ds-space-16), env(safe-area-inset-bottom)); }
+.filters { display: flex; flex: none; align-items: center; justify-content: space-between; gap: var(--ds-space-12); min-width: 0; }
+.filters > div { min-width: 0; }
+.close { position: relative; isolation: isolate; display: grid; place-items: center; flex: none; clip-path: var(--ds-clip-field); width: 44px; height: 44px; padding: 0; border: 0; background: var(--ds-color-border-default); color: var(--ds-color-text-subtle); cursor: pointer; transition: background var(--ds-dashboard-transition), color var(--ds-dashboard-transition); }
+.close::before { content: ""; position: absolute; inset: 1px; z-index: -1; clip-path: inherit; background: var(--ds-color-background-secondary); }
+.close:hover, .close:focus-visible { outline: none; background: var(--ds-color-accent-cyan); color: var(--ds-color-accent-cyan); }
+.resultBar { display: flex; align-items: center; gap: var(--ds-space-12); flex: none; min-height: 48px; color: var(--ds-color-text-subtle); font-size: var(--ds-text-compact); border-bottom: 1px solid color-mix(in srgb, var(--ds-color-accent-cyan) 22%, var(--ds-color-border-subtle)); }
+.resultBar::before { content: ""; width: var(--ds-space-6); height: var(--ds-space-6); background: var(--ds-color-accent-cyan); box-shadow: 0 0 var(--ds-space-12) color-mix(in srgb, var(--ds-color-accent-cyan) 45%, transparent); }
+.resultBar::after { content: ""; width: var(--ds-space-48); height: var(--ds-space-4); margin-left: auto; background: repeating-linear-gradient(120deg, var(--ds-color-accent-cyan) 0 var(--ds-space-6), transparent var(--ds-space-6) var(--ds-space-10)); opacity: .55; }
+.results { flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: var(--ds-color-border-default) transparent; padding: var(--ds-space-20) var(--ds-space-4) var(--ds-space-12); }
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--ds-space-24) var(--ds-space-20); list-style: none; padding: 0; margin: 0; }
+.grid>li { position: relative; isolation: isolate; min-width: 0; padding: var(--ds-space-12); clip-path: var(--ds-clip-panel); background: var(--ds-color-border-default); transition: background var(--ds-dashboard-transition); }
+.grid>li::before { content: ""; position: absolute; inset: 1px; z-index: -1; clip-path: inherit; background: linear-gradient(145deg, var(--ds-color-background-secondary), var(--ds-color-background-primary)); }
+.grid>li:has(a:hover), .grid>li:focus-within { background: linear-gradient(135deg, var(--ds-color-accent-cyan), var(--ds-color-border-default) 55%, var(--ds-color-accent-violet)); }
+.empty { display: grid; justify-items: center; align-content: center; min-height: 240px; padding: var(--ds-space-32); text-align: center; }
+.empty>svg { color: var(--ds-color-accent-cyan); }
+.empty h3 { margin-top: var(--ds-space-16); font: var(--ds-weight-bold) var(--ds-text-xl)/1.4 var(--ds-font-body); }
+.empty p { margin-block: var(--ds-space-8) var(--ds-space-16); color: var(--ds-color-text-muted); }
+.empty button { min-height: 44px; padding-inline: var(--ds-space-20); border: 1px solid var(--ds-color-accent-cyan); color: var(--ds-color-accent-cyan); background: var(--ds-color-background-secondary); cursor: pointer; }
+.empty button:focus-visible { outline: 2px solid var(--ds-color-accent-cyan); outline-offset: var(--ds-space-4); }
+@media (min-width: 640px) { .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (min-width: 960px) { .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (min-width: 1280px) { .grid { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
+@media (max-width: 1199px) { .panel { padding-inline: var(--ds-space-20); } }
+@media (max-width: 1023px) { .panel { padding: var(--ds-space-12) var(--ds-space-16) max(var(--ds-space-16), env(safe-area-inset-bottom)); } }
+@media (max-width: 600px) { .panel { padding-inline: var(--ds-space-8); } }
+@media (orientation: landscape) and (max-height: 540px) {
+  .dialog { --library-header-height: var(--ds-dashboard-compact-header-height); }
+  .panel { padding: var(--ds-space-8) var(--ds-space-12); }
+  .resultBar { min-height: 32px; }
+  .results { padding-top: var(--ds-space-12); }
+  .grid { gap: var(--ds-space-16); }
+  .grid>li { padding: var(--ds-space-8); }
+  .empty { min-height: 130px; padding: var(--ds-space-16); }
+}
+@media (prefers-reduced-motion: reduce) { .close, .grid>li { transition: none; } }

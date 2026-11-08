@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "assetVersion": "imported-characters-9",
+  "runtimeVersion": "aim-first-10",
+  "model": {
+    "file": "athlete.glb",
+    "foundation": "Blender Studio Human Base Meshes v1.4.1, GEO-body_male_realistic",
+    "sourceUrl": "https://www.blender.org/download/demo-files/",
+    "archiveUrl": "https://download.blender.org/demo/asset-bundles/human-base-meshes/human-base-meshes-bundle-v1.4.1.zip",
+    "archiveSha256": "811f43accbb31a88266d932f8f5563b2d13586fca0ba2693aad1f5fe582b3515",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "adaptation": "Original panelled football kits with sleeve ribs, shorts hems and fabric normals; refined athletic anatomy, boot laces/tongues/heel counters, padded glove ridges and eyebrows; 60-bone rig, two detail levels and 35 named clips including compatibility aliases; world-anchored approach footfalls and seeded keeper gestures. Blender 4.5.9 LTS. Model v5: repaired anatomical eye sockets, fitted irises/pupils and brows, scalp-conforming original hair, distinct jaw/cheek/nose presets, skin vertex tones, smooth jersey panels and slimmed boots. No EA asset data. Surface v6: original pigment/roughness/pores face maps, scalp-projected tapered hair locks sharing scalp primitives, cleaned garment shading normals and neck taper. Existing skeleton, motion and contacts retained. Construction v7: authored continuous jersey torso with shared-vertex sleeve bridges, articulated continuous glove fingers and curved palms, tapered brows, restrained chin/cheek sculpt and asymmetric quiff. Existing rig, clips and contact markers retained. Shoulders v8: continuous chest-clavicle-upper-arm sleeve weights so sleeves, cuffs and upper-arm skin follow raised arms. Construction v7 geometry, rig, clips and contact markers retained.",
+    "approval": "approved for this requested local game",
+    "detailLevels": [
+      "athlete.glb",
+      "athlete-low.glb"
+    ],
+    "features": [
+      "ivory/navy/copper outfield kit and forest/amber keeper kit",
+      "shoulder panels and side vents",
+      "ribbed collar, sleeve cuffs and hems",
+      "fabric and skin normal maps",
+      "boot laces, tongues, heel counters, soles and studs",
+      "padded articulated goalkeeper gloves",
+      "four hair/face presets, brows, blink and gaze",
+      "world-anchored run-up footfalls",
+      "keeper wave/crouch with immediate command interruption",
+      "two mesh detail levels",
+      "scalp-conforming hair with original directional normal map",
+      "anatomical eye sockets with separate pupils",
+      "distinct jaw, cheek and nose preset geometry",
+      "original face vertex tones",
+      "original facial pigment, pore and regional roughness maps",
+      "scalp-projected layered hair locks",
+      "garment depth and shading refinement",
+      "continuous jersey torso with sleeve bridge topology",
+      "continuous articulated glove fingers",
+      "curved latex palms and shaped glove backs",
+      "tapered brows and asymmetric quiff",
+      "role-specific bare hands and enclosed keeper cuffs",
+      "sleeves and cuffs follow raised arms"
+    ],
+    "status": "Retired visible model; retained for history and legacy collision-motion authoring"
+  },
+  "audio": {
+    "effects": "Original deterministic StatOz synthesis; build-audio.py",
+    "crowd": {
+      "title": "Stadium Crowd",
+      "creator": "stomachache",
+      "sourceUrl": "https://freesound.org/people/stomachache/sounds/274516/",
+      "downloadUrl": "https://cdn.freesound.org/previews/274/274516_177850-hq.mp3",
+      "sourceSha256": "eea0213d5ccb6262c5c752a4f7c7241365b036b1ba1c9c05383776a5de586cc0",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "adaptation": "High-quality preview converted to Vorbis with a 0.5-second loop crossfade",
+      "approval": "approved by user for local game",
+      "durationSeconds": 7.693061224489796
+    }
+  },
+  "environment": "Original code-authored pitch, four-stand stadium, instanced crowd and seats, goal, ball and textures; original kit numbers. Presentation informed by user-supplied FIFA 14 PC/PS4 reference videos; no reference media is bundled.",
+  "files": [
+    {
+      "path": "athlete.glb",
+      "bytes": 6288112,
+      "sha256": "1a611884e7dff6794bac63d411b07ced5cf0f9e849b7a7f73c1bb1fd423fca31"
+    },
+    {
+      "path": "audio/crowd.ogg",
+      "bytes": 127339,
+      "sha256": "08d6f523ebff88bd2be5e413d0f8652d4d9e5dc9294453f0d098fabe1adf44ca"
+    },
+    {
+      "path": "audio/frame.wav",
+      "bytes": 66194,
+      "sha256": "606410097906206d0c2d2554006f76e5805e894a4a72d4a891404621fb71c2f7"
+    },
+    {
+      "path": "audio/glove.wav",
+      "bytes": 17684,
+      "sha256": "d240f17932bccad095ad185343b930cff7237f427076832606d2d604aa50a80a"
+    },
+    {
+      "path": "audio/goal.wav",
+      "bytes": 57374,
+      "sha256": "d142d306337703e1762322822d4cd0e160a9134faaeae2da81d161b9941c846c"
+    },
+    {
+      "path": "audio/kick.wav",
+      "bytes": 19448,
+      "sha256": "b85df493a903f38e36c9d5da4327798eda39e47b77366e8b289cd972c50822f8"
+    },
+    {
+      "path": "audio/result.wav",
+      "bytes": 30912,
+      "sha256": "2724e381a347ca55228e119a6c30401071d99c7a1d4c57122df5352ef85bd52c"
+    },
+    {
+      "path": "audio/whistle.wav",
+      "bytes": 44144,
+      "sha256": "101c0b61b0f080acb875290d9d59aefc5729bb1696160670e028fbf69e0045ab"
+    },
+    {
+      "path": "movement.json",
+      "bytes": 10340,
+      "sha256": "710f0d4f052fe6c6e8ace61935a7b113bc47a25d7d67a13b4e01a3abe9ebd454"
+    },
+    {
+      "path": "athlete-low.glb",
+      "bytes": 4613168,
+      "sha256": "f03413ac2ea0767f34a9dace645ca44565b9957e6c7b9834047a293aec67432b"
+    },
+    {
+      "path": "fabric-weave.png",
+      "bytes": 216738,
+      "sha256": "252b41cc25af113556da217fd92881c8ead29d1f7e2e419ead15756bc8275b6e"
+    },
+    {
+      "path": "skin-detail.png",
+      "bytes": 197072,
+      "sha256": "edb3efd757adc99fb77369dd9d42b2e541df4d9915bb066057c7d55d55a76fbc"
+    },
+    {
+      "path": "fabric-normal.png",
+      "bytes": 7024,
+      "sha256": "accb853433e0407935c79b6cbca2a75fe5088b8c2940e771eb1a79929cfddd69"
+    },
+    {
+      "path": "skin-normal.png",
+      "bytes": 115615,
+      "sha256": "c0ebbab9f73d09fa51fe305216ef2f84b41b5c80c52e9fed908ab573215dfa43"
+    },
+    {
+      "path": "hair-strands-normal.png",
+      "bytes": 15384,
+      "sha256": "8087b9a12c71e1430a46ca77337bb1ef463b50a7e113b8fc94d3946dd5877603"
+    },
+    {
+      "path": "model-refinement.json",
+      "bytes": 484,
+      "sha256": "6d900067321943aad3c9663ed870b97619354ff234126da1cf837767cb347bda"
+    },
+    {
+      "path": "face-pigment-v6.png",
+      "bytes": 243810,
+      "sha256": "3a6e658129a8a5ce55142571008932a8737be6841e9b9b59221c64d15a7a418d"
+    },
+    {
+      "path": "face-pores-v6.png",
+      "bytes": 340288,
+      "sha256": "b1aded1187c739f0cc8f2c33380e893d253a7b4d1370bfd72efb94ea9814cf8d"
+    },
+    {
+      "path": "face-roughness-v6.png",
+      "bytes": 307622,
+      "sha256": "462d5a6c66cae15e65bd6259480e2979e1e0b62974545934fcd04da9aff2ebcc"
+    },
+    {
+      "path": "imported-characters/manifest.json",
+      "bytes": 17188,
+      "sha256": "7e3eb46db16d1cb881a45d9e8451917db85bb464e14971db8b352b89c9c4d967"
+    },
+    {
+      "path": "imported-characters/striker.webp",
+      "bytes": 744568,
+      "sha256": "ee5be4c54dd9a57c89e5103cd624544f1585891ff65d9f7a98ebb93b333d0776"
+    },
+    {
+      "path": "imported-characters/keeper.webp",
+      "bytes": 612094,
+      "sha256": "7c8a5520ba4565bf554629f279e9e89ac06183ed319139dd165564cbeb40ca6a"
+    }
+  ],
+  "authoring": {
+    "tools": "Blender 4.5.9 LTS; original procedural/keyframe authoring with baked analytic leg targets; Three.js CPU skeleton sampling and bounded IK",
+    "files": [
+      {
+        "path": "docs/penalty-shootout/assets/athlete-source.blend",
+        "bytes": 4927728,
+        "sha256": "95e0a78880b7a6907d99e44acc29f3518b1dadfe6ad3d31824f219ce7a983828"
+      },
+      {
+        "path": "docs/penalty-shootout/assets/build-athlete.py",
+        "bytes": 30912,
+        "sha256": "992a2dd0f814531740b94148bda87796b759e343236a4b9e71837cdbf889a121"
+      },
+      {
+        "path": "docs/penalty-shootout/assets/athlete-source-v4.blend",
+        "bytes": 2959429,
+        "sha256": "cfc1d8410333fe07ba5d66c461a257d2690c196d7153946e22fdef200da00a1c"
+      },
+      {
+        "path": "docs/penalty-shootout/assets/refine-athlete.py",
+        "bytes": 17117,
+        "sha256": "641159dc7be1cdc566efdae24fcd9dcda22c4a82e21d4f72c7c7e1a0ff6b8041"
+      },
+      {
+        "path": "docs/penalty-shootout/assets/refine-surfaces.py",
+        "bytes": 10045,
+        "sha256": "63c46d01e8540cfeba4973eff381dd16f85f609e69495c7a0a873eabce5d7142"
+      },
+      {
+        "path": "docs/penalty-shootout/assets/athlete-source-v5.blend",
+        "bytes": 3391111,
+        "sha256": "b21b7c862b306931f069822f258cdc0670858930646e16a25d0229fbb133aaec"
+      },
+      {
+        "path": "docs/penalty-shootout/assets/refine-construction.py",
+        "bytes": 12117,
+        "sha256": "046aa269e48fdae478b80348434f0ad014d20ba077e9609470717619e0aeb15f"
+      },
+      {
+        "path": "docs/penalty-shootout/assets/athlete-source-v6.blend",
+        "bytes": 4708478,
+        "sha256": "fb2216363377d8d6f4e0dbc460fa094c10dda258666d38fe2522659d21678190"
+      },
+      {
+        "path": "docs/penalty-shootout/assets/refine-shoulders.py",
+        "bytes": 5251,
+        "sha256": "0a6e47cfbce40b60711f39b5de412e8559593c11e1da250d75639622437ac965"
+      },
+      {
+        "path": "docs/penalty-shootout/assets/athlete-source-v7.blend",
+        "bytes": 4921251,
+        "sha256": "7f480683357b43c139974072cb84ffdde9155143d04a22d5efe85185dbe53321"
+      }
+    ],
+    "note": "The historical motion compiler is absent from this migrated checkout. Model v5 retains the existing CPU motion data, skeleton and clip names; refine-athlete.py consumes the preserved v4 editable source and the CC0 foundation."
+  },
+  "activeCharacters": {
+    "renderer": "camera-facing sprite atlases",
+    "manifest": "imported-characters/manifest.json",
+    "source": "Penalty Shooters 2 by 10x10games",
+    "license": "Commercial reference source; reuse licence not established",
+    "approval": "User-requested local replacement only",
+    "documentation": "docs/penalty-shootout/IMPORTED_CHARACTERS.md"
+  }
+}

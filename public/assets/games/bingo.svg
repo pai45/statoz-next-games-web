@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="100 -4 120 128" role="img" aria-label="Bingo card with a winning line daubed">
+  <title>Bingo card with a winning line daubed</title>
+  <rect x="110" y="10" width="20" height="20" fill="#16243a" stroke="#5cdfff" stroke-opacity="0.22"/>
+  <rect x="130" y="10" width="20" height="20" fill="#16243a" stroke="#5cdfff" stroke-opacity="0.22"/>
+  <rect x="150" y="10" width="20" height="20" fill="#16243a" stroke="#5cdfff" stroke-opacity="0.22"/>
+  <rect x="170" y="10" width="20" height="20" fill="#16243a" stroke="#5cdfff" stroke-opacity="0.22"/>
+  <rect x="190" y="10" width="20" height="20" fill="#16243a" stroke="#5cdfff" stroke-opacity="0.22"/>
+  <rect x="110" y="30" width="20" height="20" fill="#16243a" stroke="#5cdfff" stroke-opacity="0.22"/>
+  <rect x="130" y="30" width="20" height="20" fill="#16243a" stroke="#5cdfff" stroke-opacity="0.22"/>
+  <rect x="150" y="30" width="20" height="20" fill="#16243a" stroke="#5cdfff" stroke-opacity="0.22"/>
+  <rect x="170" y="30" width="20" height="20" fill="#16243a" stroke="#5cdfff" stroke-opacity="0.22"/>
+  <rect x="190" y="30" width="20" height="20" fill="#16243a" stroke="#5cdfff" stroke-opacity="0.22"/>
+  <rect x="110" y="50" width="20" height="20" fill="#16243a" stroke="#5cdfff" stroke-opacity="0.22"/>
+  <rect x="130" y="50" width="20" height="20" fill="#16243a" stroke="#5cdfff" stroke-opacity="0.22"/>
+  <rect x="150" y="50" width="20" height="20" fill="#16243a" stroke="#5cdfff" stroke-opacity="0.22"/>
+  <rect x="170" y="50" width="20" height="20" fill="#16243a" stroke="#5cdfff" stroke-opacity="0.22"/>
+  <rect x="190" y="50" width="20" height="20" fill="#16243a" stroke="#5cdfff" stroke-opacity="0.22"/>
+  <rect x="110" y="70" width="20" height="20" fill="#16243a" stroke="#5cdfff" stroke-opacity="0.22"/>
+  <rect x="130" y="70" width="20" height="20" fill="#16243a" stroke="#5cdfff" stroke-opacity="0.22"/>
+  <rect x="150" y="70" width="20" height="20" fill="#16243a" stroke="#5cdfff" stroke-opacity="0.22"/>
+  <rect x="170" y="70" width="20" height="20" fill="#16243a" stroke="#5cdfff" stroke-opacity="0.22"/>
+  <rect x="190" y="70" width="20" height="20" fill="#16243a" stroke="#5cdfff" stroke-opacity="0.22"/>
+  <rect x="110" y="90" width="20" height="20" fill="#16243a" stroke="#5cdfff" stroke-opacity="0.22"/>
+  <rect x="130" y="90" width="20" height="20" fill="#16243a" stroke="#5cdfff" stroke-opacity="0.22"/>
+  <rect x="150" y="90" width="20" height="20" fill="#16243a" stroke="#5cdfff" stroke-opacity="0.22"/>
+  <rect x="170" y="90" width="20" height="20" fill="#16243a" stroke="#5cdfff" stroke-opacity="0.22"/>
+  <rect x="190" y="90" width="20" height="20" fill="#16243a" stroke="#5cdfff" stroke-opacity="0.22"/>
+  <rect x="110" y="10" width="100" height="100" fill="none" stroke="#ff8904" stroke-opacity="0.6" stroke-width="1.4"/>
+  <path d="M120 20 200 100" stroke="#ff8904" stroke-opacity="0.45" stroke-width="2.5"/>
+  <circle cx="120" cy="20" r="7" fill="#5cdfff"/>
+  <circle cx="140" cy="40" r="7" fill="#5cdfff"/>
+  <circle cx="160" cy="60" r="7" fill="#5cdfff"/>
+  <circle cx="180" cy="80" r="7" fill="#5cdfff"/>
+  <circle cx="200" cy="100" r="7" fill="#5cdfff"/>
+</svg>

@@ -1,0 +1,51 @@
+[
+  {
+    "file": "audio/crowd.ogg",
+    "decode": "passed",
+    "peakDb": [
+      "-2.434376"
+    ]
+  },
+  {
+    "file": "audio/frame.wav",
+    "decode": "passed",
+    "peakDb": [
+      "-5.598670"
+    ]
+  },
+  {
+    "file": "audio/glove.wav",
+    "decode": "passed",
+    "peakDb": [
+      "-9.137936"
+    ]
+  },
+  {
+    "file": "audio/goal.wav",
+    "decode": "passed",
+    "peakDb": [
+      "-10.239523"
+    ]
+  },
+  {
+    "file": "audio/kick.wav",
+    "decode": "passed",
+    "peakDb": [
+      "-3.044394"
+    ]
+  },
+  {
+    "file": "audio/result.wav",
+    "decode": "passed",
+    "peakDb": [
+      "-10.340931"
+    ]
+  },
+  {
+    "file": "audio/whistle.wav",
+    "decode": "passed",
+    "peakDb": [
+      "-9.897365"
+    ]
+  }
+]

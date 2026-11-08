@@ -1,0 +1,12 @@
+{
+  "gameId": "longbow",
+  "file": "longbow.mp4",
+  "durationSeconds": 8,
+  "width": 1280,
+  "height": 720,
+  "fps": 12,
+  "source": "/embedded-games/longbow/index.html",
+  "method": "Actual local game runtime captured with Playwright; silent H.264 with restrained contrast/saturation grading.",
+  "sha256": "9f6274bb03da1157d9a5e73a91f56148a8d830ec84d5366a89d30f284ce554db",
+  "bytes": 1220001
+}

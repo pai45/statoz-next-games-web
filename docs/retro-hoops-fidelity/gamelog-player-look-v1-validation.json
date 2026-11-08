@@ -1,0 +1,64 @@
+{
+  "candidate": "retro-hoops-gamelog-player-look-v1",
+  "rulesVersion": "1.7.0",
+  "userReference": "https://www.youtube.com/watch?v=_k8IIS9n3dk",
+  "inspectedReferenceSeconds": [
+    [
+      0,
+      53
+    ],
+    [
+      53,
+      113
+    ]
+  ],
+  "wholeVideoInspected": false,
+  "checks": {
+    "retroHoopsTestsPassed": 73,
+    "locomotionLayersVerified": 552,
+    "actionLayersVerified": 72,
+    "actionLoopsRenderedAndDecoded": 16,
+    "teamScenariosPassed": 6,
+    "mobileConsoleChecksPassed": 9,
+    "scopedLint": "passed",
+    "typecheck": "passed",
+    "offlineGameBuild": "passed",
+    "staticBuild": "passed",
+    "sourceDissectionPlayer": "both bounded clips and interval controls verified",
+    "actualHostFlowChecksPassed": 6,
+    "hostErrors": []
+  },
+  "visualReview": {
+    "status": "assistant inspected family sheet, actual mobile scene and action frames",
+    "userApprovalInferred": false,
+    "sourceFrameIdentical": false,
+    "newSourceVideoPixelsExtractedForRuntime": false
+  },
+  "limitations": [
+    "Retains earlier reference head and action silhouette foundations.",
+    "Native directional poses, exact game timing, hidden AI and later venues/special variants remain unverified.",
+    "Timing parameters are authored fits to observed recording ranges.",
+    "Physical devices were not tested."
+  ],
+  "preview": {
+    "game": "http://127.0.0.1:8941/game.html",
+    "players": "http://127.0.0.1:8941/player-family.png",
+    "sourceStudy": "http://127.0.0.1:8940/",
+    "inspector": "http://127.0.0.1:8941/"
+  },
+  "sha256": {
+    "src/features/games/retro-hoops/reference-tuning.ts": "0beb0a34497751d68b302b674be3181af2501ae9d5349ddad02a7e032802c204",
+    "src/features/games/retro-hoops/court.ts": "2fc9e3f05a932a33a25a386b685fa5d79bd338c2af4406279b9b071ecfd2179e",
+    "src/features/games/retro-hoops/presentation.ts": "ded156b6cca0e5bef3e13e1d872f3caefdb5b9be732cbba46ad69d9375cb477c",
+    "scripts/build-retro-hoops-player-look.py": "55ee0e7e7b1858c6fc4ba090a16c830abd11e4b1aa7055509914f250fa039146",
+    "scripts/build-retro-hoops-locomotion.py": "a97be679f705719950a4ca130ec923c24662d1ee513d8c52007223881f00ef29",
+    "public/games/retro-hoops/player-look-v1/manifest.json": "71ffe3b40aa9733569e789020e15f2411e955f33b9b0cdfe04436bce56a41ac4",
+    "public/games/retro-hoops/locomotion-v4/manifest.json": "3bcf9b8c19cc1a0731fa1b6fe242da5791eafa5410f319ba274ca1c315506ef8"
+  },
+  "release": {
+    "pushed": false,
+    "pipelineActivated": false,
+    "published": false,
+    "flutterImported": false
+  }
+}

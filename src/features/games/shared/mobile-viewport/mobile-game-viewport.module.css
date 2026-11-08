@@ -1,0 +1,8 @@
+.host { position: fixed; inset: 0; z-index: 60; width: 100%; height: 100dvh; overflow: hidden; box-sizing: border-box; background: var(--ds-color-background-primary); padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px); overscroll-behavior: none; }
+.viewport { position: relative; width: 100%; height: 100%; overflow: hidden; }
+.frame { position: absolute; top: 0; left: 0; display: block; border: 0; transform-origin: top left; width: 100%; height: 100%; }
+
+/* The platform shell before the client knows whether it is on a phone: rendered (for
+   desktop and tablets) but hidden on an upright phone, which is about to get the frame. */
+.ready, .awaitPhone { display: contents; }
+@media (pointer: coarse) and (orientation: portrait) and (max-width: 500px) { .awaitPhone { visibility: hidden; } }

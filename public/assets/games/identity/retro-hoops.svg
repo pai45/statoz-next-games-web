@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 160" role="img" aria-label="Rimforge 3"><title>Rimforge 3</title>
+<defs><radialGradient id="court"><stop stop-color="#5C3F4D"/><stop offset="1" stop-color="#1D2B3C"/></radialGradient></defs>
+<circle cx="110" cy="71" r="59" fill="url(#court)" stroke="#FFCB68" stroke-width="5"/>
+<circle cx="110" cy="71" r="51" fill="none" stroke="#E77D49" stroke-width="2" stroke-dasharray="12 5"/>
+<path d="M50 52 38 43m18 24-18-4m126-11 12-9m-18 24 18-4" stroke="#FFCB68" stroke-width="6" stroke-linecap="square"/>
+<path d="M60 88c14 22 86 22 100 0" fill="none" stroke="#FFF0BB" stroke-width="5"/>
+<path d="M70 92 80 115m13-18 8 23m25-23-8 23m32-28-10 23" stroke="#FFF0BB" stroke-width="2"/>
+<path d="M72 65h76" stroke="#FFCB68" stroke-width="7"/>
+<path d="M65 66c10-39 80-39 90 0" fill="none" stroke="#FFCB68" stroke-width="4"/>
+<circle cx="111" cy="49" r="27" fill="#E97946" stroke="#FFE6A4" stroke-width="4"/>
+<path d="M84 49h54m-27-27v54M90 31c21 11 27 28 7 42m35-42c-21 11-27 28-7 42" fill="none" stroke="#27384B" stroke-width="3"/>
+<path d="M35 116h150l-12 28H47z" fill="#BF4A3B" stroke="#FFCB68" stroke-width="4"/>
+<text x="110" y="137" text-anchor="middle" fill="#FFF1C8" stroke="#4B2936" stroke-width="2" paint-order="stroke" font-family="Impact,Arial Black,sans-serif" font-size="20" font-weight="900" letter-spacing="1">RIMFORGE 3</text></svg>

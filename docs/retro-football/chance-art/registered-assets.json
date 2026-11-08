@@ -1,0 +1,224 @@
+{
+  "current": [
+    {
+      "file": "art/close-entry.png",
+      "assetId": "f42129a2-9cb3-46be-81c4-4fd5c2203f76",
+      "sha256": "62828f94272b15f7d9b5e6bd347d5bc8dad83761f57f0d34444e0b852e9eba9b",
+      "approval": "reference"
+    },
+    {
+      "file": "art/orchard-close-entry.png",
+      "assetId": "827902d7-4e04-4614-9b46-ecdd2a1dfda9",
+      "sha256": "b47901348c6e3afc560c7095a2fe1b7d4519d93781a4ff704d708b9e9a347519",
+      "approval": "reference"
+    },
+    {
+      "file": "art/close-entry-alt.png",
+      "assetId": "619ea463-4f4f-451e-b677-d05b6f9df64d",
+      "sha256": "8468a7e465d11833830d05010f9a075ec33134b1c49dfb2b25392f8d0a9273f9",
+      "approval": "reference"
+    },
+    {
+      "file": "art/orchard-close-entry-alt.png",
+      "assetId": "91272419-2477-46d2-9670-414a3e3fed2b",
+      "sha256": "2ed6e36312e29b8ffc32a66e118a2e0735130597f12b79dd4679aaee843a918f",
+      "approval": "reference"
+    },
+    {
+      "file": "art/close-ready.png",
+      "assetId": "68799274-b4d4-4d3f-a267-0e8dc210136c",
+      "sha256": "d63154c9827f0d35f424fe1b44693d48798ede74ed24b1a42674cef98c847bfe",
+      "approval": "reference"
+    },
+    {
+      "file": "art/orchard-close-ready.png",
+      "assetId": "bc2c2764-0226-4ba8-aa3b-a52af2e14634",
+      "sha256": "2f0bcf7e540383e3e3c52e0c6e60e0a9e86d7c2c7a802fbc589275e5913cc9ac",
+      "approval": "reference"
+    },
+    {
+      "file": "art/close-windup.png",
+      "assetId": "22d37d6a-1ddf-490d-8129-c50690babd0f",
+      "sha256": "c723917918ed778aaf6dc1084f5db9af8a92631d11c98c82fe5d3f15776fd961",
+      "approval": "reference"
+    },
+    {
+      "file": "art/orchard-close-windup.png",
+      "assetId": "be4f8b1e-ca59-4fd1-8360-cfc0ecbe38d4",
+      "sha256": "e13b95c003fcb29e5f8c8df9604724d8b2b7ee619e600a46743141a419b7efc2",
+      "approval": "reference"
+    },
+    {
+      "file": "art/close-plant.png",
+      "assetId": "d99fc3db-d3ee-47d4-8b01-80fd07488682",
+      "sha256": "95fa80599fdd2da919fd9e49aae09cfc18f04f9ba83b770ef01b82ef8055b543",
+      "approval": "reference"
+    },
+    {
+      "file": "art/orchard-close-plant.png",
+      "assetId": "2f5c44bf-4cac-46ef-84e8-783e2c5465ec",
+      "sha256": "a7fd506d22c33cd8bb03a58216eeec06432547ca930e2b2d091edbed5aa26253",
+      "approval": "reference"
+    },
+    {
+      "file": "art/close-contact.png",
+      "assetId": "8d78fd4b-9bc0-4579-86d0-a03865bc9842",
+      "sha256": "ac06b5195a4d1d1b8b49af79ed18d2a89b2bf29efd2b4100ad810e48da812d6d",
+      "approval": "reference"
+    },
+    {
+      "file": "art/orchard-close-contact.png",
+      "assetId": "80fa1d41-07a5-4b56-a45d-65c8e66a691e",
+      "sha256": "8cee9ed4767c14c132faeb0b99cb86553e2336746c8949521f81756bb359600d",
+      "approval": "reference"
+    },
+    {
+      "file": "art/close-follow.png",
+      "assetId": "1a5f3554-312a-4e61-a9d1-8d159d68a077",
+      "sha256": "cacfa30dcfb755f8b93477a0768f1f650f55e8b4fdb137876ba8f4cd9fc50e62",
+      "approval": "reference"
+    },
+    {
+      "file": "art/orchard-close-follow.png",
+      "assetId": "8259f2cd-9037-46f9-bad9-64be2c2c84bc",
+      "sha256": "09f2deb94793dab93c159ce1b0cda5740d7e58d53589274da36f18dc71d61ebd",
+      "approval": "reference"
+    },
+    {
+      "file": "art/close-recover.png",
+      "assetId": "c9a381d6-ceee-441e-adbe-b2b4d1ad06a5",
+      "sha256": "49f0541ee0edfdb70cc82f64ebbfe13b78b2ba8ffa21c2ca77cef9cb7b936ad0",
+      "approval": "reference"
+    },
+    {
+      "file": "art/orchard-close-recover.png",
+      "assetId": "c583f3f2-735b-431a-917e-2f1100234c0e",
+      "sha256": "c149946d477e57e7b45c04a10ac4ff7d6d984809f42c1f91ceae0dd749d9edbd",
+      "approval": "reference"
+    },
+    {
+      "file": "art/review.png",
+      "assetId": "92956f11-625a-4741-b6e5-d719fba50c08",
+      "sha256": "7c619e79a813406ce6c168105c704248cfc516f4589444f937bc4bbd4be20cf7",
+      "approval": "reference"
+    },
+    {
+      "file": "public/team-atlas.png",
+      "assetId": "a327b6dc-8c3c-43f4-9464-a1442089688e",
+      "sha256": "ca0c28d30f689dc8d5bce8d0204fecd14442d72e9f4edda0610c9389158fa80f",
+      "approval": "reference"
+    }
+  ],
+  "history": [
+    {
+      "file": "art/close-entry.png",
+      "assetId": "f42129a2-9cb3-46be-81c4-4fd5c2203f76",
+      "sha256": "62828f94272b15f7d9b5e6bd347d5bc8dad83761f57f0d34444e0b852e9eba9b",
+      "approval": "reference"
+    },
+    {
+      "file": "art/orchard-close-entry.png",
+      "assetId": "827902d7-4e04-4614-9b46-ecdd2a1dfda9",
+      "sha256": "b47901348c6e3afc560c7095a2fe1b7d4519d93781a4ff704d708b9e9a347519",
+      "approval": "reference"
+    },
+    {
+      "file": "art/close-entry-alt.png",
+      "assetId": "619ea463-4f4f-451e-b677-d05b6f9df64d",
+      "sha256": "8468a7e465d11833830d05010f9a075ec33134b1c49dfb2b25392f8d0a9273f9",
+      "approval": "reference"
+    },
+    {
+      "file": "art/orchard-close-entry-alt.png",
+      "assetId": "91272419-2477-46d2-9670-414a3e3fed2b",
+      "sha256": "2ed6e36312e29b8ffc32a66e118a2e0735130597f12b79dd4679aaee843a918f",
+      "approval": "reference"
+    },
+    {
+      "file": "art/close-ready.png",
+      "assetId": "68799274-b4d4-4d3f-a267-0e8dc210136c",
+      "sha256": "d63154c9827f0d35f424fe1b44693d48798ede74ed24b1a42674cef98c847bfe",
+      "approval": "reference"
+    },
+    {
+      "file": "art/orchard-close-ready.png",
+      "assetId": "bc2c2764-0226-4ba8-aa3b-a52af2e14634",
+      "sha256": "2f0bcf7e540383e3e3c52e0c6e60e0a9e86d7c2c7a802fbc589275e5913cc9ac",
+      "approval": "reference"
+    },
+    {
+      "file": "art/close-windup.png",
+      "assetId": "22d37d6a-1ddf-490d-8129-c50690babd0f",
+      "sha256": "c723917918ed778aaf6dc1084f5db9af8a92631d11c98c82fe5d3f15776fd961",
+      "approval": "reference"
+    },
+    {
+      "file": "art/orchard-close-windup.png",
+      "assetId": "be4f8b1e-ca59-4fd1-8360-cfc0ecbe38d4",
+      "sha256": "e13b95c003fcb29e5f8c8df9604724d8b2b7ee619e600a46743141a419b7efc2",
+      "approval": "reference"
+    },
+    {
+      "file": "art/close-plant.png",
+      "assetId": "d99fc3db-d3ee-47d4-8b01-80fd07488682",
+      "sha256": "95fa80599fdd2da919fd9e49aae09cfc18f04f9ba83b770ef01b82ef8055b543",
+      "approval": "reference"
+    },
+    {
+      "file": "art/orchard-close-plant.png",
+      "assetId": "2f5c44bf-4cac-46ef-84e8-783e2c5465ec",
+      "sha256": "a7fd506d22c33cd8bb03a58216eeec06432547ca930e2b2d091edbed5aa26253",
+      "approval": "reference"
+    },
+    {
+      "file": "art/close-contact.png",
+      "assetId": "8d78fd4b-9bc0-4579-86d0-a03865bc9842",
+      "sha256": "ac06b5195a4d1d1b8b49af79ed18d2a89b2bf29efd2b4100ad810e48da812d6d",
+      "approval": "reference"
+    },
+    {
+      "file": "art/orchard-close-contact.png",
+      "assetId": "80fa1d41-07a5-4b56-a45d-65c8e66a691e",
+      "sha256": "8cee9ed4767c14c132faeb0b99cb86553e2336746c8949521f81756bb359600d",
+      "approval": "reference"
+    },
+    {
+      "file": "art/close-follow.png",
+      "assetId": "1a5f3554-312a-4e61-a9d1-8d159d68a077",
+      "sha256": "cacfa30dcfb755f8b93477a0768f1f650f55e8b4fdb137876ba8f4cd9fc50e62",
+      "approval": "reference"
+    },
+    {
+      "file": "art/orchard-close-follow.png",
+      "assetId": "8259f2cd-9037-46f9-bad9-64be2c2c84bc",
+      "sha256": "09f2deb94793dab93c159ce1b0cda5740d7e58d53589274da36f18dc71d61ebd",
+      "approval": "reference"
+    },
+    {
+      "file": "art/close-recover.png",
+      "assetId": "c9a381d6-ceee-441e-adbe-b2b4d1ad06a5",
+      "sha256": "49f0541ee0edfdb70cc82f64ebbfe13b78b2ba8ffa21c2ca77cef9cb7b936ad0",
+      "approval": "reference"
+    },
+    {
+      "file": "art/orchard-close-recover.png",
+      "assetId": "c583f3f2-735b-431a-917e-2f1100234c0e",
+      "sha256": "c149946d477e57e7b45c04a10ac4ff7d6d984809f42c1f91ceae0dd749d9edbd",
+      "approval": "reference"
+    },
+    {
+      "file": "art/review.png",
+      "assetId": "92956f11-625a-4741-b6e5-d719fba50c08",
+      "sha256": "7c619e79a813406ce6c168105c704248cfc516f4589444f937bc4bbd4be20cf7",
+      "approval": "reference"
+    },
+    {
+      "file": "public/team-atlas.png",
+      "assetId": "a327b6dc-8c3c-43f4-9464-a1442089688e",
+      "sha256": "ca0c28d30f689dc8d5bce8d0204fecd14442d72e9f4edda0610c9389158fa80f",
+      "approval": "reference"
+    }
+  ],
+  "importer": "Existing studio POST /api/assets",
+  "productionEligible": false
+}

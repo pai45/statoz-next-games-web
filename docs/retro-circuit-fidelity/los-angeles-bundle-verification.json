@@ -1,0 +1,36 @@
+{
+  "build": "0.8.1-render-state-fix",
+  "rules": 106,
+  "games": [
+    {
+      "id": "retro-hoops",
+      "sha256": "b0731e897d349c40d3a5f67ee32c944313a177a3ed181e1e5b940f6ee7028264",
+      "bytes": 3435303,
+      "changed": false
+    },
+    {
+      "id": "retro-football",
+      "sha256": "bec88530e6dbb8c15d7259c3be0cc50e063752edf792c8dbaa12c8f8248d406c",
+      "bytes": 2209166,
+      "changed": false
+    },
+    {
+      "id": "retro-innings",
+      "sha256": "dad0b49e69e691da9b7fcb9dddcc1fd5133c228729406c60806b254f2368c080",
+      "bytes": 847242,
+      "changed": false
+    },
+    {
+      "id": "stadium-cricket",
+      "sha256": "157fbf54fac2b26553397f44dd11b689aa72c0447a8a01e421602f273efc7e4a",
+      "bytes": 9417618,
+      "changed": false
+    },
+    {
+      "id": "retro-circuit",
+      "sha256": "faf5a0c3ef20d395be7f013bf80f6d33774e3be9109acf0ba46e93eca0d3c1e4",
+      "bytes": 1117298,
+      "changed": true
+    }
+  ]
+}

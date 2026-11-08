@@ -1,0 +1,139 @@
+/*
+ * Home coverflow — one large centre cover with the rest of the library fanned
+ * out to the left and right, over the same animated backdrop the old featured
+ * strip used. Everything is sized from the stage (a size container) so the
+ * whole carousel fits the screen, including a phone held sideways.
+ */
+.flow{position:relative;display:flex;flex:1;flex-direction:column;min-height:300px;isolation:isolate;overflow:clip}
+
+/* ---- Backdrop ----------------------------------------------------------- */
+.backdrop{
+  position:absolute;inset:0;z-index:-1;overflow:hidden;pointer-events:none;transition:background 600ms;
+  background:radial-gradient(70% 75% at 50% 42%,color-mix(in srgb,var(--spot-accent) 16%,var(--ds-color-background-secondary)) 0%,transparent 78%);
+  -webkit-mask-image:linear-gradient(180deg,transparent 0,#000 10%,#000 85%,transparent 100%),linear-gradient(90deg,transparent 0,#000 6%,#000 94%,transparent 100%);
+  -webkit-mask-composite:source-in;
+  mask-image:linear-gradient(180deg,transparent 0,#000 10%,#000 85%,transparent 100%),linear-gradient(90deg,transparent 0,#000 6%,#000 94%,transparent 100%);
+  mask-composite:intersect;
+}
+.orb{position:absolute;border-radius:var(--ds-radius-pill);filter:blur(70px)}
+.orbAccent{width:clamp(260px,40vw,560px);aspect-ratio:1;top:-18%;right:-6%;background:color-mix(in srgb,var(--spot-accent) 24%,transparent);transition:background 600ms;animation:orbit 14s ease-in-out infinite}
+.orbViolet{width:clamp(220px,34vw,460px);aspect-ratio:1;bottom:-22%;left:-6%;background:color-mix(in srgb,var(--ds-color-accent-violet) 16%,transparent);animation:orbit 17s ease-in-out infinite reverse}
+.dots{
+  position:absolute;inset:0;opacity:.3;animation:dotsDrift 18s linear infinite;
+  background-image:radial-gradient(circle,color-mix(in srgb,var(--spot-accent) 40%,transparent) 1px,transparent 1.7px);background-size:12px 12px;
+}
+.floor{
+  position:absolute;left:-50%;right:-50%;bottom:0;height:50%;opacity:.45;
+  transform:perspective(320px) rotateX(62deg);transform-origin:bottom;
+  background-image:linear-gradient(color-mix(in srgb,var(--spot-accent) 40%,transparent) 1px,transparent 1px),linear-gradient(90deg,color-mix(in srgb,var(--spot-accent) 40%,transparent) 1px,transparent 1px);
+  background-size:36px 36px;animation:floorRun 1.6s linear infinite;
+  -webkit-mask-image:linear-gradient(0deg,#000 0%,transparent 92%);mask-image:linear-gradient(0deg,#000 0%,transparent 92%);
+}
+.ghost{
+  position:absolute;top:8%;left:50%;transform:translateX(-50%);white-space:nowrap;
+  font:900 clamp(80px,14vw,200px)/1 var(--ds-font-display);letter-spacing:-.04em;text-transform:uppercase;
+  color:color-mix(in srgb,var(--ds-color-text-default) 4%,transparent);
+}
+
+/* ---- Stage and cards ------------------------------------------------------ */
+/* --stage-w/--stage-h are measured by the component (container height units read 0 in
+   some flex layouts); the defaults only cover the first paint. */
+/* The stage itself is click-through: cards pushed back in 3D sit behind its plane, and it
+   would otherwise take their taps. Card events still bubble to its swipe handlers. */
+.stage{--stage-w:100cqw;--stage-h:50dvh;position:relative;flex:1;min-height:160px;touch-action:pan-y;container-type:inline-size;user-select:none;pointer-events:none}
+/* Viewport for the cards. It owns the perspective so its mask can feather the
+   side covers into the page at the app column's edges (--shell-feather, 0 on
+   smaller screens) without flattening the 3D track. It overhangs the stage
+   vertically so the centre cover's glow is never clipped. */
+.trackView{
+  --feather:var(--shell-feather,0px);
+  position:absolute;inset:-48px 0;perspective:1200px;pointer-events:none;
+  mask-image:linear-gradient(90deg,transparent 0,#000 var(--feather),#000 calc(100% - var(--feather)),transparent 100%);
+}
+.track{
+  --card-w:min(var(--stage-w) * .46,560px,(var(--stage-h) - 12px) * 1.5);
+  --spread:.6;
+  position:absolute;inset:48px 0;transform:rotateX(var(--tilt-x,0deg)) rotateY(var(--tilt-y,0deg));transform-style:preserve-3d;transition:transform 250ms ease-out;
+}
+@container (max-width:640px){
+  .track{--card-w:min(var(--stage-w) * .62,(var(--stage-h) - 12px) * 1.5);--spread:.56}
+}
+.card{
+  --card-cut:var(--ds-shape-bevel-cut);
+  position:absolute;left:50%;top:50%;display:block;width:var(--card-w);aspect-ratio:3 / 2;padding:0;border:0;background:none;color:inherit;cursor:pointer;pointer-events:auto;touch-action:pan-y;
+  -webkit-tap-highlight-color:transparent;
+  transform:translate(-50%,-50%) translateX(calc(var(--d) * var(--card-w) * var(--spread))) translateZ(calc(var(--ad) * -90px)) rotateY(calc(var(--d) * -16deg)) scale(calc(1 - var(--ad) * .15));
+  opacity:calc((1 - var(--ad) * .2) * var(--fade,1));
+  filter:brightness(calc(1 - var(--ad) * .22)) saturate(calc(1 - var(--ad) * .12));
+  transition:transform 520ms cubic-bezier(.2,.8,.2,1),opacity 420ms,filter 420ms;
+}
+.card.edgeOut{pointer-events:none}
+/* While dragging the cards follow the pointer directly; letting go animates them into place. */
+.dragging .card{transition:none}
+.centre{filter:drop-shadow(0 10px 26px color-mix(in srgb,var(--card-accent) 40%,transparent))}
+.card:focus-visible{outline:2px solid var(--card-accent);outline-offset:4px}
+.edge,.fill{clip-path:polygon(0 0,calc(100% - var(--card-cut)) 0,100% var(--card-cut),100% 100%,var(--card-cut) 100%,0 calc(100% - var(--card-cut)))}
+.edge{position:absolute;inset:0;background:linear-gradient(150deg,var(--card-accent) 0%,color-mix(in srgb,var(--card-accent) 30%,var(--ds-color-background-muted)) 55%,var(--card-accent) 100%)}
+.fill{position:absolute;inset:2px;overflow:hidden;background:var(--ds-color-background-muted)}
+.cover{object-fit:cover;pointer-events:none}
+.vignette,.sheen{position:absolute;inset:0;pointer-events:none}
+.vignette{
+  mix-blend-mode:screen;
+  background:radial-gradient(120% 80% at 50% 0,color-mix(in srgb,var(--card-accent) 22%,transparent),transparent 55%),linear-gradient(0deg,color-mix(in srgb,var(--ds-color-background-primary) 45%,transparent) 0%,transparent 35%);
+}
+.sheen{opacity:0;background:linear-gradient(110deg,transparent 40%,color-mix(in srgb,var(--ds-color-text-default) 18%,transparent) 48%,transparent 56%);transform:translateX(var(--sheen,-40%))}
+.centre .sheen{opacity:1}
+.bracket{position:absolute;width:10px;height:10px;pointer-events:none;--bracket:color-mix(in srgb,var(--ds-color-text-default) 55%,transparent)}
+.bracketStart{top:10px;left:10px;border-top:2px solid var(--bracket);border-left:2px solid var(--bracket)}
+.bracketEnd{right:10px;bottom:10px;border-right:2px solid var(--bracket);border-bottom:2px solid var(--bracket)}
+
+.step{
+  position:absolute;top:50%;z-index:200;pointer-events:auto;display:grid;place-items:center;width:44px;height:44px;margin-top:-22px;padding:0;cursor:pointer;
+  border:1px solid color-mix(in srgb,var(--spot-accent) 45%,transparent);border-radius:var(--ds-radius-pill);
+  background:color-mix(in srgb,var(--ds-color-background-primary) 70%,transparent);color:var(--ds-color-text-default);backdrop-filter:blur(6px);
+}
+.step:hover{color:var(--spot-accent)}
+.step:focus-visible{outline:2px solid var(--spot-accent);outline-offset:2px}
+.stepPrev{left:8px}
+.stepNext{right:8px}
+
+/* ---- Name and actions ----------------------------------------------------- */
+/* Side padding keeps the row clear of the corner VIEW ALL button (and centred). */
+.info{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:10px 24px;padding:10px 72px 14px;text-align:center}
+/* VIEW ALL GAMES: one square icon button pinned to the carousel's bottom-right corner. */
+.viewAll{position:absolute;right:16px;bottom:14px;z-index:200;width:44px;padding:0}
+.meta{min-width:0}
+.name{
+  margin:0;font:900 clamp(18px,1.4vw + 12px,30px)/1.05 var(--ds-font-display);letter-spacing:.04em;text-transform:uppercase;
+  color:var(--ds-color-text-default);text-shadow:0 0 14px color-mix(in srgb,var(--spot-accent) 45%,transparent);
+}
+.sub{display:flex;justify-content:center;gap:12px;margin:6px 0 0;font:800 var(--ds-size-p10)/1 var(--ds-font-display);letter-spacing:.14em;color:var(--ds-color-text-muted)}
+.actions{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
+
+/* A phone held sideways: little height, so the name sits beside the buttons on one short row. */
+@media (orientation:landscape) and (max-height:540px){
+  .flow{min-height:220px}
+  /* The page fits the screen here, so the carousel takes every touch. Inside the turned phone shell a
+     sideways drag is a vertical move on the glass, and pan-y would hand it to the browser as a scroll. */
+  .stage,.card{touch-action:none}
+  .stage{min-height:120px}
+  .info{flex-wrap:nowrap;justify-content:space-between;padding:6px 72px 8px 16px;text-align:left}
+  .viewAll{bottom:8px}
+  .sub{justify-content:flex-start;margin-top:4px}
+  .name{font-size:18px}
+  .step{width:38px;height:38px;margin-top:-19px}
+}
+@media (max-width:639px){
+  .card{--card-cut:var(--ds-shape-bevel-compact-cut)}
+  .step{width:36px;height:36px;margin-top:-18px}
+}
+
+@keyframes orbit{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-70px,40px) scale(1.18)}}
+@keyframes dotsDrift{to{background-position:120px 60px}}
+@keyframes floorRun{to{background-position:0 36px}}
+
+@media (prefers-reduced-motion:reduce){
+  .track{transform:none}
+  .card{transition:none}
+  .orb,.dots,.floor{animation:none}
+}

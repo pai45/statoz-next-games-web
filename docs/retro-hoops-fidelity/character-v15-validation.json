@@ -1,0 +1,141 @@
+{
+  "gameId": "retro-hoops",
+  "agent": "street_hoop_artist (executed inline by the parent session)",
+  "skill": "street-hoop-assets",
+  "build": "character-v15-local",
+  "assets": "15.0.0",
+  "rules": "2.0.0",
+  "scope": "reference ready crouch and hanging airborne legs",
+  "changes": [
+    "Ready/defend/backpedal crouch: hips pushed back, both thighs angled forward, knees close over a narrow stance, upper arms hanging down the torso side and forearms reaching to the knees (non-ball hand endpoints re-authored).",
+    "Jump shot: legs straighten and hang together with pointed toes while airborne, blended by the existing lift curve; ball-holding hands unchanged.",
+    "Jump block: hanging straight legs instead of a straddle.",
+    "Blond back view rebuilt as layered locks (was helmet-like); white sleeves shorter and slimmer."
+  ],
+  "research": [
+    "https://www.youtube.com/watch?v=38Qlqw2re1w (Arcadexzone, Street Hoop 1994 arcade gameplay; first 360s downloaded for research-only study in Designer output/retro-hoops/character-study-v2)"
+  ],
+  "checks": {
+    "pipelineSteps": {
+      "art": "passed",
+      "bundle": "passed",
+      "console": "passed",
+      "contract": "passed",
+      "fidelity": "passed",
+      "host": "passed",
+      "lint": "passed",
+      "motion-build": "passed",
+      "motion-capture": "passed",
+      "motion-encode": "passed",
+      "pack": "passed",
+      "rules-tests": "passed",
+      "static-build": "passed",
+      "typecheck": "passed",
+      "wire": "passed"
+    },
+    "rulesInputAndIntegrationTests": 86,
+    "assetIntegrity": 13,
+    "rigContract": {
+      "frames": 2276,
+      "ballHoldingHandEndpointsUnchanged": true,
+      "freeHandClips": [
+        "backpedal",
+        "defend",
+        "neutral-a",
+        "neutral-b"
+      ],
+      "freeHandFramesChanged": 72,
+      "dunkPoses": 104,
+      "maxReach": 40.80441152620633,
+      "dribbleOverlayShoulderMatches": 12,
+      "changedAnchorKinds": {
+        "hips": 216,
+        "shoulders": 216,
+        "hands": 72,
+        "ankles": 268,
+        "knees": 288,
+        "toes": 268,
+        "heels": 268,
+        "elbows": 72,
+        "neck": 216,
+        "head": 216
+      },
+      "scope": "V15 vs V14: foot origin, dribble-ball endpoints and every ball-holding hand endpoint unchanged; dunk shoulders/elbows unchanged and reachable. Non-ball ready/defend hands may be re-authored."
+    },
+    "productionActionLoops": 16,
+    "decodedVideos": 16,
+    "hostFlow": 6,
+    "mobileConsole": 12,
+    "lint": "passed (1 unrelated retro-circuit warning)",
+    "typecheck": "passed",
+    "staticBuild": "passed"
+  },
+  "pack": {
+    "bodyFrameEntries": 2276,
+    "distinctBodyFrames": 1204,
+    "headFrameEntries": 36,
+    "atlasPages": 3,
+    "referenceRasterInputs": 0,
+    "previousPackPreserved": true
+  },
+  "correctionRecord": "test-results/retro-hoops-character-v15/correction-record.json",
+  "fidelityMatrix": [
+    {
+      "feature": "Ready/defend crouch",
+      "status": "approximate",
+      "review": "Hips back, knees forward and hands by the knees match the source structure at equal height."
+    },
+    {
+      "feature": "Airborne shot/block legs",
+      "status": "approximate",
+      "review": "Straight hanging legs with pointed toes, as in the jump-shot study crops."
+    },
+    {
+      "feature": "Kits, identities, camera, venue",
+      "status": "adapted",
+      "review": "Unchanged from V14."
+    },
+    {
+      "feature": "Native timing, input windows, hidden AI",
+      "status": "unverified",
+      "review": "Not recovered."
+    }
+  ],
+  "review": {
+    "structural": "passed",
+    "visual": "Rebuilt the most frequent on-court pose and the airborne silhouettes after comparison with the GameLog first possession and the jump-shot study crops.",
+    "gameplay": "Simulation/AI/input untouched; 86 tests pass.",
+    "sourceLikenessApproved": false,
+    "exactLikenessAchieved": false,
+    "nativeTimingRecovered": false,
+    "physicalDeviceTested": false,
+    "limitations": [
+      "Far arm in the crouch is heavier/darker than the source.",
+      "Team-select footage (38Qlqw2re1w) shows a much bulkier build than ours: broad rounded shoulders, thick arms, barrel chest, arms hanging close in front view, near-universal dark sunglasses and moustaches/stubble, chest band stripes on T-shirt kits. Targeted next (V16).",
+      "Venue: GameLog and 38Qlqw2re1w match footage both show dark drapes, a HIP HOP DJ stage and scaffold supports; V14's chain-link fence replaced V13's footage-derived elements and should be revisited after characters, per the user's priority.",
+      "Near-side athletes can sit under the joystick and A/B overlays.",
+      "Bodies stay per team; native timing and physical devices unverified."
+    ]
+  },
+  "hashes": {
+    "scripts/retro_hoops_character.py": "f3293c260211daa39f0cc0389f7c0158e6841cdfc256236663c451daefdfdcc0",
+    "scripts/build-retro-hoops-authored.py": "49fe6739069fcf9a34817373e88b151a7e2bcdae2b7ead5174d8bc9c61b4156f",
+    "src/features/games/retro-hoops/contact-arm.ts": "a91775381b3d5cb86417fa546c9c9db3bba3fe6976b7702714db06abb41d08cb",
+    "src/features/games/retro-hoops/view.ts": "96403e0178bbb98c70b4efbe9b5650f1f766b86851a234e9f7fc736260d78778",
+    "src/features/games/retro-hoops/renderer.ts": "9202e82365872589a272c88ea2a9a78a0c84003e2e1c07201fcdfdefea9f5d78",
+    "src/features/games/retro-hoops/presentation.ts": "9577d626817d5ddcd8cdddc7ef38119efd6022bf3661c3c7ae3edad10aa2fcb6",
+    "src/features/games/retro-hoops/court.ts": "b4e4001ade42dc7d3f6e2496036bd370f661e188844fbf4966116d07bf7546ab",
+    "src/features/games/retro-hoops/crowd.ts": "dd761650932f702eb049330c36a9cc3b59d50890cef7d0c5f14424c2980bdd6e",
+    "src/features/games/retro-hoops/character-pack.ts": "6cc5976d4c12f4124138270eb1942363b9b4ce102d98235885f582566f481aeb",
+    "src/features/games/retro-hoops/reference-profile.ts": "0c71af6577f8db9b1822375e2e7ac170907593f69783a95e51ed2e94b398e3af",
+    "public/games/retro-hoops/authored-v15/manifest.json": "13d3906a5ba6bb55a33938ee1ed2f944c8481ce09bafa3e6f183788c10f62038",
+    "public/games/retro-hoops/credits.json": "76fe2ea7b9fa0cee905799e27bcdf3971bddad4a26fe827fb6519375a633b55a",
+    "public/embedded-games/retro-hoops/index.html": "81fa2f7adb01a3239bfb26a73ef20a64731b98387c2a938f48b3c6f9e66ebd49"
+  },
+  "release": {
+    "localOnly": true,
+    "pushed": false,
+    "published": false,
+    "pipelineActivated": false
+  }
+}

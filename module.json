@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "games-web",
+  "name": "Games Web",
+  "version": "0.1.0",
+  "kind": "web",
+  "port": 4406,
+  "repository": "pai45/statoz-next-games-web",
+  "integrationVersion": 1,
+  "protectedRoots": [
+    "C:/Users/priya/OneDrive/Desktop/StatOz Designer",
+    "C:/Users/priya/OneDrive/Desktop/StatOz Future",
+    "C:/Users/priya/OneDrive/Desktop/statoz_web",
+    "C:/Users/priya/OneDrive/Desktop/flutter_projects/card_game",
+    "C:/Users/priya/OneDrive/Desktop/statoz"
+  ],
+  "commands": {
+    "check": [
+      [
+        "node",
+        "node_modules/next/dist/bin/next",
+        "typegen"
+      ],
+      [
+        "node",
+        "node_modules/typescript/bin/tsc",
+        "--noEmit"
+      ],
+      [
+        "node",
+        "--test",
+        "tests/operations/source.test.mjs"
+      ]
+    ],
+    "build": [
+      [
+        "node",
+        "scripts/build-site.mjs"
+      ]
+    ]
+  },
+  "operations": [
+    "check",
+    "build",
+    "release:prepare",
+    "release:status"
+  ],
+  "navigation": [
+    {
+      "title": "Games Web",
+      "href": "/"
+    }
+  ]
+}

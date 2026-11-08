@@ -1,0 +1,57 @@
+{
+  "gameId": "retro-hoops",
+  "build": "character-v4-local",
+  "assetPack": "4.0.0",
+  "rules": "2.0.0",
+  "target": "User-linked Street Hoop / Steam 1189520; user-selected GameLog video supplements it",
+  "sourceStudy": "reference-comparison.json",
+  "changes": [
+    "Smaller original face/hair clusters and stronger team palette contrast.",
+    "Shorter jersey construction and longer exposed lower legs, without resampling earlier sprites.",
+    "Explicit running stance/stride samples.",
+    "Relaxed neutral arms, separated raised/supporting elbows and target-relative held-ball arm bending."
+  ],
+  "checks": {
+    "tests": 84,
+    "artStructural": 8,
+    "actionLoops": 16,
+    "decodedLoops": 16,
+    "mobileLifecycle": 9,
+    "teamScenarios": 6,
+    "hostFlow": 6,
+    "lint": "passed",
+    "typecheck": "passed",
+    "staticBuild": "passed"
+  },
+  "pack": {
+    "frameEntries": 2276,
+    "distinctPixelFrames": 1272,
+    "priorPacksPreserved": true,
+    "referenceRasterInputs": 0
+  },
+  "review": {
+    "sourceLikenessApproved": false,
+    "exactLikenessAchieved": false,
+    "nativeTimingRecovered": false,
+    "physicalDeviceTested": false,
+    "limitations": [
+      "This is another source-directed original reconstruction, not exact Street Hoop art.",
+      "Apparent player size/pose contours and source-specific animation character remain visibly different.",
+      "Recording overlap and camera/depth differences prevent treating the comparison board as a precise alignment."
+    ],
+    "performed": "Assistant inspected source frames, v3/v4 body layers, constructed directions and actual production action captures."
+  },
+  "hashes": {
+    "scripts/build-retro-hoops-authored.py": "8b3a281082ef25119d1af05af71973be4a01588bebdf9afcad26c2470e0d5e35",
+    "scripts/retro_hoops_character.py": "b982d6d4753af733eea07f44d410902811d9c46d8fed060080f866dbb8bb93ef",
+    "src/features/games/retro-hoops/character-pack.ts": "fbd988dd170bb5aed1a5d77d0f0d7c35e549f89507c64ebeec7db712a39cbd76",
+    "src/features/games/retro-hoops/contact-arm.ts": "9d51e8fa5b596339f7199ce93f06b1b4a846dcc557c92d0205d8eadbf48cc3b0",
+    "public/embedded-games/retro-hoops/index.html": "858af2217b78f95f4eed608cdd9f03d5e2a9f5724428e2e226315fc74f8cb29a"
+  },
+  "release": {
+    "localOnly": true,
+    "pushed": false,
+    "published": false,
+    "pipelineActivated": false
+  }
+}

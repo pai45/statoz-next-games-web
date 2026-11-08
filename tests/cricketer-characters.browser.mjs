@@ -1,0 +1,42 @@
+import http from 'node:http';import fs from 'node:fs/promises';import path from 'node:path';import {build} from 'esbuild';import {chromium} from '@playwright/test';import assert from 'node:assert/strict';
+// Character lab: renders the low-poly Cricketer players in every role and checks bat contact at all shot heights.
+const root=process.cwd(),out=path.resolve('test-results/cricketer-characters/closeup');await fs.mkdir(out,{recursive:true});
+const result=await build({stdin:{resolveDir:root,loader:'ts',contents:`import * as T from 'three';import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader.js';import {CricketerPlayer} from './src/features/games/cricketer/character';import {KITS} from './src/features/games/cricketer/kits';
+ const renderer=new T.WebGLRenderer({antialias:true,preserveDrawingBuffer:true});renderer.setSize(1280,800);renderer.setClearColor('#dce3d6');renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.shadowMap.enabled=true;document.body.append(renderer.domElement);
+ const scene=new T.Scene(),camera=new T.PerspectiveCamera(30,1280/800,.1,100);scene.add(new T.HemisphereLight('#ffffff','#5f6b4c',2.1));const sun=new T.DirectionalLight('#fff1de',2.4);sun.position.set(3,7,5);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);scene.add(sun);
+ const floor=new T.Mesh(new T.PlaneGeometry(30,30),new T.MeshStandardMaterial({color:'#9fb88f',roughness:1}));floor.rotation.x=-Math.PI/2;floor.receiveShadow=true;scene.add(floor);
+ const gltf=await new GLTFLoader().loadAsync('/player.glb');
+ const batter=new CricketerPlayer(gltf,{batting:true,kit:KITS.batting[0],number:'07'}),partner=new CricketerPlayer(gltf,{batting:true,kit:KITS.batting[1],number:'11'}),bowler=new CricketerPlayer(gltf,{batting:false,kit:KITS.fielding[0],number:'23'}),fielder=new CricketerPlayer(gltf,{batting:false,kit:KITS.fielding[3],number:'14'});
+ const players={batter,partner,bowler,fielder};for(const p of Object.values(players))scene.add(p.root);
+ let clock=0;const at=(p,kind,progress,aim,shot,height)=>{clock+=5;p.pose(clock,kind,progress,aim,shot,height);clock+=5;p.pose(clock,kind,progress,aim,shot,height);return p.inspection();};
+ function layout(mode){for(const p of Object.values(players))p.root.visible=false;if(mode==='solo'){batter.root.visible=true;batter.root.position.set(0,0,0);}else{const row=[batter,partner,bowler,fielder];row.forEach((p,i)=>{p.root.visible=true;p.root.position.set((i-1.5)*1.25,0,0);});}}
+ function draw(angle=0,target=[0,1,0],distance=4.4,height=1.5){camera.position.set(target[0]+Math.sin(angle)*distance,height,target[2]+Math.cos(angle)*distance);camera.lookAt(...target);renderer.render(scene,camera);}
+ window.__CRICKETER_CHARACTER_LAB__={layout,draw,
+  swing:(progress=.5,height=.6,shot='drive',aim=1)=>{const i=at(batter,'swing',progress,aim,shot,height);const ball=batter.root.localToWorld(new T.Vector3(batter.contactLocal.x,height,batter.contactLocal.z));const blade=batter.bladePoint();return {...i,ball:ball.toArray(),blade:blade.toArray(),contactLocal:batter.contactLocal.toArray()};},
+  pose:(name,kind,progress=0,time)=>{const p=players[name];if(time!==undefined){p.pose(time,kind,progress);p.pose(time+.001,kind,progress);return p.inspection();}return at(p,kind,progress);},
+  roles:(set)=>{for(const [name,kind,progress] of set)at(players[name],kind,progress);}};`},bundle:true,format:'esm',write:false,target:'es2022'});
+const server=http.createServer(async(req,res)=>{try{const url=new URL(req.url,'http://localhost');if(url.pathname==='/'){res.setHeader('Content-Type','text/html');res.end('<!doctype html><meta charset="utf-8"><body style="margin:0"><div style="position:absolute;top:18px;left:24px;font:14px Arial;color:#244333">CRICKETER · LOW-POLY PLAYERS / LOCAL REVIEW</div><script type="module" src="/lab.js"></script>');}else if(url.pathname==='/lab.js'){res.setHeader('Content-Type','text/javascript');res.end(result.outputFiles[0].text);}else if(url.pathname==='/player.glb'){res.setHeader('Content-Type','model/gltf-binary');res.end(await fs.readFile(path.join(root,'public/games/cricketer/cricketer-player.glb')));}else throw Error();}catch{res.writeHead(404).end();}});
+await new Promise(r=>server.listen(0,'127.0.0.1',r));const browser=await chromium.launch({channel:'chrome',headless:true,args:['--enable-gpu','--ignore-gpu-blocklist','--use-angle=d3d11']});const page=await browser.newPage({viewport:{width:1280,height:800}}),errors=[],contacts=[],roles=[];page.on('pageerror',e=>errors.push(e.message));
+const lab=(fn,arg)=>page.evaluate(fn,arg),shot=name=>page.screenshot({path:path.join(out,name+'.png')});
+const finite=i=>[...i.bounds.min,...i.bounds.max].every(Number.isFinite);
+try{
+ await page.goto('http://127.0.0.1:'+server.address().port);await page.waitForFunction(()=>window.__CRICKETER_CHARACTER_LAB__,null,{timeout:60000});
+ // Line-up: batter, non-striker, bowler and fielder in their resting roles.
+ await lab(()=>{const L=window.__CRICKETER_CHARACTER_LAB__;L.layout('row');L.roles([['batter','ready',9],['partner','wait',0],['bowler','field',0],['fielder','field',0]]);L.draw(0,[0,.95,0],6.4,1.6);});await shot('lineup-front');
+ await lab(()=>window.__CRICKETER_CHARACTER_LAB__.draw(Math.PI,[0,.95,0],6.4,1.6));await shot('lineup-back');
+ await lab(()=>window.__CRICKETER_CHARACTER_LAB__.draw(.4,[1.875,1.55,0],1.5,1.7));await shot('face-fielder');
+ await lab(()=>{const L=window.__CRICKETER_CHARACTER_LAB__;L.roles([['batter','celebrate',0],['partner','run',0],['bowler','bowl',.95],['fielder','run',0]]);L.draw(Math.PI/2,[0,.95,0],7,1.6);});await shot('lineup-action-side');
+ await lab(()=>window.__CRICKETER_CHARACTER_LAB__.draw(.35,[0,.95,0],6.4,1.6));await shot('lineup-action-front');
+ for(const [kind,progress] of [['run',0],['bowl',.4],['bowl',.85],['bowl',1.05],['bowl',1.35],['field',0],['walk',0],['celebrate',0]]){const i=await lab(([k,p])=>window.__CRICKETER_CHARACTER_LAB__.pose('bowler',k,p),[kind,progress]);roles.push({kind,progress,...i});assert.ok(finite(i),kind);assert.ok(i.bounds.min[1]>-.06,JSON.stringify({kind,progress,min:i.bounds.min}));}
+ // Batting: views of the stance, the get-set lift and the swing.
+ await lab(()=>{const L=window.__CRICKETER_CHARACTER_LAB__;L.layout('solo');L.pose('batter','ready',9);L.draw(0,[0,1,0]);});await shot('ready-front');
+ await lab(()=>window.__CRICKETER_CHARACTER_LAB__.draw(Math.PI,[0,1,0]));await shot('ready-back');
+ await lab(()=>window.__CRICKETER_CHARACTER_LAB__.draw(Math.PI/2,[0,1,0]));await shot('ready-side');
+ await lab(()=>{const L=window.__CRICKETER_CHARACTER_LAB__;L.pose('batter','ready',.35);L.draw(Math.PI*.8,[0,1,0]);});await shot('ready-get-set');
+ for(const s of ['drive','cut','pull','hook','sweep','scoop'])for(const height of [.22,.45,.75,1.1,1.32]){const aim=s==='pull'||s==='hook'||s==='scoop'?1:-1;const i=await lab(([s,h,a])=>window.__CRICKETER_CHARACTER_LAB__.swing(.5,h,s,a),[s,height,aim]);contacts.push({shot:s,height,aim,gripError:i.gripError,bladeError:i.bladeError,bounds:i.bounds});
+  if(height===.45||height===1.1){await lab(()=>window.__CRICKETER_CHARACTER_LAB__.draw(Math.PI*.82,[.3,.9,0],4.2,1.3));await shot(`${s}-contact-${String(height).replace('.','')}`);}
+  assert.ok(finite(i));assert.ok(i.bladeError<.02,JSON.stringify({s,height,bladeError:i.bladeError}));assert.ok(i.gripError<.035,JSON.stringify({s,height,gripError:i.gripError}));assert.ok(i.bounds.min[1]>-.06,JSON.stringify({s,height,min:i.bounds.min}));}
+ for(const s of ['drive','pull','sweep'])for(const p of [.15,.35,.7,.9]){await lab(([s,p])=>{const L=window.__CRICKETER_CHARACTER_LAB__;L.swing(p,.6,s,s==='pull'?1:-1);L.draw(Math.PI*.82,[.3,1,0],4.6,1.4);},[s,p]);await shot(`${s}-phase-${String(p).replace('.','')}`);}
+ const summary={errors,contacts:contacts.length,maxBladeError:Math.max(...contacts.map(c=>c.bladeError)),maxGripError:Math.max(...contacts.map(c=>c.gripError)),roles:roles.map(r=>({kind:r.kind,progress:r.progress,minY:+r.bounds.min[1].toFixed(3)}))};
+ assert.deepEqual(errors,[]);await fs.writeFile(path.join(out,'checks.json'),JSON.stringify({...summary,contacts},null,2));console.log(JSON.stringify(summary));
+}catch(e){await page.screenshot({path:path.join(out,'failure.png')});await fs.writeFile(path.join(out,'failure.json'),JSON.stringify({errors,contacts,roles,error:String(e)},null,2));throw e;}finally{await browser.close();await new Promise(r=>server.close(r));}

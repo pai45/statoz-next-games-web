@@ -1,0 +1,132 @@
+/**
+ * Motion and pseudo-state only.
+ *
+ * Everything the match animates per frame — the court, the ball, the athletes,
+ * the net — runs off a rAF loop into a canvas, because those are geometry
+ * rather than style. What is left here is the chrome around it: things that
+ * enter, pulse, sweep, or light up on hover, which the cascade does better than
+ * a controller.
+ *
+ * The global `prefers-reduced-motion` damper in `globals.css` already stills
+ * everything below; the canvas asks for itself.
+ */
+
+/* ---- Stings -------------------------------------------------------------- */
+
+/* A major sting pops from 1.6x onto its mark; a minor one just fades up. */
+.stingMajor,
+.stingMinor {
+  font-family: var(--ds-font-display), sans-serif;
+  font-weight:var(--ds-weight-black);
+  line-height: 1;
+}
+
+.stingMajor {
+  animation: sting-major 520ms cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+}
+
+.stingMinor {
+  animation: sting-minor 320ms cubic-bezier(0, 0, 0.58, 1) both;
+}
+
+@keyframes sting-major {
+  from {
+    opacity: 0;
+    transform: scale(1.6);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes sting-minor {
+  from {
+    opacity: 0;
+  }
+}
+
+/* ---- Control pads -------------------------------------------------------- */
+
+/*
+ * The pads are pointer targets first. `touch-action: none` is load-bearing:
+ * without it a drag on the movement pad scrolls the page instead of moving the
+ * athlete, and the browser steals the pointer mid-gesture.
+ */
+.pad {
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.padActive {
+  transition: background-color 80ms linear;
+}
+
+/* ---- Overlays ------------------------------------------------------------ */
+
+.overlayIn {
+  animation: overlay-in 220ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@keyframes overlay-in {
+  from {
+    opacity: 0;
+  }
+}
+
+.panelIn {
+  animation: panel-in 260ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@keyframes panel-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.98);
+  }
+}
+
+/* ---- Lobby --------------------------------------------------------------- */
+
+/* Each element is dealt in on its own delay, set inline as --lobby-delay. */
+.lobbyIn {
+  animation: lobby-in 480ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation-delay: var(--lobby-delay, 0ms);
+}
+
+@keyframes lobby-in {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+}
+
+.emblemPulse {
+  animation: emblem-pulse 2600ms ease-in-out infinite;
+}
+
+@keyframes emblem-pulse {
+  0%,
+  100% {
+    opacity: 0.72;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.statusDot {
+  animation: status-blink 1600ms steps(1, end) infinite;
+}
+
+@keyframes status-blink {
+  0%,
+  60% {
+    opacity: 1;
+  }
+  61%,
+  100% {
+    opacity: 0.28;
+  }
+}

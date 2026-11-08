@@ -1,0 +1,124 @@
+{
+  "gameId": "retro-hoops",
+  "agent": "street_hoop_artist (executed inline by the parent session)",
+  "skill": "street-hoop-assets",
+  "build": "character-v22-local",
+  "assets": "22.0.0",
+  "rules": "2.0.0",
+  "scope": "upper-body mass, baggier shorts and head size",
+  "changes": [
+    "Side jersey volume ~12% deeper with a stronger upper-back hunch.",
+    "Shorts reach 90% of the way to the knee and are ~10% wider.",
+    "Heads redrawn 12% larger (geometry scaled, not raster-stretched) inside the unchanged 32x32 layer.",
+    "Front/back torso broadened at the chest and tapered at the waist (V shape)."
+  ],
+  "research": [],
+  "checks": {
+    "pipelineSteps": {
+      "art": "passed",
+      "bundle": "passed",
+      "console": "passed",
+      "contract": "passed",
+      "fidelity": "passed",
+      "host": "passed",
+      "lint": "passed",
+      "motion-build": "passed",
+      "motion-capture": "passed",
+      "motion-encode": "passed",
+      "pack": "passed",
+      "rules-tests": "passed",
+      "static-build": "passed",
+      "typecheck": "passed",
+      "wire": "passed"
+    },
+    "rulesInputAndIntegrationTests": 86,
+    "assetIntegrity": 13,
+    "rigContract": {
+      "frames": 2276,
+      "ballHoldingHandEndpointsUnchanged": true,
+      "freeHandClips": [
+        "backpedal",
+        "defend",
+        "neutral-a",
+        "neutral-b"
+      ],
+      "freeHandFramesChanged": 0,
+      "dunkPoses": 104,
+      "maxReach": 40.80441152620633,
+      "dribbleOverlayShoulderMatches": 12,
+      "changedAnchorKinds": {},
+      "scope": "V22 vs V21: foot origin, dribble-ball endpoints and every ball-holding hand endpoint unchanged; dunk shoulders/elbows unchanged and reachable. Non-ball ready/defend hands may be re-authored."
+    },
+    "productionActionLoops": 16,
+    "decodedVideos": 16,
+    "hostFlow": 6,
+    "mobileConsole": 12,
+    "lint": "passed (1 unrelated retro-circuit warning)",
+    "typecheck": "passed",
+    "staticBuild": "passed"
+  },
+  "pack": {
+    "bodyFrameEntries": 2276,
+    "distinctBodyFrames": 1186,
+    "headFrameEntries": 36,
+    "atlasPages": 3,
+    "referenceRasterInputs": 0,
+    "previousPackPreserved": true
+  },
+  "correctionRecord": "test-results/retro-hoops-character-v22/correction-record.json",
+  "fidelityMatrix": [
+    {
+      "feature": "Body proportions (upper body, shorts, head)",
+      "status": "approximate",
+      "review": "Closer to the native GameLog sprites at equal height."
+    },
+    {
+      "feature": "Figure and head rendering",
+      "status": "approximate",
+      "review": "V19/V21 renderers retained."
+    },
+    {
+      "feature": "Native timing, input windows, hidden AI",
+      "status": "unverified",
+      "review": "Not recovered."
+    }
+  ],
+  "review": {
+    "structural": "passed",
+    "visual": "Tuned figure proportions after the equal-height V21 comparison: the source's jersey/upper body is fuller, its shorts are a bigger baggy block and its head is about 16% of body height (ours was about 13.5%).",
+    "gameplay": "Simulation/AI/input untouched; 86 tests pass.",
+    "sourceLikenessApproved": false,
+    "exactLikenessAchieved": false,
+    "nativeTimingRecovered": false,
+    "physicalDeviceTested": false,
+    "limitations": [
+      "Front-view hands hang slightly below the source's hip-height hands.",
+      "Blond back view still reads as a smooth mass.",
+      "Street Hoop uses several venues by matchup; venue pass deferred until characters are done, per the user.",
+      "Source knock-down after super dunks has no simulation trigger (gameplay change needs approval).",
+      "Bodies stay per team; native timing and physical devices unverified."
+    ]
+  },
+  "hashes": {
+    "scripts/retro_hoops_character.py": "2e56f833e2b2278f251180243ea26665fd70ec3cd48bc3ea1c0c88b5d4decf02",
+    "scripts/retro_hoops_volume.py": "84ed137c5b75b9583b796e6c3a78b26495b25fabf40f32fa2b7e8ec21a2dbeb7",
+    "scripts/build-retro-hoops-authored.py": "5da1ea21caa9e53499742d19da4b9230381be4503e54b2b300e479f063da69e9",
+    "src/features/games/retro-hoops/contact-arm.ts": "0cc33db1e442cb1f88f083904e98ba23308c2370d73d6e0ba9f9c24fdb77fd57",
+    "src/features/games/retro-hoops/view.ts": "96403e0178bbb98c70b4efbe9b5650f1f766b86851a234e9f7fc736260d78778",
+    "src/features/games/retro-hoops/renderer.ts": "9202e82365872589a272c88ea2a9a78a0c84003e2e1c07201fcdfdefea9f5d78",
+    "src/features/games/retro-hoops/presentation.ts": "9577d626817d5ddcd8cdddc7ef38119efd6022bf3661c3c7ae3edad10aa2fcb6",
+    "src/features/games/retro-hoops/court.ts": "b4e4001ade42dc7d3f6e2496036bd370f661e188844fbf4966116d07bf7546ab",
+    "src/features/games/retro-hoops/crowd.ts": "dd761650932f702eb049330c36a9cc3b59d50890cef7d0c5f14424c2980bdd6e",
+    "src/features/games/retro-hoops/character-pack.ts": "8cbdd889bcc0156d4b3407dd6d1b76c102af69a39d44a6c624a1d39631cfecd5",
+    "src/features/games/retro-hoops/reference-profile.ts": "018d2d64f59ec93a308b74bf99b0686c1bdeef3b6bba93dc977860d2ece8d1cc",
+    "public/games/retro-hoops/authored-v22/manifest.json": "b6fad5dc7b6ed54f324e14549bcf5e8384077a7f228fd6b445954ca7e557940f",
+    "public/games/retro-hoops/credits.json": "8887e71a9d45552e5597bddd0ad812103a88a1ab3ec0c85659881cc79186c3a6",
+    "public/embedded-games/retro-hoops/index.html": "3ee861172e51fc2c18eec7fc3acf8a429427cf81e531b45695e8853c4dc6badf"
+  },
+  "release": {
+    "localOnly": true,
+    "pushed": false,
+    "published": false,
+    "pipelineActivated": false
+  }
+}

@@ -1,0 +1,9 @@
+# Penalty Shooters 2
+
+Play `/play/penalty-shooters-2`. This is separate from the pre-existing authored 3D Penalty Shootout. It uses the captured original Construct runtime/project, 21 event sheets, teams, atlases, physics and native cup progression. `scripts/install-penalty-shooters-2.mjs` records original/output hashes while replacing only captured-site platform/service-worker setup with local adapters.
+
+Pointer/touch controls and cup/team screens remain native. Original persistence uses account-prefixed IndexedDB/local storage. Host pause calls the native Construct suspension API. Disposal suspends the runtime and audio before the host removes its iframe; the shipped interface?s unsupported `Release` path is not used. Completed native match transitions report actual `tempResultPlayer`/`tempResultCPU` and round to the local host result store. Optional advertising is unavailable; it does not grant false rewards.
+
+All 1,906 recovered sprite frames, 136 animation entries, pivots/rotation metadata and decoded event-sheet projections remain editable in `.local-game-assets/penalty-shooters-2`, indexed by the public dissection manifest. Body/shirt/shorts layers are separate assets, not skeletal3D models. Native ownership remains unchanged and local references are not publication clearance. [Shared checks and limits](README.md).
+
+`acquire-penalty-audio.mjs` preserves the seven exact WebM files declared in native `data.json`, including six sound effects omitted from the earlier idle snapshot. The installer verifies their supplemental hashes and copies them into the native client. The final browser check finishes an ordinary cup match, observes actual score/round progression and the host result, checks native suspension and scoped IndexedDB, and reports no external requests, failed loads or browser errors.

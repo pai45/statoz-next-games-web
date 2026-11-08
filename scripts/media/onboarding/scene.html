@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>StatOz onboarding animation source</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:var(--dark)}
+body{font-family:var(--ds-font-body);color:var(--white)}
+#scene{position:relative;width:100vw;height:100vh;overflow:hidden;isolation:isolate;background:var(--dark)}
+.background{position:absolute;inset:-5%;will-change:transform}.background img{width:100%;height:100%;object-fit:cover;object-position:50% 75%;filter:saturate(.8) brightness(.76)}
+.veil{position:absolute;inset:0;background:linear-gradient(180deg,rgba(4,10,23,.24),rgba(4,10,23,.03) 40%,rgba(4,10,23,.05) 72%,rgba(4,10,23,.9)),radial-gradient(ellipse at 50% 42%,transparent 15%,rgba(4,10,23,.2) 62%,rgba(4,10,23,.7))}
+.atmosphere{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 56%,color-mix(in srgb,var(--accent) 14%,transparent),transparent 63%);mix-blend-mode:screen}
+.beam{position:absolute;top:-15%;height:110%;width:35%;transform-origin:50% 0;filter:blur(23px);mix-blend-mode:screen}.beam:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(132,221,255,.15),rgba(67,161,255,.045) 52%,transparent);clip-path:polygon(47% 0,54% 0,100% 100%,0 100%)}.beam.left{left:0}.beam.right{right:0}
+#fx,#foreground{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}#fx{z-index:1}#foreground{z-index:5}
+.brand{position:absolute;z-index:7;left:50%;display:flex;align-items:center;gap:17px;transform:translateX(-50%);white-space:nowrap}.brand img{width:64px;height:64px;filter:drop-shadow(0 0 18px rgba(92,223,255,.28))}.brand span{font-family:Orbitron,sans-serif;font-size:var(--ds-canvas-p42);font-weight:var(--ds-weight-extrabold);letter-spacing:-1.5px}
+.eyebrow{position:absolute;z-index:7;left:0;right:0;text-align:center;font-size:var(--ds-canvas-p16);font-weight:var(--ds-weight-semibold);letter-spacing:5px;color:var(--muted)}
+#stage{position:absolute;inset:0;perspective:1600px;perspective-origin:50% 51%;z-index:3;transform-style:preserve-3d}
+.card{position:absolute;left:50%;top:50%;transform-style:preserve-3d;will-change:transform,opacity;transform-origin:50% 50%;--cut:22px}
+.depth,.rim,.face{position:absolute;inset:0;clip-path:polygon(var(--cut) 0,calc(100% - var(--cut)) 0,100% var(--cut),100% calc(100% - var(--cut)),calc(100% - var(--cut)) 100%,var(--cut) 100%,0 calc(100% - var(--cut)),0 var(--cut))}
+.depth{transform:translate3d(6px,8px,-9px);background:linear-gradient(135deg,#112238,#456477 24%,#091320 30%,#070b15 68%,#526a7c 80%,#0b1423)}
+.rim{background:linear-gradient(125deg,#f3faff 0%,var(--card-color) 9%,#18293b 26%,#c5e6ef 45%,var(--card-color) 57%,#102434 73%,#8ec5d9 89%,#132537);box-shadow:0 25px 55px #000b}
+.face{inset:3px;background:linear-gradient(155deg,#19304a,#091525 35%,#081320 80%,#23384d);overflow:hidden}
+.inner-border{position:absolute;inset:8px;border:1px solid rgba(188,227,255,.17);clip-path:polygon(15px 0,calc(100% - 15px) 0,100% 15px,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 calc(100% - 15px),0 15px)}
+.card-top{position:absolute;z-index:3;top:17px;left:20px;right:20px;display:flex;align-items:center;justify-content:space-between;color:var(--card-color)}
+.sport-badge{display:flex;align-items:center;gap:9px;font-family:Orbitron,sans-serif;font-size:var(--ds-canvas-p13);font-weight:var(--ds-weight-extrabold);letter-spacing:1.1px}.sport-badge svg{height:25px;width:25px}.mini-logo{width:26px;height:26px;opacity:.8}
+.portrait-window{position:absolute;top:54px;bottom:65px;left:10px;right:10px;overflow:hidden;background:radial-gradient(ellipse at 50% 35%,color-mix(in srgb,var(--card-color) 13%,#122236),#07101b)}
+.portrait-window:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,17,31,.06),transparent 27%,transparent 50%,rgba(7,15,27,.3) 80%,#07101b)}
+.portrait{width:100%;height:100%;object-fit:cover;object-position:50% 10%;filter:saturate(.82) contrast(1.07);transform-origin:50% 32%;will-change:transform}
+.portrait-window.football .portrait{object-fit:contain;object-position:50% 0%;height:112%;width:112%;margin-left:-6%}
+.frame-corner{position:absolute;width:22px;height:22px;border-color:var(--card-color);border-style:solid;opacity:.75;z-index:3}.tl{top:52px;left:10px;border-width:2px 0 0 2px}.br{bottom:66px;right:10px;border-width:0 2px 2px 0}
+.nameplate{position:absolute;bottom:10px;left:10px;right:10px;height:69px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#152637,#07101c 55%,#122636);clip-path:polygon(0 9px,13px 0,100% 0,100% calc(100% - 10px),calc(100% - 13px) 100%,0 100%);border-top:1px solid color-mix(in srgb,var(--card-color) 62%,transparent)}
+.nameplate span{font:900 27px Orbitron,sans-serif;letter-spacing:1px;text-shadow:0 2px 8px #000}.nameplate:after{content:'';position:absolute;bottom:9px;width:36px;height:2px;background:var(--card-color);box-shadow:0 0 9px var(--card-color)}
+.foil{position:absolute;z-index:5;inset:-30%;background:linear-gradient(114deg,transparent 38%,rgba(255,255,255,.02) 42%,rgba(171,241,255,.26) 46%,rgba(255,255,255,.35) 48%,rgba(244,255,255,.07) 51%,transparent 57%);mix-blend-mode:screen;pointer-events:none;will-change:transform,opacity}
+.edge-light{position:absolute;z-index:4;left:var(--cut);right:var(--cut);top:0;height:3px;background:linear-gradient(90deg,transparent,var(--card-color),#fff,var(--card-color),transparent);box-shadow:0 0 12px var(--card-color)}
+#headline{position:absolute;z-index:6;width:100%;left:0;text-align:center;font-family:Orbitron,sans-serif;font-weight:var(--ds-weight-black);letter-spacing:-2px;line-height:1.08;will-change:transform,opacity}
+.line{overflow:hidden;padding:4px 0}.line span{display:block;will-change:transform}.line:last-child{color:var(--cyan);text-shadow:0 0 32px rgba(92,223,255,.15)}
+#sport-label{position:absolute;z-index:5;left:0;right:0;text-align:center;font-family:Orbitron,sans-serif;font-size:var(--ds-canvas-p22);font-weight:var(--ds-weight-bold);letter-spacing:5px;color:var(--accent);will-change:transform,opacity}
+#sport-label:before,#sport-label:after{content:'';display:inline-block;vertical-align:middle;width:38px;height:1px;background:currentColor;opacity:.5;margin:0 18px}
+</style>
+</head>
+<body>
+<div id="scene">
+ <div class="background"><img id="arena" alt=""/></div><div class="veil"></div><div class="atmosphere"></div>
+ <div class="beam left"></div><div class="beam right"></div>
+ <svg id="fx"></svg>
+ <div class="brand"><img id="logo" alt=""/><span>StatOz</span></div>
+ <div class="eyebrow">YOUR WORLD OF SPORT</div>
+ <div id="stage"></div>
+ <div id="sport-label"></div>
+ <div id="headline"><div class="line"><span>ONE ARENA.</span></div><div class="line"><span>EVERY GAME.</span></div></div>
+ <svg id="foreground"></svg>
+</div>
+<script>
+const DATA=__SCENE_DATA__;
+const W=DATA.width,H=DATA.height,M=W>H;
+const colors=DATA.colors;
+const style=document.documentElement.style;
+for(const [name,value]of Object.entries(colors))style.setProperty('--'+name,value);
+style.setProperty('--accent',colors.cyan);
+const fontStyle=document.createElement('style');fontStyle.textContent=DATA.tokens+DATA.fonts.map(f=>`@font-face{font-family:${f.name};src:url(${f.uri}) format('${f.name === "spaceGrotesk" ? "truetype" : "woff2"}');font-weight:${f.name === "spaceGrotesk" ? "300 700" : "400 900"}}`).join('');document.head.append(fontStyle);
+document.querySelector('#arena').src=DATA.arena;document.querySelector('#logo').src=DATA.logo;
+const brand=document.querySelector('.brand'),eyebrow=document.querySelector('.eyebrow');brand.style.top=(M?32:120)+'px';eyebrow.style.top=(M?106:209)+'px';eyebrow.style.fontSize=(M?12:16)+'px';eyebrow.style.letterSpacing=(M?3.5:5)+'px';
+const stage=document.querySelector('#stage'),headline=document.querySelector('#headline'),sportLabel=document.querySelector('#sport-label');
+const cardW=M?300:368,cardH=M?414:510;
+const icons={
+ FOOTBALL:'<circle cx="16" cy="16" r="12"/><path d="m16 9 7 5-3 8h-8l-3-8z M16 4v5 M4 13l5 1 M7 26l5-4 M25 26l-5-4 M28 13l-5 1"/>',
+ CRICKET:'<path d="M8 8v18 M13 8v18 M18 8v18 M6 7h14 M22 21l5-15 3 1-5 15z"/><circle cx="25" cy="27" r="2"/>',
+ 'FORMULA 1':'<path d="m3 10 11 6-11 6 M13 10l11 6-11 6 M24 10h5v12h-5"/>',
+ BASKETBALL:'<circle cx="16" cy="16" r="12"/><path d="M4 16h24 M16 4v24 M7 7c12 4 12 14 0 18 M25 7c-12 4-12 14 0 18"/>',
+};
+const cards=DATA.athletes.map(a=>{
+ const el=document.createElement('div');el.className='card';el.style.width=cardW+'px';el.style.height=cardH+'px';el.style.marginLeft=-cardW/2+'px';el.style.marginTop=-cardH/2+'px';el.style.setProperty('--card-color',a.color);
+ el.innerHTML=`<div class="depth"></div><div class="rim"><div class="face"><div class="inner-border"></div><div class="card-top"><div class="sport-badge"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6">${icons[a.sport]}</svg><span>${a.sport}</span></div><img class="mini-logo" src="${DATA.logo}"/></div><div class="portrait-window ${a.sport==='FOOTBALL'?'football':''}"><img class="portrait" src="${a.uri}"/></div><div class="frame-corner tl"></div><div class="frame-corner br"></div><div class="nameplate"><span>${a.name}</span></div><div class="foil"></div></div><div class="edge-light"></div></div>`;
+ stage.append(el);return {el,foil:el.querySelector('.foil'),portrait:el.querySelector('.portrait'),a};
+});
+headline.style.top=(M?548:906)+'px';headline.style.fontSize=(M?57:69)+'px';sportLabel.style.top=(M?600:965)+'px';
+const clamp=x=>Math.max(0,Math.min(1,x));
+const smooth=x=>{x=clamp(x);return x*x*(3-2*x)};
+const out=x=>1-Math.pow(1-clamp(x),3);
+const mix=(a,b,p)=>a+(b-a)*p;
+const lerp=(a,b,p)=>Object.fromEntries(Object.keys(a).map(k=>[k,mix(a[k],b[k],p)]));
+const rgba=(hex,alpha)=>`rgba(${parseInt(hex.slice(1,3),16)},${parseInt(hex.slice(3,5),16)},${parseInt(hex.slice(5,7),16)},${alpha})`;
+const colorMix=(a,b,p)=>'#'+[1,3,5].map(i=>Math.round(mix(parseInt(a.slice(i,i+2),16),parseInt(b.slice(i,i+2),16),p)).toString(16).padStart(2,'0')).join('');
+const starts=[.1,.22,1.28,2.08,2.88],leaves=[1.22,1.3,2.16,2.96,3.78];
+const resting=[-2,-1,0,1,2];
+const pos=(x,y,z,s,rx,ry,rz,alpha)=>({x,y,z,s,rx,ry,rz,alpha});
+function state(i,t){
+ const a=i===0?-1:1,local=t-starts[i];
+ const hero=pos(i<2?(i===0?-1:1)*(M?135:165):0,i===1?7:0,i<2?0:55,i<2?.85:1,0,i<2?(i===0?10:-10):0,i<2?(i===0?-7:7):0,1);
+ const enter=pos(a*(M?580:680),-40,-680,.46,12,-a*76,a*25,0);
+ let p=lerp(enter,hero,out(local/.52));
+ const park=pos(resting[i]*(M?130:178),-50,-380,.51,4,-resting[i]*17,resting[i]*9,.24);
+ if(t>leaves[i])p=lerp(p,park,smooth((t-leaves[i])/.55));
+ const finalAt=3.76+Math.abs(i-2)*.045;
+ const final=pos(resting[i]*(M?155:179),[35,6,-10,6,35][i]+(M?0:20),i===2?28:-Math.abs(i-2)*12,M?.54:.55,-4,resting[i]*-7,resting[i]*5.5,1);
+ if(t>finalAt)p=lerp(p,final,out((t-finalAt)/.72));
+ // Slight continuous independent movement prevents the hero poses becoming still slides.
+ p.y+=Math.sin(t*2.3+i*.8)*5*clamp(local*3);p.rx+=Math.sin(t*1.6+i)*1.9;p.ry+=Math.sin(t*1.3+i)*2;
+ if(t>5.32){
+   const end=pos(0,-70,-800,.05,22,80,70,0);
+   p=lerp(p,end,smooth((t-5.32-Math.abs(i-2)*.018)/.62));
+ }
+ return p;
+}
+function rings(t,accent){
+ const cx=W/2,cy=H*(M?.75:.74),pulse=2*Math.PI*t/6;
+ let html=`<defs><linearGradient id="arc"><stop stop-color="${colors.cyan}" stop-opacity="0"/><stop offset=".45" stop-color="${accent}"/><stop offset="1" stop-color="${colors.cyan}" stop-opacity="0"/></linearGradient><filter id="soft"><feGaussianBlur stdDeviation="4"/></filter><radialGradient id="floor"><stop stop-color="${accent}" stop-opacity=".15"/><stop offset="1" stop-color="${accent}" stop-opacity="0"/></radialGradient></defs>`;
+ html+=`<ellipse cx="${cx}" cy="${cy}" rx="${W*.52}" ry="${H*.2}" fill="url(#floor)"/>`;
+ for(let i=0;i<3;i++){
+   const rx=W*(.25+i*.105),ry=H*(.045+i*.018),dash=rx*1.9;
+   html+=`<ellipse cx="${cx}" cy="${cy}" rx="${rx}" ry="${ry}" fill="none" stroke="${accent}" stroke-opacity="${.1+i*.035}" stroke-width="1"/>`;
+   html+=`<ellipse cx="${cx}" cy="${cy}" rx="${rx}" ry="${ry}" fill="none" stroke="url(#arc)" stroke-opacity=".65" stroke-width="2.3" stroke-dasharray="${dash*.48} ${dash*2}" stroke-dashoffset="${-t/6*dash*2.48+i*180}"/>`;
+ }
+ for(let i=0;i<42;i++){
+   const x=(i*137.91)%W+Math.sin(pulse+i)*16,y=H*.15+(i*73.93)%(H*.75)+Math.cos(pulse+i*.3)*14;
+   const opacity=.08+.27*(.5+.5*Math.sin(pulse+i*1.4));
+   html+=`<circle cx="${x}" cy="${y}" r="${i%5===0?2:1}" fill="${i%4===0?colors.gold:colors.cyan}" opacity="${opacity}"/>`;
+ }
+ // Elliptical burst supports the deck fanning out without a full-screen flash.
+ const burst=smooth((t-3.78)/.6)*(1-smooth((t-4.32)/.3));
+ html+=`<ellipse cx="${cx}" cy="${cy-45}" rx="${W*(.15+.55*smooth((t-3.78)/.7))}" ry="${H*(.03+.13*smooth((t-3.78)/.7))}" fill="none" stroke="${colors.cyan}" stroke-width="2" opacity="${burst*.7}"/>`;
+ return html;
+}
+function ribbons(t){
+ let html=`<defs><linearGradient id="ribbon"><stop stop-color="${colors.cyan}" stop-opacity="0"/><stop offset=".6" stop-color="${colors.cyan}" stop-opacity=".55"/><stop offset="1" stop-color="${colors.white}" stop-opacity="0"/></linearGradient><filter id="ribbonBlur"><feGaussianBlur stdDeviation="7"/></filter></defs>`;
+ for(const at of [.02,1.17,1.98,2.78,3.7,5.43]){
+   const p=clamp((t-at)/.52),a=Math.sin(Math.PI*p);if(a<.01)continue;
+   const x=mix(-W*1.3,W*1.7,p),y=H*.6;
+   html+=`<g opacity="${a*.7}"><path d="M${x-W*.8} ${y+H*.24} Q${x-W*.2} ${y+H*.18} ${x} ${y} T${x+W*.65} ${y-H*.18}" stroke="url(#ribbon)" stroke-width="20" fill="none" filter="url(#ribbonBlur)"/><path d="M${x-W*.8} ${y+H*.24} Q${x-W*.2} ${y+H*.18} ${x} ${y} T${x+W*.65} ${y-H*.18}" stroke="url(#ribbon)" stroke-width="1.8" fill="none"/></g>`;
+ }
+ return html;
+}
+window.drawFrame=async function(t){
+ const pulse=2*Math.PI*t/6;
+ const transitions=[[1.18,colors.gold],[1.99,colors.red],[2.79,colors.orange],[3.76,colors.cyan]];
+ let accent=colors.cyan;for(const [at,next]of transitions)accent=colorMix(accent,next,smooth((t-at)/.55));
+ style.setProperty('--accent',accent);
+ document.querySelector('.background').style.transform=`translate(${Math.sin(pulse)*10}px,${Math.cos(pulse)*5}px) scale(${1.04+Math.sin(pulse)*.012})`;
+ document.querySelector('.beam.left').style.transform=`rotate(${-23+Math.sin(pulse)*11}deg)`;
+ document.querySelector('.beam.right').style.transform=`rotate(${23+Math.cos(pulse)*11}deg)`;
+ const centerY=M?343:604;
+ const stageX=Math.sin(pulse)*4;
+ for(let i=0;i<cards.length;i++){
+   const p=state(i,t),{el,foil,portrait}=cards[i];
+   el.style.opacity=p.alpha;
+   el.style.transform=`translate3d(${p.x+stageX}px,${centerY-H/2+p.y}px,${p.z}px) rotateX(${p.rx}deg) rotateY(${p.ry}deg) rotateZ(${p.rz}deg) scale(${p.s})`;
+   el.style.filter=`brightness(${mix(.56,1,clamp((p.alpha-.24)/.76))}) drop-shadow(0px 23px 20px rgba(0,0,0,.5))`;
+   portrait.style.transform=`translate(${Math.sin(t*1.9+i)*2}px,${Math.cos(t*1.7+i)*2}px) scale(${1.035+Math.sin(t*1.5+i)*.018})`;
+   const glossProgress=clamp((t-starts[i]-.12)/.8);
+   const finaleGloss=clamp((t-4.2-i*.07)/.6);
+   const sweep=t>4?finaleGloss:glossProgress;
+   foil.style.transform=`translateX(${mix(-90,90,sweep)}%)`;
+   foil.style.opacity=Math.sin(Math.PI*sweep)*.73+.04;
+ }
+ const entry=smooth((t-4.02)/.48),exit=1-smooth((t-5.33)/.32);
+ headline.style.opacity=entry*exit;
+ const spans=headline.querySelectorAll('span');
+ spans[0].style.transform=`translateY(${(1-out((t-4.02)/.5))*100}%)`;
+ spans[1].style.transform=`translateY(${(1-out((t-4.14)/.5))*100}%)`;
+ headline.style.transform=`translateY(${(1-entry)*12}px) scale(${mix(.96,1,entry)})`;
+ const sport=t<1.44?'FOOTBALL':t<2.25?'CRICKET':t<3.04?'FORMULA 1':'BASKETBALL';
+ sportLabel.textContent=sport;sportLabel.style.opacity=smooth((t-.6)/.25)*(1-smooth((t-3.82)/.28));
+ document.querySelector('#fx').innerHTML=rings(t,accent);
+ document.querySelector('#foreground').innerHTML=ribbons(t);
+};
+window.ready=Promise.all([document.fonts.load('900 69px Orbitron'),document.fonts.load('600 16px spaceGrotesk'),...Array.from(document.images).map(img=>img.decode())]);
+</script>
+</body>
+</html>

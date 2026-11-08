@@ -1,0 +1,127 @@
+{
+  "gameId": "retro-hoops",
+  "agent": "street_hoop_artist (executed inline by the parent session)",
+  "skill": "street-hoop-assets",
+  "build": "character-v27-local",
+  "assets": "27.0.0",
+  "rules": "2.1.0",
+  "scope": "shot follow-through arm, cloth creases, flatter run arms",
+  "changes": [
+    "Shot frames from the release tick on draw the near (shooting) arm in the atlas; before release the live grip arm still draws it against the ball.",
+    "Jersey creases: diagonal folds from armpit toward waist (side) and waist folds (front/back), kept strictly inside the jersey outline.",
+    "Shorts creases: an inner-leg fold and a hem fold on each leg.",
+    "Run: forearm swing flattened so the forward fist stays around chest height."
+  ],
+  "research": [],
+  "checks": {
+    "pipelineSteps": {
+      "art": "passed",
+      "bundle": "passed",
+      "console": "passed",
+      "contract": "passed",
+      "fidelity": "passed",
+      "host": "passed",
+      "lint": "passed",
+      "motion-build": "passed",
+      "motion-capture": "passed",
+      "motion-encode": "passed",
+      "pack": "passed",
+      "rules-tests": "passed",
+      "static-build": "passed",
+      "typecheck": "passed",
+      "wire": "passed"
+    },
+    "rulesInputAndIntegrationTests": 86,
+    "assetIntegrity": 13,
+    "rigContract": {
+      "frames": 2276,
+      "ballHoldingHandEndpointsUnchanged": true,
+      "freeHandClips": [
+        "backpedal",
+        "defend",
+        "neutral-a",
+        "neutral-b",
+        "run"
+      ],
+      "freeHandFramesChanged": 48,
+      "dunkPoses": 104,
+      "maxReach": 40.80441152620633,
+      "dribbleOverlayShoulderMatches": 12,
+      "dribbleBallMatchesSimulationPath": 108,
+      "changedAnchorKinds": {
+        "hands": 48
+      },
+      "scope": "V27 vs V26: foot origin and every ball-holding hand endpoint unchanged; dribble-ball anchors equal the simulation dribble path; dunk shoulders/elbows unchanged and reachable. Non-ball ready/defend hands may be re-authored."
+    },
+    "productionActionLoops": 16,
+    "decodedVideos": 16,
+    "hostFlow": 6,
+    "mobileConsole": 12,
+    "lint": "passed (1 unrelated retro-circuit warning)",
+    "typecheck": "passed",
+    "staticBuild": "passed"
+  },
+  "pack": {
+    "bodyFrameEntries": 2276,
+    "distinctBodyFrames": 1210,
+    "headFrameEntries": 36,
+    "atlasPages": 3,
+    "referenceRasterInputs": 0,
+    "previousPackPreserved": true
+  },
+  "correctionRecord": "test-results/retro-hoops-character-v27/correction-record.json",
+  "fidelityMatrix": [
+    {
+      "feature": "Shot follow-through",
+      "status": "approximate",
+      "review": "Both arms visible after release, like the reference."
+    },
+    {
+      "feature": "Cloth detail",
+      "status": "approximate",
+      "review": "Fold creases like the observed loose jerseys and shorts."
+    },
+    {
+      "feature": "Native timing, input windows, hidden AI",
+      "status": "unverified",
+      "review": "Not recovered."
+    }
+  ],
+  "review": {
+    "structural": "passed",
+    "visual": "After release the live grip arm stops (the ball has no owner), so the atlas shot frames now draw the shooting arm, keeping both arms up through the follow-through as in the reference. Jerseys and shorts gain fold creases; the run's forward fist no longer rises to the chin.",
+    "gameplay": "Simulation/AI/input untouched; 86 tests pass.",
+    "sourceLikenessApproved": false,
+    "exactLikenessAchieved": false,
+    "nativeTimingRecovered": false,
+    "physicalDeviceTested": false,
+    "limitations": [
+      "Shot follow-through lowers the arm over ~24 ticks; the reference holds it up a little longer during the descent.",
+      "Pass reads as an overhead outlet pass; a chest-pass variant would need new simulation anchors.",
+      "Street Hoop changes venue by matchup; Retro Hoops keeps the shared reference venue.",
+      "Bodies stay per team; native timing and physical devices unverified."
+    ]
+  },
+  "hashes": {
+    "scripts/retro_hoops_character.py": "29ba89202c0fc4943f4583a8b318a84fa2829bbc4bf3b27e90bf9c980abacfdf",
+    "scripts/retro_hoops_volume.py": "83cb5d769ca7667ab4dfb9df8023f47bac5df724537e07c97748a310d9d38524",
+    "scripts/build-retro-hoops-authored.py": "750424da1496f805c69662cd8ad60b3ea40b51ffe70fbe964e7ae44d62b42189",
+    "src/features/games/retro-hoops/contact-arm.ts": "5c49e58741a260a985cad2c476344777916acf1aa15e57e6e4edf72f26d165aa",
+    "src/features/games/retro-hoops/view.ts": "96403e0178bbb98c70b4efbe9b5650f1f766b86851a234e9f7fc736260d78778",
+    "src/features/games/retro-hoops/renderer.ts": "9202e82365872589a272c88ea2a9a78a0c84003e2e1c07201fcdfdefea9f5d78",
+    "src/features/games/retro-hoops/presentation.ts": "5fe50638805999ecadba35eb43a61177d23b923fc7a75aa2683b297f7729afd6",
+    "src/features/games/retro-hoops/court.ts": "c8b9b23daa96cb744f00ac9d312a78cfec06c96ec46d956d0aa578d076d80e34",
+    "src/features/games/retro-hoops/crowd.ts": "83efab4569bca191bcf4174928cbac7c474110e865967c70d49666e50e552907",
+    "src/features/games/retro-hoops/character-pack.ts": "3f607f4a67a7fd5292f2ab2a960bc47eced8d17be81309a82c7493960653373c",
+    "src/features/games/retro-hoops/reference-profile.ts": "b56176d4f984657d43f7343241c407c0ab4904ae15a5d90016b1a163cad4e453",
+    "public/games/retro-hoops/authored-v27/manifest.json": "59e81311234b7d47e3a1e9411efcf3a478dc69141bba7a0ccbfaefb12705dc6a",
+    "public/games/retro-hoops/credits.json": "aca9521d0ccd057b9f9dbd3b8eaa66b38aeac9ecb30579386361eb002616594a",
+    "public/embedded-games/retro-hoops/index.html": "c62e5ff957aceb69d2aa5ce2b0bd7cdb84980dbfdf5f8d5645c0ee9033c17b39"
+  },
+  "release": {
+    "localOnly": true,
+    "pushed": false,
+    "published": false,
+    "pipelineActivated": false
+  }
+}

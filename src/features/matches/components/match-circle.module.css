@@ -1,0 +1,353 @@
+/*
+ * The match discussion: a scrolling feed between the fixture header and a
+ * composer docked at the foot, which is also where a reply or an edit is
+ * written.
+ */
+
+/*
+ * The conversation takes the whole phone screen, the way the match detail it
+ * came from does; on a desktop it becomes a centred panel inside the platform
+ * chrome, still tall enough that the composer stays docked at its foot.
+ */
+.page {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding-top: env(safe-area-inset-top);
+  background: var(--ds-gradient-app-background);
+}
+
+.frame {
+  display: flex;
+  width: 100%;
+  max-width: 640px;
+  height: 100%;
+  min-height: 0;
+  flex-direction: column;
+  overflow: hidden;
+  background: var(--ds-color-background-quiz-hub);
+  box-shadow: 0 0 40px rgb(0 0 0 / 34%);
+}
+
+.screen {
+  display: flex;
+  min-height: 100%;
+  height: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  color: var(--ds-color-text-default);
+}
+
+.topBar {
+  position: relative;
+  display: flex;
+  min-height: 52px;
+  flex: none;
+  align-items: center;
+}
+
+/* The bar reads "BACK TO MATCHES", so the whole phrase is the way back. */
+.backLink {
+  display: flex;
+  min-width: 0;
+  flex: 1;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  color: var(--ds-color-text-default);
+}
+.backLink:hover .topTitle { color: var(--ds-color-accent-cyan); }
+.backLink:focus-visible { outline: 2px solid var(--ds-color-accent-cyan); outline-offset: -4px; }
+
+.backIcon {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  flex: none;
+  place-items: center;
+  color: var(--ds-color-accent-cyan);
+}
+
+.topTitle {
+  min-width: 0;
+  overflow: hidden;
+  font-size:var(--ds-size-p14);
+  font-weight:var(--ds-weight-extrabold);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.topMark {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  flex: none;
+  place-items: center;
+  color: var(--ds-color-accent-cyan);
+}
+
+/* The one lit rule on the screen: bright at the centre, gone at both edges. */
+.divider {
+  display: block;
+  height: 1px;
+  flex: none;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in srgb, var(--ds-color-accent-cyan) 55%, transparent),
+    transparent
+  );
+}
+
+/* ---- Feed ------------------------------------------------------------------ */
+
+.feed {
+  min-height: 0;
+  flex: 1;
+  padding: 8px 14px 24px;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+}
+
+.thread { border-bottom: 1px solid color-mix(in srgb, var(--ds-color-border-default) 60%, transparent); }
+
+/* A reply hangs off its parent on a cyan rule. */
+.replies {
+  margin: 0 0 4px 34px;
+  border-left: 1px solid color-mix(in srgb, var(--ds-color-accent-cyan) 25%, transparent);
+}
+
+.post { display: flex; align-items: flex-start; gap: 10px; padding: 12px 2px 8px; }
+.postCompact { padding-left: 12px; }
+
+/* A square plate, not a face-shaped one: the border is what carries identity. */
+.avatar {
+  width: var(--size);
+  height: var(--size);
+  flex: none;
+  padding: 1px;
+  border: 1px solid var(--ds-color-border-default);
+  background: var(--ds-color-background-elevated);
+  object-fit: cover;
+}
+/* Your own comments wear a cyan edge, so a thread is scannable for yourself. */
+.avatarOwn { border-color: var(--ds-color-accent-cyan); }
+
+.goneAvatar {
+  display: grid;
+  width: var(--size);
+  height: var(--size);
+  flex: none;
+  place-items: center;
+  border: 1px solid var(--ds-color-border-default);
+  background: var(--ds-color-background-elevated);
+  color: var(--ds-color-text-muted);
+}
+
+.body { min-width: 0; flex: 1; }
+
+.head { display: flex; align-items: center; gap: 8px; }
+.head strong { min-width: 0; flex: 1; overflow: hidden; color: var(--ds-color-text-default); font-size: var(--body); font-weight:var(--ds-weight-extrabold); text-overflow: ellipsis; white-space: nowrap; }
+.head time { flex: none; color: var(--ds-color-text-muted); font-size:var(--ds-size-p10); }
+.deletedName { color: var(--ds-color-text-muted) !important; }
+
+.text { margin: 5px 0 0; color: var(--ds-color-text-default); font-size: var(--body); font-weight:var(--ds-weight-semibold); line-height: 1.45; }
+.deletedText { margin: 5px 0 0 0; padding-bottom: 8px; color: var(--ds-color-text-muted); font-size: var(--body); font-style: italic; font-weight:var(--ds-weight-medium); line-height: 1.45; }
+
+/* ---- Owned-comment menu ---------------------------------------------------- */
+
+.menu { position: relative; display: inline-flex; flex: none; }
+
+.menuTrigger {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  place-items: center;
+  border: 0;
+  background: none;
+  color: var(--ds-color-text-muted);
+  cursor: pointer;
+}
+.menuTrigger:hover { color: var(--ds-color-text-default); }
+.menuTrigger:focus-visible { outline: 2px solid var(--ds-color-accent-cyan); outline-offset: -8px; }
+
+.menuSheet {
+  position: absolute;
+  top: 44px;
+  right: 0;
+  z-index: 20;
+  display: grid;
+  min-width: 148px;
+  border: 1px solid var(--ds-color-border-default);
+  background: var(--ds-color-background-elevated);
+  box-shadow: 0 12px 26px rgb(0 0 0 / 45%);
+}
+.menuSheet button {
+  display: flex;
+  height: 48px;
+  align-items: center;
+  gap: 10px;
+  padding: 0 14px;
+  border: 0;
+  background: none;
+  color: var(--ds-color-accent-cyan);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p10);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: .1em;
+  text-align: left;
+  cursor: pointer;
+}
+.menuSheet button:hover { background: var(--ds-color-overlay-subtle); }
+.menuSheet button:focus-visible { outline: 2px solid currentcolor; outline-offset: -2px; }
+.menuDanger { color: var(--ds-color-danger) !important; }
+
+/* ---- Post actions ---------------------------------------------------------- */
+
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 2px; margin-top: 2px; }
+
+.action {
+  display: inline-flex;
+  min-width: 48px;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 0 8px;
+  border: 0;
+  background: none;
+  color: var(--ds-color-text-muted);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p9);
+  font-weight:var(--ds-weight-black);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: .078em;
+  cursor: pointer;
+}
+.action:hover { color: var(--ds-color-text-default); }
+.actionActive { color: var(--ds-color-accent-cyan); }
+.action:focus-visible { outline: 2px solid var(--ds-color-accent-cyan); outline-offset: -6px; }
+
+.edited { padding: 17px 8px; color: var(--ds-color-text-muted); font-family: var(--ds-font-display); font-size:var(--ds-size-p8); font-weight:var(--ds-weight-black); letter-spacing: .1em; }
+
+.emptyAction {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  gap: 7px;
+  padding: 0 8px;
+  border: 0;
+  background: none;
+  color: var(--ds-color-accent-cyan);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p9);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: .12em;
+  cursor: pointer;
+}
+.emptyAction:focus-visible { outline: 2px solid var(--ds-color-accent-cyan); outline-offset: 2px; }
+
+/* ---- Composer -------------------------------------------------------------- */
+
+.composer {
+  flex: none;
+  padding: 8px 12px calc(8px + env(safe-area-inset-bottom));
+  border-top: 1px solid color-mix(in srgb, var(--ds-color-accent-cyan) 25%, transparent);
+  background: var(--ds-color-background-data);
+}
+
+/* What the composer is currently for, flagged on a cyan spine. */
+.mode {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 0 0 6px;
+  padding: 0 0 0 10px;
+  border-left: 2px solid var(--ds-color-accent-cyan);
+  background: color-mix(in srgb, var(--ds-color-accent-cyan) 8%, transparent);
+  color: var(--ds-color-accent-cyan);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p9);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: .1em;
+}
+.mode span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.mode button { display: grid; width: 48px; height: 48px; flex: none; place-items: center; border: 0; background: none; color: var(--ds-color-text-muted); cursor: pointer; }
+.mode button:hover { color: var(--ds-color-text-default); }
+.mode button:focus-visible { outline: 2px solid var(--ds-color-accent-cyan); outline-offset: -8px; }
+
+.error { display: flex; align-items: center; gap: 7px; margin: 0 0 6px; color: var(--ds-color-danger); font-size:var(--ds-size-p11); }
+.error svg { flex: none; }
+
+.composerRow { display: flex; align-items: flex-start; gap: 8px; }
+
+.field { display: grid; min-width: 0; flex: 1; gap: 4px; }
+.field small { padding-right: 4px; color: var(--ds-color-text-muted); font-size:var(--ds-size-p9); text-align: right; }
+.countWarn { color: var(--ds-color-accent-gold); }
+
+.input {
+  width: 100%;
+  /* One line to start, four before it scrolls — the app's minLines/maxLines. */
+  min-height: 48px;
+  max-height: calc(4 * 1.35em + 20px);
+  padding: 11px 12px 9px;
+  border: 1px solid color-mix(in srgb, var(--ds-color-border-default) 85%, transparent);
+  background: color-mix(in srgb, var(--ds-color-background-muted) 92%, transparent);
+  color: var(--ds-color-text-default);
+  font-family: var(--ds-font-body);
+  font-size:var(--ds-size-p13);
+  line-height: 1.35;
+  resize: none;
+}
+.input::placeholder { color: var(--ds-color-text-muted); }
+.input:focus-visible { border-color: var(--ds-color-accent-cyan); outline: none; }
+
+.send {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  flex: none;
+  place-items: center;
+  border: 1px solid rgb(255 255 255 / 35%);
+  background: var(--ds-color-accent-cyan);
+  box-shadow: 0 0 10px color-mix(in srgb, var(--ds-color-accent-cyan) 25%, transparent);
+  color: var(--ds-color-background-primary);
+  cursor: pointer;
+}
+.send:disabled {
+  border-color: var(--ds-color-border-default);
+  background: var(--ds-color-background-elevated);
+  box-shadow: none;
+  color: var(--ds-color-text-muted);
+  cursor: default;
+}
+.send:focus-visible { outline: 2px solid var(--ds-color-text-default); outline-offset: 2px; }
+
+/* ---- Desktop --------------------------------------------------------------- */
+
+@media (width >= 48rem) {
+  .page {
+    position: static;
+    z-index: auto;
+    flex: 1;
+    min-height: 0;
+    padding: 20px clamp(20px, 3vw, 52px) 24px;
+    background: transparent;
+  }
+  /* A conversation is a reading column, so it stops widening with the page. */
+  .frame {
+    max-width: 760px;
+    margin: 0 auto;
+    background: transparent;
+    box-shadow: none;
+    clip-path: none;
+  }
+  .topBar { padding: 0 4px; }
+  .backLink { display: none; }
+  .topMark { margin-left: auto; }
+  .composer { padding-bottom: 12px; }
+}

@@ -1,0 +1,52 @@
+{
+  "candidate": "retro-hoops-court-v2",
+  "rulesVersion": "1.5.0",
+  "presentationVersion": "court-perspective-v2",
+  "scope": "Future Games Web only",
+  "checks": {
+    "retroHoopsTestsPassed": 60,
+    "scopedLint": "passed",
+    "typecheck": "passed",
+    "offlineHoopsBuild": "passed",
+    "staticExportBuild": "passed",
+    "teamScenariosPassed": 6,
+    "consoleChecksPassed": 9,
+    "actionLoopsRenderedAndDecoded": 14,
+    "actualHostFlowChecksPassed": 6,
+    "hostFlowErrors": []
+  },
+  "visualReview": {
+    "status": "assistant local candidate review",
+    "frames": [
+      "support-0-3.png",
+      "actions/dunk-0/0025.png",
+      "actions/dunk-1/0025.png",
+      "actions/pass-0/0013.png"
+    ],
+    "sourceObservations": "court-v2-measurements.json",
+    "userApprovalInferred": false
+  },
+  "integrationNote": "Initial catalog test used an obsolete display name; the maintained check now asserts the stable /play/retro-hoops route. Final full host flow passed. Unrelated catalog edits were preserved.",
+  "limitations": [
+    "Projection parameters are an authored fit to a processed recording, not native recovered constants.",
+    "Court geometry has not passed a complete 1:1 source comparison.",
+    "Physical devices, native animation timing and source AI remain unverified."
+  ],
+  "preview": {
+    "game": "http://127.0.0.1:8937/game.html",
+    "inspector": "http://127.0.0.1:8937/"
+  },
+  "sourceHashes": {
+    "src/features/games/retro-hoops/view.ts": "3fe59504a8d17e1be3ba7108715abe3fdd13739774f6d6b4fc6060bd67ba67f2",
+    "src/features/games/retro-hoops/court.ts": "23a6bea9b23df3823689378912b5fefee6268e55e8dbc04717dc3492286d0e69",
+    "src/features/games/retro-hoops/renderer.ts": "ed19d4e0b49db3abeb80c8ef06ed570724b85807ad2c75de26be1765ca15b86b",
+    "src/features/games/retro-hoops/presentation.ts": "5203390ab01cbbb8ebfd18485240475cdffd515a3cda327129ce00693e96f85d",
+    "tests/retro-hoops-view.test.ts": "fc739f6ba5cfa3ca76bf6952d89c2027027116ba80327bed1de57eb9d9f83f06"
+  },
+  "release": {
+    "pushed": false,
+    "pipelineActivated": false,
+    "published": false,
+    "flutterImported": false
+  }
+}

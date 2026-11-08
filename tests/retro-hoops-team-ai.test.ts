@@ -1,0 +1,21 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import {createMatch,step,NO_INPUT,anchor} from "../src/features/games/retro-hoops/simulation";
+import {poseFor} from "../src/features/games/retro-hoops/presentation";
+import {planOffBall,offBallSteering} from "../src/features/games/retro-hoops/off-ball";
+
+test("every ball handler gets distinct forward and trailing support lanes in both directions",()=>{
+ for(const id of [0,1,2,3,4,5]){const s=createMatch(),owner=s.actors[id];owner.x=450;owner.y=247;s.ball.owner=id;const plans=planOffBall(s),mates=s.actors.filter(a=>a.team===owner.team&&a.id!==id),d=owner.team===0?1:-1;
+ assert.deepEqual(mates.map(a=>plans[a.id].role).sort(),["cut","outlet"]);const cut=mates.find(a=>plans[a.id].role==="cut")!,outlet=mates.find(a=>plans[a.id].role==="outlet")!;
+ assert.ok(d*(plans[cut.id].x-owner.x)>0);assert.ok(d*(plans[outlet.id].x-owner.x)<0);assert.ok(Math.abs(plans[cut.id].y-plans[outlet.id].y)>90);}
+});
+test("defenders receive unique marks, including the human selected defender",()=>{const s=createMatch();s.ball.owner=3;s.selected=1;const plans=planOffBall(s);assert.equal(plans[1].mark,3);assert.equal(plans[1].role,"pressure");assert.equal(new Set([0,1,2].map(id=>plans[id].mark)).size,3);});
+test("each team sends one rebounder while box-out and safety protect space",()=>{for(const kind of ["shot","loose"] as const){const s=createMatch();Object.assign(s.ball,{owner:null,kind,to:-1,tx:815,ty:247,vz:100});const plans=planOffBall(s);for(const team of [0,1]){const roles=s.actors.filter(a=>a.team===team).map(a=>plans[a.id].role).sort();assert.deepEqual(roles,["box-out",kind==="shot"?"rebound":"chase","safety"].sort());}}});
+test("pass flight does not turn every player into a ball chaser",()=>{const s=createMatch();Object.assign(s.ball,{owner:null,kind:"pass",from:0,to:1,tx:500,ty:185});const plans=planOffBall(s);assert.equal(plans[1].role,"receive");assert.ok(Object.values(plans).every(p=>p.role!=="chase"));});
+test("plans do not read hidden shot outcome or mutate input and ignore actor array order",()=>{const s=createMatch();Object.assign(s.ball,{owner:null,kind:"shot",tx:815,ty:247});const original=structuredClone(s),plans=planOffBall(s);assert.deepEqual(s,original);s.ball.made=!s.ball.made;assert.deepEqual(planOffBall(s),plans);s.actors.reverse();assert.deepEqual(planOffBall(s),plans);});
+test("arrival holds position rather than cycling feet in place",()=>{const s=createMatch(),a=s.actors[1];assert.deepEqual(offBallSteering(a,{role:"outlet",x:a.x+2,y:a.y},s.actors),{x:0,y:0,speed:0});});
+test("non-selected teammates move independently while selected owner stands",()=>{const s=createMatch(),positions=s.actors.map(a=>({x:a.x,y:a.y}));s.actors.slice(3).forEach(a=>{a.x=780;a.y=330;a.nextAI=9999;});for(let i=0;i<30;i++)step(s);assert.equal(s.actors[0].x,positions[0].x);for(const id of [1,2])assert.ok(Math.hypot(s.actors[id].x-positions[id].x,s.actors[id].y-positions[id].y)>10);});
+test("recovering non-selected players cannot move or bypass an action lock",()=>{const s=createMatch(),a=s.actors[1];a.x=450;a.y=185;a.action="recoil";a.started=0;a.until=100;for(let i=0;i<30;i++)step(s,NO_INPUT);assert.equal(a.x,450);assert.equal(a.y,185);assert.equal(a.action,"recoil");});
+test("ball and ownership remain continuous through independent team movement",()=>{const s=createMatch(91,true);let results=0;for(let i=0;i<16000&&s.phase!=="result";i++){step(s);results+=s.events.filter(e=>e.type==="result").length;for(const a of s.actors){assert.ok(a.x>=60&&a.x<=840&&a.y>=164&&a.y<=330);if(a.intent)assert.ok(Number.isFinite(a.intent.x+a.intent.y));}if(s.ball.owner!==null&&s.actors[s.ball.owner].action==="idle"&&!s.actors[s.ball.owner].moving){const a=s.actors[s.ball.owner];if((a.dribbleTick??-1)<0)assert.ok(Math.abs(s.ball.x-anchor(a).x)<.001);}}assert.equal(s.phase,"result");assert.equal(results,1);});
+
+test("off-ball marking uses defensive footwork even far from the ball handler",()=>{const s=createMatch(),a=s.actors[4],mark=s.actors[1];s.ball.owner=0;s.ball.x=100;s.ball.y=247;a.x=600;a.y=185;mark.x=570;mark.y=185;a.intent={role:"mark",x:608,y:185,mark:1};a.moving=true;assert.match(poseFor(s,a),/-defend-/);});

@@ -1,0 +1,5017 @@
+{
+  "sport": "tennis",
+  "mode": "easy",
+  "version": 1,
+  "bands": {
+    "1": [
+      {
+        "p": "Which country did Roger Federer represent?",
+        "o": [
+          "Switzerland",
+          "United States",
+          "Sweden",
+          "Czechoslovakia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Serena Williams represent?",
+        "o": [
+          "Russia",
+          "United States",
+          "Poland",
+          "Belarus"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which surface is the Australian Open played on?",
+        "o": [
+          "carpet court",
+          "indoor wood court",
+          "hard court",
+          "clay court"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 2015 Davis Cup?",
+        "o": [
+          "Argentina",
+          "France",
+          "Croatia",
+          "Great Britain"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who was Mike Bryan’s most successful doubles partner?",
+        "o": [
+          "Bob Bryan",
+          "Mark Woodforde",
+          "Pam Shriver",
+          "Serena Williams"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In tennis, what does “love” mean?",
+        "o": [
+          "a serve the returner cannot touch",
+          "a score of zero",
+          "a serve that misses the box",
+          "a serve that clips the net cord"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Diede de Groot represent?",
+        "o": [
+          "Great Britain",
+          "United States",
+          "Netherlands",
+          "Japan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Rafael Nadal represent?",
+        "o": [
+          "Switzerland",
+          "Serbia",
+          "United Kingdom",
+          "Spain"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Venus Williams represent?",
+        "o": [
+          "United States",
+          "Japan",
+          "Australia",
+          "Germany"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which surface is the French Open played on?",
+        "o": [
+          "carpet court",
+          "clay court",
+          "indoor wood court",
+          "hard court"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which nation won the 2016 Davis Cup?",
+        "o": [
+          "Canada",
+          "Great Britain",
+          "Argentina",
+          "France"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who was Todd Woodbridge’s most successful doubles partner?",
+        "o": [
+          "Bob Bryan",
+          "Pam Shriver",
+          "Serena Williams",
+          "Mark Woodforde"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In tennis, what does “deuce” mean?",
+        "o": [
+          "a game score tied at 40-40",
+          "a serve that misses the box",
+          "a serve that clips the net cord",
+          "a chance to break the server"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Shingo Kunieda represent?",
+        "o": [
+          "Netherlands",
+          "Japan",
+          "Great Britain",
+          "United States"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Novak Djokovic represent?",
+        "o": [
+          "Australia",
+          "Switzerland",
+          "Serbia",
+          "Spain"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Steffi Graf represent?",
+        "o": [
+          "Belarus",
+          "Japan",
+          "Australia",
+          "Germany"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which surface is the Wimbledon played on?",
+        "o": [
+          "grass court",
+          "clay court",
+          "carpet court",
+          "indoor wood court"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 2017 Davis Cup?",
+        "o": [
+          "Croatia",
+          "France",
+          "Spain",
+          "Canada"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who was Martina Navratilova’s most successful doubles partner?",
+        "o": [
+          "Mark Woodforde",
+          "Serena Williams",
+          "Pam Shriver",
+          "Nicolas Mahut"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In tennis, what does “ace” mean?",
+        "o": [
+          "a serve that misses the box",
+          "a serve that clips the net cord",
+          "a chance to break the server",
+          "a serve the returner cannot touch"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Andy Murray represent?",
+        "o": [
+          "United Kingdom",
+          "Czechoslovakia",
+          "Germany",
+          "Italy"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Martina Navratilova represent?",
+        "o": [
+          "Yugoslavia",
+          "Czechoslovakia",
+          "Russia",
+          "Poland"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which surface is the US Open played on?",
+        "o": [
+          "carpet court",
+          "indoor wood court",
+          "hard court",
+          "clay court"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 2018 Davis Cup?",
+        "o": [
+          "Great Britain",
+          "Argentina",
+          "France",
+          "Croatia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who was Venus Williams’s most successful doubles partner?",
+        "o": [
+          "Serena Williams",
+          "Pam Shriver",
+          "Nicolas Mahut",
+          "Bob Bryan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In tennis, what does “fault” mean?",
+        "o": [
+          "a chance to break the server",
+          "a serve that misses the box",
+          "a game played to decide a set",
+          "a score of zero"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Pete Sampras represent?",
+        "o": [
+          "United Kingdom",
+          "Sweden",
+          "United States",
+          "Czechoslovakia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Chris Evert represent?",
+        "o": [
+          "Poland",
+          "Belarus",
+          "Japan",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In which city is the Australian Open played?",
+        "o": [
+          "Melbourne",
+          "New York City",
+          "Paris",
+          "London"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 2019 Davis Cup?",
+        "o": [
+          "Argentina",
+          "Spain",
+          "France",
+          "Croatia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who was Pierre-Hugues Herbert’s most successful doubles partner?",
+        "o": [
+          "Bob Bryan",
+          "Mark Woodforde",
+          "Nicolas Mahut",
+          "Pam Shriver"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In tennis, what does “let” mean?",
+        "o": [
+          "a game score tied at 40-40",
+          "a serve the returner cannot touch",
+          "a serve that misses the box",
+          "a serve that clips the net cord"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Andre Agassi represent?",
+        "o": [
+          "United States",
+          "Australia",
+          "Switzerland",
+          "Spain"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Monica Seles represent?",
+        "o": [
+          "Czechoslovakia",
+          "Yugoslavia",
+          "Russia",
+          "Poland"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which city is the French Open played?",
+        "o": [
+          "Melbourne",
+          "London",
+          "Paris",
+          "New York City"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 2022 Davis Cup?",
+        "o": [
+          "Croatia",
+          "Spain",
+          "Great Britain",
+          "Canada"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In tennis, what does “break point” mean?",
+        "o": [
+          "a chance to break the server",
+          "a serve the returner cannot touch",
+          "a serve that misses the box",
+          "a serve that clips the net cord"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Björn Borg represent?",
+        "o": [
+          "Serbia",
+          "Sweden",
+          "United Kingdom",
+          "United States"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Maria Sharapova represent?",
+        "o": [
+          "Yugoslavia",
+          "Poland",
+          "Russia",
+          "Belarus"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which city is the Wimbledon played?",
+        "o": [
+          "Melbourne",
+          "Paris",
+          "New York City",
+          "London"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In tennis, what does “tiebreak” mean?",
+        "o": [
+          "a game played to decide a set",
+          "a chance to break the server",
+          "a score of zero",
+          "a game score tied at 40-40"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did John McEnroe represent?",
+        "o": [
+          "Russia",
+          "United States",
+          "Argentina",
+          "Australia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Iga Świątek represent?",
+        "o": [
+          "Germany",
+          "Czechoslovakia",
+          "Poland",
+          "Yugoslavia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which city is the US Open played?",
+        "o": [
+          "Melbourne",
+          "Paris",
+          "London",
+          "New York City"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Jimmy Connors represent?",
+        "o": [
+          "United States",
+          "Germany",
+          "Italy",
+          "Russia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Aryna Sabalenka represent?",
+        "o": [
+          "Russia",
+          "Belarus",
+          "Poland",
+          "Japan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Australian Open?",
+        "o": [
+          "United States",
+          "France",
+          "Australia",
+          "United Kingdom"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Ivan Lendl represent?",
+        "o": [
+          "Germany",
+          "Italy",
+          "Russia",
+          "Czechoslovakia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Naomi Osaka represent?",
+        "o": [
+          "Japan",
+          "Czechoslovakia",
+          "Yugoslavia",
+          "Russia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country hosts the French Open?",
+        "o": [
+          "United States",
+          "France",
+          "Australia",
+          "United Kingdom"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Boris Becker represent?",
+        "o": [
+          "Sweden",
+          "Czechoslovakia",
+          "Germany",
+          "Italy"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Margaret Court represent?",
+        "o": [
+          "Japan",
+          "United States",
+          "Germany",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Wimbledon?",
+        "o": [
+          "United Kingdom",
+          "United States",
+          "Australia",
+          "France"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Stefan Edberg represent?",
+        "o": [
+          "Germany",
+          "Sweden",
+          "Italy",
+          "Russia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Billie Jean King represent?",
+        "o": [
+          "Poland",
+          "Belarus",
+          "United States",
+          "Japan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country hosts the US Open?",
+        "o": [
+          "United Kingdom",
+          "Australia",
+          "France",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Carlos Alcaraz represent?",
+        "o": [
+          "Spain",
+          "Sweden",
+          "Czechoslovakia",
+          "Germany"
+        ],
+        "a": 0
+      },
+      {
+        "p": "How many Grand Slam singles titles did Margaret Court win?",
+        "o": [
+          "12",
+          "24",
+          "9",
+          "23"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Jannik Sinner represent?",
+        "o": [
+          "Sweden",
+          "Czechoslovakia",
+          "Italy",
+          "Germany"
+        ],
+        "a": 2
+      },
+      {
+        "p": "How many Grand Slam singles titles did Serena Williams win?",
+        "o": [
+          "22",
+          "19",
+          "18",
+          "23"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Daniil Medvedev represent?",
+        "o": [
+          "Russia",
+          "Switzerland",
+          "Spain",
+          "Serbia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "How many Grand Slam singles titles did Steffi Graf win?",
+        "o": [
+          "9",
+          "22",
+          "24",
+          "23"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Alexander Zverev represent?",
+        "o": [
+          "Italy",
+          "Russia",
+          "Germany",
+          "Argentina"
+        ],
+        "a": 2
+      },
+      {
+        "p": "How many Grand Slam singles titles did Helen Wills win?",
+        "o": [
+          "23",
+          "22",
+          "18",
+          "19"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Stan Wawrinka represent?",
+        "o": [
+          "Switzerland",
+          "United States",
+          "Sweden",
+          "Czechoslovakia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "How many Grand Slam singles titles did Chris Evert win?",
+        "o": [
+          "24",
+          "18",
+          "23",
+          "22"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Juan Martín del Potro represent?",
+        "o": [
+          "United Kingdom",
+          "United States",
+          "Argentina",
+          "Sweden"
+        ],
+        "a": 2
+      },
+      {
+        "p": "How many Grand Slam singles titles did Martina Navratilova win?",
+        "o": [
+          "24",
+          "23",
+          "22",
+          "18"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Rod Laver represent?",
+        "o": [
+          "Australia",
+          "Serbia",
+          "United Kingdom",
+          "United States"
+        ],
+        "a": 0
+      },
+      {
+        "p": "How many Grand Slam singles titles did Billie Jean King win?",
+        "o": [
+          "18",
+          "12",
+          "9",
+          "24"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Guillermo Vilas represent?",
+        "o": [
+          "Switzerland",
+          "Spain",
+          "Argentina",
+          "Serbia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "How many Grand Slam singles titles did Monica Seles win?",
+        "o": [
+          "18",
+          "12",
+          "24",
+          "9"
+        ],
+        "a": 3
+      },
+      {
+        "p": "How many Grand Slam singles titles did Novak Djokovic win?",
+        "o": [
+          "24",
+          "8",
+          "7",
+          "6"
+        ],
+        "a": 0
+      },
+      {
+        "p": "How many Grand Slam singles titles did Rafael Nadal win?",
+        "o": [
+          "6",
+          "22",
+          "24",
+          "20"
+        ],
+        "a": 1
+      },
+      {
+        "p": "How many Grand Slam singles titles did Roger Federer win?",
+        "o": [
+          "6",
+          "24",
+          "20",
+          "22"
+        ],
+        "a": 2
+      },
+      {
+        "p": "How many Grand Slam singles titles did Pete Sampras win?",
+        "o": [
+          "11",
+          "8",
+          "7",
+          "14"
+        ],
+        "a": 3
+      },
+      {
+        "p": "How many Grand Slam singles titles did Björn Borg win?",
+        "o": [
+          "11",
+          "6",
+          "24",
+          "22"
+        ],
+        "a": 0
+      },
+      {
+        "p": "How many Grand Slam singles titles did Andre Agassi win?",
+        "o": [
+          "24",
+          "8",
+          "22",
+          "20"
+        ],
+        "a": 1
+      },
+      {
+        "p": "How many Grand Slam singles titles did John McEnroe win?",
+        "o": [
+          "6",
+          "24",
+          "7",
+          "22"
+        ],
+        "a": 2
+      },
+      {
+        "p": "How many Grand Slam singles titles did Boris Becker win?",
+        "o": [
+          "8",
+          "7",
+          "24",
+          "6"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2008 Wimbledon men’s singles title?",
+        "o": [
+          "Rafael Nadal",
+          "Roger Federer",
+          "Jannik Sinner",
+          "Carlos Alcaraz"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2019 Wimbledon men’s singles title?",
+        "o": [
+          "Björn Borg",
+          "Novak Djokovic",
+          "John McEnroe",
+          "Rafael Nadal"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2017 Australian Open men’s singles title?",
+        "o": [
+          "Björn Borg",
+          "John McEnroe",
+          "Roger Federer",
+          "Rafael Nadal"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2023 US Open men’s singles title?",
+        "o": [
+          "John McEnroe",
+          "Rafael Nadal",
+          "Roger Federer",
+          "Novak Djokovic"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2022 Wimbledon men’s singles title?",
+        "o": [
+          "Novak Djokovic",
+          "Rafael Nadal",
+          "Roger Federer",
+          "Jannik Sinner"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2024 Australian Open men’s singles title?",
+        "o": [
+          "Roger Federer",
+          "Jannik Sinner",
+          "Carlos Alcaraz",
+          "Andy Murray"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2022 US Open men’s singles title?",
+        "o": [
+          "Björn Borg",
+          "John McEnroe",
+          "Carlos Alcaraz",
+          "Rafael Nadal"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2023 Wimbledon men’s singles title?",
+        "o": [
+          "Juan Martín del Potro",
+          "Björn Borg",
+          "John McEnroe",
+          "Carlos Alcaraz"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2013 Wimbledon men’s singles title?",
+        "o": [
+          "Andy Murray",
+          "Björn Borg",
+          "John McEnroe",
+          "Rafael Nadal"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2009 US Open men’s singles title?",
+        "o": [
+          "John McEnroe",
+          "Juan Martín del Potro",
+          "Rafael Nadal",
+          "Novak Djokovic"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1980 Wimbledon men’s singles title?",
+        "o": [
+          "Novak Djokovic",
+          "Roger Federer",
+          "Björn Borg",
+          "Jannik Sinner"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1984 US Open men’s singles title?",
+        "o": [
+          "Roger Federer",
+          "Jannik Sinner",
+          "Carlos Alcaraz",
+          "John McEnroe"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which playing style is Rafael Nadal known for?",
+        "o": [
+          "heavy topspin left-hander",
+          "big serve and volley",
+          "power baseline forehand",
+          "relentless topspin baseline"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which playing style is Roger Federer known for?",
+        "o": [
+          "relentless topspin baseline",
+          "attacking all-court one-hander",
+          "early-ball return aggression",
+          "heavy topspin left-hander"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which playing style is Novak Djokovic known for?",
+        "o": [
+          "attacking all-court one-hander",
+          "serve-and-volley touch play",
+          "elastic baseline counter-punching",
+          "big serve and volley"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which playing style is John McEnroe known for?",
+        "o": [
+          "attacking all-court one-hander",
+          "elastic baseline counter-punching",
+          "big serve and volley",
+          "serve-and-volley touch play"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which playing style is Pete Sampras known for?",
+        "o": [
+          "big serve and volley",
+          "attacking all-court one-hander",
+          "elastic baseline counter-punching",
+          "serve-and-volley touch play"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which playing style is Ivan Lendl known for?",
+        "o": [
+          "elastic baseline counter-punching",
+          "power baseline forehand",
+          "serve-and-volley touch play",
+          "big serve and volley"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which playing style is Björn Borg known for?",
+        "o": [
+          "elastic baseline counter-punching",
+          "serve-and-volley touch play",
+          "relentless topspin baseline",
+          "big serve and volley"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which playing style is Andre Agassi known for?",
+        "o": [
+          "heavy topspin left-hander",
+          "attacking all-court one-hander",
+          "elastic baseline counter-punching",
+          "early-ball return aggression"
+        ],
+        "a": 3
+      }
+    ],
+    "2": [
+      {
+        "p": "Who won the 2010 Wimbledon men’s singles title?",
+        "o": [
+          "Rafael Nadal",
+          "Carlos Alcaraz",
+          "Jannik Sinner",
+          "Marin Čilić"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2018 Wimbledon women’s singles title?",
+        "o": [
+          "Sofia Kenin",
+          "Angelique Kerber",
+          "Aryna Sabalenka",
+          "Simona Halep"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which venue hosts the Australian Open?",
+        "o": [
+          "the All England Club",
+          "Flushing Meadows",
+          "Melbourne Park",
+          "Stade Roland-Garros"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 2012 Davis Cup?",
+        "o": [
+          "Russian Tennis Federation",
+          "Italy",
+          "Switzerland",
+          "Czech Republic"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2019 Wimbledon men’s doubles title?",
+        "o": [
+          "Cabal and Farah",
+          "Ebden and Purcell",
+          "Koolhof and Skupski",
+          "Heliövaara and Patten"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In tennis, what does “volley” mean?",
+        "o": [
+          "a soft shot just over the net",
+          "a shot hit before the bounce",
+          "a shot hit with backspin",
+          "a shot hit with forward spin"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Alfie Hewett represent?",
+        "o": [
+          "Argentina",
+          "Netherlands",
+          "Great Britain",
+          "Japan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2011 Wimbledon men’s singles title?",
+        "o": [
+          "Stan Wawrinka",
+          "Dominic Thiem",
+          "Daniil Medvedev",
+          "Novak Djokovic"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2019 Wimbledon women’s singles title?",
+        "o": [
+          "Simona Halep",
+          "Ashleigh Barty",
+          "Elena Rybakina",
+          "Markéta Vondroušová"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which venue hosts the French Open?",
+        "o": [
+          "the All England Club",
+          "Stade Roland-Garros",
+          "Flushing Meadows",
+          "Melbourne Park"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which nation won the 2013 Davis Cup?",
+        "o": [
+          "Italy",
+          "Switzerland",
+          "Czech Republic",
+          "Russian Tennis Federation"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2021 Wimbledon men’s doubles title?",
+        "o": [
+          "Ebden and Purcell",
+          "Koolhof and Skupski",
+          "Heliövaara and Patten",
+          "Mektić and Pavić"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In tennis, what does “lob” mean?",
+        "o": [
+          "a high shot over the opponent",
+          "a shot hit with backspin",
+          "a shot hit with forward spin",
+          "a shot hit while moving forward"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Gordon Reid represent?",
+        "o": [
+          "Japan",
+          "Great Britain",
+          "Argentina",
+          "Netherlands"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2012 Wimbledon men’s singles title?",
+        "o": [
+          "Marin Čilić",
+          "Stan Wawrinka",
+          "Roger Federer",
+          "Dominic Thiem"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2021 Wimbledon women’s singles title?",
+        "o": [
+          "Angelique Kerber",
+          "Simona Halep",
+          "Elena Rybakina",
+          "Ashleigh Barty"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which venue hosts the Wimbledon?",
+        "o": [
+          "the All England Club",
+          "Melbourne Park",
+          "Stade Roland-Garros",
+          "Flushing Meadows"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 2014 Davis Cup?",
+        "o": [
+          "Czech Republic",
+          "Switzerland",
+          "Russian Tennis Federation",
+          "Italy"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2022 Wimbledon men’s doubles title?",
+        "o": [
+          "Mektić and Pavić",
+          "Koolhof and Skupski",
+          "Ebden and Purcell",
+          "Heliövaara and Patten"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In tennis, what does “smash” mean?",
+        "o": [
+          "a shot hit while moving forward",
+          "a shot hit before the bounce",
+          "a high shot over the opponent",
+          "a hard overhead put-away"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2014 Wimbledon men’s singles title?",
+        "o": [
+          "Novak Djokovic",
+          "Marin Čilić",
+          "Stan Wawrinka",
+          "Dominic Thiem"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2022 Wimbledon women’s singles title?",
+        "o": [
+          "Sofia Kenin",
+          "Elena Rybakina",
+          "Aryna Sabalenka",
+          "Angelique Kerber"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which venue hosts the US Open?",
+        "o": [
+          "Stade Roland-Garros",
+          "the All England Club",
+          "Flushing Meadows",
+          "Melbourne Park"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 2021 Davis Cup?",
+        "o": [
+          "Italy",
+          "Czech Republic",
+          "Switzerland",
+          "Russian Tennis Federation"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2023 Wimbledon men’s doubles title?",
+        "o": [
+          "Koolhof and Skupski",
+          "Mektić and Pavić",
+          "Ebden and Purcell",
+          "Heliövaara and Patten"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In tennis, what does “drop shot” mean?",
+        "o": [
+          "a high shot over the opponent",
+          "a soft shot just over the net",
+          "a hard overhead put-away",
+          "a shot hit with backspin"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2015 Wimbledon men’s singles title?",
+        "o": [
+          "Andy Murray",
+          "Carlos Alcaraz",
+          "Novak Djokovic",
+          "Jannik Sinner"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2023 Wimbledon women’s singles title?",
+        "o": [
+          "Angelique Kerber",
+          "Simona Halep",
+          "Ashleigh Barty",
+          "Markéta Vondroušová"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What is the main show court at Wimbledon called?",
+        "o": [
+          "Centre Court",
+          "Court Philippe-Chatrier",
+          "Arthur Ashe Stadium",
+          "Rod Laver Arena"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 2023 Davis Cup?",
+        "o": [
+          "Switzerland",
+          "Italy",
+          "Russian Tennis Federation",
+          "Czech Republic"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2024 Wimbledon men’s doubles title?",
+        "o": [
+          "Cabal and Farah",
+          "Mektić and Pavić",
+          "Heliövaara and Patten",
+          "Ebden and Purcell"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In tennis, what does “slice” mean?",
+        "o": [
+          "a shot hit while moving forward",
+          "a shot hit before the bounce",
+          "a high shot over the opponent",
+          "a shot hit with backspin"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2016 Wimbledon men’s singles title?",
+        "o": [
+          "Andy Murray",
+          "Roger Federer",
+          "Carlos Alcaraz",
+          "Jannik Sinner"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2024 Wimbledon women’s singles title?",
+        "o": [
+          "Ashleigh Barty",
+          "Barbora Krejčíková",
+          "Elena Rybakina",
+          "Markéta Vondroušová"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What is the main show court at the Australian Open called?",
+        "o": [
+          "Centre Court",
+          "Court Philippe-Chatrier",
+          "Rod Laver Arena",
+          "Arthur Ashe Stadium"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 2024 Davis Cup?",
+        "o": [
+          "Russian Tennis Federation",
+          "Czech Republic",
+          "Switzerland",
+          "Italy"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In tennis, what does “topspin” mean?",
+        "o": [
+          "a shot hit with forward spin",
+          "a soft shot just over the net",
+          "a shot hit with backspin",
+          "a shot hit while moving forward"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2017 Wimbledon men’s singles title?",
+        "o": [
+          "Marin Čilić",
+          "Roger Federer",
+          "Stan Wawrinka",
+          "Dominic Thiem"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2025 Wimbledon women’s singles title?",
+        "o": [
+          "Naomi Osaka",
+          "Sofia Kenin",
+          "Iga Świątek",
+          "Aryna Sabalenka"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What is the main show court at Roland-Garros called?",
+        "o": [
+          "Rod Laver Arena",
+          "Arthur Ashe Stadium",
+          "Centre Court",
+          "Court Philippe-Chatrier"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In tennis, what does “approach shot” mean?",
+        "o": [
+          "a shot hit while moving forward",
+          "a shot hit before the bounce",
+          "a high shot over the opponent",
+          "a hard overhead put-away"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2018 Wimbledon men’s singles title?",
+        "o": [
+          "Dominic Thiem",
+          "Novak Djokovic",
+          "Daniil Medvedev",
+          "Rafael Nadal"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2019 Australian Open women’s singles title?",
+        "o": [
+          "Markéta Vondroušová",
+          "Barbora Krejčíková",
+          "Naomi Osaka",
+          "Iga Świątek"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What is the main show court at the US Open called?",
+        "o": [
+          "Court Philippe-Chatrier",
+          "Centre Court",
+          "Rod Laver Arena",
+          "Arthur Ashe Stadium"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2021 Wimbledon men’s singles title?",
+        "o": [
+          "Novak Djokovic",
+          "Daniil Medvedev",
+          "Rafael Nadal",
+          "Roger Federer"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2020 Australian Open women’s singles title?",
+        "o": [
+          "Angelique Kerber",
+          "Sofia Kenin",
+          "Simona Halep",
+          "Ashleigh Barty"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which year was the Wimbledon Championships first held?",
+        "o": [
+          "1891",
+          "1905",
+          "1877",
+          "1881"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2024 Wimbledon men’s singles title?",
+        "o": [
+          "Roger Federer",
+          "Andy Murray",
+          "Jannik Sinner",
+          "Carlos Alcaraz"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2022 Australian Open women’s singles title?",
+        "o": [
+          "Ashleigh Barty",
+          "Naomi Osaka",
+          "Sofia Kenin",
+          "Aryna Sabalenka"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which year was the US Open first held?",
+        "o": [
+          "1891",
+          "1881",
+          "1905",
+          "1877"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2025 Wimbledon men’s singles title?",
+        "o": [
+          "Marin Čilić",
+          "Stan Wawrinka",
+          "Jannik Sinner",
+          "Dominic Thiem"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2023 Australian Open women’s singles title?",
+        "o": [
+          "Barbora Krejčíková",
+          "Iga Świątek",
+          "Naomi Osaka",
+          "Aryna Sabalenka"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In which year was the French Championships first held?",
+        "o": [
+          "1891",
+          "1877",
+          "1881",
+          "1905"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2010 US Open men’s singles title?",
+        "o": [
+          "Jannik Sinner",
+          "Rafael Nadal",
+          "Marin Čilić",
+          "Stan Wawrinka"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2024 Australian Open women’s singles title?",
+        "o": [
+          "Angelique Kerber",
+          "Simona Halep",
+          "Aryna Sabalenka",
+          "Ashleigh Barty"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which year was the Australian Championships first held?",
+        "o": [
+          "1877",
+          "1881",
+          "1891",
+          "1905"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2011 US Open men’s singles title?",
+        "o": [
+          "Novak Djokovic",
+          "Rafael Nadal",
+          "Roger Federer",
+          "Andy Murray"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2018 US Open women’s singles title?",
+        "o": [
+          "Barbora Krejčíková",
+          "Naomi Osaka",
+          "Iga Świątek",
+          "Sofia Kenin"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2012 US Open men’s singles title?",
+        "o": [
+          "Novak Djokovic",
+          "Roger Federer",
+          "Andy Murray",
+          "Carlos Alcaraz"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2020 US Open women’s singles title?",
+        "o": [
+          "Iga Świątek",
+          "Sofia Kenin",
+          "Aryna Sabalenka",
+          "Naomi Osaka"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2013 US Open men’s singles title?",
+        "o": [
+          "Rafael Nadal",
+          "Stan Wawrinka",
+          "Dominic Thiem",
+          "Daniil Medvedev"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Simona Halep represent?",
+        "o": [
+          "United States",
+          "Romania",
+          "Latvia",
+          "Australia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2014 US Open men’s singles title?",
+        "o": [
+          "Stan Wawrinka",
+          "Dominic Thiem",
+          "Marin Čilić",
+          "Daniil Medvedev"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Ashleigh Barty represent?",
+        "o": [
+          "Kazakhstan",
+          "United States",
+          "Latvia",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2015 US Open men’s singles title?",
+        "o": [
+          "Novak Djokovic",
+          "Carlos Alcaraz",
+          "Jannik Sinner",
+          "Marin Čilić"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Angelique Kerber represent?",
+        "o": [
+          "Kazakhstan",
+          "Germany",
+          "United States",
+          "Latvia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2016 US Open men’s singles title?",
+        "o": [
+          "Jannik Sinner",
+          "Marin Čilić",
+          "Stan Wawrinka",
+          "Dominic Thiem"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Elena Rybakina represent?",
+        "o": [
+          "Australia",
+          "Germany",
+          "United States",
+          "Kazakhstan"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2017 US Open men’s singles title?",
+        "o": [
+          "Rafael Nadal",
+          "Marin Čilić",
+          "Stan Wawrinka",
+          "Dominic Thiem"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Coco Gauff represent?",
+        "o": [
+          "Australia",
+          "United States",
+          "Germany",
+          "Kazakhstan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2018 US Open men’s singles title?",
+        "o": [
+          "Marin Čilić",
+          "Stan Wawrinka",
+          "Novak Djokovic",
+          "Dominic Thiem"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Jeļena Ostapenko represent?",
+        "o": [
+          "Kazakhstan",
+          "United States",
+          "Romania",
+          "Latvia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2019 US Open men’s singles title?",
+        "o": [
+          "Rafael Nadal",
+          "Carlos Alcaraz",
+          "Jannik Sinner",
+          "Marin Čilić"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2020 US Open men’s singles title?",
+        "o": [
+          "Novak Djokovic",
+          "Dominic Thiem",
+          "Roger Federer",
+          "Andy Murray"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2021 US Open men’s singles title?",
+        "o": [
+          "Rafael Nadal",
+          "Novak Djokovic",
+          "Daniil Medvedev",
+          "Roger Federer"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2024 US Open men’s singles title?",
+        "o": [
+          "Daniil Medvedev",
+          "Rafael Nadal",
+          "Novak Djokovic",
+          "Jannik Sinner"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Dominic Thiem represent?",
+        "o": [
+          "Austria",
+          "Japan",
+          "France",
+          "Czech Republic"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Marin Čilić represent?",
+        "o": [
+          "Spain",
+          "Croatia",
+          "United States",
+          "Australia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Casper Ruud represent?",
+        "o": [
+          "Greece",
+          "Bulgaria",
+          "Norway",
+          "Canada"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Stefanos Tsitsipas represent?",
+        "o": [
+          "Czech Republic",
+          "Spain",
+          "United States",
+          "Greece"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Grigor Dimitrov represent?",
+        "o": [
+          "Bulgaria",
+          "United States",
+          "Australia",
+          "Austria"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Milos Raonic represent?",
+        "o": [
+          "Croatia",
+          "Canada",
+          "Norway",
+          "Greece"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Kei Nishikori represent?",
+        "o": [
+          "Bulgaria",
+          "Canada",
+          "Japan",
+          "France"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Gaël Monfils represent?",
+        "o": [
+          "United States",
+          "Australia",
+          "Austria",
+          "France"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Tomáš Berdych represent?",
+        "o": [
+          "Czech Republic",
+          "Australia",
+          "Austria",
+          "Croatia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did David Ferrer represent?",
+        "o": [
+          "Japan",
+          "Spain",
+          "France",
+          "Czech Republic"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Andy Roddick represent?",
+        "o": [
+          "Austria",
+          "Croatia",
+          "United States",
+          "Norway"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Lleyton Hewitt represent?",
+        "o": [
+          "Japan",
+          "France",
+          "Czech Republic",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 2010 as the ATP year-end world No. 1?",
+        "o": [
+          "Rafael Nadal",
+          "Andy Murray",
+          "Roger Federer",
+          "Stan Wawrinka"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who finished 2011 as the ATP year-end world No. 1?",
+        "o": [
+          "Rafael Nadal",
+          "Novak Djokovic",
+          "Andy Murray",
+          "Roger Federer"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 2012 as the ATP year-end world No. 1?",
+        "o": [
+          "Rafael Nadal",
+          "Andy Murray",
+          "Novak Djokovic",
+          "Roger Federer"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who finished 2013 as the ATP year-end world No. 1?",
+        "o": [
+          "Stan Wawrinka",
+          "Marin Čilić",
+          "Novak Djokovic",
+          "Rafael Nadal"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 2014 as the ATP year-end world No. 1?",
+        "o": [
+          "Novak Djokovic",
+          "Marin Čilić",
+          "Rafael Nadal",
+          "Andy Murray"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who finished 2015 as the ATP year-end world No. 1?",
+        "o": [
+          "Roger Federer",
+          "Novak Djokovic",
+          "Stan Wawrinka",
+          "Marin Čilić"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 2016 as the ATP year-end world No. 1?",
+        "o": [
+          "Roger Federer",
+          "Stan Wawrinka",
+          "Andy Murray",
+          "Marin Čilić"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who finished 2017 as the ATP year-end world No. 1?",
+        "o": [
+          "Andy Murray",
+          "Roger Federer",
+          "Stan Wawrinka",
+          "Rafael Nadal"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 2018 as the ATP year-end world No. 1?",
+        "o": [
+          "Novak Djokovic",
+          "Stan Wawrinka",
+          "Marin Čilić",
+          "Rafael Nadal"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who finished 2019 as the ATP year-end world No. 1?",
+        "o": [
+          "Novak Djokovic",
+          "Rafael Nadal",
+          "Andy Murray",
+          "Roger Federer"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 2020 as the ATP year-end world No. 1?",
+        "o": [
+          "Roger Federer",
+          "Stan Wawrinka",
+          "Novak Djokovic",
+          "Marin Čilić"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who finished 2021 as the ATP year-end world No. 1?",
+        "o": [
+          "Stan Wawrinka",
+          "Marin Čilić",
+          "Rafael Nadal",
+          "Novak Djokovic"
+        ],
+        "a": 3
+      }
+    ],
+    "3": [
+      {
+        "p": "Who won the 2000 Wimbledon men’s singles title?",
+        "o": [
+          "Pete Sampras",
+          "Juan Carlos Ferrero",
+          "Gastón Gaudio",
+          "Rafael Nadal"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2002 Wimbledon women’s singles title?",
+        "o": [
+          "Marion Bartoli",
+          "Serena Williams",
+          "Maria Sharapova",
+          "Venus Williams"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What is the Wimbledon men's singles trophy called?",
+        "o": [
+          "the Coupe des Mousquetaires",
+          "the Coupe Suzanne Lenglen",
+          "the Gentlemen's Singles Trophy",
+          "the Norman Brookes Challenge Cup"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 2006 Davis Cup?",
+        "o": [
+          "United States",
+          "Spain",
+          "Serbia",
+          "Russia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2019 Wimbledon women’s doubles title?",
+        "o": [
+          "Hsieh and Strýcová",
+          "Siniaková and Townsend",
+          "Hsieh and Mertens",
+          "Krejčíková and Siniaková"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In tennis, what does “baseline” mean?",
+        "o": [
+          "the receiver's right-hand side",
+          "the back line of the court",
+          "the line bounding the service box",
+          "the doubles side lanes"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Yui Kamiji represent?",
+        "o": [
+          "Netherlands",
+          "Great Britain",
+          "Japan",
+          "Belgium"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2001 Wimbledon men’s singles title?",
+        "o": [
+          "Gastón Gaudio",
+          "Rafael Nadal",
+          "Marat Safin",
+          "Goran Ivanišević"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2003 Wimbledon women’s singles title?",
+        "o": [
+          "Serena Williams",
+          "Maria Sharapova",
+          "Venus Williams",
+          "Petra Kvitová"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What is the Wimbledon women's singles trophy called?",
+        "o": [
+          "the Coupe Suzanne Lenglen",
+          "the Venus Rosewater Dish",
+          "the Norman Brookes Challenge Cup",
+          "the Daphne Akhurst Memorial Cup"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which nation won the 2007 Davis Cup?",
+        "o": [
+          "Spain",
+          "Serbia",
+          "United States",
+          "Russia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2021 Wimbledon women’s doubles title?",
+        "o": [
+          "Hsieh and Wang",
+          "Siniaková and Townsend",
+          "Hsieh and Strýcová",
+          "Hsieh and Mertens"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In tennis, what does “service line” mean?",
+        "o": [
+          "the line bounding the service box",
+          "the doubles side lanes",
+          "the top band of the net",
+          "the area a serve must land in"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Tokito Oda represent?",
+        "o": [
+          "Belgium",
+          "Japan",
+          "Netherlands",
+          "Great Britain"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2002 Wimbledon men’s singles title?",
+        "o": [
+          "Gastón Gaudio",
+          "Rafael Nadal",
+          "Lleyton Hewitt",
+          "Marat Safin"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2004 Wimbledon women’s singles title?",
+        "o": [
+          "Serena Williams",
+          "Venus Williams",
+          "Petra Kvitová",
+          "Maria Sharapova"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What is the Roland-Garros men's singles trophy called?",
+        "o": [
+          "the Coupe des Mousquetaires",
+          "the Daphne Akhurst Memorial Cup",
+          "the Gentlemen's Singles Trophy",
+          "the Venus Rosewater Dish"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 2008 Davis Cup?",
+        "o": [
+          "Russia",
+          "Spain",
+          "United States",
+          "Serbia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2022 Wimbledon women’s doubles title?",
+        "o": [
+          "Hsieh and Mertens",
+          "Hsieh and Wang",
+          "Krejčíková and Siniaková",
+          "Siniaková and Townsend"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In tennis, what does “tramlines” mean?",
+        "o": [
+          "the receiver's right-hand side",
+          "the back line of the court",
+          "the line bounding the service box",
+          "the doubles side lanes"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2003 Wimbledon men’s singles title?",
+        "o": [
+          "Roger Federer",
+          "Goran Ivanišević",
+          "Lleyton Hewitt",
+          "Juan Carlos Ferrero"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2005 Wimbledon women’s singles title?",
+        "o": [
+          "Marion Bartoli",
+          "Venus Williams",
+          "Serena Williams",
+          "Maria Sharapova"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What is the Roland-Garros women's singles trophy called?",
+        "o": [
+          "the Daphne Akhurst Memorial Cup",
+          "the Gentlemen's Singles Trophy",
+          "the Coupe Suzanne Lenglen",
+          "the Venus Rosewater Dish"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 2009 Davis Cup?",
+        "o": [
+          "United States",
+          "Serbia",
+          "Russia",
+          "Spain"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2023 Wimbledon women’s doubles title?",
+        "o": [
+          "Hsieh and Wang",
+          "Siniaková and Townsend",
+          "Hsieh and Strýcová",
+          "Hsieh and Mertens"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In tennis, what does “net cord” mean?",
+        "o": [
+          "the receiver's right-hand side",
+          "the top band of the net",
+          "the back line of the court",
+          "the line bounding the service box"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2004 Wimbledon men’s singles title?",
+        "o": [
+          "Pete Sampras",
+          "Goran Ivanišević",
+          "Roger Federer",
+          "Lleyton Hewitt"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2007 Wimbledon women’s singles title?",
+        "o": [
+          "Maria Sharapova",
+          "Petra Kvitová",
+          "Marion Bartoli",
+          "Venus Williams"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What is the the Australian Open men's singles trophy called?",
+        "o": [
+          "the Norman Brookes Challenge Cup",
+          "the Gentlemen's Singles Trophy",
+          "the Venus Rosewater Dish",
+          "the Coupe des Mousquetaires"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 2010 Davis Cup?",
+        "o": [
+          "United States",
+          "Serbia",
+          "Spain",
+          "Russia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2024 Wimbledon women’s doubles title?",
+        "o": [
+          "Hsieh and Strýcová",
+          "Hsieh and Mertens",
+          "Siniaková and Townsend",
+          "Krejčíková and Siniaková"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In tennis, what does “service box” mean?",
+        "o": [
+          "the receiver's left-hand side",
+          "the receiver's right-hand side",
+          "the back line of the court",
+          "the area a serve must land in"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2005 Wimbledon men’s singles title?",
+        "o": [
+          "Roger Federer",
+          "Juan Carlos Ferrero",
+          "Gastón Gaudio",
+          "Rafael Nadal"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2008 Wimbledon women’s singles title?",
+        "o": [
+          "Petra Kvitová",
+          "Venus Williams",
+          "Marion Bartoli",
+          "Serena Williams"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What is the the Australian Open women's singles trophy called?",
+        "o": [
+          "the Gentlemen's Singles Trophy",
+          "the Venus Rosewater Dish",
+          "the Daphne Akhurst Memorial Cup",
+          "the Coupe des Mousquetaires"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 2011 Davis Cup?",
+        "o": [
+          "United States",
+          "Serbia",
+          "Russia",
+          "Spain"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In tennis, what does “ad court” mean?",
+        "o": [
+          "the receiver's left-hand side",
+          "the back line of the court",
+          "the line bounding the service box",
+          "the doubles side lanes"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2006 Wimbledon men’s singles title?",
+        "o": [
+          "Lleyton Hewitt",
+          "Roger Federer",
+          "Juan Carlos Ferrero",
+          "Gastón Gaudio"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2009 Wimbledon women’s singles title?",
+        "o": [
+          "Petra Kvitová",
+          "Marion Bartoli",
+          "Serena Williams",
+          "Maria Sharapova"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which tour tier does the Australian Open belong to?",
+        "o": [
+          "ATP Masters 1000",
+          "ATP 500",
+          "ATP 250",
+          "Grand Slam"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In tennis, what does “deuce court” mean?",
+        "o": [
+          "the receiver's right-hand side",
+          "the doubles side lanes",
+          "the top band of the net",
+          "the area a serve must land in"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2007 Wimbledon men’s singles title?",
+        "o": [
+          "Rafael Nadal",
+          "Roger Federer",
+          "Marat Safin",
+          "Andy Roddick"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2010 Wimbledon women’s singles title?",
+        "o": [
+          "Maria Sharapova",
+          "Venus Williams",
+          "Serena Williams",
+          "Petra Kvitová"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which tour tier does the US Open belong to?",
+        "o": [
+          "ATP Masters 1000",
+          "ATP 500",
+          "ATP 250",
+          "Grand Slam"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2009 Wimbledon men’s singles title?",
+        "o": [
+          "Roger Federer",
+          "Andy Roddick",
+          "Pete Sampras",
+          "Goran Ivanišević"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2011 Wimbledon women’s singles title?",
+        "o": [
+          "Serena Williams",
+          "Petra Kvitová",
+          "Maria Sharapova",
+          "Venus Williams"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which tour tier does the Indian Wells Masters belong to?",
+        "o": [
+          "ATP Challenger",
+          "Grand Slam",
+          "ATP Masters 1000",
+          "ATP 500"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2003 French Open men’s singles title?",
+        "o": [
+          "Goran Ivanišević",
+          "Lleyton Hewitt",
+          "Roger Federer",
+          "Juan Carlos Ferrero"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2012 Wimbledon women’s singles title?",
+        "o": [
+          "Serena Williams",
+          "Petra Kvitová",
+          "Marion Bartoli",
+          "Maria Sharapova"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which tour tier does the Rome Masters belong to?",
+        "o": [
+          "ATP 500",
+          "ATP Masters 1000",
+          "ATP 250",
+          "ATP Challenger"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2004 French Open men’s singles title?",
+        "o": [
+          "Goran Ivanišević",
+          "Lleyton Hewitt",
+          "Gastón Gaudio",
+          "Roger Federer"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2013 Wimbledon women’s singles title?",
+        "o": [
+          "Serena Williams",
+          "Maria Sharapova",
+          "Venus Williams",
+          "Marion Bartoli"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which tour tier does the Dubai Tennis Championships belong to?",
+        "o": [
+          "ATP 500",
+          "ATP 250",
+          "ATP Challenger",
+          "Grand Slam"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2005 French Open men’s singles title?",
+        "o": [
+          "Lleyton Hewitt",
+          "Rafael Nadal",
+          "Roger Federer",
+          "Juan Carlos Ferrero"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2014 Wimbledon women’s singles title?",
+        "o": [
+          "Maria Sharapova",
+          "Venus Williams",
+          "Petra Kvitová",
+          "Marion Bartoli"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which tour tier does the Barcelona Open belong to?",
+        "o": [
+          "ATP 250",
+          "ATP Challenger",
+          "Grand Slam",
+          "ATP 500"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2006 French Open men’s singles title?",
+        "o": [
+          "Rafael Nadal",
+          "Goran Ivanišević",
+          "Lleyton Hewitt",
+          "Roger Federer"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2015 Wimbledon women’s singles title?",
+        "o": [
+          "Marion Bartoli",
+          "Serena Williams",
+          "Maria Sharapova",
+          "Venus Williams"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2007 French Open men’s singles title?",
+        "o": [
+          "Pete Sampras",
+          "Goran Ivanišević",
+          "Rafael Nadal",
+          "Lleyton Hewitt"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2016 Wimbledon women’s singles title?",
+        "o": [
+          "Petra Kvitová",
+          "Marion Bartoli",
+          "Maria Sharapova",
+          "Serena Williams"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2008 French Open men’s singles title?",
+        "o": [
+          "Rafael Nadal",
+          "Andy Roddick",
+          "Pete Sampras",
+          "Goran Ivanišević"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Petra Kvitová represent?",
+        "o": [
+          "Belarus",
+          "Czech Republic",
+          "Denmark",
+          "Serbia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2009 French Open men’s singles title?",
+        "o": [
+          "Goran Ivanišević",
+          "Lleyton Hewitt",
+          "Roger Federer",
+          "Juan Carlos Ferrero"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Victoria Azarenka represent?",
+        "o": [
+          "Denmark",
+          "Serbia",
+          "Russia",
+          "Belarus"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2000 US Open men’s singles title?",
+        "o": [
+          "Marat Safin",
+          "Lleyton Hewitt",
+          "Roger Federer",
+          "Juan Carlos Ferrero"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Caroline Wozniacki represent?",
+        "o": [
+          "Russia",
+          "Denmark",
+          "Czech Republic",
+          "Belarus"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2001 US Open men’s singles title?",
+        "o": [
+          "Goran Ivanišević",
+          "Roger Federer",
+          "Lleyton Hewitt",
+          "Juan Carlos Ferrero"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Ana Ivanović represent?",
+        "o": [
+          "Belarus",
+          "Denmark",
+          "Russia",
+          "Serbia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2002 US Open men’s singles title?",
+        "o": [
+          "Pete Sampras",
+          "Juan Carlos Ferrero",
+          "Gastón Gaudio",
+          "Rafael Nadal"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Jelena Janković represent?",
+        "o": [
+          "Denmark",
+          "Serbia",
+          "Russia",
+          "Czech Republic"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2003 US Open men’s singles title?",
+        "o": [
+          "Roger Federer",
+          "Juan Carlos Ferrero",
+          "Andy Roddick",
+          "Gastón Gaudio"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Svetlana Kuznetsova represent?",
+        "o": [
+          "Denmark",
+          "Serbia",
+          "Czech Republic",
+          "Russia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2004 US Open men’s singles title?",
+        "o": [
+          "Roger Federer",
+          "Lleyton Hewitt",
+          "Juan Carlos Ferrero",
+          "Gastón Gaudio"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2005 US Open men’s singles title?",
+        "o": [
+          "Rafael Nadal",
+          "Roger Federer",
+          "Marat Safin",
+          "Andy Roddick"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2006 US Open men’s singles title?",
+        "o": [
+          "Pete Sampras",
+          "Goran Ivanišević",
+          "Roger Federer",
+          "Lleyton Hewitt"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2007 US Open men’s singles title?",
+        "o": [
+          "Juan Carlos Ferrero",
+          "Gastón Gaudio",
+          "Rafael Nadal",
+          "Roger Federer"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Marat Safin represent?",
+        "o": [
+          "Russia",
+          "Croatia",
+          "Spain",
+          "Brazil"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Goran Ivanišević represent?",
+        "o": [
+          "Australia",
+          "Croatia",
+          "United States",
+          "Austria"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Yevgeny Kafelnikov represent?",
+        "o": [
+          "Croatia",
+          "Spain",
+          "Russia",
+          "Brazil"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Carlos Moyá represent?",
+        "o": [
+          "Russia",
+          "Croatia",
+          "Brazil",
+          "Spain"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Juan Carlos Ferrero represent?",
+        "o": [
+          "Spain",
+          "Australia",
+          "United States",
+          "Austria"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Gustavo Kuerten represent?",
+        "o": [
+          "Netherlands",
+          "Brazil",
+          "Russia",
+          "Croatia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Patrick Rafter represent?",
+        "o": [
+          "Austria",
+          "Netherlands",
+          "Australia",
+          "Russia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Michael Chang represent?",
+        "o": [
+          "Brazil",
+          "Australia",
+          "Austria",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Jim Courier represent?",
+        "o": [
+          "United States",
+          "Austria",
+          "Netherlands",
+          "Russia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Thomas Muster represent?",
+        "o": [
+          "Brazil",
+          "Austria",
+          "Australia",
+          "United States"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Richard Krajicek represent?",
+        "o": [
+          "Croatia",
+          "Spain",
+          "Netherlands",
+          "Brazil"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Nikolay Davydenko represent?",
+        "o": [
+          "United States",
+          "Austria",
+          "Netherlands",
+          "Russia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2000 ATP Finals?",
+        "o": [
+          "Gustavo Kuerten",
+          "Nikolay Davydenko",
+          "Lleyton Hewitt",
+          "Roger Federer"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2001 ATP Finals?",
+        "o": [
+          "David Nalbandian",
+          "Lleyton Hewitt",
+          "Novak Djokovic",
+          "Nikolay Davydenko"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2002 ATP Finals?",
+        "o": [
+          "David Nalbandian",
+          "Novak Djokovic",
+          "Lleyton Hewitt",
+          "Nikolay Davydenko"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2003 ATP Finals?",
+        "o": [
+          "Gustavo Kuerten",
+          "Lleyton Hewitt",
+          "David Nalbandian",
+          "Roger Federer"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2004 ATP Finals?",
+        "o": [
+          "Roger Federer",
+          "Lleyton Hewitt",
+          "David Nalbandian",
+          "Novak Djokovic"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2005 ATP Finals?",
+        "o": [
+          "Roger Federer",
+          "David Nalbandian",
+          "Novak Djokovic",
+          "Nikolay Davydenko"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2006 ATP Finals?",
+        "o": [
+          "Nikolay Davydenko",
+          "Gustavo Kuerten",
+          "Roger Federer",
+          "Lleyton Hewitt"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2007 ATP Finals?",
+        "o": [
+          "Lleyton Hewitt",
+          "David Nalbandian",
+          "Novak Djokovic",
+          "Roger Federer"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2008 ATP Finals?",
+        "o": [
+          "Novak Djokovic",
+          "Nikolay Davydenko",
+          "Gustavo Kuerten",
+          "Lleyton Hewitt"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2009 ATP Finals?",
+        "o": [
+          "Novak Djokovic",
+          "Nikolay Davydenko",
+          "Gustavo Kuerten",
+          "Lleyton Hewitt"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2010 ATP Finals?",
+        "o": [
+          "David Nalbandian",
+          "Novak Djokovic",
+          "Roger Federer",
+          "Nikolay Davydenko"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2011 ATP Finals?",
+        "o": [
+          "Novak Djokovic",
+          "Nikolay Davydenko",
+          "Gustavo Kuerten",
+          "Roger Federer"
+        ],
+        "a": 3
+      }
+    ],
+    "4": [
+      {
+        "p": "Who won the 1981 Wimbledon men’s singles title?",
+        "o": [
+          "John McEnroe",
+          "Boris Becker",
+          "Pat Cash",
+          "Stefan Edberg"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1986 Wimbledon women’s singles title?",
+        "o": [
+          "Martina Hingis",
+          "Martina Navratilova",
+          "Jana Novotná",
+          "Lindsay Davenport"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which city is the Indian Wells Masters played?",
+        "o": [
+          "Madrid",
+          "Mason",
+          "Indian Wells",
+          "Paris"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 2000 Davis Cup?",
+        "o": [
+          "Croatia",
+          "France",
+          "Russia",
+          "Spain"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who was John McEnroe’s most successful doubles partner?",
+        "o": [
+          "Peter Fleming",
+          "Stefan Edberg",
+          "Paul Haarhuis",
+          "Mark Knowles"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In tennis, what does “bagel” mean?",
+        "o": [
+          "two missed serves in a row",
+          "a set won six games to none",
+          "stepping on the line when serving",
+          "a mistake under no pressure"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Esther Vergeer represent?",
+        "o": [
+          "Australia",
+          "Japan",
+          "Netherlands",
+          "Great Britain"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1982 Wimbledon men’s singles title?",
+        "o": [
+          "Andrés Gómez",
+          "Jim Courier",
+          "Thomas Muster",
+          "Jimmy Connors"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1987 Wimbledon women’s singles title?",
+        "o": [
+          "Martina Navratilova",
+          "Steffi Graf",
+          "Conchita Martínez",
+          "Martina Hingis"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which city is the Madrid Open played?",
+        "o": [
+          "Shanghai",
+          "Madrid",
+          "Miami Gardens",
+          "Indian Wells"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which nation won the 2001 Davis Cup?",
+        "o": [
+          "Spain",
+          "Russia",
+          "France",
+          "Australia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who was Ken Flach’s most successful doubles partner?",
+        "o": [
+          "Stefan Edberg",
+          "Paul Haarhuis",
+          "Mark Knowles",
+          "Robert Seguso"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In tennis, what does “breadstick” mean?",
+        "o": [
+          "a set won six games to one",
+          "a set won without losing a point",
+          "two missed serves in a row",
+          "stepping on the line when serving"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Jiske Griffioen represent?",
+        "o": [
+          "Australia",
+          "Netherlands",
+          "Japan",
+          "Great Britain"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1983 Wimbledon men’s singles title?",
+        "o": [
+          "Richard Krajicek",
+          "Björn Borg",
+          "John McEnroe",
+          "Yannick Noah"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1988 Wimbledon women’s singles title?",
+        "o": [
+          "Martina Hingis",
+          "Jana Novotná",
+          "Lindsay Davenport",
+          "Steffi Graf"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In which city is the Cincinnati Masters played?",
+        "o": [
+          "Mason",
+          "Indian Wells",
+          "Madrid",
+          "Paris"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 2002 Davis Cup?",
+        "o": [
+          "France",
+          "Russia",
+          "Australia",
+          "Croatia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who was Anders Järryd’s most successful doubles partner?",
+        "o": [
+          "Paul Haarhuis",
+          "Mark Knowles",
+          "Stefan Edberg",
+          "Peter Fleming"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In tennis, what does “golden set” mean?",
+        "o": [
+          "a mistake under no pressure",
+          "a shot the opponent cannot reach",
+          "a set won six games to none",
+          "a set won without losing a point"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1985 Wimbledon men’s singles title?",
+        "o": [
+          "Boris Becker",
+          "Andrés Gómez",
+          "Jim Courier",
+          "Thomas Muster"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1989 Wimbledon women’s singles title?",
+        "o": [
+          "Lindsay Davenport",
+          "Steffi Graf",
+          "Martina Navratilova",
+          "Conchita Martínez"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which city is the Paris Masters played?",
+        "o": [
+          "Madrid",
+          "Mason",
+          "Paris",
+          "Shanghai"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 2003 Davis Cup?",
+        "o": [
+          "France",
+          "Russia",
+          "Croatia",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who was Jacco Eltingh’s most successful doubles partner?",
+        "o": [
+          "Paul Haarhuis",
+          "Robert Seguso",
+          "Stefan Edberg",
+          "Mark Knowles"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In tennis, what does “double fault” mean?",
+        "o": [
+          "a mistake under no pressure",
+          "two missed serves in a row",
+          "a shot the opponent cannot reach",
+          "a set won six games to none"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1986 Wimbledon men’s singles title?",
+        "o": [
+          "Michael Chang",
+          "Andrés Gómez",
+          "Boris Becker",
+          "Jim Courier"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1990 Wimbledon women’s singles title?",
+        "o": [
+          "Steffi Graf",
+          "Conchita Martínez",
+          "Martina Hingis",
+          "Martina Navratilova"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In which city is the Shanghai Masters played?",
+        "o": [
+          "Shanghai",
+          "Mason",
+          "Paris",
+          "Miami Gardens"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 2004 Davis Cup?",
+        "o": [
+          "Croatia",
+          "Spain",
+          "France",
+          "Russia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who was Daniel Nestor’s most successful doubles partner?",
+        "o": [
+          "Robert Seguso",
+          "Stefan Edberg",
+          "Mark Knowles",
+          "Paul Haarhuis"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In tennis, what does “foot fault” mean?",
+        "o": [
+          "a set won without losing a point",
+          "two missed serves in a row",
+          "a mistake under no pressure",
+          "stepping on the line when serving"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1987 Wimbledon men’s singles title?",
+        "o": [
+          "Pat Cash",
+          "Richard Krajicek",
+          "Björn Borg",
+          "Yannick Noah"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1991 Wimbledon women’s singles title?",
+        "o": [
+          "Lindsay Davenport",
+          "Steffi Graf",
+          "Martina Navratilova",
+          "Conchita Martínez"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which city is the Miami Open played?",
+        "o": [
+          "Paris",
+          "Shanghai",
+          "Miami Gardens",
+          "Indian Wells"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 2005 Davis Cup?",
+        "o": [
+          "Spain",
+          "France",
+          "Russia",
+          "Croatia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In tennis, what does “unforced error” mean?",
+        "o": [
+          "a mistake under no pressure",
+          "a set won without losing a point",
+          "two missed serves in a row",
+          "stepping on the line when serving"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1988 Wimbledon men’s singles title?",
+        "o": [
+          "John McEnroe",
+          "Stefan Edberg",
+          "Jimmy Connors",
+          "Boris Becker"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1992 Wimbledon women’s singles title?",
+        "o": [
+          "Lindsay Davenport",
+          "Martina Navratilova",
+          "Steffi Graf",
+          "Conchita Martínez"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which venue hosts the Indian Wells Masters?",
+        "o": [
+          "Monte Carlo Country Club",
+          "Foro Italico",
+          "Caja Mágica",
+          "Indian Wells Tennis Garden"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In tennis, what does “winner” mean?",
+        "o": [
+          "a shot the opponent cannot reach",
+          "a mistake under no pressure",
+          "a set won six games to none",
+          "a set won six games to one"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1990 Wimbledon men’s singles title?",
+        "o": [
+          "Jimmy Connors",
+          "Stefan Edberg",
+          "Boris Becker",
+          "Pat Cash"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1993 Wimbledon women’s singles title?",
+        "o": [
+          "Martina Hingis",
+          "Jana Novotná",
+          "Steffi Graf",
+          "Lindsay Davenport"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which venue hosts the Miami Open?",
+        "o": [
+          "Foro Italico",
+          "Caja Mágica",
+          "Accor Arena",
+          "Hard Rock Stadium"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1991 Wimbledon men’s singles title?",
+        "o": [
+          "Michael Stich",
+          "Ivan Lendl",
+          "Michael Chang",
+          "Andrés Gómez"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1994 Wimbledon women’s singles title?",
+        "o": [
+          "Martina Hingis",
+          "Conchita Martínez",
+          "Jana Novotná",
+          "Lindsay Davenport"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which venue hosts the Monte-Carlo Masters?",
+        "o": [
+          "Indian Wells Tennis Garden",
+          "Hard Rock Stadium",
+          "Monte Carlo Country Club",
+          "Foro Italico"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1992 Wimbledon men’s singles title?",
+        "o": [
+          "Yannick Noah",
+          "Ivan Lendl",
+          "Michael Chang",
+          "Andre Agassi"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1995 Wimbledon women’s singles title?",
+        "o": [
+          "Steffi Graf",
+          "Conchita Martínez",
+          "Martina Hingis",
+          "Jana Novotná"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which venue hosts the Rome Masters?",
+        "o": [
+          "Hard Rock Stadium",
+          "Foro Italico",
+          "Monte Carlo Country Club",
+          "Caja Mágica"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1993 Wimbledon men’s singles title?",
+        "o": [
+          "Pat Cash",
+          "Stefan Edberg",
+          "Pete Sampras",
+          "Michael Stich"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1996 Wimbledon women’s singles title?",
+        "o": [
+          "Lindsay Davenport",
+          "Martina Navratilova",
+          "Conchita Martínez",
+          "Steffi Graf"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which venue hosts the Madrid Open?",
+        "o": [
+          "Caja Mágica",
+          "Hard Rock Stadium",
+          "Monte Carlo Country Club",
+          "Foro Italico"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1996 Wimbledon men’s singles title?",
+        "o": [
+          "Boris Becker",
+          "Richard Krajicek",
+          "Pat Cash",
+          "Stefan Edberg"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1997 Wimbledon women’s singles title?",
+        "o": [
+          "Jana Novotná",
+          "Lindsay Davenport",
+          "Martina Hingis",
+          "Martina Navratilova"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which venue hosts the Paris Masters?",
+        "o": [
+          "Foro Italico",
+          "Caja Mágica",
+          "Indian Wells Tennis Garden",
+          "Accor Arena"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1998 Wimbledon men’s singles title?",
+        "o": [
+          "Pete Sampras",
+          "Andrés Gómez",
+          "Jim Courier",
+          "Thomas Muster"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1998 Wimbledon women’s singles title?",
+        "o": [
+          "Martina Navratilova",
+          "Jana Novotná",
+          "Steffi Graf",
+          "Conchita Martínez"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1981 French Open men’s singles title?",
+        "o": [
+          "Ivan Lendl",
+          "Michael Chang",
+          "Björn Borg",
+          "Andrés Gómez"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1999 Wimbledon women’s singles title?",
+        "o": [
+          "Jana Novotná",
+          "Martina Navratilova",
+          "Steffi Graf",
+          "Lindsay Davenport"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1983 French Open men’s singles title?",
+        "o": [
+          "Yannick Noah",
+          "Andre Agassi",
+          "Pete Sampras",
+          "Richard Krajicek"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Martina Hingis represent?",
+        "o": [
+          "Czech Republic",
+          "Switzerland",
+          "United States",
+          "Spain"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1984 French Open men’s singles title?",
+        "o": [
+          "Pete Sampras",
+          "Richard Krajicek",
+          "Ivan Lendl",
+          "Björn Borg"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Jana Novotná represent?",
+        "o": [
+          "Argentina",
+          "Switzerland",
+          "United States",
+          "Czech Republic"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1989 French Open men’s singles title?",
+        "o": [
+          "Michael Chang",
+          "Björn Borg",
+          "Yannick Noah",
+          "Ivan Lendl"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Lindsay Davenport represent?",
+        "o": [
+          "Switzerland",
+          "United States",
+          "Czech Republic",
+          "Spain"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1990 French Open men’s singles title?",
+        "o": [
+          "Boris Becker",
+          "Pat Cash",
+          "Andrés Gómez",
+          "Stefan Edberg"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Conchita Martínez represent?",
+        "o": [
+          "Argentina",
+          "Switzerland",
+          "Czech Republic",
+          "Spain"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1991 French Open men’s singles title?",
+        "o": [
+          "Jim Courier",
+          "Pat Cash",
+          "Stefan Edberg",
+          "Michael Stich"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Arantxa Sánchez Vicario represent?",
+        "o": [
+          "Argentina",
+          "Spain",
+          "Switzerland",
+          "Czech Republic"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1995 French Open men’s singles title?",
+        "o": [
+          "Stefan Edberg",
+          "Michael Stich",
+          "Thomas Muster",
+          "Andre Agassi"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Gabriela Sabatini represent?",
+        "o": [
+          "Switzerland",
+          "Czech Republic",
+          "United States",
+          "Argentina"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1997 French Open men’s singles title?",
+        "o": [
+          "Gustavo Kuerten",
+          "Jimmy Connors",
+          "Boris Becker",
+          "Pat Cash"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1999 French Open men’s singles title?",
+        "o": [
+          "John McEnroe",
+          "Andre Agassi",
+          "Jimmy Connors",
+          "Boris Becker"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1990 US Open men’s singles title?",
+        "o": [
+          "Andre Agassi",
+          "Richard Krajicek",
+          "Pete Sampras",
+          "Björn Borg"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1991 US Open men’s singles title?",
+        "o": [
+          "John McEnroe",
+          "Jimmy Connors",
+          "Boris Becker",
+          "Stefan Edberg"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Mats Wilander represent?",
+        "o": [
+          "Sweden",
+          "Australia",
+          "Germany",
+          "Spain"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Yannick Noah represent?",
+        "o": [
+          "Ecuador",
+          "France",
+          "Czechoslovakia",
+          "Sweden"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Pat Cash represent?",
+        "o": [
+          "United States",
+          "South Africa",
+          "Australia",
+          "Ecuador"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Michael Stich represent?",
+        "o": [
+          "Czechoslovakia",
+          "Sweden",
+          "France",
+          "Germany"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Sergi Bruguera represent?",
+        "o": [
+          "Spain",
+          "Czech Republic",
+          "Chile",
+          "United States"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Petr Korda represent?",
+        "o": [
+          "United States",
+          "Czech Republic",
+          "South Africa",
+          "Ecuador"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Marcelo Ríos represent?",
+        "o": [
+          "France",
+          "Australia",
+          "Chile",
+          "Germany"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Cédric Pioline represent?",
+        "o": [
+          "Spain",
+          "Czech Republic",
+          "Chile",
+          "France"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Todd Martin represent?",
+        "o": [
+          "United States",
+          "Spain",
+          "Czech Republic",
+          "Chile"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Wayne Ferreira represent?",
+        "o": [
+          "Chile",
+          "South Africa",
+          "United States",
+          "Ecuador"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Andrés Gómez represent?",
+        "o": [
+          "Australia",
+          "Germany",
+          "Ecuador",
+          "Spain"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Miloslav Mečíř represent?",
+        "o": [
+          "Germany",
+          "Spain",
+          "Czech Republic",
+          "Czechoslovakia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 1980 as the ATP year-end world No. 1?",
+        "o": [
+          "Björn Borg",
+          "Jim Courier",
+          "Pete Sampras",
+          "John McEnroe"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who finished 1982 as the ATP year-end world No. 1?",
+        "o": [
+          "Pete Sampras",
+          "John McEnroe",
+          "Björn Borg",
+          "Ivan Lendl"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 1983 as the ATP year-end world No. 1?",
+        "o": [
+          "Jim Courier",
+          "Pete Sampras",
+          "John McEnroe",
+          "Björn Borg"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who finished 1985 as the ATP year-end world No. 1?",
+        "o": [
+          "John McEnroe",
+          "Mats Wilander",
+          "Stefan Edberg",
+          "Ivan Lendl"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 1986 as the ATP year-end world No. 1?",
+        "o": [
+          "Ivan Lendl",
+          "Jim Courier",
+          "Pete Sampras",
+          "Björn Borg"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who finished 1987 as the ATP year-end world No. 1?",
+        "o": [
+          "Pete Sampras",
+          "Ivan Lendl",
+          "Björn Borg",
+          "John McEnroe"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 1988 as the ATP year-end world No. 1?",
+        "o": [
+          "Björn Borg",
+          "John McEnroe",
+          "Mats Wilander",
+          "Ivan Lendl"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who finished 1989 as the ATP year-end world No. 1?",
+        "o": [
+          "Stefan Edberg",
+          "Jim Courier",
+          "Pete Sampras",
+          "Ivan Lendl"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 1990 as the ATP year-end world No. 1?",
+        "o": [
+          "Stefan Edberg",
+          "Jim Courier",
+          "Pete Sampras",
+          "Björn Borg"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who finished 1991 as the ATP year-end world No. 1?",
+        "o": [
+          "Pete Sampras",
+          "Stefan Edberg",
+          "Björn Borg",
+          "John McEnroe"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 1992 as the ATP year-end world No. 1?",
+        "o": [
+          "John McEnroe",
+          "Ivan Lendl",
+          "Jim Courier",
+          "Mats Wilander"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who finished 1993 as the ATP year-end world No. 1?",
+        "o": [
+          "Stefan Edberg",
+          "Jim Courier",
+          "Björn Borg",
+          "Pete Sampras"
+        ],
+        "a": 3
+      }
+    ],
+    "5": [
+      {
+        "p": "Who won the 1969 Wimbledon men’s singles title?",
+        "o": [
+          "Rod Laver",
+          "Ken Rosewall",
+          "Guillermo Vilas",
+          "John McEnroe"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1968 Wimbledon women’s singles title?",
+        "o": [
+          "Ann Jones",
+          "Billie Jean King",
+          "Margaret Court",
+          "Evonne Goolagong"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Delray Beach Open?",
+        "o": [
+          "United Kingdom",
+          "Australia",
+          "United States",
+          "China"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1990 Davis Cup?",
+        "o": [
+          "Sweden",
+          "France",
+          "Germany",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2019 Wimbledon mixed doubles title?",
+        "o": [
+          "Chan and Dodig",
+          "Siniaková and Zieliński",
+          "Krawczyk and Skupski",
+          "Kichenok and Pavić"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In tennis, what does “seed” mean?",
+        "o": [
+          "an entry granted by the organisers",
+          "a ranked player placed in the draw",
+          "a beaten qualifier given a place",
+          "all four majors won in one year"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Gustavo Fernández represent?",
+        "o": [
+          "Netherlands",
+          "Japan",
+          "Argentina",
+          "Great Britain"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1970 Wimbledon men’s singles title?",
+        "o": [
+          "Stan Smith",
+          "Jimmy Connors",
+          "Arthur Ashe",
+          "John Newcombe"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1969 Wimbledon women’s singles title?",
+        "o": [
+          "Ann Jones",
+          "Virginia Wade",
+          "Martina Navratilova",
+          "Billie Jean King"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country hosts the Buenos Aires Open?",
+        "o": [
+          "China",
+          "Argentina",
+          "United States",
+          "Switzerland"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which nation won the 1991 Davis Cup?",
+        "o": [
+          "United States",
+          "Germany",
+          "France",
+          "Sweden"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2021 Wimbledon mixed doubles title?",
+        "o": [
+          "Siniaková and Zieliński",
+          "Chan and Dodig",
+          "Kichenok and Pavić",
+          "Krawczyk and Skupski"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In tennis, what does “qualifier” mean?",
+        "o": [
+          "a player who won pre-event rounds",
+          "a ranked player placed in the draw",
+          "an entry granted by the organisers",
+          "a beaten qualifier given a place"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Dylan Alcott represent?",
+        "o": [
+          "Netherlands",
+          "Australia",
+          "Japan",
+          "Great Britain"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1971 Wimbledon men’s singles title?",
+        "o": [
+          "Arthur Ashe",
+          "Björn Borg",
+          "John Newcombe",
+          "Ken Rosewall"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1970 Wimbledon women’s singles title?",
+        "o": [
+          "Evonne Goolagong",
+          "Chris Evert",
+          "Virginia Wade",
+          "Margaret Court"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Geneva Open?",
+        "o": [
+          "Switzerland",
+          "China",
+          "United States",
+          "Argentina"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1992 Davis Cup?",
+        "o": [
+          "France",
+          "United States",
+          "Germany",
+          "Sweden"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2022 Wimbledon mixed doubles title?",
+        "o": [
+          "Chan and Dodig",
+          "Kichenok and Pavić",
+          "Krawczyk and Skupski",
+          "Siniaková and Zieliński"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In tennis, what does “wild card” mean?",
+        "o": [
+          "all four majors won in one year",
+          "all four majors won in a career",
+          "all four majors and Olympic gold",
+          "an entry granted by the organisers"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1972 Wimbledon men’s singles title?",
+        "o": [
+          "Stan Smith",
+          "Jimmy Connors",
+          "Arthur Ashe",
+          "Björn Borg"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1971 Wimbledon women’s singles title?",
+        "o": [
+          "Chris Evert",
+          "Evonne Goolagong",
+          "Virginia Wade",
+          "Martina Navratilova"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Queen's Club Championships?",
+        "o": [
+          "Argentina",
+          "Switzerland",
+          "United Kingdom",
+          "Australia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1993 Davis Cup?",
+        "o": [
+          "France",
+          "Sweden",
+          "United States",
+          "Germany"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2023 Wimbledon mixed doubles title?",
+        "o": [
+          "Kichenok and Pavić",
+          "Chan and Dodig",
+          "Krawczyk and Skupski",
+          "Siniaková and Zieliński"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In tennis, what does “lucky loser” mean?",
+        "o": [
+          "an entry granted by the organisers",
+          "a beaten qualifier given a place",
+          "all four majors won in one year",
+          "all four majors won in a career"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1974 Wimbledon men’s singles title?",
+        "o": [
+          "Stan Smith",
+          "Arthur Ashe",
+          "Jimmy Connors",
+          "Björn Borg"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1972 Wimbledon women’s singles title?",
+        "o": [
+          "Margaret Court",
+          "Evonne Goolagong",
+          "Chris Evert",
+          "Billie Jean King"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Brisbane International?",
+        "o": [
+          "Australia",
+          "United Kingdom",
+          "China",
+          "United States"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1994 Davis Cup?",
+        "o": [
+          "Germany",
+          "Sweden",
+          "United States",
+          "France"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2024 Wimbledon mixed doubles title?",
+        "o": [
+          "Chan and Dodig",
+          "Krawczyk and Skupski",
+          "Siniaková and Zieliński",
+          "Kichenok and Pavić"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In tennis, what does “Grand Slam” mean?",
+        "o": [
+          "a player who won pre-event rounds",
+          "an entry granted by the organisers",
+          "a beaten qualifier given a place",
+          "all four majors won in one year"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1975 Wimbledon men’s singles title?",
+        "o": [
+          "Arthur Ashe",
+          "Rod Laver",
+          "John Newcombe",
+          "Stan Smith"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1973 Wimbledon women’s singles title?",
+        "o": [
+          "Evonne Goolagong",
+          "Billie Jean King",
+          "Chris Evert",
+          "Virginia Wade"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Zhuhai Championships?",
+        "o": [
+          "United Kingdom",
+          "Australia",
+          "China",
+          "United States"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1995 Davis Cup?",
+        "o": [
+          "Sweden",
+          "France",
+          "Germany",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In tennis, what does “Career Grand Slam” mean?",
+        "o": [
+          "all four majors won in a career",
+          "a ranked player placed in the draw",
+          "a player who won pre-event rounds",
+          "an entry granted by the organisers"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1976 Wimbledon men’s singles title?",
+        "o": [
+          "Jimmy Connors",
+          "Björn Borg",
+          "Arthur Ashe",
+          "Ken Rosewall"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1974 Wimbledon women’s singles title?",
+        "o": [
+          "Ann Jones",
+          "Margaret Court",
+          "Chris Evert",
+          "Evonne Goolagong"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which year was the ATP Finals first held?",
+        "o": [
+          "1900",
+          "1963",
+          "1972",
+          "1970"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In tennis, what does “Golden Slam” mean?",
+        "o": [
+          "all four majors and Olympic gold",
+          "all four majors won in a career",
+          "a ranked player placed in the draw",
+          "a player who won pre-event rounds"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1977 Wimbledon men’s singles title?",
+        "o": [
+          "Arthur Ashe",
+          "Björn Borg",
+          "Ken Rosewall",
+          "Guillermo Vilas"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1975 Wimbledon women’s singles title?",
+        "o": [
+          "Ann Jones",
+          "Margaret Court",
+          "Billie Jean King",
+          "Evonne Goolagong"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which year was the Laver Cup first held?",
+        "o": [
+          "1970",
+          "1900",
+          "1963",
+          "2017"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1978 Wimbledon men’s singles title?",
+        "o": [
+          "Björn Borg",
+          "Stan Smith",
+          "Jimmy Connors",
+          "Arthur Ashe"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1976 Wimbledon women’s singles title?",
+        "o": [
+          "Ann Jones",
+          "Chris Evert",
+          "Margaret Court",
+          "Evonne Goolagong"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which year was the Davis Cup first held?",
+        "o": [
+          "1970",
+          "2017",
+          "1900",
+          "1963"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1979 Wimbledon men’s singles title?",
+        "o": [
+          "Guillermo Vilas",
+          "John McEnroe",
+          "Andrés Gimeno",
+          "Björn Borg"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1977 Wimbledon women’s singles title?",
+        "o": [
+          "Virginia Wade",
+          "Ann Jones",
+          "Margaret Court",
+          "Evonne Goolagong"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which year was the Billie Jean King Cup first held?",
+        "o": [
+          "2017",
+          "1963",
+          "1900",
+          "1972"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1968 US Open men’s singles title?",
+        "o": [
+          "Rod Laver",
+          "John Newcombe",
+          "Arthur Ashe",
+          "Stan Smith"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1978 Wimbledon women’s singles title?",
+        "o": [
+          "Ann Jones",
+          "Margaret Court",
+          "Evonne Goolagong",
+          "Martina Navratilova"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In which year was the WTA Finals first held?",
+        "o": [
+          "1972",
+          "1990",
+          "1970",
+          "2017"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1970 US Open men’s singles title?",
+        "o": [
+          "Arthur Ashe",
+          "Ken Rosewall",
+          "Björn Borg",
+          "Guillermo Vilas"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1979 Wimbledon women’s singles title?",
+        "o": [
+          "Chris Evert",
+          "Virginia Wade",
+          "Martina Navratilova",
+          "Billie Jean King"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which year was the ATP Tour first held?",
+        "o": [
+          "1900",
+          "1963",
+          "1972",
+          "1990"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1971 US Open men’s singles title?",
+        "o": [
+          "Stan Smith",
+          "Andrés Gimeno",
+          "Rod Laver",
+          "John Newcombe"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1980 Wimbledon women’s singles title?",
+        "o": [
+          "Chris Evert",
+          "Evonne Goolagong",
+          "Virginia Wade",
+          "Martina Navratilova"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1973 US Open men’s singles title?",
+        "o": [
+          "Stan Smith",
+          "Jimmy Connors",
+          "John Newcombe",
+          "Arthur Ashe"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1981 Wimbledon women’s singles title?",
+        "o": [
+          "Evonne Goolagong",
+          "Virginia Wade",
+          "Martina Navratilova",
+          "Chris Evert"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1974 US Open men’s singles title?",
+        "o": [
+          "Jimmy Connors",
+          "Ken Rosewall",
+          "Guillermo Vilas",
+          "John McEnroe"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Evonne Goolagong represent?",
+        "o": [
+          "United States",
+          "Australia",
+          "United Kingdom",
+          "Czechoslovakia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1976 US Open men’s singles title?",
+        "o": [
+          "John Newcombe",
+          "Stan Smith",
+          "Jimmy Connors",
+          "Arthur Ashe"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Virginia Wade represent?",
+        "o": [
+          "United States",
+          "Australia",
+          "Czechoslovakia",
+          "United Kingdom"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1977 US Open men’s singles title?",
+        "o": [
+          "Guillermo Vilas",
+          "John McEnroe",
+          "Andrés Gimeno",
+          "Rod Laver"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Ann Jones represent?",
+        "o": [
+          "Czechoslovakia",
+          "United Kingdom",
+          "United States",
+          "Australia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1978 US Open men’s singles title?",
+        "o": [
+          "Stan Smith",
+          "Arthur Ashe",
+          "Jimmy Connors",
+          "Björn Borg"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Hana Mandlíková represent?",
+        "o": [
+          "United Kingdom",
+          "United States",
+          "Australia",
+          "Czechoslovakia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1979 US Open men’s singles title?",
+        "o": [
+          "John McEnroe",
+          "John Newcombe",
+          "Stan Smith",
+          "Jimmy Connors"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Tracy Austin represent?",
+        "o": [
+          "United Kingdom",
+          "United States",
+          "Czechoslovakia",
+          "Australia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1968 French Open men’s singles title?",
+        "o": [
+          "Stan Smith",
+          "Jimmy Connors",
+          "Ken Rosewall",
+          "Arthur Ashe"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Pam Shriver represent?",
+        "o": [
+          "United Kingdom",
+          "Czechoslovakia",
+          "Australia",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1969 French Open men’s singles title?",
+        "o": [
+          "Rod Laver",
+          "John Newcombe",
+          "Stan Smith",
+          "Jimmy Connors"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1972 French Open men’s singles title?",
+        "o": [
+          "Stan Smith",
+          "Andrés Gimeno",
+          "Jimmy Connors",
+          "Arthur Ashe"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1974 French Open men’s singles title?",
+        "o": [
+          "John McEnroe",
+          "Andrés Gimeno",
+          "Björn Borg",
+          "Rod Laver"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1975 French Open men’s singles title?",
+        "o": [
+          "Guillermo Vilas",
+          "John McEnroe",
+          "Andrés Gimeno",
+          "Björn Borg"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did John Newcombe represent?",
+        "o": [
+          "Australia",
+          "Czechoslovakia",
+          "Italy",
+          "United States"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Ken Rosewall represent?",
+        "o": [
+          "Romania",
+          "Australia",
+          "Czechoslovakia",
+          "Italy"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Arthur Ashe represent?",
+        "o": [
+          "Italy",
+          "Australia",
+          "United States",
+          "Spain"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Stan Smith represent?",
+        "o": [
+          "Australia",
+          "Spain",
+          "Romania",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Manuel Orantes represent?",
+        "o": [
+          "Spain",
+          "United States",
+          "Romania",
+          "Czechoslovakia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Ilie Năstase represent?",
+        "o": [
+          "United States",
+          "Romania",
+          "Spain",
+          "Czechoslovakia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Jan Kodeš represent?",
+        "o": [
+          "Australia",
+          "United States",
+          "Czechoslovakia",
+          "Spain"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Adriano Panatta represent?",
+        "o": [
+          "Australia",
+          "United States",
+          "Spain",
+          "Italy"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Vitas Gerulaitis represent?",
+        "o": [
+          "United States",
+          "Czechoslovakia",
+          "Italy",
+          "Australia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Roscoe Tanner represent?",
+        "o": [
+          "Australia",
+          "United States",
+          "Spain",
+          "Romania"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Brian Gottfried represent?",
+        "o": [
+          "Czechoslovakia",
+          "Italy",
+          "United States",
+          "Australia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Tony Roche represent?",
+        "o": [
+          "Italy",
+          "United States",
+          "Spain",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "How many Grand Slam singles titles did Roy Emerson win?",
+        "o": [
+          "12",
+          "3",
+          "11",
+          "8"
+        ],
+        "a": 0
+      },
+      {
+        "p": "How many Grand Slam singles titles did Rod Laver win?",
+        "o": [
+          "7",
+          "11",
+          "6",
+          "4"
+        ],
+        "a": 1
+      },
+      {
+        "p": "How many Grand Slam singles titles did Ken Rosewall win?",
+        "o": [
+          "12",
+          "11",
+          "8",
+          "7"
+        ],
+        "a": 2
+      },
+      {
+        "p": "How many Grand Slam singles titles did Ivan Lendl win?",
+        "o": [
+          "12",
+          "11",
+          "7",
+          "8"
+        ],
+        "a": 3
+      },
+      {
+        "p": "How many Grand Slam singles titles did John Newcombe win?",
+        "o": [
+          "7",
+          "6",
+          "4",
+          "3"
+        ],
+        "a": 0
+      },
+      {
+        "p": "How many Grand Slam singles titles did Mats Wilander win?",
+        "o": [
+          "3",
+          "7",
+          "12",
+          "11"
+        ],
+        "a": 1
+      },
+      {
+        "p": "How many Grand Slam singles titles did Stefan Edberg win?",
+        "o": [
+          "7",
+          "4",
+          "6",
+          "3"
+        ],
+        "a": 2
+      },
+      {
+        "p": "How many Grand Slam singles titles did Jim Courier win?",
+        "o": [
+          "8",
+          "7",
+          "6",
+          "4"
+        ],
+        "a": 3
+      },
+      {
+        "p": "How many Grand Slam singles titles did Gustavo Kuerten win?",
+        "o": [
+          "3",
+          "4",
+          "12",
+          "11"
+        ],
+        "a": 0
+      },
+      {
+        "p": "How many Grand Slam singles titles did Andy Murray win?",
+        "o": [
+          "6",
+          "3",
+          "4",
+          "12"
+        ],
+        "a": 1
+      },
+      {
+        "p": "How many Grand Slam singles titles did Stan Wawrinka win?",
+        "o": [
+          "6",
+          "4",
+          "3",
+          "12"
+        ],
+        "a": 2
+      },
+      {
+        "p": "How many Grand Slam singles titles did Arthur Ashe win?",
+        "o": [
+          "11",
+          "8",
+          "7",
+          "3"
+        ],
+        "a": 3
+      }
+    ]
+  }
+}

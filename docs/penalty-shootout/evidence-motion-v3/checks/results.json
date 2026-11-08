@@ -1,0 +1,22 @@
+[
+  {
+    "name": "tests",
+    "code": 0
+  },
+  {
+    "name": "typecheck",
+    "code": 0
+  },
+  {
+    "name": "lint",
+    "code": 0
+  },
+  {
+    "name": "build",
+    "code": 0
+  },
+  {
+    "name": "static-build",
+    "code": 0
+  }
+]

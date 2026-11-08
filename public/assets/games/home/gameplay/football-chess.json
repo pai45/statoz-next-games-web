@@ -1,0 +1,12 @@
+{
+  "gameId": "football-chess",
+  "file": "football-chess.mp4",
+  "durationSeconds": 8,
+  "width": 1280,
+  "height": 720,
+  "fps": 12,
+  "source": "/play/football-chess",
+  "method": "Actual local game runtime captured with Playwright; silent H.264 with restrained contrast/saturation grading.",
+  "sha256": "42be65d785cd7bf02897043b537a4d98455999bc54b919b265cbc8f0cc1d8c90",
+  "bytes": 261335
+}

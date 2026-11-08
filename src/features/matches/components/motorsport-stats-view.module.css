@@ -1,0 +1,35 @@
+.view { display: flex; min-height: 0; height: 100%; flex-direction: column; }
+.scroll { min-height: 0; flex: 1; padding: 14px 16px 32px; overflow-y: auto; }
+.stack { display: grid; gap: 18px; }
+.circuit { display: grid; gap: 14px; padding: 16px; }
+.pills { display: flex; gap: 8px; }
+.pills span { padding: 4px 8px; border: 1px solid color-mix(in srgb, var(--ds-color-accent-racing) 48%, transparent); color: var(--ds-color-accent-racing); font:var(--ds-weight-black) var(--ds-text-2xs) var(--ds-font-display); letter-spacing: var(--ds-tracking-wide); }
+.circuit h2 { margin: 0; font:var(--ds-weight-black) var(--ds-text-lg) var(--ds-font-display); letter-spacing: var(--ds-tracking-display); }
+.mapLink { position: relative; display: grid; min-height: 220px; place-items: center; overflow: hidden; border: 1px solid var(--ds-color-border-subtle); background: var(--ds-color-background-muted); }
+.mapLink img { width: 100%; height: 100%; max-height: 330px; object-fit: contain; }
+.mapLink span { position: absolute; right: 10px; bottom: 10px; padding: 7px 10px; border: 1px solid var(--ds-color-accent-racing); background: var(--ds-color-overlay-plate); color: var(--ds-color-text-default); font:var(--ds-weight-black) var(--ds-text-2xs) var(--ds-font-display); letter-spacing: var(--ds-tracking-wide); }
+.metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; margin: 0; background: var(--ds-color-border-subtle); }
+.metrics div { padding: 10px; background: var(--ds-color-background-secondary); }
+.metrics dt { color: var(--ds-color-text-muted); font:var(--ds-weight-black) var(--ds-text-2xs) var(--ds-font-display); }
+.metrics dd { margin: 5px 0 0; font:var(--ds-weight-black) var(--ds-text-md) var(--ds-font-display); }
+.record { margin: 0; color: var(--ds-color-text-muted); font-size: var(--ds-text-xs); }
+.record b { color: var(--ds-color-accent-gold); }
+.winner { display: grid; grid-template-columns: 1fr auto; gap: 4px 10px; padding: 13px; border-left: 3px solid var(--ds-color-accent-gold); background: color-mix(in srgb, var(--ds-color-accent-gold) 8%, transparent); }
+.winner span { grid-column: 1 / -1; color: var(--ds-color-accent-gold); font:var(--ds-weight-black) var(--ds-text-2xs) var(--ds-font-display); }
+.winner strong { font-family: var(--ds-font-display); }
+.winner b { color: var(--ds-color-text-muted); font-size: var(--ds-text-xs); }
+.rows { display: grid; gap: 1px; margin: 0; padding: 0; background: var(--ds-color-border-subtle); list-style: none; }
+.rows li { display: grid; min-height: 54px; grid-template-columns: 4px 38px minmax(0, 1fr) auto; align-items: center; gap: 10px; padding: 8px 12px 8px 0; background: var(--ds-color-background-data); }
+.rows li > i { width: 4px; height: 100%; }
+.rows li > b { text-align: center; font-family: var(--ds-font-display); }
+.rows li > span { display: grid; min-width: 0; font-weight:var(--ds-weight-extrabold); }
+.rows small { color: var(--ds-color-text-muted); font-size: var(--ds-text-2xs); }
+.rows strong { font-family: var(--ds-font-display); font-size: var(--ds-text-xs); }
+.up { color: var(--ds-color-success); }.down { color: var(--ds-color-danger); }
+.chartPanel { display: grid; gap: 12px; padding: 14px; }
+.chartReadout { display: flex; justify-content: space-between; gap: 12px; font-family: var(--ds-font-display); font-size: var(--ds-text-xs); }
+.chartReadout span { color: var(--ds-color-accent-racing); }.chartReadout strong { text-align: right; }
+.axis { display: flex; justify-content: space-between; color: var(--ds-color-text-muted); font:var(--ds-weight-black) var(--ds-text-2xs) var(--ds-font-display); }
+.session { display: grid; gap: 1px; padding: 12px; }.session h3 { margin: 0 0 8px; color: var(--ds-color-accent-racing); font:var(--ds-weight-black) var(--ds-text-xs) var(--ds-font-display); }.session p { display: grid; grid-template-columns: 36px 1fr auto; gap: 8px; margin: 0; padding: 8px; background: var(--ds-color-background-data); font-size: var(--ds-text-xs); }.session p strong { color: var(--ds-color-text-muted); }
+.honesty, .unavailable { margin: 0; padding: 16px; border: 1px solid var(--ds-color-border-subtle); color: var(--ds-color-text-muted); font-size: var(--ds-text-xs); line-height: var(--ds-leading-body); }
+@media (width >= 900px) { .scroll { padding-right: 24px; padding-left: 24px; }.stack { grid-template-columns: repeat(2, minmax(0, 1fr)); }.stack > :first-child, .stack > :nth-child(2), .stack > :last-child { grid-column: 1 / -1; } }

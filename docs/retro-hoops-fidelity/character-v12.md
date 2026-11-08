@@ -1,0 +1,15 @@
+# Retro Hoops / athlete rendering-language reconstruction v12
+
+The user invoked `street_hoop_artist` and `street-hoop-assets` for another substantial Street Hoop art-style pass. The dedicated artist owns the editable asset implementation; root independently reviewed the representative comparison, production scenes and integration. Build `character-v12-local`, assets `12.0.0`, rules `2.0.0`. V11 remains preserved.
+
+The retained source captures show stronger dark contours, more shaped face/head profiles and more coherent skin/cloth planes than V11's flat orange faces and soft brown edges. V12 reconstructs original skull/brow/nose/jaw/ear clusters, neutral expressions, near-black contours, warm skin planes and saturated jersey/shorts shading with trim/creases. Root's first review requested a neutral mouth instead of a grin and less emblem-like chest lighting. The revised representative was reviewed before expanding across the whole family.
+
+The finer native drawing grid is an authored choice, not recovery of Street Hoop's native pixel density. The equal-height comparison supports inspection but does not match pose/camera/depth. Body, head and dynamic near-arm consumers use the same accepted drawing grid/palettes. Historical raster assets are not stretched to repair anatomy; reference footage is research-only and excluded from the executable pack.
+
+The original blue/red team family, six identities, all existing directional/action clips, V11's corrected reachable dunk gather, ground/contact anchors, simulation, AI, rules, fullscreen joystick, host title and account isolation remain in place. The rig regression record verifies all2276 body/contact/ground anchor dictionaries and all104 dunk reaches. Actual production scenarios retain V11's simulation state after removing presentation-only metadata.
+
+Source: https://www.youtube.com/watch?v=_k8IIS9n3dk . The retained GameLog study/dissection provides approximate requested source ranges and processed frame provenance; it does not establish native ticks. Source and production images at equal displayed athlete height are labelled with their remaining alignment uncertainty. This original reconstruction does not claim identical commercial sprites, branding or hidden algorithms.
+
+Final counts, command exits, decoded/full-speed playback records and source/pack/bundle hashes are pinned in `character-v12-validation.json` and the review folder. Structural, visual and gameplay verdicts remain separate; source-likeness approval is false. Exact art parity, distinct body builds, finer source-specific actions, ball-lift continuity and physical Android/iPhone performance remain open. No audio or release changes were made.
+
+Review: http://127.0.0.1:8955/characters.html . Play: http://127.0.0.1:8955/game.html . Production inspector: http://127.0.0.1:8955/action-review.html . Editable sources are `scripts/retro_hoops_character.py`, `scripts/build-retro-hoops-authored.py` and game-local `contact-arm.ts`. Nothing was pushed, published or imported into Flutter.

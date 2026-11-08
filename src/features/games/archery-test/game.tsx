@@ -1,0 +1,32 @@
+﻿"use client";
+import {useCallback,useEffect,useLayoutEffect,useRef,useState} from "react";
+import styles from "./screen.module.css";
+type Props={onExit:()=>void;onEvent?:(event:{type:string;payload:Record<string,unknown>})=>void;hostCommand?:{id:number;type:"pause"|"resume"|"dispose"}};
+type Boot={assetRoot?:string;storageScope?:string};
+export function ArcheryTestGame({onExit,onEvent,hostCommand}:Props){
+ const frame=useRef<HTMLIFrameElement>(null),session=useRef(""),events=useRef(onEvent);useLayoutEffect(()=>{events.current=onEvent},[onEvent]);
+ const [ready,setReady]=useState(false),[paused,setPaused]=useState(false),[settings,setSettings]=useState(false),[error,setError]=useState(""),[source,setSource]=useState(""),[attempt,setAttempt]=useState(0),[progress,setProgress]=useState(0),[volume,setVolume]=useState(()=>{try{const raw=typeof window!=="undefined"?localStorage.getItem("archery-test.volume.v1"):null;const v=Number(raw);return raw!==null&&Number.isFinite(v)?Math.max(0,Math.min(1,v)):.65}catch{return .65}});
+ const state=useRef({ready,paused,settings});useLayoutEffect(()=>{state.current={ready,paused,settings}},[ready,paused,settings]);
+ const send=useCallback((type:string,extra:Record<string,unknown>={})=>{if(frame.current?.src&&session.current)frame.current.contentWindow?.postMessage({protocol:"archery-test-local",version:1,session:session.current,type,...extra},new URL(frame.current.src).origin)},[]);
+ const pause=useCallback(()=>{send("pause");setPaused(true)},[send]);
+ const resume=()=>{send("resume");setPaused(false)};
+
+ useEffect(()=>send("volume",{value:volume}),[volume,ready,send]);
+ useEffect(()=>{
+  session.current=crypto.randomUUID();const boot=(window as Window&{__STATOZ_BOOT__?:Boot}).__STATOZ_BOOT__,base=boot?.assetRoot??`${location.pathname.split(/\/embedded-games\/|\/play\//)[0]}/games/archery-test/`;const url=new URL("native/index.html",new URL(base,document.baseURI));url.searchParams.set("session",session.current);url.searchParams.set("scope",boot?.storageScope??"guest");
+  const bootTimer=setTimeout(()=>{setSource(url.href);setError("");setPaused(false);setReady(false);setProgress(0)},0);
+  const receive=(event:MessageEvent)=>{const m=event.data;if(event.source!==frame.current?.contentWindow||event.origin!==url.origin||m?.protocol!=="archery-test-local"||m.version!==1||m.session!==session.current)return;if(m.type==="ready"){setReady(true);events.current?.({type:"ready",payload:{gameId:"archery-test"}})}else if(m.type==="progress")setProgress(Math.max(0,Math.min(1,Number(m.payload?.value)||0)));else if(m.type==="interrupted")pause();else if(m.type==="error")setError("The local game could not continue. Retry loading.")};window.addEventListener("message",receive);const timer=setTimeout(()=>{if(!state.current.ready)setError("The local game did not finish loading. Retry loading.")},60000);
+  return()=>{clearTimeout(bootTimer);clearTimeout(timer);send("dispose");window.removeEventListener("message",receive)};
+ },[attempt,pause,send]);
+ useEffect(()=>{const visibility=()=>{if(document.hidden&&state.current.ready)pause()};const blur=()=>{if(!document.hasFocus()&&state.current.ready)pause()};const key=(e:KeyboardEvent)=>{if(e.repeat||!state.current.ready||state.current.settings||!['Escape','KeyP'].includes(e.code))return;e.preventDefault();if(state.current.paused){send("resume");setPaused(false)}else pause()};document.addEventListener("visibilitychange",visibility);window.addEventListener("blur",blur);window.addEventListener("keydown",key);return()=>{document.removeEventListener("visibilitychange",visibility);window.removeEventListener("blur",blur);window.removeEventListener("keydown",key)}},[pause,send]);
+ useEffect(()=>{const type=hostCommand?.type;if(type!=="pause"&&type!=="resume")return;send(type);const timer=setTimeout(()=>setPaused(type==="pause"),0);return()=>clearTimeout(timer)},[hostCommand,send]);
+ useEffect(()=>{if(!settings)return;const previous=document.activeElement,dialog=document.querySelector<HTMLElement>('[aria-label="Archery Master settings"]');dialog?.querySelector<HTMLInputElement>("input")?.focus();const key=(e:KeyboardEvent)=>{if(e.key==="Escape"){e.preventDefault();setSettings(false)}if(e.key==="Tab"&&dialog){const controls=[...dialog.querySelectorAll<HTMLElement>("button,input")],first=controls[0],last=controls.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last?.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first?.focus()}}};document.addEventListener("keydown",key);return()=>{document.removeEventListener("keydown",key);if(previous instanceof HTMLElement)previous.focus()}},[settings]);
+ const start=()=>setAttempt(n=>n+1);
+ return <section className={styles.root} data-archery-test>
+  <header className={styles.header}><button onClick={()=>{send("dispose");onExit()}}>Exit</button><h1>ARCHERY MASTER</h1><button disabled={!ready} onClick={()=>paused?resume():pause()}>{paused?"Resume":"Pause"}</button><button aria-label="Settings" onClick={()=>{if(ready)pause();setSettings(true)}}>Settings</button></header>
+  <main className={styles.display}>{source&&<iframe ref={frame} className={styles.engine} src={source} title="Archery Test native game" allow="autoplay; fullscreen" allowFullScreen/>}
+   {(!ready||paused||error)&&<div className={styles.overlay} role={error?"alert":"status"}><h2>{error?"UNAVAILABLE":paused?"PAUSED":"LOADING"}</h2>{error?<><p>{error}</p><button onClick={start}>Retry loading</button></>:paused?<button onClick={resume}>Resume game</button>:<><progress aria-label="Game loading" max={1} value={progress}/><p>Loading local game resources...</p></>}</div>}
+  </main>
+  {settings&&<div className={styles.backdrop}><section className={styles.dialog} role="dialog" aria-modal="true" aria-label="Archery Master settings"><h2>Settings</h2><label>Game volume<input aria-label="Game volume" type="range" min="0" max="1" step="0.05" value={volume} onChange={e=>{const v=Number(e.target.value);setVolume(v);try{localStorage.setItem("archery-test.volume.v1",String(v))}catch{}}}/></label><p>Hold for the bow to draw, move to aim, then release. On a phone, use the right half of the playfield. Keep your phone portrait for the largest view.</p><p>Progress is saved on this device for your account. Advertising, online challenges, purchases and leaderboards are unavailable in local play.</p><button onClick={()=>setSettings(false)}>Back to game</button></section></div>}
+ </section>;
+}

@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "classification": "manual observations on processed recording; authored calibration",
+  "reference": {
+    "file": "C:\\Users\\priya\\OneDrive\\Desktop\\StatOz Designer\\output\\retro-hoops\\source-study-v1\\score-restart\\sample-0015.png",
+    "sha256": "62ae1121208e36254a206a40ec8744e430061e35e457c40a754fed75f5df37d7",
+    "source": "https://www.youtube.com/watch?v=6fyRg0wTEYY",
+    "width": 320,
+    "height": 224
+  },
+  "baseline": {
+    "approximatePoints": [
+      [
+        219,
+        95
+      ],
+      [
+        267,
+        180
+      ]
+    ],
+    "uncertaintyPixels": 2,
+    "observedSlopeDxDy": 0.5647058823529412,
+    "oldRectangularSlope": 0,
+    "authoredProjectionSlope": 0.5638554216867472
+  },
+  "parameters": {
+    "farY": 164,
+    "nearY": 330,
+    "farScale": 0.86,
+    "nearScale": 1.1,
+    "centerX": 450
+  },
+  "limits": [
+    "One slanted baseline does not determine the full native projection.",
+    "Scales are an authored fit, not recovered game constants.",
+    "Source capture timing and exact revision remain unknown.",
+    "Other court and camera landmarks still require broader matching."
+  ]
+}

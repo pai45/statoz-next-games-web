@@ -1,0 +1,161 @@
+.rangeTabs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--ds-space-8);
+}
+
+.rangeTabs button {
+  min-height: 2.75rem;
+  border: 1px solid color-mix(in srgb, var(--ds-color-border-default) 28%, transparent);
+  background: transparent;
+  color: var(--ds-color-text-muted);
+  cursor: pointer;
+  font-family: var(--ds-font-display);
+  font-size: var(--ds-text-2xs);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: var(--ds-tracking-wide);
+  transition: border-color 150ms ease-out, background 150ms ease-out, color 150ms ease-out;
+}
+
+.rangeTabs button:hover {
+  border-color: color-mix(in srgb, var(--ds-color-accent-gold) 48%, transparent);
+  color: var(--ds-color-text-default);
+}
+
+.rangeTabs button[data-active="true"] {
+  border-color: color-mix(in srgb, var(--ds-color-accent-gold) 72%, transparent);
+  background: color-mix(in srgb, var(--ds-color-accent-gold) 14%, transparent);
+  color: var(--ds-color-accent-gold);
+}
+
+.statCell {
+  position: relative;
+  display: flex;
+  min-width: 0;
+  min-height: 4rem;
+  flex-direction: column;
+  justify-content: center;
+  clip-path: var(--ds-clip-field);
+  border: 1px solid color-mix(in srgb, var(--ds-color-border-strong) 30%, transparent);
+  background: color-mix(in srgb, var(--ds-color-background-secondary) 86%, var(--ds-color-background-elevated));
+  padding: 0 var(--ds-space-12);
+}
+
+.statCell span {
+  overflow: hidden;
+  color: color-mix(in srgb, var(--ds-color-accent-gold) 90%, transparent);
+  font-family: var(--ds-font-display);
+  font-size: var(--ds-text-nano);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: var(--ds-tracking-wide);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.statCell strong {
+  overflow: hidden;
+  margin-top: var(--ds-space-6);
+  font-family: var(--ds-font-display);
+  font-size: var(--ds-text-xl);
+  font-variant-numeric: tabular-nums;
+  font-weight:var(--ds-weight-black);
+  line-height: var(--ds-leading-compact);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.historyFilter {
+  display: flex;
+  gap: var(--ds-space-8);
+  overflow-x: auto;
+  padding-bottom: var(--ds-space-4);
+}
+
+.historyFilter button {
+  min-height: 2.75rem;
+  flex: none;
+  border: 1px solid var(--ds-color-border-default);
+  clip-path: var(--ds-clip-field);
+  background: var(--ds-color-background-secondary);
+  color: var(--ds-color-text-muted);
+  cursor: pointer;
+  padding: 0 var(--ds-space-16);
+  font-family: var(--ds-font-display);
+  font-size: var(--ds-text-2xs);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: var(--ds-tracking-wide);
+}
+
+.historyFilter button[data-active="true"] {
+  border-color: var(--ds-color-accent-gold);
+  background: color-mix(in srgb, var(--ds-color-accent-gold) 12%, var(--ds-color-background-secondary));
+  color: var(--ds-color-accent-gold);
+}
+
+.historyEntry {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: var(--ds-space-12);
+  align-items: center;
+  border: 1px solid var(--ds-color-border-muted);
+  clip-path: var(--ds-clip-field);
+  background: var(--ds-color-background-secondary);
+  padding: var(--ds-space-14);
+}
+
+.historyEntry h3,
+.historyEntry p {
+  overflow: hidden;
+  margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.historyEntry h3 {
+  color: var(--ds-color-text-default);
+  font-family: var(--ds-font-display);
+  font-size: var(--ds-text-xs);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: var(--ds-tracking-tight);
+}
+
+.historyEntry p,
+.historyEntry span {
+  color: var(--ds-color-text-muted);
+  font-size: var(--ds-text-2xs);
+}
+
+.historyEntry p {
+  margin-top: var(--ds-space-6);
+}
+
+.historyEntryValue {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.historyEntryValue strong {
+  font-family: var(--ds-font-display);
+  font-size: var(--ds-text-md);
+  font-variant-numeric: tabular-nums;
+  font-weight:var(--ds-weight-black);
+}
+
+.historyEntryValue span {
+  margin-top: var(--ds-space-4);
+  font-family: var(--ds-font-display);
+  font-variant-numeric: tabular-nums;
+  font-weight:var(--ds-weight-extrabold);
+}
+
+@media (max-width: 30rem) {
+  .statCell {
+    padding-right: var(--ds-space-8);
+    padding-left: var(--ds-space-8);
+  }
+
+  .statCell strong {
+    font-size: var(--ds-text-lg);
+  }
+}

@@ -1,0 +1,212 @@
+/*
+ * The reveal's four painters, as CSS.
+ *
+ * Flutter draws the god-rays, the shockwave, the confetti, and the foil sweep
+ * with a CustomPainter apiece, repainting every frame. None of them is dynamic
+ * per-frame drawing — they are a spinning conic gradient, two expanding rings,
+ * a fixed spray of squares, and a travelling band — so each is one declarative
+ * animation here and nothing re-renders while they run.
+ *
+ * `plus-lighter` is Flutter's `BlendMode.plus`: light adds rather than covers.
+ *
+ * globals.css collapses animation durations under `prefers-reduced-motion`, so
+ * every animation below must rest in a sensible final state; the delays that
+ * survive that collapse are zeroed at the end of the file.
+ */
+
+/* ── Backdrop ───────────────────────────────────────────────────────────── */
+
+.glow {
+  background: radial-gradient(
+    circle at 50% 46%,
+    color-mix(in srgb, var(--reveal-tier) 100%, transparent) 0%,
+    transparent 55%
+  );
+  opacity: 0.06;
+  animation: glow-breathe 4s ease-in-out infinite alternate;
+}
+
+@keyframes glow-breathe {
+  from {
+    opacity: 0.04;
+  }
+  to {
+    opacity: 0.1;
+  }
+}
+
+/* A soft bright band travelling down the screen, as slow as the app makes it. */
+.scanline {
+  height: 120px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    color-mix(in srgb, var(--ds-color-accent-cyan) 6%, transparent),
+    transparent
+  );
+  animation: scanline-sweep 12s linear infinite;
+}
+
+@keyframes scanline-sweep {
+  from {
+    transform: translateY(-120px);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+
+.vignette {
+  background: radial-gradient(
+    circle at 50% 50%,
+    transparent 55%,
+    color-mix(in srgb, var(--ds-color-background-primary) 55%, transparent) 100%
+  );
+}
+
+/* ── God-rays ───────────────────────────────────────────────────────────── */
+
+/*
+ * Wedges of light out of one point. A conic gradient already is that shape, so
+ * the only moving part is the element's own rotation — the gradient is static
+ * and the compositor carries it.
+ */
+.rays {
+  width: 200vmax;
+  height: 200vmax;
+  background: var(--ray-gradient);
+  /* Flutter fades each wedge along its own length; one radial mask over the
+     whole burst does the same. Its radius is an explicit length rather than a
+     percentage, because a percentage resolves against this 200vmax element and
+     so would never reach a visible falloff on a wide window. */
+  mask-image: radial-gradient(
+    circle clamp(340px, 55vmin, 720px) at 50% 50%,
+    #000 0%,
+    rgb(0 0 0 / 55%) 35%,
+    transparent 100%
+  );
+  mix-blend-mode: plus-lighter;
+  animation:
+    ray-spin 16s linear infinite,
+    ray-arrive 450ms ease-out both;
+  animation-delay: var(--ray-delay, 0ms);
+  will-change: transform;
+}
+
+/* Flutter grows the rays out of the card as it settles; this is that arrival. */
+@keyframes ray-arrive {
+  from {
+    opacity: 0;
+    scale: 0.6;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+@keyframes ray-spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+/* ── Shockwave ──────────────────────────────────────────────────────────── */
+
+.ring {
+  width: 170vmin;
+  height: 170vmin;
+  border-style: solid;
+  border-color: var(--reveal-tier);
+  animation: ring-punch 650ms cubic-bezier(0, 0, 0.58, 1) both;
+  animation-delay: var(--ring-delay, 0ms);
+  mix-blend-mode: plus-lighter;
+}
+
+@keyframes ring-punch {
+  from {
+    border-width: 3px;
+    opacity: 0.6;
+    transform: translate(-50%, -50%) scale(0);
+  }
+  to {
+    border-width: 0.5px;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+/* ── Confetti ───────────────────────────────────────────────────────────── */
+
+/*
+ * Each square carries its own vector as custom properties, so one keyframe
+ * serves all forty-two of them. The midpoint exists because gravity is
+ * quadratic and a two-stop interpolation would draw it as a straight line.
+ */
+.particle {
+  background: var(--tint);
+  animation: particle-fly 750ms linear both;
+  animation-delay: var(--delay, 0ms);
+}
+
+@keyframes particle-fly {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(var(--spin));
+  }
+  50% {
+    opacity: 0.5;
+    transform: translate(calc(var(--dx) * 0.5), var(--dy-mid))
+      rotate(calc(var(--spin) + 90deg));
+  }
+  100% {
+    opacity: 0;
+    transform: translate(var(--dx), var(--dy))
+      rotate(calc(var(--spin) + 180deg));
+  }
+}
+
+/* ── Holographic foil sweep ─────────────────────────────────────────────── */
+
+/*
+ * Light playing over the card. Flutter redraws a translucent band each frame
+ * and clips it to a chamfer it has to measure at layout time; here the band is
+ * a background position and the clip is the card's own `--ds-clip-card`, which
+ * the layer inherits, so the two silhouettes cannot disagree.
+ */
+.holo {
+  background-image: var(--holo-gradient);
+  background-size: 240% 100%;
+  background-repeat: no-repeat;
+  background-position: -140% 0;
+  mix-blend-mode: plus-lighter;
+  opacity: var(--holo-intensity);
+  animation: holo-sweep var(--holo-duration) linear infinite;
+  animation-delay: var(--holo-delay, 0ms);
+}
+
+@keyframes holo-sweep {
+  from {
+    background-position: -140% 0;
+  }
+  to {
+    background-position: 240% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .particle,
+  .rays,
+  .ring,
+  .holo {
+    animation-delay: 0ms;
+  }
+
+  /* A spray of squares frozen mid-flight is worse than no spray at all. */
+  .particle {
+    display: none;
+  }
+}

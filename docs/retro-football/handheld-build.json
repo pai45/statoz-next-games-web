@@ -1,0 +1,26 @@
+{
+  "runtimeVersion": "0.11.0",
+  "files": {
+    "index.html": {
+      "sha256": "2ae80eec21b6b530e760e91b64fab59e7af49168376774dbd7b97a52900889c2",
+      "bytes": 34089
+    },
+    "bundle.js": {
+      "sha256": "436b203c6d4e496177d9c45cff8cf7b898f6052e46585028722ad942494b9afd",
+      "bytes": 804096
+    },
+    "bundle.js.map": {
+      "sha256": "171f9ddc22ba401254c12d3ab1d51c07b23308c01ad849ab196256ca945f7fd4",
+      "bytes": 4024711
+    },
+    "assets.json": {
+      "sha256": "3bcec2ee9cd0c7dd3042155bc0ba7bc793032c1489d28bb0c8cd144f81f8b1a0",
+      "bytes": 61552
+    },
+    "team-atlas.png": {
+      "sha256": "ca0c28d30f689dc8d5bce8d0204fecd14442d72e9f4edda0610c9389158fa80f",
+      "bytes": 163515
+    }
+  },
+  "productionEligible": false
+}

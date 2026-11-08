@@ -1,0 +1,166 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\priya\\OneDrive\\Desktop\\StatOz Future\\statoz-games-web\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "playwright.shootout.config.ts",
+      "--grep",
+      "Asset loading"
+    ],
+    "configFile": "C:\\Users\\priya\\OneDrive\\Desktop\\StatOz Future\\statoz-games-web\\playwright.shootout.config.ts",
+    "rootDir": "C:/Users/priya/OneDrive/Desktop/StatOz Future/statoz-games-web/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/priya/OneDrive/Desktop/StatOz Future/statoz-games-web/test-results/shootout",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/priya/OneDrive/Desktop/StatOz Future/statoz-games-web/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "penalty-shootout.spec.ts"
+        ],
+        "timeout": 90000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\priya\\OneDrive\\Desktop\\StatOz Future\\statoz-games-web\\test-results\\shootout",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\priya\\OneDrive\\Desktop\\StatOz Future\\statoz-games-web\\tests\\e2e",
+        "snapshotDir": "C:\\Users\\priya\\OneDrive\\Desktop\\StatOz Future\\statoz-games-web\\tests\\e2e",
+        "testIgnore": [],
+        "testMatch": "penalty-shootout.spec.ts",
+        "timeout": 90000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3155/statoz-games-web/",
+          "headless": true,
+          "viewport": {
+            "width": 1440,
+            "height": 960
+          },
+          "launchOptions": {
+            "executablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+          },
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/shootout-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "penalty-shootout.spec.ts",
+      "file": "penalty-shootout.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Renderer recovery without the device cache",
+          "file": "penalty-shootout.spec.ts",
+          "line": 102,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Asset loading failure can retry; context loss pauses and requires resume",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 44273,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-25T10:14:03.846Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e30235781d518c3ad71d-fbf3cfda94e80384fcd5",
+              "file": "penalty-shootout.spec.ts",
+              "line": 106,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-25T10:14:02.024Z",
+    "duration": 92055.2,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

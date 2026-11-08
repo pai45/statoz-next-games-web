@@ -1,0 +1,374 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\priya\\OneDrive\\Desktop\\statoz_web\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "playwright.shootout.config.ts"
+    ],
+    "configFile": "C:\\Users\\priya\\OneDrive\\Desktop\\statoz_web\\playwright.shootout.config.ts",
+    "rootDir": "C:/Users/priya/OneDrive/Desktop/statoz_web/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/priya/OneDrive/Desktop/statoz_web/test-results/shootout",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/priya/OneDrive/Desktop/statoz_web/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "penalty-shootout.spec.ts"
+        ],
+        "timeout": 90000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\priya\\OneDrive\\Desktop\\statoz_web\\test-results\\shootout",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\priya\\OneDrive\\Desktop\\statoz_web\\tests\\e2e",
+        "snapshotDir": "C:\\Users\\priya\\OneDrive\\Desktop\\statoz_web\\tests\\e2e",
+        "testIgnore": [],
+        "testMatch": "penalty-shootout.spec.ts",
+        "timeout": 90000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3139/statoz_web/",
+          "headless": true,
+          "viewport": {
+            "width": 1440,
+            "height": 960
+          },
+          "launchOptions": {
+            "executablePath": "C:/Program Files/Google/Chrome/Application/chrome.exe"
+          },
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/shootout-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "penalty-shootout.spec.ts",
+      "file": "penalty-shootout.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Desktop shot, replay, pause, keeper and training never settle rewards",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 17787,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-21T07:04:53.404Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e30235781d518c3ad71d-1771006adf9790d46c66",
+          "file": "penalty-shootout.spec.ts",
+          "line": 22,
+          "column": 5
+        },
+        {
+          "title": "Phone portrait supports simultaneous stick/shoot touch and readable keeping",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14415,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-21T07:05:14.062Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e30235781d518c3ad71d-bdf4ace355e4882efab6",
+          "file": "penalty-shootout.spec.ts",
+          "line": 52,
+          "column": 7
+        },
+        {
+          "title": "Phone landscape supports simultaneous stick/shoot touch and readable keeping",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12256,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-21T07:05:28.511Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e30235781d518c3ad71d-0c56db4e1d454a612ac0",
+          "file": "penalty-shootout.spec.ts",
+          "line": 52,
+          "column": 7
+        },
+        {
+          "title": "Full shootout settles once; replay, summary and reload preserve the result",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 23244,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "shootout kick 1: preparation\n"
+                    },
+                    {
+                      "text": "resolved kick 1\n"
+                    },
+                    {
+                      "text": "shootout kick 2: preparation\n"
+                    },
+                    {
+                      "text": "resolved kick 2\n"
+                    },
+                    {
+                      "text": "shootout kick 3: preparation\n"
+                    },
+                    {
+                      "text": "resolved kick 3\n"
+                    },
+                    {
+                      "text": "shootout kick 4: preparation\n"
+                    },
+                    {
+                      "text": "resolved kick 4\n"
+                    },
+                    {
+                      "text": "shootout kick 5: preparation\n"
+                    },
+                    {
+                      "text": "resolved kick 5\n"
+                    },
+                    {
+                      "text": "shootout kick 6: preparation\n"
+                    },
+                    {
+                      "text": "resolved kick 6\n"
+                    },
+                    {
+                      "text": "Opening final result\n"
+                    },
+                    {
+                      "text": "Summary visible\n"
+                    },
+                    {
+                      "text": "Reloading completed match\n"
+                    },
+                    {
+                      "text": "Reload complete\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-21T07:05:40.783Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e30235781d518c3ad71d-9e9ce7d17bbef10fb146",
+          "file": "penalty-shootout.spec.ts",
+          "line": 79,
+          "column": 5
+        },
+        {
+          "title": "Asset loading failure can retry; context loss pauses and requires resume",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3517,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-21T07:06:04.041Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e30235781d518c3ad71d-f4d2c177a20c56f3f9c9",
+          "file": "penalty-shootout.spec.ts",
+          "line": 97,
+          "column": 5
+        },
+        {
+          "title": "Starting muted can unmute crowd ambience without restarting the match",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2918,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-21T07:06:07.573Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e30235781d518c3ad71d-c1fa42a91196564092f6",
+          "file": "penalty-shootout.spec.ts",
+          "line": 105,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-21T07:04:52.841Z",
+    "duration": 139553.76299999998,
+    "expected": 6,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

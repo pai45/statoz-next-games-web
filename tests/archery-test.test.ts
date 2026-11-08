@@ -1,0 +1,13 @@
+import {test} from "node:test";
+import assert from "node:assert/strict";
+import fs from "node:fs";
+import path from "node:path";
+import {createHash} from "node:crypto";
+import {gameRegistry,gameForHref} from "../src/mocks/games/game-registry";
+import {sportGameDecks} from "../src/mocks/games/sport-decks";
+import {usesMobileLandscape} from "../src/features/games/shared/mobile-viewport/policy";
+const root=path.resolve("public/games/archery-test"),manifest=JSON.parse(fs.readFileSync(path.join(root,"assets-manifest.json"),"utf8"));
+test("Archery Test has a portrait launch route and its own sport catalog",()=>{assert.equal(gameRegistry["archery-test"].requiresDeck,undefined);assert.equal(gameForHref("/play/archery-test")?.game,"archery-test");assert.deepEqual(sportGameDecks.archery,["archery-test"]);assert.equal(usesMobileLandscape("archery-test"),false)});
+test("native bundles and local resources retain their recorded identity",()=>{for(const file of manifest.files){const bytes=fs.readFileSync(path.join(root,file.path));assert.equal(bytes.length,file.bytes,file.path);assert.equal(createHash("sha256").update(bytes).digest("hex"),file.sha256,file.path)}assert.equal(createHash("sha256").update(fs.readFileSync(path.join(root,"native/game.bundle.js"))).digest("hex"),"73e5a32cf0661d339fbb9e5053f745c5801b515c29564d78abb08e0c4bb6d342")});
+test("all four declared environments, equipment and target types have each quality tier",()=>{for(const tier of ["256","512","1024"]){for(const [kind,names] of Object.entries({terrains:["EnvironmentA","EnvironmentC","EnvironmentD","EnvironmentE"],bows:["rain","ice","solar","warrior"],arrows:["rain","ice","solar","warrior","frost"],targets:["target","static4Leg","static3Leg","horizontalLeg","verticalLeg","starLeg","sTextLeg","pendulumLeg","pendulumHand","circleLeg","triangleLeg"]})){for(const name of names){const b=fs.readFileSync(path.join(root,`native/assets/models/${tier}/${kind}/${name}.glb`));assert.equal(b.toString("ascii",0,4),"glTF");assert.equal(b.readUInt32LE(8),b.length)}}}assert.equal(manifest.qualityFallbacks.length,1);assert.deepEqual(fs.readFileSync(path.join(root,manifest.qualityFallbacks[0].path)),fs.readFileSync(path.join(root,manifest.qualityFallbacks[0].sourceVariant)))});
+test("the complete original numbered level table remains present",()=>{const source=fs.readFileSync(path.join(root,"native/game.bundle.js")),text=source.toString();const rows=[...text.matchAll(/\{map:"[^"]+",arrow:\d+,score:\d+,level:(\d+|1e3),wind:\[[^\]]+\],target:\["[^"]+",[^\]]+\]\}/g)];assert.equal(rows.length,1000);assert.equal(rows[0][1],"1");assert.equal(rows.at(-1)?.[1],"1e3")});

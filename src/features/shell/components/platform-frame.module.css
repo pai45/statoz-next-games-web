@@ -1,0 +1,4 @@
+.frame { --platform-nav-height: 0px; min-height: 100dvh; width: 100%; min-width: 0; background: var(--ds-color-background-primary); }
+.main { display: flex; flex-direction: column; min-width: 0; padding-bottom: env(safe-area-inset-bottom, 0px); }
+.skip { position: fixed; top: var(--ds-space-8); left: var(--ds-space-16); z-index: 100; transform: translateY(-200%); padding: var(--ds-space-12); background: var(--ds-color-accent-cyan); color: var(--ds-color-text-inverse); }
+.skip:focus { transform: none; }

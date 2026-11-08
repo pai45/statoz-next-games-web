@@ -1,0 +1,63 @@
+{
+  "candidate": "retro-hoops-three-points-v1",
+  "rulesVersion": "1.6.0",
+  "motionVersion": "3.0.0",
+  "scope": "Future Games Web only",
+  "implementationTracks": {
+    "directionalMovement": "integrated",
+    "completeActionChains": "integrated",
+    "rulesSelectionTeamAI": "integrated"
+  },
+  "checks": {
+    "retroHoopsTestsPassed": 70,
+    "assetLayersVerified": 552,
+    "scopedLint": "passed",
+    "typecheck": "passed",
+    "offlineGameBuild": "passed",
+    "staticExportBuild": "passed",
+    "newProductionFeatureChecksPassed": 4,
+    "teamScenariosPassed": 6,
+    "consoleChecksPassed": 9,
+    "actionLoopsRenderedAndDecoded": 16,
+    "actualHostFlowChecksPassed": 6
+  },
+  "sourceParity": {
+    "verified": false,
+    "nativeFrameTimingRecovered": false,
+    "sourceAIRecovered": false,
+    "verifiedInputCaptureAvailable": false,
+    "documentedRemainingGap": "Light-tap A fake requires duration-sensitive input; not implemented.",
+    "instructionEvidence": "three-points-v1-evidence.json"
+  },
+  "visualReview": {
+    "reviewer": "assistant",
+    "evidence": [
+      "directional-sheet.png",
+      "hand-transfer-production.png",
+      "backpedal-production.png",
+      "actions/dunk-pass-0/0013.png"
+    ],
+    "userApprovalInferred": false,
+    "physicalDevicesTested": false
+  },
+  "preview": {
+    "game": "http://127.0.0.1:8938/game.html",
+    "inspector": "http://127.0.0.1:8938/"
+  },
+  "sha256": {
+    "src/features/games/retro-hoops/simulation.ts": "2cef272f031244dd33c95af83f7abdccd0b5c6498f1d0cb424b504b2f645cb9d",
+    "src/features/games/retro-hoops/motion.ts": "826e7babb9ecbedc3130a0a9b5beb5a5e1d4efafa8a75aa01bc399f51c4da62b",
+    "src/features/games/retro-hoops/presentation.ts": "568a2302eb95dee19916bdefe117910e116f26612a1f4d27beba392b62e488f8",
+    "src/features/games/retro-hoops/court.ts": "dc90244a85a5855a05f83d2516ad21378caff588cb719350688c7ca77e8cebc6",
+    "scripts/build-retro-hoops-locomotion.py": "d2c4a48a26083034525b79ecbab712bff7c788e9b80111fe33f5039045b44ddf",
+    "public/games/retro-hoops/locomotion-v3/manifest.json": "6b166a621e2ad9f8f5f4501f673b66fe91f96145e0d0c02a39c3f46a03c2f381",
+    "tests/retro-hoops-three-points.test.ts": "52888306649d2b7ddb09a52d81479c0ac270a7d99cfee2c0f6e4482e7e9ad7e5"
+  },
+  "release": {
+    "pushed": false,
+    "pipelineActivated": false,
+    "published": false,
+    "flutterImported": false
+  },
+  "concurrentWork": "Shared Settings/fullscreen/portrait presentation and all unrelated owner edits preserved; QA selectors updated to current controls."
+}

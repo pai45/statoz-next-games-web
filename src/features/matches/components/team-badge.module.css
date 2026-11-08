@@ -1,0 +1,41 @@
+.badge {
+  position: relative;
+  display: inline-grid;
+  flex: none;
+  place-items: center;
+}
+
+.shadow,
+.face {
+  position: absolute;
+  inset: 0;
+  clip-path: var(--ds-clip-octagon);
+}
+
+.shadow {
+  transform: translateY(var(--team-badge-lift));
+  background: color-mix(in srgb, var(--team-primary) 42%, black);
+}
+
+.face {
+  bottom: var(--team-badge-lift);
+  display: grid;
+  overflow: hidden;
+  place-items: center;
+  background: var(--team-primary);
+  color: var(--team-ink);
+  font-family: var(--ds-font-display);
+  font-size: var(--team-badge-font-size);
+  font-weight:var(--ds-weight-bold);
+  line-height: 1;
+}
+
+.face::after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 11%;
+  content: "";
+  background: var(--team-secondary);
+}

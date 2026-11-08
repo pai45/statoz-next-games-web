@@ -1,0 +1,36 @@
+{
+  "version": "character-model-5",
+  "date": "2026-10-25",
+  "shootoutTests": {
+    "passed": 26,
+    "failed": 0
+  },
+  "browser": {
+    "basePath": "/statoz-games-web",
+    "fullStaticRun": {
+      "passed": 5,
+      "failed": 1,
+      "remaining": "recovery fault injection"
+    },
+    "finalFocusedRecovery": {
+      "passed": 1,
+      "failed": 0
+    },
+    "coveredJourneys": 6
+  },
+  "typecheck": "pass",
+  "lint": "pass; one unrelated Retro Circuit roadworks warning in full repository run",
+  "normalProductionBuild": "pass (prior pass)",
+  "staticExport": {
+    "buildId": "8rIRO0kRmzzyPuYteAORo",
+    "complete": true,
+    "assetHashesMatched": 16
+  },
+  "rigRestTransformsPreserved": {
+    "high": 60,
+    "low": 60
+  },
+  "staticSmokePageErrors": [],
+  "physicalDevicePerformance": "unverified",
+  "deployment": "none"
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "repository": "pai45/statoz-next-games-web",
+  "branch": "main",
+  "workflow": "release.yml",
+  "kind": "pages",
+  "budgetBytes": 838860800,
+  "artifactDirectory": "out",
+  "publicUrl": "https://pai45.github.io/statoz-next-games-web/",
+  "sourceOnlyWorkflow": "source.yml",
+  "publicationEnabled": false
+}

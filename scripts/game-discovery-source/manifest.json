@@ -1,0 +1,1373 @@
+{
+  "version": 1,
+  "width": 220,
+  "height": 160,
+  "cycleMs": 4800,
+  "stillPhase": 0.28,
+  "materials": {
+    "ink": "#081019",
+    "panel": "#1D293D",
+    "edge": "#45556C",
+    "slate": "#314158",
+    "pale": "#EAF0F7",
+    "shadow": "#0B1322",
+    "turf": "#185448",
+    "turfLight": "#246B5B",
+    "turfDeep": "#10392F",
+    "clay": "#9C7950",
+    "clayLight": "#C8AA77",
+    "clayDeep": "#61472E",
+    "wood": "#B47743",
+    "woodLight": "#DDA169",
+    "woodDeep": "#6E472D",
+    "orange": "#FF8904",
+    "orangeDeep": "#AE471D",
+    "red": "#EA565A",
+    "redDeep": "#962B3C",
+    "lime": "#D4E887",
+    "court": "#245063",
+    "courtLight": "#397287",
+    "courtDeep": "#183746",
+    "rubber": "#111B28",
+    "steel": "#A6B8CD",
+    "skin": "#C59070",
+    "skinLight": "#E3B494",
+    "skinDeep": "#92654F",
+    "hair": "#293543",
+    "gold": "#FDC700"
+  },
+  "games": {
+    "pitch-duel": {
+      "flutter": "pitchDuel",
+      "sport": "football",
+      "title": "PITCH DUEL",
+      "kind": "tactics",
+      "accent": "#5CDFFF",
+      "pivot": [
+        101,
+        118
+      ],
+      "layers": [
+        {
+          "id": "setting",
+          "frames": []
+        },
+        {
+          "id": "subject",
+          "frames": []
+        },
+        {
+          "id": "action",
+          "frames": [
+            {
+              "at": 0,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.12,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.4,
+              "x": 39,
+              "y": -19,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.68,
+              "x": 39,
+              "y": -19,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.88,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 1,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    "penalty-shootout": {
+      "flutter": "penaltyShootout",
+      "sport": "football",
+      "title": "PENALTY SHOOTOUT",
+      "kind": "penalty",
+      "accent": "#FFA08C",
+      "pivot": [
+        83,
+        123
+      ],
+      "layers": [
+        {
+          "id": "setting",
+          "frames": []
+        },
+        {
+          "id": "subject",
+          "frames": []
+        },
+        {
+          "id": "action",
+          "frames": [
+            {
+              "at": 0,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.12,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.4,
+              "x": 12,
+              "y": -10,
+              "rotate": 12,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.68,
+              "x": 12,
+              "y": -10,
+              "rotate": 12,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.88,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 1,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    "football-quiz": {
+      "flutter": "footballQuiz",
+      "sport": "football",
+      "title": "FOOTBALL QUIZ",
+      "kind": "quiz",
+      "accent": "#C27AFF",
+      "pivot": [
+        130,
+        94
+      ],
+      "layers": [
+        {
+          "id": "setting",
+          "frames": []
+        },
+        {
+          "id": "subject",
+          "frames": []
+        },
+        {
+          "id": "action",
+          "frames": [
+            {
+              "at": 0,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.12,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.4,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1.035,
+              "opacity": 1
+            },
+            {
+              "at": 0.68,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1.035,
+              "opacity": 1
+            },
+            {
+              "at": 0.88,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 1,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    "guess-player": {
+      "flutter": "footballGuessPlayer",
+      "sport": "football",
+      "title": "GUESS THE PLAYER",
+      "kind": "player",
+      "accent": "#FF94C1",
+      "pivot": [
+        110,
+        97
+      ],
+      "layers": [
+        {
+          "id": "setting",
+          "frames": []
+        },
+        {
+          "id": "subject",
+          "frames": []
+        },
+        {
+          "id": "action",
+          "frames": [
+            {
+              "at": 0,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.18
+            },
+            {
+              "at": 0.12,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.18
+            },
+            {
+              "at": 0.4,
+              "x": 0,
+              "y": -28,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.18
+            },
+            {
+              "at": 0.68,
+              "x": 0,
+              "y": -28,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.18
+            },
+            {
+              "at": 0.88,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.18
+            },
+            {
+              "at": 1,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.18
+            }
+          ]
+        }
+      ]
+    },
+    "football-bingo": {
+      "flutter": "footballBingo",
+      "sport": "football",
+      "title": "FOOTBALL BINGO",
+      "kind": "bingo",
+      "accent": "#FFB968",
+      "pivot": [
+        110,
+        85
+      ],
+      "layers": [
+        {
+          "id": "setting",
+          "frames": []
+        },
+        {
+          "id": "subject",
+          "frames": []
+        },
+        {
+          "id": "action",
+          "frames": [
+            {
+              "at": 0,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.12,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.4,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1.025,
+              "opacity": 1
+            },
+            {
+              "at": 0.68,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1.025,
+              "opacity": 1
+            },
+            {
+              "at": 0.88,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 1,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    "football-chess": {
+      "flutter": "footballChess",
+      "sport": "football",
+      "title": "5V5 FOOTBALL CHESS",
+      "kind": "chess",
+      "accent": "#8EC5FF",
+      "pivot": [
+        96,
+        81
+      ],
+      "layers": [
+        {
+          "id": "setting",
+          "frames": []
+        },
+        {
+          "id": "subject",
+          "frames": []
+        },
+        {
+          "id": "action",
+          "frames": [
+            {
+              "at": 0,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.12,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.4,
+              "x": 16,
+              "y": -9,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.68,
+              "x": 16,
+              "y": -9,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.88,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 1,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    "final-over": {
+      "flutter": "finalOver",
+      "sport": "cricket",
+      "title": "FINAL OVER",
+      "kind": "cricket",
+      "accent": "#E3E3E3",
+      "pivot": [
+        168,
+        99
+      ],
+      "layers": [
+        {
+          "id": "setting",
+          "frames": []
+        },
+        {
+          "id": "subject",
+          "frames": []
+        },
+        {
+          "id": "action",
+          "frames": [
+            {
+              "at": 0,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.12,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.4,
+              "x": 6,
+              "y": -13,
+              "rotate": 25,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.68,
+              "x": 6,
+              "y": -13,
+              "rotate": 25,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.88,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 1,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    "cricket-quiz": {
+      "flutter": "cricketQuiz",
+      "sport": "cricket",
+      "title": "CRICKET QUIZ",
+      "kind": "quiz",
+      "accent": "#9CE8C3",
+      "pivot": [
+        130,
+        94
+      ],
+      "layers": [
+        {
+          "id": "setting",
+          "frames": []
+        },
+        {
+          "id": "subject",
+          "frames": []
+        },
+        {
+          "id": "action",
+          "frames": [
+            {
+              "at": 0,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.12,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.4,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1.035,
+              "opacity": 1
+            },
+            {
+              "at": 0.68,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1.035,
+              "opacity": 1
+            },
+            {
+              "at": 0.88,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 1,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    "cricket-guess-player": {
+      "flutter": "cricketGuessPlayer",
+      "sport": "cricket",
+      "title": "GUESS THE PLAYER",
+      "kind": "player",
+      "accent": "#53D9BA",
+      "pivot": [
+        110,
+        97
+      ],
+      "layers": [
+        {
+          "id": "setting",
+          "frames": []
+        },
+        {
+          "id": "subject",
+          "frames": []
+        },
+        {
+          "id": "action",
+          "frames": [
+            {
+              "at": 0,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.18
+            },
+            {
+              "at": 0.12,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.18
+            },
+            {
+              "at": 0.4,
+              "x": 0,
+              "y": -28,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.18
+            },
+            {
+              "at": 0.68,
+              "x": 0,
+              "y": -28,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.18
+            },
+            {
+              "at": 0.88,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.18
+            },
+            {
+              "at": 1,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.18
+            }
+          ]
+        }
+      ]
+    },
+    "hoop-duel": {
+      "flutter": "hoopDuel",
+      "sport": "basketball",
+      "title": "HOOP DUEL",
+      "kind": "basketball",
+      "accent": "#FDC700",
+      "pivot": [
+        75,
+        110
+      ],
+      "layers": [
+        {
+          "id": "setting",
+          "frames": []
+        },
+        {
+          "id": "subject",
+          "frames": []
+        },
+        {
+          "id": "action",
+          "frames": [
+            {
+              "at": 0,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.12,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.4,
+              "x": 7,
+              "y": -12,
+              "rotate": 12,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.68,
+              "x": 7,
+              "y": -12,
+              "rotate": 12,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.88,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 1,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    "basketball-quiz": {
+      "flutter": "basketballQuiz",
+      "sport": "basketball",
+      "title": "BASKETBALL QUIZ",
+      "kind": "quiz",
+      "accent": "#FFC08C",
+      "pivot": [
+        130,
+        94
+      ],
+      "layers": [
+        {
+          "id": "setting",
+          "frames": []
+        },
+        {
+          "id": "subject",
+          "frames": []
+        },
+        {
+          "id": "action",
+          "frames": [
+            {
+              "at": 0,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.12,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.4,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1.035,
+              "opacity": 1
+            },
+            {
+              "at": 0.68,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1.035,
+              "opacity": 1
+            },
+            {
+              "at": 0.88,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 1,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    "basketball-guess-player": {
+      "flutter": "basketballGuessPlayer",
+      "sport": "basketball",
+      "title": "GUESS THE PLAYER",
+      "kind": "player",
+      "accent": "#E5A4EA",
+      "pivot": [
+        110,
+        97
+      ],
+      "layers": [
+        {
+          "id": "setting",
+          "frames": []
+        },
+        {
+          "id": "subject",
+          "frames": []
+        },
+        {
+          "id": "action",
+          "frames": [
+            {
+              "at": 0,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.18
+            },
+            {
+              "at": 0.12,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.18
+            },
+            {
+              "at": 0.4,
+              "x": 0,
+              "y": -28,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.18
+            },
+            {
+              "at": 0.68,
+              "x": 0,
+              "y": -28,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.18
+            },
+            {
+              "at": 0.88,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.18
+            },
+            {
+              "at": 1,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.18
+            }
+          ]
+        }
+      ]
+    },
+    "grand-prix-dash": {
+      "flutter": "grandPrixDash",
+      "sport": "motorsport",
+      "title": "GRAND PRIX DASH",
+      "kind": "racing",
+      "accent": "#FF777D",
+      "pivot": [
+        114,
+        82
+      ],
+      "layers": [
+        {
+          "id": "setting",
+          "frames": []
+        },
+        {
+          "id": "subject",
+          "frames": []
+        },
+        {
+          "id": "action",
+          "frames": [
+            {
+              "at": 0,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.12,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.4,
+              "x": 5,
+              "y": -4,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.68,
+              "x": 5,
+              "y": -4,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.88,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 1,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    "motorsport-quiz": {
+      "flutter": "motorsportQuiz",
+      "sport": "motorsport",
+      "title": "MOTORSPORT QUIZ",
+      "kind": "quiz",
+      "accent": "#F58ACA",
+      "pivot": [
+        130,
+        94
+      ],
+      "layers": [
+        {
+          "id": "setting",
+          "frames": []
+        },
+        {
+          "id": "subject",
+          "frames": []
+        },
+        {
+          "id": "action",
+          "frames": [
+            {
+              "at": 0,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.12,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.4,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1.035,
+              "opacity": 1
+            },
+            {
+              "at": 0.68,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1.035,
+              "opacity": 1
+            },
+            {
+              "at": 0.88,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 1,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    "guess-driver": {
+      "flutter": "guessDriver",
+      "sport": "motorsport",
+      "title": "GUESS THE DRIVER",
+      "kind": "driver",
+      "accent": "#AFA9FF",
+      "pivot": [
+        110,
+        97
+      ],
+      "layers": [
+        {
+          "id": "setting",
+          "frames": []
+        },
+        {
+          "id": "subject",
+          "frames": []
+        },
+        {
+          "id": "action",
+          "frames": [
+            {
+              "at": 0,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.18
+            },
+            {
+              "at": 0.12,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.18
+            },
+            {
+              "at": 0.4,
+              "x": 0,
+              "y": -28,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.18
+            },
+            {
+              "at": 0.68,
+              "x": 0,
+              "y": -28,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.18
+            },
+            {
+              "at": 0.88,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.18
+            },
+            {
+              "at": 1,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.18
+            }
+          ]
+        }
+      ]
+    },
+    "tennis-rally": {
+      "flutter": "tennisRally",
+      "sport": "tennis",
+      "title": "TENNIS RALLY",
+      "kind": "tennis",
+      "accent": "#51FF94",
+      "pivot": [
+        174,
+        65
+      ],
+      "layers": [
+        {
+          "id": "setting",
+          "frames": []
+        },
+        {
+          "id": "subject",
+          "frames": []
+        },
+        {
+          "id": "action",
+          "frames": [
+            {
+              "at": 0,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.12,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.4,
+              "x": -8,
+              "y": 6,
+              "rotate": 10,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.68,
+              "x": -8,
+              "y": 6,
+              "rotate": 10,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.88,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 1,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    "tennis-quiz": {
+      "flutter": "tennisQuiz",
+      "sport": "tennis",
+      "title": "TENNIS QUIZ",
+      "kind": "quiz",
+      "accent": "#D4E887",
+      "pivot": [
+        130,
+        94
+      ],
+      "layers": [
+        {
+          "id": "setting",
+          "frames": []
+        },
+        {
+          "id": "subject",
+          "frames": []
+        },
+        {
+          "id": "action",
+          "frames": [
+            {
+              "at": 0,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.12,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 0.4,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1.035,
+              "opacity": 1
+            },
+            {
+              "at": 0.68,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1.035,
+              "opacity": 1
+            },
+            {
+              "at": 0.88,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            },
+            {
+              "at": 1,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    "tennis-guess-winner": {
+      "flutter": "guessWinner",
+      "sport": "tennis",
+      "title": "GUESS THE WINNER",
+      "kind": "winner",
+      "accent": "#7CEAE5",
+      "pivot": [
+        112,
+        53
+      ],
+      "layers": [
+        {
+          "id": "setting",
+          "frames": []
+        },
+        {
+          "id": "subject",
+          "frames": []
+        },
+        {
+          "id": "action",
+          "frames": [
+            {
+              "at": 0,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.65
+            },
+            {
+              "at": 0.12,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.65
+            },
+            {
+              "at": 0.4,
+              "x": 0,
+              "y": -2,
+              "rotate": 0,
+              "scale": 1.03,
+              "opacity": 0.65
+            },
+            {
+              "at": 0.68,
+              "x": 0,
+              "y": -2,
+              "rotate": 0,
+              "scale": 1.03,
+              "opacity": 0.65
+            },
+            {
+              "at": 0.88,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.65
+            },
+            {
+              "at": 1,
+              "x": 0,
+              "y": 0,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 0.65
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

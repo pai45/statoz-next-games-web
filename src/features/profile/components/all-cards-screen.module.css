@@ -1,0 +1,11 @@
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-content: start; flex: 1; }
+.cell { display: grid; min-height: 220px; place-items: center; border-bottom: 1px solid color-mix(in srgb, var(--ds-color-border-default) 55%, transparent); padding: var(--ds-space-14); }
+.cell:nth-child(odd) { border-right: 1px solid color-mix(in srgb, var(--ds-color-border-default) 55%, transparent); }
+.scrim { position: fixed; z-index: 50; inset: 0; display: grid; place-items: center; overflow-y: auto; padding: var(--ds-space-32) var(--ds-space-16); background: var(--ds-color-overlay-scrim); }
+.detail { position: relative; z-index: 1; width: min(300px, calc(100vw - 2rem)); overflow: visible; border: 1.5px solid color-mix(in srgb, var(--detail-accent) 75%, transparent); background: var(--ds-color-background-primary); box-shadow: 0 0 40px 2px color-mix(in srgb, var(--detail-accent) 40%, transparent); animation: detail-in 380ms cubic-bezier(0.16, 1, 0.3, 1) both; }
+.rings { position: absolute; z-index: -1; inset: -20px; pointer-events: none; opacity: 0.5; background: radial-gradient(ellipse at center, transparent 34%, color-mix(in srgb, var(--detail-accent) 45%, transparent) 35% 35.7%, transparent 36.2% 52%, color-mix(in srgb, var(--detail-accent) 25%, transparent) 52.5% 53.1%, transparent 53.6%); animation: ring-pulse 2s ease-in-out infinite alternate; }
+.cornerButton { position: absolute; z-index: 2; top: -5px; display: grid; width: 38px; height: 38px; cursor: pointer; place-items: center; border: 1px solid var(--ds-color-border-strong); background: var(--ds-color-background-primary); }
+.detailBar { height: 3px; background: linear-gradient(to right, transparent, var(--detail-accent), transparent); }
+@keyframes detail-in { from { opacity: 0; transform: scale(0.72); } to { opacity: 1; transform: none; } }
+@keyframes ring-pulse { from { transform: scale(0.92); opacity: 0.25; } to { transform: scale(1.06); opacity: 0.6; } }
+@media (min-width: 45rem) { .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } .cell:nth-child(odd) { border-right: 0; } .cell { border-right: 1px solid color-mix(in srgb, var(--ds-color-border-default) 55%, transparent); } .cell:nth-child(3n) { border-right: 0; } }

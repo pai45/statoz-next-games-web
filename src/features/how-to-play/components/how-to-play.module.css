@@ -1,0 +1,303 @@
+/*
+ * The How To Play hub and its guides.
+ *
+ * Layout, motion and pseudo-state only. Colour arrives as the accent each guide
+ * carries, passed in as `--guide-accent`, so one rule set serves seven guides.
+ *
+ * Per the app's own note this surface is gradient-free and glow-free: depth
+ * comes from flat fills, the cut silhouette and accent edges. The one exception
+ * is the hairline between facts, which is a rule rather than a surface.
+ */
+
+/* ---- Page ------------------------------------------------------------------ */
+
+/* `minmax(0, 1fr)`, not `1fr`: a single grid column sizes to its widest item
+   unless it is told it may shrink, and a guide carries long unbroken words. */
+.page {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 14px;
+  padding: 14px 16px calc(32px + env(safe-area-inset-bottom));
+}
+
+.intro {
+  display: grid;
+  gap: 6px;
+  padding-bottom: 4px;
+}
+
+.introLabel {
+  margin: 0;
+  color: var(--ds-color-accent-cyan);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p11);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: var(--ds-tracking-ultra);
+}
+
+.introBody {
+  margin: 0;
+  color: var(--ds-color-text-subtle);
+  font-size:var(--ds-size-p12_5);
+  line-height: var(--ds-leading-body);
+}
+
+/* ---- Mode cards ------------------------------------------------------------ */
+
+.modeGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* ---- Shared pieces --------------------------------------------------------- */
+
+.sectionLabel {
+  margin: 0;
+  color: color-mix(in srgb, var(--ds-color-accent-cyan) 70%, transparent);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p10);
+  font-weight:var(--ds-weight-bold);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: var(--ds-tracking-mega);
+}
+
+/* The app's HudLine: a hairline that fades in from nothing, crosses cyan into
+   violet, and fades back out. The one gradient this surface allows itself. */
+.hairline {
+  height: 2px;
+  border: 0;
+  margin: 0;
+  background: linear-gradient(
+    to right,
+    transparent,
+    color-mix(in srgb, var(--ds-color-accent-cyan) 90%, transparent),
+    color-mix(in srgb, var(--ds-color-accent-violet) 75%, transparent),
+    transparent
+  );
+}
+
+/* ---- Guide header ---------------------------------------------------------- */
+
+.guidePage {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 14px;
+  padding: 14px 16px calc(32px + env(safe-area-inset-bottom));
+  align-items: start;
+}
+
+/* What the mode is: the header plate and the three-up strip, read as one. */
+.introBlock {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 14px;
+}
+
+.headerRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 16px;
+}
+
+.headerTitle {
+  margin: 0;
+  color: var(--ds-color-text-default);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p16);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: var(--ds-tracking-tight);
+}
+
+.headerPurpose {
+  margin: 7px 0 0;
+  color: var(--ds-color-text-subtle);
+  font-size:var(--ds-size-p12_5);
+  line-height: var(--ds-leading-body);
+}
+
+/* ---- Overview strip -------------------------------------------------------- */
+
+/* Three cells of equal width, stretched to a common height so the tallest
+   caption does not leave the others short. */
+.overview {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.statCell {
+  display: grid;
+  gap: 3px;
+  justify-items: center;
+  align-content: start;
+  padding: 14px 8px;
+  border: 1px solid color-mix(in srgb, var(--stat-accent) 35%, transparent);
+  background: color-mix(in srgb, var(--stat-accent) 7%, transparent);
+  text-align: center;
+}
+
+.statGlyph { margin-bottom: 4px; color: var(--stat-accent); }
+
+.statLabel {
+  margin: 0;
+  color: var(--ds-color-text-default);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p9);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: var(--ds-tracking-wide);
+}
+
+.statSub {
+  margin: 0;
+  color: var(--ds-color-text-muted);
+  font-size:var(--ds-size-p9);
+  line-height: var(--ds-leading-tight);
+}
+
+/* ---- Steps ----------------------------------------------------------------- */
+
+.panelBody {
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+}
+
+.steps {
+  display: grid;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.stepIndex {
+  display: grid;
+  width: 28px;
+  height: 28px;
+  flex: none;
+  place-items: center;
+  border: 1px solid color-mix(in srgb, var(--guide-accent) 50%, transparent);
+  background: color-mix(in srgb, var(--guide-accent) 14%, transparent);
+  color: var(--guide-accent);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p12);
+  font-weight:var(--ds-weight-bold);
+  font-variant-numeric: tabular-nums;
+}
+
+.stepTitle {
+  margin: 4px 0 0;
+  color: var(--ds-color-text-default);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p12_5);
+  font-weight:var(--ds-weight-bold);
+  letter-spacing: var(--ds-tracking-label);
+}
+
+.stepBody {
+  margin: 5px 0 0;
+  color: var(--ds-color-text-subtle);
+  font-size:var(--ds-size-p12);
+  line-height: var(--ds-leading-body);
+}
+
+/* ---- Facts ----------------------------------------------------------------- */
+
+.facts {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fact {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+}
+
+.factGlyph { margin-top: 1px; flex: none; color: var(--guide-accent); }
+
+.factLabel {
+  margin: 0;
+  color: var(--ds-color-text-default);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p11_5);
+  font-weight:var(--ds-weight-bold);
+  letter-spacing: var(--ds-tracking-tight);
+}
+
+.factBody {
+  margin: 4px 0 0;
+  color: var(--ds-color-text-muted);
+  font-size:var(--ds-size-p11_5);
+  line-height: var(--ds-leading-body);
+}
+
+/* ---- The in-context help affordance ---------------------------------------- */
+
+/* Secondary chrome: flat fill, accent edge, never a glow. */
+.helpButton {
+  display: grid;
+  width: 32px;
+  height: 32px;
+  place-items: center;
+  border: 1px solid color-mix(in srgb, var(--guide-accent) 40%, transparent);
+  background: color-mix(in srgb, var(--guide-accent) 8%, transparent);
+  color: var(--guide-accent);
+  transition: transform 140ms ease, filter 140ms ease;
+}
+.helpButton:hover { transform: scale(1.05); filter: brightness(1.12); }
+.helpButton:focus-visible { outline: 2px solid var(--guide-accent); outline-offset: 2px; }
+
+/* ---- Desktop --------------------------------------------------------------- */
+
+/*
+ * The phone column is the app. Wider, the hub deals its cards two-up rather
+ * than growing one very wide row, and a guide splits into what the mode *is*
+ * (header, the three-up strip, the rules worth knowing) beside what you
+ * actually *do* — the steps, which are the longest thing on the page.
+ */
+@media (width >= 64rem) {
+  .page,
+  .guidePage {
+    max-width: 65rem;
+    margin-inline: auto;
+    padding-inline: 24px;
+  }
+
+  .modeGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+  /*
+   * Steps take the right column outright; what the mode is and what is worth
+   * knowing stack down the left, which is also the order a phone reads them in.
+   */
+  .guidePage {
+    grid-template-columns: minmax(0, 21.25rem) minmax(0, 1fr);
+    grid-template-areas:
+      "intro steps"
+      "facts steps";
+    align-content: start;
+  }
+
+  .introBlock { grid-area: intro; }
+  .factsBlock { grid-area: facts; }
+  .stepsBlock { grid-area: steps; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .helpButton { transition: none; }
+  .helpButton:hover { transform: none; }
+}

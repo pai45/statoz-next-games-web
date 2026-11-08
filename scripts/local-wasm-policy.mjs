@@ -1,0 +1,7 @@
+import{createHash}from'node:crypto';
+export function localWasmPolicy(source,{functionIndex,imports,expectedSha256}){
+ const hash=b=>createHash('sha256').update(b).digest('hex');if(expectedSha256&&hash(source)!==expectedSha256)throw Error('Unexpected source WASM');
+ function leb(p){let n=0,s=0,v;do{v=source[p++];n+=(v&127)*2**s;s+=7;}while(v&128);return[n,p];}function enc(n){const out=[];do{let v=n&127;n=Math.floor(n/128);if(n)v|=128;out.push(v);}while(n);return Buffer.from(out);}
+ const chunks=[source.subarray(0,8)];let p=8,change;while(p<source.length){const start=p,id=source[p++];let size;[size,p]=leb(p);const end=p+size;if(id!==10){chunks.push(source.subarray(start,end));p=end;continue;}let count;[count,p]=leb(p);const bodies=[enc(count)];for(let i=0;i<count;i++){let n;[n,p]=leb(p);const b=source.subarray(p,p+n);p+=n;if(i+imports===functionIndex){const next=Buffer.from([0,0x41,1,0xb]);bodies.push(enc(next.length),next);change={functionIndex,originalBodySha256:hash(b),originalBodyBytes:n,newBodyHex:next.toString('hex'),meaning:'Explicit local-host policy in a copied client. Does not impersonate the remote origin.'};}else bodies.push(enc(n),b);}const code=Buffer.concat(bodies);chunks.push(Buffer.from([10]),enc(code.length),code);p=end;}
+ if(!change)throw Error('Native local policy method absent');const wasm=Buffer.concat(chunks);if(!WebAssembly.validate(wasm))throw Error('Invalid localized WASM');return{wasm,change,sourceSha256:hash(source),sha256:hash(wasm)};
+}

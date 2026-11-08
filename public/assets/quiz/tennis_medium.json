@@ -1,0 +1,5017 @@
+{
+  "sport": "tennis",
+  "mode": "medium",
+  "version": 1,
+  "bands": {
+    "1": [
+      {
+        "p": "Who lost the 2008 Wimbledon men’s singles final?",
+        "o": [
+          "Roger Federer",
+          "Andy Murray",
+          "Milos Raonic",
+          "Casper Ruud"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who lost the 2022 Wimbledon women’s singles final?",
+        "o": [
+          "Serena Williams",
+          "Ons Jabeur",
+          "Aryna Sabalenka",
+          "Jessica Pegula"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who holds the record for most men's singles titles at Wimbledon?",
+        "o": [
+          "Novak Djokovic",
+          "Steffi Graf",
+          "Roger Federer",
+          "Pete Sampras"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 2017 Fed Cup?",
+        "o": [
+          "Russian Tennis Federation",
+          "Switzerland",
+          "Canada",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2019 US Open men’s doubles title?",
+        "o": [
+          "Cabal and Farah",
+          "Ram and Salisbury",
+          "Krawietz and Pütz",
+          "Mektić and Pavić"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In tennis, how many points win a standard tiebreak?",
+        "o": [
+          "2",
+          "7",
+          "10",
+          "4"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2023 Wimbledon men's wheelchair singles title?",
+        "o": [
+          "Alfie Hewett",
+          "Yui Kamiji",
+          "Tokito Oda",
+          "Diede de Groot"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 2019 Wimbledon men’s singles final?",
+        "o": [
+          "Casper Ruud",
+          "Daniil Medvedev",
+          "Taylor Fritz",
+          "Roger Federer"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who lost the 2023 Wimbledon women’s singles final?",
+        "o": [
+          "Ons Jabeur",
+          "Elena Rybakina",
+          "Zheng Qinwen",
+          "Jasmine Paolini"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who holds the record for most women's singles titles at Wimbledon?",
+        "o": [
+          "Rafael Nadal",
+          "Martina Navratilova",
+          "Chris Evert",
+          "Jimmy Connors"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which nation won the 2018 Fed Cup?",
+        "o": [
+          "France",
+          "Russian Tennis Federation",
+          "Czech Republic",
+          "Switzerland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2020 US Open men’s doubles title?",
+        "o": [
+          "Ebden and Purcell",
+          "Cabal and Farah",
+          "Ram and Salisbury",
+          "Pavić and Soares"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In tennis, how many games win a standard set?",
+        "o": [
+          "6",
+          "3",
+          "2",
+          "10"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2023 Wimbledon women's wheelchair singles title?",
+        "o": [
+          "Tokito Oda",
+          "Diede de Groot",
+          "Alfie Hewett",
+          "Yui Kamiji"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who lost the 2023 Wimbledon men’s singles final?",
+        "o": [
+          "Andy Murray",
+          "Milos Raonic",
+          "Novak Djokovic",
+          "Casper Ruud"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 2024 Wimbledon women’s singles final?",
+        "o": [
+          "Serena Williams",
+          "Aryna Sabalenka",
+          "Jessica Pegula",
+          "Jasmine Paolini"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who holds the record for most men's singles titles at Roland-Garros?",
+        "o": [
+          "Rafael Nadal",
+          "Jimmy Connors",
+          "Novak Djokovic",
+          "Steffi Graf"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 2019 Fed Cup?",
+        "o": [
+          "Italy",
+          "France",
+          "United States",
+          "Czech Republic"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2021 US Open men’s doubles title?",
+        "o": [
+          "Ebden and Purcell",
+          "Cabal and Farah",
+          "Ram and Salisbury",
+          "Pavić and Soares"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In tennis, how many sets win a men's Grand Slam match?",
+        "o": [
+          "10",
+          "4",
+          "7",
+          "3"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who lost the 2024 Wimbledon men’s singles final?",
+        "o": [
+          "Novak Djokovic",
+          "Taylor Fritz",
+          "Roger Federer",
+          "Carlos Alcaraz"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who lost the 2025 Wimbledon women’s singles final?",
+        "o": [
+          "Zheng Qinwen",
+          "Amanda Anisimova",
+          "Ons Jabeur",
+          "Jasmine Paolini"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who holds the record for most women's singles titles at Roland-Garros?",
+        "o": [
+          "Jimmy Connors",
+          "Novak Djokovic",
+          "Chris Evert",
+          "Steffi Graf"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 2021 Billie Jean King Cup?",
+        "o": [
+          "Italy",
+          "United States",
+          "Czech Republic",
+          "Russian Tennis Federation"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2022 US Open men’s doubles title?",
+        "o": [
+          "Ram and Salisbury",
+          "Ebden and Purcell",
+          "Cabal and Farah",
+          "Pavić and Soares"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who lost the 2025 Wimbledon men’s singles final?",
+        "o": [
+          "Roger Federer",
+          "Carlos Alcaraz",
+          "Novak Djokovic",
+          "Andy Murray"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who lost the 2018 US Open women’s singles final?",
+        "o": [
+          "Jessica Pegula",
+          "Elena Rybakina",
+          "Serena Williams",
+          "Zheng Qinwen"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who holds the record for most men's singles titles at the US Open?",
+        "o": [
+          "Novak Djokovic",
+          "Steffi Graf",
+          "Pete Sampras",
+          "Jimmy Connors"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which nation won the 2022 Billie Jean King Cup?",
+        "o": [
+          "Switzerland",
+          "Canada",
+          "Italy",
+          "United States"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2023 US Open men’s doubles title?",
+        "o": [
+          "Krawietz and Pütz",
+          "Ram and Salisbury",
+          "Mektić and Pavić",
+          "Ebden and Purcell"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who lost the 2012 Wimbledon men’s singles final?",
+        "o": [
+          "Roger Federer",
+          "Novak Djokovic",
+          "Andy Murray",
+          "Carlos Alcaraz"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 2019 US Open women’s singles final?",
+        "o": [
+          "Jessica Pegula",
+          "Elena Rybakina",
+          "Zheng Qinwen",
+          "Serena Williams"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who holds the record for most men's singles titles at the Australian Open?",
+        "o": [
+          "Novak Djokovic",
+          "Chris Evert",
+          "Jimmy Connors",
+          "Steffi Graf"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 2023 Billie Jean King Cup?",
+        "o": [
+          "United States",
+          "Canada",
+          "Czech Republic",
+          "France"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2024 US Open men’s doubles title?",
+        "o": [
+          "Ram and Salisbury",
+          "Mektić and Pavić",
+          "Krawietz and Pütz",
+          "Ebden and Purcell"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 2013 Wimbledon men’s singles final?",
+        "o": [
+          "Roger Federer",
+          "Carlos Alcaraz",
+          "Andy Murray",
+          "Novak Djokovic"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who lost the 2023 US Open women’s singles final?",
+        "o": [
+          "Aryna Sabalenka",
+          "Serena Williams",
+          "Jessica Pegula",
+          "Elena Rybakina"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What is the record for most men's singles titles at Wimbledon?",
+        "o": [
+          "6",
+          "8",
+          "9",
+          "14"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which nation won the 2024 Billie Jean King Cup?",
+        "o": [
+          "France",
+          "Russian Tennis Federation",
+          "Italy",
+          "Switzerland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 2014 Wimbledon men’s singles final?",
+        "o": [
+          "Andy Murray",
+          "Milos Raonic",
+          "Casper Ruud",
+          "Roger Federer"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who lost the 2024 US Open women’s singles final?",
+        "o": [
+          "Jessica Pegula",
+          "Elena Rybakina",
+          "Zheng Qinwen",
+          "Ons Jabeur"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What is the record for most women's singles titles at Wimbledon?",
+        "o": [
+          "8",
+          "9",
+          "14",
+          "7"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who lost the 2015 Wimbledon men’s singles final?",
+        "o": [
+          "Casper Ruud",
+          "Daniil Medvedev",
+          "Roger Federer",
+          "Taylor Fritz"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 2023 Australian Open women’s singles final?",
+        "o": [
+          "Jasmine Paolini",
+          "Amanda Anisimova",
+          "Serena Williams",
+          "Elena Rybakina"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What is the record for most men's singles titles at Roland-Garros?",
+        "o": [
+          "14",
+          "12",
+          "6",
+          "8"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who lost the 2016 Wimbledon men’s singles final?",
+        "o": [
+          "Novak Djokovic",
+          "Milos Raonic",
+          "Carlos Alcaraz",
+          "Andy Murray"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who lost the 2024 Australian Open women’s singles final?",
+        "o": [
+          "Aryna Sabalenka",
+          "Jessica Pegula",
+          "Zheng Qinwen",
+          "Elena Rybakina"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What is the record for most women's singles titles at Roland-Garros?",
+        "o": [
+          "14",
+          "10",
+          "12",
+          "7"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who lost the 2009 US Open men’s singles final?",
+        "o": [
+          "Roger Federer",
+          "Carlos Alcaraz",
+          "Andy Murray",
+          "Milos Raonic"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who finished 2010 as the WTA year-end world No. 1?",
+        "o": [
+          "Serena Williams",
+          "Caroline Wozniacki",
+          "Simona Halep",
+          "Ashleigh Barty"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What is the record for most men's singles titles at the Australian Open?",
+        "o": [
+          "12",
+          "6",
+          "10",
+          "8"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 2015 US Open men’s singles final?",
+        "o": [
+          "Novak Djokovic",
+          "Carlos Alcaraz",
+          "Andy Murray",
+          "Roger Federer"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 2011 as the WTA year-end world No. 1?",
+        "o": [
+          "Caroline Wozniacki",
+          "Victoria Azarenka",
+          "Serena Williams",
+          "Simona Halep"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who lost the 2021 US Open men’s singles final?",
+        "o": [
+          "Carlos Alcaraz",
+          "Novak Djokovic",
+          "Andy Murray",
+          "Milos Raonic"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 2012 as the WTA year-end world No. 1?",
+        "o": [
+          "Ashleigh Barty",
+          "Iga Świątek",
+          "Victoria Azarenka",
+          "Caroline Wozniacki"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 2022 US Open men’s singles final?",
+        "o": [
+          "Roger Federer",
+          "Novak Djokovic",
+          "Carlos Alcaraz",
+          "Casper Ruud"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 2013 as the WTA year-end world No. 1?",
+        "o": [
+          "Serena Williams",
+          "Caroline Wozniacki",
+          "Victoria Azarenka",
+          "Simona Halep"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who lost the 2023 US Open men’s singles final?",
+        "o": [
+          "Novak Djokovic",
+          "Daniil Medvedev",
+          "Carlos Alcaraz",
+          "Andy Murray"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 2014 as the WTA year-end world No. 1?",
+        "o": [
+          "Caroline Wozniacki",
+          "Victoria Azarenka",
+          "Serena Williams",
+          "Simona Halep"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 2024 US Open men’s singles final?",
+        "o": [
+          "Carlos Alcaraz",
+          "Andy Murray",
+          "Milos Raonic",
+          "Taylor Fritz"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 2015 as the WTA year-end world No. 1?",
+        "o": [
+          "Serena Williams",
+          "Ashleigh Barty",
+          "Iga Świątek",
+          "Caroline Wozniacki"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2019 Indian Wells Masters?",
+        "o": [
+          "Roger Federer",
+          "Dominic Thiem",
+          "John Isner",
+          "Stefanos Tsitsipas"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 2017 as the WTA year-end world No. 1?",
+        "o": [
+          "Iga Świątek",
+          "Caroline Wozniacki",
+          "Simona Halep",
+          "Victoria Azarenka"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2018 Indian Wells Masters?",
+        "o": [
+          "Taylor Fritz",
+          "Cameron Norrie",
+          "Daniil Medvedev",
+          "Juan Martín del Potro"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 2018 as the WTA year-end world No. 1?",
+        "o": [
+          "Simona Halep",
+          "Serena Williams",
+          "Ashleigh Barty",
+          "Iga Świątek"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2023 Indian Wells Masters?",
+        "o": [
+          "Hubert Hurkacz",
+          "Carlos Alcaraz",
+          "Roger Federer",
+          "John Isner"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 2019 as the WTA year-end world No. 1?",
+        "o": [
+          "Victoria Azarenka",
+          "Serena Williams",
+          "Ashleigh Barty",
+          "Simona Halep"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2024 Indian Wells Masters?",
+        "o": [
+          "Cameron Norrie",
+          "Daniil Medvedev",
+          "Jannik Sinner",
+          "Carlos Alcaraz"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 2020 as the WTA year-end world No. 1?",
+        "o": [
+          "Ashleigh Barty",
+          "Iga Świątek",
+          "Caroline Wozniacki",
+          "Victoria Azarenka"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2022 Indian Wells Masters?",
+        "o": [
+          "Stefanos Tsitsipas",
+          "Taylor Fritz",
+          "Rafael Nadal",
+          "Andrey Rublev"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 2021 as the WTA year-end world No. 1?",
+        "o": [
+          "Caroline Wozniacki",
+          "Victoria Azarenka",
+          "Ashleigh Barty",
+          "Serena Williams"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2021 Indian Wells Masters?",
+        "o": [
+          "Carlos Alcaraz",
+          "Taylor Fritz",
+          "Daniil Medvedev",
+          "Cameron Norrie"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 2022 as the WTA year-end world No. 1?",
+        "o": [
+          "Iga Świątek",
+          "Simona Halep",
+          "Ashleigh Barty",
+          "Caroline Wozniacki"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2023 Miami Open?",
+        "o": [
+          "John Isner",
+          "Daniil Medvedev",
+          "Stefanos Tsitsipas",
+          "Rafael Nadal"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2022 Miami Open?",
+        "o": [
+          "Daniil Medvedev",
+          "Jannik Sinner",
+          "Carlos Alcaraz",
+          "Hubert Hurkacz"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2024 Miami Open?",
+        "o": [
+          "John Isner",
+          "Stefanos Tsitsipas",
+          "Rafael Nadal",
+          "Jannik Sinner"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2021 Miami Open?",
+        "o": [
+          "Hubert Hurkacz",
+          "Juan Martín del Potro",
+          "Carlos Alcaraz",
+          "Taylor Fritz"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2019 Miami Open?",
+        "o": [
+          "Rafael Nadal",
+          "Roger Federer",
+          "Andrey Rublev",
+          "Dominic Thiem"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2018 Miami Open?",
+        "o": [
+          "Andrey Rublev",
+          "Dominic Thiem",
+          "John Isner",
+          "Juan Martín del Potro"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2024 Monte-Carlo Masters?",
+        "o": [
+          "Cameron Norrie",
+          "Daniil Medvedev",
+          "Jannik Sinner",
+          "Stefanos Tsitsipas"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2021 Monte-Carlo Masters?",
+        "o": [
+          "Stefanos Tsitsipas",
+          "Daniil Medvedev",
+          "Jannik Sinner",
+          "Hubert Hurkacz"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2018 Monte-Carlo Masters?",
+        "o": [
+          "Andrey Rublev",
+          "Rafael Nadal",
+          "Dominic Thiem",
+          "Juan Martín del Potro"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2023 Madrid Open?",
+        "o": [
+          "Andrey Rublev",
+          "Dominic Thiem",
+          "Carlos Alcaraz",
+          "Juan Martín del Potro"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2022 Madrid Open?",
+        "o": [
+          "Taylor Fritz",
+          "Cameron Norrie",
+          "Daniil Medvedev",
+          "Carlos Alcaraz"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2024 Madrid Open?",
+        "o": [
+          "Andrey Rublev",
+          "Rafael Nadal",
+          "Dominic Thiem",
+          "Juan Martín del Potro"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who coached Andy Murray?",
+        "o": [
+          "Boris Becker",
+          "Ivan Lendl",
+          "Stefan Edberg",
+          "Carlos Moyá"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who coached Novak Djokovic?",
+        "o": [
+          "Carlos Moyá",
+          "Juan Carlos Ferrero",
+          "Boris Becker",
+          "Gilles Cervara"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who coached Roger Federer?",
+        "o": [
+          "Boris Becker",
+          "Carlos Moyá",
+          "Juan Carlos Ferrero",
+          "Stefan Edberg"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who coached Rafael Nadal?",
+        "o": [
+          "Carlos Moyá",
+          "Boris Becker",
+          "Stefan Edberg",
+          "Juan Carlos Ferrero"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who coached Carlos Alcaraz?",
+        "o": [
+          "Carlos Moyá",
+          "Juan Carlos Ferrero",
+          "Gilles Cervara",
+          "Apostolos Tsitsipas"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who coached Alexander Zverev?",
+        "o": [
+          "Boris Becker",
+          "Stefan Edberg",
+          "Ivan Lendl",
+          "Carlos Moyá"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who coached Daniil Medvedev?",
+        "o": [
+          "Stefan Edberg",
+          "Carlos Moyá",
+          "Juan Carlos Ferrero",
+          "Gilles Cervara"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who coached Stefanos Tsitsipas?",
+        "o": [
+          "Apostolos Tsitsipas",
+          "Juan Carlos Ferrero",
+          "Gilles Cervara",
+          "Ivan Lendl"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2012 ATP Finals?",
+        "o": [
+          "Grigor Dimitrov",
+          "Novak Djokovic",
+          "Alexander Zverev",
+          "Andy Murray"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2013 ATP Finals?",
+        "o": [
+          "Alexander Zverev",
+          "Andy Murray",
+          "Novak Djokovic",
+          "Grigor Dimitrov"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2014 ATP Finals?",
+        "o": [
+          "Grigor Dimitrov",
+          "Alexander Zverev",
+          "Andy Murray",
+          "Novak Djokovic"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2015 ATP Finals?",
+        "o": [
+          "Novak Djokovic",
+          "Andy Murray",
+          "Grigor Dimitrov",
+          "Alexander Zverev"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2016 ATP Finals?",
+        "o": [
+          "Novak Djokovic",
+          "Andy Murray",
+          "Grigor Dimitrov",
+          "Alexander Zverev"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2017 ATP Finals?",
+        "o": [
+          "Alexander Zverev",
+          "Novak Djokovic",
+          "Grigor Dimitrov",
+          "Andy Murray"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2018 ATP Finals?",
+        "o": [
+          "Novak Djokovic",
+          "Andy Murray",
+          "Grigor Dimitrov",
+          "Alexander Zverev"
+        ],
+        "a": 3
+      }
+    ],
+    "2": [
+      {
+        "p": "Who lost the 2010 Wimbledon men’s singles final?",
+        "o": [
+          "Tomáš Berdych",
+          "Marin Čilić",
+          "Kevin Anderson",
+          "Matteo Berrettini"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2021 US Open women’s singles title?",
+        "o": [
+          "Madison Keys",
+          "Emma Raducanu",
+          "Iga Świątek",
+          "Coco Gauff"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which venue hosts the Cincinnati Masters?",
+        "o": [
+          "Qizhong Forest Sports City",
+          "Sobeys Stadium",
+          "Lindner Family Tennis Center",
+          "OWL Arena"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 2010 Fed Cup?",
+        "o": [
+          "Czech Republic",
+          "United States",
+          "Russia",
+          "Italy"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2019 US Open women’s doubles title?",
+        "o": [
+          "Mertens and Sabalenka",
+          "Stosur and Zhang",
+          "Krejčíková and Siniaková",
+          "Gauff and Pegula"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In tennis, how many sets win a women's Grand Slam match?",
+        "o": [
+          "7",
+          "2",
+          "3",
+          "10"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2024 Wimbledon men's wheelchair singles title?",
+        "o": [
+          "Tokito Oda",
+          "Yui Kamiji",
+          "Alfie Hewett",
+          "Diede de Groot"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 2011 Wimbledon men’s singles final?",
+        "o": [
+          "Kevin Anderson",
+          "Matteo Berrettini",
+          "Nick Kyrgios",
+          "Rafael Nadal"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2022 US Open women’s singles title?",
+        "o": [
+          "Iga Świątek",
+          "Emma Raducanu",
+          "Coco Gauff",
+          "Aryna Sabalenka"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which venue hosts the Shanghai Masters?",
+        "o": [
+          "the Queen's Club",
+          "Qizhong Forest Sports City",
+          "St. Jakobshalle",
+          "Lindner Family Tennis Center"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which nation won the 2011 Fed Cup?",
+        "o": [
+          "Russia",
+          "France",
+          "Czech Republic",
+          "Italy"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2020 US Open women’s doubles title?",
+        "o": [
+          "Mertens and Sabalenka",
+          "Stosur and Zhang",
+          "Krejčíková and Siniaková",
+          "Siegemund and Zvonareva"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In tennis, how many points win a Grand Slam final-set tiebreak?",
+        "o": [
+          "10",
+          "7",
+          "3",
+          "2"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2024 Wimbledon women's wheelchair singles title?",
+        "o": [
+          "Tokito Oda",
+          "Yui Kamiji",
+          "Alfie Hewett",
+          "Diede de Groot"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who lost the 2017 Wimbledon men’s singles final?",
+        "o": [
+          "Kei Nishikori",
+          "Juan Martín del Potro",
+          "Marin Čilić",
+          "Daniil Medvedev"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2023 US Open women’s singles title?",
+        "o": [
+          "Barbora Krejčíková",
+          "Madison Keys",
+          "Emma Raducanu",
+          "Coco Gauff"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which venue hosts the Canadian Open?",
+        "o": [
+          "Sobeys Stadium",
+          "St. Jakobshalle",
+          "Lindner Family Tennis Center",
+          "Qizhong Forest Sports City"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 2012 Fed Cup?",
+        "o": [
+          "United States",
+          "Czech Republic",
+          "Russia",
+          "France"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2021 US Open women’s doubles title?",
+        "o": [
+          "Krejčíková and Siniaková",
+          "Gauff and Pegula",
+          "Stosur and Zhang",
+          "Errani and Paolini"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In tennis, how many players are on court in a doubles match?",
+        "o": [
+          "7",
+          "3",
+          "2",
+          "4"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who lost the 2018 Wimbledon men’s singles final?",
+        "o": [
+          "Kevin Anderson",
+          "Matteo Berrettini",
+          "Nick Kyrgios",
+          "Novak Djokovic"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2024 US Open women’s singles title?",
+        "o": [
+          "Iga Świątek",
+          "Aryna Sabalenka",
+          "Coco Gauff",
+          "Barbora Krejčíková"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which venue hosts the Halle Open?",
+        "o": [
+          "the Queen's Club",
+          "St. Jakobshalle",
+          "OWL Arena",
+          "Lindner Family Tennis Center"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 2013 Fed Cup?",
+        "o": [
+          "United States",
+          "Russia",
+          "France",
+          "Italy"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2022 US Open women’s doubles title?",
+        "o": [
+          "Krejčíková and Siniaková",
+          "Mertens and Sabalenka",
+          "Siegemund and Zvonareva",
+          "Stosur and Zhang"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who lost the 2021 Wimbledon men’s singles final?",
+        "o": [
+          "Marin Čilić",
+          "Matteo Berrettini",
+          "Kevin Anderson",
+          "Nick Kyrgios"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2025 US Open women’s singles title?",
+        "o": [
+          "Coco Gauff",
+          "Barbora Krejčíková",
+          "Aryna Sabalenka",
+          "Madison Keys"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which venue hosts the Queen's Club Championships?",
+        "o": [
+          "Sobeys Stadium",
+          "OWL Arena",
+          "St. Jakobshalle",
+          "the Queen's Club"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which nation won the 2014 Fed Cup?",
+        "o": [
+          "Czech Republic",
+          "France",
+          "Italy",
+          "United States"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2023 US Open women’s doubles title?",
+        "o": [
+          "Stosur and Zhang",
+          "Gauff and Pegula",
+          "Krejčíková and Siniaková",
+          "Errani and Paolini"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who lost the 2022 Wimbledon men’s singles final?",
+        "o": [
+          "Tomáš Berdych",
+          "Rafael Nadal",
+          "Nick Kyrgios",
+          "Marin Čilić"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2020 French Open women’s singles title?",
+        "o": [
+          "Madison Keys",
+          "Emma Raducanu",
+          "Coco Gauff",
+          "Iga Świątek"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which venue hosts the Swiss Indoors?",
+        "o": [
+          "St. Jakobshalle",
+          "OWL Arena",
+          "the Queen's Club",
+          "Lindner Family Tennis Center"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 2015 Fed Cup?",
+        "o": [
+          "Russia",
+          "Czech Republic",
+          "France",
+          "Italy"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2024 US Open women’s doubles title?",
+        "o": [
+          "Siegemund and Zvonareva",
+          "Stosur and Zhang",
+          "Errani and Paolini",
+          "Krejčíková and Siniaková"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 2010 US Open men’s singles final?",
+        "o": [
+          "Daniil Medvedev",
+          "Alexander Zverev",
+          "Tomáš Berdych",
+          "Novak Djokovic"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2021 French Open women’s singles title?",
+        "o": [
+          "Barbora Krejčíková",
+          "Madison Keys",
+          "Emma Raducanu",
+          "Iga Świątek"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What is the main show court at the Indian Wells Masters called?",
+        "o": [
+          "Court Rainier III",
+          "Stadium 1",
+          "Campo Centrale",
+          "Manolo Santana Stadium"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which nation won the 2016 Fed Cup?",
+        "o": [
+          "United States",
+          "Russia",
+          "Czech Republic",
+          "France"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 2011 US Open men’s singles final?",
+        "o": [
+          "Kei Nishikori",
+          "Juan Martín del Potro",
+          "Daniil Medvedev",
+          "Rafael Nadal"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2022 French Open women’s singles title?",
+        "o": [
+          "Iga Świątek",
+          "Emma Raducanu",
+          "Coco Gauff",
+          "Aryna Sabalenka"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What is the main show court at the Rome Masters called?",
+        "o": [
+          "Manolo Santana Stadium",
+          "Campo Centrale",
+          "the Stadium Court",
+          "Court Rainier III"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who lost the 2012 US Open men’s singles final?",
+        "o": [
+          "Matteo Berrettini",
+          "Nick Kyrgios",
+          "Novak Djokovic",
+          "Kei Nishikori"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2023 French Open women’s singles title?",
+        "o": [
+          "Madison Keys",
+          "Emma Raducanu",
+          "Coco Gauff",
+          "Iga Świątek"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What is the main show court at the Madrid Open called?",
+        "o": [
+          "Manolo Santana Stadium",
+          "the Stadium Court",
+          "Court Rainier III",
+          "Stadium 1"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who lost the 2013 US Open men’s singles final?",
+        "o": [
+          "Juan Martín del Potro",
+          "Novak Djokovic",
+          "Daniil Medvedev",
+          "Alexander Zverev"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2024 French Open women’s singles title?",
+        "o": [
+          "Emma Raducanu",
+          "Coco Gauff",
+          "Iga Świątek",
+          "Aryna Sabalenka"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What is the main show court at the Miami Open called?",
+        "o": [
+          "Manolo Santana Stadium",
+          "Court Rainier III",
+          "Stadium 1",
+          "the Stadium Court"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who lost the 2014 US Open men’s singles final?",
+        "o": [
+          "Kei Nishikori",
+          "Nick Kyrgios",
+          "Novak Djokovic",
+          "Juan Martín del Potro"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2025 French Open women’s singles title?",
+        "o": [
+          "Madison Keys",
+          "Coco Gauff",
+          "Emma Raducanu",
+          "Iga Świątek"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What is the main show court at the Monte-Carlo Masters called?",
+        "o": [
+          "Manolo Santana Stadium",
+          "the Stadium Court",
+          "Court Rainier III",
+          "Stadium 1"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 2016 US Open men’s singles final?",
+        "o": [
+          "Tomáš Berdych",
+          "Rafael Nadal",
+          "Marin Čilić",
+          "Novak Djokovic"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2025 Australian Open women’s singles title?",
+        "o": [
+          "Madison Keys",
+          "Barbora Krejčíková",
+          "Emma Raducanu",
+          "Iga Świątek"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who lost the 2017 US Open men’s singles final?",
+        "o": [
+          "Nick Kyrgios",
+          "Kevin Anderson",
+          "Novak Djokovic",
+          "Kei Nishikori"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2022 Indian Wells women’s singles?",
+        "o": [
+          "Elena Rybakina",
+          "Petra Kvitová",
+          "Iga Świątek",
+          "Danielle Collins"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 2018 US Open men’s singles final?",
+        "o": [
+          "Daniil Medvedev",
+          "Alexander Zverev",
+          "Tomáš Berdych",
+          "Juan Martín del Potro"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2023 Indian Wells women’s singles?",
+        "o": [
+          "Elena Rybakina",
+          "Petra Kvitová",
+          "Danielle Collins",
+          "Aryna Sabalenka"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who lost the 2019 US Open men’s singles final?",
+        "o": [
+          "Juan Martín del Potro",
+          "Daniil Medvedev",
+          "Alexander Zverev",
+          "Tomáš Berdych"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2024 Indian Wells women’s singles?",
+        "o": [
+          "Danielle Collins",
+          "Aryna Sabalenka",
+          "Iga Świątek",
+          "Elena Rybakina"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 2020 US Open men’s singles final?",
+        "o": [
+          "Rafael Nadal",
+          "Marin Čilić",
+          "Kevin Anderson",
+          "Alexander Zverev"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2022 Miami women’s singles?",
+        "o": [
+          "Iga Świątek",
+          "Danielle Collins",
+          "Aryna Sabalenka",
+          "Elena Rybakina"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2019 Rome Masters?",
+        "o": [
+          "Alexander Zverev",
+          "Rafael Nadal",
+          "Pablo Carreño Busta",
+          "Jannik Sinner"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2023 Miami women’s singles?",
+        "o": [
+          "Danielle Collins",
+          "Aryna Sabalenka",
+          "Petra Kvitová",
+          "Iga Świątek"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2021 Rome Masters?",
+        "o": [
+          "Daniil Medvedev",
+          "Alexander Zverev",
+          "Pablo Carreño Busta",
+          "Rafael Nadal"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2024 Miami women’s singles?",
+        "o": [
+          "Danielle Collins",
+          "Iga Świątek",
+          "Elena Rybakina",
+          "Petra Kvitová"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2022 Rome Masters?",
+        "o": [
+          "Pablo Carreño Busta",
+          "Novak Djokovic",
+          "Jannik Sinner",
+          "Borna Ćorić"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2023 Madrid women’s singles?",
+        "o": [
+          "Iga Świątek",
+          "Elena Rybakina",
+          "Aryna Sabalenka",
+          "Petra Kvitová"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2023 Rome Masters?",
+        "o": [
+          "Pablo Carreño Busta",
+          "Jannik Sinner",
+          "Borna Ćorić",
+          "Daniil Medvedev"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2024 Madrid women’s singles?",
+        "o": [
+          "Iga Świątek",
+          "Elena Rybakina",
+          "Petra Kvitová",
+          "Danielle Collins"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2024 Rome Masters?",
+        "o": [
+          "Borna Ćorić",
+          "Alexander Zverev",
+          "Rafael Nadal",
+          "Novak Djokovic"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2023 Rome women’s singles?",
+        "o": [
+          "Aryna Sabalenka",
+          "Iga Świątek",
+          "Elena Rybakina",
+          "Petra Kvitová"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2018 Canadian Open?",
+        "o": [
+          "Novak Djokovic",
+          "Daniil Medvedev",
+          "Alexander Zverev",
+          "Rafael Nadal"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2024 Rome women’s singles?",
+        "o": [
+          "Iga Świątek",
+          "Elena Rybakina",
+          "Petra Kvitová",
+          "Danielle Collins"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2019 Canadian Open?",
+        "o": [
+          "Borna Ćorić",
+          "Rafael Nadal",
+          "Novak Djokovic",
+          "Daniil Medvedev"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2021 Canadian Open?",
+        "o": [
+          "Rafael Nadal",
+          "Novak Djokovic",
+          "Daniil Medvedev",
+          "Alexander Zverev"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2022 Canadian Open?",
+        "o": [
+          "Novak Djokovic",
+          "Daniil Medvedev",
+          "Alexander Zverev",
+          "Pablo Carreño Busta"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2023 Canadian Open?",
+        "o": [
+          "Jannik Sinner",
+          "Borna Ćorić",
+          "Rafael Nadal",
+          "Novak Djokovic"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2018 Cincinnati Masters?",
+        "o": [
+          "Borna Ćorić",
+          "Novak Djokovic",
+          "Rafael Nadal",
+          "Daniil Medvedev"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2019 Cincinnati Masters?",
+        "o": [
+          "Borna Ćorić",
+          "Rafael Nadal",
+          "Daniil Medvedev",
+          "Novak Djokovic"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2021 Cincinnati Masters?",
+        "o": [
+          "Pablo Carreño Busta",
+          "Jannik Sinner",
+          "Borna Ćorić",
+          "Alexander Zverev"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2022 Cincinnati Masters?",
+        "o": [
+          "Borna Ćorić",
+          "Rafael Nadal",
+          "Novak Djokovic",
+          "Daniil Medvedev"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2023 Cincinnati Masters?",
+        "o": [
+          "Pablo Carreño Busta",
+          "Novak Djokovic",
+          "Jannik Sinner",
+          "Borna Ćorić"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2024 Cincinnati Masters?",
+        "o": [
+          "Daniil Medvedev",
+          "Alexander Zverev",
+          "Jannik Sinner",
+          "Pablo Carreño Busta"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who finished 1994 as the ATP year-end world No. 1?",
+        "o": [
+          "Gustavo Kuerten",
+          "Lleyton Hewitt",
+          "Andre Agassi",
+          "Pete Sampras"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 1995 as the ATP year-end world No. 1?",
+        "o": [
+          "Pete Sampras",
+          "Gustavo Kuerten",
+          "Lleyton Hewitt",
+          "Andre Agassi"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who finished 1996 as the ATP year-end world No. 1?",
+        "o": [
+          "Lleyton Hewitt",
+          "Pete Sampras",
+          "Andre Agassi",
+          "Gustavo Kuerten"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 1997 as the ATP year-end world No. 1?",
+        "o": [
+          "Andre Agassi",
+          "Gustavo Kuerten",
+          "Pete Sampras",
+          "Lleyton Hewitt"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who finished 1998 as the ATP year-end world No. 1?",
+        "o": [
+          "Andre Agassi",
+          "Gustavo Kuerten",
+          "Lleyton Hewitt",
+          "Pete Sampras"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 1999 as the ATP year-end world No. 1?",
+        "o": [
+          "Andre Agassi",
+          "Lleyton Hewitt",
+          "Pete Sampras",
+          "Gustavo Kuerten"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who finished 2000 as the ATP year-end world No. 1?",
+        "o": [
+          "Lleyton Hewitt",
+          "Gustavo Kuerten",
+          "Pete Sampras",
+          "Andre Agassi"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 2001 as the ATP year-end world No. 1?",
+        "o": [
+          "Pete Sampras",
+          "Andre Agassi",
+          "Lleyton Hewitt",
+          "Gustavo Kuerten"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who finished 2002 as the ATP year-end world No. 1?",
+        "o": [
+          "Gustavo Kuerten",
+          "Pete Sampras",
+          "Andre Agassi",
+          "Lleyton Hewitt"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2019 ATP Finals?",
+        "o": [
+          "Stefanos Tsitsipas",
+          "Pete Sampras",
+          "Daniil Medvedev",
+          "Alexander Zverev"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2020 ATP Finals?",
+        "o": [
+          "Pete Sampras",
+          "Daniil Medvedev",
+          "Stefanos Tsitsipas",
+          "Alexander Zverev"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2021 ATP Finals?",
+        "o": [
+          "Daniil Medvedev",
+          "Novak Djokovic",
+          "Alexander Zverev",
+          "Jannik Sinner"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2022 ATP Finals?",
+        "o": [
+          "Alexander Zverev",
+          "Jannik Sinner",
+          "Àlex Corretja",
+          "Novak Djokovic"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2023 ATP Finals?",
+        "o": [
+          "Novak Djokovic",
+          "Daniil Medvedev",
+          "Alexander Zverev",
+          "Jannik Sinner"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2024 ATP Finals?",
+        "o": [
+          "Stefanos Tsitsipas",
+          "Jannik Sinner",
+          "Daniil Medvedev",
+          "Alexander Zverev"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1998 ATP Finals?",
+        "o": [
+          "Stefanos Tsitsipas",
+          "Daniil Medvedev",
+          "Àlex Corretja",
+          "Alexander Zverev"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1999 ATP Finals?",
+        "o": [
+          "Novak Djokovic",
+          "Jannik Sinner",
+          "Àlex Corretja",
+          "Pete Sampras"
+        ],
+        "a": 3
+      }
+    ],
+    "3": [
+      {
+        "p": "Who won the 2000 Australian Open men’s singles title?",
+        "o": [
+          "Andre Agassi",
+          "Marat Safin",
+          "Novak Djokovic",
+          "Rafael Nadal"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2004 Australian Open women’s singles title?",
+        "o": [
+          "Amélie Mauresmo",
+          "Justine Henin",
+          "Maria Sharapova",
+          "Victoria Azarenka"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which tour tier does the Miami Open belong to?",
+        "o": [
+          "Grand Slam",
+          "ATP 250",
+          "ATP Masters 1000",
+          "ATP 500"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 2003 Fed Cup?",
+        "o": [
+          "United States",
+          "Spain",
+          "Russia",
+          "France"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who was Bruno Soares’s most successful doubles partner?",
+        "o": [
+          "Jamie Murray",
+          "Aryna Sabalenka",
+          "Matthew Ebden",
+          "Austin Krajicek"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In tennis, how tall is the net at the posts in feet?",
+        "o": [
+          "78 feet",
+          "3.5 feet",
+          "27 feet",
+          "36 feet"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2022 Wimbledon men's wheelchair singles title?",
+        "o": [
+          "Yui Kamiji",
+          "Diede de Groot",
+          "Shingo Kunieda",
+          "Alfie Hewett"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2001 Australian Open men’s singles title?",
+        "o": [
+          "Stan Wawrinka",
+          "Thomas Johansson",
+          "Roger Federer",
+          "Andre Agassi"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2005 Australian Open women’s singles title?",
+        "o": [
+          "Serena Williams",
+          "Amélie Mauresmo",
+          "Maria Sharapova",
+          "Victoria Azarenka"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which tour tier does the Madrid Open belong to?",
+        "o": [
+          "ATP 250",
+          "ATP Masters 1000",
+          "ATP 500",
+          "Grand Slam"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which nation won the 2004 Fed Cup?",
+        "o": [
+          "Spain",
+          "France",
+          "Russia",
+          "Italy"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who was Rajeev Ram’s most successful doubles partner?",
+        "o": [
+          "Austin Krajicek",
+          "Jamie Murray",
+          "Barbora Krejčíková",
+          "Joe Salisbury"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In tennis, how tall is the net at the centre in feet?",
+        "o": [
+          "3 feet",
+          "36 feet",
+          "3.5 feet",
+          "78 feet"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2022 Wimbledon women's wheelchair singles title?",
+        "o": [
+          "Yui Kamiji",
+          "Diede de Groot",
+          "Shingo Kunieda",
+          "Alfie Hewett"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2002 Australian Open men’s singles title?",
+        "o": [
+          "Roger Federer",
+          "Marat Safin",
+          "Thomas Johansson",
+          "Novak Djokovic"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2006 Australian Open women’s singles title?",
+        "o": [
+          "Victoria Azarenka",
+          "Angelique Kerber",
+          "Justine Henin",
+          "Amélie Mauresmo"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which tour tier does the Halle Open belong to?",
+        "o": [
+          "ATP 500",
+          "ATP Masters 1000",
+          "Grand Slam",
+          "ATP 250"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 2005 Fed Cup?",
+        "o": [
+          "United States",
+          "Russia",
+          "Spain",
+          "France"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who was Kateřina Siniaková’s most successful doubles partner?",
+        "o": [
+          "Matthew Ebden",
+          "Austin Krajicek",
+          "Barbora Krejčíková",
+          "Jamie Murray"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In tennis, how long is a tennis court in feet?",
+        "o": [
+          "3.5 feet",
+          "3 feet",
+          "27 feet",
+          "78 feet"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2003 Australian Open men’s singles title?",
+        "o": [
+          "Andre Agassi",
+          "Novak Djokovic",
+          "Rafael Nadal",
+          "Stan Wawrinka"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2007 Australian Open women’s singles title?",
+        "o": [
+          "Angelique Kerber",
+          "Serena Williams",
+          "Justine Henin",
+          "Amélie Mauresmo"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which tour tier does the Queen's Club Championships belong to?",
+        "o": [
+          "ATP 250",
+          "ATP Masters 1000",
+          "ATP 500",
+          "Grand Slam"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 2006 Fed Cup?",
+        "o": [
+          "Spain",
+          "France",
+          "Russia",
+          "Italy"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who was Elise Mertens’s most successful doubles partner?",
+        "o": [
+          "Aryna Sabalenka",
+          "Matthew Ebden",
+          "Austin Krajicek",
+          "Jamie Murray"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2004 Australian Open men’s singles title?",
+        "o": [
+          "Andre Agassi",
+          "Roger Federer",
+          "Thomas Johansson",
+          "Marat Safin"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2008 Australian Open women’s singles title?",
+        "o": [
+          "Amélie Mauresmo",
+          "Victoria Azarenka",
+          "Maria Sharapova",
+          "Angelique Kerber"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which tour tier does the Rotterdam Open belong to?",
+        "o": [
+          "Grand Slam",
+          "ATP 250",
+          "ATP Masters 1000",
+          "ATP 500"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which nation won the 2007 Fed Cup?",
+        "o": [
+          "Russia",
+          "France",
+          "Italy",
+          "United States"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who was Rohan Bopanna’s most successful doubles partner?",
+        "o": [
+          "Aryna Sabalenka",
+          "Matthew Ebden",
+          "Austin Krajicek",
+          "Jamie Murray"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2005 Australian Open men’s singles title?",
+        "o": [
+          "Thomas Johansson",
+          "Roger Federer",
+          "Marat Safin",
+          "Novak Djokovic"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2009 Australian Open women’s singles title?",
+        "o": [
+          "Justine Henin",
+          "Amélie Mauresmo",
+          "Maria Sharapova",
+          "Serena Williams"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which tour tier does the Swiss Indoors belong to?",
+        "o": [
+          "ATP 500",
+          "ATP Masters 1000",
+          "Grand Slam",
+          "ATP 250"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 2008 Fed Cup?",
+        "o": [
+          "Spain",
+          "Russia",
+          "France",
+          "Italy"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who was Ivan Dodig’s most successful doubles partner?",
+        "o": [
+          "Matthew Ebden",
+          "Jamie Murray",
+          "Austin Krajicek",
+          "Joe Salisbury"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2006 Australian Open men’s singles title?",
+        "o": [
+          "Marat Safin",
+          "Novak Djokovic",
+          "Rafael Nadal",
+          "Roger Federer"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2010 Australian Open women’s singles title?",
+        "o": [
+          "Serena Williams",
+          "Justine Henin",
+          "Amélie Mauresmo",
+          "Maria Sharapova"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which city is the Rome Masters played?",
+        "o": [
+          "Roquebrune-Cap-Martin",
+          "Rome",
+          "Toronto and Montreal",
+          "Halle"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which nation won the 2009 Fed Cup?",
+        "o": [
+          "United States",
+          "Spain",
+          "Italy",
+          "France"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2007 Australian Open men’s singles title?",
+        "o": [
+          "Stan Wawrinka",
+          "Andre Agassi",
+          "Thomas Johansson",
+          "Roger Federer"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2012 Australian Open women’s singles title?",
+        "o": [
+          "Victoria Azarenka",
+          "Amélie Mauresmo",
+          "Maria Sharapova",
+          "Angelique Kerber"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which city is the Monte-Carlo Masters played?",
+        "o": [
+          "Halle",
+          "Roquebrune-Cap-Martin",
+          "London",
+          "Rome"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2008 Australian Open men’s singles title?",
+        "o": [
+          "Roger Federer",
+          "Marat Safin",
+          "Novak Djokovic",
+          "Rafael Nadal"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2013 Australian Open women’s singles title?",
+        "o": [
+          "Angelique Kerber",
+          "Justine Henin",
+          "Serena Williams",
+          "Victoria Azarenka"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In which city is the Canadian Open played?",
+        "o": [
+          "Toronto and Montreal",
+          "Rome",
+          "Roquebrune-Cap-Martin",
+          "Halle"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2009 Australian Open men’s singles title?",
+        "o": [
+          "Novak Djokovic",
+          "Rafael Nadal",
+          "Stan Wawrinka",
+          "Andre Agassi"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2015 Australian Open women’s singles title?",
+        "o": [
+          "Victoria Azarenka",
+          "Angelique Kerber",
+          "Serena Williams",
+          "Justine Henin"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which city is the Halle Open played?",
+        "o": [
+          "London",
+          "Rome",
+          "Roquebrune-Cap-Martin",
+          "Halle"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2010 Australian Open men’s singles title?",
+        "o": [
+          "Roger Federer",
+          "Thomas Johansson",
+          "Marat Safin",
+          "Novak Djokovic"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2016 Australian Open women’s singles title?",
+        "o": [
+          "Amélie Mauresmo",
+          "Angelique Kerber",
+          "Maria Sharapova",
+          "Victoria Azarenka"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which city is the Queen's Club Championships played?",
+        "o": [
+          "Rome",
+          "Roquebrune-Cap-Martin",
+          "London",
+          "Toronto and Montreal"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2011 Australian Open men’s singles title?",
+        "o": [
+          "Rafael Nadal",
+          "Stan Wawrinka",
+          "Andre Agassi",
+          "Novak Djokovic"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2017 Australian Open women’s singles title?",
+        "o": [
+          "Serena Williams",
+          "Maria Sharapova",
+          "Victoria Azarenka",
+          "Angelique Kerber"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2012 Australian Open men’s singles title?",
+        "o": [
+          "Stan Wawrinka",
+          "Novak Djokovic",
+          "Andre Agassi",
+          "Thomas Johansson"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 2000 as the WTA year-end world No. 1?",
+        "o": [
+          "Lindsay Davenport",
+          "Serena Williams",
+          "Martina Hingis",
+          "Justine Henin"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2013 Australian Open men’s singles title?",
+        "o": [
+          "Andre Agassi",
+          "Thomas Johansson",
+          "Roger Federer",
+          "Novak Djokovic"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 2001 as the WTA year-end world No. 1?",
+        "o": [
+          "Lindsay Davenport",
+          "Justine Henin",
+          "Jelena Janković",
+          "Martina Hingis"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2014 Australian Open men’s singles title?",
+        "o": [
+          "Marat Safin",
+          "Stan Wawrinka",
+          "Novak Djokovic",
+          "Rafael Nadal"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 2002 as the WTA year-end world No. 1?",
+        "o": [
+          "Martina Hingis",
+          "Lindsay Davenport",
+          "Serena Williams",
+          "Justine Henin"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2015 Australian Open men’s singles title?",
+        "o": [
+          "Rafael Nadal",
+          "Stan Wawrinka",
+          "Andre Agassi",
+          "Novak Djokovic"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 2003 as the WTA year-end world No. 1?",
+        "o": [
+          "Justine Henin",
+          "Jelena Janković",
+          "Martina Hingis",
+          "Lindsay Davenport"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2016 Australian Open men’s singles title?",
+        "o": [
+          "Stan Wawrinka",
+          "Novak Djokovic",
+          "Andre Agassi",
+          "Thomas Johansson"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 2004 as the WTA year-end world No. 1?",
+        "o": [
+          "Serena Williams",
+          "Justine Henin",
+          "Lindsay Davenport",
+          "Jelena Janković"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2018 Australian Open men’s singles title?",
+        "o": [
+          "Thomas Johansson",
+          "Marat Safin",
+          "Novak Djokovic",
+          "Roger Federer"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 2005 as the WTA year-end world No. 1?",
+        "o": [
+          "Lindsay Davenport",
+          "Justine Henin",
+          "Jelena Janković",
+          "Martina Hingis"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2019 Australian Open men’s singles title?",
+        "o": [
+          "Roger Federer",
+          "Novak Djokovic",
+          "Marat Safin",
+          "Rafael Nadal"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 2006 as the WTA year-end world No. 1?",
+        "o": [
+          "Martina Hingis",
+          "Lindsay Davenport",
+          "Justine Henin",
+          "Serena Williams"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2020 Australian Open men’s singles title?",
+        "o": [
+          "Andre Agassi",
+          "Thomas Johansson",
+          "Roger Federer",
+          "Novak Djokovic"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 2007 as the WTA year-end world No. 1?",
+        "o": [
+          "Justine Henin",
+          "Jelena Janković",
+          "Martina Hingis",
+          "Lindsay Davenport"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2017 Shanghai Masters?",
+        "o": [
+          "Daniil Medvedev",
+          "Roger Federer",
+          "Hubert Hurkacz",
+          "Jannik Sinner"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 2008 as the WTA year-end world No. 1?",
+        "o": [
+          "Lindsay Davenport",
+          "Serena Williams",
+          "Jelena Janković",
+          "Justine Henin"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2018 Shanghai Masters?",
+        "o": [
+          "Hubert Hurkacz",
+          "Jannik Sinner",
+          "Andy Murray",
+          "Novak Djokovic"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 2009 as the WTA year-end world No. 1?",
+        "o": [
+          "Serena Williams",
+          "Lindsay Davenport",
+          "Justine Henin",
+          "Jelena Janković"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2019 Shanghai Masters?",
+        "o": [
+          "Novak Djokovic",
+          "Daniil Medvedev",
+          "Hubert Hurkacz",
+          "Jannik Sinner"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2023 Shanghai Masters?",
+        "o": [
+          "Novak Djokovic",
+          "Daniil Medvedev",
+          "Hubert Hurkacz",
+          "Jannik Sinner"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2024 Shanghai Masters?",
+        "o": [
+          "Roger Federer",
+          "Novak Djokovic",
+          "Daniil Medvedev",
+          "Jannik Sinner"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2014 Paris Masters?",
+        "o": [
+          "Novak Djokovic",
+          "Roger Federer",
+          "Daniil Medvedev",
+          "Hubert Hurkacz"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2015 Paris Masters?",
+        "o": [
+          "Alexander Zverev",
+          "Novak Djokovic",
+          "Roger Federer",
+          "Daniil Medvedev"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2016 Paris Masters?",
+        "o": [
+          "Novak Djokovic",
+          "Daniil Medvedev",
+          "Andy Murray",
+          "Hubert Hurkacz"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2017 Paris Masters?",
+        "o": [
+          "Jannik Sinner",
+          "Andy Murray",
+          "Karen Khachanov",
+          "Jack Sock"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2018 Paris Masters?",
+        "o": [
+          "Karen Khachanov",
+          "Hubert Hurkacz",
+          "Jannik Sinner",
+          "Andy Murray"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2019 Paris Masters?",
+        "o": [
+          "Roger Federer",
+          "Novak Djokovic",
+          "Daniil Medvedev",
+          "Hubert Hurkacz"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2020 Paris Masters?",
+        "o": [
+          "Holger Rune",
+          "Alexander Zverev",
+          "Daniil Medvedev",
+          "Roger Federer"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2021 Paris Masters?",
+        "o": [
+          "Jack Sock",
+          "Karen Khachanov",
+          "Holger Rune",
+          "Novak Djokovic"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2022 Paris Masters?",
+        "o": [
+          "Holger Rune",
+          "Novak Djokovic",
+          "Daniil Medvedev",
+          "Hubert Hurkacz"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2023 Paris Masters?",
+        "o": [
+          "Alexander Zverev",
+          "Novak Djokovic",
+          "Roger Federer",
+          "Daniil Medvedev"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2024 Paris Masters?",
+        "o": [
+          "Karen Khachanov",
+          "Holger Rune",
+          "Alexander Zverev",
+          "Roger Federer"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 2000 Wimbledon men’s singles final?",
+        "o": [
+          "Roger Federer",
+          "David Nalbandian",
+          "Mark Philippoussis",
+          "Patrick Rafter"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who lost the 2001 Wimbledon men’s singles final?",
+        "o": [
+          "Patrick Rafter",
+          "Andy Roddick",
+          "Rafael Nadal",
+          "Roger Federer"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who lost the 2002 Wimbledon men’s singles final?",
+        "o": [
+          "Andy Roddick",
+          "David Nalbandian",
+          "Rafael Nadal",
+          "Roger Federer"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who lost the 2003 Wimbledon men’s singles final?",
+        "o": [
+          "Roger Federer",
+          "Patrick Rafter",
+          "Mark Philippoussis",
+          "David Nalbandian"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 2004 Wimbledon men’s singles final?",
+        "o": [
+          "David Nalbandian",
+          "Mark Philippoussis",
+          "Rafael Nadal",
+          "Andy Roddick"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who lost the 2005 Wimbledon men’s singles final?",
+        "o": [
+          "Andy Roddick",
+          "David Nalbandian",
+          "Mark Philippoussis",
+          "Rafael Nadal"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who lost the 2006 Wimbledon men’s singles final?",
+        "o": [
+          "David Nalbandian",
+          "Rafael Nadal",
+          "Mark Philippoussis",
+          "Andy Roddick"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who lost the 2007 Wimbledon men’s singles final?",
+        "o": [
+          "Patrick Rafter",
+          "David Nalbandian",
+          "Rafael Nadal",
+          "Mark Philippoussis"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 2009 Wimbledon men’s singles final?",
+        "o": [
+          "Patrick Rafter",
+          "David Nalbandian",
+          "Mark Philippoussis",
+          "Andy Roddick"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who lost the 2006 French Open men’s singles final?",
+        "o": [
+          "Roger Federer",
+          "Rafael Nadal",
+          "Patrick Rafter",
+          "David Nalbandian"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who lost the 2007 French Open men’s singles final?",
+        "o": [
+          "David Nalbandian",
+          "Roger Federer",
+          "Mark Philippoussis",
+          "Andy Roddick"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who lost the 2008 French Open men’s singles final?",
+        "o": [
+          "Rafael Nadal",
+          "Patrick Rafter",
+          "Roger Federer",
+          "David Nalbandian"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 2011 French Open men’s singles final?",
+        "o": [
+          "David Nalbandian",
+          "Mark Philippoussis",
+          "Andy Roddick",
+          "Roger Federer"
+        ],
+        "a": 3
+      }
+    ],
+    "4": [
+      {
+        "p": "Who won the 1983 Australian Open men’s singles title?",
+        "o": [
+          "Mats Wilander",
+          "Petr Korda",
+          "Yevgeny Kafelnikov",
+          "Stefan Edberg"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1987 French Open women’s singles title?",
+        "o": [
+          "Monica Seles",
+          "Steffi Graf",
+          "Iva Majoli",
+          "Arantxa Sánchez Vicario"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who holds the record for the first player to win a Golden Slam?",
+        "o": [
+          "Virginia Wade",
+          "Bill Bowrey",
+          "Steffi Graf",
+          "Billie Jean King"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1996 Fed Cup?",
+        "o": [
+          "Spain",
+          "Belgium",
+          "Slovakia",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2019 French Open men’s doubles title?",
+        "o": [
+          "Krawietz and Mies",
+          "Arévalo and Pavić",
+          "Herbert and Mahut",
+          "Arévalo and Rojer"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In tennis, how wide is a singles court in feet?",
+        "o": [
+          "39 feet",
+          "27 feet",
+          "36 feet",
+          "21 feet"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2021 Wimbledon men's wheelchair singles title?",
+        "o": [
+          "Diede de Groot",
+          "Shingo Kunieda",
+          "Joachim Gérard",
+          "Yui Kamiji"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1984 Australian Open men’s singles title?",
+        "o": [
+          "Jim Courier",
+          "Pete Sampras",
+          "Andre Agassi",
+          "Mats Wilander"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1988 French Open women’s singles title?",
+        "o": [
+          "Steffi Graf",
+          "Monica Seles",
+          "Iva Majoli",
+          "Arantxa Sánchez Vicario"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who holds the record for the first Open Era Australian Open men's champion?",
+        "o": [
+          "Billie Jean King",
+          "Bill Bowrey",
+          "Nancy Richey",
+          "Virginia Wade"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which nation won the 1997 Fed Cup?",
+        "o": [
+          "Spain",
+          "Belgium",
+          "France",
+          "Slovakia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2020 French Open men’s doubles title?",
+        "o": [
+          "Arévalo and Pavić",
+          "Herbert and Mahut",
+          "Arévalo and Rojer",
+          "Krawietz and Mies"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In tennis, how wide is a doubles court in feet?",
+        "o": [
+          "36 feet",
+          "78 feet",
+          "39 feet",
+          "27 feet"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2021 Wimbledon women's wheelchair singles title?",
+        "o": [
+          "Shingo Kunieda",
+          "Diede de Groot",
+          "Yui Kamiji",
+          "Joachim Gérard"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1985 Australian Open men’s singles title?",
+        "o": [
+          "Ivan Lendl",
+          "Boris Becker",
+          "Stefan Edberg",
+          "Jim Courier"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1989 French Open women’s singles title?",
+        "o": [
+          "Iva Majoli",
+          "Steffi Graf",
+          "Monica Seles",
+          "Arantxa Sánchez Vicario"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who holds the record for the first Open Era Wimbledon women's champion?",
+        "o": [
+          "Billie Jean King",
+          "Virginia Wade",
+          "Steffi Graf",
+          "Bill Bowrey"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1998 Fed Cup?",
+        "o": [
+          "Belgium",
+          "Spain",
+          "Slovakia",
+          "United States"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2021 French Open men’s doubles title?",
+        "o": [
+          "Krawietz and Mies",
+          "Arévalo and Rojer",
+          "Herbert and Mahut",
+          "Dodig and Krajicek"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In tennis, how long is each service box in feet?",
+        "o": [
+          "78 feet",
+          "39 feet",
+          "27 feet",
+          "21 feet"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1987 Australian Open men’s singles title?",
+        "o": [
+          "Stefan Edberg",
+          "Jim Courier",
+          "Pete Sampras",
+          "Andre Agassi"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1990 French Open women’s singles title?",
+        "o": [
+          "Steffi Graf",
+          "Monica Seles",
+          "Arantxa Sánchez Vicario",
+          "Iva Majoli"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who holds the record for the first Open Era Roland-Garros women's champion?",
+        "o": [
+          "Bill Bowrey",
+          "Billie Jean King",
+          "Nancy Richey",
+          "Virginia Wade"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1999 Fed Cup?",
+        "o": [
+          "France",
+          "Spain",
+          "Belgium",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2022 French Open men’s doubles title?",
+        "o": [
+          "Arévalo and Rojer",
+          "Krawietz and Mies",
+          "Herbert and Mahut",
+          "Dodig and Krajicek"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1988 Australian Open men’s singles title?",
+        "o": [
+          "Yevgeny Kafelnikov",
+          "Mats Wilander",
+          "Stefan Edberg",
+          "Ivan Lendl"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1991 French Open women’s singles title?",
+        "o": [
+          "Arantxa Sánchez Vicario",
+          "Iva Majoli",
+          "Monica Seles",
+          "Steffi Graf"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who holds the record for the first Open Era US Open women's champion?",
+        "o": [
+          "Billie Jean King",
+          "Nancy Richey",
+          "Steffi Graf",
+          "Virginia Wade"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which nation won the 2000 Fed Cup?",
+        "o": [
+          "United States",
+          "Belgium",
+          "Slovakia",
+          "France"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2023 French Open men’s doubles title?",
+        "o": [
+          "Krawietz and Mies",
+          "Dodig and Krajicek",
+          "Herbert and Mahut",
+          "Arévalo and Rojer"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1989 Australian Open men’s singles title?",
+        "o": [
+          "Petr Korda",
+          "Yevgeny Kafelnikov",
+          "Ivan Lendl",
+          "Mats Wilander"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1992 French Open women’s singles title?",
+        "o": [
+          "Iva Majoli",
+          "Steffi Graf",
+          "Arantxa Sánchez Vicario",
+          "Monica Seles"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who holds the record for the first Open Era Australian Open women's champion?",
+        "o": [
+          "Billie Jean King",
+          "Bill Bowrey",
+          "Nancy Richey",
+          "Virginia Wade"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 2001 Fed Cup?",
+        "o": [
+          "United States",
+          "Belgium",
+          "France",
+          "Spain"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2024 French Open men’s doubles title?",
+        "o": [
+          "Krawietz and Mies",
+          "Herbert and Mahut",
+          "Arévalo and Pavić",
+          "Arévalo and Rojer"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1990 Australian Open men’s singles title?",
+        "o": [
+          "Mats Wilander",
+          "Stefan Edberg",
+          "Boris Becker",
+          "Ivan Lendl"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1993 French Open women’s singles title?",
+        "o": [
+          "Steffi Graf",
+          "Iva Majoli",
+          "Arantxa Sánchez Vicario",
+          "Monica Seles"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What is the record for games in the 2010 Isner-Mahut fifth set?",
+        "o": [
+          "11",
+          "138",
+          "24",
+          "23"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which nation won the 2002 Fed Cup?",
+        "o": [
+          "United States",
+          "France",
+          "Slovakia",
+          "Spain"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1991 Australian Open men’s singles title?",
+        "o": [
+          "Stefan Edberg",
+          "Ivan Lendl",
+          "Jim Courier",
+          "Boris Becker"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1994 French Open women’s singles title?",
+        "o": [
+          "Arantxa Sánchez Vicario",
+          "Monica Seles",
+          "Iva Majoli",
+          "Steffi Graf"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What is the record for aces by John Isner against Nicolas Mahut?",
+        "o": [
+          "138",
+          "113",
+          "11",
+          "24"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1992 Australian Open men’s singles title?",
+        "o": [
+          "Petr Korda",
+          "Yevgeny Kafelnikov",
+          "Jim Courier",
+          "Mats Wilander"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1995 French Open women’s singles title?",
+        "o": [
+          "Arantxa Sánchez Vicario",
+          "Monica Seles",
+          "Iva Majoli",
+          "Steffi Graf"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What is the record for the length of the 2010 Isner-Mahut match in hours?",
+        "o": [
+          "11",
+          "113",
+          "24",
+          "23"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1993 Australian Open men’s singles title?",
+        "o": [
+          "Andre Agassi",
+          "Jim Courier",
+          "Petr Korda",
+          "Yevgeny Kafelnikov"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1996 French Open women’s singles title?",
+        "o": [
+          "Iva Majoli",
+          "Arantxa Sánchez Vicario",
+          "Steffi Graf",
+          "Monica Seles"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What is the record for Grand Slam singles titles won by Margaret Court?",
+        "o": [
+          "138",
+          "113",
+          "11",
+          "24"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1994 Australian Open men’s singles title?",
+        "o": [
+          "Pete Sampras",
+          "Petr Korda",
+          "Yevgeny Kafelnikov",
+          "Mats Wilander"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1997 French Open women’s singles title?",
+        "o": [
+          "Arantxa Sánchez Vicario",
+          "Iva Majoli",
+          "Monica Seles",
+          "Steffi Graf"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What is the record for Grand Slam singles titles won by Serena Williams?",
+        "o": [
+          "113",
+          "11",
+          "23",
+          "24"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1995 Australian Open men’s singles title?",
+        "o": [
+          "Jim Courier",
+          "Pete Sampras",
+          "Petr Korda",
+          "Andre Agassi"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1998 French Open women’s singles title?",
+        "o": [
+          "Arantxa Sánchez Vicario",
+          "Monica Seles",
+          "Iva Majoli",
+          "Steffi Graf"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1996 Australian Open men’s singles title?",
+        "o": [
+          "Ivan Lendl",
+          "Boris Becker",
+          "Jim Courier",
+          "Pete Sampras"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 1987 as the WTA year-end world No. 1?",
+        "o": [
+          "Martina Hingis",
+          "Lindsay Davenport",
+          "Steffi Graf",
+          "Monica Seles"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1997 Australian Open men’s singles title?",
+        "o": [
+          "Stefan Edberg",
+          "Ivan Lendl",
+          "Boris Becker",
+          "Pete Sampras"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 1988 as the WTA year-end world No. 1?",
+        "o": [
+          "Steffi Graf",
+          "Martina Hingis",
+          "Lindsay Davenport",
+          "Monica Seles"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1998 Australian Open men’s singles title?",
+        "o": [
+          "Pete Sampras",
+          "Petr Korda",
+          "Andre Agassi",
+          "Yevgeny Kafelnikov"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 1989 as the WTA year-end world No. 1?",
+        "o": [
+          "Martina Hingis",
+          "Lindsay Davenport",
+          "Steffi Graf",
+          "Monica Seles"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1999 Australian Open men’s singles title?",
+        "o": [
+          "Pete Sampras",
+          "Andre Agassi",
+          "Petr Korda",
+          "Yevgeny Kafelnikov"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 1990 as the WTA year-end world No. 1?",
+        "o": [
+          "Steffi Graf",
+          "Monica Seles",
+          "Martina Hingis",
+          "Lindsay Davenport"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1985 French Open men’s singles title?",
+        "o": [
+          "Pete Sampras",
+          "Mats Wilander",
+          "Andre Agassi",
+          "Petr Korda"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 1991 as the WTA year-end world No. 1?",
+        "o": [
+          "Martina Hingis",
+          "Lindsay Davenport",
+          "Monica Seles",
+          "Steffi Graf"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1986 French Open men’s singles title?",
+        "o": [
+          "Andre Agassi",
+          "Petr Korda",
+          "Yevgeny Kafelnikov",
+          "Ivan Lendl"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 1992 as the WTA year-end world No. 1?",
+        "o": [
+          "Monica Seles",
+          "Martina Hingis",
+          "Lindsay Davenport",
+          "Steffi Graf"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1987 French Open men’s singles title?",
+        "o": [
+          "Pete Sampras",
+          "Ivan Lendl",
+          "Andre Agassi",
+          "Petr Korda"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 1993 as the WTA year-end world No. 1?",
+        "o": [
+          "Lindsay Davenport",
+          "Monica Seles",
+          "Steffi Graf",
+          "Martina Hingis"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1988 French Open men’s singles title?",
+        "o": [
+          "Jim Courier",
+          "Pete Sampras",
+          "Andre Agassi",
+          "Mats Wilander"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 1995 as the WTA year-end world No. 1?",
+        "o": [
+          "Steffi Graf",
+          "Lindsay Davenport",
+          "Monica Seles",
+          "Martina Hingis"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who lost the 1980 Wimbledon men’s singles final?",
+        "o": [
+          "Jimmy Connors",
+          "John McEnroe",
+          "Kevin Curren",
+          "Boris Becker"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 1997 as the WTA year-end world No. 1?",
+        "o": [
+          "Steffi Graf",
+          "Monica Seles",
+          "Martina Hingis",
+          "Lindsay Davenport"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 1981 Wimbledon men’s singles final?",
+        "o": [
+          "Stefan Edberg",
+          "Goran Ivanišević",
+          "Andre Agassi",
+          "Björn Borg"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 1998 as the WTA year-end world No. 1?",
+        "o": [
+          "Lindsay Davenport",
+          "Steffi Graf",
+          "Monica Seles",
+          "Martina Hingis"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who lost the 1984 Wimbledon men’s singles final?",
+        "o": [
+          "Kevin Curren",
+          "Jimmy Connors",
+          "Boris Becker",
+          "Stefan Edberg"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who lost the 1985 Wimbledon men’s singles final?",
+        "o": [
+          "Goran Ivanišević",
+          "Andre Agassi",
+          "Kevin Curren",
+          "John McEnroe"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 1988 Wimbledon men’s singles final?",
+        "o": [
+          "Kevin Curren",
+          "Stefan Edberg",
+          "Goran Ivanišević",
+          "Boris Becker"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who lost the 1989 Wimbledon men’s singles final?",
+        "o": [
+          "Stefan Edberg",
+          "Boris Becker",
+          "Goran Ivanišević",
+          "Andre Agassi"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who lost the 1990 Wimbledon men’s singles final?",
+        "o": [
+          "Stefan Edberg",
+          "Boris Becker",
+          "Goran Ivanišević",
+          "Andre Agassi"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who lost the 1992 Wimbledon men’s singles final?",
+        "o": [
+          "Boris Becker",
+          "Stefan Edberg",
+          "Goran Ivanišević",
+          "Andre Agassi"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 1994 Wimbledon men’s singles final?",
+        "o": [
+          "Kevin Curren",
+          "Boris Becker",
+          "Stefan Edberg",
+          "Goran Ivanišević"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who lost the 1995 Wimbledon men’s singles final?",
+        "o": [
+          "Boris Becker",
+          "Björn Borg",
+          "Jimmy Connors",
+          "Kevin Curren"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who lost the 1998 Wimbledon men’s singles final?",
+        "o": [
+          "Boris Becker",
+          "Goran Ivanišević",
+          "Stefan Edberg",
+          "Andre Agassi"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who lost the 1999 Wimbledon men’s singles final?",
+        "o": [
+          "Björn Borg",
+          "Jimmy Connors",
+          "Andre Agassi",
+          "Kevin Curren"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 1989 French Open men’s singles final?",
+        "o": [
+          "Andre Agassi",
+          "John McEnroe",
+          "Björn Borg",
+          "Stefan Edberg"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who lost the 1991 French Open men’s singles final?",
+        "o": [
+          "Andre Agassi",
+          "Kevin Curren",
+          "Boris Becker",
+          "Stefan Edberg"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who finished 1973 as the ATP year-end world No. 1?",
+        "o": [
+          "Jimmy Connors",
+          "Ilie Năstase",
+          "Björn Borg",
+          "John McEnroe"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 1974 as the ATP year-end world No. 1?",
+        "o": [
+          "Ilie Năstase",
+          "Björn Borg",
+          "Jimmy Connors",
+          "John McEnroe"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who finished 1975 as the ATP year-end world No. 1?",
+        "o": [
+          "John McEnroe",
+          "Guillermo Vilas",
+          "Ken Rosewall",
+          "Jimmy Connors"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 1976 as the ATP year-end world No. 1?",
+        "o": [
+          "Jimmy Connors",
+          "Björn Borg",
+          "John McEnroe",
+          "Guillermo Vilas"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who finished 1977 as the ATP year-end world No. 1?",
+        "o": [
+          "Guillermo Vilas",
+          "Jimmy Connors",
+          "Ken Rosewall",
+          "Ilie Năstase"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 1978 as the ATP year-end world No. 1?",
+        "o": [
+          "Guillermo Vilas",
+          "Ken Rosewall",
+          "Jimmy Connors",
+          "Ilie Năstase"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who finished 1979 as the ATP year-end world No. 1?",
+        "o": [
+          "Ken Rosewall",
+          "Ilie Năstase",
+          "Jimmy Connors",
+          "Björn Borg"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1990 ATP Finals?",
+        "o": [
+          "Andre Agassi",
+          "Pete Sampras",
+          "Boris Becker",
+          "Michael Stich"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1991 ATP Finals?",
+        "o": [
+          "Boris Becker",
+          "Pete Sampras",
+          "Michael Stich",
+          "Andre Agassi"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1992 ATP Finals?",
+        "o": [
+          "Andre Agassi",
+          "Pete Sampras",
+          "Boris Becker",
+          "Michael Stich"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1993 ATP Finals?",
+        "o": [
+          "Andre Agassi",
+          "Pete Sampras",
+          "Boris Becker",
+          "Michael Stich"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1994 ATP Finals?",
+        "o": [
+          "Pete Sampras",
+          "Boris Becker",
+          "Michael Stich",
+          "Andre Agassi"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1995 ATP Finals?",
+        "o": [
+          "Pete Sampras",
+          "Boris Becker",
+          "Michael Stich",
+          "Andre Agassi"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1996 ATP Finals?",
+        "o": [
+          "Michael Stich",
+          "Andre Agassi",
+          "Pete Sampras",
+          "Boris Becker"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1997 ATP Finals?",
+        "o": [
+          "Andre Agassi",
+          "Boris Becker",
+          "Michael Stich",
+          "Pete Sampras"
+        ],
+        "a": 3
+      }
+    ],
+    "5": [
+      {
+        "p": "Who won the 1968 Australian Open men’s singles title?",
+        "o": [
+          "Bill Bowrey",
+          "Mark Edmondson",
+          "Guillermo Vilas",
+          "Brian Teacher"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1970 US Open women’s singles title?",
+        "o": [
+          "Chris Evert",
+          "Margaret Court",
+          "Tracy Austin",
+          "Billie Jean King"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Rotterdam Open?",
+        "o": [
+          "Germany",
+          "Spain",
+          "Netherlands",
+          "Sweden"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1963 Fed Cup?",
+        "o": [
+          "Czechoslovakia",
+          "South Africa",
+          "United Kingdom",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2019 French Open women’s doubles title?",
+        "o": [
+          "Babos and Mladenovic",
+          "Garcia and Mladenovic",
+          "Hsieh and Wang",
+          "Errani and Paolini"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In tennis, how many seeds are in a Grand Slam singles draw?",
+        "o": [
+          "64",
+          "32",
+          "8",
+          "128"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2019 Wimbledon men's wheelchair singles title?",
+        "o": [
+          "Shingo Kunieda",
+          "Aniek van Koot",
+          "Gustavo Fernández",
+          "Diede de Groot"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1969 Australian Open men’s singles title?",
+        "o": [
+          "Adriano Panatta",
+          "Bill Bowrey",
+          "Arthur Ashe",
+          "Rod Laver"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1971 US Open women’s singles title?",
+        "o": [
+          "Billie Jean King",
+          "Tracy Austin",
+          "Margaret Court",
+          "Chris Evert"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country hosts the Vienna Open?",
+        "o": [
+          "Spain",
+          "Austria",
+          "Sweden",
+          "France"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which nation won the 1964 Fed Cup?",
+        "o": [
+          "South Africa",
+          "United Kingdom",
+          "Australia",
+          "United States"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2020 French Open women’s doubles title?",
+        "o": [
+          "Garcia and Mladenovic",
+          "Hsieh and Wang",
+          "Errani and Paolini",
+          "Babos and Mladenovic"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In tennis, how many players are in a Grand Slam singles draw?",
+        "o": [
+          "128",
+          "4",
+          "16",
+          "64"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2019 Wimbledon women's wheelchair singles title?",
+        "o": [
+          "Shingo Kunieda",
+          "Aniek van Koot",
+          "Gustavo Fernández",
+          "Diede de Groot"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1970 Australian Open men’s singles title?",
+        "o": [
+          "Ken Rosewall",
+          "John Newcombe",
+          "Arthur Ashe",
+          "Mark Edmondson"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1972 US Open women’s singles title?",
+        "o": [
+          "Margaret Court",
+          "Chris Evert",
+          "Tracy Austin",
+          "Billie Jean King"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Hamburg Open?",
+        "o": [
+          "Germany",
+          "Netherlands",
+          "Austria",
+          "Spain"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1965 Fed Cup?",
+        "o": [
+          "Czechoslovakia",
+          "Australia",
+          "South Africa",
+          "United Kingdom"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2021 French Open women’s doubles title?",
+        "o": [
+          "Hsieh and Wang",
+          "Errani and Paolini",
+          "Krejčíková and Siniaková",
+          "Babos and Mladenovic"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In tennis, how many Grand Slam tournaments are held each year?",
+        "o": [
+          "64",
+          "8",
+          "32",
+          "4"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1971 Australian Open men’s singles title?",
+        "o": [
+          "Ken Rosewall",
+          "Johan Kriek",
+          "Jan Kodeš",
+          "Ilie Năstase"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1973 US Open women’s singles title?",
+        "o": [
+          "Billie Jean King",
+          "Margaret Court",
+          "Chris Evert",
+          "Tracy Austin"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Marbella Open?",
+        "o": [
+          "Austria",
+          "Germany",
+          "Spain",
+          "Sweden"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1966 Fed Cup?",
+        "o": [
+          "South Africa",
+          "United Kingdom",
+          "Australia",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2022 French Open women’s doubles title?",
+        "o": [
+          "Garcia and Mladenovic",
+          "Errani and Paolini",
+          "Babos and Mladenovic",
+          "Krejčíková and Siniaková"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1972 Australian Open men’s singles title?",
+        "o": [
+          "Jan Kodeš",
+          "Ken Rosewall",
+          "Ilie Năstase",
+          "Adriano Panatta"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1974 US Open women’s singles title?",
+        "o": [
+          "Tracy Austin",
+          "Margaret Court",
+          "Billie Jean King",
+          "Chris Evert"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country hosts the Båstad Open?",
+        "o": [
+          "Austria",
+          "Germany",
+          "Spain",
+          "Sweden"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which nation won the 1970 Fed Cup?",
+        "o": [
+          "Australia",
+          "United Kingdom",
+          "United States",
+          "Czechoslovakia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2023 French Open women’s doubles title?",
+        "o": [
+          "Krejčíková and Siniaková",
+          "Hsieh and Wang",
+          "Garcia and Mladenovic",
+          "Errani and Paolini"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1973 Australian Open men’s singles title?",
+        "o": [
+          "Rod Laver",
+          "Arthur Ashe",
+          "John Newcombe",
+          "Ken Rosewall"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1975 US Open women’s singles title?",
+        "o": [
+          "Tracy Austin",
+          "Margaret Court",
+          "Billie Jean King",
+          "Chris Evert"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Lyon Open?",
+        "o": [
+          "France",
+          "Austria",
+          "Germany",
+          "Spain"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1975 Fed Cup?",
+        "o": [
+          "South Africa",
+          "Czechoslovakia",
+          "United Kingdom",
+          "United States"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2024 French Open women’s doubles title?",
+        "o": [
+          "Krejčíková and Siniaková",
+          "Garcia and Mladenovic",
+          "Errani and Paolini",
+          "Hsieh and Wang"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1975 Australian Open men’s singles title?",
+        "o": [
+          "Arthur Ashe",
+          "Ken Rosewall",
+          "Mark Edmondson",
+          "John Newcombe"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1976 US Open women’s singles title?",
+        "o": [
+          "Chris Evert",
+          "Billie Jean King",
+          "Tracy Austin",
+          "Margaret Court"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which tour tier does the French Open belong to?",
+        "o": [
+          "ATP Masters 1000",
+          "Grand Slam",
+          "ATP 500",
+          "ATP 250"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which nation won the 1980 Fed Cup?",
+        "o": [
+          "South Africa",
+          "United Kingdom",
+          "United States",
+          "Australia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1976 Australian Open men’s singles title?",
+        "o": [
+          "Ilie Năstase",
+          "Adriano Panatta",
+          "Bill Bowrey",
+          "Mark Edmondson"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1977 US Open women’s singles title?",
+        "o": [
+          "Chris Evert",
+          "Billie Jean King",
+          "Tracy Austin",
+          "Margaret Court"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which tour tier does the Wimbledon belong to?",
+        "o": [
+          "ATP 250",
+          "Grand Slam",
+          "WTA 1000",
+          "ATP Masters 1000"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1978 Australian Open men’s singles title?",
+        "o": [
+          "Ken Rosewall",
+          "John Newcombe",
+          "Guillermo Vilas",
+          "Mark Edmondson"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1978 US Open women’s singles title?",
+        "o": [
+          "Billie Jean King",
+          "Tracy Austin",
+          "Margaret Court",
+          "Chris Evert"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which tour tier does the Canadian Open belong to?",
+        "o": [
+          "ATP Masters 1000",
+          "Grand Slam",
+          "ATP 500",
+          "ATP 250"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1979 Australian Open men’s singles title?",
+        "o": [
+          "Mark Edmondson",
+          "Guillermo Vilas",
+          "Brian Teacher",
+          "Johan Kriek"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1979 US Open women’s singles title?",
+        "o": [
+          "Margaret Court",
+          "Billie Jean King",
+          "Tracy Austin",
+          "Chris Evert"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which tour tier does the Cincinnati Masters belong to?",
+        "o": [
+          "Grand Slam",
+          "ATP 500",
+          "ATP 250",
+          "ATP Masters 1000"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1980 Australian Open men’s singles title?",
+        "o": [
+          "Brian Teacher",
+          "Rod Laver",
+          "Arthur Ashe",
+          "Ken Rosewall"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1980 US Open women’s singles title?",
+        "o": [
+          "Billie Jean King",
+          "Chris Evert",
+          "Tracy Austin",
+          "Margaret Court"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which tour tier does the Japan Open belong to?",
+        "o": [
+          "ATP Masters 1000",
+          "ATP 250",
+          "ATP 500",
+          "WTA 1000"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1981 Australian Open men’s singles title?",
+        "o": [
+          "Ken Rosewall",
+          "John Newcombe",
+          "Mark Edmondson",
+          "Johan Kriek"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1981 US Open women’s singles title?",
+        "o": [
+          "Tracy Austin",
+          "Billie Jean King",
+          "Chris Evert",
+          "Margaret Court"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1982 Australian Open men’s singles title?",
+        "o": [
+          "Brian Teacher",
+          "Johan Kriek",
+          "Jan Kodeš",
+          "Ilie Năstase"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 1975 as the WTA year-end world No. 1?",
+        "o": [
+          "Steffi Graf",
+          "Tracy Austin",
+          "Chris Evert",
+          "Evonne Goolagong"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1970 French Open men’s singles title?",
+        "o": [
+          "Brian Teacher",
+          "Johan Kriek",
+          "Ilie Năstase",
+          "Jan Kodeš"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 1976 as the WTA year-end world No. 1?",
+        "o": [
+          "Chris Evert",
+          "Martina Navratilova",
+          "Steffi Graf",
+          "Tracy Austin"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1971 French Open men’s singles title?",
+        "o": [
+          "Brian Teacher",
+          "Jan Kodeš",
+          "Johan Kriek",
+          "Ilie Năstase"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 1977 as the WTA year-end world No. 1?",
+        "o": [
+          "Evonne Goolagong",
+          "Martina Navratilova",
+          "Chris Evert",
+          "Steffi Graf"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1973 French Open men’s singles title?",
+        "o": [
+          "John Newcombe",
+          "Mark Edmondson",
+          "Guillermo Vilas",
+          "Ilie Năstase"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 1978 as the WTA year-end world No. 1?",
+        "o": [
+          "Martina Navratilova",
+          "Chris Evert",
+          "Steffi Graf",
+          "Tracy Austin"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1976 French Open men’s singles title?",
+        "o": [
+          "Bill Bowrey",
+          "Adriano Panatta",
+          "Rod Laver",
+          "Arthur Ashe"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 1979 as the WTA year-end world No. 1?",
+        "o": [
+          "Evonne Goolagong",
+          "Chris Evert",
+          "Martina Navratilova",
+          "Steffi Graf"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1977 French Open men’s singles title?",
+        "o": [
+          "Adriano Panatta",
+          "Bill Bowrey",
+          "Rod Laver",
+          "Guillermo Vilas"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 1980 as the WTA year-end world No. 1?",
+        "o": [
+          "Chris Evert",
+          "Steffi Graf",
+          "Tracy Austin",
+          "Evonne Goolagong"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who lost the 1970 Wimbledon men’s singles final?",
+        "o": [
+          "Jimmy Connors",
+          "Ken Rosewall",
+          "Roscoe Tanner",
+          "Björn Borg"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 1982 as the WTA year-end world No. 1?",
+        "o": [
+          "Steffi Graf",
+          "Tracy Austin",
+          "Martina Navratilova",
+          "Evonne Goolagong"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 1972 Wimbledon men’s singles final?",
+        "o": [
+          "Roscoe Tanner",
+          "Björn Borg",
+          "Ken Rosewall",
+          "Ilie Năstase"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 1983 as the WTA year-end world No. 1?",
+        "o": [
+          "Martina Navratilova",
+          "Tracy Austin",
+          "Evonne Goolagong",
+          "Chris Evert"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who lost the 1974 Wimbledon men’s singles final?",
+        "o": [
+          "Jimmy Connors",
+          "Ken Rosewall",
+          "Roscoe Tanner",
+          "Björn Borg"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who finished 1984 as the WTA year-end world No. 1?",
+        "o": [
+          "Evonne Goolagong",
+          "Chris Evert",
+          "Martina Navratilova",
+          "Steffi Graf"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 1975 Wimbledon men’s singles final?",
+        "o": [
+          "Ilie Năstase",
+          "Roscoe Tanner",
+          "Björn Borg",
+          "Jimmy Connors"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who finished 1985 as the WTA year-end world No. 1?",
+        "o": [
+          "Martina Navratilova",
+          "Chris Evert",
+          "Steffi Graf",
+          "Tracy Austin"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who lost the 1976 Wimbledon men’s singles final?",
+        "o": [
+          "Roscoe Tanner",
+          "Ilie Năstase",
+          "Björn Borg",
+          "Ken Rosewall"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who lost the 1977 Wimbledon men’s singles final?",
+        "o": [
+          "Björn Borg",
+          "Ken Rosewall",
+          "Jimmy Connors",
+          "Ilie Năstase"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 1978 Wimbledon men’s singles final?",
+        "o": [
+          "Roscoe Tanner",
+          "Björn Borg",
+          "Ken Rosewall",
+          "Jimmy Connors"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who lost the 1979 Wimbledon men’s singles final?",
+        "o": [
+          "Roscoe Tanner",
+          "Jimmy Connors",
+          "Björn Borg",
+          "Ken Rosewall"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who lost the 1975 US Open men’s singles final?",
+        "o": [
+          "Björn Borg",
+          "Jimmy Connors",
+          "Ken Rosewall",
+          "Ilie Năstase"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who lost the 1976 US Open men’s singles final?",
+        "o": [
+          "Ilie Năstase",
+          "Jimmy Connors",
+          "Björn Borg",
+          "Roscoe Tanner"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who lost the 1978 US Open men’s singles final?",
+        "o": [
+          "Roscoe Tanner",
+          "Ken Rosewall",
+          "Ilie Năstase",
+          "Björn Borg"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who lost the 1980 US Open men’s singles final?",
+        "o": [
+          "Björn Borg",
+          "Jimmy Connors",
+          "Roscoe Tanner",
+          "Ken Rosewall"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1970 ATP Finals?",
+        "o": [
+          "Manuel Orantes",
+          "Stan Smith",
+          "Jimmy Connors",
+          "John McEnroe"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1971 ATP Finals?",
+        "o": [
+          "Manuel Orantes",
+          "Jimmy Connors",
+          "Ilie Năstase",
+          "John McEnroe"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1972 ATP Finals?",
+        "o": [
+          "Jimmy Connors",
+          "John McEnroe",
+          "Björn Borg",
+          "Ilie Năstase"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1973 ATP Finals?",
+        "o": [
+          "Ilie Năstase",
+          "John McEnroe",
+          "Björn Borg",
+          "Stan Smith"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1974 ATP Finals?",
+        "o": [
+          "Stan Smith",
+          "Guillermo Vilas",
+          "Ilie Năstase",
+          "Manuel Orantes"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1975 ATP Finals?",
+        "o": [
+          "Stan Smith",
+          "Guillermo Vilas",
+          "Ilie Năstase",
+          "Manuel Orantes"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1976 ATP Finals?",
+        "o": [
+          "Ilie Năstase",
+          "Guillermo Vilas",
+          "Jimmy Connors",
+          "Manuel Orantes"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1977 ATP Finals?",
+        "o": [
+          "Jimmy Connors",
+          "Stan Smith",
+          "Ilie Năstase",
+          "Guillermo Vilas"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1978 ATP Finals?",
+        "o": [
+          "Ilie Năstase",
+          "John McEnroe",
+          "Guillermo Vilas",
+          "Manuel Orantes"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1979 ATP Finals?",
+        "o": [
+          "Manuel Orantes",
+          "Jimmy Connors",
+          "Björn Borg",
+          "John McEnroe"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Mark Edmondson represent?",
+        "o": [
+          "Italy",
+          "Poland",
+          "South Africa",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Johan Kriek represent?",
+        "o": [
+          "South Africa",
+          "Australia",
+          "United States",
+          "Mexico"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Brian Teacher represent?",
+        "o": [
+          "South Africa",
+          "United States",
+          "Mexico",
+          "Italy"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Bill Bowrey represent?",
+        "o": [
+          "Mexico",
+          "Italy",
+          "Australia",
+          "Poland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Harold Solomon represent?",
+        "o": [
+          "Mexico",
+          "Italy",
+          "Poland",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Eddie Dibbs represent?",
+        "o": [
+          "United States",
+          "Mexico",
+          "Italy",
+          "Poland"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Raúl Ramírez represent?",
+        "o": [
+          "Australia",
+          "Mexico",
+          "South Africa",
+          "United States"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Corrado Barazzutti represent?",
+        "o": [
+          "United States",
+          "Mexico",
+          "Italy",
+          "Poland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Wojciech Fibak represent?",
+        "o": [
+          "Italy",
+          "Australia",
+          "South Africa",
+          "Poland"
+        ],
+        "a": 3
+      }
+    ]
+  }
+}

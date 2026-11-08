@@ -1,0 +1,18 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-11-06",
+  "kind": "original AI-generated game cover edit",
+  "approval": "reference; created at user request, publication approval not claimed",
+  "scope": "Rename Portfolio Formula to Formula and remake its cover",
+  "covers": [
+    {
+      "id": "portfolio-formula",
+      "title": "FORMULA",
+      "prompt": "Use case: text-localization / precise-object-edit. Edit the supplied game-cover image. The game is renamed to FORMULA. Replace the entire two-line PORTFOLIO FORMULA title treatment with the single exact word FORMULA, spelled F-O-R-M-U-L-A. Make FORMULA a large, beautifully composed single-line white condensed italic racing title in the upper-left sky, with the same turquoise dimensional edge and elegant speed underline, comfortably within 8 percent margins. Remove every instance of the word PORTFOLIO. Keep the turquoise foreground open-wheel racing car, its proportions, driver, all four wheels, the red and white following cars, night circuit, lights, skyline, colors and original polished 3D illustration style unchanged. Rebalance only the title and nearby sky so the one-word title feels intentional and premium. No other text, badges, logos, borders, HUD or watermark. Full-bleed opaque landscape 1536x1024, 3:2.",
+      "filename": "formula.png",
+      "editReference": "../game-covers-2026-11-06/portfolio-formula.png",
+      "sha256": "051911d00c963a8f5e638d8b3f3985833275197831edb1fd5083729f31c0144f",
+      "webpBytes": 220204
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-31",
+  "title": "Racer",
+  "scope": "Local only. No push, remote build or publication.",
+  "url": "http://127.0.0.1:3212/play/racer",
+  "buildId": "86787e75-e744-41dc-837b-47434ca78c9e",
+  "bundleSha256": "a1c840c12b24a5251eb420d29c6365e0e4b491212d29d7892a6dbd66c65f23e4",
+  "bundleBytes": 1753727,
+  "legacyNativeRuntimeInActiveDownload": false,
+  "checks": {
+    "productionBuild": "passed",
+    "typecheck": "passed",
+    "lint": "passed; 3 existing warnings outside Racer",
+    "focusedUnitTests": 17,
+    "deviceCacheUnitTests": 12,
+    "fullBrowserRace": "passed; ordinary input, two laps, 16 checkpoints",
+    "mobileControls": "passed; 851x393, 667x375, 568x320, two-finger steering/boost/cancel",
+    "productionApp": "passed; catalogue, new/old URLs, pause/exit and portrait-phone landscape frame"
+  },
+  "physicalDeviceTested": false,
+  "reports": {
+    "checks.json": [
+      "Authored 3D Racer opens with recovered meshes and no native Unity download or external calls.",
+      "Start, countdown, automatic acceleration and ordinary keyboard steering work.",
+      "Analog steering responds and releases; phone landscape controls fit without a surrounding handheld frame.",
+      "Ordinary keyboard steering/braking/boosting finishes two laps, records checkpoints, result and personal best. Automated play is not human acceptance.",
+      "Reload restores Racer progress; a second account has independent progress.",
+      "Host disposal unmounts the renderer and control listeners."
+    ],
+    "mobile-controls.json": [
+      "Two fingers can steer and boost together; cancellation clears both inputs.",
+      "Larger controls fit 851\u00d7393, 667\u00d7375 and 568\u00d7320; manual acceleration keeps telemetry clear.",
+      "Quick Race remains fully visible on the smallest tested landscape screen."
+    ],
+    "app-checks.json": [
+      "Production catalogue launches RACER at /play/racer with the new cover and no nested native client.",
+      "Production play/pause and sport-page exit work through the account-owned host.",
+      "The old /play/f1-racing address launches Racer compatibly.",
+      "A portrait phone enters the real app landscape surface with the enlarged touch controls."
+    ]
+  }
+}

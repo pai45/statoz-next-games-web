@@ -1,0 +1,26 @@
+{
+  "tool": "Built-in image_gen",
+  "status": "Generation rejected by image service public-figure input filter. No generated output used.",
+  "prompts": [
+    {
+      "name": "messi",
+      "prompt": "Create one original high-end cinematic sports illustration for StatOz onboarding motion graphics. Single recognizable athlete, from head to mid-thigh, entire head and arms and held equipment inside frame with generous margin, centered. Hand-painted realism with finely detailed face, sculptural anatomy, dramatic cyan rim light from left and subtle warm rim light from right, rich dark shadows but clear face, premium sports videogame key art, NOT a photograph, NOT cartoon. Genuine transparent background (alpha), no environment, no ground shadow, no particles or glow outside silhouette. No lettering, no logos, no badges, no sponsors, no watermark. Portrait composition. Lionel Messi, short dark hair and beard, sky blue and white striped football jersey without logos, focused expression, torso turned slightly right, athletic running pose, arms naturally bent."
+    },
+    {
+      "name": "ronaldo",
+      "prompt": "Create one original high-end cinematic sports illustration for StatOz onboarding motion graphics. Single recognizable athlete, from head to mid-thigh, entire head and arms and held equipment inside frame with generous margin, centered. Hand-painted realism with finely detailed face, sculptural anatomy, dramatic cyan rim light from left and subtle warm rim light from right, rich dark shadows but clear face, premium sports videogame key art, NOT a photograph, NOT cartoon. Genuine transparent background (alpha), no environment, no ground shadow, no particles or glow outside silhouette. No lettering, no logos, no badges, no sponsors, no watermark. Portrait composition. Cristiano Ronaldo, short dark hair, clean-shaven, deep red football jersey without logos, focused expression, torso turned slightly left, dynamic poised running stance, arms naturally bent."
+    },
+    {
+      "name": "kohli",
+      "prompt": "Create one original high-end cinematic sports illustration for StatOz onboarding motion graphics. Single recognizable athlete, from head to mid-thigh, entire head and arms and held equipment inside frame with generous margin, centered. Hand-painted realism with finely detailed face, sculptural anatomy, dramatic cyan rim light from left and subtle warm rim light from right, rich dark shadows but clear face, premium sports videogame key art, NOT a photograph, NOT cartoon. Genuine transparent background (alpha), no environment, no ground shadow, no particles or glow outside silhouette. No lettering, no logos, no badges, no sponsors, no watermark. Portrait composition. Virat Kohli, unmistakable dark beard and short dark hair, deep royal blue cricket kit without logos, batting gloves, holding a wooden cricket bat diagonally across his body in an elegant ready-to-drive batting pose. Full bat stays in frame, no helmet, face clear."
+    },
+    {
+      "name": "hamilton",
+      "prompt": "Create one original high-end cinematic sports illustration for StatOz onboarding motion graphics. Single recognizable athlete, from head to mid-thigh, entire head and arms and held equipment inside frame with generous margin, centered. Hand-painted realism with finely detailed face, sculptural anatomy, dramatic cyan rim light from left and subtle warm rim light from right, rich dark shadows but clear face, premium sports videogame key art, NOT a photograph, NOT cartoon. Genuine transparent background (alpha), no environment, no ground shadow, no particles or glow outside silhouette. No lettering, no logos, no badges, no sponsors, no watermark. Portrait composition. Lewis Hamilton, recognizable face, braided dark hair and short beard, deep red racing suit without logos, holding a plain dark racing helmet securely under one arm at waist level, powerful relaxed three-quarter stance, face clear, full helmet visible."
+    },
+    {
+      "name": "lebron",
+      "prompt": "Create one original high-end cinematic sports illustration for StatOz onboarding motion graphics. Single recognizable athlete, from head to mid-thigh, entire head and arms and held equipment inside frame with generous margin, centered. Hand-painted realism with finely detailed face, sculptural anatomy, dramatic cyan rim light from left and subtle warm rim light from right, rich dark shadows but clear face, premium sports videogame key art, NOT a photograph, NOT cartoon. Genuine transparent background (alpha), no environment, no ground shadow, no particles or glow outside silhouette. No lettering, no logos, no badges, no sponsors, no watermark. Portrait composition. LeBron James, recognizable strong face and beard, close cropped hair, gold and purple basketball uniform without logos or numbers, holding an orange basketball at waist level with one hand on its side, imposing athletic three-quarter stance, full basketball visible."
+    }
+  ]
+}

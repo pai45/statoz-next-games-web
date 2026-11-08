@@ -1,0 +1,30 @@
+.library{display:flex;flex-direction:column;gap:18px}
+.head{margin-top:8px}
+.tag{display:block;margin-bottom:10px;font:400 12px/1 var(--ds-font-mono);letter-spacing:.22em;color:var(--ds-color-accent-cyan)}
+.title{margin:0;font:800 clamp(24px,3.2vw,34px)/1.02 var(--ds-font-display);text-transform:uppercase;color:var(--ds-color-text-default)}
+.grad{
+  background:linear-gradient(96deg,color-mix(in srgb,var(--ds-color-accent-cyan) 55%,var(--ds-color-text-default)) 0%,var(--ds-color-accent-cyan) 45%,var(--ds-color-accent-blue) 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+
+/*
+ * Phones and tablets: a plain two-column grid of equal cards that keep their
+ * proportions as the screen narrows. From the lg breakpoint: a six-column bento.
+ */
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:0;padding:0;list-style:none}
+.item{--tile-height:auto;--tile-aspect:4 / 3;--tile-name-size:18px;min-width:0}
+
+@media (max-width:639px){
+  .library{gap:12px}
+  .head{margin-top:2px}
+  .tag{margin-bottom:8px;font-size:10.5px;letter-spacing:.18em}
+  .title{font-size:22px}
+  .grid{gap:10px}
+  .item{--tile-aspect:4 / 5;--tile-name-size:clamp(11px,3.3vw,13px)}
+}
+@media (min-width:1024px){
+  .grid{grid-template-columns:repeat(6,minmax(0,1fr));gap:16px}
+  .item{grid-column:span 2;--tile-height:250px;--tile-aspect:auto;--tile-name-size:18px}
+  .feature{grid-column:span 3;--tile-height:330px;--tile-name-size:26px}
+  .wide{grid-column:1 / -1;--tile-height:240px;--tile-name-size:28px}
+}

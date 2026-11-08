@@ -1,0 +1,12 @@
+{
+  "gameId": "vibe-basketball",
+  "file": "vibe-basketball.mp4",
+  "durationSeconds": 8,
+  "width": 1280,
+  "height": 720,
+  "fps": 12,
+  "source": "/embedded-games/vibe-basketball/index.html",
+  "method": "Actual local game runtime captured with Playwright; silent H.264 with restrained contrast/saturation grading.",
+  "sha256": "824b14001145002c3ff6f23959e9189a33c09818515cddb1f6e133201d7a72a6",
+  "bytes": 1239635
+}

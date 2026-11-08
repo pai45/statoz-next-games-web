@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "grand-prix-dash-original-v2",
+  "version": "2.0.0",
+  "authorship": "Original authored SVG paths and procedural Canvas artwork created for this rebuild",
+  "approval": "reference",
+  "productionSources": ["src/features/games/grand-prix/rebuild/art.ts", "src/features/games/grand-prix/rebuild/geometry.ts", "src/features/games/grand-prix/rebuild/renderer.ts", "src/features/games/grand-prix/rebuild/audio.ts", "public/assets/games/grand-prix-dash/rebuild-discovery.svg"],
+  "reference": {"title": "Ultimate Racing 2D, PC (2018)", "creator": "Applimazing", "video": "https://www.youtube.com/watch?v=dbENZmcWy34&t=90s", "use": "Camera, circuit presentation and racing menu research only. No reference assets or audio redistributed."},
+  "fonts": "Installed system fonts requested through CSS; no font binaries redistributed",
+  "identities": "All teams, drivers and circuits in this asset family are fictional",
+  "audio": "Original Web Audio synthesis, without recorded samples",
+  "review": "See docs/grand-prix/validation.md for measured validation and limitations"
+}

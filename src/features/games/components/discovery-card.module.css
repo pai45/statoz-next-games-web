@@ -1,0 +1,117 @@
+/* Wrapper shared by QuickGameTile and ArcadeHeroTile. */
+.card{height:100%}
+
+/* ---- Holo cartridge (statoz.in game-card language) ---------------------- */
+.tile{
+  --cut:var(--ds-shape-bevel-cut);
+  --plate-cut:var(--ds-shape-bevel-plate-cut);
+  --bracket:color-mix(in srgb,var(--card-accent) 70%,var(--ds-color-text-default));
+  position:relative;height:100%;perspective:900px;
+}
+.hit{
+  position:relative;display:block;width:100%;height:var(--tile-height,250px);aspect-ratio:var(--tile-aspect,auto);
+  padding:0;border:0;background:none;color:inherit;font:inherit;text-align:inherit;text-decoration:none;cursor:pointer;
+  transform:rotateX(var(--tilt-x,0deg)) rotateY(var(--tilt-y,0deg)) translateY(var(--lift,0px));
+  transition:transform 200ms ease-out,filter 250ms ease-out;
+}
+.hit:hover{--lift:-4px;filter:drop-shadow(0 22px 30px color-mix(in srgb,var(--card-accent) 28%,transparent))}
+.hit:active{--lift:0px}
+.hit:focus-visible{outline:2px solid var(--card-accent);outline-offset:4px}
+
+.edge,.fill{clip-path:polygon(0 0,calc(100% - var(--cut)) 0,100% var(--cut),100% 100%,var(--cut) 100%,0 calc(100% - var(--cut)))}
+/* Accent edge; the fill sits 1px inside it so the bevel keeps a continuous border. */
+.edge{
+  position:absolute;inset:0;
+  background:linear-gradient(150deg,color-mix(in srgb,var(--card-accent) 55%,transparent) 0%,color-mix(in srgb,var(--ds-color-text-muted) 18%,transparent) 45%,color-mix(in srgb,var(--card-accent) 40%,transparent) 100%);
+}
+.hit:hover .edge,.hit:focus-visible .edge{
+  background:linear-gradient(150deg,var(--card-accent) 0%,color-mix(in srgb,var(--card-accent) 35%,var(--ds-color-background-primary)) 50%,var(--card-accent) 100%);
+}
+.fill{position:absolute;inset:1px;overflow:hidden;background:var(--ds-color-background-primary)}
+.cover{object-fit:cover;transition:transform 500ms cubic-bezier(.2,.8,.2,1)}
+.hit:hover .cover,.hit:focus-visible .cover{transform:scale(1.06)}
+
+.tint,.vignette,.dots,.holo,.sheen{position:absolute;inset:0;pointer-events:none}
+.tint{background:linear-gradient(180deg,color-mix(in srgb,var(--ds-color-background-primary) 10%,transparent) 0%,transparent 35%,color-mix(in srgb,var(--ds-color-background-primary) 92%,transparent) 100%)}
+.vignette{background:radial-gradient(120% 70% at 50% 0,color-mix(in srgb,var(--card-accent) 24%,transparent),transparent 60%);mix-blend-mode:screen;opacity:.7}
+.dots{
+  background-image:radial-gradient(circle,color-mix(in srgb,var(--card-accent) 55%,transparent) 1px,transparent 1.7px);background-size:10px 10px;
+  -webkit-mask-image:radial-gradient(60% 70% at 100% 0,#000,transparent 70%);mask-image:radial-gradient(60% 70% at 100% 0,#000,transparent 70%);
+  opacity:.25;transition:opacity 300ms;
+}
+.holo{
+  mix-blend-mode:color-dodge;opacity:0;transition:opacity 300ms;
+  background:linear-gradient(115deg,var(--ds-color-accent-violet),var(--ds-color-accent-cyan) 30%,var(--ds-color-accent-gold) 55%,var(--ds-color-accent-cyan) 75%,var(--ds-color-accent-violet));
+  background-size:300% 300%;
+}
+.sheen{
+  background:linear-gradient(110deg,transparent 38%,color-mix(in srgb,var(--ds-color-text-default) 20%,transparent) 48%,transparent 58%);
+  transform:translateX(var(--sheen,-70%));opacity:0;transition:opacity 250ms;
+}
+.hit:hover .dots,.hit:focus-visible .dots{opacity:.6}
+.hit:hover .holo,.hit:focus-visible .holo{opacity:.18;animation:holo 6s ease infinite}
+.hit:hover .sheen,.hit:focus-visible .sheen{opacity:1}
+
+.bracket{position:absolute;width:10px;height:10px;pointer-events:none}
+.bracketStart{top:9px;left:9px;border-top:2px solid var(--bracket);border-left:2px solid var(--bracket)}
+.bracketEnd{right:9px;bottom:9px;border-right:2px solid var(--bracket);border-bottom:2px solid var(--bracket)}
+.serial{position:absolute;top:10px;left:26px;font:700 10px/1 var(--ds-font-mono);letter-spacing:.18em;color:color-mix(in srgb,var(--ds-color-text-default) 60%,transparent)}
+
+.foot{position:absolute;left:0;right:0;bottom:0;display:flex;align-items:flex-end;justify-content:space-between;gap:12px;padding:18px 26px 22px 20px}
+.name{
+  display:flex;flex-direction:column;gap:9px;min-width:0;
+  font:800 var(--tile-name-size,18px)/1.1 var(--ds-font-display);letter-spacing:.02em;text-transform:uppercase;
+  color:var(--ds-color-text-default);text-shadow:0 2px 12px color-mix(in srgb,var(--ds-color-background-primary) 70%,transparent);
+}
+.name i{display:block;width:28px;height:3px;background:var(--card-accent);box-shadow:0 0 10px var(--card-accent);transition:width 300ms cubic-bezier(.2,.8,.2,1)}
+.hit:hover .name i,.hit:focus-visible .name i{width:64px}
+
+.plate,.plateFill{clip-path:polygon(0 0,calc(100% - var(--plate-cut)) 0,100% var(--plate-cut),100% 100%,var(--plate-cut) 100%,0 calc(100% - var(--plate-cut)))}
+.plate{flex:none;display:block;width:40px;height:40px;padding:1px;background:var(--card-accent)}
+.plateFill{display:grid;place-items:center;width:100%;height:100%;background:color-mix(in srgb,var(--ds-color-background-primary) 80%,transparent);color:var(--card-accent);transition:background 200ms,color 200ms}
+.hit:hover .plateFill,.hit:focus-visible .plateFill{background:var(--card-accent);color:var(--ds-color-text-inverse)}
+
+@keyframes holo{50%{background-position:100% 50%}}
+@keyframes liveTilt{0%,100%{transform:rotateX(2deg) rotateY(-4deg) translateY(-2px)}50%{transform:rotateX(-2deg) rotateY(4deg) translateY(-2px)}}
+@keyframes liveSheen{0%{transform:translateX(-80%)}60%,100%{transform:translateX(80%)}}
+@keyframes liveZoom{0%,100%{transform:scale(1.02)}50%{transform:scale(1.07)}}
+@keyframes liveRule{0%,100%{width:36px}50%{width:64px}}
+@keyframes livePlate{50%{box-shadow:0 0 0 3px color-mix(in srgb,var(--card-accent) 35%,transparent)}}
+
+/*
+ * Touch screens cannot hover, so a `live` card (the first row) runs the hover
+ * treatment on its own: accent edge, foil, a repeating sheen sweep, a slow
+ * cover zoom and a gentle tilt.
+ */
+@media (hover:none){
+  .live .hit{animation:liveTilt 6s ease-in-out infinite;filter:drop-shadow(0 18px 26px color-mix(in srgb,var(--card-accent) 30%,transparent))}
+  .live .edge{background:linear-gradient(150deg,var(--card-accent) 0%,color-mix(in srgb,var(--card-accent) 35%,var(--ds-color-background-primary)) 50%,var(--card-accent) 100%)}
+  .live .cover{animation:liveZoom 8s ease-in-out infinite}
+  .live .dots{opacity:.6}
+  .live .holo{opacity:.18;animation:holo 6s ease infinite}
+  .live .sheen{opacity:1;animation:liveSheen 3.2s ease-in-out infinite}
+  .live .name i{animation:liveRule 3.2s ease-in-out infinite}
+  .live .plateFill{background:var(--card-accent);color:var(--ds-color-text-inverse)}
+  .live .plate{animation:livePlate 2.4s ease-in-out infinite}
+}
+
+/* Game scene art (GameScene / GamePlaceholder). */
+.scene{position:relative;width:100%;max-width:270px;aspect-ratio:11/8;pointer-events:none}
+.layer{position:absolute;inset:0}
+.layerImage{object-fit:contain}
+
+@media (max-width:639px){
+  .tile{--cut:var(--ds-shape-bevel-compact-cut)}
+  .serial{top:9px;left:22px;font-size:9px}
+  .foot{padding:12px 10px 14px 12px;gap:6px}
+  .name{gap:7px;overflow-wrap:anywhere}
+  .name i{width:20px;height:2px}
+  .plate{width:32px;height:32px}
+  .plateFill svg{width:12px;height:12px}
+  .scene{max-width:156px}
+}
+@media (prefers-reduced-motion:reduce){
+  .hit,.hit:hover,.hit:active{transform:none}
+  .live .hit,.live .cover,.live .sheen,.live .holo,.live .name i,.live .plate{animation:none}
+  .hit:hover .cover,.hit:focus-visible .cover{transform:none}
+}

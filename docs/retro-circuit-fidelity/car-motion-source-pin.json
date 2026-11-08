@@ -1,0 +1,128 @@
+{
+  "build": "0.11.0-car-motion",
+  "rules": 107,
+  "carFamily": "2.2.0",
+  "bundle": "c303c1cb34a4f86fe4018e28d24805279834e36384839b2478cde86e1d150768",
+  "files": [
+    {
+      "file": "art.ts",
+      "sha256": "3fd8cade0206ea02c5e9f0b3009e5bb4e5494fd1488aac5b9cb4e08e18ccb6e4"
+    },
+    {
+      "file": "audio.ts",
+      "sha256": "5cbeca1829e364d7cc446fbdd102fee419fa588c59300f9b3a564f94777e59f3"
+    },
+    {
+      "file": "car-family.ts",
+      "sha256": "0d3af46370ee5aad8201ac79f09e801d3496f84504c52936ad157e37cca111d4"
+    },
+    {
+      "file": "circuit.css",
+      "sha256": "0843d715271a73adcfae3389d6d72ccaa1a3da1c344b7d45ffc59e2199f73187"
+    },
+    {
+      "file": "data.ts",
+      "sha256": "e5c086068cb97ea03c7fae7dd526e785c82d7b7d48eea0d2da9c300a282bdb63"
+    },
+    {
+      "file": "definition.ts",
+      "sha256": "74a34199d9807b5736c877c350179fea09a42c0dbea0db8f06019d54f3a1ffa6"
+    },
+    {
+      "file": "detailed-art.ts",
+      "sha256": "30775f91e9ab74a8fee35916f29ef5018279b71016cd15aa95d041db3b7f5d01"
+    },
+    {
+      "file": "driver.ts",
+      "sha256": "2edde00bd8e1823a54642bf43b56890a668755cee1457fa6d96639a0f2869b8f"
+    },
+    {
+      "file": "environment-art.ts",
+      "sha256": "4a4ea3691e3ead949ad47280eb79f90581dd0ee2b8f53f4ffa00438834d6e7bf"
+    },
+    {
+      "file": "fidelity.ts",
+      "sha256": "32fd5e60fdd7ee046dbabe9c07c1857e4e14bbc4c5ce2f50f54590778a370c53"
+    },
+    {
+      "file": "finish-presentation.ts",
+      "sha256": "b3c297581cd28826dfa2fd6dd5a4d901472f127a3d0616c841e172b0c3e035fb"
+    },
+    {
+      "file": "frame-timing.ts",
+      "sha256": "5899d0d70339c028158824989bdf0980fc674efe860357239edb60fc0d199078"
+    },
+    {
+      "file": "gantry-presentation.ts",
+      "sha256": "53463decd7a0b2aea6576148317147b221bb18b60ead8830f838b78eb4308d34"
+    },
+    {
+      "file": "hiroshima-art.ts",
+      "sha256": "f93880b183f9a12c4709e008e304c7c1efcedbcec13f0f47309a0e851f206885"
+    },
+    {
+      "file": "hiroshima-presentation.ts",
+      "sha256": "c5039e2b4c13ef4b392aa7dbd2be0c3325ea231549d74b354a4ea0df9df2e6de"
+    },
+    {
+      "file": "index.ts",
+      "sha256": "f5ca8537927b2b394481b371272d3fb56d7b7753ad2f63102ec2949b93b95db0"
+    },
+    {
+      "file": "los-angeles-art.ts",
+      "sha256": "fb45c749fa114987fdcf5e8e05afe87a1bc9057dbe73b202e28e7653ee20bc14"
+    },
+    {
+      "file": "menus.ts",
+      "sha256": "46c01900de60c83b1552b3322721f5331540e7f4253b96193be8053e54441f64"
+    },
+    {
+      "file": "mount.ts",
+      "sha256": "e6d9a7c866b6e997f1b631c97429000f08bdc4a40fea93b75a8753d3158408db"
+    },
+    {
+      "file": "persistence.ts",
+      "sha256": "04d875973bb4b4aa8c576fea585098049f67ec79c2668a2f3243b086991566c2"
+    },
+    {
+      "file": "pixel-ui.ts",
+      "sha256": "5a6c2b28bbf53228409dc3ad002affb22b16da954f72c1686e18f429d462f5bb"
+    },
+    {
+      "file": "presentation.ts",
+      "sha256": "9bd7cfebb4bfeb3d109a0912f27d1425b0751a8dbc8f9ca15cc970b3307d5a60"
+    },
+    {
+      "file": "projection.ts",
+      "sha256": "f9cdb5760e1543c13e9d45242283e5a421bb7e1c6f05c4cc072487d68cd7320f"
+    },
+    {
+      "file": "reference-assets.ts",
+      "sha256": "b8058a81a8e37cda15f415885c400a6c2ef3214406f2dc726e59b76b52290f0f"
+    },
+    {
+      "file": "reference-data.ts",
+      "sha256": "4e945fc9d25213494738a6c6070877238697055e9ddefb3636973f4915019e96"
+    },
+    {
+      "file": "renderer.ts",
+      "sha256": "ecc2a2d910d29e0d1208abd2c81a4d4d957006f8942213a0f6e7894a81af763b"
+    },
+    {
+      "file": "simulation.ts",
+      "sha256": "59fd0c245403e65296c42546ee9510a9c9284e2bc9cf57f7b7d8c78f5baa5c71"
+    },
+    {
+      "file": "start-gantry-art.ts",
+      "sha256": "0174ccbe6ce792ba157b1e314a6c6584886a5a9c4ca6fc7fe8d4def0fb556d73"
+    },
+    {
+      "file": "types.ts",
+      "sha256": "6f9e8ce2753f0a68df5745a65a24339ec40e2d3a0a45bb79b6dd2e025768278a"
+    },
+    {
+      "file": "vegas-course.ts",
+      "sha256": "d370bf120a830406e8eb30e6215436382f11e784c0fa7b13dc564d5ba8b1d70b"
+    }
+  ]
+}

@@ -1,0 +1,5017 @@
+{
+  "sport": "basketball",
+  "mode": "medium",
+  "version": 1,
+  "bands": {
+    "1": [
+      {
+        "p": "Which NBA division includes the Boston Celtics?",
+        "o": [
+          "Atlantic Division",
+          "Central Division",
+          "Southeast Division",
+          "Northwest Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2025 WNBA Finals?",
+        "o": [
+          "Washington Mystics",
+          "Las Vegas Aces",
+          "Minnesota Lynx",
+          "Los Angeles Sparks"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2023 FIBA Basketball World Cup?",
+        "o": [
+          "Argentina",
+          "Spain",
+          "Germany",
+          "United States"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2022 FIBA Women’s World Cup?",
+        "o": [
+          "Russia",
+          "Belgium",
+          "Spain",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2019 NCAA men’s tournament?",
+        "o": [
+          "Virginia",
+          "Kentucky",
+          "Villanova",
+          "North Carolina"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2019 NCAA women’s tournament?",
+        "o": [
+          "Texas A&M",
+          "Baylor",
+          "Notre Dame",
+          "South Carolina"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2025 EuroLeague Final?",
+        "o": [
+          "Panathinaikos",
+          "Real Madrid",
+          "Fenerbahce",
+          "Anadolu Efes"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which NBA division includes the Brooklyn Nets?",
+        "o": [
+          "Southeast Division",
+          "Northwest Division",
+          "Pacific Division",
+          "Atlantic Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2024 WNBA Finals?",
+        "o": [
+          "New York Liberty",
+          "Las Vegas Aces",
+          "Chicago Sky",
+          "Seattle Storm"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2019 FIBA Basketball World Cup?",
+        "o": [
+          "Yugoslavia",
+          "Spain",
+          "Argentina",
+          "Germany"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2018 FIBA Women’s World Cup?",
+        "o": [
+          "Serbia",
+          "Russia",
+          "United States",
+          "Belgium"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2018 NCAA men’s tournament?",
+        "o": [
+          "Kentucky",
+          "Virginia",
+          "North Carolina",
+          "Villanova"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2018 NCAA women’s tournament?",
+        "o": [
+          "Notre Dame",
+          "South Carolina",
+          "UConn",
+          "Texas A&M"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2024 EuroLeague Final?",
+        "o": [
+          "Fenerbahce",
+          "Panathinaikos",
+          "Real Madrid",
+          "Anadolu Efes"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which NBA division includes the New York Knicks?",
+        "o": [
+          "Central Division",
+          "Southeast Division",
+          "Atlantic Division",
+          "Northwest Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2023 WNBA Finals?",
+        "o": [
+          "Los Angeles Sparks",
+          "Phoenix Mercury",
+          "Indiana Fever",
+          "Las Vegas Aces"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2014 FIBA Basketball World Cup?",
+        "o": [
+          "United States",
+          "Germany",
+          "Spain",
+          "Yugoslavia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2014 FIBA Women’s World Championship?",
+        "o": [
+          "Spain",
+          "United States",
+          "Serbia",
+          "Russia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2019 NCAA men’s tournament?",
+        "o": [
+          "UConn",
+          "Kentucky",
+          "Virginia",
+          "Villanova"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2019 NCAA women’s tournament?",
+        "o": [
+          "South Carolina",
+          "UConn",
+          "Texas A&M",
+          "Baylor"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2025 EuroLeague Final?",
+        "o": [
+          "Fenerbahce",
+          "Anadolu Efes",
+          "CSKA Moscow",
+          "Panathinaikos"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which NBA division includes the Philadelphia 76ers?",
+        "o": [
+          "Central Division",
+          "Atlantic Division",
+          "Southeast Division",
+          "Northwest Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2025 WNBA Finals?",
+        "o": [
+          "Chicago Sky",
+          "Seattle Storm",
+          "Las Vegas Aces",
+          "Washington Mystics"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2023 FIBA Basketball World Cup?",
+        "o": [
+          "United States",
+          "Yugoslavia",
+          "Argentina",
+          "Germany"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2018 NCAA men’s tournament?",
+        "o": [
+          "Villanova",
+          "Virginia",
+          "North Carolina",
+          "Duke"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2024 EuroLeague Final?",
+        "o": [
+          "Anadolu Efes",
+          "Panathinaikos",
+          "CSKA Moscow",
+          "Fenerbahce"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which NBA division includes the Toronto Raptors?",
+        "o": [
+          "Southwest Division",
+          "Central Division",
+          "Atlantic Division",
+          "Southeast Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2024 WNBA Finals?",
+        "o": [
+          "Seattle Storm",
+          "Washington Mystics",
+          "Minnesota Lynx",
+          "New York Liberty"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2019 FIBA Basketball World Cup?",
+        "o": [
+          "Spain",
+          "Germany",
+          "United States",
+          "Yugoslavia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the title winner from the 2019 NCAA men’s tournament.",
+        "o": [
+          "North Carolina",
+          "Virginia",
+          "Duke",
+          "UConn"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the title winner from the 2025 EuroLeague Final.",
+        "o": [
+          "Real Madrid",
+          "Anadolu Efes",
+          "Fenerbahce",
+          "CSKA Moscow"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which NBA division includes the Chicago Bulls?",
+        "o": [
+          "Northwest Division",
+          "Pacific Division",
+          "Southwest Division",
+          "Central Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2023 WNBA Finals?",
+        "o": [
+          "Las Vegas Aces",
+          "Indiana Fever",
+          "New York Liberty",
+          "Chicago Sky"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2014 FIBA Basketball World Cup?",
+        "o": [
+          "Yugoslavia",
+          "United States",
+          "Argentina",
+          "Germany"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the title winner from the 2018 NCAA men’s tournament.",
+        "o": [
+          "North Carolina",
+          "Duke",
+          "Villanova",
+          "UConn"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2025 NBA Finals?",
+        "o": [
+          "Dallas Mavericks",
+          "Detroit Pistons",
+          "Chicago Bulls",
+          "Oklahoma City Thunder"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 2025 WNBA Finals.",
+        "o": [
+          "Las Vegas Aces",
+          "New York Liberty",
+          "Chicago Sky",
+          "Seattle Storm"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the title winner from the 2023 FIBA Basketball World Cup.",
+        "o": [
+          "Yugoslavia",
+          "Germany",
+          "Argentina",
+          "Spain"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which side lifted the trophy at the 2019 NCAA men’s tournament?",
+        "o": [
+          "UConn",
+          "Kentucky",
+          "Virginia",
+          "Villanova"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2024 NBA Finals?",
+        "o": [
+          "Golden State Warriors",
+          "Milwaukee Bucks",
+          "Los Angeles Lakers",
+          "Boston Celtics"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 2024 WNBA Finals.",
+        "o": [
+          "New York Liberty",
+          "Washington Mystics",
+          "Minnesota Lynx",
+          "Los Angeles Sparks"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2023 NBA Finals?",
+        "o": [
+          "Dallas Mavericks",
+          "Denver Nuggets",
+          "Detroit Pistons",
+          "Chicago Bulls"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the title winner from the 2023 WNBA Finals.",
+        "o": [
+          "Phoenix Mercury",
+          "Indiana Fever",
+          "Las Vegas Aces",
+          "New York Liberty"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2022 NBA Finals?",
+        "o": [
+          "Dallas Mavericks",
+          "Detroit Pistons",
+          "Chicago Bulls",
+          "Golden State Warriors"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which side lifted the trophy at the 2025 WNBA Finals?",
+        "o": [
+          "Las Vegas Aces",
+          "Indiana Fever",
+          "New York Liberty",
+          "Chicago Sky"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2021 NBA Finals?",
+        "o": [
+          "Miami Heat",
+          "Milwaukee Bucks",
+          "Dallas Mavericks",
+          "Detroit Pistons"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2020 NBA Finals?",
+        "o": [
+          "Cleveland Cavaliers",
+          "San Antonio Spurs",
+          "Los Angeles Lakers",
+          "Miami Heat"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2019 NBA Finals?",
+        "o": [
+          "Milwaukee Bucks",
+          "Los Angeles Lakers",
+          "Cleveland Cavaliers",
+          "Toronto Raptors"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2018 NBA Finals?",
+        "o": [
+          "Golden State Warriors",
+          "Houston Rockets",
+          "Oklahoma City Thunder",
+          "Boston Celtics"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The Boston Celtics compete in which NBA division?",
+        "o": [
+          "Central Division",
+          "Atlantic Division",
+          "Southeast Division",
+          "Northwest Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The Brooklyn Nets compete in which NBA division?",
+        "o": [
+          "Pacific Division",
+          "Southwest Division",
+          "Atlantic Division",
+          "Central Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The New York Knicks compete in which NBA division?",
+        "o": [
+          "Southwest Division",
+          "Central Division",
+          "Southeast Division",
+          "Atlantic Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Philadelphia 76ers compete in which NBA division?",
+        "o": [
+          "Atlantic Division",
+          "Central Division",
+          "Southeast Division",
+          "Northwest Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The Toronto Raptors compete in which NBA division?",
+        "o": [
+          "Southwest Division",
+          "Atlantic Division",
+          "Central Division",
+          "Southeast Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The Chicago Bulls compete in which NBA division?",
+        "o": [
+          "Northwest Division",
+          "Pacific Division",
+          "Central Division",
+          "Southwest Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2025 NBA Finals?",
+        "o": [
+          "Miami Heat",
+          "Dallas Mavericks",
+          "Detroit Pistons",
+          "Oklahoma City Thunder"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2024 NBA Finals?",
+        "o": [
+          "Boston Celtics",
+          "Chicago Bulls",
+          "Houston Rockets",
+          "Oklahoma City Thunder"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2023 NBA Finals?",
+        "o": [
+          "Cleveland Cavaliers",
+          "Denver Nuggets",
+          "San Antonio Spurs",
+          "Miami Heat"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2022 NBA Finals?",
+        "o": [
+          "Chicago Bulls",
+          "Houston Rockets",
+          "Golden State Warriors",
+          "Oklahoma City Thunder"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2021 NBA Finals?",
+        "o": [
+          "Houston Rockets",
+          "Oklahoma City Thunder",
+          "Boston Celtics",
+          "Milwaukee Bucks"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2020 NBA Finals?",
+        "o": [
+          "Los Angeles Lakers",
+          "Chicago Bulls",
+          "Houston Rockets",
+          "Oklahoma City Thunder"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2019 NBA Finals?",
+        "o": [
+          "Chicago Bulls",
+          "Toronto Raptors",
+          "Houston Rockets",
+          "Oklahoma City Thunder"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2018 NBA Finals?",
+        "o": [
+          "Toronto Raptors",
+          "Cleveland Cavaliers",
+          "Golden State Warriors",
+          "San Antonio Spurs"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the NBA division of the Boston Celtics.",
+        "o": [
+          "Pacific Division",
+          "Southwest Division",
+          "Central Division",
+          "Atlantic Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the NBA division of the Brooklyn Nets.",
+        "o": [
+          "Atlantic Division",
+          "Southeast Division",
+          "Northwest Division",
+          "Pacific Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the NBA division of the New York Knicks.",
+        "o": [
+          "Northwest Division",
+          "Atlantic Division",
+          "Pacific Division",
+          "Southwest Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the NBA division of the Philadelphia 76ers.",
+        "o": [
+          "Central Division",
+          "Southeast Division",
+          "Atlantic Division",
+          "Northwest Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the NBA division of the Toronto Raptors.",
+        "o": [
+          "Southeast Division",
+          "Northwest Division",
+          "Pacific Division",
+          "Atlantic Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the NBA division of the Chicago Bulls.",
+        "o": [
+          "Central Division",
+          "Pacific Division",
+          "Southwest Division",
+          "Atlantic Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the title winner from the 2025 NBA Finals.",
+        "o": [
+          "Cleveland Cavaliers",
+          "Oklahoma City Thunder",
+          "San Antonio Spurs",
+          "Miami Heat"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the title winner from the 2024 NBA Finals.",
+        "o": [
+          "San Antonio Spurs",
+          "Miami Heat",
+          "Boston Celtics",
+          "Dallas Mavericks"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the title winner from the 2023 NBA Finals.",
+        "o": [
+          "Detroit Pistons",
+          "Chicago Bulls",
+          "Houston Rockets",
+          "Denver Nuggets"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 2022 NBA Finals.",
+        "o": [
+          "Golden State Warriors",
+          "Detroit Pistons",
+          "Chicago Bulls",
+          "Houston Rockets"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the title winner from the 2021 NBA Finals.",
+        "o": [
+          "San Antonio Spurs",
+          "Milwaukee Bucks",
+          "Miami Heat",
+          "Dallas Mavericks"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the title winner from the 2020 NBA Finals.",
+        "o": [
+          "Boston Celtics",
+          "Denver Nuggets",
+          "Los Angeles Lakers",
+          "Golden State Warriors"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the title winner from the 2019 NBA Finals.",
+        "o": [
+          "Miami Heat",
+          "Dallas Mavericks",
+          "Detroit Pistons",
+          "Toronto Raptors"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 2018 NBA Finals.",
+        "o": [
+          "Golden State Warriors",
+          "Chicago Bulls",
+          "Houston Rockets",
+          "Oklahoma City Thunder"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which division is home to the Boston Celtics?",
+        "o": [
+          "Northwest Division",
+          "Atlantic Division",
+          "Pacific Division",
+          "Southwest Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which division is home to the Brooklyn Nets?",
+        "o": [
+          "Southeast Division",
+          "Northwest Division",
+          "Atlantic Division",
+          "Pacific Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which division is home to the New York Knicks?",
+        "o": [
+          "Northwest Division",
+          "Pacific Division",
+          "Southwest Division",
+          "Atlantic Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which division is home to the Philadelphia 76ers?",
+        "o": [
+          "Atlantic Division",
+          "Pacific Division",
+          "Southwest Division",
+          "Central Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which division is home to the Toronto Raptors?",
+        "o": [
+          "Central Division",
+          "Atlantic Division",
+          "Southeast Division",
+          "Northwest Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which division is home to the Chicago Bulls?",
+        "o": [
+          "Pacific Division",
+          "Southwest Division",
+          "Central Division",
+          "Atlantic Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which side lifted the trophy at the 2025 NBA Finals?",
+        "o": [
+          "Dallas Mavericks",
+          "Detroit Pistons",
+          "Chicago Bulls",
+          "Oklahoma City Thunder"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which side lifted the trophy at the 2024 NBA Finals?",
+        "o": [
+          "Boston Celtics",
+          "Dallas Mavericks",
+          "Detroit Pistons",
+          "Chicago Bulls"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which side lifted the trophy at the 2023 NBA Finals?",
+        "o": [
+          "Golden State Warriors",
+          "Denver Nuggets",
+          "Milwaukee Bucks",
+          "Los Angeles Lakers"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which side lifted the trophy at the 2022 NBA Finals?",
+        "o": [
+          "Toronto Raptors",
+          "Cleveland Cavaliers",
+          "Golden State Warriors",
+          "San Antonio Spurs"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which side lifted the trophy at the 2021 NBA Finals?",
+        "o": [
+          "Oklahoma City Thunder",
+          "Boston Celtics",
+          "Denver Nuggets",
+          "Milwaukee Bucks"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which side lifted the trophy at the 2020 NBA Finals?",
+        "o": [
+          "Los Angeles Lakers",
+          "Oklahoma City Thunder",
+          "Boston Celtics",
+          "Denver Nuggets"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which side lifted the trophy at the 2019 NBA Finals?",
+        "o": [
+          "San Antonio Spurs",
+          "Toronto Raptors",
+          "Miami Heat",
+          "Dallas Mavericks"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which side lifted the trophy at the 2018 NBA Finals?",
+        "o": [
+          "Houston Rockets",
+          "Oklahoma City Thunder",
+          "Golden State Warriors",
+          "Boston Celtics"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Where do the Boston Celtics sit in the NBA division map?",
+        "o": [
+          "Southwest Division",
+          "Central Division",
+          "Southeast Division",
+          "Atlantic Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Where do the Brooklyn Nets sit in the NBA division map?",
+        "o": [
+          "Atlantic Division",
+          "Pacific Division",
+          "Southwest Division",
+          "Central Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Where do the New York Knicks sit in the NBA division map?",
+        "o": [
+          "Southwest Division",
+          "Atlantic Division",
+          "Central Division",
+          "Southeast Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Where do the Philadelphia 76ers sit in the NBA division map?",
+        "o": [
+          "Central Division",
+          "Southeast Division",
+          "Atlantic Division",
+          "Northwest Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Where do the Toronto Raptors sit in the NBA division map?",
+        "o": [
+          "Southwest Division",
+          "Central Division",
+          "Southeast Division",
+          "Atlantic Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Where do the Chicago Bulls sit in the NBA division map?",
+        "o": [
+          "Central Division",
+          "Southwest Division",
+          "Atlantic Division",
+          "Southeast Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The 2025 NBA Finals title went to which team?",
+        "o": [
+          "Miami Heat",
+          "Oklahoma City Thunder",
+          "Dallas Mavericks",
+          "Detroit Pistons"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The 2024 NBA Finals title went to which team?",
+        "o": [
+          "Cleveland Cavaliers",
+          "San Antonio Spurs",
+          "Boston Celtics",
+          "Miami Heat"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The 2023 NBA Finals title went to which team?",
+        "o": [
+          "Houston Rockets",
+          "Oklahoma City Thunder",
+          "Boston Celtics",
+          "Denver Nuggets"
+        ],
+        "a": 3
+      }
+    ],
+    "2": [
+      {
+        "p": "Which NBA division includes the Cleveland Cavaliers?",
+        "o": [
+          "Central Division",
+          "Northwest Division",
+          "Pacific Division",
+          "Southwest Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2022 WNBA Finals?",
+        "o": [
+          "New York Liberty",
+          "Las Vegas Aces",
+          "Chicago Sky",
+          "Seattle Storm"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2010 FIBA World Championship?",
+        "o": [
+          "Spain",
+          "Yugoslavia",
+          "United States",
+          "Argentina"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2010 FIBA Women’s World Championship?",
+        "o": [
+          "Spain",
+          "Serbia",
+          "Russia",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2017 NCAA men’s tournament?",
+        "o": [
+          "North Carolina",
+          "Virginia",
+          "Villanova",
+          "Duke"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2017 NCAA women’s tournament?",
+        "o": [
+          "Notre Dame",
+          "South Carolina",
+          "UConn",
+          "Texas A&M"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2023 EuroLeague Final?",
+        "o": [
+          "CSKA Moscow",
+          "Fenerbahce",
+          "Real Madrid",
+          "Panathinaikos"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which NBA division includes the Detroit Pistons?",
+        "o": [
+          "Southwest Division",
+          "Atlantic Division",
+          "Southeast Division",
+          "Central Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2021 WNBA Finals?",
+        "o": [
+          "Chicago Sky",
+          "Washington Mystics",
+          "Minnesota Lynx",
+          "Los Angeles Sparks"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2006 FIBA World Championship?",
+        "o": [
+          "Argentina",
+          "Spain",
+          "Germany",
+          "United States"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2011 FIBA Women’s EuroBasket?",
+        "o": [
+          "Belgium",
+          "Spain",
+          "Russia",
+          "Serbia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2016 NCAA men’s tournament?",
+        "o": [
+          "Duke",
+          "UConn",
+          "Kentucky",
+          "Villanova"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2016 NCAA women’s tournament?",
+        "o": [
+          "UConn",
+          "South Carolina",
+          "Texas A&M",
+          "Baylor"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2022 EuroLeague Final?",
+        "o": [
+          "Fenerbahce",
+          "Anadolu Efes",
+          "Panathinaikos",
+          "Real Madrid"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which NBA division includes the Indiana Pacers?",
+        "o": [
+          "Southeast Division",
+          "Northwest Division",
+          "Central Division",
+          "Pacific Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2020 WNBA Finals?",
+        "o": [
+          "Minnesota Lynx",
+          "Los Angeles Sparks",
+          "Phoenix Mercury",
+          "Seattle Storm"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2002 FIBA World Championship?",
+        "o": [
+          "Yugoslavia",
+          "Germany",
+          "Spain",
+          "United States"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2002 FIBA Women’s World Championship?",
+        "o": [
+          "Belgium",
+          "United States",
+          "Spain",
+          "Serbia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2017 NCAA men’s tournament?",
+        "o": [
+          "Kentucky",
+          "Virginia",
+          "North Carolina",
+          "Villanova"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2017 NCAA women’s tournament?",
+        "o": [
+          "Texas A&M",
+          "Baylor",
+          "Notre Dame",
+          "South Carolina"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2023 EuroLeague Final?",
+        "o": [
+          "Real Madrid",
+          "Panathinaikos",
+          "Anadolu Efes",
+          "CSKA Moscow"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which NBA division includes the Milwaukee Bucks?",
+        "o": [
+          "Southeast Division",
+          "Central Division",
+          "Northwest Division",
+          "Pacific Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2022 WNBA Finals?",
+        "o": [
+          "Seattle Storm",
+          "Washington Mystics",
+          "Las Vegas Aces",
+          "Minnesota Lynx"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2010 FIBA World Championship?",
+        "o": [
+          "Argentina",
+          "Germany",
+          "Spain",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2016 NCAA men’s tournament?",
+        "o": [
+          "Villanova",
+          "Virginia",
+          "North Carolina",
+          "Duke"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2022 EuroLeague Final?",
+        "o": [
+          "Real Madrid",
+          "Anadolu Efes",
+          "CSKA Moscow",
+          "Fenerbahce"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which NBA division includes the Atlanta Hawks?",
+        "o": [
+          "Atlantic Division",
+          "Central Division",
+          "Southeast Division",
+          "Northwest Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2021 WNBA Finals?",
+        "o": [
+          "Los Angeles Sparks",
+          "Phoenix Mercury",
+          "Indiana Fever",
+          "Chicago Sky"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2006 FIBA World Championship?",
+        "o": [
+          "Spain",
+          "United States",
+          "Yugoslavia",
+          "Argentina"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the title winner from the 2017 NCAA men’s tournament.",
+        "o": [
+          "UConn",
+          "North Carolina",
+          "Kentucky",
+          "Virginia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the title winner from the 2023 EuroLeague Final.",
+        "o": [
+          "Fenerbahce",
+          "Panathinaikos",
+          "Real Madrid",
+          "Anadolu Efes"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which NBA division includes the Charlotte Hornets?",
+        "o": [
+          "Southwest Division",
+          "Atlantic Division",
+          "Central Division",
+          "Southeast Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2020 WNBA Finals?",
+        "o": [
+          "Seattle Storm",
+          "Phoenix Mercury",
+          "Indiana Fever",
+          "Las Vegas Aces"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2002 FIBA World Championship?",
+        "o": [
+          "United States",
+          "Yugoslavia",
+          "Argentina",
+          "Germany"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the title winner from the 2016 NCAA men’s tournament.",
+        "o": [
+          "Kentucky",
+          "Virginia",
+          "Villanova",
+          "North Carolina"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2017 NBA Finals?",
+        "o": [
+          "Los Angeles Lakers",
+          "Toronto Raptors",
+          "Cleveland Cavaliers",
+          "Golden State Warriors"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 2022 WNBA Finals.",
+        "o": [
+          "Las Vegas Aces",
+          "Washington Mystics",
+          "Minnesota Lynx",
+          "Los Angeles Sparks"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the title winner from the 2010 FIBA World Championship.",
+        "o": [
+          "Germany",
+          "United States",
+          "Spain",
+          "Yugoslavia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which side lifted the trophy at the 2017 NCAA men’s tournament?",
+        "o": [
+          "Villanova",
+          "Duke",
+          "North Carolina",
+          "UConn"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2016 NBA Finals?",
+        "o": [
+          "Chicago Bulls",
+          "Houston Rockets",
+          "Oklahoma City Thunder",
+          "Cleveland Cavaliers"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 2021 WNBA Finals.",
+        "o": [
+          "Chicago Sky",
+          "Seattle Storm",
+          "Washington Mystics",
+          "Minnesota Lynx"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2015 NBA Finals?",
+        "o": [
+          "Toronto Raptors",
+          "Golden State Warriors",
+          "Cleveland Cavaliers",
+          "San Antonio Spurs"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the title winner from the 2020 WNBA Finals.",
+        "o": [
+          "New York Liberty",
+          "Chicago Sky",
+          "Seattle Storm",
+          "Washington Mystics"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2014 NBA Finals?",
+        "o": [
+          "Toronto Raptors",
+          "Cleveland Cavaliers",
+          "Miami Heat",
+          "San Antonio Spurs"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which side lifted the trophy at the 2022 WNBA Finals?",
+        "o": [
+          "Las Vegas Aces",
+          "Minnesota Lynx",
+          "Los Angeles Sparks",
+          "Phoenix Mercury"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2013 NBA Finals?",
+        "o": [
+          "Oklahoma City Thunder",
+          "Miami Heat",
+          "Boston Celtics",
+          "Denver Nuggets"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2012 NBA Finals?",
+        "o": [
+          "Cleveland Cavaliers",
+          "San Antonio Spurs",
+          "Miami Heat",
+          "Dallas Mavericks"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2011 NBA Finals?",
+        "o": [
+          "Miami Heat",
+          "Detroit Pistons",
+          "Chicago Bulls",
+          "Dallas Mavericks"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Cleveland Cavaliers compete in which NBA division?",
+        "o": [
+          "Central Division",
+          "Northwest Division",
+          "Pacific Division",
+          "Southwest Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The Detroit Pistons compete in which NBA division?",
+        "o": [
+          "Southwest Division",
+          "Central Division",
+          "Atlantic Division",
+          "Southeast Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The Indiana Pacers compete in which NBA division?",
+        "o": [
+          "Atlantic Division",
+          "Southeast Division",
+          "Central Division",
+          "Northwest Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The Milwaukee Bucks compete in which NBA division?",
+        "o": [
+          "Southwest Division",
+          "Atlantic Division",
+          "Southeast Division",
+          "Central Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Atlanta Hawks compete in which NBA division?",
+        "o": [
+          "Southeast Division",
+          "Northwest Division",
+          "Pacific Division",
+          "Southwest Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The Charlotte Hornets compete in which NBA division?",
+        "o": [
+          "Southwest Division",
+          "Southeast Division",
+          "Atlantic Division",
+          "Central Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2017 NBA Finals?",
+        "o": [
+          "Oklahoma City Thunder",
+          "Boston Celtics",
+          "Golden State Warriors",
+          "Denver Nuggets"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2016 NBA Finals?",
+        "o": [
+          "San Antonio Spurs",
+          "Miami Heat",
+          "Dallas Mavericks",
+          "Cleveland Cavaliers"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2015 NBA Finals?",
+        "o": [
+          "Golden State Warriors",
+          "Houston Rockets",
+          "Oklahoma City Thunder",
+          "Boston Celtics"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2014 NBA Finals?",
+        "o": [
+          "Dallas Mavericks",
+          "San Antonio Spurs",
+          "Detroit Pistons",
+          "Chicago Bulls"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2013 NBA Finals?",
+        "o": [
+          "Los Angeles Lakers",
+          "Toronto Raptors",
+          "Miami Heat",
+          "Cleveland Cavaliers"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2012 NBA Finals?",
+        "o": [
+          "Toronto Raptors",
+          "Cleveland Cavaliers",
+          "San Antonio Spurs",
+          "Miami Heat"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2011 NBA Finals?",
+        "o": [
+          "Dallas Mavericks",
+          "Miami Heat",
+          "Detroit Pistons",
+          "Chicago Bulls"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the NBA division of the Cleveland Cavaliers.",
+        "o": [
+          "Southeast Division",
+          "Central Division",
+          "Northwest Division",
+          "Pacific Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the NBA division of the Detroit Pistons.",
+        "o": [
+          "Pacific Division",
+          "Southwest Division",
+          "Central Division",
+          "Atlantic Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the NBA division of the Indiana Pacers.",
+        "o": [
+          "Atlantic Division",
+          "Southeast Division",
+          "Northwest Division",
+          "Central Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the NBA division of the Milwaukee Bucks.",
+        "o": [
+          "Central Division",
+          "Southwest Division",
+          "Atlantic Division",
+          "Southeast Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the NBA division of the Atlanta Hawks.",
+        "o": [
+          "Northwest Division",
+          "Southeast Division",
+          "Pacific Division",
+          "Southwest Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the NBA division of the Charlotte Hornets.",
+        "o": [
+          "Pacific Division",
+          "Southwest Division",
+          "Southeast Division",
+          "Atlantic Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the title winner from the 2017 NBA Finals.",
+        "o": [
+          "Cleveland Cavaliers",
+          "San Antonio Spurs",
+          "Miami Heat",
+          "Golden State Warriors"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 2016 NBA Finals.",
+        "o": [
+          "Cleveland Cavaliers",
+          "Oklahoma City Thunder",
+          "Boston Celtics",
+          "Denver Nuggets"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the title winner from the 2015 NBA Finals.",
+        "o": [
+          "Milwaukee Bucks",
+          "Golden State Warriors",
+          "Los Angeles Lakers",
+          "Toronto Raptors"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the title winner from the 2014 NBA Finals.",
+        "o": [
+          "Miami Heat",
+          "Dallas Mavericks",
+          "San Antonio Spurs",
+          "Detroit Pistons"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the title winner from the 2013 NBA Finals.",
+        "o": [
+          "Denver Nuggets",
+          "Golden State Warriors",
+          "Milwaukee Bucks",
+          "Miami Heat"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 2012 NBA Finals.",
+        "o": [
+          "Miami Heat",
+          "Toronto Raptors",
+          "Cleveland Cavaliers",
+          "San Antonio Spurs"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the title winner from the 2011 NBA Finals.",
+        "o": [
+          "Oklahoma City Thunder",
+          "Dallas Mavericks",
+          "Boston Celtics",
+          "Denver Nuggets"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which division is home to the Cleveland Cavaliers?",
+        "o": [
+          "Southeast Division",
+          "Northwest Division",
+          "Central Division",
+          "Pacific Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which division is home to the Detroit Pistons?",
+        "o": [
+          "Pacific Division",
+          "Southwest Division",
+          "Atlantic Division",
+          "Central Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which division is home to the Indiana Pacers?",
+        "o": [
+          "Central Division",
+          "Pacific Division",
+          "Southwest Division",
+          "Atlantic Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which division is home to the Milwaukee Bucks?",
+        "o": [
+          "Southwest Division",
+          "Central Division",
+          "Atlantic Division",
+          "Southeast Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which division is home to the Atlanta Hawks?",
+        "o": [
+          "Pacific Division",
+          "Southwest Division",
+          "Southeast Division",
+          "Atlantic Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which division is home to the Charlotte Hornets?",
+        "o": [
+          "Northwest Division",
+          "Pacific Division",
+          "Southwest Division",
+          "Southeast Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which side lifted the trophy at the 2017 NBA Finals?",
+        "o": [
+          "Golden State Warriors",
+          "Houston Rockets",
+          "Oklahoma City Thunder",
+          "Boston Celtics"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which side lifted the trophy at the 2016 NBA Finals?",
+        "o": [
+          "Miami Heat",
+          "Cleveland Cavaliers",
+          "Dallas Mavericks",
+          "Detroit Pistons"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which side lifted the trophy at the 2015 NBA Finals?",
+        "o": [
+          "Detroit Pistons",
+          "Chicago Bulls",
+          "Golden State Warriors",
+          "Houston Rockets"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which side lifted the trophy at the 2014 NBA Finals?",
+        "o": [
+          "Oklahoma City Thunder",
+          "Boston Celtics",
+          "Denver Nuggets",
+          "San Antonio Spurs"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which side lifted the trophy at the 2013 NBA Finals?",
+        "o": [
+          "Miami Heat",
+          "Dallas Mavericks",
+          "Detroit Pistons",
+          "Chicago Bulls"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which side lifted the trophy at the 2012 NBA Finals?",
+        "o": [
+          "Golden State Warriors",
+          "Miami Heat",
+          "Milwaukee Bucks",
+          "Los Angeles Lakers"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which side lifted the trophy at the 2011 NBA Finals?",
+        "o": [
+          "Boston Celtics",
+          "Denver Nuggets",
+          "Dallas Mavericks",
+          "Golden State Warriors"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Where do the Cleveland Cavaliers sit in the NBA division map?",
+        "o": [
+          "Southwest Division",
+          "Atlantic Division",
+          "Southeast Division",
+          "Central Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Where do the Detroit Pistons sit in the NBA division map?",
+        "o": [
+          "Central Division",
+          "Pacific Division",
+          "Southwest Division",
+          "Atlantic Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Where do the Indiana Pacers sit in the NBA division map?",
+        "o": [
+          "Pacific Division",
+          "Central Division",
+          "Southwest Division",
+          "Atlantic Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Where do the Milwaukee Bucks sit in the NBA division map?",
+        "o": [
+          "Atlantic Division",
+          "Southeast Division",
+          "Central Division",
+          "Northwest Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Where do the Atlanta Hawks sit in the NBA division map?",
+        "o": [
+          "Northwest Division",
+          "Pacific Division",
+          "Southwest Division",
+          "Southeast Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Where do the Charlotte Hornets sit in the NBA division map?",
+        "o": [
+          "Southeast Division",
+          "Central Division",
+          "Northwest Division",
+          "Pacific Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The 2017 NBA Finals title went to which team?",
+        "o": [
+          "Miami Heat",
+          "Golden State Warriors",
+          "Dallas Mavericks",
+          "Detroit Pistons"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The 2016 NBA Finals title went to which team?",
+        "o": [
+          "Dallas Mavericks",
+          "Detroit Pistons",
+          "Cleveland Cavaliers",
+          "Chicago Bulls"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The 2015 NBA Finals title went to which team?",
+        "o": [
+          "Chicago Bulls",
+          "Houston Rockets",
+          "Oklahoma City Thunder",
+          "Golden State Warriors"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The 2014 NBA Finals title went to which team?",
+        "o": [
+          "San Antonio Spurs",
+          "Dallas Mavericks",
+          "Detroit Pistons",
+          "Chicago Bulls"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The 2013 NBA Finals title went to which team?",
+        "o": [
+          "Detroit Pistons",
+          "Miami Heat",
+          "Chicago Bulls",
+          "Houston Rockets"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The 2012 NBA Finals title went to which team?",
+        "o": [
+          "San Antonio Spurs",
+          "Dallas Mavericks",
+          "Miami Heat",
+          "Detroit Pistons"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The 2011 NBA Finals title went to which team?",
+        "o": [
+          "Cleveland Cavaliers",
+          "San Antonio Spurs",
+          "Miami Heat",
+          "Dallas Mavericks"
+        ],
+        "a": 3
+      }
+    ],
+    "3": [
+      {
+        "p": "Which NBA division includes the Miami Heat?",
+        "o": [
+          "Southeast Division",
+          "Atlantic Division",
+          "Central Division",
+          "Northwest Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2019 WNBA Finals?",
+        "o": [
+          "New York Liberty",
+          "Washington Mystics",
+          "Chicago Sky",
+          "Seattle Storm"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2024 men’s Olympic tournament?",
+        "o": [
+          "Spain",
+          "Yugoslavia",
+          "United States",
+          "Argentina"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2024 women’s Olympic tournament?",
+        "o": [
+          "Belgium",
+          "Spain",
+          "Serbia",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2015 NCAA men’s tournament?",
+        "o": [
+          "Duke",
+          "Kentucky",
+          "Virginia",
+          "Villanova"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2015 NCAA women’s tournament?",
+        "o": [
+          "Texas A&M",
+          "UConn",
+          "Baylor",
+          "Notre Dame"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2021 EuroLeague Final?",
+        "o": [
+          "Panathinaikos",
+          "Real Madrid",
+          "Anadolu Efes",
+          "CSKA Moscow"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which NBA division includes the Orlando Magic?",
+        "o": [
+          "Atlantic Division",
+          "Central Division",
+          "Northwest Division",
+          "Southeast Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2018 WNBA Finals?",
+        "o": [
+          "Seattle Storm",
+          "Indiana Fever",
+          "Las Vegas Aces",
+          "New York Liberty"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2020 men’s Olympic tournament?",
+        "o": [
+          "Spain",
+          "United States",
+          "Yugoslavia",
+          "Argentina"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2020 women’s Olympic tournament?",
+        "o": [
+          "Belgium",
+          "Spain",
+          "United States",
+          "Serbia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2014 NCAA men’s tournament?",
+        "o": [
+          "Villanova",
+          "North Carolina",
+          "Duke",
+          "UConn"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2014 NCAA women’s tournament?",
+        "o": [
+          "UConn",
+          "Baylor",
+          "Notre Dame",
+          "South Carolina"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2019 EuroLeague Final?",
+        "o": [
+          "Anadolu Efes",
+          "CSKA Moscow",
+          "Fenerbahce",
+          "Panathinaikos"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which NBA division includes the Washington Wizards?",
+        "o": [
+          "Southwest Division",
+          "Atlantic Division",
+          "Southeast Division",
+          "Central Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2017 WNBA Finals?",
+        "o": [
+          "Washington Mystics",
+          "Los Angeles Sparks",
+          "Phoenix Mercury",
+          "Minnesota Lynx"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2024 men’s Olympic tournament?",
+        "o": [
+          "United States",
+          "Argentina",
+          "Germany",
+          "Spain"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2024 women’s Olympic tournament?",
+        "o": [
+          "Serbia",
+          "United States",
+          "Russia",
+          "Belgium"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2015 NCAA men’s tournament?",
+        "o": [
+          "North Carolina",
+          "UConn",
+          "Duke",
+          "Kentucky"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2015 NCAA women’s tournament?",
+        "o": [
+          "Notre Dame",
+          "South Carolina",
+          "Texas A&M",
+          "UConn"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2021 EuroLeague Final?",
+        "o": [
+          "Anadolu Efes",
+          "CSKA Moscow",
+          "Fenerbahce",
+          "Panathinaikos"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which NBA division includes the Denver Nuggets?",
+        "o": [
+          "Southeast Division",
+          "Northwest Division",
+          "Pacific Division",
+          "Southwest Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2019 WNBA Finals?",
+        "o": [
+          "Indiana Fever",
+          "Las Vegas Aces",
+          "Washington Mystics",
+          "New York Liberty"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2020 men’s Olympic tournament?",
+        "o": [
+          "Argentina",
+          "Germany",
+          "Spain",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2014 NCAA men’s tournament?",
+        "o": [
+          "UConn",
+          "Villanova",
+          "North Carolina",
+          "Duke"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2019 EuroLeague Final?",
+        "o": [
+          "Panathinaikos",
+          "CSKA Moscow",
+          "Real Madrid",
+          "Anadolu Efes"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which NBA division includes the Minnesota Timberwolves?",
+        "o": [
+          "Central Division",
+          "Southeast Division",
+          "Northwest Division",
+          "Pacific Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2018 WNBA Finals?",
+        "o": [
+          "Los Angeles Sparks",
+          "Phoenix Mercury",
+          "Indiana Fever",
+          "Seattle Storm"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 2024 men’s Olympic tournament.",
+        "o": [
+          "United States",
+          "Yugoslavia",
+          "Argentina",
+          "Germany"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the title winner from the 2015 NCAA men’s tournament.",
+        "o": [
+          "Villanova",
+          "Duke",
+          "North Carolina",
+          "UConn"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the title winner from the 2021 EuroLeague Final.",
+        "o": [
+          "Fenerbahce",
+          "Panathinaikos",
+          "Anadolu Efes",
+          "Real Madrid"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which NBA division includes the Oklahoma City Thunder?",
+        "o": [
+          "Central Division",
+          "Southeast Division",
+          "Pacific Division",
+          "Northwest Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2017 WNBA Finals?",
+        "o": [
+          "Minnesota Lynx",
+          "Phoenix Mercury",
+          "Indiana Fever",
+          "Las Vegas Aces"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the title winner from the 2020 men’s Olympic tournament.",
+        "o": [
+          "Yugoslavia",
+          "United States",
+          "Argentina",
+          "Germany"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the title winner from the 2014 NCAA men’s tournament.",
+        "o": [
+          "Virginia",
+          "Villanova",
+          "UConn",
+          "North Carolina"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2010 NBA Finals?",
+        "o": [
+          "Houston Rockets",
+          "Oklahoma City Thunder",
+          "Boston Celtics",
+          "Los Angeles Lakers"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 2019 WNBA Finals.",
+        "o": [
+          "Washington Mystics",
+          "Phoenix Mercury",
+          "Indiana Fever",
+          "Las Vegas Aces"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which side lifted the trophy at the 2024 men’s Olympic tournament?",
+        "o": [
+          "Spain",
+          "United States",
+          "Yugoslavia",
+          "Argentina"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which side lifted the trophy at the 2015 NCAA men’s tournament?",
+        "o": [
+          "Virginia",
+          "Villanova",
+          "Duke",
+          "North Carolina"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2009 NBA Finals?",
+        "o": [
+          "Oklahoma City Thunder",
+          "Boston Celtics",
+          "Denver Nuggets",
+          "Los Angeles Lakers"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 2018 WNBA Finals.",
+        "o": [
+          "Seattle Storm",
+          "Chicago Sky",
+          "Washington Mystics",
+          "Minnesota Lynx"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2008 NBA Finals?",
+        "o": [
+          "Chicago Bulls",
+          "Boston Celtics",
+          "Houston Rockets",
+          "Oklahoma City Thunder"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the title winner from the 2017 WNBA Finals.",
+        "o": [
+          "Seattle Storm",
+          "Washington Mystics",
+          "Minnesota Lynx",
+          "Los Angeles Sparks"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2007 NBA Finals?",
+        "o": [
+          "Miami Heat",
+          "Dallas Mavericks",
+          "Detroit Pistons",
+          "San Antonio Spurs"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which side lifted the trophy at the 2019 WNBA Finals?",
+        "o": [
+          "Washington Mystics",
+          "Los Angeles Sparks",
+          "Phoenix Mercury",
+          "Indiana Fever"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2006 NBA Finals?",
+        "o": [
+          "Los Angeles Lakers",
+          "Miami Heat",
+          "Toronto Raptors",
+          "Cleveland Cavaliers"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2005 NBA Finals?",
+        "o": [
+          "Denver Nuggets",
+          "Golden State Warriors",
+          "San Antonio Spurs",
+          "Milwaukee Bucks"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2004 NBA Finals?",
+        "o": [
+          "Miami Heat",
+          "Dallas Mavericks",
+          "Chicago Bulls",
+          "Detroit Pistons"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Miami Heat compete in which NBA division?",
+        "o": [
+          "Southeast Division",
+          "Atlantic Division",
+          "Central Division",
+          "Northwest Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The Orlando Magic compete in which NBA division?",
+        "o": [
+          "Northwest Division",
+          "Southeast Division",
+          "Pacific Division",
+          "Southwest Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The Washington Wizards compete in which NBA division?",
+        "o": [
+          "Pacific Division",
+          "Southwest Division",
+          "Southeast Division",
+          "Atlantic Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The Denver Nuggets compete in which NBA division?",
+        "o": [
+          "Pacific Division",
+          "Southwest Division",
+          "Atlantic Division",
+          "Northwest Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Minnesota Timberwolves compete in which NBA division?",
+        "o": [
+          "Northwest Division",
+          "Central Division",
+          "Southeast Division",
+          "Pacific Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The Oklahoma City Thunder compete in which NBA division?",
+        "o": [
+          "Pacific Division",
+          "Northwest Division",
+          "Southwest Division",
+          "Atlantic Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2010 NBA Finals?",
+        "o": [
+          "Dallas Mavericks",
+          "Detroit Pistons",
+          "Los Angeles Lakers",
+          "Chicago Bulls"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2009 NBA Finals?",
+        "o": [
+          "Boston Celtics",
+          "Denver Nuggets",
+          "Golden State Warriors",
+          "Los Angeles Lakers"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2008 NBA Finals?",
+        "o": [
+          "Boston Celtics",
+          "Detroit Pistons",
+          "Chicago Bulls",
+          "Houston Rockets"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2007 NBA Finals?",
+        "o": [
+          "Cleveland Cavaliers",
+          "San Antonio Spurs",
+          "Miami Heat",
+          "Dallas Mavericks"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2006 NBA Finals?",
+        "o": [
+          "Los Angeles Lakers",
+          "Toronto Raptors",
+          "Miami Heat",
+          "Cleveland Cavaliers"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2005 NBA Finals?",
+        "o": [
+          "Toronto Raptors",
+          "Cleveland Cavaliers",
+          "Miami Heat",
+          "San Antonio Spurs"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2004 NBA Finals?",
+        "o": [
+          "Detroit Pistons",
+          "Oklahoma City Thunder",
+          "Boston Celtics",
+          "Denver Nuggets"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the NBA division of the Miami Heat.",
+        "o": [
+          "Northwest Division",
+          "Southeast Division",
+          "Pacific Division",
+          "Southwest Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the NBA division of the Orlando Magic.",
+        "o": [
+          "Atlantic Division",
+          "Central Division",
+          "Southeast Division",
+          "Northwest Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the NBA division of the Washington Wizards.",
+        "o": [
+          "Northwest Division",
+          "Pacific Division",
+          "Southwest Division",
+          "Southeast Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the NBA division of the Denver Nuggets.",
+        "o": [
+          "Northwest Division",
+          "Atlantic Division",
+          "Central Division",
+          "Southeast Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the NBA division of the Minnesota Timberwolves.",
+        "o": [
+          "Southeast Division",
+          "Northwest Division",
+          "Pacific Division",
+          "Southwest Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the NBA division of the Oklahoma City Thunder.",
+        "o": [
+          "Atlantic Division",
+          "Central Division",
+          "Northwest Division",
+          "Southeast Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the title winner from the 2010 NBA Finals.",
+        "o": [
+          "Miami Heat",
+          "Dallas Mavericks",
+          "Detroit Pistons",
+          "Los Angeles Lakers"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 2009 NBA Finals.",
+        "o": [
+          "Los Angeles Lakers",
+          "Cleveland Cavaliers",
+          "San Antonio Spurs",
+          "Miami Heat"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the title winner from the 2008 NBA Finals.",
+        "o": [
+          "San Antonio Spurs",
+          "Boston Celtics",
+          "Miami Heat",
+          "Dallas Mavericks"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the title winner from the 2007 NBA Finals.",
+        "o": [
+          "Denver Nuggets",
+          "Golden State Warriors",
+          "San Antonio Spurs",
+          "Milwaukee Bucks"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the title winner from the 2006 NBA Finals.",
+        "o": [
+          "Dallas Mavericks",
+          "Detroit Pistons",
+          "Chicago Bulls",
+          "Miami Heat"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 2005 NBA Finals.",
+        "o": [
+          "San Antonio Spurs",
+          "Milwaukee Bucks",
+          "Los Angeles Lakers",
+          "Toronto Raptors"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the title winner from the 2004 NBA Finals.",
+        "o": [
+          "Dallas Mavericks",
+          "Detroit Pistons",
+          "Chicago Bulls",
+          "Houston Rockets"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which division is home to the Miami Heat?",
+        "o": [
+          "Pacific Division",
+          "Southwest Division",
+          "Southeast Division",
+          "Atlantic Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which division is home to the Orlando Magic?",
+        "o": [
+          "Pacific Division",
+          "Southwest Division",
+          "Atlantic Division",
+          "Southeast Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which division is home to the Washington Wizards?",
+        "o": [
+          "Southeast Division",
+          "Atlantic Division",
+          "Central Division",
+          "Northwest Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which division is home to the Denver Nuggets?",
+        "o": [
+          "Southeast Division",
+          "Northwest Division",
+          "Pacific Division",
+          "Southwest Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which division is home to the Minnesota Timberwolves?",
+        "o": [
+          "Central Division",
+          "Southeast Division",
+          "Northwest Division",
+          "Pacific Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which division is home to the Oklahoma City Thunder?",
+        "o": [
+          "Southeast Division",
+          "Pacific Division",
+          "Southwest Division",
+          "Northwest Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which side lifted the trophy at the 2010 NBA Finals?",
+        "o": [
+          "Los Angeles Lakers",
+          "Oklahoma City Thunder",
+          "Boston Celtics",
+          "Denver Nuggets"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which side lifted the trophy at the 2009 NBA Finals?",
+        "o": [
+          "Denver Nuggets",
+          "Los Angeles Lakers",
+          "Golden State Warriors",
+          "Milwaukee Bucks"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which side lifted the trophy at the 2008 NBA Finals?",
+        "o": [
+          "Dallas Mavericks",
+          "Detroit Pistons",
+          "Boston Celtics",
+          "Chicago Bulls"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which side lifted the trophy at the 2007 NBA Finals?",
+        "o": [
+          "Toronto Raptors",
+          "Cleveland Cavaliers",
+          "Miami Heat",
+          "San Antonio Spurs"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which side lifted the trophy at the 2006 NBA Finals?",
+        "o": [
+          "Miami Heat",
+          "San Antonio Spurs",
+          "Dallas Mavericks",
+          "Detroit Pistons"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which side lifted the trophy at the 2005 NBA Finals?",
+        "o": [
+          "Milwaukee Bucks",
+          "San Antonio Spurs",
+          "Los Angeles Lakers",
+          "Toronto Raptors"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which side lifted the trophy at the 2004 NBA Finals?",
+        "o": [
+          "Boston Celtics",
+          "Denver Nuggets",
+          "Detroit Pistons",
+          "Golden State Warriors"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Where do the Miami Heat sit in the NBA division map?",
+        "o": [
+          "Northwest Division",
+          "Pacific Division",
+          "Southwest Division",
+          "Southeast Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Where do the Orlando Magic sit in the NBA division map?",
+        "o": [
+          "Southeast Division",
+          "Southwest Division",
+          "Atlantic Division",
+          "Central Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Where do the Washington Wizards sit in the NBA division map?",
+        "o": [
+          "Central Division",
+          "Southeast Division",
+          "Northwest Division",
+          "Pacific Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Where do the Denver Nuggets sit in the NBA division map?",
+        "o": [
+          "Pacific Division",
+          "Southwest Division",
+          "Northwest Division",
+          "Atlantic Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Where do the Minnesota Timberwolves sit in the NBA division map?",
+        "o": [
+          "Southeast Division",
+          "Pacific Division",
+          "Southwest Division",
+          "Northwest Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Where do the Oklahoma City Thunder sit in the NBA division map?",
+        "o": [
+          "Northwest Division",
+          "Atlantic Division",
+          "Central Division",
+          "Southeast Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The 2010 NBA Finals title went to which team?",
+        "o": [
+          "Toronto Raptors",
+          "Los Angeles Lakers",
+          "Cleveland Cavaliers",
+          "San Antonio Spurs"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The 2009 NBA Finals title went to which team?",
+        "o": [
+          "Golden State Warriors",
+          "Milwaukee Bucks",
+          "Los Angeles Lakers",
+          "Toronto Raptors"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The 2008 NBA Finals title went to which team?",
+        "o": [
+          "Chicago Bulls",
+          "Houston Rockets",
+          "Oklahoma City Thunder",
+          "Boston Celtics"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The 2007 NBA Finals title went to which team?",
+        "o": [
+          "San Antonio Spurs",
+          "Dallas Mavericks",
+          "Detroit Pistons",
+          "Chicago Bulls"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The 2006 NBA Finals title went to which team?",
+        "o": [
+          "Boston Celtics",
+          "Miami Heat",
+          "Denver Nuggets",
+          "Golden State Warriors"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The 2005 NBA Finals title went to which team?",
+        "o": [
+          "Miami Heat",
+          "Dallas Mavericks",
+          "San Antonio Spurs",
+          "Detroit Pistons"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The 2004 NBA Finals title went to which team?",
+        "o": [
+          "Houston Rockets",
+          "Oklahoma City Thunder",
+          "Boston Celtics",
+          "Detroit Pistons"
+        ],
+        "a": 3
+      }
+    ],
+    "4": [
+      {
+        "p": "Which NBA division includes the Portland Trail Blazers?",
+        "o": [
+          "Northwest Division",
+          "Central Division",
+          "Southeast Division",
+          "Pacific Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2016 WNBA Finals?",
+        "o": [
+          "Las Vegas Aces",
+          "Los Angeles Sparks",
+          "New York Liberty",
+          "Chicago Sky"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2016 men’s Olympic tournament?",
+        "o": [
+          "Yugoslavia",
+          "Argentina",
+          "United States",
+          "Germany"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2016 women’s Olympic tournament?",
+        "o": [
+          "Spain",
+          "Serbia",
+          "Russia",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2012 NCAA men’s tournament?",
+        "o": [
+          "Kentucky",
+          "North Carolina",
+          "Duke",
+          "UConn"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2013 NCAA women’s tournament?",
+        "o": [
+          "Notre Dame",
+          "UConn",
+          "South Carolina",
+          "Texas A&M"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2018 EuroLeague Final?",
+        "o": [
+          "Panathinaikos",
+          "Anadolu Efes",
+          "Real Madrid",
+          "CSKA Moscow"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which NBA division includes the Utah Jazz?",
+        "o": [
+          "Southeast Division",
+          "Pacific Division",
+          "Southwest Division",
+          "Northwest Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2015 WNBA Finals?",
+        "o": [
+          "Minnesota Lynx",
+          "Chicago Sky",
+          "Seattle Storm",
+          "Washington Mystics"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2012 men’s Olympic tournament?",
+        "o": [
+          "Yugoslavia",
+          "United States",
+          "Argentina",
+          "Germany"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2012 women’s Olympic tournament?",
+        "o": [
+          "Spain",
+          "Serbia",
+          "United States",
+          "Russia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2011 NCAA men’s tournament?",
+        "o": [
+          "Virginia",
+          "Villanova",
+          "North Carolina",
+          "UConn"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2012 NCAA women’s tournament?",
+        "o": [
+          "Baylor",
+          "Notre Dame",
+          "South Carolina",
+          "UConn"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2017 EuroLeague Final?",
+        "o": [
+          "Real Madrid",
+          "Fenerbahce",
+          "Anadolu Efes",
+          "CSKA Moscow"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which NBA division includes the Golden State Warriors?",
+        "o": [
+          "Atlantic Division",
+          "Central Division",
+          "Pacific Division",
+          "Southeast Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2014 WNBA Finals?",
+        "o": [
+          "Las Vegas Aces",
+          "New York Liberty",
+          "Chicago Sky",
+          "Phoenix Mercury"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2008 men’s Olympic tournament?",
+        "o": [
+          "United States",
+          "Argentina",
+          "Germany",
+          "Spain"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2023 FIBA Women’s EuroBasket?",
+        "o": [
+          "United States",
+          "Belgium",
+          "Russia",
+          "Spain"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2012 NCAA men’s tournament?",
+        "o": [
+          "North Carolina",
+          "Duke",
+          "Kentucky",
+          "UConn"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2013 NCAA women’s tournament?",
+        "o": [
+          "Texas A&M",
+          "Baylor",
+          "Notre Dame",
+          "UConn"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2018 EuroLeague Final?",
+        "o": [
+          "Real Madrid",
+          "CSKA Moscow",
+          "Fenerbahce",
+          "Panathinaikos"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which NBA division includes the LA Clippers?",
+        "o": [
+          "Northwest Division",
+          "Pacific Division",
+          "Southwest Division",
+          "Atlantic Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2016 WNBA Finals?",
+        "o": [
+          "Chicago Sky",
+          "Seattle Storm",
+          "Los Angeles Sparks",
+          "Washington Mystics"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2016 men’s Olympic tournament?",
+        "o": [
+          "Germany",
+          "Spain",
+          "Yugoslavia",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2011 NCAA men’s tournament?",
+        "o": [
+          "UConn",
+          "Villanova",
+          "North Carolina",
+          "Duke"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2017 EuroLeague Final?",
+        "o": [
+          "CSKA Moscow",
+          "Fenerbahce",
+          "Panathinaikos",
+          "Real Madrid"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which NBA division includes the Los Angeles Lakers?",
+        "o": [
+          "Southwest Division",
+          "Atlantic Division",
+          "Pacific Division",
+          "Central Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2015 WNBA Finals?",
+        "o": [
+          "Las Vegas Aces",
+          "New York Liberty",
+          "Chicago Sky",
+          "Minnesota Lynx"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2012 men’s Olympic tournament?",
+        "o": [
+          "United States",
+          "Germany",
+          "Spain",
+          "Yugoslavia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the title winner from the 2012 NCAA men’s tournament.",
+        "o": [
+          "Duke",
+          "Kentucky",
+          "UConn",
+          "Virginia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the title winner from the 2018 EuroLeague Final.",
+        "o": [
+          "Anadolu Efes",
+          "CSKA Moscow",
+          "Real Madrid",
+          "Fenerbahce"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which NBA division includes the Phoenix Suns?",
+        "o": [
+          "Atlantic Division",
+          "Central Division",
+          "Southeast Division",
+          "Pacific Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2014 WNBA Finals?",
+        "o": [
+          "Phoenix Mercury",
+          "Chicago Sky",
+          "Seattle Storm",
+          "Washington Mystics"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2008 men’s Olympic tournament?",
+        "o": [
+          "Spain",
+          "United States",
+          "Yugoslavia",
+          "Argentina"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the title winner from the 2011 NCAA men’s tournament.",
+        "o": [
+          "Virginia",
+          "Villanova",
+          "UConn",
+          "North Carolina"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2003 NBA Finals?",
+        "o": [
+          "Milwaukee Bucks",
+          "Los Angeles Lakers",
+          "Toronto Raptors",
+          "San Antonio Spurs"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 2016 WNBA Finals.",
+        "o": [
+          "Los Angeles Sparks",
+          "Indiana Fever",
+          "Las Vegas Aces",
+          "New York Liberty"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the title winner from the 2016 men’s Olympic tournament.",
+        "o": [
+          "Spain",
+          "United States",
+          "Yugoslavia",
+          "Argentina"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which side lifted the trophy at the 2012 NCAA men’s tournament?",
+        "o": [
+          "Virginia",
+          "Villanova",
+          "Kentucky",
+          "North Carolina"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2002 NBA Finals?",
+        "o": [
+          "Detroit Pistons",
+          "Chicago Bulls",
+          "Houston Rockets",
+          "Los Angeles Lakers"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 2015 WNBA Finals.",
+        "o": [
+          "Minnesota Lynx",
+          "Los Angeles Sparks",
+          "Phoenix Mercury",
+          "Indiana Fever"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2001 NBA Finals?",
+        "o": [
+          "Miami Heat",
+          "Los Angeles Lakers",
+          "Dallas Mavericks",
+          "Detroit Pistons"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the title winner from the 2014 WNBA Finals.",
+        "o": [
+          "Minnesota Lynx",
+          "Los Angeles Sparks",
+          "Phoenix Mercury",
+          "Indiana Fever"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2000 NBA Finals?",
+        "o": [
+          "Detroit Pistons",
+          "Chicago Bulls",
+          "Houston Rockets",
+          "Los Angeles Lakers"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which side lifted the trophy at the 2016 WNBA Finals?",
+        "o": [
+          "Los Angeles Sparks",
+          "Washington Mystics",
+          "Minnesota Lynx",
+          "Phoenix Mercury"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1999 NBA Finals?",
+        "o": [
+          "Cleveland Cavaliers",
+          "San Antonio Spurs",
+          "Miami Heat",
+          "Dallas Mavericks"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1998 NBA Finals?",
+        "o": [
+          "Houston Rockets",
+          "Oklahoma City Thunder",
+          "Chicago Bulls",
+          "Boston Celtics"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1997 NBA Finals?",
+        "o": [
+          "Cleveland Cavaliers",
+          "San Antonio Spurs",
+          "Miami Heat",
+          "Chicago Bulls"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Portland Trail Blazers compete in which NBA division?",
+        "o": [
+          "Northwest Division",
+          "Central Division",
+          "Southeast Division",
+          "Pacific Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The Utah Jazz compete in which NBA division?",
+        "o": [
+          "Atlantic Division",
+          "Northwest Division",
+          "Central Division",
+          "Southeast Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The Golden State Warriors compete in which NBA division?",
+        "o": [
+          "Atlantic Division",
+          "Central Division",
+          "Pacific Division",
+          "Southeast Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The LA Clippers compete in which NBA division?",
+        "o": [
+          "Northwest Division",
+          "Southwest Division",
+          "Atlantic Division",
+          "Pacific Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Los Angeles Lakers compete in which NBA division?",
+        "o": [
+          "Pacific Division",
+          "Southeast Division",
+          "Northwest Division",
+          "Southwest Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The Phoenix Suns compete in which NBA division?",
+        "o": [
+          "Southeast Division",
+          "Pacific Division",
+          "Northwest Division",
+          "Southwest Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2003 NBA Finals?",
+        "o": [
+          "Milwaukee Bucks",
+          "Los Angeles Lakers",
+          "San Antonio Spurs",
+          "Toronto Raptors"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2002 NBA Finals?",
+        "o": [
+          "Milwaukee Bucks",
+          "Toronto Raptors",
+          "Cleveland Cavaliers",
+          "Los Angeles Lakers"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2001 NBA Finals?",
+        "o": [
+          "Los Angeles Lakers",
+          "Houston Rockets",
+          "Oklahoma City Thunder",
+          "Boston Celtics"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2000 NBA Finals?",
+        "o": [
+          "Boston Celtics",
+          "Los Angeles Lakers",
+          "Denver Nuggets",
+          "Golden State Warriors"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 1999 NBA Finals?",
+        "o": [
+          "Golden State Warriors",
+          "Milwaukee Bucks",
+          "San Antonio Spurs",
+          "Los Angeles Lakers"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 1998 NBA Finals?",
+        "o": [
+          "Detroit Pistons",
+          "Houston Rockets",
+          "Oklahoma City Thunder",
+          "Chicago Bulls"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 1997 NBA Finals?",
+        "o": [
+          "Chicago Bulls",
+          "Miami Heat",
+          "Dallas Mavericks",
+          "Detroit Pistons"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the NBA division of the Portland Trail Blazers.",
+        "o": [
+          "Central Division",
+          "Northwest Division",
+          "Southeast Division",
+          "Pacific Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the NBA division of the Utah Jazz.",
+        "o": [
+          "Southeast Division",
+          "Pacific Division",
+          "Northwest Division",
+          "Southwest Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the NBA division of the Golden State Warriors.",
+        "o": [
+          "Southwest Division",
+          "Atlantic Division",
+          "Central Division",
+          "Pacific Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the NBA division of the LA Clippers.",
+        "o": [
+          "Pacific Division",
+          "Central Division",
+          "Southeast Division",
+          "Northwest Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the NBA division of the Los Angeles Lakers.",
+        "o": [
+          "Southwest Division",
+          "Pacific Division",
+          "Atlantic Division",
+          "Central Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the NBA division of the Phoenix Suns.",
+        "o": [
+          "Northwest Division",
+          "Southwest Division",
+          "Pacific Division",
+          "Atlantic Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the title winner from the 2003 NBA Finals.",
+        "o": [
+          "Oklahoma City Thunder",
+          "Boston Celtics",
+          "Denver Nuggets",
+          "San Antonio Spurs"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 2002 NBA Finals.",
+        "o": [
+          "Los Angeles Lakers",
+          "Cleveland Cavaliers",
+          "San Antonio Spurs",
+          "Miami Heat"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the title winner from the 2001 NBA Finals.",
+        "o": [
+          "Boston Celtics",
+          "Los Angeles Lakers",
+          "Denver Nuggets",
+          "Golden State Warriors"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the title winner from the 2000 NBA Finals.",
+        "o": [
+          "Oklahoma City Thunder",
+          "Boston Celtics",
+          "Los Angeles Lakers",
+          "Denver Nuggets"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the title winner from the 1999 NBA Finals.",
+        "o": [
+          "Detroit Pistons",
+          "Chicago Bulls",
+          "Houston Rockets",
+          "San Antonio Spurs"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 1998 NBA Finals.",
+        "o": [
+          "Chicago Bulls",
+          "Milwaukee Bucks",
+          "Los Angeles Lakers",
+          "Toronto Raptors"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the title winner from the 1997 NBA Finals.",
+        "o": [
+          "Milwaukee Bucks",
+          "Chicago Bulls",
+          "Los Angeles Lakers",
+          "Toronto Raptors"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which division is home to the Portland Trail Blazers?",
+        "o": [
+          "Southwest Division",
+          "Atlantic Division",
+          "Northwest Division",
+          "Central Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which division is home to the Utah Jazz?",
+        "o": [
+          "Southeast Division",
+          "Pacific Division",
+          "Southwest Division",
+          "Northwest Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which division is home to the Golden State Warriors?",
+        "o": [
+          "Pacific Division",
+          "Central Division",
+          "Southeast Division",
+          "Northwest Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which division is home to the LA Clippers?",
+        "o": [
+          "Atlantic Division",
+          "Pacific Division",
+          "Central Division",
+          "Southeast Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which division is home to the Los Angeles Lakers?",
+        "o": [
+          "Central Division",
+          "Southeast Division",
+          "Pacific Division",
+          "Northwest Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which division is home to the Phoenix Suns?",
+        "o": [
+          "Atlantic Division",
+          "Central Division",
+          "Southeast Division",
+          "Pacific Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which side lifted the trophy at the 2003 NBA Finals?",
+        "o": [
+          "San Antonio Spurs",
+          "Detroit Pistons",
+          "Chicago Bulls",
+          "Houston Rockets"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which side lifted the trophy at the 2002 NBA Finals?",
+        "o": [
+          "Cleveland Cavaliers",
+          "Los Angeles Lakers",
+          "San Antonio Spurs",
+          "Miami Heat"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which side lifted the trophy at the 2001 NBA Finals?",
+        "o": [
+          "San Antonio Spurs",
+          "Miami Heat",
+          "Los Angeles Lakers",
+          "Dallas Mavericks"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which side lifted the trophy at the 2000 NBA Finals?",
+        "o": [
+          "Cleveland Cavaliers",
+          "San Antonio Spurs",
+          "Miami Heat",
+          "Los Angeles Lakers"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which side lifted the trophy at the 1999 NBA Finals?",
+        "o": [
+          "San Antonio Spurs",
+          "Chicago Bulls",
+          "Houston Rockets",
+          "Oklahoma City Thunder"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which side lifted the trophy at the 1998 NBA Finals?",
+        "o": [
+          "Denver Nuggets",
+          "Chicago Bulls",
+          "Golden State Warriors",
+          "Milwaukee Bucks"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which side lifted the trophy at the 1997 NBA Finals?",
+        "o": [
+          "Houston Rockets",
+          "Oklahoma City Thunder",
+          "Chicago Bulls",
+          "Boston Celtics"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Where do the Portland Trail Blazers sit in the NBA division map?",
+        "o": [
+          "Southwest Division",
+          "Atlantic Division",
+          "Central Division",
+          "Northwest Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Where do the Utah Jazz sit in the NBA division map?",
+        "o": [
+          "Northwest Division",
+          "Southwest Division",
+          "Atlantic Division",
+          "Central Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Where do the Golden State Warriors sit in the NBA division map?",
+        "o": [
+          "Atlantic Division",
+          "Pacific Division",
+          "Central Division",
+          "Southeast Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Where do the LA Clippers sit in the NBA division map?",
+        "o": [
+          "Central Division",
+          "Southeast Division",
+          "Pacific Division",
+          "Northwest Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Where do the Los Angeles Lakers sit in the NBA division map?",
+        "o": [
+          "Southwest Division",
+          "Atlantic Division",
+          "Central Division",
+          "Pacific Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Where do the Phoenix Suns sit in the NBA division map?",
+        "o": [
+          "Pacific Division",
+          "Southeast Division",
+          "Northwest Division",
+          "Southwest Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The 2003 NBA Finals title went to which team?",
+        "o": [
+          "Houston Rockets",
+          "San Antonio Spurs",
+          "Oklahoma City Thunder",
+          "Boston Celtics"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The 2002 NBA Finals title went to which team?",
+        "o": [
+          "Dallas Mavericks",
+          "Detroit Pistons",
+          "Los Angeles Lakers",
+          "Chicago Bulls"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The 2001 NBA Finals title went to which team?",
+        "o": [
+          "Boston Celtics",
+          "Denver Nuggets",
+          "Golden State Warriors",
+          "Los Angeles Lakers"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The 2000 NBA Finals title went to which team?",
+        "o": [
+          "Los Angeles Lakers",
+          "Houston Rockets",
+          "Oklahoma City Thunder",
+          "Boston Celtics"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The 1999 NBA Finals title went to which team?",
+        "o": [
+          "Oklahoma City Thunder",
+          "San Antonio Spurs",
+          "Boston Celtics",
+          "Denver Nuggets"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The 1998 NBA Finals title went to which team?",
+        "o": [
+          "Oklahoma City Thunder",
+          "Boston Celtics",
+          "Chicago Bulls",
+          "Denver Nuggets"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The 1997 NBA Finals title went to which team?",
+        "o": [
+          "Miami Heat",
+          "Dallas Mavericks",
+          "Detroit Pistons",
+          "Chicago Bulls"
+        ],
+        "a": 3
+      }
+    ],
+    "5": [
+      {
+        "p": "Which NBA division includes the Sacramento Kings?",
+        "o": [
+          "Pacific Division",
+          "Northwest Division",
+          "Southwest Division",
+          "Atlantic Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2013 WNBA Finals?",
+        "o": [
+          "Las Vegas Aces",
+          "Minnesota Lynx",
+          "New York Liberty",
+          "Chicago Sky"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2004 men’s Olympic tournament?",
+        "o": [
+          "United States",
+          "Yugoslavia",
+          "Argentina",
+          "Germany"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2019 FIBA Women’s EuroBasket?",
+        "o": [
+          "Russia",
+          "Belgium",
+          "Serbia",
+          "Spain"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2010 NCAA men’s tournament?",
+        "o": [
+          "Duke",
+          "North Carolina",
+          "UConn",
+          "Kentucky"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2011 NCAA women’s tournament?",
+        "o": [
+          "UConn",
+          "Texas A&M",
+          "Baylor",
+          "Notre Dame"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2016 EuroLeague Final?",
+        "o": [
+          "Fenerbahce",
+          "Panathinaikos",
+          "CSKA Moscow",
+          "Real Madrid"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which NBA division includes the Dallas Mavericks?",
+        "o": [
+          "Southeast Division",
+          "Northwest Division",
+          "Pacific Division",
+          "Southwest Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2012 WNBA Finals?",
+        "o": [
+          "Indiana Fever",
+          "Las Vegas Aces",
+          "New York Liberty",
+          "Chicago Sky"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2000 men’s Olympic tournament?",
+        "o": [
+          "Argentina",
+          "United States",
+          "Germany",
+          "Spain"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2015 FIBA Women’s EuroBasket?",
+        "o": [
+          "Belgium",
+          "Spain",
+          "Serbia",
+          "United States"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2010 NCAA men’s tournament?",
+        "o": [
+          "Kentucky",
+          "Virginia",
+          "Villanova",
+          "Duke"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2011 NCAA women’s tournament?",
+        "o": [
+          "Texas A&M",
+          "Notre Dame",
+          "South Carolina",
+          "UConn"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2016 EuroLeague Final?",
+        "o": [
+          "Real Madrid",
+          "CSKA Moscow",
+          "Anadolu Efes",
+          "Fenerbahce"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which NBA division includes the Houston Rockets?",
+        "o": [
+          "Central Division",
+          "Southeast Division",
+          "Southwest Division",
+          "Northwest Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2011 WNBA Finals?",
+        "o": [
+          "Phoenix Mercury",
+          "Indiana Fever",
+          "Las Vegas Aces",
+          "Minnesota Lynx"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2004 men’s Olympic tournament?",
+        "o": [
+          "Argentina",
+          "Germany",
+          "Spain",
+          "United States"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2019 FIBA Women’s EuroBasket?",
+        "o": [
+          "Serbia",
+          "Spain",
+          "United States",
+          "Russia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the title winner from the 2010 NCAA men’s tournament.",
+        "o": [
+          "Kentucky",
+          "Virginia",
+          "Duke",
+          "Villanova"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the title winner from the 2011 NCAA women’s tournament.",
+        "o": [
+          "South Carolina",
+          "UConn",
+          "Baylor",
+          "Texas A&M"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 2016 EuroLeague Final.",
+        "o": [
+          "CSKA Moscow",
+          "Anadolu Efes",
+          "Fenerbahce",
+          "Panathinaikos"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which NBA division includes the Memphis Grizzlies?",
+        "o": [
+          "Pacific Division",
+          "Southwest Division",
+          "Atlantic Division",
+          "Central Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2013 WNBA Finals?",
+        "o": [
+          "Chicago Sky",
+          "Seattle Storm",
+          "Minnesota Lynx",
+          "Washington Mystics"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2000 men’s Olympic tournament?",
+        "o": [
+          "Spain",
+          "Yugoslavia",
+          "Argentina",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which side lifted the trophy at the 2010 NCAA men’s tournament?",
+        "o": [
+          "Duke",
+          "UConn",
+          "Kentucky",
+          "Virginia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which side lifted the trophy at the 2016 EuroLeague Final?",
+        "o": [
+          "Fenerbahce",
+          "CSKA Moscow",
+          "Panathinaikos",
+          "Real Madrid"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which NBA division includes the New Orleans Pelicans?",
+        "o": [
+          "Central Division",
+          "Southeast Division",
+          "Southwest Division",
+          "Northwest Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2012 WNBA Finals?",
+        "o": [
+          "Los Angeles Sparks",
+          "Phoenix Mercury",
+          "Las Vegas Aces",
+          "Indiana Fever"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 2004 men’s Olympic tournament.",
+        "o": [
+          "Argentina",
+          "Spain",
+          "United States",
+          "Yugoslavia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The 2010 NCAA men’s tournament title went to which team?",
+        "o": [
+          "Virginia",
+          "Duke",
+          "Villanova",
+          "North Carolina"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The 2016 EuroLeague Final title went to which team?",
+        "o": [
+          "Panathinaikos",
+          "Real Madrid",
+          "CSKA Moscow",
+          "Anadolu Efes"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which NBA division includes the San Antonio Spurs?",
+        "o": [
+          "Southeast Division",
+          "Northwest Division",
+          "Pacific Division",
+          "Southwest Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2011 WNBA Finals?",
+        "o": [
+          "Minnesota Lynx",
+          "Washington Mystics",
+          "Los Angeles Sparks",
+          "Phoenix Mercury"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the title winner from the 2000 men’s Olympic tournament.",
+        "o": [
+          "Germany",
+          "United States",
+          "Spain",
+          "Yugoslavia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who were crowned champions in the 2010 NCAA men’s tournament?",
+        "o": [
+          "North Carolina",
+          "UConn",
+          "Duke",
+          "Kentucky"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1996 NBA Finals?",
+        "o": [
+          "Oklahoma City Thunder",
+          "Boston Celtics",
+          "Denver Nuggets",
+          "Chicago Bulls"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 2013 WNBA Finals.",
+        "o": [
+          "Minnesota Lynx",
+          "Indiana Fever",
+          "Las Vegas Aces",
+          "New York Liberty"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which side lifted the trophy at the 2004 men’s Olympic tournament?",
+        "o": [
+          "United States",
+          "Argentina",
+          "Yugoslavia",
+          "Germany"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Identify the winner of the 2010 NCAA men’s tournament.",
+        "o": [
+          "Kentucky",
+          "Virginia",
+          "Duke",
+          "Villanova"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1995 NBA Finals?",
+        "o": [
+          "Oklahoma City Thunder",
+          "Boston Celtics",
+          "Denver Nuggets",
+          "Houston Rockets"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 2012 WNBA Finals.",
+        "o": [
+          "Indiana Fever",
+          "Minnesota Lynx",
+          "Los Angeles Sparks",
+          "Phoenix Mercury"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1994 NBA Finals?",
+        "o": [
+          "Boston Celtics",
+          "Houston Rockets",
+          "Denver Nuggets",
+          "Golden State Warriors"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the title winner from the 2011 WNBA Finals.",
+        "o": [
+          "New York Liberty",
+          "Chicago Sky",
+          "Minnesota Lynx",
+          "Seattle Storm"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1993 NBA Finals?",
+        "o": [
+          "Milwaukee Bucks",
+          "Los Angeles Lakers",
+          "Toronto Raptors",
+          "Chicago Bulls"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which side lifted the trophy at the 2013 WNBA Finals?",
+        "o": [
+          "Minnesota Lynx",
+          "Washington Mystics",
+          "Los Angeles Sparks",
+          "Phoenix Mercury"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1992 NBA Finals?",
+        "o": [
+          "Miami Heat",
+          "Chicago Bulls",
+          "Dallas Mavericks",
+          "Detroit Pistons"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1991 NBA Finals?",
+        "o": [
+          "Boston Celtics",
+          "Denver Nuggets",
+          "Chicago Bulls",
+          "Golden State Warriors"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1990 NBA Finals?",
+        "o": [
+          "Chicago Bulls",
+          "Houston Rockets",
+          "Oklahoma City Thunder",
+          "Detroit Pistons"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Sacramento Kings compete in which NBA division?",
+        "o": [
+          "Pacific Division",
+          "Northwest Division",
+          "Southwest Division",
+          "Atlantic Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The Dallas Mavericks compete in which NBA division?",
+        "o": [
+          "Southeast Division",
+          "Southwest Division",
+          "Northwest Division",
+          "Pacific Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The Houston Rockets compete in which NBA division?",
+        "o": [
+          "Southeast Division",
+          "Northwest Division",
+          "Southwest Division",
+          "Pacific Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The Memphis Grizzlies compete in which NBA division?",
+        "o": [
+          "Southeast Division",
+          "Northwest Division",
+          "Pacific Division",
+          "Southwest Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The New Orleans Pelicans compete in which NBA division?",
+        "o": [
+          "Southwest Division",
+          "Northwest Division",
+          "Pacific Division",
+          "Atlantic Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The San Antonio Spurs compete in which NBA division?",
+        "o": [
+          "Northwest Division",
+          "Southwest Division",
+          "Pacific Division",
+          "Atlantic Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 1996 NBA Finals?",
+        "o": [
+          "Detroit Pistons",
+          "Houston Rockets",
+          "Chicago Bulls",
+          "Oklahoma City Thunder"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 1995 NBA Finals?",
+        "o": [
+          "Toronto Raptors",
+          "Cleveland Cavaliers",
+          "San Antonio Spurs",
+          "Houston Rockets"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 1994 NBA Finals?",
+        "o": [
+          "Houston Rockets",
+          "Boston Celtics",
+          "Denver Nuggets",
+          "Golden State Warriors"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 1993 NBA Finals?",
+        "o": [
+          "Detroit Pistons",
+          "Chicago Bulls",
+          "Houston Rockets",
+          "Oklahoma City Thunder"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 1992 NBA Finals?",
+        "o": [
+          "Detroit Pistons",
+          "Houston Rockets",
+          "Chicago Bulls",
+          "Oklahoma City Thunder"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 1991 NBA Finals?",
+        "o": [
+          "Cleveland Cavaliers",
+          "San Antonio Spurs",
+          "Miami Heat",
+          "Chicago Bulls"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 1990 NBA Finals?",
+        "o": [
+          "Detroit Pistons",
+          "Toronto Raptors",
+          "Cleveland Cavaliers",
+          "San Antonio Spurs"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the NBA division of the Sacramento Kings.",
+        "o": [
+          "Atlantic Division",
+          "Pacific Division",
+          "Central Division",
+          "Southeast Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the NBA division of the Dallas Mavericks.",
+        "o": [
+          "Southeast Division",
+          "Northwest Division",
+          "Southwest Division",
+          "Pacific Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the NBA division of the Houston Rockets.",
+        "o": [
+          "Southeast Division",
+          "Northwest Division",
+          "Pacific Division",
+          "Southwest Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the NBA division of the Memphis Grizzlies.",
+        "o": [
+          "Southwest Division",
+          "Southeast Division",
+          "Northwest Division",
+          "Pacific Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the NBA division of the New Orleans Pelicans.",
+        "o": [
+          "Atlantic Division",
+          "Southwest Division",
+          "Central Division",
+          "Southeast Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the NBA division of the San Antonio Spurs.",
+        "o": [
+          "Atlantic Division",
+          "Central Division",
+          "Southwest Division",
+          "Southeast Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the title winner from the 1996 NBA Finals.",
+        "o": [
+          "Houston Rockets",
+          "Oklahoma City Thunder",
+          "Boston Celtics",
+          "Chicago Bulls"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 1995 NBA Finals.",
+        "o": [
+          "Houston Rockets",
+          "Miami Heat",
+          "Dallas Mavericks",
+          "Detroit Pistons"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the title winner from the 1994 NBA Finals.",
+        "o": [
+          "Los Angeles Lakers",
+          "Houston Rockets",
+          "Toronto Raptors",
+          "Cleveland Cavaliers"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the title winner from the 1993 NBA Finals.",
+        "o": [
+          "Dallas Mavericks",
+          "Detroit Pistons",
+          "Chicago Bulls",
+          "Houston Rockets"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the title winner from the 1992 NBA Finals.",
+        "o": [
+          "Denver Nuggets",
+          "Golden State Warriors",
+          "Milwaukee Bucks",
+          "Chicago Bulls"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 1991 NBA Finals.",
+        "o": [
+          "Chicago Bulls",
+          "Miami Heat",
+          "Dallas Mavericks",
+          "Detroit Pistons"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the title winner from the 1990 NBA Finals.",
+        "o": [
+          "Oklahoma City Thunder",
+          "Detroit Pistons",
+          "Boston Celtics",
+          "Denver Nuggets"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which division is home to the Sacramento Kings?",
+        "o": [
+          "Northwest Division",
+          "Southwest Division",
+          "Pacific Division",
+          "Atlantic Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which division is home to the Dallas Mavericks?",
+        "o": [
+          "Southeast Division",
+          "Northwest Division",
+          "Pacific Division",
+          "Southwest Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which division is home to the Houston Rockets?",
+        "o": [
+          "Southwest Division",
+          "Central Division",
+          "Southeast Division",
+          "Northwest Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which division is home to the Memphis Grizzlies?",
+        "o": [
+          "Central Division",
+          "Southwest Division",
+          "Southeast Division",
+          "Northwest Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which division is home to the New Orleans Pelicans?",
+        "o": [
+          "Atlantic Division",
+          "Central Division",
+          "Southwest Division",
+          "Southeast Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which division is home to the San Antonio Spurs?",
+        "o": [
+          "Atlantic Division",
+          "Central Division",
+          "Southeast Division",
+          "Southwest Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which side lifted the trophy at the 1996 NBA Finals?",
+        "o": [
+          "Chicago Bulls",
+          "Milwaukee Bucks",
+          "Los Angeles Lakers",
+          "Toronto Raptors"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which side lifted the trophy at the 1995 NBA Finals?",
+        "o": [
+          "San Antonio Spurs",
+          "Houston Rockets",
+          "Miami Heat",
+          "Dallas Mavericks"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which side lifted the trophy at the 1994 NBA Finals?",
+        "o": [
+          "Los Angeles Lakers",
+          "Toronto Raptors",
+          "Houston Rockets",
+          "Cleveland Cavaliers"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which side lifted the trophy at the 1993 NBA Finals?",
+        "o": [
+          "Oklahoma City Thunder",
+          "Boston Celtics",
+          "Denver Nuggets",
+          "Chicago Bulls"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which side lifted the trophy at the 1992 NBA Finals?",
+        "o": [
+          "Chicago Bulls",
+          "San Antonio Spurs",
+          "Miami Heat",
+          "Dallas Mavericks"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which side lifted the trophy at the 1991 NBA Finals?",
+        "o": [
+          "Milwaukee Bucks",
+          "Chicago Bulls",
+          "Los Angeles Lakers",
+          "Toronto Raptors"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which side lifted the trophy at the 1990 NBA Finals?",
+        "o": [
+          "Boston Celtics",
+          "Denver Nuggets",
+          "Detroit Pistons",
+          "Golden State Warriors"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Where do the Sacramento Kings sit in the NBA division map?",
+        "o": [
+          "Central Division",
+          "Southeast Division",
+          "Northwest Division",
+          "Pacific Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Where do the Dallas Mavericks sit in the NBA division map?",
+        "o": [
+          "Southwest Division",
+          "Pacific Division",
+          "Atlantic Division",
+          "Central Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Where do the Houston Rockets sit in the NBA division map?",
+        "o": [
+          "Central Division",
+          "Southwest Division",
+          "Southeast Division",
+          "Northwest Division"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Where do the Memphis Grizzlies sit in the NBA division map?",
+        "o": [
+          "Atlantic Division",
+          "Central Division",
+          "Southwest Division",
+          "Southeast Division"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Where do the New Orleans Pelicans sit in the NBA division map?",
+        "o": [
+          "Northwest Division",
+          "Pacific Division",
+          "Atlantic Division",
+          "Southwest Division"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Where do the San Antonio Spurs sit in the NBA division map?",
+        "o": [
+          "Southwest Division",
+          "Pacific Division",
+          "Atlantic Division",
+          "Central Division"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The 1996 NBA Finals title went to which team?",
+        "o": [
+          "Milwaukee Bucks",
+          "Chicago Bulls",
+          "Los Angeles Lakers",
+          "Toronto Raptors"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The 1995 NBA Finals title went to which team?",
+        "o": [
+          "Detroit Pistons",
+          "Chicago Bulls",
+          "Houston Rockets",
+          "Oklahoma City Thunder"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The 1994 NBA Finals title went to which team?",
+        "o": [
+          "Milwaukee Bucks",
+          "Los Angeles Lakers",
+          "Toronto Raptors",
+          "Houston Rockets"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The 1993 NBA Finals title went to which team?",
+        "o": [
+          "Chicago Bulls",
+          "Boston Celtics",
+          "Denver Nuggets",
+          "Golden State Warriors"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The 1992 NBA Finals title went to which team?",
+        "o": [
+          "Cleveland Cavaliers",
+          "Chicago Bulls",
+          "San Antonio Spurs",
+          "Miami Heat"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The 1991 NBA Finals title went to which team?",
+        "o": [
+          "Denver Nuggets",
+          "Golden State Warriors",
+          "Chicago Bulls",
+          "Milwaukee Bucks"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The 1990 NBA Finals title went to which team?",
+        "o": [
+          "Dallas Mavericks",
+          "Chicago Bulls",
+          "Houston Rockets",
+          "Detroit Pistons"
+        ],
+        "a": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "gameId": "retro-hoops",
+  "build": "character-v7-local",
+  "assets": "7.0.0",
+  "rules": "2.0.0",
+  "target": "Street Hoop, user-selected GameLog recording; independent authored reconstruction",
+  "changes": [
+    "Compact original adult face clusters, cropped dark/blond hair and less yellow skin shading.",
+    "Fuller upper arms, thighs and calves with coordinated runtime contact-arm width and palette.",
+    "Authored projected knee paths with a folded swing leg and explicit heel/toe roll.",
+    "High-top shoes have distinct side/front/back geometry; native points rotate without bitmap stretching.",
+    "More athletic neutral posture, slightly broader jersey, blue/red kits retained.",
+    "Shared toe/heel anchors and a stepping V6/V7 inspector with knee/ankle/toe markers."
+  ],
+  "checks": {
+    "rulesAndIntegrationTests": 84,
+    "assetIntegrity": 9,
+    "productionActionLoops": 16,
+    "decodedVideos": 16,
+    "mobileLifecycle": 9,
+    "teamScenarios": 6,
+    "galleryCombinations": 12,
+    "hostFlow": 6,
+    "lint": "passed",
+    "typecheck": "passed",
+    "staticBuild": "passed"
+  },
+  "pack": {
+    "frameEntries": 2276,
+    "distinctPixelFrames": 1264,
+    "sourceRasterInputs": 0,
+    "priorPackPreserved": true
+  },
+  "fidelity": {
+    "characterContours": "approximate",
+    "locomotion": "approximate",
+    "blueRedKits": "user-directed adaptation",
+    "footAndBallAnchors": "internally validated; source correspondence unverified",
+    "nativeTiming": "unverified"
+  },
+  "review": {
+    "structural": "passed",
+    "visual": "Incremental improvement; full source likeness remains incomplete",
+    "sourceLikenessApproved": false,
+    "exactLikenessAchieved": false,
+    "physicalDeviceTested": false,
+    "inspected": [
+      "Source recording frames 0016 and 0067",
+      "Both teams V6/V7 pose comparisons and twelve-pose running cycles",
+      "Side/front/back gait inspector captures",
+      "Actual Three dribble frame and shot contact sheet",
+      "Production mobile handheld capture at 844 by 390"
+    ],
+    "limitations": [
+      "Source-specific complete action silhouettes, transitions and timing remain approximate.",
+      "Research frames and production are not precisely pose/depth aligned.",
+      "Physical phone performance and hidden reference algorithms remain unverified."
+    ]
+  },
+  "sourceStudy": "reference-comparison.json",
+  "hashes": {
+    "scripts/retro_hoops_character.py": "5e625b6f65c6af743bd8090758ac5df12b37fd98c9eb9d21575d62a33e0bb121",
+    "scripts/build-retro-hoops-authored.py": "6f7e467028341a17de71259d496acf39f278af54d405d00f0b2d80449720e701",
+    "src/features/games/retro-hoops/contact-arm.ts": "bc0e84e04cafdb177d3220f79dea8b504b923510cd9969322b110606a0bba612",
+    "src/features/games/retro-hoops/character-pack.ts": "7d8fc41485216beb54fc9a4e6566f56c4670059a66e3ff0e574d18cef4d0549d",
+    "public/embedded-games/retro-hoops/index.html": "4cd331a00f02314fe4db764e90b1d207d9e3ba0938095d6d4b1c01fb162fab5f"
+  },
+  "baselinePackSha256": "2f757716cc1d89c980e8b3bbb80438717ab430a99447a9ecb959fdfc68937e58",
+  "release": {
+    "localOnly": true,
+    "pushed": false,
+    "published": false,
+    "pipelineActivated": false
+  }
+}

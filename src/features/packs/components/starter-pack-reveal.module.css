@@ -1,0 +1,98 @@
+/*
+ * The flow around the cards: the intro's cascade, the white-out that ends it,
+ * and the summary dealing its collection in.
+ *
+ * Flutter runs one 1100ms controller through named sub-intervals; on the web
+ * each element owns its slice as a delay and a duration, which is the same
+ * timing written where the element is.
+ */
+
+.rise {
+  animation: rise-in var(--rise-duration, 400ms) cubic-bezier(0, 0, 0.58, 1) both;
+  animation-delay: var(--rise-delay, 0ms);
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(var(--rise-from, 24px));
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* The mystery slots pop rather than rise, so their overshoot reads. */
+.pop {
+  animation: pop-in 320ms cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  animation-delay: var(--pop-delay, 0ms);
+}
+
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    scale: 0;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.breathe {
+  animation: breathe 1800ms ease-in-out infinite alternate;
+}
+
+@keyframes breathe {
+  from {
+    opacity: 0.35;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* The intro hands over through a white-out rather than a cut. */
+.exitFlash {
+  animation: exit-flash 380ms linear both;
+}
+
+@keyframes exit-flash {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeOut {
+  animation: fade-out 420ms linear both;
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/*
+ * The headline is painted with the gradient rather than masked, so it never
+ * picks up the strikethrough artefact a text mask can leave behind.
+ */
+.headline {
+  background-image: var(--ds-gradient-pack-headline);
+  background-clip: text;
+  color: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rise,
+  .pop {
+    animation-delay: 0ms;
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "target": {
+    "title": "Street Hoop",
+    "edition": "Steam target; supplementary European arcade recording",
+    "revisionVerified": false,
+    "settingsVerified": false,
+    "product": "Steam app 1189520"
+  },
+  "status": "target selected; native timing not locked",
+  "referenceFrame": {
+    "path": "C:\\Users\\priya\\OneDrive\\Desktop\\StatOz Designer\\output\\retro-hoops\\source-study-v1\\opening-play\\sample-0030.png",
+    "sha256": "ceca82396f884bc404d42bda41e74e0264f8cc79b20e7b0d8d939c20681c7599",
+    "width": 320,
+    "height": 224,
+    "classification": "observed processed recording dimensions; not proof of native display geometry",
+    "source": "https://www.youtube.com/watch?v=6fyRg0wTEYY"
+  },
+  "baseline": {
+    "rules": "1.7.0",
+    "viewport": [
+      640,
+      360
+    ],
+    "simulationHz": 60,
+    "snapshot": "test-results/retro-hoops-baseline-1.7.0"
+  },
+  "retainedAdaptations": [
+    "fictional teams and authored art",
+    "original procedural audio",
+    "mobile handheld inputs",
+    "second-press shot fake",
+    "2x countdown fit; exact native rate unknown",
+    "draw/result and buzzer edge policy"
+  ],
+  "firstGate": [
+    "align court and actor scale",
+    "compare full dribble-pass-receive-shot possession",
+    "measure event timing from verified capture"
+  ],
+  "unknown": [
+    "native frame holds",
+    "precise revision and DIP settings",
+    "input windows",
+    "AI algorithms"
+  ],
+  "release": {
+    "localOnly": true,
+    "pushAuthorized": false
+  },
+  "independentStyle": {
+    "gameOwned": true,
+    "hostNavigationChanged": false,
+    "palette": "Full-viewport pixel court; translucent olive/gold joystick and gold/red action overlay",
+    "typography": "monospace arcade",
+    "selection": "authored red 1P arrow; reference-observed placement"
+  },
+  "currentCandidate": {
+    "rules": "2.1.0",
+    "build": "character-v28-local",
+    "assetPack": "28.0.0",
+    "referenceProfile": 2,
+    "viewport": [
+      546,
+      252
+    ],
+    "nativeParityVerified": false,
+    "evidence": "character-v28.md",
+    "primaryVideo": "https://www.youtube.com/watch?v=_k8IIS9n3dk",
+    "slice": "Held shot follow-through, one-arm block; V27 creases/shot arm, V26 motion (rules 2.1.0), V25 venue, V24 characters retained",
+    "viewportPolicy": "252-high window of the 360-high world, two-axis follow; width fits viewport aspect within 320..900; example 844x390 renders 546x252"
+  },
+  "supplementaryFootage": [
+    "https://www.youtube.com/watch?v=38Qlqw2re1w (Arcadexzone, Street Hoop 1994 arcade gameplay; first 360s downloaded for research-only study in Designer output/retro-hoops/character-study-v2)",
+    "https://www.youtube.com/watch?v=38Qlqw2re1w team select 16.5-24s, aspect-corrected 16:9 to 320x224 proportions",
+    "https://www.youtube.com/watch?v=38Qlqw2re1w defence 103.5-106.5s and dunk/knock-down 34.5-37.5s",
+    "https://www.youtube.com/watch?v=38Qlqw2re1w 360-1566s at 480p surveyed every 15s: venues and team kits for USA, Korea, Japan, China, England",
+    "https://www.youtube.com/watch?v=38Qlqw2re1w venue frames 27-162s",
+    "https://www.youtube.com/watch?v=38Qlqw2re1w dense 0.1s runs 26.5-31s and 44-48s"
+  ]
+}

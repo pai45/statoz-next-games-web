@@ -1,0 +1,15 @@
+import fs from "node:fs/promises";
+import path from "node:path";
+import assert from "node:assert/strict";
+import {pathToFileURL} from "node:url";
+const {chromium}=await import(pathToFileURL(process.env.PLAYWRIGHT_MODULE_PATH).href);
+const out=path.resolve("test-results/retro-hoops-three-points-v1"),checks=[],errors=[];
+const browser=await chromium.launch({headless:true,args:["--use-angle=swiftshader","--enable-unsafe-swiftshader"]});
+try{
+ const page=await browser.newPage({viewport:{width:1400,height:1100}});page.on("pageerror",e=>errors.push(e.message));await page.goto("http://127.0.0.1:8938/");await page.waitForFunction(()=>fidelityReview.loaded,{},{timeout:60000});
+ await page.locator("#scenario").selectOption("footwork");await page.evaluate(()=>fidelityReview.advance(1));let s=await page.evaluate(()=>fidelityReview.sample());assert.match(s.poses[0],/pivot/);await page.screenshot({path:path.join(out,"pivot-production.png"),fullPage:true});await page.evaluate(()=>fidelityReview.advance(9));s=await page.evaluate(()=>fidelityReview.sample());assert.match(s.poses[0],/backpedal/);await page.screenshot({path:path.join(out,"backpedal-production.png"),fullPage:true});checks.push("Dedicated pivot and backpedal render through production");
+ await page.locator("#scenario").selectOption("support");await page.locator("#move").selectOption("1");await page.evaluate(()=>fidelityReview.advance(10));await page.locator("#move").selectOption("-1");await page.evaluate(()=>fidelityReview.advance(1));s=await page.evaluate(()=>fidelityReview.sample());assert.match(s.overlays[0].key,/dribble-switch/);await page.screenshot({path:path.join(out,"hand-transfer-production.png"),fullPage:true});await page.evaluate(()=>fidelityReview.advance(4));s=await page.evaluate(()=>fidelityReview.sample());assert.match(s.overlays[0].key,/dribble-arm/);checks.push("Direction reversal uses synchronized hand transfer then returns to dribble");
+ await page.locator("#move").selectOption("0");await page.locator("#scenario").selectOption("dunk-pass");const states=[];for(let i=0;i<50;i++){await page.evaluate(()=>fidelityReview.advance(1));states.push(await page.evaluate(()=>fidelityReview.sample()));if([8,16,26,40].includes(i))await page.screenshot({path:path.join(out,"dunk-pass-chain-"+i+".png"),fullPage:true});}assert.ok(states.some(s=>s.actors[0].action==="dunk"&&s.actors[0].z>0));assert.ok(states.some(s=>s.actors[0].action==="pass"));assert.ok(states.some(s=>s.ball.kind==="pass"));checks.push("Dunk takeoff to pass preparation to free flight renders as one chain");
+ await page.locator("#lens").selectOption("514");await page.locator("#lens").selectOption("640");assert.equal(await page.locator("#game").getAttribute("width"),"640");checks.push("Camera resize preserves projection and WebGL context");assert.deepEqual(errors,[]);
+ await fs.writeFile(path.join(out,"three-point-browser-checks.json"),JSON.stringify({checks,errors,physicalDevice:false},null,2));console.log(JSON.stringify({checks:checks.length,errors}));
+}finally{await browser.close();}

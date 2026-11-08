@@ -1,0 +1,30 @@
+{
+  "errors": [],
+  "metrics": {
+    "drawCalls": 132,
+    "vertices": 311828,
+    "bareHands": {
+      "shooter": [
+        {
+          "name": "HandSkin_L",
+          "visible": true
+        },
+        {
+          "name": "HandSkin_R",
+          "visible": true
+        }
+      ],
+      "keeper": [
+        {
+          "name": "HandSkin_L",
+          "visible": false
+        },
+        {
+          "name": "HandSkin_R",
+          "visible": false
+        }
+      ]
+    }
+  },
+  "browser": "155.0.8059.85"
+}

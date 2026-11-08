@@ -1,0 +1,5017 @@
+{
+  "sport": "motorsport",
+  "mode": "medium",
+  "version": 1,
+  "bands": {
+    "1": [
+      {
+        "p": "Which team won the 2015 Formula 1 constructors’ title?",
+        "o": [
+          "Mercedes",
+          "Red Bull Racing",
+          "McLaren",
+          "Ferrari"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Marc Márquez in 2025 rode for which manufacturer?",
+        "o": [
+          "Honda",
+          "Ducati",
+          "Aprilia",
+          "KTM"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2025 Daytona 500?",
+        "o": [
+          "Kurt Busch",
+          "Joey Logano",
+          "William Byron",
+          "Chase Elliott"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2025 IndyCar Series drivers’ title?",
+        "o": [
+          "Pato O'Ward",
+          "Will Power",
+          "Scott Dixon",
+          "Álex Palou"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1995 24 Hours of Le Mans?",
+        "o": [
+          "McLaren",
+          "Mercedes-Benz",
+          "Toyota",
+          "Nissan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2009 World Rally Championship drivers’ title?",
+        "o": [
+          "Mikko Hirvonen",
+          "Sébastien Loeb",
+          "Petter Solberg",
+          "Marcus Grönholm"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2024 Formula 2 drivers’ title?",
+        "o": [
+          "Isack Hadjar",
+          "Frederik Vesti",
+          "Gabriel Bortoleto",
+          "Ayumu Iwasa"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 2016 Formula 1 constructors’ title?",
+        "o": [
+          "Alpine",
+          "Red Bull Racing",
+          "McLaren",
+          "Mercedes"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Jorge Martín in 2024 rode for which manufacturer?",
+        "o": [
+          "Ducati",
+          "KTM",
+          "Yamaha",
+          "Suzuki"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2024 Daytona 500?",
+        "o": [
+          "Joey Logano",
+          "William Byron",
+          "Chase Elliott",
+          "Ricky Stenhouse Jr"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2024 IndyCar Series drivers’ title?",
+        "o": [
+          "Simon Pagenaud",
+          "Pato O'Ward",
+          "Álex Palou",
+          "Will Power"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 1994 24 Hours of Le Mans?",
+        "o": [
+          "Nissan",
+          "McLaren",
+          "Peugeot",
+          "Porsche"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2008 World Rally Championship drivers’ title?",
+        "o": [
+          "Sébastien Loeb",
+          "Mikko Hirvonen",
+          "Petter Solberg",
+          "Marcus Grönholm"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2023 Formula 2 drivers’ title?",
+        "o": [
+          "Frederik Vesti",
+          "Théo Pourchaire",
+          "Ayumu Iwasa",
+          "Gabriel Bortoleto"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 2017 Formula 1 constructors’ title?",
+        "o": [
+          "Aston Martin",
+          "Alpine",
+          "Mercedes",
+          "Red Bull Racing"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Francesco Bagnaia in 2023 rode for which manufacturer?",
+        "o": [
+          "Aprilia",
+          "KTM",
+          "Yamaha",
+          "Ducati"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2023 Daytona 500?",
+        "o": [
+          "Ricky Stenhouse Jr",
+          "Chase Elliott",
+          "William Byron",
+          "Austin Cindric"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2023 IndyCar Series drivers’ title?",
+        "o": [
+          "Simon Pagenaud",
+          "Álex Palou",
+          "Pato O'Ward",
+          "Will Power"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 1993 24 Hours of Le Mans?",
+        "o": [
+          "Porsche",
+          "Mazda",
+          "Peugeot",
+          "Jaguar"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2007 World Rally Championship drivers’ title?",
+        "o": [
+          "Marcus Grönholm",
+          "Mikko Hirvonen",
+          "Petter Solberg",
+          "Sébastien Loeb"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 2018 Formula 1 constructors’ title?",
+        "o": [
+          "Mercedes",
+          "Alpine",
+          "Red Bull Racing",
+          "McLaren"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Fabio Quartararo in 2021 rode for which manufacturer?",
+        "o": [
+          "Suzuki",
+          "Yamaha",
+          "Honda",
+          "Aprilia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2022 Daytona 500?",
+        "o": [
+          "Denny Hamlin",
+          "Austin Dillon",
+          "Austin Cindric",
+          "Kurt Busch"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2022 IndyCar Series drivers’ title?",
+        "o": [
+          "Simon Pagenaud",
+          "Pato O'Ward",
+          "Álex Palou",
+          "Will Power"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1992 24 Hours of Le Mans?",
+        "o": [
+          "Peugeot",
+          "McLaren",
+          "Porsche",
+          "Mazda"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 2019 Formula 1 constructors’ title?",
+        "o": [
+          "Aston Martin",
+          "Mercedes",
+          "Alpine",
+          "Red Bull Racing"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Joan Mir in 2020 rode for which manufacturer?",
+        "o": [
+          "Aprilia",
+          "KTM",
+          "Suzuki",
+          "Ducati"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2021 Daytona 500?",
+        "o": [
+          "Austin Cindric",
+          "Denny Hamlin",
+          "Austin Dillon",
+          "Michael McDowell"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2021 IndyCar Series drivers’ title?",
+        "o": [
+          "Álex Palou",
+          "Scott Dixon",
+          "Josef Newgarden",
+          "Simon Pagenaud"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 1991 24 Hours of Le Mans?",
+        "o": [
+          "Toyota",
+          "Mazda",
+          "Nissan",
+          "McLaren"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 2020 Formula 1 constructors’ title?",
+        "o": [
+          "McLaren",
+          "Ferrari",
+          "Mercedes",
+          "Aston Martin"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Marc Márquez in 2019 rode for which manufacturer?",
+        "o": [
+          "Aprilia",
+          "KTM",
+          "Ducati",
+          "Honda"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2020 Daytona 500?",
+        "o": [
+          "Denny Hamlin",
+          "Austin Cindric",
+          "Michael McDowell",
+          "Austin Dillon"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2020 IndyCar Series drivers’ title?",
+        "o": [
+          "Simon Pagenaud",
+          "Scott Dixon",
+          "Pato O'Ward",
+          "Álex Palou"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 1990 24 Hours of Le Mans?",
+        "o": [
+          "Porsche",
+          "Peugeot",
+          "Jaguar",
+          "Mazda"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 2021 Formula 1 constructors’ title?",
+        "o": [
+          "McLaren",
+          "Ferrari",
+          "Aston Martin",
+          "Mercedes"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Maverick Viñales in 2021 rode for which manufacturer?",
+        "o": [
+          "Yamaha",
+          "Aprilia",
+          "KTM",
+          "Ducati"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2019 Daytona 500?",
+        "o": [
+          "Joey Logano",
+          "Denny Hamlin",
+          "Chase Elliott",
+          "William Byron"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2019 IndyCar Series drivers’ title?",
+        "o": [
+          "Pato O'Ward",
+          "Álex Palou",
+          "Josef Newgarden",
+          "Will Power"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 1989 24 Hours of Le Mans?",
+        "o": [
+          "McLaren",
+          "Porsche",
+          "Peugeot",
+          "Mercedes-Benz"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 2022 Formula 1 constructors’ title?",
+        "o": [
+          "Red Bull Racing",
+          "McLaren",
+          "Ferrari",
+          "Aston Martin"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Enea Bastianini in 2022 rode for which manufacturer?",
+        "o": [
+          "Suzuki",
+          "Ducati",
+          "Honda",
+          "Aprilia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2018 Daytona 500?",
+        "o": [
+          "Joey Logano",
+          "Chase Elliott",
+          "Austin Dillon",
+          "William Byron"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2018 IndyCar Series drivers’ title?",
+        "o": [
+          "Simon Pagenaud",
+          "Pato O'Ward",
+          "Álex Palou",
+          "Scott Dixon"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1988 24 Hours of Le Mans?",
+        "o": [
+          "Jaguar",
+          "Peugeot",
+          "Mazda",
+          "Mercedes-Benz"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 2023 Formula 1 constructors’ title?",
+        "o": [
+          "Aston Martin",
+          "Red Bull Racing",
+          "Alpine",
+          "Mercedes"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Aleix Espargaró in 2022 rode for which manufacturer?",
+        "o": [
+          "Yamaha",
+          "Suzuki",
+          "Aprilia",
+          "Honda"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2017 Daytona 500?",
+        "o": [
+          "Austin Cindric",
+          "Michael McDowell",
+          "Denny Hamlin",
+          "Kurt Busch"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2017 IndyCar Series drivers’ title?",
+        "o": [
+          "Josef Newgarden",
+          "Pato O'Ward",
+          "Álex Palou",
+          "Will Power"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 2024 Formula 1 constructors’ title?",
+        "o": [
+          "Ferrari",
+          "McLaren",
+          "Aston Martin",
+          "Alpine"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Brad Binder in 2021 rode for which manufacturer?",
+        "o": [
+          "Aprilia",
+          "Ducati",
+          "KTM",
+          "Yamaha"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2016 Daytona 500?",
+        "o": [
+          "Kurt Busch",
+          "Joey Logano",
+          "Chase Elliott",
+          "Denny Hamlin"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 2025 Formula 1 constructors’ title?",
+        "o": [
+          "McLaren",
+          "Alpine",
+          "Mercedes",
+          "Red Bull Racing"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Miguel Oliveira in 2021 rode for which manufacturer?",
+        "o": [
+          "Ducati",
+          "KTM",
+          "Yamaha",
+          "Suzuki"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Red Bull Racing in 2021 used which engine supplier?",
+        "o": [
+          "Mercedes",
+          "Renault",
+          "Honda",
+          "Ferrari"
+        ],
+        "a": 2
+      },
+      {
+        "p": "McLaren in 2021 used which engine supplier?",
+        "o": [
+          "TAG Heuer",
+          "Honda RBPT",
+          "Honda",
+          "Mercedes"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Aston Martin in 2021 used which engine supplier?",
+        "o": [
+          "Mercedes",
+          "Ferrari",
+          "TAG Heuer",
+          "Honda RBPT"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Williams in 2021 used which engine supplier?",
+        "o": [
+          "TAG Heuer",
+          "Mercedes",
+          "Honda RBPT",
+          "Honda"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Alpine in 2021 used which engine supplier?",
+        "o": [
+          "Honda RBPT",
+          "Honda",
+          "Renault",
+          "Mercedes"
+        ],
+        "a": 2
+      },
+      {
+        "p": "AlphaTauri in 2021 used which engine supplier?",
+        "o": [
+          "Ferrari",
+          "TAG Heuer",
+          "Honda RBPT",
+          "Honda"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Haas in 2021 used which engine supplier?",
+        "o": [
+          "Ferrari",
+          "Honda RBPT",
+          "Honda",
+          "Mercedes"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Alfa Romeo in 2021 used which engine supplier?",
+        "o": [
+          "Mercedes",
+          "Ferrari",
+          "Renault",
+          "TAG Heuer"
+        ],
+        "a": 1
+      },
+      {
+        "p": "McLaren in 2019 used which engine supplier?",
+        "o": [
+          "Honda RBPT",
+          "Honda",
+          "Renault",
+          "Mercedes"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Red Bull Racing in 2018 used which engine supplier?",
+        "o": [
+          "Mercedes",
+          "Renault",
+          "Ferrari",
+          "TAG Heuer"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Racing Point in 2020 used which engine supplier?",
+        "o": [
+          "Mercedes",
+          "Renault",
+          "Ferrari",
+          "TAG Heuer"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Red Bull Racing in 2023 used which engine supplier?",
+        "o": [
+          "TAG Heuer",
+          "Honda RBPT",
+          "Honda",
+          "Mercedes"
+        ],
+        "a": 1
+      },
+      {
+        "p": "McLaren in 2024 used which engine supplier?",
+        "o": [
+          "Ferrari",
+          "TAG Heuer",
+          "Mercedes",
+          "Honda RBPT"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Sauber in 2024 used which engine supplier?",
+        "o": [
+          "Honda",
+          "Mercedes",
+          "Renault",
+          "Ferrari"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Williams in 2024 used which engine supplier?",
+        "o": [
+          "Mercedes",
+          "Ferrari",
+          "TAG Heuer",
+          "Honda RBPT"
+        ],
+        "a": 0
+      },
+      {
+        "p": "RB in 2024 used which engine supplier?",
+        "o": [
+          "Honda",
+          "Honda RBPT",
+          "Mercedes",
+          "Renault"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Max Verstappen in 2021 drove for which team?",
+        "o": [
+          "Mercedes",
+          "Ferrari",
+          "Red Bull Racing",
+          "McLaren"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Lewis Hamilton in 2021 drove for which team?",
+        "o": [
+          "Haas",
+          "Racing Bulls",
+          "Red Bull Racing",
+          "Mercedes"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Valtteri Bottas in 2021 drove for which team?",
+        "o": [
+          "Mercedes",
+          "Williams",
+          "Alfa Romeo",
+          "Haas"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Sergio Pérez in 2021 drove for which team?",
+        "o": [
+          "Racing Bulls",
+          "Red Bull Racing",
+          "Mercedes",
+          "Ferrari"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Charles Leclerc in 2021 drove for which team?",
+        "o": [
+          "Racing Bulls",
+          "Red Bull Racing",
+          "Ferrari",
+          "Mercedes"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Carlos Sainz in 2021 drove for which team?",
+        "o": [
+          "Williams",
+          "Alfa Romeo",
+          "Haas",
+          "Ferrari"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Lando Norris in 2021 drove for which team?",
+        "o": [
+          "McLaren",
+          "Alfa Romeo",
+          "Haas",
+          "Racing Bulls"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Daniel Ricciardo in 2021 drove for which team?",
+        "o": [
+          "Mercedes",
+          "McLaren",
+          "Ferrari",
+          "AlphaTauri"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Pierre Gasly in 2021 drove for which team?",
+        "o": [
+          "Red Bull Racing",
+          "Mercedes",
+          "AlphaTauri",
+          "Ferrari"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Yuki Tsunoda in 2021 drove for which team?",
+        "o": [
+          "McLaren",
+          "Alpine",
+          "Aston Martin",
+          "AlphaTauri"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Fernando Alonso in 2021 drove for which team?",
+        "o": [
+          "Alpine",
+          "Ferrari",
+          "McLaren",
+          "AlphaTauri"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Esteban Ocon in 2021 drove for which team?",
+        "o": [
+          "Ferrari",
+          "Alpine",
+          "McLaren",
+          "AlphaTauri"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Sebastian Vettel in 2021 drove for which team?",
+        "o": [
+          "Alpine",
+          "Williams",
+          "Aston Martin",
+          "Alfa Romeo"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Lance Stroll in 2021 drove for which team?",
+        "o": [
+          "AlphaTauri",
+          "Alpine",
+          "Williams",
+          "Aston Martin"
+        ],
+        "a": 3
+      },
+      {
+        "p": "George Russell in 2021 drove for which team?",
+        "o": [
+          "Williams",
+          "Racing Bulls",
+          "Red Bull Racing",
+          "Mercedes"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Nicholas Latifi in 2021 drove for which team?",
+        "o": [
+          "AlphaTauri",
+          "Williams",
+          "Alpine",
+          "Aston Martin"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Kimi Räikkönen in 2021 drove for which team?",
+        "o": [
+          "Racing Bulls",
+          "Red Bull Racing",
+          "Alfa Romeo",
+          "Mercedes"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Antonio Giovinazzi in 2021 drove for which team?",
+        "o": [
+          "Williams",
+          "Haas",
+          "Racing Bulls",
+          "Alfa Romeo"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Mick Schumacher in 2021 drove for which team?",
+        "o": [
+          "Haas",
+          "AlphaTauri",
+          "Alpine",
+          "Aston Martin"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Nikita Mazepin in 2021 drove for which team?",
+        "o": [
+          "Williams",
+          "Haas",
+          "Alfa Romeo",
+          "Racing Bulls"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Oscar Piastri in 2023 drove for which team?",
+        "o": [
+          "Ferrari",
+          "AlphaTauri",
+          "McLaren",
+          "Alpine"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Nico Hülkenberg in 2023 drove for which team?",
+        "o": [
+          "Alpine",
+          "Aston Martin",
+          "Williams",
+          "Haas"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Alexander Albon in 2023 drove for which team?",
+        "o": [
+          "Williams",
+          "Haas",
+          "Racing Bulls",
+          "Red Bull Racing"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Logan Sargeant in 2023 drove for which team?",
+        "o": [
+          "AlphaTauri",
+          "Williams",
+          "Alpine",
+          "Aston Martin"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Zhou Guanyu in 2023 drove for which team?",
+        "o": [
+          "Aston Martin",
+          "Williams",
+          "Alfa Romeo",
+          "Haas"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Lewis Hamilton in 2025 drove for which team?",
+        "o": [
+          "Racing Bulls",
+          "Red Bull Racing",
+          "Mercedes",
+          "Ferrari"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Carlos Sainz in 2025 drove for which team?",
+        "o": [
+          "Williams",
+          "McLaren",
+          "AlphaTauri",
+          "Alpine"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Isack Hadjar in 2025 drove for which team?",
+        "o": [
+          "Ferrari",
+          "Racing Bulls",
+          "McLaren",
+          "AlphaTauri"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Oliver Bearman in 2025 drove for which team?",
+        "o": [
+          "Ferrari",
+          "McLaren",
+          "Haas",
+          "AlphaTauri"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Kimi Antonelli in 2025 drove for which team?",
+        "o": [
+          "Red Bull Racing",
+          "Ferrari",
+          "McLaren",
+          "Mercedes"
+        ],
+        "a": 3
+      }
+    ],
+    "2": [
+      {
+        "p": "Which team won the 2005 Formula 1 constructors’ title?",
+        "o": [
+          "Renault",
+          "McLaren",
+          "Williams",
+          "Lotus"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Jorge Lorenzo in 2015 rode for which manufacturer?",
+        "o": [
+          "KTM",
+          "Yamaha",
+          "Honda",
+          "Ducati"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2015 Daytona 500?",
+        "o": [
+          "Trevor Bayne",
+          "Jamie McMurray",
+          "Joey Logano",
+          "Ryan Newman"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2016 IndyCar Series drivers’ title?",
+        "o": [
+          "Hélio Castroneves",
+          "Tony Kanaan",
+          "Scott Dixon",
+          "Simon Pagenaud"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1987 24 Hours of Le Mans?",
+        "o": [
+          "Porsche",
+          "Sauber",
+          "Rondeau",
+          "Lancia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2006 World Rally Championship drivers’ title?",
+        "o": [
+          "Marcus Grönholm",
+          "Sébastien Loeb",
+          "Markko Märtin",
+          "Petter Solberg"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2022 Formula 2 drivers’ title?",
+        "o": [
+          "Théo Pourchaire",
+          "Liam Lawson",
+          "Felipe Drugovich",
+          "Guanyu Zhou"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 2006 Formula 1 constructors’ title?",
+        "o": [
+          "Mercedes",
+          "McLaren",
+          "Williams",
+          "Renault"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Valentino Rossi in 2015 rode for which manufacturer?",
+        "o": [
+          "Yamaha",
+          "Ducati",
+          "Suzuki",
+          "KTM"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2014 Daytona 500?",
+        "o": [
+          "Matt Kenseth",
+          "Dale Earnhardt Jr",
+          "Trevor Bayne",
+          "Jamie McMurray"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2015 IndyCar Series drivers’ title?",
+        "o": [
+          "Will Power",
+          "Ryan Hunter-Reay",
+          "Scott Dixon",
+          "Dario Franchitti"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 1986 24 Hours of Le Mans?",
+        "o": [
+          "Rondeau",
+          "Lancia",
+          "Jaguar",
+          "Porsche"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2005 World Rally Championship drivers’ title?",
+        "o": [
+          "Sébastien Loeb",
+          "Petter Solberg",
+          "Marcus Grönholm",
+          "Markko Märtin"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2021 Formula 2 drivers’ title?",
+        "o": [
+          "Felipe Drugovich",
+          "Oscar Piastri",
+          "Théo Pourchaire",
+          "Liam Lawson"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 2007 Formula 1 constructors’ title?",
+        "o": [
+          "Williams",
+          "Lotus",
+          "Ferrari",
+          "Renault"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Casey Stoner in 2011 rode for which manufacturer?",
+        "o": [
+          "Yamaha",
+          "Ducati",
+          "Suzuki",
+          "Honda"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2013 Daytona 500?",
+        "o": [
+          "Jimmie Johnson",
+          "Kyle Busch",
+          "Joey Logano",
+          "Dale Earnhardt Jr"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2014 IndyCar Series drivers’ title?",
+        "o": [
+          "Hélio Castroneves",
+          "Will Power",
+          "Tony Kanaan",
+          "Simon Pagenaud"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 1985 24 Hours of Le Mans?",
+        "o": [
+          "Lancia",
+          "Jaguar",
+          "Porsche",
+          "Sauber"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2004 World Rally Championship drivers’ title?",
+        "o": [
+          "Marcus Grönholm",
+          "Markko Märtin",
+          "Petter Solberg",
+          "Sébastien Loeb"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 2008 Formula 1 constructors’ title?",
+        "o": [
+          "Ferrari",
+          "Brawn GP",
+          "Red Bull Racing",
+          "Mercedes"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Dani Pedrosa in 2012 rode for which manufacturer?",
+        "o": [
+          "KTM",
+          "Honda",
+          "Yamaha",
+          "Ducati"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2012 Daytona 500?",
+        "o": [
+          "Ryan Newman",
+          "Kevin Harvick",
+          "Matt Kenseth",
+          "Tony Stewart"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2013 IndyCar Series drivers’ title?",
+        "o": [
+          "Tony Kanaan",
+          "Simon Pagenaud",
+          "Will Power",
+          "Scott Dixon"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1984 24 Hours of Le Mans?",
+        "o": [
+          "Porsche",
+          "Jaguar",
+          "Sauber",
+          "Rondeau"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 2009 Formula 1 constructors’ title?",
+        "o": [
+          "Williams",
+          "Brawn GP",
+          "Lotus",
+          "Renault"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Cal Crutchlow in 2016 rode for which manufacturer?",
+        "o": [
+          "Suzuki",
+          "KTM",
+          "Honda",
+          "Yamaha"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2011 Daytona 500?",
+        "o": [
+          "Jimmie Johnson",
+          "Matt Kenseth",
+          "Jamie McMurray",
+          "Trevor Bayne"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2012 IndyCar Series drivers’ title?",
+        "o": [
+          "Ryan Hunter-Reay",
+          "Dario Franchitti",
+          "Hélio Castroneves",
+          "Tony Kanaan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 1983 24 Hours of Le Mans?",
+        "o": [
+          "Sauber",
+          "Porsche",
+          "Rondeau",
+          "Lancia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 2010 Formula 1 constructors’ title?",
+        "o": [
+          "Lotus",
+          "Renault",
+          "Red Bull Racing",
+          "Ferrari"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Andrea Dovizioso in 2017 rode for which manufacturer?",
+        "o": [
+          "KTM",
+          "Yamaha",
+          "Honda",
+          "Ducati"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2010 Daytona 500?",
+        "o": [
+          "Jamie McMurray",
+          "Tony Stewart",
+          "Kyle Busch",
+          "Joey Logano"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2011 IndyCar Series drivers’ title?",
+        "o": [
+          "Ryan Hunter-Reay",
+          "Dario Franchitti",
+          "Hélio Castroneves",
+          "Tony Kanaan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 1982 24 Hours of Le Mans?",
+        "o": [
+          "Rondeau",
+          "Lancia",
+          "Porsche",
+          "Jaguar"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 2011 Formula 1 constructors’ title?",
+        "o": [
+          "Lotus",
+          "Renault",
+          "Ferrari",
+          "Red Bull Racing"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Andrea Iannone in 2016 rode for which manufacturer?",
+        "o": [
+          "Ducati",
+          "Yamaha",
+          "Honda",
+          "Suzuki"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2009 Daytona 500?",
+        "o": [
+          "Dale Earnhardt Jr",
+          "Matt Kenseth",
+          "Jimmie Johnson",
+          "Trevor Bayne"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2010 IndyCar Series drivers’ title?",
+        "o": [
+          "Simon Pagenaud",
+          "Scott Dixon",
+          "Dario Franchitti",
+          "Will Power"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 1981 24 Hours of Le Mans?",
+        "o": [
+          "Lancia",
+          "Jaguar",
+          "Sauber",
+          "Porsche"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 2012 Formula 1 constructors’ title?",
+        "o": [
+          "Red Bull Racing",
+          "Mercedes",
+          "McLaren",
+          "Williams"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Jack Miller in 2019 rode for which manufacturer?",
+        "o": [
+          "Yamaha",
+          "Ducati",
+          "Honda",
+          "Suzuki"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2008 Daytona 500?",
+        "o": [
+          "Jamie McMurray",
+          "Kevin Harvick",
+          "Ryan Newman",
+          "Tony Stewart"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2009 IndyCar Series drivers’ title?",
+        "o": [
+          "Simon Pagenaud",
+          "Scott Dixon",
+          "Will Power",
+          "Dario Franchitti"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1980 24 Hours of Le Mans?",
+        "o": [
+          "Rondeau",
+          "Porsche",
+          "Lancia",
+          "Jaguar"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 2013 Formula 1 constructors’ title?",
+        "o": [
+          "Lotus",
+          "Red Bull Racing",
+          "Renault",
+          "Ferrari"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Alex Rins in 2019 rode for which manufacturer?",
+        "o": [
+          "KTM",
+          "Yamaha",
+          "Suzuki",
+          "Honda"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2007 Daytona 500?",
+        "o": [
+          "Trevor Bayne",
+          "Jamie McMurray",
+          "Ryan Newman",
+          "Kevin Harvick"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2008 IndyCar Series drivers’ title?",
+        "o": [
+          "Scott Dixon",
+          "Dario Franchitti",
+          "Hélio Castroneves",
+          "Tony Kanaan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 2014 Formula 1 constructors’ title?",
+        "o": [
+          "McLaren",
+          "Mercedes",
+          "Williams",
+          "Lotus"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Johann Zarco in 2018 rode for which manufacturer?",
+        "o": [
+          "KTM",
+          "Honda",
+          "Yamaha",
+          "Ducati"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2006 Daytona 500?",
+        "o": [
+          "Matt Kenseth",
+          "Trevor Bayne",
+          "Jamie McMurray",
+          "Jimmie Johnson"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Jenson Button in 2012 drove for which team?",
+        "o": [
+          "McLaren",
+          "Red Bull Racing",
+          "Mercedes",
+          "Lotus"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Pol Espargaró in 2019 rode for which manufacturer?",
+        "o": [
+          "Ducati",
+          "KTM",
+          "Suzuki",
+          "Yamaha"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Lewis Hamilton in 2012 drove for which team?",
+        "o": [
+          "Force India",
+          "Sauber",
+          "McLaren",
+          "Toro Rosso"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Fernando Alonso in 2012 drove for which team?",
+        "o": [
+          "Force India",
+          "Sauber",
+          "Toro Rosso",
+          "Ferrari"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Felipe Massa in 2012 drove for which team?",
+        "o": [
+          "Ferrari",
+          "Marussia",
+          "McLaren",
+          "Red Bull Racing"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Sebastian Vettel in 2012 drove for which team?",
+        "o": [
+          "Force India",
+          "Red Bull Racing",
+          "Sauber",
+          "Toro Rosso"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Mark Webber in 2012 drove for which team?",
+        "o": [
+          "McLaren",
+          "Ferrari",
+          "Red Bull Racing",
+          "Mercedes"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Nico Rosberg in 2012 drove for which team?",
+        "o": [
+          "Ferrari",
+          "Red Bull Racing",
+          "Lotus",
+          "Mercedes"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Michael Schumacher in 2012 drove for which team?",
+        "o": [
+          "Mercedes",
+          "Red Bull Racing",
+          "Lotus",
+          "Force India"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Kimi Räikkönen in 2012 drove for which team?",
+        "o": [
+          "Ferrari",
+          "Lotus",
+          "Red Bull Racing",
+          "Mercedes"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Romain Grosjean in 2012 drove for which team?",
+        "o": [
+          "McLaren",
+          "Ferrari",
+          "Lotus",
+          "Red Bull Racing"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Paul di Resta in 2012 drove for which team?",
+        "o": [
+          "Toro Rosso",
+          "Williams",
+          "Caterham",
+          "Force India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Nico Hülkenberg in 2012 drove for which team?",
+        "o": [
+          "Force India",
+          "Sauber",
+          "Toro Rosso",
+          "Williams"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Kamui Kobayashi in 2012 drove for which team?",
+        "o": [
+          "Red Bull Racing",
+          "Sauber",
+          "Mercedes",
+          "Lotus"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Sergio Pérez in 2012 drove for which team?",
+        "o": [
+          "Ferrari",
+          "Red Bull Racing",
+          "Sauber",
+          "Mercedes"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Daniel Ricciardo in 2012 drove for which team?",
+        "o": [
+          "McLaren",
+          "Ferrari",
+          "Red Bull Racing",
+          "Toro Rosso"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Jean-Éric Vergne in 2012 drove for which team?",
+        "o": [
+          "Toro Rosso",
+          "Force India",
+          "Sauber",
+          "Williams"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Pastor Maldonado in 2012 drove for which team?",
+        "o": [
+          "Lotus",
+          "Williams",
+          "Force India",
+          "Sauber"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Bruno Senna in 2012 drove for which team?",
+        "o": [
+          "Mercedes",
+          "Lotus",
+          "Williams",
+          "Force India"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Heikki Kovalainen in 2012 drove for which team?",
+        "o": [
+          "Red Bull Racing",
+          "Mercedes",
+          "Lotus",
+          "Caterham"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Vitaly Petrov in 2012 drove for which team?",
+        "o": [
+          "Caterham",
+          "Sauber",
+          "Toro Rosso",
+          "Williams"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Timo Glock in 2012 drove for which team?",
+        "o": [
+          "Red Bull Racing",
+          "Marussia",
+          "Mercedes",
+          "Lotus"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Charles Pic in 2012 drove for which team?",
+        "o": [
+          "Mercedes",
+          "Lotus",
+          "Marussia",
+          "Force India"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Sebastian Vettel in 2015 drove for which team?",
+        "o": [
+          "Mercedes",
+          "Lotus",
+          "Force India",
+          "Ferrari"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Daniil Kvyat in 2015 drove for which team?",
+        "o": [
+          "Red Bull Racing",
+          "Lotus",
+          "Force India",
+          "Sauber"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Max Verstappen in 2015 drove for which team?",
+        "o": [
+          "McLaren",
+          "Toro Rosso",
+          "Ferrari",
+          "Red Bull Racing"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Carlos Sainz in 2015 drove for which team?",
+        "o": [
+          "Marussia",
+          "McLaren",
+          "Toro Rosso",
+          "Ferrari"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Felipe Nasr in 2015 drove for which team?",
+        "o": [
+          "Caterham",
+          "Marussia",
+          "McLaren",
+          "Sauber"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Marcus Ericsson in 2015 drove for which team?",
+        "o": [
+          "Sauber",
+          "Red Bull Racing",
+          "Mercedes",
+          "Lotus"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Fernando Alonso in 2015 drove for which team?",
+        "o": [
+          "Force India",
+          "McLaren",
+          "Sauber",
+          "Toro Rosso"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Jenson Button in 2015 drove for which team?",
+        "o": [
+          "Caterham",
+          "Marussia",
+          "McLaren",
+          "Ferrari"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Red Bull Racing in 2012 used which engine supplier?",
+        "o": [
+          "Honda",
+          "TAG Heuer",
+          "Mercedes",
+          "Renault"
+        ],
+        "a": 3
+      },
+      {
+        "p": "McLaren in 2012 used which engine supplier?",
+        "o": [
+          "Mercedes",
+          "Renault",
+          "Ferrari",
+          "Cosworth"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Lotus in 2012 used which engine supplier?",
+        "o": [
+          "Ferrari",
+          "Renault",
+          "Cosworth",
+          "Honda"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Sauber in 2012 used which engine supplier?",
+        "o": [
+          "Cosworth",
+          "Honda",
+          "Ferrari",
+          "TAG Heuer"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Force India in 2012 used which engine supplier?",
+        "o": [
+          "Honda",
+          "TAG Heuer",
+          "Renault",
+          "Mercedes"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Williams in 2012 used which engine supplier?",
+        "o": [
+          "Renault",
+          "Ferrari",
+          "Cosworth",
+          "Honda"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Toro Rosso in 2012 used which engine supplier?",
+        "o": [
+          "Renault",
+          "Ferrari",
+          "Mercedes",
+          "Cosworth"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Caterham in 2012 used which engine supplier?",
+        "o": [
+          "Mercedes",
+          "Ferrari",
+          "Renault",
+          "Cosworth"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Marussia in 2012 used which engine supplier?",
+        "o": [
+          "TAG Heuer",
+          "Renault",
+          "Mercedes",
+          "Cosworth"
+        ],
+        "a": 3
+      },
+      {
+        "p": "HRT in 2012 used which engine supplier?",
+        "o": [
+          "Cosworth",
+          "Honda",
+          "TAG Heuer",
+          "Renault"
+        ],
+        "a": 0
+      },
+      {
+        "p": "McLaren in 2015 used which engine supplier?",
+        "o": [
+          "Mercedes",
+          "Honda",
+          "Ferrari",
+          "Cosworth"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Manor in 2015 used which engine supplier?",
+        "o": [
+          "Renault",
+          "Mercedes",
+          "Ferrari",
+          "Cosworth"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Red Bull Racing in 2016 used which engine supplier?",
+        "o": [
+          "Renault",
+          "Mercedes",
+          "Ferrari",
+          "TAG Heuer"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Toro Rosso in 2016 used which engine supplier?",
+        "o": [
+          "Ferrari",
+          "Honda",
+          "TAG Heuer",
+          "Renault"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Williams in 2016 used which engine supplier?",
+        "o": [
+          "Honda",
+          "Mercedes",
+          "TAG Heuer",
+          "Renault"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Renault in 2016 used which engine supplier?",
+        "o": [
+          "Ferrari",
+          "Cosworth",
+          "Renault",
+          "Honda"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Haas in 2016 used which engine supplier?",
+        "o": [
+          "Renault",
+          "Mercedes",
+          "Cosworth",
+          "Ferrari"
+        ],
+        "a": 3
+      }
+    ],
+    "3": [
+      {
+        "p": "Which team won the 1995 Formula 1 constructors’ title?",
+        "o": [
+          "Benetton",
+          "Williams",
+          "McLaren",
+          "Ferrari"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Valentino Rossi in 2004 rode for which manufacturer?",
+        "o": [
+          "Suzuki",
+          "Yamaha",
+          "Aprilia",
+          "KTM"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2005 Daytona 500?",
+        "o": [
+          "Ward Burton",
+          "Dale Jarrett",
+          "Jeff Gordon",
+          "Dale Earnhardt"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2007 IndyCar Series drivers’ title?",
+        "o": [
+          "Sam Hornish Jr",
+          "Dan Wheldon",
+          "Tony Kanaan",
+          "Dario Franchitti"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1979 24 Hours of Le Mans?",
+        "o": [
+          "Porsche",
+          "Alfa Romeo",
+          "Ferrari",
+          "Renault"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2003 World Rally Championship drivers’ title?",
+        "o": [
+          "Marcus Grönholm",
+          "Petter Solberg",
+          "Richard Burns",
+          "Colin McRae"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2020 Formula 2 drivers’ title?",
+        "o": [
+          "Nicholas Latifi",
+          "Yuki Tsunoda",
+          "Mick Schumacher",
+          "Nyck de Vries"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 1996 Formula 1 constructors’ title?",
+        "o": [
+          "Ferrari",
+          "Jordan",
+          "BAR",
+          "Williams"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Valentino Rossi in 2003 rode for which manufacturer?",
+        "o": [
+          "Honda",
+          "Ducati",
+          "Suzuki",
+          "Aprilia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2004 Daytona 500?",
+        "o": [
+          "Jeff Gordon",
+          "Dale Earnhardt Jr",
+          "Michael Waltrip",
+          "Ward Burton"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2006 IndyCar Series drivers’ title?",
+        "o": [
+          "Gil Wheldon",
+          "Dario Franchitti",
+          "Sam Hornish Jr",
+          "Dan Wheldon"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 1978 24 Hours of Le Mans?",
+        "o": [
+          "Matra-Simca",
+          "Alfa Romeo",
+          "Ferrari",
+          "Renault"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2002 World Rally Championship drivers’ title?",
+        "o": [
+          "Marcus Grönholm",
+          "Petter Solberg",
+          "Richard Burns",
+          "Colin McRae"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2019 Formula 2 drivers’ title?",
+        "o": [
+          "Callum Ilott",
+          "Nyck de Vries",
+          "Nicholas Latifi",
+          "Yuki Tsunoda"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 1997 Formula 1 constructors’ title?",
+        "o": [
+          "Jordan",
+          "BAR",
+          "Williams",
+          "Renault"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Nicky Hayden in 2006 rode for which manufacturer?",
+        "o": [
+          "KTM",
+          "Yamaha",
+          "Ducati",
+          "Honda"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2003 Daytona 500?",
+        "o": [
+          "Michael Waltrip",
+          "Dale Earnhardt Jr",
+          "Ward Burton",
+          "Dale Jarrett"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2005 IndyCar Series drivers’ title?",
+        "o": [
+          "Tony Kanaan",
+          "Dan Wheldon",
+          "Scott Dixon",
+          "Buddy Rice"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 1977 24 Hours of Le Mans?",
+        "o": [
+          "Gulf-Mirage",
+          "Matra-Simca",
+          "Porsche",
+          "Alfa Romeo"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2001 World Rally Championship drivers’ title?",
+        "o": [
+          "Marcus Grönholm",
+          "Colin McRae",
+          "Tommi Mäkinen",
+          "Richard Burns"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1998 Formula 1 constructors’ title?",
+        "o": [
+          "McLaren",
+          "Benetton",
+          "Williams",
+          "Ferrari"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Casey Stoner in 2007 rode for which manufacturer?",
+        "o": [
+          "Aprilia",
+          "Ducati",
+          "KTM",
+          "Yamaha"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2002 Daytona 500?",
+        "o": [
+          "Dale Earnhardt Jr",
+          "Michael Waltrip",
+          "Ward Burton",
+          "Dale Jarrett"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2004 IndyCar Series drivers’ title?",
+        "o": [
+          "Sam Hornish Jr",
+          "Dan Wheldon",
+          "Scott Dixon",
+          "Tony Kanaan"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1976 24 Hours of Le Mans?",
+        "o": [
+          "Porsche",
+          "Matra-Simca",
+          "Alfa Romeo",
+          "Ferrari"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 1999 Formula 1 constructors’ title?",
+        "o": [
+          "McLaren",
+          "Ferrari",
+          "Jordan",
+          "BAR"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Loris Capirossi in 2006 rode for which manufacturer?",
+        "o": [
+          "Suzuki",
+          "Aprilia",
+          "Ducati",
+          "KTM"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2001 Daytona 500?",
+        "o": [
+          "Dale Jarrett",
+          "Dale Earnhardt",
+          "Sterling Marlin",
+          "Michael Waltrip"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2003 IndyCar Series drivers’ title?",
+        "o": [
+          "Scott Dixon",
+          "Dan Wheldon",
+          "Tony Kanaan",
+          "Buddy Rice"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 1975 24 Hours of Le Mans?",
+        "o": [
+          "Renault",
+          "Gulf-Mirage",
+          "Matra-Simca",
+          "Alfa Romeo"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 2000 Formula 1 constructors’ title?",
+        "o": [
+          "McLaren",
+          "Jordan",
+          "Ferrari",
+          "BAR"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Max Biaggi in 2004 rode for which manufacturer?",
+        "o": [
+          "Aprilia",
+          "KTM",
+          "Yamaha",
+          "Honda"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2000 Daytona 500?",
+        "o": [
+          "Dale Jarrett",
+          "Dale Earnhardt Jr",
+          "Michael Waltrip",
+          "Ward Burton"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2002 IndyCar Series drivers’ title?",
+        "o": [
+          "Buddy Rice",
+          "Sam Hornish Jr",
+          "Gil de Ferran",
+          "Gil Wheldon"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 1974 24 Hours of Le Mans?",
+        "o": [
+          "Alfa Romeo",
+          "Ferrari",
+          "Matra-Simca",
+          "Porsche"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 2001 Formula 1 constructors’ title?",
+        "o": [
+          "Jordan",
+          "BAR",
+          "Renault",
+          "Ferrari"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Sete Gibernau in 2004 rode for which manufacturer?",
+        "o": [
+          "Honda",
+          "Yamaha",
+          "Ducati",
+          "Suzuki"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1999 Daytona 500?",
+        "o": [
+          "Dale Jarrett",
+          "Jeff Gordon",
+          "Dale Earnhardt",
+          "Sterling Marlin"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2001 IndyCar Series drivers’ title?",
+        "o": [
+          "Gil Wheldon",
+          "Dario Franchitti",
+          "Sam Hornish Jr",
+          "Dan Wheldon"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 1973 24 Hours of Le Mans?",
+        "o": [
+          "Renault",
+          "Gulf-Mirage",
+          "Alfa Romeo",
+          "Matra-Simca"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 2002 Formula 1 constructors’ title?",
+        "o": [
+          "Ferrari",
+          "BAR",
+          "Renault",
+          "Benetton"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Marco Melandri in 2005 rode for which manufacturer?",
+        "o": [
+          "Yamaha",
+          "Honda",
+          "Ducati",
+          "Suzuki"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1998 Daytona 500?",
+        "o": [
+          "Bobby Labonte",
+          "Jeff Gordon",
+          "Dale Earnhardt",
+          "Dale Earnhardt Jr"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which year did the Indianapolis 500 first take place?",
+        "o": [
+          "1946",
+          "1979",
+          "2008",
+          "1911"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1972 24 Hours of Le Mans?",
+        "o": [
+          "Matra-Simca",
+          "Ferrari",
+          "Porsche",
+          "Renault"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 2003 Formula 1 constructors’ title?",
+        "o": [
+          "Jordan",
+          "Ferrari",
+          "BAR",
+          "Renault"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Kenny Roberts Jr in 2000 rode for which manufacturer?",
+        "o": [
+          "Ducati",
+          "Aprilia",
+          "Suzuki",
+          "KTM"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1997 Daytona 500?",
+        "o": [
+          "Bobby Labonte",
+          "Dale Earnhardt Jr",
+          "Michael Waltrip",
+          "Jeff Gordon"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In which year did the Indy Racing League first take place?",
+        "o": [
+          "1996",
+          "1979",
+          "2008",
+          "1911"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 2004 Formula 1 constructors’ title?",
+        "o": [
+          "Benetton",
+          "Ferrari",
+          "Williams",
+          "McLaren"
+        ],
+        "a": 1
+      },
+      {
+        "p": "John Hopkins in 2007 rode for which manufacturer?",
+        "o": [
+          "KTM",
+          "Yamaha",
+          "Suzuki",
+          "Honda"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1996 Daytona 500?",
+        "o": [
+          "Dale Earnhardt",
+          "Sterling Marlin",
+          "Bobby Labonte",
+          "Dale Jarrett"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Michael Schumacher in 2002 drove for which team?",
+        "o": [
+          "Ferrari",
+          "Minardi",
+          "BMW Sauber",
+          "Brawn GP"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Colin Edwards in 2005 rode for which manufacturer?",
+        "o": [
+          "Ducati",
+          "Yamaha",
+          "Suzuki",
+          "Aprilia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Rubens Barrichello in 2002 drove for which team?",
+        "o": [
+          "Renault",
+          "Jordan",
+          "Ferrari",
+          "Sauber"
+        ],
+        "a": 2
+      },
+      {
+        "p": "David Coulthard in 2002 drove for which team?",
+        "o": [
+          "Williams",
+          "Renault",
+          "Jordan",
+          "McLaren"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Kimi Räikkönen in 2002 drove for which team?",
+        "o": [
+          "McLaren",
+          "Toyota",
+          "Minardi",
+          "BMW Sauber"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Ralf Schumacher in 2002 drove for which team?",
+        "o": [
+          "Jordan",
+          "Williams",
+          "Sauber",
+          "BAR"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Juan Pablo Montoya in 2002 drove for which team?",
+        "o": [
+          "Red Bull Racing",
+          "Ferrari",
+          "Williams",
+          "McLaren"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Jenson Button in 2002 drove for which team?",
+        "o": [
+          "Toyota",
+          "Minardi",
+          "BMW Sauber",
+          "Renault"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Jarno Trulli in 2002 drove for which team?",
+        "o": [
+          "Renault",
+          "Minardi",
+          "BMW Sauber",
+          "Brawn GP"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Giancarlo Fisichella in 2002 drove for which team?",
+        "o": [
+          "Red Bull Racing",
+          "Jordan",
+          "Ferrari",
+          "McLaren"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Takuma Sato in 2002 drove for which team?",
+        "o": [
+          "Renault",
+          "Sauber",
+          "Jordan",
+          "BAR"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Nick Heidfeld in 2002 drove for which team?",
+        "o": [
+          "BAR",
+          "Jaguar",
+          "Toyota",
+          "Sauber"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Felipe Massa in 2002 drove for which team?",
+        "o": [
+          "Sauber",
+          "Toyota",
+          "Minardi",
+          "BMW Sauber"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Jacques Villeneuve in 2002 drove for which team?",
+        "o": [
+          "Sauber",
+          "BAR",
+          "Jaguar",
+          "Toyota"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Olivier Panis in 2002 drove for which team?",
+        "o": [
+          "McLaren",
+          "Williams",
+          "BAR",
+          "Renault"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Eddie Irvine in 2002 drove for which team?",
+        "o": [
+          "Sauber",
+          "BAR",
+          "Toyota",
+          "Jaguar"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Pedro de la Rosa in 2002 drove for which team?",
+        "o": [
+          "Jaguar",
+          "Williams",
+          "Renault",
+          "Jordan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Mika Salo in 2002 drove for which team?",
+        "o": [
+          "Minardi",
+          "Toyota",
+          "BMW Sauber",
+          "Brawn GP"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Allan McNish in 2002 drove for which team?",
+        "o": [
+          "Red Bull Racing",
+          "Ferrari",
+          "Toyota",
+          "McLaren"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Mark Webber in 2002 drove for which team?",
+        "o": [
+          "McLaren",
+          "Williams",
+          "Renault",
+          "Minardi"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Alex Yoong in 2002 drove for which team?",
+        "o": [
+          "Minardi",
+          "McLaren",
+          "Williams",
+          "Renault"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Fernando Alonso in 2006 drove for which team?",
+        "o": [
+          "McLaren",
+          "Renault",
+          "Williams",
+          "Jordan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Giancarlo Fisichella in 2006 drove for which team?",
+        "o": [
+          "Minardi",
+          "BMW Sauber",
+          "Renault",
+          "Brawn GP"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Lewis Hamilton in 2007 drove for which team?",
+        "o": [
+          "Brawn GP",
+          "Red Bull Racing",
+          "Ferrari",
+          "McLaren"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Heikki Kovalainen in 2008 drove for which team?",
+        "o": [
+          "McLaren",
+          "Brawn GP",
+          "Red Bull Racing",
+          "Ferrari"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Robert Kubica in 2008 drove for which team?",
+        "o": [
+          "Red Bull Racing",
+          "BMW Sauber",
+          "Ferrari",
+          "McLaren"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Nick Heidfeld in 2008 drove for which team?",
+        "o": [
+          "Williams",
+          "Renault",
+          "BMW Sauber",
+          "Jordan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Jenson Button in 2009 drove for which team?",
+        "o": [
+          "Minardi",
+          "BMW Sauber",
+          "Red Bull Racing",
+          "Brawn GP"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Rubens Barrichello in 2009 drove for which team?",
+        "o": [
+          "Brawn GP",
+          "Ferrari",
+          "McLaren",
+          "Williams"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Sebastian Vettel in 2009 drove for which team?",
+        "o": [
+          "Williams",
+          "Red Bull Racing",
+          "Renault",
+          "Jordan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Mark Webber in 2009 drove for which team?",
+        "o": [
+          "Ferrari",
+          "McLaren",
+          "Red Bull Racing",
+          "Williams"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Williams in 2002 used which engine supplier?",
+        "o": [
+          "Asiatech",
+          "Toyota",
+          "Ferrari",
+          "BMW"
+        ],
+        "a": 3
+      },
+      {
+        "p": "McLaren in 2002 used which engine supplier?",
+        "o": [
+          "Mercedes",
+          "Asiatech",
+          "Toyota",
+          "Ferrari"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Renault in 2002 used which engine supplier?",
+        "o": [
+          "Petronas",
+          "Renault",
+          "Cosworth",
+          "Asiatech"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Jordan in 2002 used which engine supplier?",
+        "o": [
+          "Mercedes",
+          "Renault",
+          "Honda",
+          "Petronas"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Sauber in 2002 used which engine supplier?",
+        "o": [
+          "Ferrari",
+          "BMW",
+          "Mercedes",
+          "Petronas"
+        ],
+        "a": 3
+      },
+      {
+        "p": "BAR in 2002 used which engine supplier?",
+        "o": [
+          "Honda",
+          "Cosworth",
+          "Asiatech",
+          "Toyota"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Jaguar in 2002 used which engine supplier?",
+        "o": [
+          "BMW",
+          "Cosworth",
+          "Mercedes",
+          "Renault"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Minardi in 2002 used which engine supplier?",
+        "o": [
+          "Honda",
+          "Petronas",
+          "Asiatech",
+          "Cosworth"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Arrows in 2002 used which engine supplier?",
+        "o": [
+          "BMW",
+          "Mercedes",
+          "Renault",
+          "Cosworth"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Toyota in 2002 used which engine supplier?",
+        "o": [
+          "Toyota",
+          "Ferrari",
+          "BMW",
+          "Mercedes"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Ferrari in 2002 used which engine supplier?",
+        "o": [
+          "Toyota",
+          "Ferrari",
+          "BMW",
+          "Mercedes"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Red Bull Racing in 2006 used which engine supplier?",
+        "o": [
+          "Renault",
+          "Honda",
+          "Ferrari",
+          "Petronas"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Toro Rosso in 2007 used which engine supplier?",
+        "o": [
+          "Renault",
+          "Honda",
+          "Petronas",
+          "Ferrari"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Super Aguri in 2007 used which engine supplier?",
+        "o": [
+          "Honda",
+          "Toyota",
+          "Ferrari",
+          "BMW"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Force India in 2009 used which engine supplier?",
+        "o": [
+          "Asiatech",
+          "Mercedes",
+          "Toyota",
+          "Ferrari"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Brawn GP in 2009 used which engine supplier?",
+        "o": [
+          "Toyota",
+          "Ferrari",
+          "Mercedes",
+          "BMW"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Williams in 2009 used which engine supplier?",
+        "o": [
+          "Petronas",
+          "Cosworth",
+          "Asiatech",
+          "Toyota"
+        ],
+        "a": 3
+      }
+    ],
+    "4": [
+      {
+        "p": "Which team won the 1980 Formula 1 constructors’ title?",
+        "o": [
+          "Williams",
+          "Benetton",
+          "Ferrari",
+          "McLaren"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Mick Doohan in 1998 rode for which manufacturer?",
+        "o": [
+          "Suzuki",
+          "Honda",
+          "Yamaha",
+          "Ducati"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1995 Daytona 500?",
+        "o": [
+          "Bill Elliott",
+          "Geoff Bodine",
+          "Sterling Marlin",
+          "Dale Earnhardt"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1985 Indianapolis 500?",
+        "o": [
+          "Al Unser",
+          "A. J. Foyt",
+          "Mario Andretti",
+          "Danny Sullivan"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1971 24 Hours of Le Mans?",
+        "o": [
+          "Porsche",
+          "Chaparral",
+          "Matra",
+          "Ford"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2000 World Rally Championship drivers’ title?",
+        "o": [
+          "Colin McRae",
+          "Marcus Grönholm",
+          "Didier Auriol",
+          "Tommi Mäkinen"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2018 Formula 2 drivers’ title?",
+        "o": [
+          "Lando Norris",
+          "Alexander Albon",
+          "George Russell",
+          "Artem Markelov"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 1981 Formula 1 constructors’ title?",
+        "o": [
+          "Team Lotus",
+          "Brabham",
+          "Benetton",
+          "Williams"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Àlex Crivillé in 1999 rode for which manufacturer?",
+        "o": [
+          "Honda",
+          "Suzuki",
+          "Yamaha",
+          "Ducati"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1994 Daytona 500?",
+        "o": [
+          "Davey Allison",
+          "Sterling Marlin",
+          "Ernie Irvan",
+          "Derrike Cope"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1984 Indianapolis 500?",
+        "o": [
+          "Danny Sullivan",
+          "Tom Sneva",
+          "Rick Mears",
+          "Gordon Johncock"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 1970 24 Hours of Le Mans?",
+        "o": [
+          "Ferrari",
+          "Chaparral",
+          "Matra",
+          "Porsche"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1999 World Rally Championship drivers’ title?",
+        "o": [
+          "Tommi Mäkinen",
+          "Marcus Grönholm",
+          "Richard Burns",
+          "Colin McRae"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2017 Formula 2 drivers’ title?",
+        "o": [
+          "Lando Norris",
+          "Charles Leclerc",
+          "Alexander Albon",
+          "Artem Markelov"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 1982 Formula 1 constructors’ title?",
+        "o": [
+          "Williams",
+          "McLaren",
+          "Ferrari",
+          "Team Lotus"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Kevin Schwantz in 1993 rode for which manufacturer?",
+        "o": [
+          "Ducati",
+          "Cagiva",
+          "Honda",
+          "Suzuki"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1993 Daytona 500?",
+        "o": [
+          "Dale Jarrett",
+          "Davey Allison",
+          "Ernie Irvan",
+          "Derrike Cope"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1983 Indianapolis 500?",
+        "o": [
+          "A. J. Foyt",
+          "Tom Sneva",
+          "Mario Andretti",
+          "Gordon Smiley"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 1969 24 Hours of Le Mans?",
+        "o": [
+          "Porsche",
+          "Ferrari",
+          "Ford",
+          "Chaparral"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1998 World Rally Championship drivers’ title?",
+        "o": [
+          "Richard Burns",
+          "Colin McRae",
+          "Didier Auriol",
+          "Tommi Mäkinen"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1983 Formula 1 constructors’ title?",
+        "o": [
+          "Ferrari",
+          "Williams",
+          "McLaren",
+          "Team Lotus"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Wayne Rainey in 1992 rode for which manufacturer?",
+        "o": [
+          "Honda",
+          "Yamaha",
+          "Suzuki",
+          "Ducati"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1992 Daytona 500?",
+        "o": [
+          "Geoff Bodine",
+          "Dale Earnhardt",
+          "Davey Allison",
+          "Rusty Wallace"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1982 Indianapolis 500?",
+        "o": [
+          "Gordon Smiley",
+          "Danny Sullivan",
+          "Rick Mears",
+          "Gordon Johncock"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1968 24 Hours of Le Mans?",
+        "o": [
+          "Ford",
+          "Ferrari",
+          "Chaparral",
+          "Matra"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 1984 Formula 1 constructors’ title?",
+        "o": [
+          "Team Lotus",
+          "McLaren",
+          "Brabham",
+          "Benetton"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Eddie Lawson in 1989 rode for which manufacturer?",
+        "o": [
+          "Ducati",
+          "Cagiva",
+          "Honda",
+          "Suzuki"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1991 Daytona 500?",
+        "o": [
+          "Sterling Marlin",
+          "Dale Jarrett",
+          "Davey Allison",
+          "Ernie Irvan"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1981 Indianapolis 500?",
+        "o": [
+          "Bobby Unser",
+          "Tom Sneva",
+          "Gordon Johncock",
+          "Johnny Rutherford"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 1967 24 Hours of Le Mans?",
+        "o": [
+          "Chaparral",
+          "Ford",
+          "Matra",
+          "Porsche"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 1985 Formula 1 constructors’ title?",
+        "o": [
+          "Team Lotus",
+          "Brabham",
+          "McLaren",
+          "Benetton"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Wayne Gardner in 1987 rode for which manufacturer?",
+        "o": [
+          "Ducati",
+          "Cagiva",
+          "Suzuki",
+          "Honda"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1990 Daytona 500?",
+        "o": [
+          "Derrike Cope",
+          "Bobby Allison",
+          "Bill Elliott",
+          "Geoff Bodine"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1980 Indianapolis 500?",
+        "o": [
+          "Bobby Unser",
+          "Johnny Rutherford",
+          "Al Unser",
+          "A. J. Foyt"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 1966 24 Hours of Le Mans?",
+        "o": [
+          "Matra",
+          "Porsche",
+          "Ford",
+          "Ferrari"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 1986 Formula 1 constructors’ title?",
+        "o": [
+          "Ferrari",
+          "McLaren",
+          "Team Lotus",
+          "Williams"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Freddie Spencer in 1985 rode for which manufacturer?",
+        "o": [
+          "Honda",
+          "Ducati",
+          "Cagiva",
+          "Suzuki"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1989 Daytona 500?",
+        "o": [
+          "Dale Jarrett",
+          "Darrell Waltrip",
+          "Davey Allison",
+          "Ernie Irvan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1979 Indianapolis 500?",
+        "o": [
+          "Johnny Rutherford",
+          "Al Unser",
+          "Rick Mears",
+          "A. J. Foyt"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 1965 24 Hours of Le Mans?",
+        "o": [
+          "Chaparral",
+          "Matra",
+          "Porsche",
+          "Ferrari"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1987 Formula 1 constructors’ title?",
+        "o": [
+          "Williams",
+          "Benetton",
+          "Ferrari",
+          "McLaren"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Franco Uncini in 1982 rode for which manufacturer?",
+        "o": [
+          "Ducati",
+          "Suzuki",
+          "Cagiva",
+          "Honda"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1988 Daytona 500?",
+        "o": [
+          "Dale Jarrett",
+          "Davey Allison",
+          "Bobby Allison",
+          "Ernie Irvan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1978 Indianapolis 500?",
+        "o": [
+          "Johnny Rutherford",
+          "A. J. Foyt",
+          "Mario Andretti",
+          "Al Unser"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1964 24 Hours of Le Mans?",
+        "o": [
+          "Ferrari",
+          "Ford",
+          "Chaparral",
+          "Matra"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 1988 Formula 1 constructors’ title?",
+        "o": [
+          "Team Lotus",
+          "McLaren",
+          "Brabham",
+          "Benetton"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Marco Lucchinelli in 1981 rode for which manufacturer?",
+        "o": [
+          "Honda",
+          "Yamaha",
+          "Suzuki",
+          "Ducati"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1987 Daytona 500?",
+        "o": [
+          "Bobby Allison",
+          "Geoff Bodine",
+          "Dale Earnhardt",
+          "Bill Elliott"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1977 Indianapolis 500?",
+        "o": [
+          "A. J. Foyt",
+          "Mario Andretti",
+          "Gordon Smiley",
+          "Danny Sullivan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 1989 Formula 1 constructors’ title?",
+        "o": [
+          "Benetton",
+          "McLaren",
+          "Williams",
+          "Ferrari"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Eddie Lawson in 1986 rode for which manufacturer?",
+        "o": [
+          "Honda",
+          "Suzuki",
+          "Yamaha",
+          "Ducati"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1986 Daytona 500?",
+        "o": [
+          "Rusty Wallace",
+          "Sterling Marlin",
+          "Dale Jarrett",
+          "Geoff Bodine"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1990 Formula 1 constructors’ title?",
+        "o": [
+          "McLaren",
+          "Benetton",
+          "Williams",
+          "Ferrari"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Randy Mamola in 1984 rode for which manufacturer?",
+        "o": [
+          "Yamaha",
+          "Honda",
+          "Ducati",
+          "Cagiva"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 1991 Formula 1 constructors’ title?",
+        "o": [
+          "Ferrari",
+          "Team Lotus",
+          "McLaren",
+          "Brabham"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 1992 Formula 1 constructors’ title?",
+        "o": [
+          "Brabham",
+          "Benetton",
+          "Ferrari",
+          "Williams"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1993 Formula 1 constructors’ title?",
+        "o": [
+          "Williams",
+          "McLaren",
+          "Team Lotus",
+          "Brabham"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 1994 Formula 1 constructors’ title?",
+        "o": [
+          "Ferrari",
+          "Williams",
+          "McLaren",
+          "Team Lotus"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Ayrton Senna in 1988 drove for which team?",
+        "o": [
+          "Jordan",
+          "Prost",
+          "McLaren",
+          "Team Lotus"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Alain Prost in 1988 drove for which team?",
+        "o": [
+          "Ferrari",
+          "Jordan",
+          "Prost",
+          "McLaren"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Nigel Mansell in 1992 drove for which team?",
+        "o": [
+          "Williams",
+          "Team Lotus",
+          "McLaren",
+          "Benetton"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Riccardo Patrese in 1992 drove for which team?",
+        "o": [
+          "Benetton",
+          "Williams",
+          "Ferrari",
+          "Jordan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Michael Schumacher in 1994 drove for which team?",
+        "o": [
+          "Jordan",
+          "Prost",
+          "Benetton",
+          "Team Lotus"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Damon Hill in 1994 drove for which team?",
+        "o": [
+          "McLaren",
+          "Benetton",
+          "Ferrari",
+          "Williams"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Gerhard Berger in 1994 drove for which team?",
+        "o": [
+          "Ferrari",
+          "Williams",
+          "Benetton",
+          "Jordan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Jean Alesi in 1994 drove for which team?",
+        "o": [
+          "Team Lotus",
+          "Ferrari",
+          "McLaren",
+          "Williams"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Mika Häkkinen in 1994 drove for which team?",
+        "o": [
+          "Team Lotus",
+          "Williams",
+          "McLaren",
+          "Benetton"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Martin Brundle in 1994 drove for which team?",
+        "o": [
+          "Team Lotus",
+          "Williams",
+          "Benetton",
+          "McLaren"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Rubens Barrichello in 1994 drove for which team?",
+        "o": [
+          "Jordan",
+          "Benetton",
+          "Ferrari",
+          "Prost"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Eddie Irvine in 1994 drove for which team?",
+        "o": [
+          "Prost",
+          "Jordan",
+          "Team Lotus",
+          "McLaren"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Johnny Herbert in 1995 drove for which team?",
+        "o": [
+          "Prost",
+          "Team Lotus",
+          "Benetton",
+          "McLaren"
+        ],
+        "a": 2
+      },
+      {
+        "p": "David Coulthard in 1995 drove for which team?",
+        "o": [
+          "Benetton",
+          "Ferrari",
+          "Jordan",
+          "Williams"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Jacques Villeneuve in 1996 drove for which team?",
+        "o": [
+          "Williams",
+          "Team Lotus",
+          "McLaren",
+          "Benetton"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Heinz-Harald Frentzen in 1997 drove for which team?",
+        "o": [
+          "Ferrari",
+          "Williams",
+          "Jordan",
+          "Prost"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Ralf Schumacher in 1997 drove for which team?",
+        "o": [
+          "Ferrari",
+          "Prost",
+          "Jordan",
+          "Team Lotus"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Giancarlo Fisichella in 1997 drove for which team?",
+        "o": [
+          "Team Lotus",
+          "McLaren",
+          "Williams",
+          "Jordan"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Jarno Trulli in 1998 drove for which team?",
+        "o": [
+          "Prost",
+          "McLaren",
+          "Williams",
+          "Benetton"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Olivier Panis in 1998 drove for which team?",
+        "o": [
+          "Williams",
+          "Prost",
+          "Benetton",
+          "Ferrari"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Nelson Piquet in 1987 drove for which team?",
+        "o": [
+          "Jordan",
+          "Prost",
+          "Williams",
+          "Team Lotus"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Niki Lauda in 1984 drove for which team?",
+        "o": [
+          "Jordan",
+          "Prost",
+          "Team Lotus",
+          "McLaren"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Keke Rosberg in 1982 drove for which team?",
+        "o": [
+          "Williams",
+          "Jordan",
+          "Prost",
+          "Team Lotus"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Elio de Angelis in 1985 drove for which team?",
+        "o": [
+          "Prost",
+          "Team Lotus",
+          "McLaren",
+          "Williams"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Michele Alboreto in 1985 drove for which team?",
+        "o": [
+          "Benetton",
+          "Jordan",
+          "Ferrari",
+          "Prost"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Stefan Johansson in 1985 drove for which team?",
+        "o": [
+          "Team Lotus",
+          "McLaren",
+          "Williams",
+          "Ferrari"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Thierry Boutsen in 1990 drove for which team?",
+        "o": [
+          "Williams",
+          "Benetton",
+          "Ferrari",
+          "Jordan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "McLaren in 1988 used which engine supplier?",
+        "o": [
+          "Renault",
+          "Honda",
+          "Mercedes",
+          "Peugeot"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Williams in 1988 used which engine supplier?",
+        "o": [
+          "Peugeot",
+          "Yamaha",
+          "Judd",
+          "Honda"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Ferrari in 1988 used which engine supplier?",
+        "o": [
+          "Renault",
+          "Mercedes",
+          "Peugeot",
+          "Ferrari"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Benetton in 1988 used which engine supplier?",
+        "o": [
+          "Ford",
+          "Honda",
+          "Judd",
+          "Ferrari"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Team Lotus in 1988 used which engine supplier?",
+        "o": [
+          "Peugeot",
+          "Honda",
+          "Yamaha",
+          "Judd"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Williams in 1992 used which engine supplier?",
+        "o": [
+          "Mercedes",
+          "Peugeot",
+          "Renault",
+          "Yamaha"
+        ],
+        "a": 2
+      },
+      {
+        "p": "McLaren in 1992 used which engine supplier?",
+        "o": [
+          "Ford",
+          "Renault",
+          "Mercedes",
+          "Honda"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Benetton in 1994 used which engine supplier?",
+        "o": [
+          "Ford",
+          "Ferrari",
+          "Renault",
+          "Mercedes"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Williams in 1994 used which engine supplier?",
+        "o": [
+          "Mercedes",
+          "Renault",
+          "Peugeot",
+          "Yamaha"
+        ],
+        "a": 1
+      },
+      {
+        "p": "McLaren in 1995 used which engine supplier?",
+        "o": [
+          "Honda",
+          "Judd",
+          "Mercedes",
+          "Ferrari"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Jordan in 1995 used which engine supplier?",
+        "o": [
+          "Judd",
+          "Ferrari",
+          "Ford",
+          "Peugeot"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Ferrari in 1995 used which engine supplier?",
+        "o": [
+          "Ferrari",
+          "Yamaha",
+          "Honda",
+          "Judd"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Sauber in 1995 used which engine supplier?",
+        "o": [
+          "Peugeot",
+          "Ford",
+          "Yamaha",
+          "Honda"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Arrows in 1997 used which engine supplier?",
+        "o": [
+          "Honda",
+          "Judd",
+          "Yamaha",
+          "Ferrari"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Stewart in 1997 used which engine supplier?",
+        "o": [
+          "Peugeot",
+          "Yamaha",
+          "Honda",
+          "Ford"
+        ],
+        "a": 3
+      }
+    ],
+    "5": [
+      {
+        "p": "Which team won the 1958 Formula 1 constructors’ title?",
+        "o": [
+          "Vanwall",
+          "McLaren",
+          "Cooper",
+          "Ferrari"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Giacomo Agostini in 1972 rode for which manufacturer?",
+        "o": [
+          "Honda",
+          "MV Agusta",
+          "Norton",
+          "Yamaha"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1985 Daytona 500?",
+        "o": [
+          "David Pearson",
+          "Benny Parsons",
+          "Bill Elliott",
+          "Darrell Waltrip"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1976 Indianapolis 500?",
+        "o": [
+          "Gordon Johncock",
+          "Mark Donohue",
+          "Al Unser",
+          "Johnny Rutherford"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1963 24 Hours of Le Mans?",
+        "o": [
+          "Ferrari",
+          "Aston Martin",
+          "Jaguar",
+          "Maserati"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1997 World Rally Championship drivers’ title?",
+        "o": [
+          "Didier Auriol",
+          "Tommi Mäkinen",
+          "Juha Kankkunen",
+          "Colin McRae"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2016 GP2 Series drivers’ title?",
+        "o": [
+          "Sergey Sirotkin",
+          "Stoffel Vandoorne",
+          "Pierre Gasly",
+          "Antonio Giovinazzi"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 1959 Formula 1 constructors’ title?",
+        "o": [
+          "Matra",
+          "Tyrrell",
+          "McLaren",
+          "Cooper"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Giacomo Agostini in 1975 rode for which manufacturer?",
+        "o": [
+          "Yamaha",
+          "MV Agusta",
+          "Suzuki",
+          "Gilera"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1984 Daytona 500?",
+        "o": [
+          "Bill Elliott",
+          "Cale Yarborough",
+          "Bobby Allison",
+          "Richard Petty"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1975 Indianapolis 500?",
+        "o": [
+          "A. J. Foyt",
+          "Parnelli Jones",
+          "Bobby Unser",
+          "Johnny Rutherford"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 1962 24 Hours of Le Mans?",
+        "o": [
+          "Porsche",
+          "Aston Martin",
+          "Jaguar",
+          "Ferrari"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1996 World Rally Championship drivers’ title?",
+        "o": [
+          "Tommi Mäkinen",
+          "Juha Kankkunen",
+          "Colin McRae",
+          "Carlos Sainz"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2015 GP2 Series drivers’ title?",
+        "o": [
+          "Pierre Gasly",
+          "Stoffel Vandoorne",
+          "Antonio Giovinazzi",
+          "Alex Lynn"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 1960 Formula 1 constructors’ title?",
+        "o": [
+          "Ferrari",
+          "BRM",
+          "Cooper",
+          "Team Lotus"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Phil Read in 1974 rode for which manufacturer?",
+        "o": [
+          "Norton",
+          "Yamaha",
+          "Suzuki",
+          "MV Agusta"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1983 Daytona 500?",
+        "o": [
+          "Cale Yarborough",
+          "Benny Parsons",
+          "Darrell Waltrip",
+          "Bill Elliott"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1974 Indianapolis 500?",
+        "o": [
+          "Al Unser",
+          "Johnny Rutherford",
+          "Mario Andretti",
+          "A. J. Foyt"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 1961 24 Hours of Le Mans?",
+        "o": [
+          "Maserati",
+          "Porsche",
+          "Ferrari",
+          "Aston Martin"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1995 World Rally Championship drivers’ title?",
+        "o": [
+          "Tommi Mäkinen",
+          "Carlos Sainz",
+          "Didier Auriol",
+          "Colin McRae"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1961 Formula 1 constructors’ title?",
+        "o": [
+          "Ferrari",
+          "Team Lotus",
+          "Brabham",
+          "Matra"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Barry Sheene in 1976 rode for which manufacturer?",
+        "o": [
+          "Yamaha",
+          "Suzuki",
+          "Gilera",
+          "Honda"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1982 Daytona 500?",
+        "o": [
+          "Darrell Waltrip",
+          "Bill Elliott",
+          "Bobby Allison",
+          "Cale Yarborough"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1973 Indianapolis 500?",
+        "o": [
+          "Johnny Rutherford",
+          "Bobby Unser",
+          "Mark Donohue",
+          "Gordon Johncock"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1960 24 Hours of Le Mans?",
+        "o": [
+          "Ferrari",
+          "Jaguar",
+          "Maserati",
+          "Porsche"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 1962 Formula 1 constructors’ title?",
+        "o": [
+          "Brabham",
+          "BRM",
+          "Matra",
+          "Tyrrell"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Kenny Roberts in 1978 rode for which manufacturer?",
+        "o": [
+          "Honda",
+          "Norton",
+          "Yamaha",
+          "MV Agusta"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1981 Daytona 500?",
+        "o": [
+          "Bill Elliott",
+          "Cale Yarborough",
+          "Bobby Allison",
+          "Richard Petty"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1972 Indianapolis 500?",
+        "o": [
+          "Mark Donohue",
+          "Johnny Rutherford",
+          "Bobby Unser",
+          "Gordon Johncock"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 1959 24 Hours of Le Mans?",
+        "o": [
+          "Porsche",
+          "Aston Martin",
+          "Ferrari",
+          "Jaguar"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 1963 Formula 1 constructors’ title?",
+        "o": [
+          "BRM",
+          "Brabham",
+          "Team Lotus",
+          "Matra"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Mike Hailwood in 1964 rode for which manufacturer?",
+        "o": [
+          "Gilera",
+          "Honda",
+          "Norton",
+          "MV Agusta"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1980 Daytona 500?",
+        "o": [
+          "Buddy Baker",
+          "David Pearson",
+          "Benny Parsons",
+          "Darrell Waltrip"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1971 Indianapolis 500?",
+        "o": [
+          "Mario Andretti",
+          "Al Unser",
+          "A. J. Foyt",
+          "Parnelli Jones"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 1958 24 Hours of Le Mans?",
+        "o": [
+          "Maserati",
+          "Porsche",
+          "Ferrari",
+          "Aston Martin"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 1964 Formula 1 constructors’ title?",
+        "o": [
+          "Vanwall",
+          "Cooper",
+          "BRM",
+          "Ferrari"
+        ],
+        "a": 3
+      },
+      {
+        "p": "John Surtees in 1959 rode for which manufacturer?",
+        "o": [
+          "MV Agusta",
+          "Honda",
+          "Norton",
+          "Yamaha"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1979 Daytona 500?",
+        "o": [
+          "Buddy Baker",
+          "Richard Petty",
+          "David Pearson",
+          "Benny Parsons"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1970 Indianapolis 500?",
+        "o": [
+          "Mario Andretti",
+          "A. J. Foyt",
+          "Al Unser",
+          "Parnelli Jones"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 1957 24 Hours of Le Mans?",
+        "o": [
+          "Ferrari",
+          "Aston Martin",
+          "Maserati",
+          "Jaguar"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1965 Formula 1 constructors’ title?",
+        "o": [
+          "Team Lotus",
+          "Matra",
+          "Tyrrell",
+          "McLaren"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Geoff Duke in 1955 rode for which manufacturer?",
+        "o": [
+          "Yamaha",
+          "Gilera",
+          "Suzuki",
+          "Honda"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1978 Daytona 500?",
+        "o": [
+          "Benny Parsons",
+          "Darrell Waltrip",
+          "Bobby Allison",
+          "Bill Elliott"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1969 Indianapolis 500?",
+        "o": [
+          "Gordon Johncock",
+          "Mark Donohue",
+          "Al Unser",
+          "Mario Andretti"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1956 24 Hours of Le Mans?",
+        "o": [
+          "Jaguar",
+          "Aston Martin",
+          "Maserati",
+          "Porsche"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 1966 Formula 1 constructors’ title?",
+        "o": [
+          "Vanwall",
+          "Brabham",
+          "Cooper",
+          "Ferrari"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Umberto Masetti in 1950 rode for which manufacturer?",
+        "o": [
+          "Suzuki",
+          "Honda",
+          "Gilera",
+          "Norton"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1977 Daytona 500?",
+        "o": [
+          "Bill Elliott",
+          "Bobby Allison",
+          "Richard Petty",
+          "Cale Yarborough"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1968 Indianapolis 500?",
+        "o": [
+          "Bobby Unser",
+          "Mark Donohue",
+          "Al Unser",
+          "Mario Andretti"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 1967 Formula 1 constructors’ title?",
+        "o": [
+          "McLaren",
+          "Brabham",
+          "Vanwall",
+          "Cooper"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Libero Liberati in 1957 rode for which manufacturer?",
+        "o": [
+          "Yamaha",
+          "Suzuki",
+          "Gilera",
+          "Honda"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1976 Daytona 500?",
+        "o": [
+          "Cale Yarborough",
+          "Bobby Allison",
+          "Richard Petty",
+          "David Pearson"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1968 Formula 1 constructors’ title?",
+        "o": [
+          "Team Lotus",
+          "Vanwall",
+          "Cooper",
+          "Ferrari"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Gary Hocking in 1961 rode for which manufacturer?",
+        "o": [
+          "Yamaha",
+          "MV Agusta",
+          "Suzuki",
+          "Gilera"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 1969 Formula 1 constructors’ title?",
+        "o": [
+          "Cooper",
+          "Ferrari",
+          "Matra",
+          "BRM"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 1970 Formula 1 constructors’ title?",
+        "o": [
+          "BRM",
+          "Brabham",
+          "Matra",
+          "Team Lotus"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1971 Formula 1 constructors’ title?",
+        "o": [
+          "Tyrrell",
+          "Cooper",
+          "Ferrari",
+          "BRM"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 1972 Formula 1 constructors’ title?",
+        "o": [
+          "Cooper",
+          "Team Lotus",
+          "Ferrari",
+          "BRM"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 1973 Formula 1 constructors’ title?",
+        "o": [
+          "Vanwall",
+          "Cooper",
+          "Team Lotus",
+          "Ferrari"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 1974 Formula 1 constructors’ title?",
+        "o": [
+          "Vanwall",
+          "Cooper",
+          "Ferrari",
+          "McLaren"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1975 Formula 1 constructors’ title?",
+        "o": [
+          "Ferrari",
+          "Tyrrell",
+          "McLaren",
+          "Vanwall"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 1976 Formula 1 constructors’ title?",
+        "o": [
+          "McLaren",
+          "Ferrari",
+          "Vanwall",
+          "Cooper"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team won the 1977 Formula 1 constructors’ title?",
+        "o": [
+          "Vanwall",
+          "Cooper",
+          "Ferrari",
+          "BRM"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 1978 Formula 1 constructors’ title?",
+        "o": [
+          "BRM",
+          "Brabham",
+          "Matra",
+          "Team Lotus"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team won the 1979 Formula 1 constructors’ title?",
+        "o": [
+          "Ferrari",
+          "BRM",
+          "Team Lotus",
+          "Brabham"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Juan Manuel Fangio in 1957 drove for which team?",
+        "o": [
+          "Cooper",
+          "Maserati",
+          "BRM",
+          "Team Lotus"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Juan Manuel Fangio in 1954 drove for which team?",
+        "o": [
+          "McLaren",
+          "Maserati",
+          "Mercedes",
+          "Ferrari"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Alberto Ascari in 1952 drove for which team?",
+        "o": [
+          "Brabham",
+          "Matra",
+          "Tyrrell",
+          "Ferrari"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Stirling Moss in 1955 drove for which team?",
+        "o": [
+          "Mercedes",
+          "Maserati",
+          "Ferrari",
+          "Cooper"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Mike Hawthorn in 1958 drove for which team?",
+        "o": [
+          "BRM",
+          "Ferrari",
+          "Team Lotus",
+          "Brabham"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Jack Brabham in 1959 drove for which team?",
+        "o": [
+          "Brabham",
+          "Matra",
+          "Cooper",
+          "Tyrrell"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Phil Hill in 1961 drove for which team?",
+        "o": [
+          "Brabham",
+          "Matra",
+          "Tyrrell",
+          "Ferrari"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Graham Hill in 1962 drove for which team?",
+        "o": [
+          "BRM",
+          "Matra",
+          "Tyrrell",
+          "McLaren"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Jim Clark in 1963 drove for which team?",
+        "o": [
+          "Cooper",
+          "Team Lotus",
+          "BRM",
+          "Brabham"
+        ],
+        "a": 1
+      },
+      {
+        "p": "John Surtees in 1964 drove for which team?",
+        "o": [
+          "Mercedes",
+          "Cooper",
+          "Ferrari",
+          "BRM"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Denny Hulme in 1967 drove for which team?",
+        "o": [
+          "Ferrari",
+          "Cooper",
+          "BRM",
+          "Brabham"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Jackie Stewart in 1969 drove for which team?",
+        "o": [
+          "Matra",
+          "Tyrrell",
+          "McLaren",
+          "Maserati"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Jochen Rindt in 1970 drove for which team?",
+        "o": [
+          "BRM",
+          "Team Lotus",
+          "Brabham",
+          "Matra"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Jackie Stewart in 1971 drove for which team?",
+        "o": [
+          "McLaren",
+          "Maserati",
+          "Tyrrell",
+          "Mercedes"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Emerson Fittipaldi in 1972 drove for which team?",
+        "o": [
+          "Ferrari",
+          "Cooper",
+          "BRM",
+          "Team Lotus"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Emerson Fittipaldi in 1974 drove for which team?",
+        "o": [
+          "McLaren",
+          "BRM",
+          "Team Lotus",
+          "Brabham"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Niki Lauda in 1975 drove for which team?",
+        "o": [
+          "Matra",
+          "Ferrari",
+          "Tyrrell",
+          "McLaren"
+        ],
+        "a": 1
+      },
+      {
+        "p": "James Hunt in 1976 drove for which team?",
+        "o": [
+          "Maserati",
+          "Mercedes",
+          "McLaren",
+          "Ferrari"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Mario Andretti in 1978 drove for which team?",
+        "o": [
+          "Maserati",
+          "Mercedes",
+          "Ferrari",
+          "Team Lotus"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Jody Scheckter in 1979 drove for which team?",
+        "o": [
+          "Ferrari",
+          "Brabham",
+          "Matra",
+          "Tyrrell"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Ronnie Peterson in 1978 drove for which team?",
+        "o": [
+          "Matra",
+          "Team Lotus",
+          "Tyrrell",
+          "McLaren"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Carlos Reutemann in 1978 drove for which team?",
+        "o": [
+          "BRM",
+          "Team Lotus",
+          "Ferrari",
+          "Brabham"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Clay Regazzoni in 1974 drove for which team?",
+        "o": [
+          "BRM",
+          "Team Lotus",
+          "Brabham",
+          "Ferrari"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Bruce McLaren in 1968 drove for which team?",
+        "o": [
+          "McLaren",
+          "Matra",
+          "Tyrrell",
+          "Maserati"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Jacky Ickx in 1970 drove for which team?",
+        "o": [
+          "BRM",
+          "Ferrari",
+          "Team Lotus",
+          "Brabham"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which country is Vanwall based?",
+        "o": [
+          "France",
+          "Italy",
+          "United Kingdom",
+          "Germany"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which country is the Cooper Car Company based?",
+        "o": [
+          "Germany",
+          "Switzerland",
+          "France",
+          "United Kingdom"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In which country is BRM based?",
+        "o": [
+          "United Kingdom",
+          "Germany",
+          "Switzerland",
+          "France"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which country is Team Lotus based?",
+        "o": [
+          "France",
+          "United Kingdom",
+          "Italy",
+          "Germany"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which country is Brabham based?",
+        "o": [
+          "Germany",
+          "Switzerland",
+          "United Kingdom",
+          "France"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which country is Matra based?",
+        "o": [
+          "Germany",
+          "Switzerland",
+          "United Kingdom",
+          "France"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In which country is Tyrrell based?",
+        "o": [
+          "United Kingdom",
+          "Italy",
+          "Germany",
+          "Switzerland"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which country is Maserati based?",
+        "o": [
+          "France",
+          "Italy",
+          "Germany",
+          "Switzerland"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which country is Alfa Romeo based?",
+        "o": [
+          "Germany",
+          "Switzerland",
+          "Italy",
+          "United Kingdom"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which country is Gordini based?",
+        "o": [
+          "Italy",
+          "Germany",
+          "Switzerland",
+          "France"
+        ],
+        "a": 3
+      }
+    ]
+  }
+}

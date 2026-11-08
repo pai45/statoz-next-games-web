@@ -1,0 +1,5017 @@
+{
+  "sport": "basketball",
+  "mode": "easy",
+  "version": 1,
+  "bands": {
+    "1": [
+      {
+        "p": "In basketball, what does “field goal” mean?",
+        "o": [
+          "a basket during live play",
+          "a quick attack before defense sets",
+          "screen then move toward the rim",
+          "air pass finished at the rim"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which home market is represented by the Atlanta Dream?",
+        "o": [
+          "Portland",
+          "Atlanta",
+          "Seattle",
+          "Toronto"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Under the FIBA shot clock, what is the correct value?",
+        "o": [
+          "5 fouls",
+          "3.05 metres",
+          "24 seconds",
+          "8 seconds"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which national team did Sue Bird represent?",
+        "o": [
+          "Poland",
+          "Spain",
+          "Australia",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2025 NCAA men’s tournament?",
+        "o": [
+          "Florida",
+          "Kansas",
+          "Baylor",
+          "UConn"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2025 NCAA women’s tournament?",
+        "o": [
+          "LSU",
+          "UConn",
+          "Stanford",
+          "South Carolina"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country is home to Real Madrid?",
+        "o": [
+          "Israel",
+          "Italy",
+          "Spain",
+          "Monaco"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In basketball, what does “free throw” mean?",
+        "o": [
+          "the lane area near the basket",
+          "a shot released before time ends",
+          "illegal return into the backcourt",
+          "an uncontested one-point shot"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which home market is represented by the Chicago Sky?",
+        "o": [
+          "Chicago",
+          "Portland",
+          "Seattle",
+          "Toronto"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Under one FIBA quarter, what is the correct value?",
+        "o": [
+          "6.75 metres",
+          "10 minutes",
+          "24 seconds",
+          "5 minutes"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Sue Bird played international basketball for which country?",
+        "o": [
+          "Australia",
+          "Brazil",
+          "United States",
+          "Poland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2025 NCAA men’s tournament?",
+        "o": [
+          "Baylor",
+          "UConn",
+          "Kansas",
+          "Florida"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country is home to FC Barcelona?",
+        "o": [
+          "Spain",
+          "Türkiye",
+          "Israel",
+          "Italy"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In basketball, what does “three-pointer” mean?",
+        "o": [
+          "unnecessary excessive contact",
+          "a shot beyond the three arc",
+          "a toss that starts live play",
+          "a quick attack before defense sets"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which home market is represented by the Connecticut Sun?",
+        "o": [
+          "Minnesota",
+          "New York",
+          "Connecticut",
+          "Phoenix"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which value is set by the FIBA shot clock?",
+        "o": [
+          "1.30 metres",
+          "15 minutes",
+          "6.75 metres",
+          "24 seconds"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 2025 NCAA men’s tournament.",
+        "o": [
+          "Florida",
+          "Baylor",
+          "UConn",
+          "Kansas"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Real Madrid is a basketball club from which country?",
+        "o": [
+          "Greece",
+          "Spain",
+          "Türkiye",
+          "Israel"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In basketball, what does “assist” mean?",
+        "o": [
+          "the lane area near the basket",
+          "a shot released before time ends",
+          "a pass directly creating a basket",
+          "illegal return into the backcourt"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The Atlanta Dream represent which market?",
+        "o": [
+          "Portland",
+          "Seattle",
+          "Toronto",
+          "Atlanta"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which value is set by one FIBA quarter?",
+        "o": [
+          "10 minutes",
+          "6.75 metres",
+          "24 seconds",
+          "5 minutes"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which side lifted the trophy at the 2025 NCAA men’s tournament?",
+        "o": [
+          "Baylor",
+          "Florida",
+          "UConn",
+          "Kansas"
+        ],
+        "a": 1
+      },
+      {
+        "p": "FC Barcelona is a basketball club from which country?",
+        "o": [
+          "Italy",
+          "Monaco",
+          "Spain",
+          "Greece"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In basketball, what does “rebound” mean?",
+        "o": [
+          "illegal contact with a shot",
+          "illegal contact by a player",
+          "penalty for non-contact behavior",
+          "gaining possession after a miss"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Chicago Sky represent which market?",
+        "o": [
+          "Chicago",
+          "Toronto",
+          "Washington",
+          "Atlanta"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What value applies to the FIBA shot clock?",
+        "o": [
+          "8 seconds",
+          "24 seconds",
+          "1.30 metres",
+          "15 minutes"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the country represented by Real Madrid.",
+        "o": [
+          "Italy",
+          "Monaco",
+          "Spain",
+          "Greece"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which home market is represented by the Atlanta Hawks?",
+        "o": [
+          "San Francisco",
+          "Houston",
+          "Indianapolis",
+          "Atlanta"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Connecticut Sun represent which market?",
+        "o": [
+          "Connecticut",
+          "Washington",
+          "Atlanta",
+          "Chicago"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What value applies to one FIBA quarter?",
+        "o": [
+          "5 fouls",
+          "10 minutes",
+          "3.05 metres",
+          "8 seconds"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which home market is represented by the Boston Celtics?",
+        "o": [
+          "Orlando",
+          "Philadelphia",
+          "Boston",
+          "Phoenix"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which city or region is home to the Atlanta Dream?",
+        "o": [
+          "Washington",
+          "Chicago",
+          "Connecticut",
+          "Atlanta"
+        ],
+        "a": 3
+      },
+      {
+        "p": "the FIBA shot clock uses which official value?",
+        "o": [
+          "24 seconds",
+          "6.75 metres",
+          "10 minutes",
+          "5 minutes"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which home market is represented by the Brooklyn Nets?",
+        "o": [
+          "New Orleans",
+          "Brooklyn",
+          "New York",
+          "Oklahoma City"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which city or region is home to the Chicago Sky?",
+        "o": [
+          "Seattle",
+          "Toronto",
+          "Chicago",
+          "Washington"
+        ],
+        "a": 2
+      },
+      {
+        "p": "one FIBA quarter uses which official value?",
+        "o": [
+          "5 minutes",
+          "5 players",
+          "5 fouls",
+          "10 minutes"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which home market is represented by the Charlotte Hornets?",
+        "o": [
+          "Charlotte",
+          "Washington, D.C.",
+          "Atlanta",
+          "Boston"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which city or region is home to the Connecticut Sun?",
+        "o": [
+          "Atlanta",
+          "Connecticut",
+          "Chicago",
+          "Dallas"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which home market is represented by the Chicago Bulls?",
+        "o": [
+          "Philadelphia",
+          "Phoenix",
+          "Chicago",
+          "Portland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the home market of the Atlanta Dream.",
+        "o": [
+          "Portland",
+          "Seattle",
+          "Toronto",
+          "Atlanta"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which home market is represented by the Cleveland Cavaliers?",
+        "o": [
+          "Cleveland",
+          "Memphis",
+          "Miami",
+          "Milwaukee"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which definition matches “field goal” in basketball?",
+        "o": [
+          "illegal return into the backcourt",
+          "a basket during live play",
+          "arc beneath the basket",
+          "an uncontested one-point shot"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which definition matches “free throw” in basketball?",
+        "o": [
+          "losing possession to the opponent",
+          "double figures in two stats",
+          "an uncontested one-point shot",
+          "double figures in three stats"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which definition matches “three-pointer” in basketball?",
+        "o": [
+          "double figures in three stats",
+          "timer limiting a possession",
+          "illegal movement without dribbling",
+          "a shot beyond the three arc"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which definition matches “assist” in basketball?",
+        "o": [
+          "a pass directly creating a basket",
+          "illegal movement without dribbling",
+          "illegal contact with a shot",
+          "illegal contact by a player"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which definition matches “rebound” in basketball?",
+        "o": [
+          "an uncontested one-point shot",
+          "gaining possession after a miss",
+          "a shot beyond the three arc",
+          "a pass directly creating a basket"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The Atlanta Hawks represent which market?",
+        "o": [
+          "Denver",
+          "Detroit",
+          "Atlanta",
+          "San Francisco"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The Boston Celtics represent which market?",
+        "o": [
+          "Dallas",
+          "Denver",
+          "Detroit",
+          "Boston"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Brooklyn Nets represent which market?",
+        "o": [
+          "Brooklyn",
+          "Charlotte",
+          "Chicago",
+          "Cleveland"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The Charlotte Hornets represent which market?",
+        "o": [
+          "Dallas",
+          "Charlotte",
+          "Denver",
+          "Detroit"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The Chicago Bulls represent which market?",
+        "o": [
+          "Milwaukee",
+          "Minneapolis",
+          "Chicago",
+          "New Orleans"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The Cleveland Cavaliers represent which market?",
+        "o": [
+          "Salt Lake City",
+          "Washington, D.C.",
+          "Atlanta",
+          "Cleveland"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What is the basketball meaning of “field goal”?",
+        "o": [
+          "a basket during live play",
+          "double figures in two stats",
+          "double figures in three stats",
+          "timer limiting a possession"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What is the basketball meaning of “free throw”?",
+        "o": [
+          "gaining possession after a miss",
+          "an uncontested one-point shot",
+          "taking the ball from an opponent",
+          "deflecting an attempted shot"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What is the basketball meaning of “three-pointer”?",
+        "o": [
+          "a toss that starts live play",
+          "a quick attack before defense sets",
+          "a shot beyond the three arc",
+          "screen then move toward the rim"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What is the basketball meaning of “assist”?",
+        "o": [
+          "illegal contact with a shot",
+          "illegal contact by a player",
+          "penalty for non-contact behavior",
+          "a pass directly creating a basket"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What is the basketball meaning of “rebound”?",
+        "o": [
+          "gaining possession after a miss",
+          "unnecessary excessive contact",
+          "a toss that starts live play",
+          "a quick attack before defense sets"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which city or region is home to the Atlanta Hawks?",
+        "o": [
+          "Los Angeles",
+          "Atlanta",
+          "Memphis",
+          "Miami"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which city or region is home to the Boston Celtics?",
+        "o": [
+          "Memphis",
+          "Miami",
+          "Boston",
+          "Milwaukee"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which city or region is home to the Brooklyn Nets?",
+        "o": [
+          "Phoenix",
+          "Portland",
+          "Sacramento",
+          "Brooklyn"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which city or region is home to the Charlotte Hornets?",
+        "o": [
+          "Charlotte",
+          "Philadelphia",
+          "Phoenix",
+          "Portland"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which city or region is home to the Chicago Bulls?",
+        "o": [
+          "Sacramento",
+          "Chicago",
+          "San Antonio",
+          "Toronto"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which city or region is home to the Cleveland Cavaliers?",
+        "o": [
+          "Charlotte",
+          "Chicago",
+          "Cleveland",
+          "Dallas"
+        ],
+        "a": 2
+      },
+      {
+        "p": "On a basketball court, “field goal” describes what?",
+        "o": [
+          "the lane area near the basket",
+          "a shot released before time ends",
+          "illegal return into the backcourt",
+          "a basket during live play"
+        ],
+        "a": 3
+      },
+      {
+        "p": "On a basketball court, “free throw” describes what?",
+        "o": [
+          "an uncontested one-point shot",
+          "a quick attack before defense sets",
+          "screen then move toward the rim",
+          "air pass finished at the rim"
+        ],
+        "a": 0
+      },
+      {
+        "p": "On a basketball court, “three-pointer” describes what?",
+        "o": [
+          "illegal movement without dribbling",
+          "a shot beyond the three arc",
+          "illegal contact with a shot",
+          "illegal contact by a player"
+        ],
+        "a": 1
+      },
+      {
+        "p": "On a basketball court, “assist” describes what?",
+        "o": [
+          "double figures in three stats",
+          "timer limiting a possession",
+          "a pass directly creating a basket",
+          "illegal movement without dribbling"
+        ],
+        "a": 2
+      },
+      {
+        "p": "On a basketball court, “rebound” describes what?",
+        "o": [
+          "a toss that starts live play",
+          "a quick attack before defense sets",
+          "screen then move toward the rim",
+          "gaining possession after a miss"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the home market of the Atlanta Hawks.",
+        "o": [
+          "Atlanta",
+          "Philadelphia",
+          "Phoenix",
+          "Portland"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the home market of the Boston Celtics.",
+        "o": [
+          "Minneapolis",
+          "Boston",
+          "New Orleans",
+          "New York"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the home market of the Brooklyn Nets.",
+        "o": [
+          "Memphis",
+          "Miami",
+          "Brooklyn",
+          "Milwaukee"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the home market of the Charlotte Hornets.",
+        "o": [
+          "Orlando",
+          "Philadelphia",
+          "Phoenix",
+          "Charlotte"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the home market of the Chicago Bulls.",
+        "o": [
+          "Chicago",
+          "Philadelphia",
+          "Phoenix",
+          "Portland"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the home market of the Cleveland Cavaliers.",
+        "o": [
+          "Memphis",
+          "Cleveland",
+          "Miami",
+          "Milwaukee"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Choose the correct meaning of “field goal”.",
+        "o": [
+          "a shot released before time ends",
+          "illegal return into the backcourt",
+          "a basket during live play",
+          "arc beneath the basket"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Choose the correct meaning of “free throw”.",
+        "o": [
+          "deflecting an attempted shot",
+          "losing possession to the opponent",
+          "double figures in two stats",
+          "an uncontested one-point shot"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Choose the correct meaning of “three-pointer”.",
+        "o": [
+          "a shot beyond the three arc",
+          "screen then move toward the rim",
+          "air pass finished at the rim",
+          "a key reserve off the bench"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Choose the correct meaning of “assist”.",
+        "o": [
+          "timer limiting a possession",
+          "a pass directly creating a basket",
+          "illegal movement without dribbling",
+          "illegal contact with a shot"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Choose the correct meaning of “rebound”.",
+        "o": [
+          "taking the ball from an opponent",
+          "deflecting an attempted shot",
+          "gaining possession after a miss",
+          "losing possession to the opponent"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Where are the Atlanta Hawks based?",
+        "o": [
+          "New York",
+          "Oklahoma City",
+          "Orlando",
+          "Atlanta"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Where are the Boston Celtics based?",
+        "o": [
+          "Boston",
+          "Indianapolis",
+          "Los Angeles",
+          "Memphis"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Where are the Brooklyn Nets based?",
+        "o": [
+          "Detroit",
+          "Brooklyn",
+          "San Francisco",
+          "Houston"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Where are the Charlotte Hornets based?",
+        "o": [
+          "Milwaukee",
+          "Minneapolis",
+          "Charlotte",
+          "New Orleans"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Where are the Chicago Bulls based?",
+        "o": [
+          "Toronto",
+          "Salt Lake City",
+          "Washington, D.C.",
+          "Chicago"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Where are the Cleveland Cavaliers based?",
+        "o": [
+          "Cleveland",
+          "Miami",
+          "Milwaukee",
+          "Minneapolis"
+        ],
+        "a": 0
+      },
+      {
+        "p": "How is “field goal” defined in basketball?",
+        "o": [
+          "illegal movement without dribbling",
+          "a basket during live play",
+          "illegal contact with a shot",
+          "illegal contact by a player"
+        ],
+        "a": 1
+      },
+      {
+        "p": "How is “free throw” defined in basketball?",
+        "o": [
+          "air pass finished at the rim",
+          "a key reserve off the bench",
+          "an uncontested one-point shot",
+          "the lane area near the basket"
+        ],
+        "a": 2
+      },
+      {
+        "p": "How is “three-pointer” defined in basketball?",
+        "o": [
+          "illegal contact by a player",
+          "penalty for non-contact behavior",
+          "unnecessary excessive contact",
+          "a shot beyond the three arc"
+        ],
+        "a": 3
+      },
+      {
+        "p": "How is “assist” defined in basketball?",
+        "o": [
+          "a pass directly creating a basket",
+          "losing possession to the opponent",
+          "double figures in two stats",
+          "double figures in three stats"
+        ],
+        "a": 0
+      },
+      {
+        "p": "How is “rebound” defined in basketball?",
+        "o": [
+          "penalty for non-contact behavior",
+          "gaining possession after a miss",
+          "unnecessary excessive contact",
+          "a toss that starts live play"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The Atlanta Hawks play for which home market?",
+        "o": [
+          "Charlotte",
+          "Chicago",
+          "Atlanta",
+          "Cleveland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The Boston Celtics play for which home market?",
+        "o": [
+          "New York",
+          "Oklahoma City",
+          "Orlando",
+          "Boston"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Brooklyn Nets play for which home market?",
+        "o": [
+          "Brooklyn",
+          "Milwaukee",
+          "Minneapolis",
+          "New Orleans"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The Charlotte Hornets play for which home market?",
+        "o": [
+          "Boston",
+          "Charlotte",
+          "Brooklyn",
+          "Chicago"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The Chicago Bulls play for which home market?",
+        "o": [
+          "Denver",
+          "Detroit",
+          "Chicago",
+          "San Francisco"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The Cleveland Cavaliers play for which home market?",
+        "o": [
+          "Milwaukee",
+          "Minneapolis",
+          "New Orleans",
+          "Cleveland"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What does a coach mean by “field goal”?",
+        "o": [
+          "a basket during live play",
+          "a key reserve off the bench",
+          "the lane area near the basket",
+          "a shot released before time ends"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What does a coach mean by “free throw”?",
+        "o": [
+          "a toss that starts live play",
+          "an uncontested one-point shot",
+          "a quick attack before defense sets",
+          "screen then move toward the rim"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What does a coach mean by “three-pointer”?",
+        "o": [
+          "illegal contact with a shot",
+          "illegal contact by a player",
+          "a shot beyond the three arc",
+          "penalty for non-contact behavior"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What does a coach mean by “assist”?",
+        "o": [
+          "arc beneath the basket",
+          "a basket during live play",
+          "an uncontested one-point shot",
+          "a pass directly creating a basket"
+        ],
+        "a": 3
+      }
+    ],
+    "2": [
+      {
+        "p": "In basketball, what does “steal” mean?",
+        "o": [
+          "taking the ball from an opponent",
+          "a shot beyond the three arc",
+          "a pass directly creating a basket",
+          "gaining possession after a miss"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which home market is represented by the Dallas Wings?",
+        "o": [
+          "Washington",
+          "Dallas",
+          "Atlanta",
+          "Chicago"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Under FIBA overtime, what is the correct value?",
+        "o": [
+          "3.05 metres",
+          "8 seconds",
+          "5 minutes",
+          "1.30 metres"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which national team did Lauren Jackson represent?",
+        "o": [
+          "Poland",
+          "Spain",
+          "United States",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2024 NCAA men’s tournament?",
+        "o": [
+          "UConn",
+          "Florida",
+          "Kansas",
+          "Baylor"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2024 NCAA women’s tournament?",
+        "o": [
+          "Stanford",
+          "South Carolina",
+          "UConn",
+          "LSU"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country is home to Panathinaikos?",
+        "o": [
+          "Spain",
+          "Türkiye",
+          "Greece",
+          "Israel"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In basketball, what does “blocked shot” mean?",
+        "o": [
+          "the lane area near the basket",
+          "a shot released before time ends",
+          "illegal return into the backcourt",
+          "deflecting an attempted shot"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which home market is represented by the Golden State Valkyries?",
+        "o": [
+          "Golden State",
+          "Phoenix",
+          "Portland",
+          "Seattle"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Under players on court per FIBA team, what is the correct value?",
+        "o": [
+          "15 minutes",
+          "5 players",
+          "6.75 metres",
+          "24 seconds"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Lauren Jackson played international basketball for which country?",
+        "o": [
+          "United States",
+          "Brazil",
+          "Australia",
+          "Poland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2024 NCAA men’s tournament?",
+        "o": [
+          "Florida",
+          "Kansas",
+          "Baylor",
+          "UConn"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country is home to Olympiacos?",
+        "o": [
+          "Greece",
+          "Monaco",
+          "Spain",
+          "Türkiye"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In basketball, what does “turnover” mean?",
+        "o": [
+          "gaining possession after a miss",
+          "losing possession to the opponent",
+          "taking the ball from an opponent",
+          "deflecting an attempted shot"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which home market is represented by the Indiana Fever?",
+        "o": [
+          "Minnesota",
+          "New York",
+          "Indiana",
+          "Phoenix"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which value is set by FIBA overtime?",
+        "o": [
+          "1.30 metres",
+          "15 minutes",
+          "6.75 metres",
+          "5 minutes"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 2024 NCAA men’s tournament.",
+        "o": [
+          "UConn",
+          "Baylor",
+          "Florida",
+          "Kansas"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Panathinaikos is a basketball club from which country?",
+        "o": [
+          "Türkiye",
+          "Greece",
+          "Israel",
+          "Italy"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In basketball, what does “double-double” mean?",
+        "o": [
+          "penalty for non-contact behavior",
+          "unnecessary excessive contact",
+          "double figures in two stats",
+          "a toss that starts live play"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The Dallas Wings represent which market?",
+        "o": [
+          "Phoenix",
+          "Portland",
+          "Seattle",
+          "Dallas"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which value is set by players on court per FIBA team?",
+        "o": [
+          "5 players",
+          "3.05 metres",
+          "8 seconds",
+          "1.30 metres"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which side lifted the trophy at the 2024 NCAA men’s tournament?",
+        "o": [
+          "Kansas",
+          "UConn",
+          "Baylor",
+          "Florida"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Olympiacos is a basketball club from which country?",
+        "o": [
+          "Türkiye",
+          "Israel",
+          "Greece",
+          "Italy"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In basketball, what does “triple-double” mean?",
+        "o": [
+          "illegal contact by a player",
+          "penalty for non-contact behavior",
+          "unnecessary excessive contact",
+          "double figures in three stats"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Golden State Valkyries represent which market?",
+        "o": [
+          "Golden State",
+          "Washington",
+          "Atlanta",
+          "Chicago"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What value applies to FIBA overtime?",
+        "o": [
+          "6.75 metres",
+          "5 minutes",
+          "24 seconds",
+          "10 minutes"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the country represented by Panathinaikos.",
+        "o": [
+          "Monaco",
+          "Spain",
+          "Greece",
+          "Türkiye"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which home market is represented by the Dallas Mavericks?",
+        "o": [
+          "Charlotte",
+          "Chicago",
+          "Cleveland",
+          "Dallas"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Indiana Fever represent which market?",
+        "o": [
+          "Indiana",
+          "Chicago",
+          "Connecticut",
+          "Dallas"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What value applies to players on court per FIBA team?",
+        "o": [
+          "8 seconds",
+          "5 players",
+          "1.30 metres",
+          "15 minutes"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which home market is represented by the Denver Nuggets?",
+        "o": [
+          "Minneapolis",
+          "New Orleans",
+          "Denver",
+          "New York"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which city or region is home to the Dallas Wings?",
+        "o": [
+          "Los Angeles",
+          "Minnesota",
+          "New York",
+          "Dallas"
+        ],
+        "a": 3
+      },
+      {
+        "p": "FIBA overtime uses which official value?",
+        "o": [
+          "5 minutes",
+          "1.30 metres",
+          "15 minutes",
+          "6.75 metres"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which home market is represented by the Detroit Pistons?",
+        "o": [
+          "San Francisco",
+          "Detroit",
+          "Houston",
+          "Indianapolis"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which city or region is home to the Golden State Valkyries?",
+        "o": [
+          "Portland",
+          "Seattle",
+          "Golden State",
+          "Toronto"
+        ],
+        "a": 2
+      },
+      {
+        "p": "players on court per FIBA team uses which official value?",
+        "o": [
+          "10 minutes",
+          "5 minutes",
+          "5 fouls",
+          "5 players"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which home market is represented by the Golden State Warriors?",
+        "o": [
+          "San Francisco",
+          "Houston",
+          "Indianapolis",
+          "Los Angeles"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which city or region is home to the Indiana Fever?",
+        "o": [
+          "Portland",
+          "Indiana",
+          "Seattle",
+          "Toronto"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which home market is represented by the Houston Rockets?",
+        "o": [
+          "Minneapolis",
+          "New Orleans",
+          "Houston",
+          "New York"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the home market of the Dallas Wings.",
+        "o": [
+          "Golden State",
+          "Indiana",
+          "Las Vegas",
+          "Dallas"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which home market is represented by the Indiana Pacers?",
+        "o": [
+          "Indianapolis",
+          "Orlando",
+          "Philadelphia",
+          "Phoenix"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which definition matches “steal” in basketball?",
+        "o": [
+          "illegal contact by a player",
+          "taking the ball from an opponent",
+          "penalty for non-contact behavior",
+          "unnecessary excessive contact"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which definition matches “blocked shot” in basketball?",
+        "o": [
+          "a shot beyond the three arc",
+          "a pass directly creating a basket",
+          "deflecting an attempted shot",
+          "gaining possession after a miss"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which definition matches “turnover” in basketball?",
+        "o": [
+          "illegal return into the backcourt",
+          "arc beneath the basket",
+          "a basket during live play",
+          "losing possession to the opponent"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which definition matches “double-double” in basketball?",
+        "o": [
+          "double figures in two stats",
+          "a key reserve off the bench",
+          "the lane area near the basket",
+          "a shot released before time ends"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which definition matches “triple-double” in basketball?",
+        "o": [
+          "air pass finished at the rim",
+          "double figures in three stats",
+          "a key reserve off the bench",
+          "the lane area near the basket"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The Dallas Mavericks represent which market?",
+        "o": [
+          "Miami",
+          "Milwaukee",
+          "Dallas",
+          "Minneapolis"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The Denver Nuggets represent which market?",
+        "o": [
+          "Boston",
+          "Brooklyn",
+          "Charlotte",
+          "Denver"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Detroit Pistons represent which market?",
+        "o": [
+          "Detroit",
+          "Milwaukee",
+          "Minneapolis",
+          "New Orleans"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The Golden State Warriors represent which market?",
+        "o": [
+          "Denver",
+          "San Francisco",
+          "Detroit",
+          "Houston"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The Houston Rockets represent which market?",
+        "o": [
+          "Toronto",
+          "Salt Lake City",
+          "Houston",
+          "Washington, D.C."
+        ],
+        "a": 2
+      },
+      {
+        "p": "The Indiana Pacers represent which market?",
+        "o": [
+          "Cleveland",
+          "Dallas",
+          "Denver",
+          "Indianapolis"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What is the basketball meaning of “steal”?",
+        "o": [
+          "taking the ball from an opponent",
+          "timer limiting a possession",
+          "illegal movement without dribbling",
+          "illegal contact with a shot"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What is the basketball meaning of “blocked shot”?",
+        "o": [
+          "taking the ball from an opponent",
+          "deflecting an attempted shot",
+          "losing possession to the opponent",
+          "double figures in two stats"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What is the basketball meaning of “turnover”?",
+        "o": [
+          "a toss that starts live play",
+          "a quick attack before defense sets",
+          "losing possession to the opponent",
+          "screen then move toward the rim"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What is the basketball meaning of “double-double”?",
+        "o": [
+          "double figures in three stats",
+          "timer limiting a possession",
+          "illegal movement without dribbling",
+          "double figures in two stats"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What is the basketball meaning of “triple-double”?",
+        "o": [
+          "double figures in three stats",
+          "timer limiting a possession",
+          "illegal movement without dribbling",
+          "illegal contact with a shot"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which city or region is home to the Dallas Mavericks?",
+        "o": [
+          "San Francisco",
+          "Dallas",
+          "Houston",
+          "Indianapolis"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which city or region is home to the Denver Nuggets?",
+        "o": [
+          "New Orleans",
+          "New York",
+          "Denver",
+          "Oklahoma City"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which city or region is home to the Detroit Pistons?",
+        "o": [
+          "Sacramento",
+          "San Antonio",
+          "Toronto",
+          "Detroit"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which city or region is home to the Golden State Warriors?",
+        "o": [
+          "San Francisco",
+          "Dallas",
+          "Denver",
+          "Detroit"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which city or region is home to the Houston Rockets?",
+        "o": [
+          "Atlanta",
+          "Houston",
+          "Boston",
+          "Brooklyn"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which city or region is home to the Indiana Pacers?",
+        "o": [
+          "New Orleans",
+          "New York",
+          "Indianapolis",
+          "Oklahoma City"
+        ],
+        "a": 2
+      },
+      {
+        "p": "On a basketball court, “steal” describes what?",
+        "o": [
+          "unnecessary excessive contact",
+          "a toss that starts live play",
+          "a quick attack before defense sets",
+          "taking the ball from an opponent"
+        ],
+        "a": 3
+      },
+      {
+        "p": "On a basketball court, “blocked shot” describes what?",
+        "o": [
+          "deflecting an attempted shot",
+          "a basket during live play",
+          "an uncontested one-point shot",
+          "a shot beyond the three arc"
+        ],
+        "a": 0
+      },
+      {
+        "p": "On a basketball court, “turnover” describes what?",
+        "o": [
+          "double figures in three stats",
+          "losing possession to the opponent",
+          "timer limiting a possession",
+          "illegal movement without dribbling"
+        ],
+        "a": 1
+      },
+      {
+        "p": "On a basketball court, “double-double” describes what?",
+        "o": [
+          "timer limiting a possession",
+          "illegal movement without dribbling",
+          "double figures in two stats",
+          "illegal contact with a shot"
+        ],
+        "a": 2
+      },
+      {
+        "p": "On a basketball court, “triple-double” describes what?",
+        "o": [
+          "double figures in two stats",
+          "timer limiting a possession",
+          "illegal movement without dribbling",
+          "double figures in three stats"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the home market of the Dallas Mavericks.",
+        "o": [
+          "Dallas",
+          "Sacramento",
+          "San Antonio",
+          "Toronto"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the home market of the Denver Nuggets.",
+        "o": [
+          "Washington, D.C.",
+          "Denver",
+          "Atlanta",
+          "Boston"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the home market of the Detroit Pistons.",
+        "o": [
+          "New Orleans",
+          "New York",
+          "Detroit",
+          "Oklahoma City"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the home market of the Golden State Warriors.",
+        "o": [
+          "Toronto",
+          "Salt Lake City",
+          "Washington, D.C.",
+          "San Francisco"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the home market of the Houston Rockets.",
+        "o": [
+          "Houston",
+          "Sacramento",
+          "San Antonio",
+          "Toronto"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the home market of the Indiana Pacers.",
+        "o": [
+          "Minneapolis",
+          "Indianapolis",
+          "New Orleans",
+          "New York"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Choose the correct meaning of “steal”.",
+        "o": [
+          "a pass directly creating a basket",
+          "gaining possession after a miss",
+          "taking the ball from an opponent",
+          "deflecting an attempted shot"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Choose the correct meaning of “blocked shot”.",
+        "o": [
+          "a key reserve off the bench",
+          "the lane area near the basket",
+          "a shot released before time ends",
+          "deflecting an attempted shot"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Choose the correct meaning of “turnover”.",
+        "o": [
+          "losing possession to the opponent",
+          "screen then move toward the rim",
+          "air pass finished at the rim",
+          "a key reserve off the bench"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Choose the correct meaning of “double-double”.",
+        "o": [
+          "deflecting an attempted shot",
+          "double figures in two stats",
+          "losing possession to the opponent",
+          "double figures in three stats"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Choose the correct meaning of “triple-double”.",
+        "o": [
+          "losing possession to the opponent",
+          "double figures in two stats",
+          "double figures in three stats",
+          "timer limiting a possession"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Where are the Dallas Mavericks based?",
+        "o": [
+          "Milwaukee",
+          "Minneapolis",
+          "New Orleans",
+          "Dallas"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Where are the Denver Nuggets based?",
+        "o": [
+          "Denver",
+          "Dallas",
+          "Detroit",
+          "San Francisco"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Where are the Detroit Pistons based?",
+        "o": [
+          "Boston",
+          "Detroit",
+          "Brooklyn",
+          "Charlotte"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Where are the Golden State Warriors based?",
+        "o": [
+          "Atlanta",
+          "Boston",
+          "San Francisco",
+          "Brooklyn"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Where are the Houston Rockets based?",
+        "o": [
+          "Portland",
+          "Sacramento",
+          "San Antonio",
+          "Houston"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Where are the Indiana Pacers based?",
+        "o": [
+          "Indianapolis",
+          "Salt Lake City",
+          "Washington, D.C.",
+          "Atlanta"
+        ],
+        "a": 0
+      },
+      {
+        "p": "How is “steal” defined in basketball?",
+        "o": [
+          "a basket during live play",
+          "taking the ball from an opponent",
+          "an uncontested one-point shot",
+          "a shot beyond the three arc"
+        ],
+        "a": 1
+      },
+      {
+        "p": "How is “blocked shot” defined in basketball?",
+        "o": [
+          "losing possession to the opponent",
+          "double figures in two stats",
+          "deflecting an attempted shot",
+          "double figures in three stats"
+        ],
+        "a": 2
+      },
+      {
+        "p": "How is “turnover” defined in basketball?",
+        "o": [
+          "a shot beyond the three arc",
+          "a pass directly creating a basket",
+          "gaining possession after a miss",
+          "losing possession to the opponent"
+        ],
+        "a": 3
+      },
+      {
+        "p": "How is “double-double” defined in basketball?",
+        "o": [
+          "double figures in two stats",
+          "a toss that starts live play",
+          "a quick attack before defense sets",
+          "screen then move toward the rim"
+        ],
+        "a": 0
+      },
+      {
+        "p": "How is “triple-double” defined in basketball?",
+        "o": [
+          "unnecessary excessive contact",
+          "double figures in three stats",
+          "a toss that starts live play",
+          "a quick attack before defense sets"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The Dallas Mavericks play for which home market?",
+        "o": [
+          "Phoenix",
+          "Portland",
+          "Dallas",
+          "Sacramento"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The Denver Nuggets play for which home market?",
+        "o": [
+          "Toronto",
+          "Salt Lake City",
+          "Washington, D.C.",
+          "Denver"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Detroit Pistons play for which home market?",
+        "o": [
+          "Detroit",
+          "Dallas",
+          "Denver",
+          "San Francisco"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The Golden State Warriors play for which home market?",
+        "o": [
+          "Denver",
+          "San Francisco",
+          "Detroit",
+          "Houston"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The Houston Rockets play for which home market?",
+        "o": [
+          "New York",
+          "Oklahoma City",
+          "Houston",
+          "Orlando"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The Indiana Pacers play for which home market?",
+        "o": [
+          "Toronto",
+          "Salt Lake City",
+          "Washington, D.C.",
+          "Indianapolis"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What does a coach mean by “steal”?",
+        "o": [
+          "taking the ball from an opponent",
+          "penalty for non-contact behavior",
+          "unnecessary excessive contact",
+          "a toss that starts live play"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What does a coach mean by “blocked shot”?",
+        "o": [
+          "screen then move toward the rim",
+          "deflecting an attempted shot",
+          "air pass finished at the rim",
+          "a key reserve off the bench"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What does a coach mean by “turnover”?",
+        "o": [
+          "a key reserve off the bench",
+          "the lane area near the basket",
+          "losing possession to the opponent",
+          "a shot released before time ends"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What does a coach mean by “double-double”?",
+        "o": [
+          "the lane area near the basket",
+          "a shot released before time ends",
+          "illegal return into the backcourt",
+          "double figures in two stats"
+        ],
+        "a": 3
+      }
+    ],
+    "3": [
+      {
+        "p": "In basketball, what does “shot clock” mean?",
+        "o": [
+          "timer limiting a possession",
+          "a pass directly creating a basket",
+          "gaining possession after a miss",
+          "taking the ball from an opponent"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which home market is represented by the Las Vegas Aces?",
+        "o": [
+          "Chicago",
+          "Las Vegas",
+          "Connecticut",
+          "Dallas"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Under personal fouls before fouling out, what is the correct value?",
+        "o": [
+          "5 players",
+          "3.05 metres",
+          "5 fouls",
+          "8 seconds"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which national team did Hortencia Marcari represent?",
+        "o": [
+          "Poland",
+          "Spain",
+          "United States",
+          "Brazil"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2023 NCAA men’s tournament?",
+        "o": [
+          "UConn",
+          "Florida",
+          "Kansas",
+          "Baylor"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2023 NCAA women’s tournament?",
+        "o": [
+          "South Carolina",
+          "LSU",
+          "Stanford",
+          "UConn"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country is home to Fenerbahce?",
+        "o": [
+          "Monaco",
+          "Spain",
+          "Türkiye",
+          "Greece"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In basketball, what does “traveling” mean?",
+        "o": [
+          "losing possession to the opponent",
+          "double figures in two stats",
+          "double figures in three stats",
+          "illegal movement without dribbling"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which home market is represented by the Los Angeles Sparks?",
+        "o": [
+          "Los Angeles",
+          "Phoenix",
+          "Portland",
+          "Seattle"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Under the standard basket height, what is the correct value?",
+        "o": [
+          "8 seconds",
+          "3.05 metres",
+          "1.30 metres",
+          "15 minutes"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Hortencia Marcari played international basketball for which country?",
+        "o": [
+          "United States",
+          "Australia",
+          "Brazil",
+          "Poland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2023 NCAA men’s tournament?",
+        "o": [
+          "Kansas",
+          "Baylor",
+          "Florida",
+          "UConn"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country is home to Anadolu Efes?",
+        "o": [
+          "Türkiye",
+          "Italy",
+          "Monaco",
+          "Spain"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In basketball, what does “goaltending” mean?",
+        "o": [
+          "losing possession to the opponent",
+          "illegal contact with a shot",
+          "double figures in two stats",
+          "double figures in three stats"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which home market is represented by the Minnesota Lynx?",
+        "o": [
+          "Atlanta",
+          "Chicago",
+          "Minnesota",
+          "Connecticut"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which value is set by personal fouls before fouling out?",
+        "o": [
+          "24 seconds",
+          "10 minutes",
+          "5 minutes",
+          "5 fouls"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 2023 NCAA men’s tournament.",
+        "o": [
+          "UConn",
+          "Kansas",
+          "Baylor",
+          "Florida"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Fenerbahce is a basketball club from which country?",
+        "o": [
+          "Spain",
+          "Türkiye",
+          "Greece",
+          "Israel"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In basketball, what does “personal foul” mean?",
+        "o": [
+          "illegal return into the backcourt",
+          "arc beneath the basket",
+          "illegal contact by a player",
+          "a basket during live play"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The Las Vegas Aces represent which market?",
+        "o": [
+          "Chicago",
+          "Connecticut",
+          "Dallas",
+          "Las Vegas"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which value is set by the standard basket height?",
+        "o": [
+          "3.05 metres",
+          "8 seconds",
+          "1.30 metres",
+          "15 minutes"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which side lifted the trophy at the 2023 NCAA men’s tournament?",
+        "o": [
+          "Florida",
+          "UConn",
+          "Kansas",
+          "Baylor"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Anadolu Efes is a basketball club from which country?",
+        "o": [
+          "Greece",
+          "Israel",
+          "Türkiye",
+          "Italy"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In basketball, what does “technical foul” mean?",
+        "o": [
+          "double figures in three stats",
+          "timer limiting a possession",
+          "illegal movement without dribbling",
+          "penalty for non-contact behavior"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Los Angeles Sparks represent which market?",
+        "o": [
+          "Los Angeles",
+          "Seattle",
+          "Toronto",
+          "Washington"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What value applies to personal fouls before fouling out?",
+        "o": [
+          "10 minutes",
+          "5 fouls",
+          "5 minutes",
+          "5 players"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the country represented by Fenerbahce.",
+        "o": [
+          "Italy",
+          "Monaco",
+          "Türkiye",
+          "Spain"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which home market is represented by the LA Clippers?",
+        "o": [
+          "Phoenix",
+          "Portland",
+          "Sacramento",
+          "Los Angeles"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Minnesota Lynx represent which market?",
+        "o": [
+          "Minnesota",
+          "Portland",
+          "Seattle",
+          "Toronto"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What value applies to the standard basket height?",
+        "o": [
+          "5 players",
+          "3.05 metres",
+          "5 fouls",
+          "8 seconds"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which home market is represented by the Los Angeles Lakers?",
+        "o": [
+          "Chicago",
+          "Cleveland",
+          "Los Angeles",
+          "Dallas"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which city or region is home to the Las Vegas Aces?",
+        "o": [
+          "Portland",
+          "Seattle",
+          "Toronto",
+          "Las Vegas"
+        ],
+        "a": 3
+      },
+      {
+        "p": "personal fouls before fouling out uses which official value?",
+        "o": [
+          "5 fouls",
+          "6.75 metres",
+          "24 seconds",
+          "10 minutes"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which home market is represented by the Memphis Grizzlies?",
+        "o": [
+          "Cleveland",
+          "Memphis",
+          "Dallas",
+          "Denver"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which city or region is home to the Los Angeles Sparks?",
+        "o": [
+          "Connecticut",
+          "Dallas",
+          "Los Angeles",
+          "Golden State"
+        ],
+        "a": 2
+      },
+      {
+        "p": "the standard basket height uses which official value?",
+        "o": [
+          "6.75 metres",
+          "24 seconds",
+          "10 minutes",
+          "3.05 metres"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which home market is represented by the Miami Heat?",
+        "o": [
+          "Miami",
+          "Philadelphia",
+          "Phoenix",
+          "Portland"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which city or region is home to the Minnesota Lynx?",
+        "o": [
+          "Dallas",
+          "Minnesota",
+          "Golden State",
+          "Indiana"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which home market is represented by the Milwaukee Bucks?",
+        "o": [
+          "Houston",
+          "Indianapolis",
+          "Milwaukee",
+          "Los Angeles"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the home market of the Las Vegas Aces.",
+        "o": [
+          "Washington",
+          "Atlanta",
+          "Chicago",
+          "Las Vegas"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which home market is represented by the Minnesota Timberwolves?",
+        "o": [
+          "Minneapolis",
+          "Chicago",
+          "Cleveland",
+          "Dallas"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which definition matches “shot clock” in basketball?",
+        "o": [
+          "an uncontested one-point shot",
+          "timer limiting a possession",
+          "a shot beyond the three arc",
+          "a pass directly creating a basket"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which definition matches “traveling” in basketball?",
+        "o": [
+          "double figures in three stats",
+          "timer limiting a possession",
+          "illegal movement without dribbling",
+          "illegal contact with a shot"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which definition matches “goaltending” in basketball?",
+        "o": [
+          "a shot released before time ends",
+          "illegal return into the backcourt",
+          "arc beneath the basket",
+          "illegal contact with a shot"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which definition matches “personal foul” in basketball?",
+        "o": [
+          "illegal contact by a player",
+          "the lane area near the basket",
+          "a shot released before time ends",
+          "illegal return into the backcourt"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which definition matches “technical foul” in basketball?",
+        "o": [
+          "illegal movement without dribbling",
+          "penalty for non-contact behavior",
+          "illegal contact with a shot",
+          "illegal contact by a player"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The LA Clippers represent which market?",
+        "o": [
+          "Sacramento",
+          "San Antonio",
+          "Los Angeles",
+          "Toronto"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The Los Angeles Lakers represent which market?",
+        "o": [
+          "Milwaukee",
+          "Minneapolis",
+          "New Orleans",
+          "Los Angeles"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Memphis Grizzlies represent which market?",
+        "o": [
+          "Memphis",
+          "Charlotte",
+          "Chicago",
+          "Cleveland"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The Miami Heat represent which market?",
+        "o": [
+          "Dallas",
+          "Miami",
+          "Denver",
+          "Detroit"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The Milwaukee Bucks represent which market?",
+        "o": [
+          "Philadelphia",
+          "Phoenix",
+          "Milwaukee",
+          "Portland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The Minnesota Timberwolves represent which market?",
+        "o": [
+          "Portland",
+          "Sacramento",
+          "San Antonio",
+          "Minneapolis"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What is the basketball meaning of “shot clock”?",
+        "o": [
+          "timer limiting a possession",
+          "illegal contact by a player",
+          "penalty for non-contact behavior",
+          "unnecessary excessive contact"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What is the basketball meaning of “traveling”?",
+        "o": [
+          "illegal contact by a player",
+          "illegal movement without dribbling",
+          "penalty for non-contact behavior",
+          "unnecessary excessive contact"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What is the basketball meaning of “goaltending”?",
+        "o": [
+          "a shot beyond the three arc",
+          "a pass directly creating a basket",
+          "illegal contact with a shot",
+          "gaining possession after a miss"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What is the basketball meaning of “personal foul”?",
+        "o": [
+          "a toss that starts live play",
+          "a quick attack before defense sets",
+          "screen then move toward the rim",
+          "illegal contact by a player"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What is the basketball meaning of “technical foul”?",
+        "o": [
+          "penalty for non-contact behavior",
+          "illegal contact with a shot",
+          "illegal contact by a player",
+          "unnecessary excessive contact"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which city or region is home to the LA Clippers?",
+        "o": [
+          "Salt Lake City",
+          "Los Angeles",
+          "Washington, D.C.",
+          "Atlanta"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which city or region is home to the Los Angeles Lakers?",
+        "o": [
+          "Cleveland",
+          "Dallas",
+          "Los Angeles",
+          "Denver"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which city or region is home to the Memphis Grizzlies?",
+        "o": [
+          "Portland",
+          "Sacramento",
+          "San Antonio",
+          "Memphis"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which city or region is home to the Miami Heat?",
+        "o": [
+          "Miami",
+          "Cleveland",
+          "Dallas",
+          "Denver"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which city or region is home to the Milwaukee Bucks?",
+        "o": [
+          "Toronto",
+          "Milwaukee",
+          "Salt Lake City",
+          "Washington, D.C."
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which city or region is home to the Minnesota Timberwolves?",
+        "o": [
+          "New York",
+          "Oklahoma City",
+          "Minneapolis",
+          "Orlando"
+        ],
+        "a": 2
+      },
+      {
+        "p": "On a basketball court, “shot clock” describes what?",
+        "o": [
+          "a toss that starts live play",
+          "a quick attack before defense sets",
+          "screen then move toward the rim",
+          "timer limiting a possession"
+        ],
+        "a": 3
+      },
+      {
+        "p": "On a basketball court, “traveling” describes what?",
+        "o": [
+          "illegal movement without dribbling",
+          "a key reserve off the bench",
+          "the lane area near the basket",
+          "a shot released before time ends"
+        ],
+        "a": 0
+      },
+      {
+        "p": "On a basketball court, “goaltending” describes what?",
+        "o": [
+          "a pass directly creating a basket",
+          "illegal contact with a shot",
+          "gaining possession after a miss",
+          "taking the ball from an opponent"
+        ],
+        "a": 1
+      },
+      {
+        "p": "On a basketball court, “personal foul” describes what?",
+        "o": [
+          "timer limiting a possession",
+          "illegal movement without dribbling",
+          "illegal contact by a player",
+          "illegal contact with a shot"
+        ],
+        "a": 2
+      },
+      {
+        "p": "On a basketball court, “technical foul” describes what?",
+        "o": [
+          "illegal contact by a player",
+          "unnecessary excessive contact",
+          "a toss that starts live play",
+          "penalty for non-contact behavior"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the home market of the LA Clippers.",
+        "o": [
+          "Los Angeles",
+          "New York",
+          "Oklahoma City",
+          "Orlando"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the home market of the Los Angeles Lakers.",
+        "o": [
+          "Detroit",
+          "Los Angeles",
+          "San Francisco",
+          "Houston"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the home market of the Memphis Grizzlies.",
+        "o": [
+          "New York",
+          "Oklahoma City",
+          "Memphis",
+          "Orlando"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the home market of the Miami Heat.",
+        "o": [
+          "San Antonio",
+          "Toronto",
+          "Salt Lake City",
+          "Miami"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the home market of the Milwaukee Bucks.",
+        "o": [
+          "Milwaukee",
+          "Oklahoma City",
+          "Orlando",
+          "Philadelphia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the home market of the Minnesota Timberwolves.",
+        "o": [
+          "New Orleans",
+          "Minneapolis",
+          "New York",
+          "Oklahoma City"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Choose the correct meaning of “shot clock”.",
+        "o": [
+          "air pass finished at the rim",
+          "a key reserve off the bench",
+          "timer limiting a possession",
+          "the lane area near the basket"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Choose the correct meaning of “traveling”.",
+        "o": [
+          "unnecessary excessive contact",
+          "a toss that starts live play",
+          "a quick attack before defense sets",
+          "illegal movement without dribbling"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Choose the correct meaning of “goaltending”.",
+        "o": [
+          "illegal contact with a shot",
+          "a quick attack before defense sets",
+          "screen then move toward the rim",
+          "air pass finished at the rim"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Choose the correct meaning of “personal foul”.",
+        "o": [
+          "penalty for non-contact behavior",
+          "illegal contact by a player",
+          "unnecessary excessive contact",
+          "a toss that starts live play"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Choose the correct meaning of “technical foul”.",
+        "o": [
+          "deflecting an attempted shot",
+          "losing possession to the opponent",
+          "penalty for non-contact behavior",
+          "double figures in two stats"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Where are the LA Clippers based?",
+        "o": [
+          "San Antonio",
+          "Toronto",
+          "Salt Lake City",
+          "Los Angeles"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Where are the Los Angeles Lakers based?",
+        "o": [
+          "Los Angeles",
+          "Minneapolis",
+          "New Orleans",
+          "New York"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Where are the Memphis Grizzlies based?",
+        "o": [
+          "New Orleans",
+          "Memphis",
+          "New York",
+          "Oklahoma City"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Where are the Miami Heat based?",
+        "o": [
+          "Minneapolis",
+          "New Orleans",
+          "Miami",
+          "New York"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Where are the Milwaukee Bucks based?",
+        "o": [
+          "Charlotte",
+          "Chicago",
+          "Cleveland",
+          "Milwaukee"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Where are the Minnesota Timberwolves based?",
+        "o": [
+          "Minneapolis",
+          "Indianapolis",
+          "Los Angeles",
+          "Memphis"
+        ],
+        "a": 0
+      },
+      {
+        "p": "How is “shot clock” defined in basketball?",
+        "o": [
+          "a shot released before time ends",
+          "timer limiting a possession",
+          "illegal return into the backcourt",
+          "arc beneath the basket"
+        ],
+        "a": 1
+      },
+      {
+        "p": "How is “traveling” defined in basketball?",
+        "o": [
+          "penalty for non-contact behavior",
+          "unnecessary excessive contact",
+          "illegal movement without dribbling",
+          "a toss that starts live play"
+        ],
+        "a": 2
+      },
+      {
+        "p": "How is “goaltending” defined in basketball?",
+        "o": [
+          "double figures in three stats",
+          "timer limiting a possession",
+          "illegal movement without dribbling",
+          "illegal contact with a shot"
+        ],
+        "a": 3
+      },
+      {
+        "p": "How is “personal foul” defined in basketball?",
+        "o": [
+          "illegal contact by a player",
+          "a basket during live play",
+          "an uncontested one-point shot",
+          "a shot beyond the three arc"
+        ],
+        "a": 0
+      },
+      {
+        "p": "How is “technical foul” defined in basketball?",
+        "o": [
+          "a toss that starts live play",
+          "penalty for non-contact behavior",
+          "a quick attack before defense sets",
+          "screen then move toward the rim"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The LA Clippers play for which home market?",
+        "o": [
+          "Charlotte",
+          "Chicago",
+          "Los Angeles",
+          "Cleveland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The Los Angeles Lakers play for which home market?",
+        "o": [
+          "Brooklyn",
+          "Charlotte",
+          "Chicago",
+          "Los Angeles"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Memphis Grizzlies play for which home market?",
+        "o": [
+          "Memphis",
+          "Washington, D.C.",
+          "Atlanta",
+          "Boston"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The Miami Heat play for which home market?",
+        "o": [
+          "Oklahoma City",
+          "Miami",
+          "Orlando",
+          "Philadelphia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The Milwaukee Bucks play for which home market?",
+        "o": [
+          "San Antonio",
+          "Toronto",
+          "Milwaukee",
+          "Salt Lake City"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The Minnesota Timberwolves play for which home market?",
+        "o": [
+          "Salt Lake City",
+          "Washington, D.C.",
+          "Atlanta",
+          "Minneapolis"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What does a coach mean by “shot clock”?",
+        "o": [
+          "timer limiting a possession",
+          "a quick attack before defense sets",
+          "screen then move toward the rim",
+          "air pass finished at the rim"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What does a coach mean by “traveling”?",
+        "o": [
+          "a basket during live play",
+          "illegal movement without dribbling",
+          "an uncontested one-point shot",
+          "a shot beyond the three arc"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What does a coach mean by “goaltending”?",
+        "o": [
+          "deflecting an attempted shot",
+          "losing possession to the opponent",
+          "illegal contact with a shot",
+          "double figures in two stats"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What does a coach mean by “personal foul”?",
+        "o": [
+          "illegal movement without dribbling",
+          "illegal contact with a shot",
+          "penalty for non-contact behavior",
+          "illegal contact by a player"
+        ],
+        "a": 3
+      }
+    ],
+    "4": [
+      {
+        "p": "In basketball, what does “flagrant foul” mean?",
+        "o": [
+          "unnecessary excessive contact",
+          "screen then move toward the rim",
+          "air pass finished at the rim",
+          "a key reserve off the bench"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which home market is represented by the New York Liberty?",
+        "o": [
+          "Connecticut",
+          "New York",
+          "Dallas",
+          "Golden State"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Under the FIBA backcourt limit, what is the correct value?",
+        "o": [
+          "5 fouls",
+          "3.05 metres",
+          "8 seconds",
+          "1.30 metres"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which national team did Margo Dydek represent?",
+        "o": [
+          "Spain",
+          "United States",
+          "Australia",
+          "Poland"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2022 NCAA men’s tournament?",
+        "o": [
+          "Kansas",
+          "Baylor",
+          "Florida",
+          "UConn"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2022 NCAA women’s tournament?",
+        "o": [
+          "Stanford",
+          "South Carolina",
+          "UConn",
+          "LSU"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country is home to Maccabi Tel Aviv?",
+        "o": [
+          "Monaco",
+          "Spain",
+          "Israel",
+          "Greece"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In basketball, what does “jump ball” mean?",
+        "o": [
+          "losing possession to the opponent",
+          "double figures in two stats",
+          "double figures in three stats",
+          "a toss that starts live play"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which home market is represented by the Phoenix Mercury?",
+        "o": [
+          "Phoenix",
+          "Las Vegas",
+          "Los Angeles",
+          "Minnesota"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Under the FIBA no-charge semi-circle, what is the correct value?",
+        "o": [
+          "8 seconds",
+          "1.30 metres",
+          "15 minutes",
+          "6.75 metres"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Margo Dydek played international basketball for which country?",
+        "o": [
+          "Australia",
+          "Brazil",
+          "Poland",
+          "Spain"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2022 NCAA men’s tournament?",
+        "o": [
+          "UConn",
+          "Baylor",
+          "Florida",
+          "Kansas"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country is home to Virtus Bologna?",
+        "o": [
+          "Italy",
+          "Israel",
+          "Monaco",
+          "Spain"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In basketball, what does “fast break” mean?",
+        "o": [
+          "taking the ball from an opponent",
+          "a quick attack before defense sets",
+          "deflecting an attempted shot",
+          "losing possession to the opponent"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which home market is represented by the Portland Fire?",
+        "o": [
+          "Indiana",
+          "Las Vegas",
+          "Portland",
+          "Los Angeles"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which value is set by the FIBA backcourt limit?",
+        "o": [
+          "5 fouls",
+          "3.05 metres",
+          "1.30 metres",
+          "8 seconds"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 2022 NCAA men’s tournament.",
+        "o": [
+          "Kansas",
+          "Baylor",
+          "Florida",
+          "UConn"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Maccabi Tel Aviv is a basketball club from which country?",
+        "o": [
+          "Greece",
+          "Israel",
+          "Türkiye",
+          "Italy"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In basketball, what does “pick-and-roll” mean?",
+        "o": [
+          "double figures in two stats",
+          "double figures in three stats",
+          "screen then move toward the rim",
+          "timer limiting a possession"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The New York Liberty represent which market?",
+        "o": [
+          "Atlanta",
+          "Chicago",
+          "Connecticut",
+          "New York"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which value is set by the FIBA no-charge semi-circle?",
+        "o": [
+          "1.30 metres",
+          "5 players",
+          "5 fouls",
+          "3.05 metres"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which side lifted the trophy at the 2022 NCAA men’s tournament?",
+        "o": [
+          "Baylor",
+          "Kansas",
+          "Florida",
+          "UConn"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Virtus Bologna is a basketball club from which country?",
+        "o": [
+          "Greece",
+          "Türkiye",
+          "Italy",
+          "Israel"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In basketball, what does “alley-oop” mean?",
+        "o": [
+          "gaining possession after a miss",
+          "taking the ball from an opponent",
+          "deflecting an attempted shot",
+          "air pass finished at the rim"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Phoenix Mercury represent which market?",
+        "o": [
+          "Phoenix",
+          "Atlanta",
+          "Chicago",
+          "Connecticut"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What value applies to the FIBA backcourt limit?",
+        "o": [
+          "15 minutes",
+          "8 seconds",
+          "6.75 metres",
+          "24 seconds"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the country represented by Maccabi Tel Aviv.",
+        "o": [
+          "Italy",
+          "Monaco",
+          "Israel",
+          "Spain"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which home market is represented by the New Orleans Pelicans?",
+        "o": [
+          "Memphis",
+          "Miami",
+          "Milwaukee",
+          "New Orleans"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Portland Fire represent which market?",
+        "o": [
+          "Portland",
+          "Los Angeles",
+          "Minnesota",
+          "New York"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What value applies to the FIBA no-charge semi-circle?",
+        "o": [
+          "10 minutes",
+          "1.30 metres",
+          "5 minutes",
+          "5 players"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which home market is represented by the New York Knicks?",
+        "o": [
+          "New Orleans",
+          "Oklahoma City",
+          "New York",
+          "Orlando"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which city or region is home to the New York Liberty?",
+        "o": [
+          "Los Angeles",
+          "Minnesota",
+          "Phoenix",
+          "New York"
+        ],
+        "a": 3
+      },
+      {
+        "p": "the FIBA backcourt limit uses which official value?",
+        "o": [
+          "8 seconds",
+          "24 seconds",
+          "10 minutes",
+          "5 minutes"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which home market is represented by the Oklahoma City Thunder?",
+        "o": [
+          "Detroit",
+          "Oklahoma City",
+          "San Francisco",
+          "Houston"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which city or region is home to the Phoenix Mercury?",
+        "o": [
+          "New York",
+          "Portland",
+          "Phoenix",
+          "Seattle"
+        ],
+        "a": 2
+      },
+      {
+        "p": "the FIBA no-charge semi-circle uses which official value?",
+        "o": [
+          "15 minutes",
+          "6.75 metres",
+          "24 seconds",
+          "1.30 metres"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which home market is represented by the Orlando Magic?",
+        "o": [
+          "Orlando",
+          "San Francisco",
+          "Houston",
+          "Indianapolis"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which city or region is home to the Portland Fire?",
+        "o": [
+          "Connecticut",
+          "Portland",
+          "Dallas",
+          "Golden State"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which home market is represented by the Philadelphia 76ers?",
+        "o": [
+          "Memphis",
+          "Miami",
+          "Philadelphia",
+          "Milwaukee"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the home market of the New York Liberty.",
+        "o": [
+          "Golden State",
+          "Indiana",
+          "Las Vegas",
+          "New York"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which home market is represented by the Phoenix Suns?",
+        "o": [
+          "Phoenix",
+          "New Orleans",
+          "New York",
+          "Oklahoma City"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which definition matches “flagrant foul” in basketball?",
+        "o": [
+          "a key reserve off the bench",
+          "unnecessary excessive contact",
+          "the lane area near the basket",
+          "a shot released before time ends"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which definition matches “jump ball” in basketball?",
+        "o": [
+          "double figures in three stats",
+          "timer limiting a possession",
+          "a toss that starts live play",
+          "illegal movement without dribbling"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which definition matches “fast break” in basketball?",
+        "o": [
+          "arc beneath the basket",
+          "a basket during live play",
+          "an uncontested one-point shot",
+          "a quick attack before defense sets"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which definition matches “pick-and-roll” in basketball?",
+        "o": [
+          "screen then move toward the rim",
+          "a shot beyond the three arc",
+          "a pass directly creating a basket",
+          "gaining possession after a miss"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which definition matches “alley-oop” in basketball?",
+        "o": [
+          "deflecting an attempted shot",
+          "air pass finished at the rim",
+          "losing possession to the opponent",
+          "double figures in two stats"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The New Orleans Pelicans represent which market?",
+        "o": [
+          "Sacramento",
+          "San Antonio",
+          "New Orleans",
+          "Toronto"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The New York Knicks represent which market?",
+        "o": [
+          "Milwaukee",
+          "Minneapolis",
+          "New Orleans",
+          "New York"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Oklahoma City Thunder represent which market?",
+        "o": [
+          "Oklahoma City",
+          "Salt Lake City",
+          "Washington, D.C.",
+          "Atlanta"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The Orlando Magic represent which market?",
+        "o": [
+          "Indianapolis",
+          "Orlando",
+          "Los Angeles",
+          "Memphis"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The Philadelphia 76ers represent which market?",
+        "o": [
+          "Washington, D.C.",
+          "Atlanta",
+          "Philadelphia",
+          "Boston"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The Phoenix Suns represent which market?",
+        "o": [
+          "Milwaukee",
+          "Minneapolis",
+          "New Orleans",
+          "Phoenix"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What is the basketball meaning of “flagrant foul”?",
+        "o": [
+          "unnecessary excessive contact",
+          "the lane area near the basket",
+          "a shot released before time ends",
+          "illegal return into the backcourt"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What is the basketball meaning of “jump ball”?",
+        "o": [
+          "illegal contact with a shot",
+          "a toss that starts live play",
+          "illegal contact by a player",
+          "penalty for non-contact behavior"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What is the basketball meaning of “fast break”?",
+        "o": [
+          "gaining possession after a miss",
+          "taking the ball from an opponent",
+          "a quick attack before defense sets",
+          "deflecting an attempted shot"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What is the basketball meaning of “pick-and-roll”?",
+        "o": [
+          "taking the ball from an opponent",
+          "deflecting an attempted shot",
+          "losing possession to the opponent",
+          "screen then move toward the rim"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What is the basketball meaning of “alley-oop”?",
+        "o": [
+          "air pass finished at the rim",
+          "unnecessary excessive contact",
+          "a toss that starts live play",
+          "a quick attack before defense sets"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which city or region is home to the New Orleans Pelicans?",
+        "o": [
+          "San Antonio",
+          "New Orleans",
+          "Toronto",
+          "Salt Lake City"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which city or region is home to the New York Knicks?",
+        "o": [
+          "Philadelphia",
+          "Phoenix",
+          "New York",
+          "Portland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which city or region is home to the Oklahoma City Thunder?",
+        "o": [
+          "Charlotte",
+          "Chicago",
+          "Cleveland",
+          "Oklahoma City"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which city or region is home to the Orlando Magic?",
+        "o": [
+          "Orlando",
+          "Portland",
+          "Sacramento",
+          "San Antonio"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which city or region is home to the Philadelphia 76ers?",
+        "o": [
+          "New York",
+          "Philadelphia",
+          "Oklahoma City",
+          "Orlando"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which city or region is home to the Phoenix Suns?",
+        "o": [
+          "Orlando",
+          "Philadelphia",
+          "Phoenix",
+          "Portland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "On a basketball court, “flagrant foul” describes what?",
+        "o": [
+          "a shot released before time ends",
+          "illegal return into the backcourt",
+          "arc beneath the basket",
+          "unnecessary excessive contact"
+        ],
+        "a": 3
+      },
+      {
+        "p": "On a basketball court, “jump ball” describes what?",
+        "o": [
+          "a toss that starts live play",
+          "illegal movement without dribbling",
+          "illegal contact with a shot",
+          "illegal contact by a player"
+        ],
+        "a": 0
+      },
+      {
+        "p": "On a basketball court, “fast break” describes what?",
+        "o": [
+          "screen then move toward the rim",
+          "a quick attack before defense sets",
+          "air pass finished at the rim",
+          "a key reserve off the bench"
+        ],
+        "a": 1
+      },
+      {
+        "p": "On a basketball court, “pick-and-roll” describes what?",
+        "o": [
+          "the lane area near the basket",
+          "a shot released before time ends",
+          "screen then move toward the rim",
+          "illegal return into the backcourt"
+        ],
+        "a": 2
+      },
+      {
+        "p": "On a basketball court, “alley-oop” describes what?",
+        "o": [
+          "a basket during live play",
+          "an uncontested one-point shot",
+          "a shot beyond the three arc",
+          "air pass finished at the rim"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the home market of the New Orleans Pelicans.",
+        "o": [
+          "New Orleans",
+          "Boston",
+          "Brooklyn",
+          "Charlotte"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the home market of the New York Knicks.",
+        "o": [
+          "San Francisco",
+          "New York",
+          "Houston",
+          "Indianapolis"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the home market of the Oklahoma City Thunder.",
+        "o": [
+          "San Antonio",
+          "Toronto",
+          "Oklahoma City",
+          "Salt Lake City"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the home market of the Orlando Magic.",
+        "o": [
+          "Cleveland",
+          "Dallas",
+          "Denver",
+          "Orlando"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the home market of the Philadelphia 76ers.",
+        "o": [
+          "Philadelphia",
+          "Toronto",
+          "Salt Lake City",
+          "Washington, D.C."
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the home market of the Phoenix Suns.",
+        "o": [
+          "New Orleans",
+          "Phoenix",
+          "New York",
+          "Oklahoma City"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Choose the correct meaning of “flagrant foul”.",
+        "o": [
+          "illegal return into the backcourt",
+          "arc beneath the basket",
+          "unnecessary excessive contact",
+          "a basket during live play"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Choose the correct meaning of “jump ball”.",
+        "o": [
+          "deflecting an attempted shot",
+          "losing possession to the opponent",
+          "double figures in two stats",
+          "a toss that starts live play"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Choose the correct meaning of “fast break”.",
+        "o": [
+          "a quick attack before defense sets",
+          "illegal return into the backcourt",
+          "arc beneath the basket",
+          "a basket during live play"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Choose the correct meaning of “pick-and-roll”.",
+        "o": [
+          "losing possession to the opponent",
+          "screen then move toward the rim",
+          "double figures in two stats",
+          "double figures in three stats"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Choose the correct meaning of “alley-oop”.",
+        "o": [
+          "a quick attack before defense sets",
+          "screen then move toward the rim",
+          "air pass finished at the rim",
+          "a key reserve off the bench"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Where are the New Orleans Pelicans based?",
+        "o": [
+          "Dallas",
+          "Denver",
+          "Detroit",
+          "New Orleans"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Where are the New York Knicks based?",
+        "o": [
+          "New York",
+          "Brooklyn",
+          "Charlotte",
+          "Chicago"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Where are the Oklahoma City Thunder based?",
+        "o": [
+          "Memphis",
+          "Oklahoma City",
+          "Miami",
+          "Milwaukee"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Where are the Orlando Magic based?",
+        "o": [
+          "Philadelphia",
+          "Phoenix",
+          "Orlando",
+          "Portland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Where are the Philadelphia 76ers based?",
+        "o": [
+          "San Antonio",
+          "Toronto",
+          "Salt Lake City",
+          "Philadelphia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Where are the Phoenix Suns based?",
+        "o": [
+          "Phoenix",
+          "New York",
+          "Oklahoma City",
+          "Orlando"
+        ],
+        "a": 0
+      },
+      {
+        "p": "How is “flagrant foul” defined in basketball?",
+        "o": [
+          "a toss that starts live play",
+          "unnecessary excessive contact",
+          "a quick attack before defense sets",
+          "screen then move toward the rim"
+        ],
+        "a": 1
+      },
+      {
+        "p": "How is “jump ball” defined in basketball?",
+        "o": [
+          "illegal contact by a player",
+          "penalty for non-contact behavior",
+          "a toss that starts live play",
+          "unnecessary excessive contact"
+        ],
+        "a": 2
+      },
+      {
+        "p": "How is “fast break” defined in basketball?",
+        "o": [
+          "a key reserve off the bench",
+          "the lane area near the basket",
+          "a shot released before time ends",
+          "a quick attack before defense sets"
+        ],
+        "a": 3
+      },
+      {
+        "p": "How is “pick-and-roll” defined in basketball?",
+        "o": [
+          "screen then move toward the rim",
+          "deflecting an attempted shot",
+          "losing possession to the opponent",
+          "double figures in two stats"
+        ],
+        "a": 0
+      },
+      {
+        "p": "How is “alley-oop” defined in basketball?",
+        "o": [
+          "screen then move toward the rim",
+          "air pass finished at the rim",
+          "a key reserve off the bench",
+          "the lane area near the basket"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The New Orleans Pelicans play for which home market?",
+        "o": [
+          "Charlotte",
+          "Chicago",
+          "New Orleans",
+          "Cleveland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The New York Knicks play for which home market?",
+        "o": [
+          "Indianapolis",
+          "Los Angeles",
+          "Memphis",
+          "New York"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Oklahoma City Thunder play for which home market?",
+        "o": [
+          "Oklahoma City",
+          "Salt Lake City",
+          "Washington, D.C.",
+          "Atlanta"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The Orlando Magic play for which home market?",
+        "o": [
+          "Indianapolis",
+          "Orlando",
+          "Los Angeles",
+          "Memphis"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The Philadelphia 76ers play for which home market?",
+        "o": [
+          "Charlotte",
+          "Chicago",
+          "Philadelphia",
+          "Cleveland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The Phoenix Suns play for which home market?",
+        "o": [
+          "Denver",
+          "Detroit",
+          "San Francisco",
+          "Phoenix"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What does a coach mean by “flagrant foul”?",
+        "o": [
+          "unnecessary excessive contact",
+          "double figures in two stats",
+          "double figures in three stats",
+          "timer limiting a possession"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What does a coach mean by “jump ball”?",
+        "o": [
+          "a quick attack before defense sets",
+          "a toss that starts live play",
+          "screen then move toward the rim",
+          "air pass finished at the rim"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What does a coach mean by “fast break”?",
+        "o": [
+          "a basket during live play",
+          "an uncontested one-point shot",
+          "a quick attack before defense sets",
+          "a shot beyond the three arc"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What does a coach mean by “pick-and-roll”?",
+        "o": [
+          "an uncontested one-point shot",
+          "a shot beyond the three arc",
+          "a pass directly creating a basket",
+          "screen then move toward the rim"
+        ],
+        "a": 3
+      }
+    ],
+    "5": [
+      {
+        "p": "In basketball, what does “sixth player” mean?",
+        "o": [
+          "a key reserve off the bench",
+          "arc beneath the basket",
+          "a basket during live play",
+          "an uncontested one-point shot"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which home market is represented by the Seattle Storm?",
+        "o": [
+          "Atlanta",
+          "Seattle",
+          "Chicago",
+          "Connecticut"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Under the FIBA halftime interval, what is the correct value?",
+        "o": [
+          "3.05 metres",
+          "8 seconds",
+          "15 minutes",
+          "1.30 metres"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which national team did Amaya Valdemoro represent?",
+        "o": [
+          "Poland",
+          "United States",
+          "Australia",
+          "Spain"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2021 NCAA men’s tournament?",
+        "o": [
+          "Baylor",
+          "Kansas",
+          "Florida",
+          "UConn"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2021 NCAA women’s tournament?",
+        "o": [
+          "UConn",
+          "Stanford",
+          "South Carolina",
+          "LSU"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country is home to Olimpia Milano?",
+        "o": [
+          "Spain",
+          "Greece",
+          "Italy",
+          "Türkiye"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In basketball, what does “the paint” mean?",
+        "o": [
+          "deflecting an attempted shot",
+          "losing possession to the opponent",
+          "double figures in two stats",
+          "the lane area near the basket"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which home market is represented by the Toronto Tempo?",
+        "o": [
+          "Toronto",
+          "Minnesota",
+          "New York",
+          "Phoenix"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Under the FIBA three-point line, what is the correct value?",
+        "o": [
+          "1.30 metres",
+          "6.75 metres",
+          "15 minutes",
+          "24 seconds"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Amaya Valdemoro played international basketball for which country?",
+        "o": [
+          "Australia",
+          "Brazil",
+          "Spain",
+          "Poland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2021 NCAA men’s tournament?",
+        "o": [
+          "Florida",
+          "UConn",
+          "Kansas",
+          "Baylor"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country is home to AS Monaco?",
+        "o": [
+          "Monaco",
+          "Israel",
+          "Italy",
+          "Spain"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In basketball, what does “buzzer-beater” mean?",
+        "o": [
+          "an uncontested one-point shot",
+          "a shot released before time ends",
+          "a shot beyond the three arc",
+          "a pass directly creating a basket"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which home market is represented by the Washington Mystics?",
+        "o": [
+          "Portland",
+          "Seattle",
+          "Washington",
+          "Toronto"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which value is set by the FIBA halftime interval?",
+        "o": [
+          "6.75 metres",
+          "24 seconds",
+          "10 minutes",
+          "15 minutes"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the title winner from the 2021 NCAA men’s tournament.",
+        "o": [
+          "Baylor",
+          "UConn",
+          "Kansas",
+          "Florida"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Olimpia Milano is a basketball club from which country?",
+        "o": [
+          "Türkiye",
+          "Italy",
+          "Israel",
+          "Monaco"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In basketball, what does “backcourt violation” mean?",
+        "o": [
+          "a pass directly creating a basket",
+          "gaining possession after a miss",
+          "illegal return into the backcourt",
+          "taking the ball from an opponent"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The Seattle Storm represent which market?",
+        "o": [
+          "Connecticut",
+          "Dallas",
+          "Golden State",
+          "Seattle"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which value is set by the FIBA three-point line?",
+        "o": [
+          "6.75 metres",
+          "10 minutes",
+          "5 minutes",
+          "5 players"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which side lifted the trophy at the 2021 NCAA men’s tournament?",
+        "o": [
+          "UConn",
+          "Baylor",
+          "Kansas",
+          "Florida"
+        ],
+        "a": 1
+      },
+      {
+        "p": "AS Monaco is a basketball club from which country?",
+        "o": [
+          "Greece",
+          "Türkiye",
+          "Monaco",
+          "Israel"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In basketball, what does “restricted area” mean?",
+        "o": [
+          "gaining possession after a miss",
+          "taking the ball from an opponent",
+          "deflecting an attempted shot",
+          "arc beneath the basket"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Toronto Tempo represent which market?",
+        "o": [
+          "Toronto",
+          "Atlanta",
+          "Chicago",
+          "Connecticut"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What value applies to the FIBA halftime interval?",
+        "o": [
+          "1.30 metres",
+          "15 minutes",
+          "6.75 metres",
+          "24 seconds"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the country represented by Olimpia Milano.",
+        "o": [
+          "Monaco",
+          "Spain",
+          "Italy",
+          "Greece"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which home market is represented by the Portland Trail Blazers?",
+        "o": [
+          "San Antonio",
+          "Toronto",
+          "Salt Lake City",
+          "Portland"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The Washington Mystics represent which market?",
+        "o": [
+          "Washington",
+          "Los Angeles",
+          "Minnesota",
+          "New York"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What value applies to the FIBA three-point line?",
+        "o": [
+          "5 fouls",
+          "6.75 metres",
+          "3.05 metres",
+          "8 seconds"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which home market is represented by the Sacramento Kings?",
+        "o": [
+          "Orlando",
+          "Philadelphia",
+          "Sacramento",
+          "Phoenix"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which city or region is home to the Seattle Storm?",
+        "o": [
+          "Chicago",
+          "Connecticut",
+          "Dallas",
+          "Seattle"
+        ],
+        "a": 3
+      },
+      {
+        "p": "the FIBA halftime interval uses which official value?",
+        "o": [
+          "15 minutes",
+          "5 fouls",
+          "3.05 metres",
+          "8 seconds"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which home market is represented by the San Antonio Spurs?",
+        "o": [
+          "Portland",
+          "San Antonio",
+          "Sacramento",
+          "Toronto"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which city or region is home to the Toronto Tempo?",
+        "o": [
+          "Indiana",
+          "Las Vegas",
+          "Toronto",
+          "Los Angeles"
+        ],
+        "a": 2
+      },
+      {
+        "p": "the FIBA three-point line uses which official value?",
+        "o": [
+          "5 players",
+          "5 fouls",
+          "3.05 metres",
+          "6.75 metres"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which home market is represented by the Toronto Raptors?",
+        "o": [
+          "Toronto",
+          "Washington, D.C.",
+          "Atlanta",
+          "Boston"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which city or region is home to the Washington Mystics?",
+        "o": [
+          "Minnesota",
+          "Washington",
+          "New York",
+          "Phoenix"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which home market is represented by the Utah Jazz?",
+        "o": [
+          "Portland",
+          "Sacramento",
+          "Salt Lake City",
+          "San Antonio"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the home market of the Seattle Storm.",
+        "o": [
+          "Minnesota",
+          "New York",
+          "Phoenix",
+          "Seattle"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which home market is represented by the Washington Wizards?",
+        "o": [
+          "Washington, D.C.",
+          "Salt Lake City",
+          "Atlanta",
+          "Boston"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which definition matches “sixth player” in basketball?",
+        "o": [
+          "double figures in three stats",
+          "a key reserve off the bench",
+          "timer limiting a possession",
+          "illegal movement without dribbling"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which definition matches “the paint” in basketball?",
+        "o": [
+          "double figures in two stats",
+          "double figures in three stats",
+          "the lane area near the basket",
+          "timer limiting a possession"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which definition matches “buzzer-beater” in basketball?",
+        "o": [
+          "unnecessary excessive contact",
+          "a toss that starts live play",
+          "a quick attack before defense sets",
+          "a shot released before time ends"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which definition matches “backcourt violation” in basketball?",
+        "o": [
+          "illegal return into the backcourt",
+          "illegal contact by a player",
+          "penalty for non-contact behavior",
+          "unnecessary excessive contact"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which definition matches “restricted area” in basketball?",
+        "o": [
+          "screen then move toward the rim",
+          "arc beneath the basket",
+          "air pass finished at the rim",
+          "a key reserve off the bench"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The Portland Trail Blazers represent which market?",
+        "o": [
+          "Phoenix",
+          "Sacramento",
+          "Portland",
+          "San Antonio"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The Sacramento Kings represent which market?",
+        "o": [
+          "Dallas",
+          "Denver",
+          "Detroit",
+          "Sacramento"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The San Antonio Spurs represent which market?",
+        "o": [
+          "San Antonio",
+          "San Francisco",
+          "Houston",
+          "Indianapolis"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The Toronto Raptors represent which market?",
+        "o": [
+          "San Francisco",
+          "Toronto",
+          "Houston",
+          "Indianapolis"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The Utah Jazz represent which market?",
+        "o": [
+          "Cleveland",
+          "Dallas",
+          "Salt Lake City",
+          "Denver"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The Washington Wizards represent which market?",
+        "o": [
+          "New Orleans",
+          "New York",
+          "Oklahoma City",
+          "Washington, D.C."
+        ],
+        "a": 3
+      },
+      {
+        "p": "What is the basketball meaning of “sixth player”?",
+        "o": [
+          "a key reserve off the bench",
+          "a basket during live play",
+          "an uncontested one-point shot",
+          "a shot beyond the three arc"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What is the basketball meaning of “the paint”?",
+        "o": [
+          "air pass finished at the rim",
+          "the lane area near the basket",
+          "a key reserve off the bench",
+          "a shot released before time ends"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What is the basketball meaning of “buzzer-beater”?",
+        "o": [
+          "penalty for non-contact behavior",
+          "unnecessary excessive contact",
+          "a shot released before time ends",
+          "a toss that starts live play"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What is the basketball meaning of “backcourt violation”?",
+        "o": [
+          "penalty for non-contact behavior",
+          "unnecessary excessive contact",
+          "a toss that starts live play",
+          "illegal return into the backcourt"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What is the basketball meaning of “restricted area”?",
+        "o": [
+          "arc beneath the basket",
+          "unnecessary excessive contact",
+          "a toss that starts live play",
+          "a quick attack before defense sets"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which city or region is home to the Portland Trail Blazers?",
+        "o": [
+          "Milwaukee",
+          "Portland",
+          "Minneapolis",
+          "New Orleans"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which city or region is home to the Sacramento Kings?",
+        "o": [
+          "Charlotte",
+          "Chicago",
+          "Sacramento",
+          "Cleveland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which city or region is home to the San Antonio Spurs?",
+        "o": [
+          "Atlanta",
+          "Boston",
+          "Brooklyn",
+          "San Antonio"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which city or region is home to the Toronto Raptors?",
+        "o": [
+          "Toronto",
+          "Los Angeles",
+          "Memphis",
+          "Miami"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which city or region is home to the Utah Jazz?",
+        "o": [
+          "Toronto",
+          "Salt Lake City",
+          "Washington, D.C.",
+          "Atlanta"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which city or region is home to the Washington Wizards?",
+        "o": [
+          "Atlanta",
+          "Boston",
+          "Washington, D.C.",
+          "Brooklyn"
+        ],
+        "a": 2
+      },
+      {
+        "p": "On a basketball court, “sixth player” describes what?",
+        "o": [
+          "air pass finished at the rim",
+          "the lane area near the basket",
+          "a shot released before time ends",
+          "a key reserve off the bench"
+        ],
+        "a": 3
+      },
+      {
+        "p": "On a basketball court, “the paint” describes what?",
+        "o": [
+          "the lane area near the basket",
+          "a shot beyond the three arc",
+          "a pass directly creating a basket",
+          "gaining possession after a miss"
+        ],
+        "a": 0
+      },
+      {
+        "p": "On a basketball court, “buzzer-beater” describes what?",
+        "o": [
+          "the lane area near the basket",
+          "a shot released before time ends",
+          "illegal return into the backcourt",
+          "arc beneath the basket"
+        ],
+        "a": 1
+      },
+      {
+        "p": "On a basketball court, “backcourt violation” describes what?",
+        "o": [
+          "unnecessary excessive contact",
+          "a toss that starts live play",
+          "illegal return into the backcourt",
+          "a quick attack before defense sets"
+        ],
+        "a": 2
+      },
+      {
+        "p": "On a basketball court, “restricted area” describes what?",
+        "o": [
+          "a basket during live play",
+          "an uncontested one-point shot",
+          "a shot beyond the three arc",
+          "arc beneath the basket"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the home market of the Portland Trail Blazers.",
+        "o": [
+          "Portland",
+          "Minneapolis",
+          "New Orleans",
+          "New York"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the home market of the Sacramento Kings.",
+        "o": [
+          "Orlando",
+          "Sacramento",
+          "Philadelphia",
+          "Phoenix"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the home market of the San Antonio Spurs.",
+        "o": [
+          "Oklahoma City",
+          "Orlando",
+          "San Antonio",
+          "Philadelphia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the home market of the Toronto Raptors.",
+        "o": [
+          "Oklahoma City",
+          "Orlando",
+          "Philadelphia",
+          "Toronto"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the home market of the Utah Jazz.",
+        "o": [
+          "Salt Lake City",
+          "Washington, D.C.",
+          "Atlanta",
+          "Boston"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the home market of the Washington Wizards.",
+        "o": [
+          "Milwaukee",
+          "Washington, D.C.",
+          "Minneapolis",
+          "New Orleans"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Choose the correct meaning of “sixth player”.",
+        "o": [
+          "timer limiting a possession",
+          "illegal movement without dribbling",
+          "a key reserve off the bench",
+          "illegal contact with a shot"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Choose the correct meaning of “the paint”.",
+        "o": [
+          "a shot released before time ends",
+          "illegal return into the backcourt",
+          "arc beneath the basket",
+          "the lane area near the basket"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Choose the correct meaning of “buzzer-beater”.",
+        "o": [
+          "a shot released before time ends",
+          "illegal contact with a shot",
+          "illegal contact by a player",
+          "penalty for non-contact behavior"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Choose the correct meaning of “backcourt violation”.",
+        "o": [
+          "double figures in two stats",
+          "illegal return into the backcourt",
+          "double figures in three stats",
+          "timer limiting a possession"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Choose the correct meaning of “restricted area”.",
+        "o": [
+          "illegal contact by a player",
+          "penalty for non-contact behavior",
+          "arc beneath the basket",
+          "unnecessary excessive contact"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Where are the Portland Trail Blazers based?",
+        "o": [
+          "Philadelphia",
+          "Phoenix",
+          "Sacramento",
+          "Portland"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Where are the Sacramento Kings based?",
+        "o": [
+          "Sacramento",
+          "New Orleans",
+          "New York",
+          "Oklahoma City"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Where are the San Antonio Spurs based?",
+        "o": [
+          "Dallas",
+          "San Antonio",
+          "Denver",
+          "Detroit"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Where are the Toronto Raptors based?",
+        "o": [
+          "New York",
+          "Oklahoma City",
+          "Toronto",
+          "Orlando"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Where are the Utah Jazz based?",
+        "o": [
+          "Orlando",
+          "Philadelphia",
+          "Phoenix",
+          "Salt Lake City"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Where are the Washington Wizards based?",
+        "o": [
+          "Washington, D.C.",
+          "Houston",
+          "Indianapolis",
+          "Los Angeles"
+        ],
+        "a": 0
+      },
+      {
+        "p": "How is “sixth player” defined in basketball?",
+        "o": [
+          "a shot released before time ends",
+          "a key reserve off the bench",
+          "illegal return into the backcourt",
+          "arc beneath the basket"
+        ],
+        "a": 1
+      },
+      {
+        "p": "How is “the paint” defined in basketball?",
+        "o": [
+          "gaining possession after a miss",
+          "taking the ball from an opponent",
+          "the lane area near the basket",
+          "deflecting an attempted shot"
+        ],
+        "a": 2
+      },
+      {
+        "p": "How is “buzzer-beater” defined in basketball?",
+        "o": [
+          "air pass finished at the rim",
+          "a key reserve off the bench",
+          "the lane area near the basket",
+          "a shot released before time ends"
+        ],
+        "a": 3
+      },
+      {
+        "p": "How is “backcourt violation” defined in basketball?",
+        "o": [
+          "illegal return into the backcourt",
+          "double figures in three stats",
+          "timer limiting a possession",
+          "illegal movement without dribbling"
+        ],
+        "a": 0
+      },
+      {
+        "p": "How is “restricted area” defined in basketball?",
+        "o": [
+          "a shot released before time ends",
+          "arc beneath the basket",
+          "illegal return into the backcourt",
+          "a basket during live play"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The Portland Trail Blazers play for which home market?",
+        "o": [
+          "Salt Lake City",
+          "Washington, D.C.",
+          "Portland",
+          "Atlanta"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The Sacramento Kings play for which home market?",
+        "o": [
+          "Salt Lake City",
+          "Washington, D.C.",
+          "Atlanta",
+          "Sacramento"
+        ],
+        "a": 3
+      },
+      {
+        "p": "The San Antonio Spurs play for which home market?",
+        "o": [
+          "San Antonio",
+          "New Orleans",
+          "New York",
+          "Oklahoma City"
+        ],
+        "a": 0
+      },
+      {
+        "p": "The Toronto Raptors play for which home market?",
+        "o": [
+          "Boston",
+          "Toronto",
+          "Brooklyn",
+          "Charlotte"
+        ],
+        "a": 1
+      },
+      {
+        "p": "The Utah Jazz play for which home market?",
+        "o": [
+          "Cleveland",
+          "Dallas",
+          "Salt Lake City",
+          "Denver"
+        ],
+        "a": 2
+      },
+      {
+        "p": "The Washington Wizards play for which home market?",
+        "o": [
+          "San Antonio",
+          "Toronto",
+          "Salt Lake City",
+          "Washington, D.C."
+        ],
+        "a": 3
+      },
+      {
+        "p": "What does a coach mean by “sixth player”?",
+        "o": [
+          "a key reserve off the bench",
+          "illegal contact with a shot",
+          "illegal contact by a player",
+          "penalty for non-contact behavior"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What does a coach mean by “the paint”?",
+        "o": [
+          "unnecessary excessive contact",
+          "the lane area near the basket",
+          "a toss that starts live play",
+          "a quick attack before defense sets"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What does a coach mean by “buzzer-beater”?",
+        "o": [
+          "screen then move toward the rim",
+          "air pass finished at the rim",
+          "a shot released before time ends",
+          "a key reserve off the bench"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What does a coach mean by “backcourt violation”?",
+        "o": [
+          "a shot beyond the three arc",
+          "a pass directly creating a basket",
+          "gaining possession after a miss",
+          "illegal return into the backcourt"
+        ],
+        "a": 3
+      }
+    ]
+  }
+}

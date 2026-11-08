@@ -1,0 +1,86 @@
+{
+  "gameId": "retro-hoops",
+  "build": "character-v8-local",
+  "assets": "8.0.0",
+  "rules": "2.0.0",
+  "request": "A more substantial Street Hoop reference-led art reconstruction after incremental versions failed to satisfy the user",
+  "targetConfirmedByUser": "Street Hoop reference game/video, not the separate Hoop Duel game",
+  "changes": [
+    "Basketball-specific lower ready stance with forward-carried hands and compact neck construction.",
+    "Authored hip/chest/limb construction for full running, defensive and action families; loose shorts and broad cloth shading.",
+    "90x80 native artwork grid uniformly exported into the existing 144x128 coordinate contract; no anatomy stretching.",
+    "Coordinated coarse-grid dynamic near arm, sleeve palette and anchored shoulder.",
+    "Dunk gather body and supporting hand meet the authoritative existing low/raised ball anchors.",
+    "Selection arrow follows pose-specific head height in both renderers.",
+    "Original crowd illustrations with seated/standing silhouettes, clothing/skin/cap variants, sparse cheering and one exhibition booth.",
+    "Asphalt texture revised; court markings, physics, AI, blue/red kits and fullscreen joystick unchanged."
+  ],
+  "checks": {
+    "rulesInputAndIntegrationTests": 86,
+    "assetIntegrity": 9,
+    "productionActionLoops": 16,
+    "decodedVideos": 16,
+    "sameSimulationBeforeAfterScenarios": 16,
+    "mobileLifecycle": 12,
+    "teamScenarios": 6,
+    "galleryCombinations": 12,
+    "hostFlow": 6,
+    "lint": "passed",
+    "typecheck": "passed",
+    "staticBuild": "passed"
+  },
+  "pack": {
+    "frameEntries": 2276,
+    "distinctPixelFrames": 1210,
+    "nativeArtwork": [
+      90,
+      80
+    ],
+    "export": [
+      144,
+      128
+    ],
+    "uniformExportScale": 1.6,
+    "referenceRasterInputs": 0,
+    "previousPackPreserved": true
+  },
+  "review": {
+    "structural": "passed",
+    "visual": "Rebuilt pose/scene comparisons and contact sequences inspected; exact source fidelity remains incomplete",
+    "sourceLikenessApproved": false,
+    "exactLikenessAchieved": false,
+    "nativeTimingRecovered": false,
+    "physicalDeviceTested": false,
+    "inspected": [
+      "Supplied source frame 0067, isolated ready stances and first-possession overview",
+      "V7/V8 body families in both kits and running directions",
+      "Actual production dribble and corrected dunk-gather frames",
+      "Production pass and dunk contact sheets",
+      "Native and enlarged side/front/back inspector captures",
+      "Final mobile fullscreen joystick capture"
+    ],
+    "limitations": [
+      "Source and production poses, camera and court depth are not precisely aligned.",
+      "Native source animation cadence, continuous ball-raise timing and hidden algorithms remain unresolved.",
+      "All teammates in a kit still share the same authored athlete construction; source-specific individual identities are not reconstructed.",
+      "Environment artwork is an original stylised reconstruction rather than commercial scenery.",
+      "Physical Android/iPhone performance remains untested."
+    ]
+  },
+  "hashes": {
+    "scripts/retro_hoops_character.py": "7fe6ede720fe766742ca08c2f14a014a53a6fe7c4365b435cea36fbed581db09",
+    "scripts/build-retro-hoops-authored.py": "de8a442d0cf95b5b3e30e4864fdec8e434b92e92f3b7491c29bb2a7c7f5f378c",
+    "src/features/games/retro-hoops/contact-arm.ts": "2695e5a1297d680f1f7de960a5c79520d6f49d73a566f2d01970afba7bcd2c7a",
+    "src/features/games/retro-hoops/court.ts": "689f451874fbe2395315cf6b354d73549a2d26af3cce2262a2095909cd8deb4f",
+    "src/features/games/retro-hoops/crowd.ts": "cc9dd109099550b812637914f648f0c57167f876bbc3741e057884d611770462",
+    "src/features/games/retro-hoops/presentation.ts": "f3ad2102d8752bba6590ce5d8cacce3d1f6ea38acb79848c72273b7841f1a7be",
+    "src/features/games/retro-hoops/renderer.ts": "464b2b888fa013462c35438b91caad84b37978f22eaf27e0fc6b70e4762e4ea4",
+    "public/embedded-games/retro-hoops/index.html": "b0731e897d349c40d3a5f67ee32c944313a177a3ed181e1e5b940f6ee7028264"
+  },
+  "release": {
+    "localOnly": true,
+    "pushed": false,
+    "published": false,
+    "pipelineActivated": false
+  }
+}

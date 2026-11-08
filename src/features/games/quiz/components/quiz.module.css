@@ -1,0 +1,379 @@
+/*
+ * Motion and pseudo-state only. Every colour, size and space in the quiz comes
+ * from the token layer or a Tailwind utility built on it; what lives here is
+ * what a style attribute cannot express.
+ *
+ * `backwards`, never `both`, on anything that animates a transform: a forwards
+ * fill keeps the animation in effect indefinitely, which leaves the transform
+ * applied and turns the element into a containing block that anything
+ * positioned `fixed` inside it would anchor to instead of the viewport.
+ */
+
+/* ---- Entrances ---------------------------------------------------------- */
+
+/** The hero slides up as the lobby opens. */
+.riseIn {
+  animation: rise-in 420ms cubic-bezier(0.33, 1, 0.68, 1) backwards;
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/**
+ * Mode tiles are dealt in, staggered by a per-element `--enter-delay`. The app
+ * flies each card in over 540ms on a 75ms stagger and settles it with a slight
+ * overshoot; one keyframe with a real delay is the same beat with nothing to
+ * dispose.
+ */
+.dealIn {
+  animation: deal-in 540ms cubic-bezier(0.34, 1.4, 0.64, 1) backwards;
+  animation-delay: var(--enter-delay, 0ms);
+}
+
+@keyframes deal-in {
+  from {
+    opacity: 0;
+    transform: translateX(-64px) scale(0.92);
+  }
+  45% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/** The reveal's beats arrive one after another down the page. */
+.revealIn {
+  animation: rise-in 420ms cubic-bezier(0.33, 1, 0.68, 1) backwards;
+  animation-delay: var(--enter-delay, 0ms);
+}
+
+/** A question replaces the last one rather than mutating in place. */
+.questionIn {
+  animation: question-in 240ms cubic-bezier(0.33, 1, 0.68, 1) backwards;
+}
+
+@keyframes question-in {
+  from {
+    opacity: 0;
+    transform: translateX(5%);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/** A mastery star stamps down from oversized onto its plate. */
+.stamp {
+  animation: stamp 320ms cubic-bezier(0.33, 1, 0.68, 1) backwards;
+  animation-delay: var(--enter-delay, 0ms);
+}
+
+@keyframes stamp {
+  from {
+    transform: scale(2.1);
+  }
+  to {
+    transform: none;
+  }
+}
+
+/* ---- SIGNAL LOCK -------------------------------------------------------- */
+
+/*
+ * One 700ms timeline, sliced three ways, exactly as the app runs it from a
+ * single controller:
+ *
+ *   0.00 → 0.30  SCAN    a cyan line sweeps the option stack. Identical for
+ *                        right and wrong, so it gives nothing away.
+ *   0.30 → 0.62  IMPACT  correct → chevrons and a self-drawing trace;
+ *                        wrong    → the panel tears.
+ *   0.62 → 1.00  BOOT    (wrong only) the real answer powers on.
+ */
+
+/** Beat 0 — a 2px line with a soft tail, travelling top to bottom. */
+.scan {
+  animation: scan 210ms linear both;
+}
+
+/* `top` rather than a transform: a percentage translate would resolve against
+   the line's own height, and an animated transform would make the stack a
+   containing block for anything positioned inside it. */
+@keyframes scan {
+  from {
+    top: -24px;
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  to {
+    top: 100%;
+    opacity: 0;
+  }
+}
+
+/**
+ * Beat 1, correct — a stroke that runs the tile perimeter from the letter
+ * badge, then flashes once it closes. The dash offset is the whole perimeter,
+ * so the line draws itself rather than fading in.
+ */
+.trace {
+  animation: trace 280ms cubic-bezier(0.33, 1, 0.68, 1) 210ms backwards;
+}
+
+@keyframes trace {
+  from {
+    stroke-dashoffset: var(--trace-length, 1000);
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.traceFlash {
+  animation: trace-flash 220ms ease-out 460ms backwards;
+  opacity: 0;
+}
+
+@keyframes trace-flash {
+  from {
+    opacity: 0.5;
+    filter: blur(6px);
+  }
+  to {
+    opacity: 0;
+    filter: blur(0);
+  }
+}
+
+/** Chevrons sweep across the tile at the chamfer angle, brightest in front. */
+.chevrons {
+  animation: chevrons 380ms cubic-bezier(0.33, 1, 0.68, 1) 210ms backwards;
+  opacity: 0;
+}
+
+@keyframes chevrons {
+  from {
+    transform: translateX(-20%);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(120%);
+    opacity: 0;
+  }
+}
+
+/**
+ * Beat 1, wrong — three hard cycles, decaying. A square wave rather than a sine
+ * so it reads as a mechanical fault instead of a wobble.
+ */
+.tear {
+  animation: tear 224ms steps(1, end) 210ms backwards;
+}
+
+@keyframes tear {
+  0% {
+    transform: translateX(4px);
+  }
+  16.6% {
+    transform: translateX(-3.4px);
+  }
+  33.3% {
+    transform: translateX(2.7px);
+  }
+  50% {
+    transform: translateX(-2px);
+  }
+  66.6% {
+    transform: translateX(1.4px);
+  }
+  83.3% {
+    transform: translateX(-0.7px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+/** The displaced ghost bands and RGB split painted over the torn panel. */
+.glitch {
+  animation: glitch 224ms steps(1, end) 210ms backwards;
+  opacity: 0;
+}
+
+@keyframes glitch {
+  0% {
+    opacity: 1;
+    transform: translateX(9px);
+  }
+  16.6% {
+    opacity: 0.85;
+    transform: translateX(-7.5px);
+  }
+  33.3% {
+    opacity: 0.7;
+    transform: translateX(6px);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateX(-4.5px);
+  }
+  66.6% {
+    opacity: 0.34;
+    transform: translateX(3px);
+  }
+  83.3% {
+    opacity: 0.17;
+    transform: translateX(-1.5px);
+  }
+  100% {
+    opacity: 0;
+    transform: none;
+  }
+}
+
+/** Beat 2 — the answer key powers on once the tear has settled. */
+.bootIn {
+  animation: boot-in 240ms ease-out 434ms backwards;
+}
+
+@keyframes boot-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/** The broken-neon flicker on the wrong pick, through the impact beat. */
+.flicker {
+  animation: flicker 224ms steps(1, end) 210ms backwards;
+}
+
+@keyframes flicker {
+  0%,
+  20%,
+  40%,
+  60%,
+  80% {
+    opacity: 0.55;
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90%,
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ---- The charging NEXT button -------------------------------------------- */
+
+/**
+ * The focal half of the button, revealed left to right over the auto-advance
+ * window. When it tops up the next question is dealt, so this doubles as the
+ * timer — which is why the fill is what the player watches.
+ */
+.charge {
+  animation: charge 3s linear both;
+}
+
+@keyframes charge {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+.chargeEdge {
+  animation: charge-edge 3s linear both;
+}
+
+@keyframes charge-edge {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100%;
+  }
+}
+
+/* ---- Interactive chrome -------------------------------------------------- */
+
+.pressable {
+  transition:
+    transform 150ms ease-out,
+    border-color 150ms ease-out;
+}
+
+.pressable:hover {
+  transform: translateY(-1px);
+}
+
+.pressable:active {
+  transform: translateY(0);
+}
+
+/** An option dips fractionally under the finger, as the app's tiles do. */
+.optionPress:active:not(:disabled) {
+  transform: scale(0.985);
+}
+
+/*
+ * Reduced motion flattens the lot. The app checks `disableAnimations` at every
+ * one of these beats and skips straight to the resolved state; the verdict
+ * still lands, it simply does not perform.
+ */
+@media (prefers-reduced-motion: reduce) {
+  .riseIn,
+  .dealIn,
+  .revealIn,
+  .questionIn,
+  .stamp,
+  .scan,
+  .trace,
+  .traceFlash,
+  .chevrons,
+  .tear,
+  .glitch,
+  .bootIn,
+  .flicker,
+  .charge,
+  .chargeEdge {
+    animation: none;
+  }
+
+  .scan,
+  .chevrons,
+  .glitch,
+  .traceFlash {
+    display: none;
+  }
+
+  .charge {
+    clip-path: inset(0 0 0 0);
+  }
+
+  .pressable:hover {
+    transform: none;
+  }
+}

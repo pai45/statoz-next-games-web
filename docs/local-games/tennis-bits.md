@@ -1,0 +1,9 @@
+# Tennis Bits
+
+Play `/play/tennis-bits`. Original Unity6000.3.13f1 WASM, data, decoded framework and all 752 exact Addressable bundles named by the preserved catalogue are preserved under `public/games/tennis-bits/originals`; the reproducible builder verifies their hashes and writes `native/`. Its separate `local-policy.json` identifies the one copied host-policy method change. SDK initialization/data/device information are authored local adapters, not a remote authenticated provider identity.
+
+Use the native directional controls or arrow keys; the original tutorial teaches movement, charging, serving and return timing. Native CPU tennis, points and earned local progression remain original. Ad/purchase/provider-account services are unavailable and grant no fabricated reward. Local storage is bridged to the host account; Unity IndexedDB names include game and account. `native-frame-gate.js` freezes native callbacks/audio and clears held keys during host pause/dispose.
+
+The game-owned optional export library contains all previously recovered mesh/rig/material/clip/texture exports and 78 decoded audio files. It lives in `.local-game-assets/tennis-bits`, indexed at `games/tennis-bits/dissection/manifest.json`. These remain original-owner local references. No original C# project or art-authoring files were recovered. [Shared checks and limits](README.md).
+
+The final closure pass acquired 660 additional declared bundles (20,549,463 bytes), including dynamically requested voices/music. No named catalogue bundle remains missing. See `tennis-catalog-first-acquisition.json` and `tennis-catalog-closure.json`. The browser check completes the native result/reward flow, tests real frame pause/resume, SDK data persistence/reload and account isolation while blocking external traffic. Automated play may lose; the test never awards itself an item.

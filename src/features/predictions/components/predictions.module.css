@@ -1,0 +1,951 @@
+/*
+ * The PREDICT tab: the quiz-set hub, the one-question-at-a-time flow, the
+ * review cards with their crowd votes, and the two docks that end them.
+ *
+ * Motion and pseudo-state only — layout is Tailwind and colour comes from the
+ * token variables the components pass in.
+ */
+
+.display,
+.hubTag,
+.hubTitle,
+.rewardPill,
+.contestChip,
+.hubCta,
+.indexPlate,
+.lockLine,
+.xpPot,
+.allQuizzes,
+.questionIndex,
+.optionLetter,
+.optionLabel,
+.boostChip,
+.xpPill,
+.dockHelper,
+.pagerButton,
+.reviewIndex,
+.reviewPickLabel,
+.pollMeta,
+.lockDockLabel,
+.noticeLabel {
+  font-family: var(--ds-font-display);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: .08em;
+}
+
+.tabular { font-variant-numeric: tabular-nums; }
+
+/* ---- Fullscreen quiz shell ------------------------------------------------ */
+
+.fullscreenViewport {
+  display: flex;
+  width: 100%;
+  height: 100dvh;
+  min-height: 0;
+  flex-direction: column;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 28%, color-mix(in srgb, var(--ds-color-accent-blue) 10%, transparent), transparent 42%),
+    var(--ds-color-background-primary);
+}
+
+.quizTopBar { flex: none; }
+.quizTopBarInner {
+  display: flex;
+  width: min(100%, 960px);
+  height: 80px;
+  margin: 0 auto;
+  align-items: center;
+  padding: 16px 20px;
+}
+.quizBack {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  gap: 22px;
+  color: var(--ds-color-text-default);
+  font-size:var(--ds-size-p18);
+  font-weight:var(--ds-weight-bold);
+  text-decoration: none;
+  transition: color 150ms ease;
+}
+.quizBack svg { color: var(--ds-color-text-subtle); }
+.quizBack:hover { color: var(--ds-color-accent-cyan); }
+
+.quizFixture {
+  width: min(100%, 760px);
+  flex: none;
+  margin: 0 auto;
+  padding: 18px 20px 0;
+}
+.quizFixtureBracket {
+  --quiz-bracket: color-mix(in srgb, var(--ds-color-accent-cyan) 42%, transparent);
+  padding: 10px 8px 0;
+  background:
+    linear-gradient(var(--quiz-bracket), var(--quiz-bracket)) left top / 17px 1px no-repeat,
+    linear-gradient(var(--quiz-bracket), var(--quiz-bracket)) left top / 1px 17px no-repeat,
+    linear-gradient(var(--quiz-bracket), var(--quiz-bracket)) right top / 17px 1px no-repeat,
+    linear-gradient(var(--quiz-bracket), var(--quiz-bracket)) right top / 1px 17px no-repeat;
+}
+.quizFixtureStatus {
+  display: block;
+  min-height: 18px;
+  text-align: center;
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p15);
+  font-weight:var(--ds-weight-black);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: .1em;
+}
+.quizFixtureTeams {
+  display: flex;
+  min-height: 66px;
+  align-items: center;
+  gap: 12px;
+}
+.quizTeamBadge {
+  position: relative;
+  display: grid;
+  width: 44px;
+  height: 44px;
+  flex: none;
+  place-items: center;
+  clip-path: polygon(10px 0, calc(100% - 5px) 0, 100% 5px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 5px 100%, 0 calc(100% - 5px), 0 10px);
+  background: color-mix(in srgb, var(--quiz-team-primary) 68%, var(--ds-color-text-default));
+  box-shadow: inset 0 -5px 0 color-mix(in srgb, var(--quiz-team-secondary) 72%, var(--ds-color-background-primary));
+  color: var(--quiz-team-ink);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p11);
+  font-weight:var(--ds-weight-black);
+}
+.quizTeamBadge::before {
+  position: absolute;
+  z-index: -1;
+  inset: 1px;
+  clip-path: inherit;
+  background: linear-gradient(145deg, var(--quiz-team-primary), var(--quiz-team-secondary));
+  content: "";
+}
+.quizTeamBadge > span { position: relative; }
+.quizTeamBadgeAway { transform: scaleX(-1); }
+.quizTeamBadgeAway > span { transform: scaleX(-1); }
+.quizTeamName {
+  min-width: 0;
+  flex: 1;
+  overflow: hidden;
+  font-size:var(--ds-size-p15);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.quizTeamNameAway { text-align: right; }
+.quizFixtureVs {
+  flex: none;
+  color: var(--ds-color-text-muted);
+  font-family: var(--ds-font-display);
+  font-weight:var(--ds-weight-black);
+}
+.quizFixtureSplit { display: flex; height: 4px; gap: 2px; }
+.quizFixtureSplit i { flex: 1; opacity: .92; }
+.quizRaceName {
+  display: block;
+  overflow: hidden;
+  padding: 14px 10px 16px;
+  text-align: center;
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p18);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fullscreenQuizBody {
+  width: min(100%, 760px);
+  min-height: 0;
+  flex: 1;
+  margin: 0 auto;
+}
+.fullscreenQuizBody > * { height: 100%; }
+.fullscreenQuizBody .questionStage {
+  display: grid;
+  width: 100%;
+  min-height: 230px;
+  flex: 1;
+  align-items: center;
+}
+.fullscreenQuizBody .questionStage { max-width: 640px; margin-inline: auto; }
+.fullscreenQuizBody .dock { width: min(100%, 720px); margin-inline: auto; }
+
+/* ---- Quiz-set hub ---------------------------------------------------------- */
+
+/* Cards sit at their own height; a stretched cell would show its offset edge
+   above the frame instead of below it. */
+.hubList { display: grid; grid-template-columns: minmax(0, 1fr); align-items: start; gap: 22px; }
+
+.hubCard {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  isolation: isolate;
+}
+
+.hubCard:disabled { cursor: not-allowed; }
+
+/* The hard, un-blurred offset edge that reads as elevation. */
+.hubShadow {
+  position: absolute;
+  z-index: -1;
+  inset: 6px 0 -6px 0;
+  background: color-mix(in srgb, var(--hub-accent) 30%, var(--ds-color-fixture-shadow));
+  clip-path: var(--ds-clip-compact-hud);
+}
+
+.hubFrame {
+  position: relative;
+  display: flex;
+  min-height: 84px;
+  gap: 12px;
+  padding: 12px 12px 13px;
+  clip-path: var(--ds-clip-compact-hud);
+  background:
+    linear-gradient(135deg,
+      color-mix(in srgb, var(--home-color) 16%, var(--ds-color-background-quiz-hub)),
+      color-mix(in srgb, var(--away-color) 16%, var(--ds-color-background-quiz-hub)));
+  background: color-mix(in srgb, var(--hub-accent) 40%, transparent);
+}
+
+/* The reward-reveal moment is the one card that breathes — and the only glow. */
+.hubFrame::before {
+  position: absolute;
+  z-index: 0;
+  inset: 1px;
+  clip-path: var(--ds-clip-compact-hud);
+  background:
+    linear-gradient(135deg,
+      color-mix(in srgb, var(--home-color) 16%, var(--ds-color-background-quiz-hub)),
+      color-mix(in srgb, var(--away-color) 16%, var(--ds-color-background-quiz-hub)));
+  content: "";
+}
+
+.hubFrame > * { position: relative; z-index: 1; }
+
+.hubGlow .hubFrame { background: color-mix(in srgb, var(--hub-accent) 60%, transparent); }
+.hubGlow { animation: hubBreathe 2.8s ease-in-out infinite; }
+
+@keyframes hubBreathe {
+  0%, 100% { filter: drop-shadow(0 0 12px color-mix(in srgb, var(--hub-accent) 18%, transparent)); }
+  50% { filter: drop-shadow(0 0 22px color-mix(in srgb, var(--hub-accent) 40%, transparent)); }
+}
+
+.hubBlocked .hubFrame { filter: saturate(.5) brightness(.86); }
+
+.hubCard:hover:not(:disabled) .hubFrame { filter: brightness(1.06); }
+.hubCard:focus-visible { outline: 2px solid var(--hub-accent); outline-offset: 2px; }
+
+.indexPlate {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  flex: none;
+  place-items: center;
+  clip-path: polygon(8px 0, calc(100% - 2px) 0, 100% 2px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 2px 100%, 0 calc(100% - 2px), 0 8px);
+  background: color-mix(in srgb, var(--hub-accent) 16%, transparent);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--hub-accent) 60%, transparent);
+  color: var(--hub-accent);
+  font-size:var(--ds-size-p15);
+  letter-spacing: 0;
+}
+
+.hubTag { color: var(--hub-accent); font-size:var(--ds-size-p8_5); letter-spacing: .16em; }
+.hubTitle { margin: 4px 0 0; color: var(--ds-color-text-default); font-size:var(--ds-size-p14_5); line-height: 1.2; }
+.hubSubtitle { margin: 6px 0 0; color: var(--ds-color-text-muted); font-family: var(--ds-font-body); font-size:var(--ds-size-p11_5); font-weight:var(--ds-weight-regular); letter-spacing: 0; }
+
+.rewardPill {
+  flex: none;
+  padding: 4px 8px;
+  border: 1px solid color-mix(in srgb, var(--pill-color) 50%, transparent);
+  background: color-mix(in srgb, var(--pill-color) 12%, transparent);
+  color: var(--pill-color);
+  font-size:var(--ds-size-p9);
+  letter-spacing: .06em;
+}
+
+.contestStrip { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 9px; }
+.contestChip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3.5px 7px;
+  border: 1px solid color-mix(in srgb, var(--chip-color) 45%, transparent);
+  background: color-mix(in srgb, var(--chip-color) 10%, transparent);
+  color: var(--chip-color);
+  font-size:var(--ds-size-p8_5);
+  letter-spacing: .08em;
+}
+.contestChipFilled { background: color-mix(in srgb, var(--chip-color) 18%, transparent); }
+
+.hubTrack {
+  height: 6px;
+  margin-top: 11px;
+  background: rgb(0 0 0 / 35%);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--hub-accent) 22%, transparent);
+}
+.hubTrack i { display: block; height: 100%; background: var(--track-accent); transition: width 240ms ease-out; }
+
+.hubDivider {
+  height: 1px;
+  margin: 10px 0 9px;
+  background: linear-gradient(to right, transparent, color-mix(in srgb, var(--hub-accent) 62%, transparent), transparent);
+}
+
+.hubCta { display: flex; align-items: center; gap: 6px; color: var(--hub-accent); font-size:var(--ds-size-p9); letter-spacing: .1em; }
+.hubCtaText { overflow: hidden; flex: 1; text-overflow: ellipsis; white-space: nowrap; }
+.hubGlow .hubCtaText { text-shadow: 0 0 10px color-mix(in srgb, var(--hub-accent) 50%, transparent); }
+
+.chevronChip {
+  display: grid;
+  width: 26px;
+  height: 26px;
+  flex: none;
+  place-items: center;
+  clip-path: polygon(6px 0, calc(100% - 2px) 0, 100% 2px, 100% calc(100% - 6px), calc(100% - 6px) 100%, 2px 100%, 0 calc(100% - 2px), 0 6px);
+  background: color-mix(in srgb, var(--hub-accent) 14%, transparent);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--hub-accent) 55%, transparent);
+}
+
+.outcomeDots { display: flex; flex: none; gap: 4px; }
+.outcomeDot {
+  display: grid;
+  width: 13px;
+  height: 13px;
+  place-items: center;
+  border: 1px solid color-mix(in srgb, var(--dot-color) 55%, transparent);
+  background: color-mix(in srgb, var(--dot-color) 12%, transparent);
+  color: var(--dot-color);
+}
+
+.blockedNote {
+  margin-top: 10px;
+  color: var(--ds-color-text-muted);
+  font-family: var(--ds-font-body);
+  font-size:var(--ds-size-p11);
+}
+
+/* ---- Flow chrome ----------------------------------------------------------- */
+
+.flow { display: flex; min-height: 0; height: 100%; flex-direction: column; }
+/* The Match Circle bar floats over the frame on a phone; the scroll and the
+   docks below leave it room rather than running under it. */
+/* The scroll rides above the backdrop art. */
+.flowScroll {
+  position: relative;
+  z-index: 1;
+  min-height: 0;
+  flex: 1;
+  padding-bottom: calc(92px + env(safe-area-inset-bottom));
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  scrollbar-color: var(--ds-color-border-strong) transparent;
+}
+/* A docked flow hands the clearance to its dock; an undocked one keeps it. */
+.flow > .flowScroll { padding-bottom: 12px; }
+.flow > .flowScroll:last-child { padding-bottom: calc(92px + env(safe-area-inset-bottom)); }
+
+.lockLine { display: flex; align-items: center; justify-content: center; gap: 6px; padding: 12px 20px 2px; font-size:var(--ds-size-p11); letter-spacing: .14em; }
+.lockLineStack { display: grid; justify-items: center; gap: 7px; padding: 12px 20px 2px; }
+
+.xpPot { display: inline-flex; align-items: center; gap: 5px; color: var(--ds-color-text-muted); font-size:var(--ds-size-p9); letter-spacing: .14em; }
+.xpPotValue { color: var(--ds-color-accent-gold); font-size:var(--ds-size-p12); letter-spacing: .06em; transition: transform 140ms ease-out; }
+.xpPotBump { transform: scale(1.2); }
+
+.allQuizzes {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 10px 0 0 20px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--ds-color-accent-cyan);
+  font-size:var(--ds-size-p10);
+  letter-spacing: .12em;
+  cursor: pointer;
+}
+.allQuizzes:hover { color: var(--ds-color-text-default); }
+
+/* ---- One question ---------------------------------------------------------- */
+
+/* The panel sits 30px down so the numbered plate and the XP pill can ride its
+   top edge; that space is the stage's padding, not the panel's margin, which
+   would collapse through and take the plate with it. */
+/*
+ * The question, over its own art. The panel sits 30px down inside the stage so
+ * the numbered tab and the boost row can ride its top edge, exactly as the
+ * app's Stack positions them.
+ */
+.questionStage { position: relative; padding: 0 20px 12px; }
+.stageInner { position: relative; padding-top: 30px; }
+
+/* The art the question is asked over, dimmed under the whole flow. */
+.questionBackdrop {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: .5;
+  pointer-events: none;
+  animation: backdropIn 420ms ease-out both;
+}
+@keyframes backdropIn { from { opacity: 0; } to { opacity: .5; } }
+
+/* Over art the panel turns near-opaque rather than gradient, so the words keep
+   their contrast without hiding the picture. */
+.questionPanel {
+  position: relative;
+  z-index: 1;
+  padding: 28px 18px 18px;
+  border: 1px solid var(--ds-color-border-default);
+  background: linear-gradient(to bottom, var(--ds-color-background-secondary), var(--ds-color-background-primary));
+}
+.hasBackdrop .questionPanel { background: color-mix(in srgb, var(--ds-color-background-primary) 90%, transparent); }
+
+.questionIndex {
+  position: absolute;
+  z-index: 2;
+  top: 18px;
+  left: 14px;
+  display: grid;
+  width: 30px;
+  height: 30px;
+  place-items: center;
+  border: 1px solid var(--ds-color-border-default);
+  background: color-mix(in srgb, var(--ds-color-accent-cyan) 16%, transparent);
+  color: var(--ds-color-accent-cyan);
+  font-size:var(--ds-size-p15);
+  letter-spacing: 0;
+}
+
+.questionMeta { position: absolute; z-index: 2; top: 0; right: 0; display: flex; align-items: center; gap: 4px; }
+
+.questionText {
+  margin: 0;
+  color: var(--ds-color-text-default);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p16);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: .02em;
+  line-height: 1.25;
+}
+
+/* Words rise in one after another as the question lands. */
+.revealWord { display: inline-block; margin-right: 5px; animation: revealRise 420ms cubic-bezier(.22, 1, .36, 1) both; }
+@keyframes revealRise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+
+.optionList { display: grid; gap: 10px; margin-top: 16px; }
+.optionReveal { animation: revealRise 380ms cubic-bezier(.22, 1, .36, 1) both; }
+
+.optionTile {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 10px;
+  border: 1px solid var(--option-border, var(--ds-color-border-default));
+  background: var(--option-fill, var(--ds-color-background-elevated));
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 160ms ease, background 160ms ease, box-shadow 160ms ease;
+}
+.optionTile:disabled { cursor: default; }
+.optionTile:hover:not(:disabled) { border-color: color-mix(in srgb, var(--ds-color-accent-cyan) 60%, transparent); }
+.optionTile:focus-visible { outline: 2px solid var(--ds-color-accent-cyan); outline-offset: -2px; }
+
+.optionActive { border-width: 1.5px; border-color: var(--option-accent); background: color-mix(in srgb, var(--option-accent) 10%, var(--ds-color-background-elevated)); }
+.optionSelected { box-shadow: 0 0 14px color-mix(in srgb, var(--option-accent) 40%, transparent); }
+
+.optionLetter {
+  display: grid;
+  width: 28px;
+  height: 28px;
+  flex: none;
+  place-items: center;
+  border: 1px solid color-mix(in srgb, var(--option-accent, var(--ds-color-text-muted)) 60%, transparent);
+  background: var(--letter-fill, var(--ds-color-background-muted));
+  color: var(--option-accent, var(--ds-color-text-muted));
+  font-size:var(--ds-size-p13);
+  letter-spacing: 0;
+}
+.optionActive .optionLetter { background: color-mix(in srgb, var(--option-accent) 20%, transparent); }
+
+.optionLabel { flex: 1; color: var(--ds-color-text-subtle); font-size:var(--ds-size-p12_5); letter-spacing: .05em; }
+.optionActive .optionLabel { color: var(--ds-color-text-default); }
+
+/* Boost chips and the XP pill that rides the panel's top-right corner. */
+.boostRow { display: flex; align-items: center; gap: 8px; }
+.boostLabel { color: var(--ds-color-text-muted); font-size:var(--ds-size-p9); letter-spacing: .12em; }
+
+.boostChip {
+  display: inline-flex;
+  height: 30px;
+  align-items: center;
+  gap: 5px;
+  padding: 0 10px;
+  border: 1px solid color-mix(in srgb, var(--boost-accent) 45%, transparent);
+  background: var(--ds-color-background-elevated);
+  color: var(--boost-accent);
+  font-size:var(--ds-size-p11);
+  letter-spacing: 0;
+  cursor: pointer;
+  transition: transform 180ms cubic-bezier(.34, 1.56, .64, 1), border-color 180ms ease, background 180ms ease;
+}
+.boostChip:disabled { cursor: not-allowed; border-color: color-mix(in srgb, var(--boost-accent) 18%, transparent); color: color-mix(in srgb, var(--ds-color-text-muted) 55%, transparent); }
+.boostChipClaimed { border-color: var(--ds-color-border-default); background: var(--ds-color-background-primary); }
+.boostChipActive {
+  border-width: 1.5px;
+  border-color: var(--boost-accent);
+  background: color-mix(in srgb, var(--boost-accent) 22%, transparent);
+  color: var(--ds-color-text-default);
+  box-shadow: 0 0 12px color-mix(in srgb, var(--boost-accent) 35%, transparent);
+  animation: boostPop 360ms cubic-bezier(.34, 1.56, .64, 1);
+}
+@keyframes boostPop { 0% { transform: scale(1); } 45% { transform: scale(1.14); } 100% { transform: scale(1); } }
+.boostChip:focus-visible { outline: 2px solid var(--boost-accent); outline-offset: 2px; }
+
+.xpPill {
+  display: inline-flex;
+  height: 30px;
+  align-items: center;
+  gap: 4px;
+  padding: 0 10px;
+  background: linear-gradient(to right, var(--ds-color-accent-violet), color-mix(in srgb, var(--ds-color-accent-violet) 55%, var(--pill-accent)));
+  box-shadow: 0 0 12px color-mix(in srgb, var(--pill-accent) 45%, transparent);
+  color: var(--ds-color-text-default);
+  font-size:var(--ds-size-p13);
+  letter-spacing: 0;
+}
+.xpPill small { font-size:var(--ds-size-p10); letter-spacing: .05em; }
+.xpPill b { color: var(--pill-accent); font-size:var(--ds-size-p9); }
+
+/* ---- The score picker ------------------------------------------------------ */
+
+.scorePicker { display: grid; grid-template-columns: 1fr 1fr; height: 104px; margin-top: 24px; }
+.scoreHalf { display: flex; align-items: center; background: var(--half-color); }
+.scoreHalfAway { flex-direction: row-reverse; }
+.scoreName {
+  overflow: hidden;
+  flex: 1;
+  padding: 0 8px 0 16px;
+  color: var(--ds-color-text-default);
+  font-family: var(--ds-font-body);
+  font-size:var(--ds-size-p15);
+  font-weight:var(--ds-weight-bold);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.scoreHalfAway .scoreName { padding: 0 16px 0 8px; text-align: right; }
+
+.scoreControls { display: grid; justify-items: center; gap: 4px; padding: 0 12px; }
+.scoreValue { color: var(--ds-color-text-default); font-family: var(--ds-font-display); font-size:var(--ds-size-p30); font-weight:var(--ds-weight-black); font-variant-numeric: tabular-nums; }
+.scoreValueCorrect { color: var(--ds-color-success); }
+/* The stepper darkens its own half rather than taking a colour of its own. */
+.stepButton {
+  display: grid;
+  width: 28px;
+  height: 28px;
+  place-items: center;
+  border: 0;
+  background: color-mix(in srgb, var(--half-color) 62%, var(--ds-color-background-primary));
+  color: var(--ds-color-text-default);
+  cursor: pointer;
+}
+.stepButton:disabled { color: rgb(255 255 255 / 35%); cursor: not-allowed; opacity: .55; }
+.stepButton:focus-visible { outline: 2px solid var(--ds-color-accent-cyan); outline-offset: -2px; }
+
+.scoreVerdict { display: flex; align-items: center; gap: 8px; margin-top: 12px; font-family: var(--ds-font-display); font-size:var(--ds-size-p11); font-weight:var(--ds-weight-black); letter-spacing: .08em; }
+
+/* ---- The dock -------------------------------------------------------------- */
+
+.dock { flex: none; padding: 20px 16px calc(20px + 78px + env(safe-area-inset-bottom)); }
+.segments { display: flex; gap: 8px; }
+.segment { height: 5px; flex: 1; background: var(--ds-color-border-subtle); transition: background 200ms ease, box-shadow 200ms ease; }
+.segmentAnswered { background: var(--ds-color-accent-cyan); }
+.segmentCurrent { background: var(--ds-color-accent-gold); box-shadow: 0 0 8px color-mix(in srgb, var(--ds-color-accent-gold) 60%, transparent); }
+
+.pagerRow { display: flex; gap: 14px; margin-top: 14px; }
+.pagerButton {
+  display: flex;
+  min-height: 46px;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid var(--ds-color-border-strong);
+  background: var(--ds-color-background-elevated);
+  clip-path: var(--ds-clip-compact-hud);
+  color: var(--ds-color-text-subtle);
+  font-size:var(--ds-size-p11);
+  letter-spacing: .1em;
+  cursor: pointer;
+  transition: filter 150ms ease, transform 150ms ease;
+}
+.pagerFocal { border-color: transparent; background: var(--ds-color-accent-cyan); color: var(--ds-color-text-inverse); }
+.pagerButton:hover:not(:disabled) { filter: brightness(1.08); transform: translateY(-1px); }
+.pagerButton:disabled { cursor: not-allowed; background: var(--ds-color-background-muted); color: var(--ds-color-text-disabled); }
+.pagerButton:focus-visible { outline: 2px solid var(--ds-color-accent-cyan); outline-offset: 2px; }
+
+.dockHelper { margin: 12px 0 0; color: var(--ds-color-text-muted); font-family: var(--ds-font-body); font-size:var(--ds-size-p12); font-weight:var(--ds-weight-regular); letter-spacing: 0; text-align: center; }
+
+/* ---- Review ---------------------------------------------------------------- */
+
+.reviewList { display: grid; gap: 10px; padding: 0 20px 18px; }
+
+/* Separate the community signal plate from its first result card. */
+.communityReviewList { margin-top: var(--ds-space-16); }
+
+.reviewNotice {
+  margin: 14px 20px 0;
+  padding: 10px 12px;
+  border: 1px solid color-mix(in srgb, var(--ds-color-accent-cyan) 28%, transparent);
+  background: color-mix(in srgb, var(--ds-color-accent-cyan) 8%, transparent);
+  color: var(--ds-color-text-subtle);
+  font-size:var(--ds-size-p13);
+  text-align: center;
+}
+
+.reviewCard { border: 1px solid var(--ds-color-border-default); background: linear-gradient(to bottom, var(--ds-color-background-secondary), var(--ds-color-background-primary)); }
+.reviewHead { display: grid; width: 100%; padding: 12px 12px 11px; border: 0; background: none; text-align: left; cursor: pointer; }
+.reviewHead:disabled { cursor: default; }
+.reviewHead:focus-visible { outline: 2px solid var(--ds-color-accent-cyan); outline-offset: -2px; }
+
+.reviewIndex {
+  display: grid;
+  width: 30px;
+  height: 30px;
+  flex: none;
+  place-items: center;
+  border: 1px solid var(--ds-color-border-default);
+  background: color-mix(in srgb, var(--ds-color-accent-cyan) 14%, transparent);
+  color: var(--ds-color-accent-cyan);
+  font-size:var(--ds-size-p10);
+}
+
+.reviewQuestion { margin: 0; color: var(--ds-color-text-default); font-family: var(--ds-font-display); font-size:var(--ds-size-p13_5); font-weight:var(--ds-weight-black); letter-spacing: .02em; line-height: 1.25; }
+.reviewPickLabel { color: var(--ds-color-text-muted); font-size:var(--ds-size-p9); letter-spacing: .12em; }
+.reviewPickValue { overflow: hidden; flex: 1; font-family: var(--ds-font-body); font-size:var(--ds-size-p13); font-weight:var(--ds-weight-bold); text-overflow: ellipsis; white-space: nowrap; }
+
+.reviewBody { padding: 0 12px 12px; border-top: 1px solid var(--ds-color-border-subtle); margin-top: 0; }
+.reviewBodyInner { padding-top: 12px; }
+
+.multiplierBadge { padding: 4px 8px; border: 1px solid color-mix(in srgb, var(--badge-accent) 70%, transparent); background: color-mix(in srgb, var(--badge-accent) 14%, transparent); color: var(--badge-accent); font-family: var(--ds-font-display); font-size:var(--ds-size-p10); font-weight:var(--ds-weight-black); }
+
+.reviewChoice {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid var(--ds-color-border-default);
+  background: var(--ds-color-background-primary);
+  color: var(--ds-color-text-subtle);
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 160ms ease, background 160ms ease;
+}
+.reviewChoiceSelected { border-width: 1.5px; border-color: var(--ds-color-accent-cyan); background: color-mix(in srgb, var(--ds-color-accent-cyan) 12%, transparent); color: var(--ds-color-text-default); }
+.reviewChoice:focus-visible { outline: 2px solid var(--ds-color-accent-cyan); outline-offset: -2px; }
+
+.pollMeta { display: flex; align-items: center; justify-content: space-between; color: var(--ds-color-text-muted); font-size:var(--ds-size-p9); letter-spacing: .12em; }
+.pollRow { display: grid; gap: 5px; }
+.pollHead { display: flex; align-items: center; gap: 6px; font-family: var(--ds-font-body); font-size:var(--ds-size-p12); font-weight:var(--ds-weight-bold); }
+.pollTrack { height: 7px; background: rgb(0 0 0 / 35%); }
+.pollTrack i { display: block; height: 100%; background: var(--poll-accent); transition: width 720ms cubic-bezier(.22, 1, .36, 1); }
+
+/* ---- Docks that end a review ----------------------------------------------- */
+
+.lockDock { flex: none; padding: 10px 16px calc(12px + 78px + env(safe-area-inset-bottom)); border-top: 1px solid color-mix(in srgb, var(--ds-color-accent-cyan) 34%, transparent); background: var(--ds-color-background-nav); }
+.lockDockLabel { color: var(--ds-color-text-muted); font-size:var(--ds-size-p8); letter-spacing: .12em; }
+.lockCharge { display: flex; align-items: center; gap: 8px; margin: 8px 0; }
+.lockChargeTrack { height: 4px; flex: 1; background: rgb(0 0 0 / 35%); }
+.lockChargeTrack i { display: block; height: 100%; background: var(--ds-color-accent-cyan); }
+
+.holdButton {
+  display: grid;
+  width: 100%;
+  min-height: 58px;
+  place-items: center;
+  border: 1px solid var(--ds-color-accent-cyan);
+  background: color-mix(in srgb, var(--ds-color-accent-cyan) 14%, transparent);
+  clip-path: var(--ds-clip-compact-hud);
+  color: var(--ds-color-text-default);
+  cursor: pointer;
+  touch-action: none;
+  user-select: none;
+}
+.holdButton:disabled { cursor: progress; }
+.holdButton:focus-visible { outline: 2px solid var(--ds-color-accent-cyan); outline-offset: 2px; }
+.holdLabel { font-family: var(--ds-font-display); font-size:var(--ds-size-p13); font-weight:var(--ds-weight-black); letter-spacing: .12em; }
+.holdHelper { margin-top: 3px; color: var(--ds-color-text-muted); font-size:var(--ds-size-p10); letter-spacing: .1em; }
+
+.settleDock { flex: none; padding: 20px 16px calc(22px + 78px + env(safe-area-inset-bottom)); }
+
+/* ---- Overlays -------------------------------------------------------------- */
+
+.numberBurst {
+  position: absolute;
+  z-index: 4;
+  display: grid;
+  inset: 0;
+  place-items: center;
+  background: color-mix(in srgb, var(--ds-color-background-primary) 86%, transparent);
+  color: var(--ds-color-accent-lime);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p128);
+  font-weight:var(--ds-weight-black);
+  pointer-events: none;
+  text-shadow: 0 0 52px color-mix(in srgb, var(--ds-color-accent-lime) 70%, transparent), 0 0 80px color-mix(in srgb, var(--ds-color-accent-cyan) 40%, transparent);
+  animation: numberBurst 900ms ease-out forwards;
+}
+@keyframes numberBurst {
+  0% { opacity: 1; transform: scale(2); }
+  25% { opacity: 1; transform: scale(1); }
+  82% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(1.18); }
+}
+
+.overlay {
+  position: absolute;
+  z-index: 6;
+  display: grid;
+  inset: 0;
+  place-items: center;
+  padding: 24px;
+  background: color-mix(in srgb, var(--ds-color-background-primary) 92%, transparent);
+  text-align: center;
+}
+
+/* ---- The seal ---------------------------------------------------------------
+ *
+ * The lock moment, on the app's 4.5s clock. Each beat is a keyframe delay off
+ * the same start, so the sequence needs no driver.
+ */
+
+.lockOverlay { align-content: center; gap: 0; animation: lockScrim 4500ms both; }
+@keyframes lockScrim { 0%, 86% { opacity: 1; } 100% { opacity: 0; } }
+
+.sealSlot {
+  position: relative;
+  display: grid;
+  width: 240px;
+  height: 240px;
+  place-items: center;
+  animation: sealPop 810ms cubic-bezier(.18, 1.5, .4, 1) both;
+}
+@keyframes sealPop { from { transform: scale(0); } }
+
+/* The flash the plate lands on. */
+.sealFlash {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--ds-color-accent-cyan) 70%, transparent), transparent 70%);
+  animation: sealFlash 450ms ease-out both;
+}
+@keyframes sealFlash { from { opacity: .65; } to { opacity: 0; } }
+
+/* One confirm ring, expanding once. */
+.sealPulse {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border: 2px solid color-mix(in srgb, var(--ds-color-accent-cyan) 60%, transparent);
+  border-radius: 50%;
+  animation: sealPulse 1080ms 270ms ease-out both;
+}
+@keyframes sealPulse {
+  from { opacity: .7; transform: scale(.45); }
+  to { opacity: 0; transform: scale(1.7); }
+}
+
+.sealArt { position: absolute; width: 240px; height: 240px; overflow: visible; }
+
+.sealPlate {
+  stroke: color-mix(in srgb, var(--ds-color-accent-cyan) 85%, transparent);
+  stroke-width: 2;
+  filter: drop-shadow(0 0 18px color-mix(in srgb, var(--ds-color-accent-cyan) 45%, transparent));
+}
+
+.sealBracket {
+  fill: none;
+  stroke: color-mix(in srgb, var(--ds-color-accent-cyan) 55%, transparent);
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+
+.sealTrack { fill: none; stroke: color-mix(in srgb, var(--ds-color-accent-cyan) 12%, transparent); stroke-width: 1; }
+
+/* The arc sweeps the ring, then rests as the closed ring. */
+.sealSweep {
+  fill: none;
+  stroke: color-mix(in srgb, var(--ds-color-accent-cyan) 90%, transparent);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-dasharray: 452.4;
+  transform: rotate(-90deg);
+  transform-origin: 120px 120px;
+  filter: drop-shadow(0 0 4px color-mix(in srgb, var(--ds-color-accent-cyan) 70%, transparent));
+  animation: sealSweep 1530ms 360ms cubic-bezier(.22, 1, .36, 1) both;
+}
+@keyframes sealSweep { from { stroke-dashoffset: 452.4; } to { stroke-dashoffset: 0; } }
+
+/* The check draws itself in. */
+.sealCheck {
+  fill: none;
+  stroke: var(--ds-color-text-default);
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 62;
+  filter: drop-shadow(0 0 6px color-mix(in srgb, var(--ds-color-accent-cyan) 60%, transparent));
+  animation: sealCheck 810ms 810ms cubic-bezier(.22, 1, .36, 1) both;
+}
+@keyframes sealCheck { from { stroke-dashoffset: 62; } to { stroke-dashoffset: 0; } }
+
+.lockCopy { display: grid; justify-items: center; margin-top: 26px; }
+
+/* The headline resolves a letter at a time. */
+.lockHeadline {
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  color: var(--ds-color-text-default);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p22);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: .07em;
+  text-shadow: 0 0 14px color-mix(in srgb, var(--ds-color-accent-cyan) 55%, transparent);
+}
+.lockHeadline span { animation: lockLetter 420ms cubic-bezier(.22, 1, .36, 1) both; }
+@keyframes lockLetter { from { opacity: 0; transform: translateY(10px); } }
+
+.lockSealed,
+.lockMeter,
+.lockXp { animation: lockCopyIn 540ms 810ms ease-out both; }
+@keyframes lockCopyIn { from { opacity: 0; } }
+
+.lockSealed { margin: 14px 0 0; color: var(--ds-color-text-muted); font-family: var(--ds-font-display); font-size:var(--ds-size-p11); font-weight:var(--ds-weight-black); letter-spacing: .2em; }
+
+.lockMeter { display: block; width: 188px; height: 6px; margin-top: 12px; background: color-mix(in srgb, var(--ds-color-background-primary) 70%, transparent); box-shadow: inset 0 0 0 1px var(--ds-color-border-default); }
+.lockMeter i { display: block; height: 100%; background: var(--ds-color-accent-gold); animation: lockCharge 1350ms 1080ms cubic-bezier(.3, 1, .5, 1) both; }
+@keyframes lockCharge { from { width: 0; } to { width: 100%; } }
+
+.lockXp { margin: 9px 0 0; color: var(--ds-color-accent-gold); font-family: var(--ds-font-display); font-size:var(--ds-size-p13); font-weight:var(--ds-weight-black); font-variant-numeric: tabular-nums; letter-spacing: .13em; }
+
+/* ---- Settlement reveal ----------------------------------------------------- */
+
+/* How the player did against the field, and where the XP left them. */
+.beatenLine { margin: 0; color: var(--ds-color-accent-cyan); font-family: var(--ds-font-display); font-size:var(--ds-size-p11); font-weight:var(--ds-weight-black); letter-spacing: .13em; text-align: center; }
+
+
+.revealSheet { display: grid; width: 100%; max-width: 460px; gap: 14px; text-align: left; }
+.revealHead { display: grid; gap: 4px; text-align: center; }
+.revealTitle { margin: 0; color: var(--ds-color-accent-gold); font-family: var(--ds-font-display); font-size:var(--ds-size-p20); font-weight:var(--ds-weight-black); letter-spacing: .12em; }
+.revealFixture { margin: 0; color: var(--ds-color-text-muted); font-size:var(--ds-size-p12); }
+
+.verdictList { display: grid; gap: 8px; max-height: 42vh; overflow-y: auto; }
+.verdictRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 10px;
+  border: 1px solid color-mix(in srgb, var(--verdict-accent) 40%, transparent);
+  background: color-mix(in srgb, var(--verdict-accent) 8%, var(--ds-color-background-secondary));
+  animation: revealRise 320ms cubic-bezier(.22, 1, .36, 1) both;
+}
+.verdictCopy { min-width: 0; flex: 1; }
+.verdictText { display: block; overflow: hidden; color: var(--ds-color-text-default); font-size:var(--ds-size-p12); font-weight:var(--ds-weight-bold); text-overflow: ellipsis; white-space: nowrap; }
+.verdictAnswer { display: block; margin-top: 2px; color: var(--ds-color-text-muted); font-size:var(--ds-size-p10); }
+.verdictStamp { flex: none; color: var(--verdict-accent); font-family: var(--ds-font-display); font-size:var(--ds-size-p11); font-weight:var(--ds-weight-black); font-variant-numeric: tabular-nums; }
+
+.revealTotals { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.revealCell { padding: 9px; border: 1px solid var(--ds-color-border-default); background: var(--ds-color-background-secondary); text-align: center; }
+.revealCell dt { color: var(--ds-color-text-muted); font-family: var(--ds-font-display); font-size:var(--ds-size-p8); font-weight:var(--ds-weight-black); letter-spacing: .12em; }
+.revealCell dd { margin: 4px 0 0; color: var(--cell-color, var(--ds-color-text-default)); font-family: var(--ds-font-display); font-size:var(--ds-size-p15); font-weight:var(--ds-weight-black); font-variant-numeric: tabular-nums; }
+
+.prizeBeat {
+  display: grid;
+  gap: 4px;
+  padding: 12px;
+  border: 1px solid color-mix(in srgb, var(--prize-accent) 55%, transparent);
+  background: color-mix(in srgb, var(--prize-accent) 12%, transparent);
+  text-align: center;
+}
+.prizeBeatWon { box-shadow: 0 0 26px color-mix(in srgb, var(--prize-accent) 30%, transparent); }
+
+.accuracyBar { height: 7px; background: rgb(0 0 0 / 35%); }
+.accuracyBar i { display: block; height: 100%; background: var(--ds-color-accent-cyan); transition: width 720ms cubic-bezier(.22, 1, .36, 1); }
+
+/* ---- Wider ------------------------------------------------------------- */
+
+@media (width >= 641px) {
+  .questionStage { max-width: 560px; margin: 0 auto; }
+}
+
+@media (width >= 1024px) {
+  /* The frame stops scrolling its own column at this width — the panels
+     grow instead, and the Match Circle bar joins the rail. */
+  .flow { height: auto; }
+  .flowScroll,
+  .flow > .flowScroll { min-height: 560px; height: auto; padding-bottom: 24px; overflow: visible; }
+  .dock { padding-bottom: 24px; }
+  .lockDock { padding-bottom: 14px; }
+  .settleDock { padding-bottom: 24px; }
+  .overlay { position: fixed; z-index: 60; }
+}
+
+@media (width >= 1024px) {
+  .fullscreenQuizBody .flow { height: 100%; }
+  .fullscreenQuizBody .flowScroll,
+  .fullscreenQuizBody .flow > .flowScroll {
+    min-height: 0;
+    height: auto;
+    padding-bottom: 12px;
+    overflow-y: auto;
+  }
+  .fullscreenQuizBody .dock { padding-bottom: 24px; }
+}
+
+@media (height <= 720px) {
+  .quizTopBarInner { height: 60px; padding-block: 6px; }
+  .quizFixture { padding-top: 6px; }
+  .quizFixtureTeams { min-height: 56px; }
+  .fullscreenQuizBody .questionStage { min-height: 190px; }
+  .fullscreenQuizBody .dock { padding-top: 12px; padding-bottom: calc(12px + env(safe-area-inset-bottom)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hubGlow,
+  .revealWord,
+  .optionReveal,
+  .numberBurst,
+  .sealSlot,
+  .sealFlash,
+  .sealPulse,
+  .sealSweep,
+  .sealCheck,
+  .lockOverlay,
+  .lockHeadline span,
+  .lockSealed,
+  .lockMeter,
+  .lockMeter i,
+  .lockXp,
+  .verdictRow,
+  .boostChipActive { animation: none; }
+  .numberBurst { display: none; }
+}

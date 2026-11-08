@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 160" role="img" aria-label="Creasefire Six"><title>Creasefire Six</title>
+<defs><linearGradient id="flame" x2="0" y2="1"><stop stop-color="#F7D36C"/><stop offset="1" stop-color="#CC4D43"/></linearGradient></defs>
+<path d="M28 121 57 31l31-16 18 25 18-25 31 16 37 90z" fill="#193B39" stroke="#EFC879" stroke-width="4"/>
+<path d="M45 113 70 41 91 29 108 53l20-24 16 12 30 72" fill="none" stroke="#4B9B76" stroke-width="2"/>
+<path d="M59 97c13-27 12-40 19-60 5 16 15 18 15 33 7-10 10-22 12-36 14 16 23 24 22 43 8-8 13-18 15-28 13 17 14 31 17 48" fill="url(#flame)" stroke="#F7D36C" stroke-width="2"/>
+<path d="M87 44h8v54h-8zm19-6h8v60h-8zm19 6h8v54h-8z" fill="#FFF0C1" stroke="#17333B" stroke-width="2"/>
+<path d="M82 44h57" stroke="#FFF0C1" stroke-width="5"/>
+<path d="m142 24 17 10-30 61-16-7z" fill="#DCA768" stroke="#FFF0C1" stroke-width="3"/>
+<path d="m139 30 6 4-26 53-5-3" fill="#F8DA9D"/>
+<circle cx="68" cy="84" r="13" fill="#C74846" stroke="#FFF0C1" stroke-width="2"/>
+<path d="M60 75q14 8 16 19" fill="none" stroke="#FFF0C1" stroke-width="2"/>
+<path d="M20 107h180v38H20z" fill="#234C49" stroke="#EFC879" stroke-width="4"/>
+<text x="110" y="134" text-anchor="middle" fill="#FFF0C1" stroke="#17343B" stroke-width="2" paint-order="stroke" font-family="Impact,Arial Black,sans-serif" font-size="17" font-weight="900" letter-spacing=".6">CREASEFIRE SIX</text></svg>

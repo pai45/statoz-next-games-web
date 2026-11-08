@@ -1,0 +1,5017 @@
+{
+  "sport": "tennis",
+  "mode": "global",
+  "version": 1,
+  "bands": {
+    "1": [
+      {
+        "p": "Which country hosts the Dubai Tennis Championships?",
+        "o": [
+          "United Arab Emirates",
+          "Qatar",
+          "Brazil",
+          "Mexico"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Zheng Qinwen represent?",
+        "o": [
+          "Ukraine",
+          "China",
+          "Tunisia",
+          "Czech Republic"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Wuhan Open?",
+        "o": [
+          "Australia",
+          "United Arab Emirates",
+          "China",
+          "Mexico"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1970 Davis Cup?",
+        "o": [
+          "Germany",
+          "France",
+          "Australia",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2008 Wimbledon men’s doubles title?",
+        "o": [
+          "Nestor and Zimonjić",
+          "Bob and Mike Bryan",
+          "Marray and Nielsen",
+          "Pospisil and Sock"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In tennis, what does “Sunshine Double” mean?",
+        "o": [
+          "winning Olympic gold and a major",
+          "winning Indian Wells and Miami",
+          "the French Open and Wimbledon",
+          "winning all four majors in a year"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Nick Kyrgios represent?",
+        "o": [
+          "Chile",
+          "Brazil",
+          "Australia",
+          "Cyprus"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country hosts the Qatar Open?",
+        "o": [
+          "Japan",
+          "China",
+          "Switzerland",
+          "Qatar"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Ons Jabeur represent?",
+        "o": [
+          "Tunisia",
+          "Canada",
+          "Ukraine",
+          "China"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country hosts the Guadalajara Open?",
+        "o": [
+          "China",
+          "Mexico",
+          "Qatar",
+          "United States"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which nation won the 1971 Davis Cup?",
+        "o": [
+          "France",
+          "Australia",
+          "United States",
+          "Sweden"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2009 Wimbledon men’s doubles title?",
+        "o": [
+          "Melzer and Petzschner",
+          "Bob and Mike Bryan",
+          "Marray and Nielsen",
+          "Nestor and Zimonjić"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In tennis, what does “Channel Slam” mean?",
+        "o": [
+          "the French Open and Wimbledon",
+          "winning Indian Wells and Miami",
+          "winning all four majors in a year",
+          "winning Olympic gold and a major"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Alex de Minaur represent?",
+        "o": [
+          "South Korea",
+          "Australia",
+          "Chile",
+          "Brazil"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Rio Open?",
+        "o": [
+          "Mexico",
+          "Japan",
+          "Brazil",
+          "China"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Karolína Muchová represent?",
+        "o": [
+          "Brazil",
+          "Canada",
+          "Ukraine",
+          "Czech Republic"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Doha Open?",
+        "o": [
+          "Qatar",
+          "Germany",
+          "Australia",
+          "United Arab Emirates"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1972 Davis Cup?",
+        "o": [
+          "Australia",
+          "United States",
+          "Sweden",
+          "Germany"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2010 Wimbledon men’s doubles title?",
+        "o": [
+          "Rojer and Tecău",
+          "Herbert and Mahut",
+          "Melzer and Petzschner",
+          "Kubot and Melo"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Cameron Norrie represent?",
+        "o": [
+          "Chile",
+          "Brazil",
+          "Cyprus",
+          "United Kingdom"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Mexican Open?",
+        "o": [
+          "Mexico",
+          "Qatar",
+          "Brazil",
+          "Japan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Jasmine Paolini represent?",
+        "o": [
+          "Canada",
+          "Italy",
+          "Ukraine",
+          "China"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Charleston Open?",
+        "o": [
+          "Germany",
+          "Australia",
+          "United States",
+          "United Arab Emirates"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1987 Davis Cup?",
+        "o": [
+          "Germany",
+          "France",
+          "Australia",
+          "Sweden"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2011 Wimbledon men’s doubles title?",
+        "o": [
+          "Bob and Mike Bryan",
+          "Rojer and Tecău",
+          "Herbert and Mahut",
+          "Kubot and Melo"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Jack Draper represent?",
+        "o": [
+          "Australia",
+          "United Kingdom",
+          "India",
+          "South Korea"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Japan Open?",
+        "o": [
+          "China",
+          "Switzerland",
+          "Japan",
+          "Austria"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Mirra Andreeva represent?",
+        "o": [
+          "Spain",
+          "Brazil",
+          "Canada",
+          "Russia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Bad Homburg Open?",
+        "o": [
+          "Germany",
+          "Mexico",
+          "Qatar",
+          "United States"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1988 Davis Cup?",
+        "o": [
+          "Australia",
+          "Germany",
+          "United States",
+          "Sweden"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2012 Wimbledon men’s doubles title?",
+        "o": [
+          "Herbert and Mahut",
+          "Kubot and Melo",
+          "Marray and Nielsen",
+          "Bryan and Sock"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Sumit Nagal represent?",
+        "o": [
+          "Brazil",
+          "Cyprus",
+          "Australia",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the China Open?",
+        "o": [
+          "China",
+          "Mexico",
+          "Japan",
+          "Switzerland"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Emma Navarro represent?",
+        "o": [
+          "Tunisia",
+          "United States",
+          "Czech Republic",
+          "Italy"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Stuttgart Open?",
+        "o": [
+          "Mexico",
+          "Qatar",
+          "Germany",
+          "United States"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1989 Davis Cup?",
+        "o": [
+          "United States",
+          "Sweden",
+          "France",
+          "Germany"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2013 Wimbledon men’s doubles title?",
+        "o": [
+          "Bob and Mike Bryan",
+          "Marray and Nielsen",
+          "Pospisil and Sock",
+          "Rojer and Tecău"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Rohan Bopanna represent?",
+        "o": [
+          "Australia",
+          "India",
+          "United Kingdom",
+          "South Korea"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Swiss Indoors?",
+        "o": [
+          "Japan",
+          "China",
+          "Switzerland",
+          "Austria"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Paula Badosa represent?",
+        "o": [
+          "Italy",
+          "Russia",
+          "United States",
+          "Spain"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Berlin Open?",
+        "o": [
+          "Germany",
+          "United States",
+          "Australia",
+          "United Arab Emirates"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1996 Davis Cup?",
+        "o": [
+          "United States",
+          "France",
+          "Sweden",
+          "Germany"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2014 Wimbledon men’s doubles title?",
+        "o": [
+          "Kubot and Melo",
+          "Bryan and Sock",
+          "Pospisil and Sock",
+          "Nestor and Zimonjić"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Soonwoo Kwon represent?",
+        "o": [
+          "Cyprus",
+          "Australia",
+          "United Kingdom",
+          "South Korea"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Erste Bank Open?",
+        "o": [
+          "Austria",
+          "Brazil",
+          "Mexico",
+          "Japan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Beatriz Haddad Maia represent?",
+        "o": [
+          "Tunisia",
+          "Brazil",
+          "Czech Republic",
+          "Italy"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Hobart International?",
+        "o": [
+          "Germany",
+          "United Arab Emirates",
+          "Australia",
+          "China"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1997 Davis Cup?",
+        "o": [
+          "France",
+          "Australia",
+          "United States",
+          "Sweden"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2015 Wimbledon men’s doubles title?",
+        "o": [
+          "Rojer and Tecău",
+          "Nestor and Zimonjić",
+          "Melzer and Petzschner",
+          "Bob and Mike Bryan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Duckhee Lee represent?",
+        "o": [
+          "United Kingdom",
+          "South Korea",
+          "India",
+          "Chile"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Stockholm Open?",
+        "o": [
+          "Mexico",
+          "Japan",
+          "Sweden",
+          "China"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Leylah Fernandez represent?",
+        "o": [
+          "Brazil",
+          "Ukraine",
+          "China",
+          "Canada"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Merida Open?",
+        "o": [
+          "Mexico",
+          "Qatar",
+          "United States",
+          "Germany"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1998 Davis Cup?",
+        "o": [
+          "Germany",
+          "Sweden",
+          "France",
+          "Australia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2016 Wimbledon men’s doubles title?",
+        "o": [
+          "Nestor and Zimonjić",
+          "Melzer and Petzschner",
+          "Herbert and Mahut",
+          "Bob and Mike Bryan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Christian Garín represent?",
+        "o": [
+          "United Kingdom",
+          "India",
+          "South Korea",
+          "Chile"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Moselle Open?",
+        "o": [
+          "France",
+          "Sweden",
+          "United Arab Emirates",
+          "Qatar"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Bianca Andreescu represent?",
+        "o": [
+          "Spain",
+          "Canada",
+          "Brazil",
+          "Ukraine"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Abu Dhabi Open?",
+        "o": [
+          "Germany",
+          "Australia",
+          "United Arab Emirates",
+          "China"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1999 Davis Cup?",
+        "o": [
+          "Germany",
+          "France",
+          "United States",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2017 Wimbledon men’s doubles title?",
+        "o": [
+          "Kubot and Melo",
+          "Pospisil and Sock",
+          "Rojer and Tecău",
+          "Herbert and Mahut"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Thiago Monteiro represent?",
+        "o": [
+          "Cyprus",
+          "Brazil",
+          "Australia",
+          "United Kingdom"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Nicolás Jarry represent?",
+        "o": [
+          "Japan",
+          "Russia",
+          "Chile",
+          "Kazakhstan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Elina Svitolina represent?",
+        "o": [
+          "Czech Republic",
+          "Italy",
+          "Russia",
+          "Ukraine"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1924 Olympics men’s singles gold medal?",
+        "o": [
+          "Vincent Richards",
+          "Miloslav Mečíř",
+          "Marc Rosset",
+          "Andre Agassi"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2018 Wimbledon men’s doubles title?",
+        "o": [
+          "Kubot and Melo",
+          "Bryan and Sock",
+          "Nestor and Zimonjić",
+          "Melzer and Petzschner"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did João Fonseca represent?",
+        "o": [
+          "Australia",
+          "United Kingdom",
+          "Brazil",
+          "India"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Sebastián Báez represent?",
+        "o": [
+          "China",
+          "Japan",
+          "Russia",
+          "Argentina"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2018 Indian Wells women’s singles?",
+        "o": [
+          "Naomi Osaka",
+          "Iga Świątek",
+          "Bianca Andreescu",
+          "Paula Badosa"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1988 Olympics men’s singles gold medal?",
+        "o": [
+          "Marc Rosset",
+          "Miloslav Mečíř",
+          "Andre Agassi",
+          "Vincent Richards"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Marcos Baghdatis represent?",
+        "o": [
+          "Australia",
+          "United Kingdom",
+          "Cyprus",
+          "India"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Tallon Griekspoor represent?",
+        "o": [
+          "Argentina",
+          "Czech Republic",
+          "China",
+          "Netherlands"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2019 Indian Wells women’s singles?",
+        "o": [
+          "Bianca Andreescu",
+          "Kiki Bertens",
+          "Aryna Sabalenka",
+          "Karolína Plíšková"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1992 Olympics men’s singles gold medal?",
+        "o": [
+          "Andre Agassi",
+          "Marc Rosset",
+          "Vincent Richards",
+          "Miloslav Mečíř"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Tomáš Macháč represent?",
+        "o": [
+          "China",
+          "Japan",
+          "Czech Republic",
+          "Russia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2021 Indian Wells women’s singles?",
+        "o": [
+          "Iga Świątek",
+          "Naomi Osaka",
+          "Bianca Andreescu",
+          "Paula Badosa"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1996 Olympics men’s singles gold medal?",
+        "o": [
+          "Andre Agassi",
+          "Vincent Richards",
+          "Miloslav Mečíř",
+          "Marc Rosset"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Alejandro Tabilo represent?",
+        "o": [
+          "Argentina",
+          "Chile",
+          "Netherlands",
+          "Czech Republic"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2019 Miami women’s singles?",
+        "o": [
+          "Aryna Sabalenka",
+          "Karolína Plíšková",
+          "Ashleigh Barty",
+          "Iga Świątek"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1924 Olympics women’s singles gold medal?",
+        "o": [
+          "Steffi Graf",
+          "Jennifer Capriati",
+          "Lindsay Davenport",
+          "Helen Wills"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Zhang Zhizhen represent?",
+        "o": [
+          "China",
+          "Russia",
+          "Kazakhstan",
+          "Spain"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2021 Miami women’s singles?",
+        "o": [
+          "Naomi Osaka",
+          "Ashleigh Barty",
+          "Bianca Andreescu",
+          "Paula Badosa"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1988 Olympics women’s singles gold medal?",
+        "o": [
+          "Helen Wills",
+          "Jennifer Capriati",
+          "Steffi Graf",
+          "Lindsay Davenport"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Yoshihito Nishioka represent?",
+        "o": [
+          "Chile",
+          "Argentina",
+          "Netherlands",
+          "Japan"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2019 Madrid women’s singles?",
+        "o": [
+          "Kiki Bertens",
+          "Bianca Andreescu",
+          "Paula Badosa",
+          "Ashleigh Barty"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1992 Olympics women’s singles gold medal?",
+        "o": [
+          "Lindsay Davenport",
+          "Jennifer Capriati",
+          "Helen Wills",
+          "Steffi Graf"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Aslan Karatsev represent?",
+        "o": [
+          "Argentina",
+          "Netherlands",
+          "Russia",
+          "Czech Republic"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2021 Madrid women’s singles?",
+        "o": [
+          "Iga Świątek",
+          "Naomi Osaka",
+          "Bianca Andreescu",
+          "Aryna Sabalenka"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1996 Olympics women’s singles gold medal?",
+        "o": [
+          "Lindsay Davenport",
+          "Helen Wills",
+          "Steffi Graf",
+          "Jennifer Capriati"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Alexander Bublik represent?",
+        "o": [
+          "Czech Republic",
+          "Kazakhstan",
+          "China",
+          "Japan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2019 Rome women’s singles?",
+        "o": [
+          "Naomi Osaka",
+          "Bianca Andreescu",
+          "Karolína Plíšková",
+          "Paula Badosa"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Jaume Munar represent?",
+        "o": [
+          "China",
+          "Japan",
+          "Russia",
+          "Spain"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2021 Rome women’s singles?",
+        "o": [
+          "Iga Świątek",
+          "Aryna Sabalenka",
+          "Karolína Plíšková",
+          "Naomi Osaka"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2009 Shanghai Masters?",
+        "o": [
+          "Novak Djokovic",
+          "Nikolay Davydenko",
+          "Roger Federer",
+          "Andy Murray"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2022 Rome women’s singles?",
+        "o": [
+          "Aryna Sabalenka",
+          "Karolína Plíšková",
+          "Iga Świątek",
+          "Naomi Osaka"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2010 Shanghai Masters?",
+        "o": [
+          "Novak Djokovic",
+          "Roger Federer",
+          "Nikolay Davydenko",
+          "Andy Murray"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2011 Shanghai Masters?",
+        "o": [
+          "Andy Murray",
+          "Roger Federer",
+          "Nikolay Davydenko",
+          "Novak Djokovic"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2012 Shanghai Masters?",
+        "o": [
+          "Andy Murray",
+          "Novak Djokovic",
+          "Roger Federer",
+          "Nikolay Davydenko"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2013 Shanghai Masters?",
+        "o": [
+          "Nikolay Davydenko",
+          "Andy Murray",
+          "Novak Djokovic",
+          "Roger Federer"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2014 Shanghai Masters?",
+        "o": [
+          "Nikolay Davydenko",
+          "Andy Murray",
+          "Novak Djokovic",
+          "Roger Federer"
+        ],
+        "a": 3
+      }
+    ],
+    "2": [
+      {
+        "p": "Which country hosts the Hamburg European Open?",
+        "o": [
+          "Germany",
+          "Kazakhstan",
+          "Australia",
+          "New Zealand"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Donna Vekić represent?",
+        "o": [
+          "Russia",
+          "Croatia",
+          "Switzerland",
+          "Estonia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which surface is the Wuhan Open played on?",
+        "o": [
+          "indoor hard court",
+          "clay court",
+          "hard court",
+          "grass court"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1986 Fed Cup?",
+        "o": [
+          "West Germany",
+          "Czechoslovakia",
+          "Spain",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2008 Wimbledon women’s doubles title?",
+        "o": [
+          "Venus and Serena Williams",
+          "Makarova and Vesnina",
+          "Krejčíková and Siniaková",
+          "King and Shvedova"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In tennis, what does “walkover” mean?",
+        "o": [
+          "a match stopped for rain",
+          "a win when the opponent withdraws",
+          "quitting an already-started match",
+          "a disqualification for misconduct"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Sania Mirza represent?",
+        "o": [
+          "China",
+          "United Kingdom",
+          "India",
+          "Australia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country hosts the Croatia Open Umag?",
+        "o": [
+          "South Korea",
+          "Israel",
+          "Germany",
+          "Croatia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Anett Kontaveit represent?",
+        "o": [
+          "Estonia",
+          "Croatia",
+          "Kazakhstan",
+          "Romania"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which surface is the Charleston Open played on?",
+        "o": [
+          "indoor hard court",
+          "clay court",
+          "hard court",
+          "grass court"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which nation won the 1987 Fed Cup?",
+        "o": [
+          "Spain",
+          "Germany",
+          "West Germany",
+          "United States"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2009 Wimbledon women’s doubles title?",
+        "o": [
+          "King and Shvedova",
+          "Peschke and Srebotnik",
+          "Hsieh and Peng",
+          "Venus and Serena Williams"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In tennis, what does “retirement” mean?",
+        "o": [
+          "quitting an already-started match",
+          "a disqualification for misconduct",
+          "a match stopped for rain",
+          "a win when the opponent withdraws"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Ankita Raina represent?",
+        "o": [
+          "Australia",
+          "India",
+          "Canada",
+          "Spain"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Generali Open Kitzbühel?",
+        "o": [
+          "China",
+          "South Korea",
+          "Austria",
+          "Israel"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Kaia Kanepi represent?",
+        "o": [
+          "Kazakhstan",
+          "Romania",
+          "Ukraine",
+          "Estonia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which surface is the Stuttgart Open played on?",
+        "o": [
+          "clay court",
+          "hard court",
+          "grass court",
+          "carpet court"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1988 Fed Cup?",
+        "o": [
+          "Spain",
+          "Czechoslovakia",
+          "Germany",
+          "United States"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2010 Wimbledon women’s doubles title?",
+        "o": [
+          "Hsieh and Peng",
+          "Errani and Vinci",
+          "King and Shvedova",
+          "Hingis and Mirza"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Emma Raducanu represent?",
+        "o": [
+          "China",
+          "India",
+          "Australia",
+          "United Kingdom"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Winston-Salem Open?",
+        "o": [
+          "United States",
+          "Germany",
+          "Croatia",
+          "Austria"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Yulia Putintseva represent?",
+        "o": [
+          "Russia",
+          "Kazakhstan",
+          "Switzerland",
+          "Croatia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which surface is the Berlin Open played on?",
+        "o": [
+          "indoor hard court",
+          "hard court",
+          "grass court",
+          "clay court"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1989 Fed Cup?",
+        "o": [
+          "Czechoslovakia",
+          "Spain",
+          "Germany",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2011 Wimbledon women’s doubles title?",
+        "o": [
+          "Peschke and Srebotnik",
+          "Makarova and Vesnina",
+          "Krejčíková and Siniaková",
+          "Venus and Serena Williams"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Heather Watson represent?",
+        "o": [
+          "Australia",
+          "United Kingdom",
+          "Canada",
+          "Spain"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Astana Open?",
+        "o": [
+          "Australia",
+          "New Zealand",
+          "Kazakhstan",
+          "China"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Sorana Cîrstea represent?",
+        "o": [
+          "Estonia",
+          "Kazakhstan",
+          "Ukraine",
+          "Romania"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which surface is the Bad Homburg Open played on?",
+        "o": [
+          "grass court",
+          "clay court",
+          "carpet court",
+          "indoor hard court"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1990 Fed Cup?",
+        "o": [
+          "Germany",
+          "United States",
+          "West Germany",
+          "Czechoslovakia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2012 Wimbledon women’s doubles title?",
+        "o": [
+          "Errani and Vinci",
+          "Hingis and Mirza",
+          "Venus and Serena Williams",
+          "Makarova and Vesnina"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Priscilla Hon represent?",
+        "o": [
+          "Spain",
+          "China",
+          "India",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Adelaide International?",
+        "o": [
+          "Australia",
+          "New Zealand",
+          "China",
+          "South Korea"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Anhelina Kalinina represent?",
+        "o": [
+          "Croatia",
+          "Ukraine",
+          "Estonia",
+          "Kazakhstan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which surface is the Doha Open played on?",
+        "o": [
+          "clay court",
+          "grass court",
+          "hard court",
+          "carpet court"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1991 Fed Cup?",
+        "o": [
+          "West Germany",
+          "Czechoslovakia",
+          "Germany",
+          "Spain"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2013 Wimbledon women’s doubles title?",
+        "o": [
+          "Hsieh and Peng",
+          "Makarova and Vesnina",
+          "Krejčíková and Siniaková",
+          "Venus and Serena Williams"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Ajla Tomljanović represent?",
+        "o": [
+          "United Kingdom",
+          "Australia",
+          "Canada",
+          "Spain"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Auckland Open?",
+        "o": [
+          "Israel",
+          "Germany",
+          "New Zealand",
+          "Croatia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Dayana Yastremska represent?",
+        "o": [
+          "Russia",
+          "Switzerland",
+          "Croatia",
+          "Ukraine"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which surface is the Guadalajara Open played on?",
+        "o": [
+          "hard court",
+          "indoor hard court",
+          "clay court",
+          "grass court"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1992 Fed Cup?",
+        "o": [
+          "United States",
+          "Germany",
+          "West Germany",
+          "Czechoslovakia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2014 Wimbledon women’s doubles title?",
+        "o": [
+          "King and Shvedova",
+          "Peschke and Srebotnik",
+          "Errani and Vinci",
+          "Hsieh and Peng"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Eugenie Bouchard represent?",
+        "o": [
+          "India",
+          "United Kingdom",
+          "Australia",
+          "Canada"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Chengdu Open?",
+        "o": [
+          "China",
+          "Germany",
+          "Croatia",
+          "Austria"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Magda Linette represent?",
+        "o": [
+          "Russia",
+          "Poland",
+          "Switzerland",
+          "Croatia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which surface is the Båstad Open played on?",
+        "o": [
+          "grass court",
+          "carpet court",
+          "clay court",
+          "indoor hard court"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1993 Fed Cup?",
+        "o": [
+          "Germany",
+          "United States",
+          "West Germany",
+          "Spain"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2015 Wimbledon women’s doubles title?",
+        "o": [
+          "Hingis and Mirza",
+          "Errani and Vinci",
+          "Makarova and Vesnina",
+          "Krejčíková and Siniaková"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Rebecca Marino represent?",
+        "o": [
+          "Spain",
+          "Canada",
+          "China",
+          "India"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Seoul Open?",
+        "o": [
+          "New Zealand",
+          "China",
+          "South Korea",
+          "Israel"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Magdalena Fręch represent?",
+        "o": [
+          "Kazakhstan",
+          "Romania",
+          "Ukraine",
+          "Poland"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which surface is the Newport Hall of Fame Open played on?",
+        "o": [
+          "grass court",
+          "hard court",
+          "clay court",
+          "carpet court"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1994 Fed Cup?",
+        "o": [
+          "Czechoslovakia",
+          "Spain",
+          "Germany",
+          "United States"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2016 Wimbledon women’s doubles title?",
+        "o": [
+          "Krejčíková and Siniaková",
+          "King and Shvedova",
+          "Venus and Serena Williams",
+          "Peschke and Srebotnik"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Nuria Párrizas Díaz represent?",
+        "o": [
+          "China",
+          "India",
+          "United Kingdom",
+          "Spain"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Tel Aviv Open?",
+        "o": [
+          "Israel",
+          "United States",
+          "Kazakhstan",
+          "Australia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Diana Shnaider represent?",
+        "o": [
+          "Kazakhstan",
+          "Russia",
+          "Romania",
+          "Ukraine"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which surface is the Kitzbühel Open played on?",
+        "o": [
+          "hard court",
+          "grass court",
+          "clay court",
+          "carpet court"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1995 Fed Cup?",
+        "o": [
+          "West Germany",
+          "Czechoslovakia",
+          "Germany",
+          "Spain"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2017 Wimbledon women’s doubles title?",
+        "o": [
+          "Makarova and Vesnina",
+          "Hingis and Mirza",
+          "Krejčíková and Siniaková",
+          "Venus and Serena Williams"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Sara Sorribes Tormo represent?",
+        "o": [
+          "China",
+          "Spain",
+          "India",
+          "United Kingdom"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Botic van de Zandschulp represent?",
+        "o": [
+          "Serbia",
+          "Finland",
+          "Netherlands",
+          "Switzerland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Viktorija Golubic represent?",
+        "o": [
+          "Estonia",
+          "Kazakhstan",
+          "Romania",
+          "Switzerland"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which nation won the 1954 Davis Cup?",
+        "o": [
+          "United States",
+          "Italy",
+          "Australia",
+          "France"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2018 Wimbledon women’s doubles title?",
+        "o": [
+          "Peschke and Srebotnik",
+          "Krejčíková and Siniaková",
+          "Hsieh and Peng",
+          "Errani and Vinci"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Xiyu Wang represent?",
+        "o": [
+          "United Kingdom",
+          "Australia",
+          "China",
+          "Canada"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Roberto Bautista Agut represent?",
+        "o": [
+          "Finland",
+          "Switzerland",
+          "Netherlands",
+          "Spain"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2016 Indian Wells women’s singles?",
+        "o": [
+          "Victoria Azarenka",
+          "Johanna Konta",
+          "Simona Halep",
+          "Petra Kvitová"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1955 Davis Cup?",
+        "o": [
+          "British Isles",
+          "Australia",
+          "Italy",
+          "United States"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Yue Yuan represent?",
+        "o": [
+          "Spain",
+          "India",
+          "China",
+          "United Kingdom"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Pablo Carreño Busta represent?",
+        "o": [
+          "Switzerland",
+          "Netherlands",
+          "Argentina",
+          "Spain"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2017 Indian Wells women’s singles?",
+        "o": [
+          "Elena Vesnina",
+          "Elina Svitolina",
+          "Victoria Azarenka",
+          "Johanna Konta"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1960 Davis Cup?",
+        "o": [
+          "British Isles",
+          "Australia",
+          "Italy",
+          "United States"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Diego Schwartzman represent?",
+        "o": [
+          "Netherlands",
+          "Spain",
+          "Argentina",
+          "Serbia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2016 Miami women’s singles?",
+        "o": [
+          "Johanna Konta",
+          "Simona Halep",
+          "Petra Kvitová",
+          "Victoria Azarenka"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which nation won the 1963 Davis Cup?",
+        "o": [
+          "United States",
+          "France",
+          "British Isles",
+          "Italy"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Federico Coria represent?",
+        "o": [
+          "Finland",
+          "Argentina",
+          "Switzerland",
+          "Netherlands"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2017 Miami women’s singles?",
+        "o": [
+          "Simona Halep",
+          "Petra Kvitová",
+          "Johanna Konta",
+          "Serena Williams"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1964 Davis Cup?",
+        "o": [
+          "British Isles",
+          "Italy",
+          "United States",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Dušan Lajović represent?",
+        "o": [
+          "Serbia",
+          "Netherlands",
+          "Spain",
+          "Argentina"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2016 Madrid women’s singles?",
+        "o": [
+          "Johanna Konta",
+          "Simona Halep",
+          "Petra Kvitová",
+          "Serena Williams"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which nation won the 1965 Davis Cup?",
+        "o": [
+          "France",
+          "British Isles",
+          "Australia",
+          "Italy"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Laslo Djere represent?",
+        "o": [
+          "Finland",
+          "Switzerland",
+          "Netherlands",
+          "Serbia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2017 Madrid women’s singles?",
+        "o": [
+          "Simona Halep",
+          "Petra Kvitová",
+          "Serena Williams",
+          "Elina Svitolina"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1966 Davis Cup?",
+        "o": [
+          "United States",
+          "Australia",
+          "France",
+          "British Isles"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Emil Ruusuvuori represent?",
+        "o": [
+          "Argentina",
+          "Serbia",
+          "Finland",
+          "Switzerland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2018 Madrid women’s singles?",
+        "o": [
+          "Johanna Konta",
+          "Simona Halep",
+          "Serena Williams",
+          "Petra Kvitová"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which nation won the 1969 Davis Cup?",
+        "o": [
+          "United States",
+          "Italy",
+          "Australia",
+          "France"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Otto Virtanen represent?",
+        "o": [
+          "Switzerland",
+          "Finland",
+          "Netherlands",
+          "Spain"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2016 Rome women’s singles?",
+        "o": [
+          "Simona Halep",
+          "Petra Kvitová",
+          "Serena Williams",
+          "Elina Svitolina"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Dominic Stricker represent?",
+        "o": [
+          "Serbia",
+          "Finland",
+          "Netherlands",
+          "Switzerland"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2017 Rome women’s singles?",
+        "o": [
+          "Elina Svitolina",
+          "Petra Kvitová",
+          "Serena Williams",
+          "Victoria Azarenka"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2002 Canadian Open?",
+        "o": [
+          "Andy Murray",
+          "Guillermo Cañas",
+          "Andy Roddick",
+          "Rafael Nadal"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2018 Rome women’s singles?",
+        "o": [
+          "Serena Williams",
+          "Victoria Azarenka",
+          "Elina Svitolina",
+          "Elena Vesnina"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2003 Canadian Open?",
+        "o": [
+          "Andy Murray",
+          "Guillermo Cañas",
+          "Rafael Nadal",
+          "Andy Roddick"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2005 Canadian Open?",
+        "o": [
+          "Rafael Nadal",
+          "Novak Djokovic",
+          "Andy Murray",
+          "Guillermo Cañas"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2007 Canadian Open?",
+        "o": [
+          "Andy Roddick",
+          "Novak Djokovic",
+          "Rafael Nadal",
+          "Andy Murray"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2008 Canadian Open?",
+        "o": [
+          "Andy Murray",
+          "Guillermo Cañas",
+          "Rafael Nadal",
+          "Andy Roddick"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2009 Canadian Open?",
+        "o": [
+          "Novak Djokovic",
+          "Guillermo Cañas",
+          "Andy Roddick",
+          "Andy Murray"
+        ],
+        "a": 3
+      }
+    ],
+    "3": [
+      {
+        "p": "Which country hosts the Estoril Open?",
+        "o": [
+          "Portugal",
+          "Morocco",
+          "Mexico",
+          "Argentina"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Zhang Shuai represent?",
+        "o": [
+          "Argentina",
+          "China",
+          "Mexico",
+          "Japan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which venue hosts the Japan Open?",
+        "o": [
+          "Optics Valley Tennis Center",
+          "Arena GNP Seguros",
+          "Ariake Coliseum",
+          "Jockey Club Brasileiro"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1974 Fed Cup?",
+        "o": [
+          "Spain",
+          "United States",
+          "Czechoslovakia",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2010 French Open men’s doubles title?",
+        "o": [
+          "Nestor and Zimonjić",
+          "Feliciano and Marc López",
+          "Harrison and Venus",
+          "Herbert and Mahut"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In tennis, what does “round robin” mean?",
+        "o": [
+          "a match won by taking three sets",
+          "a group stage before knockout",
+          "a match won by taking two sets",
+          "a single knockout round"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which year was the International Tennis Federation first held?",
+        "o": [
+          "1992",
+          "2016",
+          "1913",
+          "1947"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country hosts the Serbia Open?",
+        "o": [
+          "Portugal",
+          "Bulgaria",
+          "Morocco",
+          "Serbia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Wang Xinyu represent?",
+        "o": [
+          "China",
+          "Japan",
+          "Italy",
+          "Spain"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which venue hosts the China Open?",
+        "o": [
+          "Optics Valley Tennis Center",
+          "National Tennis Center",
+          "Arena GNP Seguros",
+          "Jockey Club Brasileiro"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which nation won the 1976 Fed Cup?",
+        "o": [
+          "Spain",
+          "Australia",
+          "United States",
+          "Czechoslovakia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2011 French Open men’s doubles title?",
+        "o": [
+          "Dodig and Melo",
+          "Feliciano and Marc López",
+          "Harrison and Venus",
+          "Mirnyi and Nestor"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In tennis, what does “best-of-five” mean?",
+        "o": [
+          "a match won by taking three sets",
+          "a match won by taking two sets",
+          "a single knockout round",
+          "a group stage before knockout"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which year was the ATP first held?",
+        "o": [
+          "1992",
+          "1972",
+          "2016",
+          "1947"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Sofia Open?",
+        "o": [
+          "Romania",
+          "Turkey",
+          "Bulgaria",
+          "Kazakhstan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Nao Hibino represent?",
+        "o": [
+          "China",
+          "Italy",
+          "Spain",
+          "Japan"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which venue hosts the Wuhan Open?",
+        "o": [
+          "Optics Valley Tennis Center",
+          "Olympic Stadium",
+          "Wake Forest Tennis Complex",
+          "the Newport Casino"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1977 Fed Cup?",
+        "o": [
+          "Australia",
+          "United States",
+          "Czechoslovakia",
+          "Germany"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2012 French Open men’s doubles title?",
+        "o": [
+          "Herbert and Mahut",
+          "Nestor and Zimonjić",
+          "Mirnyi and Nestor",
+          "Bob and Mike Bryan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which year was the WTA first held?",
+        "o": [
+          "1947",
+          "2019",
+          "2005",
+          "1973"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Marrakech Open?",
+        "o": [
+          "Morocco",
+          "Kazakhstan",
+          "Portugal",
+          "Serbia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Moyuka Uchijima represent?",
+        "o": [
+          "Colombia",
+          "Japan",
+          "Argentina",
+          "Mexico"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which venue hosts the Mexican Open?",
+        "o": [
+          "Am Rothenbaum",
+          "Olympic Stadium",
+          "Arena GNP Seguros",
+          "Wake Forest Tennis Complex"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1978 Fed Cup?",
+        "o": [
+          "Czechoslovakia",
+          "Germany",
+          "Spain",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2013 French Open men’s doubles title?",
+        "o": [
+          "Bob and Mike Bryan",
+          "Herbert and Mahut",
+          "Nestor and Zimonjić",
+          "Mirnyi and Nestor"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which year was the ATP Challenger Tour first held?",
+        "o": [
+          "2002",
+          "1978",
+          "2007",
+          "1913"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Los Cabos Open?",
+        "o": [
+          "Bulgaria",
+          "Morocco",
+          "Mexico",
+          "Argentina"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Lucia Bronzetti represent?",
+        "o": [
+          "Japan",
+          "Spain",
+          "Colombia",
+          "Italy"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which venue hosts the Rio Open?",
+        "o": [
+          "Jockey Club Brasileiro",
+          "National Tennis Center",
+          "Optics Valley Tennis Center",
+          "Arena GNP Seguros"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1979 Fed Cup?",
+        "o": [
+          "Germany",
+          "United States",
+          "Spain",
+          "Australia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2014 French Open men’s doubles title?",
+        "o": [
+          "Herbert and Mahut",
+          "Nestor and Zimonjić",
+          "Benneteau and Roger-Vasselin",
+          "Mirnyi and Nestor"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which year was the Paralympic tennis event first held?",
+        "o": [
+          "2007",
+          "1913",
+          "1972",
+          "1992"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Córdoba Open?",
+        "o": [
+          "Argentina",
+          "Turkey",
+          "Kazakhstan",
+          "Portugal"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Elisabetta Cocciaretto represent?",
+        "o": [
+          "Argentina",
+          "Italy",
+          "Mexico",
+          "China"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which venue hosts the Croatia Open Umag?",
+        "o": [
+          "Am Rothenbaum",
+          "Olympic Stadium",
+          "ITC Stella Maris",
+          "Wake Forest Tennis Complex"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1981 Fed Cup?",
+        "o": [
+          "Czechoslovakia",
+          "Germany",
+          "Spain",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2015 French Open men’s doubles title?",
+        "o": [
+          "Dodig and Melo",
+          "Feliciano and Marc López",
+          "Harrison and Venus",
+          "Herbert and Mahut"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which year was the Wimbledon wheelchair singles first held?",
+        "o": [
+          "2002",
+          "2016",
+          "2007",
+          "1913"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Santiago Open?",
+        "o": [
+          "Argentina",
+          "Romania",
+          "Chile",
+          "Turkey"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Rebeka Masarova represent?",
+        "o": [
+          "China",
+          "Japan",
+          "Italy",
+          "Spain"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which venue hosts the Hamburg European Open?",
+        "o": [
+          "Am Rothenbaum",
+          "Arena GNP Seguros",
+          "Jockey Club Brasileiro",
+          "ITC Stella Maris"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1982 Fed Cup?",
+        "o": [
+          "Australia",
+          "United States",
+          "Czechoslovakia",
+          "Germany"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2016 French Open men’s doubles title?",
+        "o": [
+          "Herbert and Mahut",
+          "Nestor and Zimonjić",
+          "Feliciano and Marc López",
+          "Mirnyi and Nestor"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which year was the Orange Bowl junior event first held?",
+        "o": [
+          "2019",
+          "2005",
+          "2002",
+          "1947"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Bucharest Open?",
+        "o": [
+          "Romania",
+          "Morocco",
+          "Mexico",
+          "Argentina"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Cristina Bucșa represent?",
+        "o": [
+          "Mexico",
+          "Spain",
+          "China",
+          "Japan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which venue hosts the Kremlin Cup?",
+        "o": [
+          "Optics Valley Tennis Center",
+          "Arena GNP Seguros",
+          "Olympic Stadium",
+          "Jockey Club Brasileiro"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1983 Fed Cup?",
+        "o": [
+          "United States",
+          "Germany",
+          "Spain",
+          "Czechoslovakia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2017 French Open men’s doubles title?",
+        "o": [
+          "Harrison and Venus",
+          "Feliciano and Marc López",
+          "Herbert and Mahut",
+          "Nestor and Zimonjić"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which year was the Davis Cup Finals format first held?",
+        "o": [
+          "2005",
+          "2019",
+          "2002",
+          "2007"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Antalya Open?",
+        "o": [
+          "Argentina",
+          "Chile",
+          "Turkey",
+          "Romania"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Camila Osorio represent?",
+        "o": [
+          "Spain",
+          "Argentina",
+          "Mexico",
+          "Colombia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which venue hosts the Winston-Salem Open?",
+        "o": [
+          "Wake Forest Tennis Complex",
+          "ITC Stella Maris",
+          "Am Rothenbaum",
+          "Olympic Stadium"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1984 Fed Cup?",
+        "o": [
+          "Germany",
+          "Czechoslovakia",
+          "Spain",
+          "Australia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2018 French Open men’s doubles title?",
+        "o": [
+          "Mirnyi and Nestor",
+          "Bob and Mike Bryan",
+          "Herbert and Mahut",
+          "Benneteau and Roger-Vasselin"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which year was the US Open wheelchair singles first held?",
+        "o": [
+          "1992",
+          "2016",
+          "1947",
+          "2005"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Almaty Open?",
+        "o": [
+          "Kazakhstan",
+          "Portugal",
+          "Serbia",
+          "Bulgaria"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Nadia Podoroska represent?",
+        "o": [
+          "Mexico",
+          "Argentina",
+          "China",
+          "Japan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which venue hosts the Newport Hall of Fame Open?",
+        "o": [
+          "Olympic Stadium",
+          "Wake Forest Tennis Complex",
+          "the Newport Casino",
+          "Ariake Coliseum"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1985 Fed Cup?",
+        "o": [
+          "Spain",
+          "Australia",
+          "United States",
+          "Czechoslovakia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2010 US Open men’s doubles title?",
+        "o": [
+          "Bob and Mike Bryan",
+          "Mirnyi and Nestor",
+          "Benneteau and Roger-Vasselin",
+          "Dodig and Melo"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which year was the Australian Open wheelchair singles first held?",
+        "o": [
+          "1972",
+          "2002",
+          "1973",
+          "1978"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Borna Ćorić represent?",
+        "o": [
+          "France",
+          "Italy",
+          "Croatia",
+          "Serbia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Renata Zarazúa represent?",
+        "o": [
+          "Spain",
+          "Colombia",
+          "Argentina",
+          "Mexico"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In which year was the Hopman Cup first held?",
+        "o": [
+          "1989",
+          "2017",
+          "2023",
+          "2020"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2012 US Open men’s doubles title?",
+        "o": [
+          "Herbert and Mahut",
+          "Bob and Mike Bryan",
+          "Nestor and Zimonjić",
+          "Mirnyi and Nestor"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which year was the Roland-Garros wheelchair singles first held?",
+        "o": [
+          "1992",
+          "2016",
+          "2007",
+          "1947"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Filip Krajinović represent?",
+        "o": [
+          "France",
+          "Italy",
+          "Croatia",
+          "Serbia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2000 US Open women’s singles title?",
+        "o": [
+          "Venus Williams",
+          "Svetlana Kuznetsova",
+          "Kim Clijsters",
+          "Maria Sharapova"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which year was the United Cup first held?",
+        "o": [
+          "2017",
+          "2023",
+          "1989",
+          "2020"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which year was the ITF World Tennis Tour first held?",
+        "o": [
+          "1992",
+          "2016",
+          "2019",
+          "1947"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Miomir Kecmanović represent?",
+        "o": [
+          "Croatia",
+          "Czech Republic",
+          "United States",
+          "Serbia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2001 US Open women’s singles title?",
+        "o": [
+          "Venus Williams",
+          "Justine Henin",
+          "Svetlana Kuznetsova",
+          "Kim Clijsters"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which year was the ATP Cup first held?",
+        "o": [
+          "1989",
+          "2020",
+          "2023",
+          "2017"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Jiří Lehečka represent?",
+        "o": [
+          "Croatia",
+          "Serbia",
+          "Czech Republic",
+          "United States"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2002 US Open women’s singles title?",
+        "o": [
+          "Kim Clijsters",
+          "Maria Sharapova",
+          "Venus Williams",
+          "Serena Williams"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In which year was the Next Gen ATP Finals first held?",
+        "o": [
+          "2017",
+          "1989",
+          "2023",
+          "2020"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Jakub Menšík represent?",
+        "o": [
+          "Serbia",
+          "Czech Republic",
+          "United States",
+          "France"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2003 US Open women’s singles title?",
+        "o": [
+          "Svetlana Kuznetsova",
+          "Kim Clijsters",
+          "Justine Henin",
+          "Maria Sharapova"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country hosts the the Hopman Cup?",
+        "o": [
+          "Switzerland",
+          "United Kingdom",
+          "Czech Republic",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Sebastian Korda represent?",
+        "o": [
+          "United States",
+          "Serbia",
+          "Czech Republic",
+          "France"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2004 US Open women’s singles title?",
+        "o": [
+          "Venus Williams",
+          "Svetlana Kuznetsova",
+          "Serena Williams",
+          "Justine Henin"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the the United Cup?",
+        "o": [
+          "Czech Republic",
+          "United States",
+          "Australia",
+          "Switzerland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Christopher Eubanks represent?",
+        "o": [
+          "Italy",
+          "Croatia",
+          "Serbia",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2005 US Open women’s singles title?",
+        "o": [
+          "Kim Clijsters",
+          "Justine Henin",
+          "Svetlana Kuznetsova",
+          "Maria Sharapova"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country hosts the the Laver Cup 2017?",
+        "o": [
+          "Australia",
+          "Czech Republic",
+          "United States",
+          "Switzerland"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Arthur Fils represent?",
+        "o": [
+          "Croatia",
+          "Serbia",
+          "France",
+          "Czech Republic"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2006 US Open women’s singles title?",
+        "o": [
+          "Venus Williams",
+          "Serena Williams",
+          "Justine Henin",
+          "Maria Sharapova"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the the Laver Cup 2018?",
+        "o": [
+          "United States",
+          "United Kingdom",
+          "Australia",
+          "Czech Republic"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Ugo Humbert represent?",
+        "o": [
+          "Czech Republic",
+          "France",
+          "United States",
+          "Italy"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2007 US Open women’s singles title?",
+        "o": [
+          "Maria Sharapova",
+          "Venus Williams",
+          "Justine Henin",
+          "Serena Williams"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Luciano Darderi represent?",
+        "o": [
+          "United States",
+          "France",
+          "Croatia",
+          "Italy"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2009 US Open women’s singles title?",
+        "o": [
+          "Kim Clijsters",
+          "Svetlana Kuznetsova",
+          "Maria Sharapova",
+          "Venus Williams"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2005 Rome Masters?",
+        "o": [
+          "Roger Federer",
+          "Rafael Nadal",
+          "Andy Murray",
+          "David Ferrer"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2010 US Open women’s singles title?",
+        "o": [
+          "Svetlana Kuznetsova",
+          "Maria Sharapova",
+          "Kim Clijsters",
+          "Venus Williams"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2006 Rome Masters?",
+        "o": [
+          "Novak Djokovic",
+          "Roger Federer",
+          "Andy Murray",
+          "Rafael Nadal"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2007 Rome Masters?",
+        "o": [
+          "Rafael Nadal",
+          "David Ferrer",
+          "Novak Djokovic",
+          "Roger Federer"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2008 Rome Masters?",
+        "o": [
+          "David Ferrer",
+          "Novak Djokovic",
+          "Rafael Nadal",
+          "Roger Federer"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2009 Rome Masters?",
+        "o": [
+          "Roger Federer",
+          "Andy Murray",
+          "Rafael Nadal",
+          "David Ferrer"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2010 Rome Masters?",
+        "o": [
+          "David Ferrer",
+          "Novak Djokovic",
+          "Roger Federer",
+          "Rafael Nadal"
+        ],
+        "a": 3
+      }
+    ],
+    "4": [
+      {
+        "p": "Which country hosts the Swedish Open?",
+        "o": [
+          "Sweden",
+          "Russia",
+          "Switzerland",
+          "Italy"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Tamara Korpatsch represent?",
+        "o": [
+          "Denmark",
+          "Germany",
+          "Sweden",
+          "Slovenia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which tour tier does the Monte-Carlo Masters belong to?",
+        "o": [
+          "WTA 1000",
+          "ATP 500",
+          "ATP Masters 1000",
+          "ATP 250"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1935 Davis Cup?",
+        "o": [
+          "Australia",
+          "France",
+          "Italy",
+          "Great Britain"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2010 US Open women’s doubles title?",
+        "o": [
+          "King and Shvedova",
+          "Makarova and Vesnina",
+          "Hingis and Mirza",
+          "Mattek-Sands and Šafářová"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In tennis, what does “protected ranking” mean?",
+        "o": [
+          "a seeding for a former champion",
+          "an entry rank after long injury",
+          "a place for a late finalist",
+          "a rank given to a wild card"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who holds the record for most wheelchair Grand Slam singles titles?",
+        "o": [
+          "Shingo Kunieda",
+          "Kei Nishikori",
+          "Esther Vergeer",
+          "Li Na"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country hosts the Gstaad Open?",
+        "o": [
+          "Netherlands",
+          "United Kingdom",
+          "Spain",
+          "Switzerland"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Laura Siegemund represent?",
+        "o": [
+          "Germany",
+          "United States",
+          "United Kingdom",
+          "Belgium"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which tour tier does the Paris Masters belong to?",
+        "o": [
+          "WTA 1000",
+          "ATP Masters 1000",
+          "ATP 500",
+          "ATP 250"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which nation won the 1936 Davis Cup?",
+        "o": [
+          "United States",
+          "Australia",
+          "Great Britain",
+          "France"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2011 US Open women’s doubles title?",
+        "o": [
+          "Errani and Vinci",
+          "Hlaváčková and Hradecká",
+          "Makarova and Vesnina",
+          "Huber and Raymond"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In tennis, what does “special exempt” mean?",
+        "o": [
+          "a place for a late finalist",
+          "an entry rank after long injury",
+          "a rank given to a wild card",
+          "a seeding for a former champion"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who holds the record for most men's wheelchair slam singles titles?",
+        "o": [
+          "Esther Vergeer",
+          "Shingo Kunieda",
+          "Kei Nishikori",
+          "Li Na"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Sardegna Open?",
+        "o": [
+          "United States",
+          "Russia",
+          "Italy",
+          "Sweden"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Greet Minnen represent?",
+        "o": [
+          "Sweden",
+          "Slovenia",
+          "United States",
+          "Belgium"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which tour tier does the Shanghai Masters belong to?",
+        "o": [
+          "ATP Masters 1000",
+          "ATP 250",
+          "Grand Slam",
+          "WTA 1000"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1938 Davis Cup?",
+        "o": [
+          "Australia",
+          "United States",
+          "France",
+          "Italy"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2012 US Open women’s doubles title?",
+        "o": [
+          "Venus and Serena Williams",
+          "King and Shvedova",
+          "Errani and Vinci",
+          "Huber and Raymond"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who holds the record for most Paralympic singles gold medals?",
+        "o": [
+          "Kei Nishikori",
+          "Li Na",
+          "Ons Jabeur",
+          "Esther Vergeer"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Rosmalen Open?",
+        "o": [
+          "Netherlands",
+          "United Kingdom",
+          "Spain",
+          "United States"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Elise Mertens represent?",
+        "o": [
+          "United States",
+          "Belgium",
+          "United Kingdom",
+          "Germany"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which tour tier does the Erste Bank Open belong to?",
+        "o": [
+          "ATP 250",
+          "Grand Slam",
+          "ATP 500",
+          "WTA 1000"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1939 Davis Cup?",
+        "o": [
+          "Great Britain",
+          "United States",
+          "France",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2013 US Open women’s doubles title?",
+        "o": [
+          "Hlaváčková and Hradecká",
+          "Venus and Serena Williams",
+          "King and Shvedova",
+          "Huber and Raymond"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who holds the record for the first Asian man to reach a slam final?",
+        "o": [
+          "Leander Paes",
+          "Kei Nishikori",
+          "Yevgeny Kafelnikov",
+          "Goran Ivanišević"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Eastbourne International?",
+        "o": [
+          "Switzerland",
+          "Italy",
+          "United Kingdom",
+          "Netherlands"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Clara Tauson represent?",
+        "o": [
+          "Germany",
+          "Belgium",
+          "Sweden",
+          "Denmark"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which tour tier does the Rio Open belong to?",
+        "o": [
+          "ATP 500",
+          "WTA 1000",
+          "ATP Masters 1000",
+          "ATP 250"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1946 Davis Cup?",
+        "o": [
+          "Great Britain",
+          "United States",
+          "Australia",
+          "France"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2014 US Open women’s doubles title?",
+        "o": [
+          "Errani and Vinci",
+          "Hlaváčková and Hradecká",
+          "Makarova and Vesnina",
+          "Hingis and Mirza"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who holds the record for the first Chinese player to win a major?",
+        "o": [
+          "Yevgeny Kafelnikov",
+          "Goran Ivanišević",
+          "Novak Djokovic",
+          "Li Na"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Mallorca Championships?",
+        "o": [
+          "Spain",
+          "Italy",
+          "Netherlands",
+          "United Kingdom"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Rebecca Peterson represent?",
+        "o": [
+          "United States",
+          "Sweden",
+          "United Kingdom",
+          "Germany"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which tour tier does the Mexican Open belong to?",
+        "o": [
+          "Grand Slam",
+          "WTA 1000",
+          "ATP 500",
+          "ATP Masters 1000"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1948 Davis Cup?",
+        "o": [
+          "France",
+          "Italy",
+          "Great Britain",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2015 US Open women’s doubles title?",
+        "o": [
+          "Hingis and Mirza",
+          "Hlaváčková and Hradecká",
+          "Makarova and Vesnina",
+          "Mattek-Sands and Šafářová"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who holds the record for the first African woman to reach a slam final?",
+        "o": [
+          "Leander Paes",
+          "Ons Jabeur",
+          "Yevgeny Kafelnikov",
+          "Goran Ivanišević"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Newport Hall of Fame Open?",
+        "o": [
+          "Russia",
+          "Sweden",
+          "United States",
+          "Switzerland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Kaja Juvan represent?",
+        "o": [
+          "United Kingdom",
+          "Germany",
+          "Belgium",
+          "Slovenia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which tour tier does the China Open belong to?",
+        "o": [
+          "ATP 500",
+          "ATP Masters 1000",
+          "ATP 250",
+          "Grand Slam"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1949 Davis Cup?",
+        "o": [
+          "Australia",
+          "United States",
+          "France",
+          "Italy"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2016 US Open women’s doubles title?",
+        "o": [
+          "Venus and Serena Williams",
+          "King and Shvedova",
+          "Mattek-Sands and Šafářová",
+          "Huber and Raymond"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who holds the record for the first Black man to win Wimbledon?",
+        "o": [
+          "Althea Gibson",
+          "Leander Paes",
+          "Yevgeny Kafelnikov",
+          "Arthur Ashe"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Kremlin Cup?",
+        "o": [
+          "Russia",
+          "United States",
+          "Sweden",
+          "Switzerland"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Tamara Zidanšek represent?",
+        "o": [
+          "Sweden",
+          "Slovenia",
+          "United States",
+          "United Kingdom"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which tour tier does the Stockholm Open belong to?",
+        "o": [
+          "ATP 500",
+          "Grand Slam",
+          "ATP 250",
+          "WTA 1000"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1951 Davis Cup?",
+        "o": [
+          "France",
+          "Italy",
+          "Great Britain",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2017 US Open women’s doubles title?",
+        "o": [
+          "Chan and Hingis",
+          "King and Shvedova",
+          "Huber and Raymond",
+          "Errani and Vinci"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who holds the record for the first Black woman to win a major?",
+        "o": [
+          "Arthur Ashe",
+          "Althea Gibson",
+          "Leander Paes",
+          "Yevgeny Kafelnikov"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Atlanta Open?",
+        "o": [
+          "Sweden",
+          "Switzerland",
+          "United States",
+          "Italy"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Ann Li represent?",
+        "o": [
+          "Sweden",
+          "Slovenia",
+          "United Kingdom",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which tour tier does the Winston-Salem Open belong to?",
+        "o": [
+          "ATP 250",
+          "ATP Masters 1000",
+          "ATP 500",
+          "Grand Slam"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1952 Davis Cup?",
+        "o": [
+          "Italy",
+          "Australia",
+          "Great Britain",
+          "United States"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2018 US Open women’s doubles title?",
+        "o": [
+          "Errani and Vinci",
+          "Hlaváčková and Hradecká",
+          "Barty and Vandeweghe",
+          "Makarova and Vesnina"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who holds the record for the first Indian to reach No. 1 in doubles?",
+        "o": [
+          "Shingo Kunieda",
+          "Kei Nishikori",
+          "Li Na",
+          "Leander Paes"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the St. Petersburg Open?",
+        "o": [
+          "Russia",
+          "Sweden",
+          "Switzerland",
+          "Italy"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Katie Boulter represent?",
+        "o": [
+          "United States",
+          "United Kingdom",
+          "Germany",
+          "Belgium"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which tour tier does the Newport Hall of Fame Open belong to?",
+        "o": [
+          "Grand Slam",
+          "WTA 1000",
+          "ATP 250",
+          "ATP Masters 1000"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1953 Davis Cup?",
+        "o": [
+          "Great Britain",
+          "United States",
+          "France",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2010 French Open women’s doubles title?",
+        "o": [
+          "Venus and Serena Williams",
+          "Hingis and Mirza",
+          "Mattek-Sands and Šafářová",
+          "Chan and Hingis"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who holds the record for the first Russian man to win a major?",
+        "o": [
+          "Leander Paes",
+          "Yevgeny Kafelnikov",
+          "Goran Ivanišević",
+          "Novak Djokovic"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Radu Albot represent?",
+        "o": [
+          "Australia",
+          "Portugal",
+          "Moldova",
+          "Sweden"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Harriet Dart represent?",
+        "o": [
+          "Germany",
+          "Belgium",
+          "Denmark",
+          "United Kingdom"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the the Laver Cup 2019?",
+        "o": [
+          "Switzerland",
+          "France",
+          "Japan",
+          "Brazil"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2012 French Open women’s doubles title?",
+        "o": [
+          "Mattek-Sands and Šafářová",
+          "Errani and Vinci",
+          "Chan and Hingis",
+          "Barty and Vandeweghe"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who holds the record for the first Croatian man to win Wimbledon?",
+        "o": [
+          "Arthur Ashe",
+          "Althea Gibson",
+          "Goran Ivanišević",
+          "Leander Paes"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Egor Gerasimov represent?",
+        "o": [
+          "Australia",
+          "Portugal",
+          "Sweden",
+          "Belarus"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1976 Australian Open women’s singles title?",
+        "o": [
+          "Evonne Goolagong",
+          "Chris Evert",
+          "Chris O'Neil",
+          "Barbara Jordan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country hosts the the Laver Cup 2021?",
+        "o": [
+          "Canada",
+          "United States",
+          "Germany",
+          "France"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who holds the record for the first Serbian man to win a major?",
+        "o": [
+          "Arthur Ashe",
+          "Althea Gibson",
+          "Novak Djokovic",
+          "Leander Paes"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Ilya Ivashka represent?",
+        "o": [
+          "Portugal",
+          "Sweden",
+          "Moldova",
+          "Belarus"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1978 Australian Open women’s singles title?",
+        "o": [
+          "Chris O'Neil",
+          "Evonne Goolagong",
+          "Barbara Jordan",
+          "Hana Mandlíková"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country hosts the the Laver Cup 2022?",
+        "o": [
+          "France",
+          "United Kingdom",
+          "Japan",
+          "Brazil"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Marcos Giron represent?",
+        "o": [
+          "Portugal",
+          "Sweden",
+          "United States",
+          "Moldova"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1979 Australian Open women’s singles title?",
+        "o": [
+          "Chris O'Neil",
+          "Hana Mandlíková",
+          "Martina Navratilova",
+          "Barbara Jordan"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the the Laver Cup 2023?",
+        "o": [
+          "Canada",
+          "Brazil",
+          "Switzerland",
+          "United States"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Rinky Hijikata represent?",
+        "o": [
+          "Belarus",
+          "Australia",
+          "United States",
+          "Portugal"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1980 Australian Open women’s singles title?",
+        "o": [
+          "Martina Navratilova",
+          "Chris Evert",
+          "Hana Mandlíková",
+          "Evonne Goolagong"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country hosts the the Laver Cup 2024?",
+        "o": [
+          "United States",
+          "United Kingdom",
+          "Canada",
+          "Germany"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Jordan Thompson represent?",
+        "o": [
+          "Australia",
+          "Sweden",
+          "Moldova",
+          "Belarus"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1981 Australian Open women’s singles title?",
+        "o": [
+          "Chris Evert",
+          "Martina Navratilova",
+          "Evonne Goolagong",
+          "Chris O'Neil"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the the 2024 Olympic tennis event?",
+        "o": [
+          "United States",
+          "United Kingdom",
+          "France",
+          "Canada"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Thanasi Kokkinakis represent?",
+        "o": [
+          "Moldova",
+          "Belarus",
+          "United States",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1982 Australian Open women’s singles title?",
+        "o": [
+          "Chris Evert",
+          "Hana Mandlíková",
+          "Martina Navratilova",
+          "Evonne Goolagong"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country hosts the the 2020 Olympic tennis event?",
+        "o": [
+          "United Kingdom",
+          "Japan",
+          "Canada",
+          "Germany"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Nuno Borges represent?",
+        "o": [
+          "United States",
+          "Australia",
+          "Portugal",
+          "Sweden"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1983 Australian Open women’s singles title?",
+        "o": [
+          "Chris O'Neil",
+          "Barbara Jordan",
+          "Hana Mandlíková",
+          "Martina Navratilova"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the the 2016 Olympic tennis event?",
+        "o": [
+          "Brazil",
+          "United Kingdom",
+          "Canada",
+          "Germany"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did João Sousa represent?",
+        "o": [
+          "Belarus",
+          "Portugal",
+          "United States",
+          "Australia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1984 Australian Open women’s singles title?",
+        "o": [
+          "Martina Navratilova",
+          "Evonne Goolagong",
+          "Chris Evert",
+          "Chris O'Neil"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Elias Ymer represent?",
+        "o": [
+          "Moldova",
+          "Belarus",
+          "United States",
+          "Sweden"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1985 Australian Open women’s singles title?",
+        "o": [
+          "Martina Navratilova",
+          "Evonne Goolagong",
+          "Chris O'Neil",
+          "Barbara Jordan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1999 Rome Masters?",
+        "o": [
+          "Andre Agassi",
+          "Gustavo Kuerten",
+          "Félix Mantilla",
+          "Carlos Moyá"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1987 Australian Open women’s singles title?",
+        "o": [
+          "Evonne Goolagong",
+          "Chris O'Neil",
+          "Hana Mandlíková",
+          "Barbara Jordan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2000 Rome Masters?",
+        "o": [
+          "Carlos Moyá",
+          "Gustavo Kuerten",
+          "Juan Carlos Ferrero",
+          "Magnus Norman"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2001 Rome Masters?",
+        "o": [
+          "Juan Carlos Ferrero",
+          "Gustavo Kuerten",
+          "Magnus Norman",
+          "Andre Agassi"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2002 Rome Masters?",
+        "o": [
+          "Félix Mantilla",
+          "Andre Agassi",
+          "Carlos Moyá",
+          "Gustavo Kuerten"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2003 Rome Masters?",
+        "o": [
+          "Juan Carlos Ferrero",
+          "Andre Agassi",
+          "Félix Mantilla",
+          "Carlos Moyá"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2004 Rome Masters?",
+        "o": [
+          "Andre Agassi",
+          "Félix Mantilla",
+          "Gustavo Kuerten",
+          "Carlos Moyá"
+        ],
+        "a": 3
+      }
+    ],
+    "5": [
+      {
+        "p": "Which country hosts the Monte-Carlo Masters?",
+        "o": [
+          "Monaco",
+          "Germany",
+          "United States",
+          "Spain"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Betty Stöve represent?",
+        "o": [
+          "United States",
+          "Netherlands",
+          "Australia",
+          "Czechoslovakia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which year was the Open Era introduced?",
+        "o": [
+          "2020",
+          "2016",
+          "1968",
+          "2018"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1920 Davis Cup?",
+        "o": [
+          "France",
+          "British Isles",
+          "Australasia",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who was Rosie Casals’s most successful doubles partner?",
+        "o": [
+          "Billie Jean King",
+          "Paul McNamee",
+          "Martina Hingis",
+          "Daniel Nestor"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In tennis, what does “ITF World Tennis Tour” mean?",
+        "o": [
+          "the junior age-group circuit",
+          "the entry level below Challengers",
+          "the tier below the main ATP Tour",
+          "the top tier of world tennis"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Younes El Aynaoui represent?",
+        "o": [
+          "Italy",
+          "Spain",
+          "Morocco",
+          "Tunisia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country hosts the Indian Wells Masters?",
+        "o": [
+          "Spain",
+          "China",
+          "France",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Wendy Turnbull represent?",
+        "o": [
+          "Australia",
+          "Germany",
+          "Bulgaria",
+          "United States"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which year was the ATP computer rankings introduced?",
+        "o": [
+          "2020",
+          "1973",
+          "2016",
+          "2018"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which nation won the 1924 Davis Cup?",
+        "o": [
+          "France",
+          "British Isles",
+          "United States",
+          "Australasia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who was Betty Stöve’s most successful doubles partner?",
+        "o": [
+          "Jana Novotná",
+          "Anne Smith",
+          "Paul McNamee",
+          "Wendy Turnbull"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In tennis, what does “ATP Challenger Tour” mean?",
+        "o": [
+          "the tier below the main ATP Tour",
+          "the top tier of world tennis",
+          "the junior age-group circuit",
+          "the entry level below Challengers"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Hicham Arazi represent?",
+        "o": [
+          "Argentina",
+          "Morocco",
+          "Italy",
+          "Spain"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Miami Open?",
+        "o": [
+          "Spain",
+          "China",
+          "United States",
+          "France"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Dianne Fromholtz represent?",
+        "o": [
+          "Germany",
+          "Bulgaria",
+          "United States",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In which year was the WTA rankings introduced?",
+        "o": [
+          "1975",
+          "2020",
+          "2016",
+          "2018"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1925 Davis Cup?",
+        "o": [
+          "Australia",
+          "United States",
+          "France",
+          "British Isles"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who was Helena Suková’s most successful doubles partner?",
+        "o": [
+          "Łukasz Kubot",
+          "Jean-Julien Rojer",
+          "Jana Novotná",
+          "Mike Bryan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Malek Jaziri represent?",
+        "o": [
+          "Spain",
+          "Morocco",
+          "South Africa",
+          "Tunisia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Madrid Open?",
+        "o": [
+          "Spain",
+          "Germany",
+          "Monaco",
+          "United States"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Regina Maršíková represent?",
+        "o": [
+          "Bulgaria",
+          "Czechoslovakia",
+          "United States",
+          "Netherlands"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which year was the tiebreak at Wimbledon introduced?",
+        "o": [
+          "2020",
+          "2016",
+          "1971",
+          "2018"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1926 Davis Cup?",
+        "o": [
+          "Australasia",
+          "Australia",
+          "France",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who was Kathy Jordan’s most successful doubles partner?",
+        "o": [
+          "Anne Smith",
+          "Kristina Mladenovic",
+          "Billie Jean King",
+          "Wendy Turnbull"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Kevin Anderson represent?",
+        "o": [
+          "Argentina",
+          "South Africa",
+          "Italy",
+          "Spain"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Shanghai Masters?",
+        "o": [
+          "Italy",
+          "Germany",
+          "China",
+          "Monaco"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Helena Suková represent?",
+        "o": [
+          "Germany",
+          "Bulgaria",
+          "United States",
+          "Czechoslovakia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In which year was the Hawk-Eye challenge system introduced?",
+        "o": [
+          "2006",
+          "2022",
+          "1968",
+          "1973"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1928 Davis Cup?",
+        "o": [
+          "Australia",
+          "France",
+          "United States",
+          "British Isles"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who was Peter McNamara’s most successful doubles partner?",
+        "o": [
+          "Kristina Mladenovic",
+          "Billie Jean King",
+          "Paul McNamee",
+          "Wendy Turnbull"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Lloyd Harris represent?",
+        "o": [
+          "France",
+          "Argentina",
+          "Italy",
+          "South Africa"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Paris Masters?",
+        "o": [
+          "France",
+          "Germany",
+          "Monaco",
+          "United States"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Claudia Kohde-Kilsch represent?",
+        "o": [
+          "Australia",
+          "Germany",
+          "Czechoslovakia",
+          "Bulgaria"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which year was the roof on Rod Laver Arena introduced?",
+        "o": [
+          "1975",
+          "1971",
+          "1988",
+          "2006"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1929 Davis Cup?",
+        "o": [
+          "Australasia",
+          "Australia",
+          "United States",
+          "France"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who was Sania Mirza’s most successful doubles partner?",
+        "o": [
+          "Martina Hingis",
+          "Paul McNamee",
+          "Daniel Nestor",
+          "Łukasz Kubot"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Ivo Karlović represent?",
+        "o": [
+          "Argentina",
+          "Croatia",
+          "Italy",
+          "Spain"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Canadian Open?",
+        "o": [
+          "Spain",
+          "China",
+          "Canada",
+          "France"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Bettina Bunge represent?",
+        "o": [
+          "Bulgaria",
+          "United States",
+          "Netherlands",
+          "Germany"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In which year was the roof on Court Philippe-Chatrier introduced?",
+        "o": [
+          "2020",
+          "1973",
+          "1975",
+          "1971"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1930 Davis Cup?",
+        "o": [
+          "United States",
+          "France",
+          "British Isles",
+          "Australasia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who was Nenad Zimonjić’s most successful doubles partner?",
+        "o": [
+          "Kristina Mladenovic",
+          "Billie Jean King",
+          "Daniel Nestor",
+          "Wendy Turnbull"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Michael Llodra represent?",
+        "o": [
+          "South Africa",
+          "Croatia",
+          "Argentina",
+          "France"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Cincinnati Masters?",
+        "o": [
+          "United States",
+          "France",
+          "Canada",
+          "Italy"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Manuela Maleeva represent?",
+        "o": [
+          "Czechoslovakia",
+          "Bulgaria",
+          "Germany",
+          "United States"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which year was the Arthur Ashe Stadium roof introduced?",
+        "o": [
+          "2022",
+          "1968",
+          "2016",
+          "1973"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1931 Davis Cup?",
+        "o": [
+          "British Isles",
+          "Australasia",
+          "Australia",
+          "France"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who was Marcelo Melo’s most successful doubles partner?",
+        "o": [
+          "Łukasz Kubot",
+          "Billie Jean King",
+          "Wendy Turnbull",
+          "Jana Novotná"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Guillermo Coria represent?",
+        "o": [
+          "Spain",
+          "Argentina",
+          "Morocco",
+          "Tunisia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country hosts the Rome Masters?",
+        "o": [
+          "Canada",
+          "Germany",
+          "Italy",
+          "Monaco"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Katerina Maleeva represent?",
+        "o": [
+          "Germany",
+          "United States",
+          "Netherlands",
+          "Bulgaria"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In which year was the shot clock at the US Open introduced?",
+        "o": [
+          "2018",
+          "2022",
+          "1968",
+          "1973"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1932 Davis Cup?",
+        "o": [
+          "Australasia",
+          "France",
+          "Australia",
+          "United States"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who was Horia Tecău’s most successful doubles partner?",
+        "o": [
+          "Daniel Nestor",
+          "Łukasz Kubot",
+          "Jean-Julien Rojer",
+          "Mike Bryan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Juan Mónaco represent?",
+        "o": [
+          "Morocco",
+          "Tunisia",
+          "South Africa",
+          "Argentina"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country hosts the Halle Open?",
+        "o": [
+          "Germany",
+          "Monaco",
+          "United States",
+          "Spain"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Zina Garrison represent?",
+        "o": [
+          "Netherlands",
+          "United States",
+          "Australia",
+          "Czechoslovakia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which year was the final-set tiebreak at Roland-Garros introduced?",
+        "o": [
+          "1971",
+          "2006",
+          "2022",
+          "1988"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1912 Davis Cup?",
+        "o": [
+          "Australia",
+          "United States",
+          "France",
+          "British Isles"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who was Jack Sock’s most successful doubles partner?",
+        "o": [
+          "Mike Bryan",
+          "Jean-Julien Rojer",
+          "Kristina Mladenovic",
+          "Billie Jean King"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Paolo Lorenzi represent?",
+        "o": [
+          "France",
+          "Italy",
+          "Argentina",
+          "Spain"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Yannick Hanfmann represent?",
+        "o": [
+          "United States",
+          "Argentina",
+          "Germany",
+          "Belgium"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Andrea Jaeger represent?",
+        "o": [
+          "Australia",
+          "Czechoslovakia",
+          "Germany",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which nation won the 1902 Davis Cup?",
+        "o": [
+          "United States",
+          "British Isles",
+          "Australasia",
+          "France"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who was Timea Babos’s most successful doubles partner?",
+        "o": [
+          "Łukasz Kubot",
+          "Kristina Mladenovic",
+          "Jean-Julien Rojer",
+          "Mike Bryan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Andreas Seppi represent?",
+        "o": [
+          "Tunisia",
+          "South Africa",
+          "Italy",
+          "Croatia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Daniel Altmaier represent?",
+        "o": [
+          "Belgium",
+          "Spain",
+          "United States",
+          "Germany"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1968 French Open women’s singles title?",
+        "o": [
+          "Nancy Richey",
+          "Chris Evert",
+          "Virginia Ruzici",
+          "Margaret Court"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1903 Davis Cup?",
+        "o": [
+          "Australasia",
+          "British Isles",
+          "France",
+          "Australia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Tommy Robredo represent?",
+        "o": [
+          "Italy",
+          "Morocco",
+          "Spain",
+          "Tunisia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Pedro Cachín represent?",
+        "o": [
+          "Belgium",
+          "Spain",
+          "United States",
+          "Argentina"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1969 French Open women’s singles title?",
+        "o": [
+          "Margaret Court",
+          "Billie Jean King",
+          "Chris Evert",
+          "Virginia Ruzici"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1904 Davis Cup?",
+        "o": [
+          "United States",
+          "British Isles",
+          "Australasia",
+          "France"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Francisco Cerúndolo represent?",
+        "o": [
+          "Spain",
+          "United States",
+          "Argentina",
+          "Germany"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1970 French Open women’s singles title?",
+        "o": [
+          "Evonne Goolagong",
+          "Billie Jean King",
+          "Chris Evert",
+          "Margaret Court"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which nation won the 1908 Davis Cup?",
+        "o": [
+          "Australasia",
+          "United States",
+          "British Isles",
+          "France"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Tomás Martín Etcheverry represent?",
+        "o": [
+          "Germany",
+          "Argentina",
+          "Belgium",
+          "Spain"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1971 French Open women’s singles title?",
+        "o": [
+          "Nancy Richey",
+          "Margaret Court",
+          "Evonne Goolagong",
+          "Billie Jean King"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which nation won the 1909 Davis Cup?",
+        "o": [
+          "Australia",
+          "United States",
+          "British Isles",
+          "Australasia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Zizou Bergs represent?",
+        "o": [
+          "Belgium",
+          "United States",
+          "Germany",
+          "Argentina"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1972 French Open women’s singles title?",
+        "o": [
+          "Nancy Richey",
+          "Billie Jean King",
+          "Margaret Court",
+          "Evonne Goolagong"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which nation won the 1911 Davis Cup?",
+        "o": [
+          "France",
+          "Australia",
+          "Australasia",
+          "United States"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did David Goffin represent?",
+        "o": [
+          "Germany",
+          "Argentina",
+          "Spain",
+          "Belgium"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1973 French Open women’s singles title?",
+        "o": [
+          "Margaret Court",
+          "Virginia Ruzici",
+          "Nancy Richey",
+          "Evonne Goolagong"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which nation won the 1913 Davis Cup?",
+        "o": [
+          "France",
+          "United States",
+          "Australia",
+          "British Isles"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Roberto Carballés Baena represent?",
+        "o": [
+          "United States",
+          "Germany",
+          "Spain",
+          "Argentina"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1974 French Open women’s singles title?",
+        "o": [
+          "Billie Jean King",
+          "Virginia Ruzici",
+          "Nancy Richey",
+          "Chris Evert"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which nation won the 1914 Davis Cup?",
+        "o": [
+          "Australasia",
+          "British Isles",
+          "France",
+          "Australia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Pedro Martínez represent?",
+        "o": [
+          "Argentina",
+          "Spain",
+          "Belgium",
+          "United States"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1975 French Open women’s singles title?",
+        "o": [
+          "Evonne Goolagong",
+          "Billie Jean King",
+          "Chris Evert",
+          "Virginia Ruzici"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Mackenzie McDonald represent?",
+        "o": [
+          "Argentina",
+          "Belgium",
+          "Spain",
+          "United States"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1978 French Open women’s singles title?",
+        "o": [
+          "Virginia Ruzici",
+          "Margaret Court",
+          "Evonne Goolagong",
+          "Billie Jean King"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1996 Cincinnati Masters?",
+        "o": [
+          "Thomas Enqvist",
+          "Andre Agassi",
+          "Gustavo Kuerten",
+          "Carlos Moyá"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1979 French Open women’s singles title?",
+        "o": [
+          "Billie Jean King",
+          "Virginia Ruzici",
+          "Chris Evert",
+          "Nancy Richey"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1998 Cincinnati Masters?",
+        "o": [
+          "Carlos Moyá",
+          "Andre Agassi",
+          "Pete Sampras",
+          "Patrick Rafter"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1999 Cincinnati Masters?",
+        "o": [
+          "Pete Sampras",
+          "Patrick Rafter",
+          "Thomas Enqvist",
+          "Gustavo Kuerten"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2000 Cincinnati Masters?",
+        "o": [
+          "Andre Agassi",
+          "Thomas Enqvist",
+          "Patrick Rafter",
+          "Pete Sampras"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2001 Cincinnati Masters?",
+        "o": [
+          "Pete Sampras",
+          "Thomas Enqvist",
+          "Gustavo Kuerten",
+          "Carlos Moyá"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2002 Cincinnati Masters?",
+        "o": [
+          "Pete Sampras",
+          "Thomas Enqvist",
+          "Gustavo Kuerten",
+          "Carlos Moyá"
+        ],
+        "a": 3
+      }
+    ]
+  }
+}

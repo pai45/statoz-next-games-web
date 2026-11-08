@@ -1,0 +1,11 @@
+# Retro Hoops / dunk-gather reach correction v11
+
+The user explicitly approved one additional correction after V10's two automatic rounds. `street_hoop_artist` applied only that targeted artwork correction using the canonical `street-hoop-assets` workflow. Build `character-v11-local`, assets `11.0.0`, rules `2.0.0`. The skill's general correction limit was not changed. V10's pack/review and remaining-finding record remain immutable history.
+
+V10 raised its torso in anticipation while the ball stayed low, requiring about45–49pixels of reach from the authored41pixel arm. V11 holds the forward crouched low chest/hips until the existing ball-lift event, then uses the lifted construction. No ball position, action time, score, outcome or AI decision was changed. Both arms' shoulder-to-wrist distances are now within the rig length in all20low-gather frames across both teams/facings. Held contact metadata remains beside the authoritative ball. This corrects the identified overextension rather than masking it with a detached hand.
+
+All36headtiles and nondunk action frames retain V10's pixels. Blue/red identities, lean V10 proportions/shading, independent arcade presentation, fullscreen joystick, host title/ID and account storage remain intact. Original reference footage was not traced or embedded. The target is still Street Hoop using the recorded public-footage evidence, not StatOz's separate Hoop Duel.
+
+Structural checks, actual production screenshots, normal-speed action playback and integration checks are recorded separately. Final counts/hashes are in `character-v11-validation.json`; source/export/review playable bundle bytes match. The actual low-gather production frames were reviewed against V10; no full source-likeness approval is claimed. Existing held-ball lift discontinuities remain, as do source-specific action silhouettes, individual body builds, precise matched camera/depth, native timing and physical Android/iPhone validation.
+
+Review: http://127.0.0.1:8954/characters.html . Play: http://127.0.0.1:8954/game.html . Production inspector: http://127.0.0.1:8954/action-review.html . Editable anatomy: `scripts/retro_hoops_character.py`; generator: `scripts/build-retro-hoops-authored.py`. This is a local candidate; nothing was pushed, published or imported into Flutter.

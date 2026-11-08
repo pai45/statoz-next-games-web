@@ -1,0 +1,114 @@
+/*
+ * The matchmaking cinematic's motion.
+ *
+ * Flutter drives all of this from four AnimationControllers; the browser can
+ * draw every one of them itself, so what is left here is five keyframes and the
+ * durations the module's constants hand in as custom properties. Everything
+ * stills under the global `prefers-reduced-motion` damper in `globals.css`.
+ */
+
+/* ---- Arena bed ------------------------------------------------------------ */
+
+/** The arena plate breathing under the scrim: a slow drift with a slight swell. */
+.drift {
+  animation: mm-drift 20s ease-in-out infinite;
+  will-change: transform;
+}
+
+@keyframes mm-drift {
+  0%   { transform: translate(0, 4px) scale(1.05); }
+  25%  { transform: translate(6px, 0) scale(1.058); }
+  50%  { transform: translate(0, -4px) scale(1.05); }
+  75%  { transform: translate(-6px, 0) scale(1.042); }
+  100% { transform: translate(0, 4px) scale(1.05); }
+}
+
+/* ---- VS medallion --------------------------------------------------------- */
+
+/** The orbit ring turning once per pulse cycle. */
+.orbit {
+  animation: mm-orbit var(--mm-pulse) linear infinite;
+}
+
+@keyframes mm-orbit {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/** The medallion's halo, breathing on the same cycle the orbit turns on. */
+.medallionPulse {
+  animation: mm-medallion-pulse calc(var(--mm-pulse) / 2) ease-in-out infinite alternate;
+}
+
+@keyframes mm-medallion-pulse {
+  from {
+    box-shadow: 0 0 18px color-mix(in srgb, var(--mm-accent) 30%, transparent);
+  }
+  to {
+    box-shadow: 0 0 26px color-mix(in srgb, var(--mm-accent) 44%, transparent);
+  }
+}
+
+/* ---- Queue ---------------------------------------------------------------- */
+
+/** The scan filling once, over exactly as long as the search runs. */
+.scan {
+  /* Stated, so the bar cannot flash full for the frame before the fill starts. */
+  width: 0;
+  animation: mm-scan var(--mm-search) linear forwards;
+}
+
+@keyframes mm-scan {
+  from { width: 0%; }
+  to   { width: 100%; }
+}
+
+/* ---- Rival reveal --------------------------------------------------------- */
+
+/** The rival's banner arriving in the slot the search status just left. */
+.reveal {
+  animation: mm-reveal var(--mm-reveal) cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+@keyframes mm-reveal {
+  from { opacity: 0; transform: translateY(10%); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* ---- Kickoff countdown ---------------------------------------------------- */
+
+/**
+ * One beat of the count: slammed down from double size, held, then pushed out
+ * as it fades. The three numbers are separate elements keyed by their value, so
+ * each one replays the whole keyframe.
+ */
+.tick {
+  animation: mm-tick 900ms ease-out both;
+}
+
+@keyframes mm-tick {
+  0%   { opacity: 1; transform: scale(2); }
+  25%  { opacity: 1; transform: scale(1); }
+  82%  { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(1.18); }
+}
+
+/** The GO stamp dropping in and settling. */
+.stamp {
+  animation: mm-stamp 680ms cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+@keyframes mm-stamp {
+  from { opacity: 0; transform: translateY(-90px) scale(0.35); }
+  to   { opacity: 1; transform: none; }
+}
+
+/** The lime wash the stamp lands with. */
+.flash {
+  animation: mm-flash 260ms ease-out both;
+}
+
+@keyframes mm-flash {
+  from { opacity: 0.55; }
+  to   { opacity: 0; }
+}

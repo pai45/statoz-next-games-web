@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-31",
+  "title": "Racer - Silverstone motion revision",
+  "scope": "Local only. No push, remote build or publication.",
+  "url": "http://127.0.0.1:3212/play/racer",
+  "buildId": "8c494280-41ba-4d55-817a-2dae2f8f8edd",
+  "bundleSha256": "179bb33c1c76e18cdf3f5488beada49bcb97bbbde2e8fef39c1206b045643fd4",
+  "bundleBytes": 1762075,
+  "circuit": "Silverstone GP, arcade-scaled from the FIA diagram",
+  "gridSize": 20,
+  "checks": {
+    "productionBuild": "passed",
+    "typecheck": "passed",
+    "lint": "passed; three existing warnings outside Racer",
+    "focusedUnitTests": 21,
+    "fullBrowserRace": "passed; ordinary input, two laps, sixteen checkpoints",
+    "desktopSteering": "ArrowLeft, A, ArrowRight and D each verified in simulation and rendered screen direction",
+    "mobileControls": "passed; 851x393, 667x375, 568x320 and two-finger steering/boost/cancel",
+    "productionApp": "passed; catalogue, new/old URLs, pause/exit and portrait-phone landscape frame",
+    "motionVideo": "10-second clip encoded and decoded successfully"
+  },
+  "steering": [
+    {
+      "code": "ArrowLeft",
+      "lateral": -3.1950701388706197,
+      "visible": -3.1812188108242623
+    },
+    {
+      "code": "KeyA",
+      "lateral": -0.44937285368851554,
+      "visible": -0.4414545061800956
+    },
+    {
+      "code": "ArrowRight",
+      "lateral": 0.5405589295071233,
+      "visible": 0.5186702491509771
+    },
+    {
+      "code": "KeyD",
+      "lateral": 0.44266038532198476,
+      "visible": 0.44162170716221993
+    }
+  ],
+  "desktopFrameTiming": {
+    "samples": 360,
+    "medianFrameMs": 13.300000000017462,
+    "p95FrameMs": 13.5,
+    "drawCalls": 351,
+    "vehicleBatches": 9
+  },
+  "physicalDeviceTested": false,
+  "motionClip": {
+    "clip": "test-results\\racer\\silverstone-motion.mp4",
+    "sha256": "e167aace4c033975466f3c6ba8d705086c4d782fe87e640674bf97604586c10f",
+    "bytes": 2634567,
+    "decode": "passed",
+    "durationSeconds": 10,
+    "outputFps": 30,
+    "method": "Browser compositor capture; ordinary live driving. Export frame rate is not a measurement of native game frame rate.",
+    "limitations": [
+      "Compositor capture timestamps are not calibrated against the native game clock. Use direct RAF samples for runtime frame pacing."
+    ]
+  },
+  "reports": {
+    "checks.json": [
+      "Authored 3D Racer opens with recovered meshes and no native Unity download or external calls.",
+      "All four desktop steering keys move and render in the correct screen direction; 20 cars are present.",
+      "Analog steering responds and releases; phone landscape controls fit without a surrounding handheld frame.",
+      "Ordinary keyboard steering/braking/boosting finishes two laps, records checkpoints, result and personal best. Automated play is not human acceptance.",
+      "Reload restores Racer progress; a second account has independent progress.",
+      "Host disposal unmounts the renderer and control listeners."
+    ],
+    "mobile-controls.json": [
+      "Two fingers can steer and boost together; cancellation clears both inputs.",
+      "Larger controls fit 851\u00d7393, 667\u00d7375 and 568\u00d7320; manual acceleration keeps telemetry clear.",
+      "Quick Race remains fully visible on the smallest tested landscape screen."
+    ],
+    "app-checks.json": [
+      "Production catalogue launches RACER at /play/racer with the new cover and no nested native client.",
+      "Production play/pause and sport-page exit work through the account-owned host.",
+      "The old /play/f1-racing address launches Racer compatibly.",
+      "A portrait phone enters the real app landscape surface with the enlarged touch controls."
+    ],
+    "motion-video.json": []
+  }
+}

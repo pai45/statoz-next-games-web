@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "games-web",
+  "version": "0.1.0",
+  "integrationVersion": 1,
+  "ready": true,
+  "navigation": [
+    {
+      "title": "Games Web",
+      "href": "/"
+    }
+  ],
+  "operations": []
+}

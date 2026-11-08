@@ -1,0 +1,5017 @@
+{
+  "sport": "cricket",
+  "mode": "medium",
+  "version": 1,
+  "bands": {
+    "1": [
+      {
+        "p": "In cricket, what does “all-rounder” mean?",
+        "o": [
+          "a player who both bats and bowls",
+          "the trailing Test side bats again",
+          "three stumps topped by two bails",
+          "three wickets in consecutive balls"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the Orange Cap in the 2026 IPL?",
+        "o": [
+          "KL Rahul",
+          "Vaibhav Sooryavanshi",
+          "Kane Williamson",
+          "Matthew Hayden"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In cricket, what does “declaration” mean?",
+        "o": [
+          "a player who both bats and bowls",
+          "a short ball rising at the batter",
+          "a captain closes the innings early",
+          "a shot to leg from a short ball"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the Orange Cap in the 2025 IPL?",
+        "o": [
+          "Chris Gayle",
+          "David Warner",
+          "Jos Buttler",
+          "Sai Sudharsan"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In cricket, what does “follow-on” mean?",
+        "o": [
+          "the trailing Test side bats again",
+          "leaving through injury or illness",
+          "next ball bars most dismissals",
+          "overs with tighter fielding limits"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the Orange Cap in the 2024 IPL?",
+        "o": [
+          "Shaun Marsh",
+          "Virat Kohli",
+          "Shubman Gill",
+          "Vaibhav Sooryavanshi"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In cricket, what does “run out” mean?",
+        "o": [
+          "a ball moving away from the batter",
+          "a ball moving into the batter",
+          "wicket broken while batter is out",
+          "a ball pitching beside the toes"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the Orange Cap in the 2023 IPL?",
+        "o": [
+          "Ruturaj Gaikwad",
+          "Sachin Tendulkar",
+          "Sai Sudharsan",
+          "Shubman Gill"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In cricket, what does “stumped” mean?",
+        "o": [
+          "keeper breaks wicket out of ground",
+          "a batter dismissed first ball",
+          "a batter dismissed for zero",
+          "a batter dismissed for zero twice"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the Orange Cap in the 2022 IPL?",
+        "o": [
+          "Michael Hussey",
+          "Jos Buttler",
+          "Robin Uthappa",
+          "Ruturaj Gaikwad"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In cricket, what does “leg before wicket” mean?",
+        "o": [
+          "a ball beyond normal batting reach",
+          "a ball moving away from the batter",
+          "body illegally blocks the wicket",
+          "a ball moving into the batter"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the Orange Cap in the 2021 IPL?",
+        "o": [
+          "Jos Buttler",
+          "KL Rahul",
+          "Kane Williamson",
+          "Ruturaj Gaikwad"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In cricket, what does “hit wicket” mean?",
+        "o": [
+          "striker breaks their own wicket",
+          "a ball moving into the batter",
+          "a ball pitching beside the toes",
+          "a batter dismissed first ball"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the Orange Cap in the 2020 IPL?",
+        "o": [
+          "Virat Kohli",
+          "KL Rahul",
+          "Chris Gayle",
+          "David Warner"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In cricket, what does “obstructing the field” mean?",
+        "o": [
+          "runs conceded per over",
+          "runs conceded per wicket",
+          "wilfully blocking the fielders",
+          "runs divided by dismissals"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the Orange Cap in the 2019 IPL?",
+        "o": [
+          "Michael Hussey",
+          "Robin Uthappa",
+          "Ruturaj Gaikwad",
+          "David Warner"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In cricket, what does “retired hurt” mean?",
+        "o": [
+          "leaving through injury or illness",
+          "a lower-order batter sent in late",
+          "a player who both bats and bowls",
+          "a short ball rising at the batter"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the Orange Cap in the 2018 IPL?",
+        "o": [
+          "Jos Buttler",
+          "Kane Williamson",
+          "KL Rahul",
+          "Matthew Hayden"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In cricket, what does “free hit” mean?",
+        "o": [
+          "runs per 100 balls faced",
+          "six runs when the ball clears it",
+          "next ball bars most dismissals",
+          "striker breaks their own wicket"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 2017 IPL?",
+        "o": [
+          "Gujarat Titans",
+          "Kolkata Knight Riders",
+          "Punjab Kings",
+          "Mumbai Indians"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In cricket, what does “powerplay” mean?",
+        "o": [
+          "overs with tighter fielding limits",
+          "a batter dismissed for zero twice",
+          "a captain closes the innings early",
+          "a cross-batted shot against spin"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 2016 IPL?",
+        "o": [
+          "Punjab Kings",
+          "Sunrisers Hyderabad",
+          "Rajasthan Royals",
+          "Rising Pune Supergiant"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In cricket, what does “Super Over” mean?",
+        "o": [
+          "a leg-spinner's wrong'un",
+          "a line marking a batter's ground",
+          "a tie-breaking extra over",
+          "a lower-order batter sent in late"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 2015 IPL?",
+        "o": [
+          "Deccan Chargers",
+          "Delhi Capitals",
+          "Gujarat Titans",
+          "Mumbai Indians"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In cricket, what does “DRS” mean?",
+        "o": [
+          "Decision Review System",
+          "the strip between the wickets",
+          "the trailing Test side bats again",
+          "three stumps topped by two bails"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 2014 IPL?",
+        "o": [
+          "Mumbai Indians",
+          "Kolkata Knight Riders",
+          "Punjab Kings",
+          "Rajasthan Royals"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In cricket, what does “DLS” mean?",
+        "o": [
+          "a ball beyond normal batting reach",
+          "a ball moving away from the batter",
+          "Duckworth-Lewis-Stern method",
+          "a ball moving into the batter"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 2013 IPL?",
+        "o": [
+          "Rising Pune Supergiant",
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad",
+          "Mumbai Indians"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In cricket, what does “crease” mean?",
+        "o": [
+          "a line marking a batter's ground",
+          "a shot to leg from a short ball",
+          "a tie-breaking extra over",
+          "an extra after body contact"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 2012 IPL?",
+        "o": [
+          "Chennai Super Kings",
+          "Kolkata Knight Riders",
+          "Deccan Chargers",
+          "Delhi Capitals"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In cricket, what does “physical wicket” mean?",
+        "o": [
+          "100 runs by one batter",
+          "50 runs by one batter",
+          "three stumps topped by two bails",
+          "Decision Review System"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 2011 IPL?",
+        "o": [
+          "Kolkata Knight Riders",
+          "Mumbai Indians",
+          "Punjab Kings",
+          "Chennai Super Kings"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Ben Stokes represent in international cricket?",
+        "o": [
+          "England",
+          "Scotland",
+          "South Africa",
+          "Sri Lanka"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 2010 IPL?",
+        "o": [
+          "Rajasthan Royals",
+          "Chennai Super Kings",
+          "Rising Pune Supergiant",
+          "Royal Challengers Bengaluru"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did James Anderson represent in international cricket?",
+        "o": [
+          "New Zealand",
+          "Pakistan",
+          "England",
+          "Scotland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 2009 IPL?",
+        "o": [
+          "Gujarat Titans",
+          "Kolkata Knight Riders",
+          "Mumbai Indians",
+          "Deccan Chargers"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Stuart Broad represent in international cricket?",
+        "o": [
+          "England",
+          "Netherlands",
+          "New Zealand",
+          "Pakistan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 2008 IPL?",
+        "o": [
+          "Mumbai Indians",
+          "Rajasthan Royals",
+          "Punjab Kings",
+          "Rising Pune Supergiant"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Eoin Morgan captain in international cricket?",
+        "o": [
+          "Ireland",
+          "Nepal",
+          "England",
+          "Netherlands"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL team listed Cameron Green in its 2026 squad?",
+        "o": [
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad",
+          "Chennai Super Kings",
+          "Kolkata Knight Riders"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Jos Buttler represent in international cricket?",
+        "o": [
+          "England",
+          "Australia",
+          "Bangladesh",
+          "India"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL team listed Riyan Parag in its 2026 squad?",
+        "o": [
+          "Mumbai Indians",
+          "Rajasthan Royals",
+          "Punjab Kings",
+          "Royal Challengers Bengaluru"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Kevin Pietersen represent in international cricket?",
+        "o": [
+          "Sri Lanka",
+          "West Indies",
+          "England",
+          "Zimbabwe"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL team listed David Miller in its 2026 squad?",
+        "o": [
+          "Mumbai Indians",
+          "Punjab Kings",
+          "Rajasthan Royals",
+          "Delhi Capitals"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Imran Khan represent in international cricket?",
+        "o": [
+          "Pakistan",
+          "India",
+          "Ireland",
+          "Nepal"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL team listed Marcus Stoinis in its 2026 squad?",
+        "o": [
+          "Gujarat Titans",
+          "Punjab Kings",
+          "Kolkata Knight Riders",
+          "Lucknow Super Giants"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Wasim Akram represent in international cricket?",
+        "o": [
+          "West Indies",
+          "Zimbabwe",
+          "Pakistan",
+          "Afghanistan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL team listed Wanindu Hasaranga in its 2026 squad?",
+        "o": [
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad",
+          "Chennai Super Kings",
+          "Lucknow Super Giants"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Waqar Younis represent in international cricket?",
+        "o": [
+          "Pakistan",
+          "Nepal",
+          "Netherlands",
+          "New Zealand"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL team listed Sai Sudharsan in its 2026 squad?",
+        "o": [
+          "Sunrisers Hyderabad",
+          "Gujarat Titans",
+          "Chennai Super Kings",
+          "Delhi Capitals"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Javed Miandad represent in international cricket?",
+        "o": [
+          "Zimbabwe",
+          "Afghanistan",
+          "Pakistan",
+          "Australia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Inzamam-ul-Haq represent in international cricket?",
+        "o": [
+          "West Indies",
+          "Zimbabwe",
+          "Afghanistan",
+          "Pakistan"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Babar Azam represent in international cricket?",
+        "o": [
+          "Pakistan",
+          "India",
+          "Ireland",
+          "Nepal"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Shaheen Shah Afridi represent in international cricket?",
+        "o": [
+          "Sri Lanka",
+          "Pakistan",
+          "West Indies",
+          "Zimbabwe"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Shahid Afridi represent in international cricket?",
+        "o": [
+          "Zimbabwe",
+          "Afghanistan",
+          "Pakistan",
+          "Australia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Garfield Sobers represent in international cricket?",
+        "o": [
+          "England",
+          "India",
+          "Ireland",
+          "West Indies"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Viv Richards represent in international cricket?",
+        "o": [
+          "West Indies",
+          "Scotland",
+          "South Africa",
+          "Sri Lanka"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Brian Lara represent in international cricket?",
+        "o": [
+          "Zimbabwe",
+          "West Indies",
+          "Afghanistan",
+          "Australia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Clive Lloyd represent in international cricket?",
+        "o": [
+          "Nepal",
+          "Netherlands",
+          "West Indies",
+          "New Zealand"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Michael Holding represent in international cricket?",
+        "o": [
+          "South Africa",
+          "Sri Lanka",
+          "Zimbabwe",
+          "West Indies"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Courtney Walsh represent in international cricket?",
+        "o": [
+          "West Indies",
+          "Australia",
+          "Bangladesh",
+          "England"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Chris Gayle represent in international cricket?",
+        "o": [
+          "Afghanistan",
+          "West Indies",
+          "Australia",
+          "Bangladesh"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Shivnarine Chanderpaul represent in international cricket?",
+        "o": [
+          "South Africa",
+          "Sri Lanka",
+          "West Indies",
+          "Zimbabwe"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Curtly Ambrose represent in international cricket?",
+        "o": [
+          "England",
+          "India",
+          "Ireland",
+          "West Indies"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Jacques Kallis represent in international cricket?",
+        "o": [
+          "South Africa",
+          "England",
+          "India",
+          "Ireland"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did AB de Villiers represent in international cricket?",
+        "o": [
+          "Scotland",
+          "South Africa",
+          "Sri Lanka",
+          "West Indies"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Dale Steyn represent in international cricket?",
+        "o": [
+          "India",
+          "Ireland",
+          "South Africa",
+          "Nepal"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Hashim Amla represent in international cricket?",
+        "o": [
+          "Afghanistan",
+          "Australia",
+          "Bangladesh",
+          "South Africa"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Graeme Smith represent in international cricket?",
+        "o": [
+          "South Africa",
+          "Sri Lanka",
+          "West Indies",
+          "Zimbabwe"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Kagiso Rabada represent in international cricket?",
+        "o": [
+          "Bangladesh",
+          "South Africa",
+          "England",
+          "India"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Shaun Pollock represent in international cricket?",
+        "o": [
+          "Bangladesh",
+          "England",
+          "South Africa",
+          "India"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2025 World Test Championship final?",
+        "o": [
+          "Pakistan",
+          "Sri Lanka",
+          "West Indies",
+          "South Africa"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2023 World Test Championship final?",
+        "o": [
+          "Australia",
+          "India",
+          "New Zealand",
+          "Pakistan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2021 World Test Championship final?",
+        "o": [
+          "Pakistan",
+          "New Zealand",
+          "South Africa",
+          "Sri Lanka"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2025 Champions Trophy?",
+        "o": [
+          "West Indies",
+          "Australia",
+          "India",
+          "England"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2017 Champions Trophy?",
+        "o": [
+          "Sri Lanka",
+          "West Indies",
+          "Australia",
+          "Pakistan"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2013 Champions Trophy?",
+        "o": [
+          "India",
+          "South Africa",
+          "Sri Lanka",
+          "West Indies"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2009 Champions Trophy?",
+        "o": [
+          "New Zealand",
+          "Australia",
+          "Pakistan",
+          "South Africa"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2006 Champions Trophy?",
+        "o": [
+          "India",
+          "New Zealand",
+          "Australia",
+          "Pakistan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2004 Champions Trophy?",
+        "o": [
+          "New Zealand",
+          "Pakistan",
+          "South Africa",
+          "West Indies"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2000 Champions Trophy?",
+        "o": [
+          "New Zealand",
+          "India",
+          "Pakistan",
+          "South Africa"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1998 Champions Trophy?",
+        "o": [
+          "India",
+          "South Africa",
+          "New Zealand",
+          "Pakistan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2026 Men's T20 World Cup?",
+        "o": [
+          "Sri Lanka",
+          "West Indies",
+          "India",
+          "Australia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2024 Men's T20 World Cup?",
+        "o": [
+          "New Zealand",
+          "Pakistan",
+          "South Africa",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2022 Men's T20 World Cup?",
+        "o": [
+          "England",
+          "West Indies",
+          "Australia",
+          "India"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2021 Men's T20 World Cup?",
+        "o": [
+          "West Indies",
+          "Australia",
+          "England",
+          "India"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2016 Men's T20 World Cup?",
+        "o": [
+          "England",
+          "India",
+          "West Indies",
+          "New Zealand"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2014 Men's T20 World Cup?",
+        "o": [
+          "New Zealand",
+          "Pakistan",
+          "South Africa",
+          "Sri Lanka"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2012 Men's T20 World Cup?",
+        "o": [
+          "West Indies",
+          "Australia",
+          "England",
+          "India"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2010 Men's T20 World Cup?",
+        "o": [
+          "New Zealand",
+          "England",
+          "Pakistan",
+          "South Africa"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2009 Men's T20 World Cup?",
+        "o": [
+          "New Zealand",
+          "South Africa",
+          "Pakistan",
+          "Sri Lanka"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2007 Men's T20 World Cup?",
+        "o": [
+          "Australia",
+          "England",
+          "New Zealand",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2023 Men's ODI World Cup?",
+        "o": [
+          "Australia",
+          "South Africa",
+          "Sri Lanka",
+          "West Indies"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2019 Men's ODI World Cup?",
+        "o": [
+          "New Zealand",
+          "England",
+          "Pakistan",
+          "South Africa"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2015 Men's ODI World Cup?",
+        "o": [
+          "India",
+          "New Zealand",
+          "Australia",
+          "Pakistan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2011 Men's ODI World Cup?",
+        "o": [
+          "Australia",
+          "England",
+          "New Zealand",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2007 Men's ODI World Cup?",
+        "o": [
+          "Australia",
+          "England",
+          "India",
+          "New Zealand"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2003 Men's ODI World Cup?",
+        "o": [
+          "West Indies",
+          "Australia",
+          "England",
+          "India"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1999 Men's ODI World Cup?",
+        "o": [
+          "India",
+          "New Zealand",
+          "Australia",
+          "Pakistan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1996 Men's ODI World Cup?",
+        "o": [
+          "South Africa",
+          "West Indies",
+          "Australia",
+          "Sri Lanka"
+        ],
+        "a": 3
+      }
+    ],
+    "2": [
+      {
+        "p": "Who won the 1992 Men's ODI World Cup?",
+        "o": [
+          "Pakistan",
+          "South Africa",
+          "Sri Lanka",
+          "West Indies"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Belinda Clark represent in international cricket?",
+        "o": [
+          "West Indies",
+          "Australia",
+          "Bangladesh",
+          "England"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL team listed Tilak Varma in its 2026 squad?",
+        "o": [
+          "Gujarat Titans",
+          "Kolkata Knight Riders",
+          "Mumbai Indians",
+          "Lucknow Super Giants"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1987 Men's ODI World Cup?",
+        "o": [
+          "South Africa",
+          "Sri Lanka",
+          "West Indies",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Meg Lanning represent in international cricket?",
+        "o": [
+          "Australia",
+          "Nepal",
+          "New Zealand",
+          "Pakistan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL team listed Ishan Kishan in its 2026 squad?",
+        "o": [
+          "Kolkata Knight Riders",
+          "Sunrisers Hyderabad",
+          "Lucknow Super Giants",
+          "Mumbai Indians"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1983 Men's ODI World Cup?",
+        "o": [
+          "Sri Lanka",
+          "West Indies",
+          "India",
+          "Australia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Ellyse Perry represent in international cricket?",
+        "o": [
+          "England",
+          "India",
+          "Ireland",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL team listed Liam Livingstone in its 2026 squad?",
+        "o": [
+          "Sunrisers Hyderabad",
+          "Royal Challengers Bengaluru",
+          "Chennai Super Kings",
+          "Delhi Capitals"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1979 Men's ODI World Cup?",
+        "o": [
+          "New Zealand",
+          "West Indies",
+          "Pakistan",
+          "South Africa"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Alyssa Healy represent in international cricket?",
+        "o": [
+          "Scotland",
+          "South Africa",
+          "Australia",
+          "Sri Lanka"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL team listed Tristan Stubbs in its 2026 squad?",
+        "o": [
+          "Chennai Super Kings",
+          "Gujarat Titans",
+          "Kolkata Knight Riders",
+          "Delhi Capitals"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1975 Men's ODI World Cup?",
+        "o": [
+          "West Indies",
+          "India",
+          "New Zealand",
+          "Pakistan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Beth Mooney represent in international cricket?",
+        "o": [
+          "Ireland",
+          "Australia",
+          "Nepal",
+          "New Zealand"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL team listed Aiden Markram in its 2026 squad?",
+        "o": [
+          "Chennai Super Kings",
+          "Delhi Capitals",
+          "Lucknow Super Giants",
+          "Gujarat Titans"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which city is Lord's located?",
+        "o": [
+          "Kolkata",
+          "Lahore",
+          "Leeds",
+          "London"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL team listed Mitchell Marsh in its 2026 squad?",
+        "o": [
+          "Lucknow Super Giants",
+          "Kolkata Knight Riders",
+          "Mumbai Indians",
+          "Punjab Kings"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which city is The Oval located?",
+        "o": [
+          "Port of Spain",
+          "London",
+          "Rawalpindi",
+          "Sharjah"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL team listed Will Jacks in its 2026 squad?",
+        "o": [
+          "Punjab Kings",
+          "Rajasthan Royals",
+          "Mumbai Indians",
+          "Royal Challengers Bengaluru"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which city is Edgbaston located?",
+        "o": [
+          "Kingston",
+          "Kolkata",
+          "Lahore",
+          "Birmingham"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL team listed Rajat Patidar in its 2026 squad?",
+        "o": [
+          "Royal Challengers Bengaluru",
+          "Lucknow Super Giants",
+          "Mumbai Indians",
+          "Punjab Kings"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which city is Old Trafford located?",
+        "o": [
+          "London",
+          "Manchester",
+          "Malahide",
+          "Melbourne"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL team listed Venkatesh Iyer in its 2026 squad?",
+        "o": [
+          "Chennai Super Kings",
+          "Delhi Capitals",
+          "Royal Challengers Bengaluru",
+          "Gujarat Titans"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which city is Headingley located?",
+        "o": [
+          "Chennai",
+          "Christchurch",
+          "Colombo",
+          "Leeds"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL team listed Rachin Ravindra in its 2026 squad?",
+        "o": [
+          "Kolkata Knight Riders",
+          "Mumbai Indians",
+          "Punjab Kings",
+          "Rajasthan Royals"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which city is Trent Bridge located?",
+        "o": [
+          "Durban",
+          "Nottingham",
+          "Harare",
+          "Johannesburg"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL team listed Nitish Kumar Reddy in its 2026 squad?",
+        "o": [
+          "Chennai Super Kings",
+          "Delhi Capitals",
+          "Sunrisers Hyderabad",
+          "Gujarat Titans"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which city is Melbourne Cricket Ground located?",
+        "o": [
+          "Durban",
+          "Harare",
+          "Johannesburg",
+          "Melbourne"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL team listed Shimron Hetmyer in its 2026 squad?",
+        "o": [
+          "Rajasthan Royals",
+          "Chennai Super Kings",
+          "Delhi Capitals",
+          "Gujarat Titans"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which city is Sydney Cricket Ground located?",
+        "o": [
+          "Rawalpindi",
+          "Sydney",
+          "Sharjah",
+          "Wellington"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL team listed Jonny Bairstow in its 2026 squad?",
+        "o": [
+          "Kolkata Knight Riders",
+          "Lucknow Super Giants",
+          "Rajasthan Royals",
+          "Mumbai Indians"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which city is Adelaide Oval located?",
+        "o": [
+          "Kolkata",
+          "Lahore",
+          "Leeds",
+          "Adelaide"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL team listed Pathum Nissanka in its 2026 squad?",
+        "o": [
+          "Delhi Capitals",
+          "Kolkata Knight Riders",
+          "Lucknow Super Giants",
+          "Mumbai Indians"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which city is The Gabba located?",
+        "o": [
+          "Ahmedabad",
+          "Brisbane",
+          "Auckland",
+          "Bengaluru"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL team listed Josh Inglis in its 2026 squad?",
+        "o": [
+          "Gujarat Titans",
+          "Kolkata Knight Riders",
+          "Lucknow Super Giants",
+          "Mumbai Indians"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which city is Perth Stadium located?",
+        "o": [
+          "Manchester",
+          "Melbourne",
+          "Mumbai",
+          "Perth"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL team listed Rahul Tewatia in its 2026 squad?",
+        "o": [
+          "Gujarat Titans",
+          "Punjab Kings",
+          "Rajasthan Royals",
+          "Royal Challengers Bengaluru"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which city is Wankhede Stadium located?",
+        "o": [
+          "Auckland",
+          "Mumbai",
+          "Bengaluru",
+          "Birmingham"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL team listed Tim David in its 2026 squad?",
+        "o": [
+          "Mumbai Indians",
+          "Punjab Kings",
+          "Royal Challengers Bengaluru",
+          "Rajasthan Royals"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which city is Eden Gardens located?",
+        "o": [
+          "Dubai",
+          "Durban",
+          "Harare",
+          "Kolkata"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL team listed Jitesh Sharma in its 2026 squad?",
+        "o": [
+          "Royal Challengers Bengaluru",
+          "Lucknow Super Giants",
+          "Mumbai Indians",
+          "Punjab Kings"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which city is M. Chinnaswamy Stadium located?",
+        "o": [
+          "Dharamsala",
+          "Bengaluru",
+          "Dubai",
+          "Durban"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL team listed Rovman Powell in its 2026 squad?",
+        "o": [
+          "Chennai Super Kings",
+          "Delhi Capitals",
+          "Kolkata Knight Riders",
+          "Gujarat Titans"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which city is M. A. Chidambaram Stadium located?",
+        "o": [
+          "Lahore",
+          "Leeds",
+          "London",
+          "Chennai"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL team listed Kamindu Mendis in its 2026 squad?",
+        "o": [
+          "Sunrisers Hyderabad",
+          "Royal Challengers Bengaluru",
+          "Chennai Super Kings",
+          "Delhi Capitals"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which city is Arun Jaitley Stadium located?",
+        "o": [
+          "Ahmedabad",
+          "Delhi",
+          "Auckland",
+          "Bengaluru"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL team listed Vaibhav Sooryavanshi in its 2026 squad?",
+        "o": [
+          "Kolkata Knight Riders",
+          "Lucknow Super Giants",
+          "Rajasthan Royals",
+          "Mumbai Indians"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which city is Narendra Modi Stadium located?",
+        "o": [
+          "Adelaide",
+          "Auckland",
+          "Bengaluru",
+          "Ahmedabad"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL team listed Dhruv Jurel in its 2026 squad?",
+        "o": [
+          "Rajasthan Royals",
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad",
+          "Chennai Super Kings"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which city is Green Park located?",
+        "o": [
+          "Sharjah",
+          "Kanpur",
+          "Sydney",
+          "Wellington"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL team listed Ben Duckett in its 2026 squad?",
+        "o": [
+          "Sunrisers Hyderabad",
+          "Chennai Super Kings",
+          "Delhi Capitals",
+          "Gujarat Titans"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which city is HPCA Stadium located?",
+        "o": [
+          "Manchester",
+          "Melbourne",
+          "Mumbai",
+          "Dharamsala"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL team listed Shashank Singh in its 2026 squad?",
+        "o": [
+          "Punjab Kings",
+          "Rajasthan Royals",
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which city is National Bank Stadium located?",
+        "o": [
+          "Birmingham",
+          "Karachi",
+          "Bridgetown",
+          "Brisbane"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL team listed Azmatullah Omarzai in its 2026 squad?",
+        "o": [
+          "Delhi Capitals",
+          "Gujarat Titans",
+          "Punjab Kings",
+          "Kolkata Knight Riders"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which city is Gaddafi Stadium located?",
+        "o": [
+          "Dubai",
+          "Durban",
+          "Harare",
+          "Lahore"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In which city is Rawalpindi Cricket Stadium located?",
+        "o": [
+          "Rawalpindi",
+          "Dharamsala",
+          "Dubai",
+          "Durban"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which city is Newlands located?",
+        "o": [
+          "Mumbai",
+          "Cape Town",
+          "Nottingham",
+          "Perth"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which city is The Wanderers located?",
+        "o": [
+          "Nottingham",
+          "Perth",
+          "Johannesburg",
+          "Port of Spain"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which city is SuperSport Park located?",
+        "o": [
+          "Melbourne",
+          "Mumbai",
+          "Nottingham",
+          "Centurion"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In which city is Kingsmead located?",
+        "o": [
+          "Durban",
+          "Malahide",
+          "Manchester",
+          "Melbourne"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which city is Basin Reserve located?",
+        "o": [
+          "Delhi",
+          "Wellington",
+          "Dhaka",
+          "Dharamsala"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which city is Eden Park located?",
+        "o": [
+          "Dhaka",
+          "Dharamsala",
+          "Auckland",
+          "Dubai"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which city is Hagley Oval located?",
+        "o": [
+          "Lahore",
+          "Leeds",
+          "London",
+          "Christchurch"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In which city is Sabina Park located?",
+        "o": [
+          "Kingston",
+          "Centurion",
+          "Chennai",
+          "Christchurch"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which city is Kensington Oval located?",
+        "o": [
+          "Adelaide",
+          "Bridgetown",
+          "Ahmedabad",
+          "Auckland"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which city is Queen's Park Oval located?",
+        "o": [
+          "Colombo",
+          "Delhi",
+          "Port of Spain",
+          "Dhaka"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which city is Sinhalese Sports Club Ground located?",
+        "o": [
+          "Kandy",
+          "Kanpur",
+          "Karachi",
+          "Colombo"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In which city is R. Premadasa Stadium located?",
+        "o": [
+          "Colombo",
+          "Adelaide",
+          "Ahmedabad",
+          "Auckland"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which city is Pallekele International Stadium located?",
+        "o": [
+          "Malahide",
+          "Kandy",
+          "Manchester",
+          "Melbourne"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which city is Sher-e-Bangla National Stadium located?",
+        "o": [
+          "Kingston",
+          "Kolkata",
+          "Dhaka",
+          "Lahore"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In which city is Harare Sports Club located?",
+        "o": [
+          "Kingston",
+          "Kolkata",
+          "Lahore",
+          "Harare"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In which city is Malahide Cricket Club Ground located?",
+        "o": [
+          "Malahide",
+          "Perth",
+          "Port of Spain",
+          "Rawalpindi"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In which city is Dubai International Stadium located?",
+        "o": [
+          "Dhaka",
+          "Dubai",
+          "Dharamsala",
+          "Durban"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In which city is Sharjah Cricket Stadium located?",
+        "o": [
+          "Kingston",
+          "Kolkata",
+          "Sharjah",
+          "Lahore"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What is the cricket meaning of “all-rounder”?",
+        "o": [
+          "Decision Review System",
+          "Duckworth-Lewis-Stern method",
+          "a back-foot shot square off side",
+          "a player who both bats and bowls"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What is the cricket meaning of “declaration”?",
+        "o": [
+          "a captain closes the innings early",
+          "an off-spinner's ball turning away",
+          "an over with no runs charged",
+          "balls bowled per wicket"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What is the cricket meaning of “follow-on”?",
+        "o": [
+          "balls bowled per wicket",
+          "the trailing Test side bats again",
+          "body illegally blocks the wicket",
+          "first-ball ducks in both innings"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What is the cricket meaning of “run out”?",
+        "o": [
+          "body illegally blocks the wicket",
+          "first-ball ducks in both innings",
+          "wicket broken while batter is out",
+          "five wickets in one innings"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What is the cricket meaning of “stumped”?",
+        "o": [
+          "runs conceded per over",
+          "runs conceded per wicket",
+          "runs divided by dismissals",
+          "keeper breaks wicket out of ground"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What is the cricket meaning of “leg before wicket”?",
+        "o": [
+          "body illegally blocks the wicket",
+          "an extra untouched by bat or body",
+          "an illegal ball costing an extra",
+          "an off-spinner's ball turning away"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What is the cricket meaning of “hit wicket”?",
+        "o": [
+          "next ball bars most dismissals",
+          "striker breaks their own wicket",
+          "overs with tighter fielding limits",
+          "runs conceded per over"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What is the cricket meaning of “obstructing the field”?",
+        "o": [
+          "100 runs by one batter",
+          "50 runs by one batter",
+          "wilfully blocking the fielders",
+          "Decision Review System"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What is the cricket meaning of “retired hurt”?",
+        "o": [
+          "100 runs by one batter",
+          "50 runs by one batter",
+          "Decision Review System",
+          "leaving through injury or illness"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What is the cricket meaning of “free hit”?",
+        "o": [
+          "next ball bars most dismissals",
+          "runs divided by dismissals",
+          "runs needed per over remaining",
+          "runs per 100 balls faced"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What is the cricket meaning of “powerplay”?",
+        "o": [
+          "a back-foot shot square off side",
+          "overs with tighter fielding limits",
+          "a ball beyond normal batting reach",
+          "a ball moving away from the batter"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What is the cricket meaning of “Super Over”?",
+        "o": [
+          "the strip between the wickets",
+          "the trailing Test side bats again",
+          "a tie-breaking extra over",
+          "three stumps topped by two bails"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What is the cricket meaning of “DRS”?",
+        "o": [
+          "the trailing Test side bats again",
+          "three stumps topped by two bails",
+          "three wickets in consecutive balls",
+          "Decision Review System"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What is the cricket meaning of “DLS”?",
+        "o": [
+          "Duckworth-Lewis-Stern method",
+          "a ball moving away from the batter",
+          "a ball moving into the batter",
+          "a ball pitching beside the toes"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What is the cricket meaning of “crease”?",
+        "o": [
+          "five wickets in one innings",
+          "a line marking a batter's ground",
+          "four runs as the ball reaches rope",
+          "keeper breaks wicket out of ground"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What is the cricket meaning of “physical wicket”?",
+        "o": [
+          "Duckworth-Lewis-Stern method",
+          "a back-foot shot square off side",
+          "three stumps topped by two bails",
+          "a ball beyond normal batting reach"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which national team did Ben Stokes play for?",
+        "o": [
+          "Bangladesh",
+          "India",
+          "Ireland",
+          "England"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which national team did James Anderson play for?",
+        "o": [
+          "England",
+          "Ireland",
+          "Nepal",
+          "Netherlands"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which national team did Stuart Broad play for?",
+        "o": [
+          "Scotland",
+          "England",
+          "South Africa",
+          "Sri Lanka"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which national team did Eoin Morgan play for?",
+        "o": [
+          "New Zealand",
+          "Pakistan",
+          "England",
+          "Scotland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which national team did Jos Buttler play for?",
+        "o": [
+          "Ireland",
+          "Nepal",
+          "Netherlands",
+          "England"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which national team did Kevin Pietersen play for?",
+        "o": [
+          "England",
+          "Bangladesh",
+          "India",
+          "Ireland"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which national team did Imran Khan play for?",
+        "o": [
+          "Sri Lanka",
+          "Pakistan",
+          "West Indies",
+          "Zimbabwe"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which national team did Wasim Akram play for?",
+        "o": [
+          "England",
+          "India",
+          "Pakistan",
+          "Ireland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which national team did Waqar Younis play for?",
+        "o": [
+          "Scotland",
+          "South Africa",
+          "Sri Lanka",
+          "Pakistan"
+        ],
+        "a": 3
+      }
+    ],
+    "3": [
+      {
+        "p": "Which national team did Javed Miandad play for?",
+        "o": [
+          "Pakistan",
+          "South Africa",
+          "Sri Lanka",
+          "West Indies"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Ashleigh Gardner represent in international cricket?",
+        "o": [
+          "New Zealand",
+          "Australia",
+          "Pakistan",
+          "Scotland"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL team listed Jason Holder in its 2026 squad?",
+        "o": [
+          "Punjab Kings",
+          "Rajasthan Royals",
+          "Gujarat Titans",
+          "Royal Challengers Bengaluru"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which national team did Inzamam-ul-Haq play for?",
+        "o": [
+          "Sri Lanka",
+          "West Indies",
+          "Zimbabwe",
+          "Pakistan"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Karen Rolton represent in international cricket?",
+        "o": [
+          "Australia",
+          "England",
+          "India",
+          "Ireland"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL team listed Glenn Phillips in its 2026 squad?",
+        "o": [
+          "Kolkata Knight Riders",
+          "Gujarat Titans",
+          "Lucknow Super Giants",
+          "Mumbai Indians"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which national team did Babar Azam play for?",
+        "o": [
+          "Sri Lanka",
+          "West Indies",
+          "Pakistan",
+          "Zimbabwe"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Charlotte Edwards represent in international cricket?",
+        "o": [
+          "South Africa",
+          "Sri Lanka",
+          "Thailand",
+          "England"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL team listed Matthew Short in its 2026 squad?",
+        "o": [
+          "Chennai Super Kings",
+          "Delhi Capitals",
+          "Gujarat Titans",
+          "Kolkata Knight Riders"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which national team did Shaheen Shah Afridi play for?",
+        "o": [
+          "Bangladesh",
+          "Pakistan",
+          "England",
+          "India"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Heather Knight represent in international cricket?",
+        "o": [
+          "United Arab Emirates",
+          "West Indies",
+          "England",
+          "Australia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL team listed Mitchell Santner in its 2026 squad?",
+        "o": [
+          "Chennai Super Kings",
+          "Delhi Capitals",
+          "Gujarat Titans",
+          "Mumbai Indians"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which national team did Shahid Afridi play for?",
+        "o": [
+          "Pakistan",
+          "South Africa",
+          "Sri Lanka",
+          "West Indies"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Nat Sciver-Brunt represent in international cricket?",
+        "o": [
+          "West Indies",
+          "England",
+          "Australia",
+          "Bangladesh"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL team listed Krunal Pandya in its 2026 squad?",
+        "o": [
+          "Chennai Super Kings",
+          "Delhi Capitals",
+          "Royal Challengers Bengaluru",
+          "Gujarat Titans"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which national team did Garfield Sobers play for?",
+        "o": [
+          "New Zealand",
+          "Pakistan",
+          "Scotland",
+          "West Indies"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Sarah Taylor represent in international cricket?",
+        "o": [
+          "England",
+          "West Indies",
+          "Australia",
+          "Bangladesh"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL team listed Rahul Tripathi in its 2026 squad?",
+        "o": [
+          "Royal Challengers Bengaluru",
+          "Kolkata Knight Riders",
+          "Sunrisers Hyderabad",
+          "Chennai Super Kings"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which national team did Viv Richards play for?",
+        "o": [
+          "Australia",
+          "Bangladesh",
+          "West Indies",
+          "England"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Sophie Ecclestone represent in international cricket?",
+        "o": [
+          "Sri Lanka",
+          "Thailand",
+          "United Arab Emirates",
+          "England"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL team listed Finn Allen in its 2026 squad?",
+        "o": [
+          "Kolkata Knight Riders",
+          "Punjab Kings",
+          "Rajasthan Royals",
+          "Royal Challengers Bengaluru"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which national team did Brian Lara play for?",
+        "o": [
+          "Nepal",
+          "West Indies",
+          "Netherlands",
+          "New Zealand"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Tammy Beaumont represent in international cricket?",
+        "o": [
+          "United Arab Emirates",
+          "West Indies",
+          "England",
+          "Australia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL team listed Nitish Rana in its 2026 squad?",
+        "o": [
+          "Mumbai Indians",
+          "Punjab Kings",
+          "Rajasthan Royals",
+          "Delhi Capitals"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which national team did Clive Lloyd play for?",
+        "o": [
+          "West Indies",
+          "Pakistan",
+          "Scotland",
+          "South Africa"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Mithali Raj represent in international cricket?",
+        "o": [
+          "Australia",
+          "India",
+          "Bangladesh",
+          "England"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL team listed Marco Jansen in its 2026 squad?",
+        "o": [
+          "Mumbai Indians",
+          "Rajasthan Royals",
+          "Punjab Kings",
+          "Royal Challengers Bengaluru"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which national team did Michael Holding play for?",
+        "o": [
+          "Bangladesh",
+          "England",
+          "India",
+          "West Indies"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Jhulan Goswami represent in international cricket?",
+        "o": [
+          "India",
+          "United Arab Emirates",
+          "West Indies",
+          "Australia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL team listed Ayush Badoni in its 2026 squad?",
+        "o": [
+          "Gujarat Titans",
+          "Lucknow Super Giants",
+          "Kolkata Knight Riders",
+          "Mumbai Indians"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which national team did Courtney Walsh play for?",
+        "o": [
+          "Afghanistan",
+          "Australia",
+          "West Indies",
+          "Bangladesh"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Harmanpreet Kaur represent in international cricket?",
+        "o": [
+          "Australia",
+          "Bangladesh",
+          "England",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL team listed Tom Banton in its 2026 squad?",
+        "o": [
+          "Gujarat Titans",
+          "Punjab Kings",
+          "Rajasthan Royals",
+          "Royal Challengers Bengaluru"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which national team did Chris Gayle play for?",
+        "o": [
+          "England",
+          "West Indies",
+          "India",
+          "Ireland"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2024 Women's T20 World Cup?",
+        "o": [
+          "England",
+          "India",
+          "New Zealand",
+          "South Africa"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL team listed Washington Sundar in its 2026 squad?",
+        "o": [
+          "Mumbai Indians",
+          "Punjab Kings",
+          "Rajasthan Royals",
+          "Gujarat Titans"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which national team did Shivnarine Chanderpaul play for?",
+        "o": [
+          "West Indies",
+          "Bangladesh",
+          "England",
+          "India"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2023 Women's T20 World Cup?",
+        "o": [
+          "West Indies",
+          "Australia",
+          "England",
+          "India"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL team listed Jamie Overton in its 2026 squad?",
+        "o": [
+          "Mumbai Indians",
+          "Punjab Kings",
+          "Chennai Super Kings",
+          "Rajasthan Royals"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which national team did Curtly Ambrose play for?",
+        "o": [
+          "Afghanistan",
+          "Australia",
+          "Bangladesh",
+          "West Indies"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2020 Women's T20 World Cup?",
+        "o": [
+          "Australia",
+          "England",
+          "India",
+          "New Zealand"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL team listed Shardul Thakur in its 2026 squad?",
+        "o": [
+          "Kolkata Knight Riders",
+          "Mumbai Indians",
+          "Lucknow Super Giants",
+          "Punjab Kings"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which national team did Jacques Kallis play for?",
+        "o": [
+          "Afghanistan",
+          "Australia",
+          "South Africa",
+          "Bangladesh"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2018 Women's T20 World Cup?",
+        "o": [
+          "New Zealand",
+          "South Africa",
+          "West Indies",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL team listed Devdutt Padikkal in its 2026 squad?",
+        "o": [
+          "Royal Challengers Bengaluru",
+          "Lucknow Super Giants",
+          "Mumbai Indians",
+          "Punjab Kings"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which national team did AB de Villiers play for?",
+        "o": [
+          "Pakistan",
+          "South Africa",
+          "Scotland",
+          "Sri Lanka"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL team listed Romario Shepherd in its 2026 squad?",
+        "o": [
+          "Punjab Kings",
+          "Rajasthan Royals",
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which national team did Dale Steyn play for?",
+        "o": [
+          "Sri Lanka",
+          "West Indies",
+          "Zimbabwe",
+          "South Africa"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL team listed Ajinkya Rahane in its 2026 squad?",
+        "o": [
+          "Kolkata Knight Riders",
+          "Rajasthan Royals",
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which national team did Hashim Amla play for?",
+        "o": [
+          "Ireland",
+          "South Africa",
+          "Nepal",
+          "Netherlands"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL team listed Ashutosh Sharma in its 2026 squad?",
+        "o": [
+          "Kolkata Knight Riders",
+          "Lucknow Super Giants",
+          "Delhi Capitals",
+          "Mumbai Indians"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which national team did Graeme Smith play for?",
+        "o": [
+          "Afghanistan",
+          "Australia",
+          "Bangladesh",
+          "South Africa"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL team listed Prabhsimran Singh in its 2026 squad?",
+        "o": [
+          "Punjab Kings",
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad",
+          "Chennai Super Kings"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which national team did Kagiso Rabada play for?",
+        "o": [
+          "Sri Lanka",
+          "South Africa",
+          "West Indies",
+          "Zimbabwe"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who received the Orange Cap for the 2026 IPL?",
+        "o": [
+          "Michael Hussey",
+          "Robin Uthappa",
+          "Vaibhav Sooryavanshi",
+          "Ruturaj Gaikwad"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which national team did Shaun Pollock play for?",
+        "o": [
+          "Zimbabwe",
+          "Afghanistan",
+          "Australia",
+          "South Africa"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who received the Orange Cap for the 2025 IPL?",
+        "o": [
+          "Sai Sudharsan",
+          "KL Rahul",
+          "Kane Williamson",
+          "Matthew Hayden"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2025 World Test Championship final?",
+        "o": [
+          "Pakistan",
+          "South Africa",
+          "Sri Lanka",
+          "West Indies"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who received the Orange Cap for the 2024 IPL?",
+        "o": [
+          "Jos Buttler",
+          "KL Rahul",
+          "Virat Kohli",
+          "Kane Williamson"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2023 World Test Championship final?",
+        "o": [
+          "West Indies",
+          "England",
+          "India",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who received the Orange Cap for the 2023 IPL?",
+        "o": [
+          "Shubman Gill",
+          "Virat Kohli",
+          "Chris Gayle",
+          "David Warner"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2021 World Test Championship final?",
+        "o": [
+          "Pakistan",
+          "New Zealand",
+          "South Africa",
+          "Sri Lanka"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who received the Orange Cap for the 2022 IPL?",
+        "o": [
+          "Shaun Marsh",
+          "Shubman Gill",
+          "Jos Buttler",
+          "Vaibhav Sooryavanshi"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2025 Champions Trophy?",
+        "o": [
+          "Pakistan",
+          "South Africa",
+          "Sri Lanka",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who received the Orange Cap for the 2021 IPL?",
+        "o": [
+          "Ruturaj Gaikwad",
+          "Robin Uthappa",
+          "Sachin Tendulkar",
+          "Sai Sudharsan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2017 Champions Trophy?",
+        "o": [
+          "India",
+          "Pakistan",
+          "New Zealand",
+          "South Africa"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2013 Champions Trophy?",
+        "o": [
+          "England",
+          "New Zealand",
+          "India",
+          "Pakistan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2009 Champions Trophy?",
+        "o": [
+          "West Indies",
+          "England",
+          "India",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2006 Champions Trophy?",
+        "o": [
+          "Australia",
+          "Sri Lanka",
+          "West Indies",
+          "England"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2004 Champions Trophy?",
+        "o": [
+          "Australia",
+          "West Indies",
+          "England",
+          "India"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2000 Champions Trophy?",
+        "o": [
+          "West Indies",
+          "Australia",
+          "New Zealand",
+          "England"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 1998 Champions Trophy?",
+        "o": [
+          "Pakistan",
+          "Sri Lanka",
+          "West Indies",
+          "South Africa"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2026 Men's T20 World Cup?",
+        "o": [
+          "India",
+          "West Indies",
+          "Australia",
+          "England"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2024 Men's T20 World Cup?",
+        "o": [
+          "England",
+          "India",
+          "New Zealand",
+          "Pakistan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2022 Men's T20 World Cup?",
+        "o": [
+          "Sri Lanka",
+          "West Indies",
+          "England",
+          "Australia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2021 Men's T20 World Cup?",
+        "o": [
+          "England",
+          "India",
+          "New Zealand",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2016 Men's T20 World Cup?",
+        "o": [
+          "West Indies",
+          "Australia",
+          "England",
+          "India"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2014 Men's T20 World Cup?",
+        "o": [
+          "India",
+          "Sri Lanka",
+          "New Zealand",
+          "Pakistan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2012 Men's T20 World Cup?",
+        "o": [
+          "Sri Lanka",
+          "Australia",
+          "West Indies",
+          "England"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2010 Men's T20 World Cup?",
+        "o": [
+          "Pakistan",
+          "South Africa",
+          "Sri Lanka",
+          "England"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2009 Men's T20 World Cup?",
+        "o": [
+          "Pakistan",
+          "South Africa",
+          "Sri Lanka",
+          "West Indies"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2007 Men's T20 World Cup?",
+        "o": [
+          "West Indies",
+          "India",
+          "Australia",
+          "England"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2023 Men's ODI World Cup?",
+        "o": [
+          "Pakistan",
+          "South Africa",
+          "Australia",
+          "Sri Lanka"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2019 Men's ODI World Cup?",
+        "o": [
+          "India",
+          "New Zealand",
+          "Pakistan",
+          "England"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2015 Men's ODI World Cup?",
+        "o": [
+          "Australia",
+          "England",
+          "India",
+          "New Zealand"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2011 Men's ODI World Cup?",
+        "o": [
+          "England",
+          "India",
+          "New Zealand",
+          "Pakistan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2007 Men's ODI World Cup?",
+        "o": [
+          "West Indies",
+          "England",
+          "Australia",
+          "India"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2003 Men's ODI World Cup?",
+        "o": [
+          "Sri Lanka",
+          "West Indies",
+          "England",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 1999 Men's ODI World Cup?",
+        "o": [
+          "Australia",
+          "England",
+          "India",
+          "New Zealand"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 1996 Men's ODI World Cup?",
+        "o": [
+          "Pakistan",
+          "Sri Lanka",
+          "South Africa",
+          "West Indies"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 1992 Men's ODI World Cup?",
+        "o": [
+          "New Zealand",
+          "South Africa",
+          "Pakistan",
+          "Sri Lanka"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 1987 Men's ODI World Cup?",
+        "o": [
+          "Sri Lanka",
+          "West Indies",
+          "England",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 1983 Men's ODI World Cup?",
+        "o": [
+          "India",
+          "South Africa",
+          "Sri Lanka",
+          "West Indies"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 1979 Men's ODI World Cup?",
+        "o": [
+          "India",
+          "West Indies",
+          "New Zealand",
+          "Pakistan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 1975 Men's ODI World Cup?",
+        "o": [
+          "England",
+          "India",
+          "West Indies",
+          "New Zealand"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which city hosts Lord's?",
+        "o": [
+          "Birmingham",
+          "Bridgetown",
+          "Brisbane",
+          "London"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which city hosts The Oval?",
+        "o": [
+          "London",
+          "Leeds",
+          "Malahide",
+          "Manchester"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which city hosts Edgbaston?",
+        "o": [
+          "Malahide",
+          "Birmingham",
+          "Manchester",
+          "Melbourne"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which city hosts Old Trafford?",
+        "o": [
+          "Cape Town",
+          "Centurion",
+          "Manchester",
+          "Chennai"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which city hosts Headingley?",
+        "o": [
+          "Kandy",
+          "Kanpur",
+          "Karachi",
+          "Leeds"
+        ],
+        "a": 3
+      }
+    ],
+    "4": [
+      {
+        "p": "Which city hosts Trent Bridge?",
+        "o": [
+          "Nottingham",
+          "Sharjah",
+          "Sydney",
+          "Wellington"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2016 Women's T20 World Cup?",
+        "o": [
+          "Australia",
+          "West Indies",
+          "England",
+          "India"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who received the Orange Cap for the 2020 IPL?",
+        "o": [
+          "Matthew Hayden",
+          "Michael Hussey",
+          "KL Rahul",
+          "Robin Uthappa"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which city hosts Melbourne Cricket Ground?",
+        "o": [
+          "Ahmedabad",
+          "Auckland",
+          "Bengaluru",
+          "Melbourne"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2014 Women's T20 World Cup?",
+        "o": [
+          "Australia",
+          "India",
+          "New Zealand",
+          "South Africa"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who received the Orange Cap for the 2019 IPL?",
+        "o": [
+          "Shaun Marsh",
+          "David Warner",
+          "Shubman Gill",
+          "Vaibhav Sooryavanshi"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which city hosts Sydney Cricket Ground?",
+        "o": [
+          "Wellington",
+          "Adelaide",
+          "Sydney",
+          "Ahmedabad"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2012 Women's T20 World Cup?",
+        "o": [
+          "New Zealand",
+          "South Africa",
+          "West Indies",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who received the Orange Cap for the 2018 IPL?",
+        "o": [
+          "Kane Williamson",
+          "Ruturaj Gaikwad",
+          "Sachin Tendulkar",
+          "Sai Sudharsan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which city hosts Adelaide Oval?",
+        "o": [
+          "Kanpur",
+          "Adelaide",
+          "Karachi",
+          "Kingston"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2010 Women's T20 World Cup?",
+        "o": [
+          "England",
+          "India",
+          "Australia",
+          "New Zealand"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2017 IPL?",
+        "o": [
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad",
+          "Chennai Super Kings",
+          "Mumbai Indians"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which city hosts The Gabba?",
+        "o": [
+          "Brisbane",
+          "Kingston",
+          "Kolkata",
+          "Lahore"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2009 Women's T20 World Cup?",
+        "o": [
+          "West Indies",
+          "England",
+          "Australia",
+          "India"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2016 IPL?",
+        "o": [
+          "Deccan Chargers",
+          "Delhi Capitals",
+          "Sunrisers Hyderabad",
+          "Gujarat Titans"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which city hosts Perth Stadium?",
+        "o": [
+          "Leeds",
+          "London",
+          "Malahide",
+          "Perth"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2022 Women's ODI World Cup?",
+        "o": [
+          "Australia",
+          "South Africa",
+          "West Indies",
+          "England"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2015 IPL?",
+        "o": [
+          "Kolkata Knight Riders",
+          "Mumbai Indians",
+          "Punjab Kings",
+          "Rajasthan Royals"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which city hosts Wankhede Stadium?",
+        "o": [
+          "Christchurch",
+          "Colombo",
+          "Mumbai",
+          "Delhi"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2017 Women's ODI World Cup?",
+        "o": [
+          "India",
+          "New Zealand",
+          "South Africa",
+          "England"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2014 IPL?",
+        "o": [
+          "Kolkata Knight Riders",
+          "Rising Pune Supergiant",
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which city hosts Eden Gardens?",
+        "o": [
+          "Rawalpindi",
+          "Kolkata",
+          "Sharjah",
+          "Sydney"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 2013 Women's ODI World Cup?",
+        "o": [
+          "South Africa",
+          "West Indies",
+          "Australia",
+          "England"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2013 IPL?",
+        "o": [
+          "Chennai Super Kings",
+          "Deccan Chargers",
+          "Delhi Capitals",
+          "Mumbai Indians"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which city hosts M. Chinnaswamy Stadium?",
+        "o": [
+          "Bengaluru",
+          "Durban",
+          "Harare",
+          "Johannesburg"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 2009 Women's ODI World Cup?",
+        "o": [
+          "South Africa",
+          "England",
+          "West Indies",
+          "Australia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2012 IPL?",
+        "o": [
+          "Punjab Kings",
+          "Rajasthan Royals",
+          "Kolkata Knight Riders",
+          "Rising Pune Supergiant"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which city hosts M. A. Chidambaram Stadium?",
+        "o": [
+          "Dubai",
+          "Durban",
+          "Harare",
+          "Chennai"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 2005 Women's ODI World Cup?",
+        "o": [
+          "Australia",
+          "New Zealand",
+          "South Africa",
+          "West Indies"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2011 IPL?",
+        "o": [
+          "Royal Challengers Bengaluru",
+          "Chennai Super Kings",
+          "Sunrisers Hyderabad",
+          "Deccan Chargers"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which city hosts Arun Jaitley Stadium?",
+        "o": [
+          "Lahore",
+          "Leeds",
+          "Delhi",
+          "London"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 2000 Women's ODI World Cup?",
+        "o": [
+          "West Indies",
+          "Australia",
+          "England",
+          "New Zealand"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2010 IPL?",
+        "o": [
+          "Chennai Super Kings",
+          "Delhi Capitals",
+          "Gujarat Titans",
+          "Kolkata Knight Riders"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which city hosts Narendra Modi Stadium?",
+        "o": [
+          "Johannesburg",
+          "Ahmedabad",
+          "Kandy",
+          "Kanpur"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1997 Women's ODI World Cup?",
+        "o": [
+          "New Zealand",
+          "South Africa",
+          "Australia",
+          "West Indies"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2009 IPL?",
+        "o": [
+          "Punjab Kings",
+          "Rajasthan Royals",
+          "Rising Pune Supergiant",
+          "Deccan Chargers"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which city hosts Green Park?",
+        "o": [
+          "Kanpur",
+          "Cape Town",
+          "Centurion",
+          "Chennai"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1993 Women's ODI World Cup?",
+        "o": [
+          "India",
+          "England",
+          "New Zealand",
+          "South Africa"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2008 IPL?",
+        "o": [
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad",
+          "Rajasthan Royals",
+          "Chennai Super Kings"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which city hosts HPCA Stadium?",
+        "o": [
+          "Centurion",
+          "Chennai",
+          "Christchurch",
+          "Dharamsala"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Who won the 1988 Women's ODI World Cup?",
+        "o": [
+          "Australia",
+          "West Indies",
+          "England",
+          "India"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL side included Cameron Green in its 2026 squad?",
+        "o": [
+          "Delhi Capitals",
+          "Kolkata Knight Riders",
+          "Gujarat Titans",
+          "Lucknow Super Giants"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which city hosts National Bank Stadium?",
+        "o": [
+          "Brisbane",
+          "Cape Town",
+          "Karachi",
+          "Centurion"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Who won the 1982 Women's ODI World Cup?",
+        "o": [
+          "West Indies",
+          "England",
+          "India",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL side included Riyan Parag in its 2026 squad?",
+        "o": [
+          "Rajasthan Royals",
+          "Sunrisers Hyderabad",
+          "Chennai Super Kings",
+          "Delhi Capitals"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which city hosts Gaddafi Stadium?",
+        "o": [
+          "Melbourne",
+          "Lahore",
+          "Mumbai",
+          "Nottingham"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Who won the 1978 Women's ODI World Cup?",
+        "o": [
+          "New Zealand",
+          "South Africa",
+          "Australia",
+          "West Indies"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL side included David Miller in its 2026 squad?",
+        "o": [
+          "Lucknow Super Giants",
+          "Mumbai Indians",
+          "Punjab Kings",
+          "Delhi Capitals"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which city hosts Rawalpindi Cricket Stadium?",
+        "o": [
+          "Rawalpindi",
+          "Cape Town",
+          "Centurion",
+          "Chennai"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Who won the 1973 Women's ODI World Cup?",
+        "o": [
+          "West Indies",
+          "England",
+          "Australia",
+          "India"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL side included Marcus Stoinis in its 2026 squad?",
+        "o": [
+          "Rajasthan Royals",
+          "Royal Challengers Bengaluru",
+          "Punjab Kings",
+          "Sunrisers Hyderabad"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which city hosts Newlands?",
+        "o": [
+          "Kolkata",
+          "Lahore",
+          "Leeds",
+          "Cape Town"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which national team did Belinda Clark play for?",
+        "o": [
+          "Australia",
+          "Sri Lanka",
+          "Thailand",
+          "United Arab Emirates"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL side included Wanindu Hasaranga in its 2026 squad?",
+        "o": [
+          "Punjab Kings",
+          "Lucknow Super Giants",
+          "Rajasthan Royals",
+          "Royal Challengers Bengaluru"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which city hosts The Wanderers?",
+        "o": [
+          "Manchester",
+          "Melbourne",
+          "Johannesburg",
+          "Mumbai"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which national team did Meg Lanning play for?",
+        "o": [
+          "United Arab Emirates",
+          "West Indies",
+          "Bangladesh",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL side included Sai Sudharsan in its 2026 squad?",
+        "o": [
+          "Gujarat Titans",
+          "Kolkata Knight Riders",
+          "Lucknow Super Giants",
+          "Mumbai Indians"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which city hosts SuperSport Park?",
+        "o": [
+          "Birmingham",
+          "Centurion",
+          "Bridgetown",
+          "Brisbane"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which national team did Ellyse Perry play for?",
+        "o": [
+          "England",
+          "India",
+          "Australia",
+          "Ireland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL side included Tilak Varma in its 2026 squad?",
+        "o": [
+          "Punjab Kings",
+          "Rajasthan Royals",
+          "Royal Challengers Bengaluru",
+          "Mumbai Indians"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which city hosts Kingsmead?",
+        "o": [
+          "Durban",
+          "Perth",
+          "Port of Spain",
+          "Rawalpindi"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which national team did Alyssa Healy play for?",
+        "o": [
+          "Scotland",
+          "Australia",
+          "South Africa",
+          "Sri Lanka"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL side included Ishan Kishan in its 2026 squad?",
+        "o": [
+          "Gujarat Titans",
+          "Kolkata Knight Riders",
+          "Sunrisers Hyderabad",
+          "Lucknow Super Giants"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which city hosts Basin Reserve?",
+        "o": [
+          "Chennai",
+          "Christchurch",
+          "Colombo",
+          "Wellington"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which national team did Beth Mooney play for?",
+        "o": [
+          "Australia",
+          "South Africa",
+          "Sri Lanka",
+          "Thailand"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL side included Liam Livingstone in its 2026 squad?",
+        "o": [
+          "Kolkata Knight Riders",
+          "Sunrisers Hyderabad",
+          "Lucknow Super Giants",
+          "Mumbai Indians"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which city hosts Eden Park?",
+        "o": [
+          "Port of Spain",
+          "Rawalpindi",
+          "Auckland",
+          "Sharjah"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which national team did Ashleigh Gardner play for?",
+        "o": [
+          "India",
+          "Ireland",
+          "Nepal",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL side included Tristan Stubbs in its 2026 squad?",
+        "o": [
+          "Delhi Capitals",
+          "Mumbai Indians",
+          "Punjab Kings",
+          "Rajasthan Royals"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which city hosts Hagley Oval?",
+        "o": [
+          "Sydney",
+          "Christchurch",
+          "Wellington",
+          "Adelaide"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which national team did Karen Rolton play for?",
+        "o": [
+          "England",
+          "India",
+          "Australia",
+          "Ireland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL side included Aiden Markram in its 2026 squad?",
+        "o": [
+          "Kolkata Knight Riders",
+          "Mumbai Indians",
+          "Punjab Kings",
+          "Lucknow Super Giants"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which city hosts Sabina Park?",
+        "o": [
+          "Kingston",
+          "Kanpur",
+          "Karachi",
+          "Kolkata"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which national team did Charlotte Edwards play for?",
+        "o": [
+          "Bangladesh",
+          "England",
+          "India",
+          "Ireland"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL side included Mitchell Marsh in its 2026 squad?",
+        "o": [
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad",
+          "Lucknow Super Giants",
+          "Chennai Super Kings"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which city hosts Kensington Oval?",
+        "o": [
+          "Melbourne",
+          "Mumbai",
+          "Nottingham",
+          "Bridgetown"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which city hosts Queen's Park Oval?",
+        "o": [
+          "Port of Spain",
+          "Centurion",
+          "Chennai",
+          "Christchurch"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which city hosts Sinhalese Sports Club Ground?",
+        "o": [
+          "Leeds",
+          "Colombo",
+          "London",
+          "Malahide"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which city hosts R. Premadasa Stadium?",
+        "o": [
+          "Johannesburg",
+          "Kandy",
+          "Colombo",
+          "Kanpur"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which city hosts Pallekele International Stadium?",
+        "o": [
+          "Leeds",
+          "London",
+          "Malahide",
+          "Kandy"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which city hosts Sher-e-Bangla National Stadium?",
+        "o": [
+          "Dhaka",
+          "Harare",
+          "Johannesburg",
+          "Kandy"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which city hosts Harare Sports Club?",
+        "o": [
+          "Karachi",
+          "Harare",
+          "Kingston",
+          "Kolkata"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which city hosts Malahide Cricket Club Ground?",
+        "o": [
+          "Adelaide",
+          "Ahmedabad",
+          "Malahide",
+          "Auckland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which city hosts Dubai International Stadium?",
+        "o": [
+          "Sydney",
+          "Wellington",
+          "Adelaide",
+          "Dubai"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which city hosts Sharjah Cricket Stadium?",
+        "o": [
+          "Sharjah",
+          "Sydney",
+          "Wellington",
+          "Adelaide"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which definition fits the cricket term “all-rounder”?",
+        "o": [
+          "leaving through injury or illness",
+          "a player who both bats and bowls",
+          "next ball bars most dismissals",
+          "overs with tighter fielding limits"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which definition fits the cricket term “declaration”?",
+        "o": [
+          "50 runs by one batter",
+          "Decision Review System",
+          "a captain closes the innings early",
+          "Duckworth-Lewis-Stern method"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which definition fits the cricket term “follow-on”?",
+        "o": [
+          "next ball bars most dismissals",
+          "overs with tighter fielding limits",
+          "runs conceded per over",
+          "the trailing Test side bats again"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which definition fits the cricket term “run out”?",
+        "o": [
+          "wicket broken while batter is out",
+          "five wickets in one innings",
+          "four runs as the ball reaches rope",
+          "keeper breaks wicket out of ground"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which definition fits the cricket term “stumped”?",
+        "o": [
+          "runs divided by dismissals",
+          "keeper breaks wicket out of ground",
+          "runs needed per over remaining",
+          "runs per 100 balls faced"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which definition fits the cricket term “leg before wicket”?",
+        "o": [
+          "overs with tighter fielding limits",
+          "runs conceded per over",
+          "body illegally blocks the wicket",
+          "runs conceded per wicket"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which definition fits the cricket term “hit wicket”?",
+        "o": [
+          "Duckworth-Lewis-Stern method",
+          "a back-foot shot square off side",
+          "a ball beyond normal batting reach",
+          "striker breaks their own wicket"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which definition fits the cricket term “obstructing the field”?",
+        "o": [
+          "wilfully blocking the fielders",
+          "100 runs by one batter",
+          "50 runs by one batter",
+          "Decision Review System"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which definition fits the cricket term “retired hurt”?",
+        "o": [
+          "a batter dismissed first ball",
+          "leaving through injury or illness",
+          "a batter dismissed for zero",
+          "a batter dismissed for zero twice"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which definition fits the cricket term “free hit”?",
+        "o": [
+          "a line marking a batter's ground",
+          "a lower-order batter sent in late",
+          "next ball bars most dismissals",
+          "a player who both bats and bowls"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which definition fits the cricket term “powerplay”?",
+        "o": [
+          "a captain closes the innings early",
+          "a cross-batted shot against spin",
+          "a front-foot shot through cover",
+          "overs with tighter fielding limits"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which definition fits the cricket term “Super Over”?",
+        "o": [
+          "a tie-breaking extra over",
+          "a batter dismissed for zero twice",
+          "a captain closes the innings early",
+          "a cross-batted shot against spin"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which definition fits the cricket term “DRS”?",
+        "o": [
+          "a batter dismissed for zero twice",
+          "Decision Review System",
+          "a captain closes the innings early",
+          "a cross-batted shot against spin"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which definition fits the cricket term “DLS”?",
+        "o": [
+          "a tie-breaking extra over",
+          "an extra after body contact",
+          "Duckworth-Lewis-Stern method",
+          "an extra untouched by bat or body"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which definition fits the cricket term “crease”?",
+        "o": [
+          "a ball moving away from the batter",
+          "a ball moving into the batter",
+          "a ball pitching beside the toes",
+          "a line marking a batter's ground"
+        ],
+        "a": 3
+      }
+    ],
+    "5": [
+      {
+        "p": "Which definition fits the cricket term “physical wicket”?",
+        "o": [
+          "three stumps topped by two bails",
+          "an extra untouched by bat or body",
+          "an illegal ball costing an extra",
+          "an off-spinner's ball turning away"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which national team did Heather Knight play for?",
+        "o": [
+          "India",
+          "England",
+          "Ireland",
+          "Nepal"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL side included Will Jacks in its 2026 squad?",
+        "o": [
+          "Lucknow Super Giants",
+          "Punjab Kings",
+          "Mumbai Indians",
+          "Rajasthan Royals"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Ben Stokes represented which country in international cricket?",
+        "o": [
+          "Scotland",
+          "South Africa",
+          "Sri Lanka",
+          "England"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which national team did Nat Sciver-Brunt play for?",
+        "o": [
+          "England",
+          "Sri Lanka",
+          "Thailand",
+          "United Arab Emirates"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL side included Rajat Patidar in its 2026 squad?",
+        "o": [
+          "Rajasthan Royals",
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad",
+          "Chennai Super Kings"
+        ],
+        "a": 1
+      },
+      {
+        "p": "James Anderson represented which country in international cricket?",
+        "o": [
+          "Scotland",
+          "South Africa",
+          "England",
+          "Sri Lanka"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which national team did Sarah Taylor play for?",
+        "o": [
+          "West Indies",
+          "Australia",
+          "Bangladesh",
+          "England"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL side included Venkatesh Iyer in its 2026 squad?",
+        "o": [
+          "Royal Challengers Bengaluru",
+          "Punjab Kings",
+          "Rajasthan Royals",
+          "Sunrisers Hyderabad"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Stuart Broad represented which country in international cricket?",
+        "o": [
+          "South Africa",
+          "England",
+          "Sri Lanka",
+          "West Indies"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which national team did Sophie Ecclestone play for?",
+        "o": [
+          "India",
+          "Ireland",
+          "England",
+          "Nepal"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL side included Rachin Ravindra in its 2026 squad?",
+        "o": [
+          "Lucknow Super Giants",
+          "Mumbai Indians",
+          "Punjab Kings",
+          "Kolkata Knight Riders"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Eoin Morgan represented which country in international cricket?",
+        "o": [
+          "England",
+          "Afghanistan",
+          "Australia",
+          "Bangladesh"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which national team did Tammy Beaumont play for?",
+        "o": [
+          "India",
+          "England",
+          "Ireland",
+          "Nepal"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL side included Nitish Kumar Reddy in its 2026 squad?",
+        "o": [
+          "Gujarat Titans",
+          "Kolkata Knight Riders",
+          "Sunrisers Hyderabad",
+          "Lucknow Super Giants"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Jos Buttler represented which country in international cricket?",
+        "o": [
+          "Sri Lanka",
+          "West Indies",
+          "Zimbabwe",
+          "England"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which national team did Mithali Raj play for?",
+        "o": [
+          "India",
+          "New Zealand",
+          "Pakistan",
+          "Scotland"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL side included Shimron Hetmyer in its 2026 squad?",
+        "o": [
+          "Sunrisers Hyderabad",
+          "Rajasthan Royals",
+          "Chennai Super Kings",
+          "Delhi Capitals"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Kevin Pietersen represented which country in international cricket?",
+        "o": [
+          "New Zealand",
+          "Pakistan",
+          "England",
+          "Scotland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which national team did Jhulan Goswami play for?",
+        "o": [
+          "England",
+          "Ireland",
+          "Nepal",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL side included Jonny Bairstow in its 2026 squad?",
+        "o": [
+          "Rajasthan Royals",
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad",
+          "Chennai Super Kings"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Imran Khan represented which country in international cricket?",
+        "o": [
+          "India",
+          "Pakistan",
+          "Ireland",
+          "Nepal"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which national team did Harmanpreet Kaur play for?",
+        "o": [
+          "South Africa",
+          "Sri Lanka",
+          "India",
+          "Thailand"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL side included Pathum Nissanka in its 2026 squad?",
+        "o": [
+          "Gujarat Titans",
+          "Kolkata Knight Riders",
+          "Lucknow Super Giants",
+          "Delhi Capitals"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Wasim Akram represented which country in international cricket?",
+        "o": [
+          "Pakistan",
+          "South Africa",
+          "Sri Lanka",
+          "West Indies"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2024 Women's T20 World Cup?",
+        "o": [
+          "West Indies",
+          "New Zealand",
+          "Australia",
+          "England"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL side included Josh Inglis in its 2026 squad?",
+        "o": [
+          "Kolkata Knight Riders",
+          "Mumbai Indians",
+          "Lucknow Super Giants",
+          "Punjab Kings"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Waqar Younis represented which country in international cricket?",
+        "o": [
+          "New Zealand",
+          "Scotland",
+          "South Africa",
+          "Pakistan"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2023 Women's T20 World Cup?",
+        "o": [
+          "Australia",
+          "New Zealand",
+          "South Africa",
+          "West Indies"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL side included Rahul Tewatia in its 2026 squad?",
+        "o": [
+          "Sunrisers Hyderabad",
+          "Gujarat Titans",
+          "Chennai Super Kings",
+          "Delhi Capitals"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Javed Miandad represented which country in international cricket?",
+        "o": [
+          "Netherlands",
+          "New Zealand",
+          "Pakistan",
+          "Scotland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2020 Women's T20 World Cup?",
+        "o": [
+          "South Africa",
+          "West Indies",
+          "England",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL side included Tim David in its 2026 squad?",
+        "o": [
+          "Royal Challengers Bengaluru",
+          "Punjab Kings",
+          "Rajasthan Royals",
+          "Sunrisers Hyderabad"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Inzamam-ul-Haq represented which country in international cricket?",
+        "o": [
+          "Bangladesh",
+          "Pakistan",
+          "England",
+          "India"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2018 Women's T20 World Cup?",
+        "o": [
+          "England",
+          "India",
+          "Australia",
+          "New Zealand"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL side included Jitesh Sharma in its 2026 squad?",
+        "o": [
+          "Rajasthan Royals",
+          "Sunrisers Hyderabad",
+          "Chennai Super Kings",
+          "Royal Challengers Bengaluru"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Babar Azam represented which country in international cricket?",
+        "o": [
+          "Pakistan",
+          "India",
+          "Ireland",
+          "Nepal"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2016 Women's T20 World Cup?",
+        "o": [
+          "New Zealand",
+          "West Indies",
+          "South Africa",
+          "Australia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL side included Rovman Powell in its 2026 squad?",
+        "o": [
+          "Lucknow Super Giants",
+          "Mumbai Indians",
+          "Kolkata Knight Riders",
+          "Punjab Kings"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Shaheen Shah Afridi represented which country in international cricket?",
+        "o": [
+          "Australia",
+          "Bangladesh",
+          "England",
+          "Pakistan"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2014 Women's T20 World Cup?",
+        "o": [
+          "Australia",
+          "West Indies",
+          "England",
+          "India"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL side included Kamindu Mendis in its 2026 squad?",
+        "o": [
+          "Mumbai Indians",
+          "Sunrisers Hyderabad",
+          "Punjab Kings",
+          "Rajasthan Royals"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Shahid Afridi represented which country in international cricket?",
+        "o": [
+          "Netherlands",
+          "New Zealand",
+          "Pakistan",
+          "Scotland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2012 Women's T20 World Cup?",
+        "o": [
+          "England",
+          "India",
+          "New Zealand",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL side included Vaibhav Sooryavanshi in its 2026 squad?",
+        "o": [
+          "Rajasthan Royals",
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad",
+          "Chennai Super Kings"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Garfield Sobers represented which country in international cricket?",
+        "o": [
+          "Zimbabwe",
+          "West Indies",
+          "Afghanistan",
+          "Australia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2010 Women's T20 World Cup?",
+        "o": [
+          "South Africa",
+          "West Indies",
+          "Australia",
+          "England"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL side included Dhruv Jurel in its 2026 squad?",
+        "o": [
+          "Delhi Capitals",
+          "Gujarat Titans",
+          "Kolkata Knight Riders",
+          "Rajasthan Royals"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Viv Richards represented which country in international cricket?",
+        "o": [
+          "West Indies",
+          "Afghanistan",
+          "Australia",
+          "Bangladesh"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2009 Women's T20 World Cup?",
+        "o": [
+          "New Zealand",
+          "England",
+          "South Africa",
+          "West Indies"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL side included Ben Duckett in its 2026 squad?",
+        "o": [
+          "Chennai Super Kings",
+          "Gujarat Titans",
+          "Delhi Capitals",
+          "Kolkata Knight Riders"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Brian Lara represented which country in international cricket?",
+        "o": [
+          "Zimbabwe",
+          "Afghanistan",
+          "Australia",
+          "West Indies"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2022 Women's ODI World Cup?",
+        "o": [
+          "Australia",
+          "India",
+          "New Zealand",
+          "South Africa"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL side included Shashank Singh in its 2026 squad?",
+        "o": [
+          "Delhi Capitals",
+          "Punjab Kings",
+          "Gujarat Titans",
+          "Kolkata Knight Riders"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Clive Lloyd represented which country in international cricket?",
+        "o": [
+          "Bangladesh",
+          "England",
+          "West Indies",
+          "India"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2017 Women's ODI World Cup?",
+        "o": [
+          "West Indies",
+          "Australia",
+          "India",
+          "England"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL side included Azmatullah Omarzai in its 2026 squad?",
+        "o": [
+          "Punjab Kings",
+          "Kolkata Knight Riders",
+          "Lucknow Super Giants",
+          "Mumbai Indians"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Michael Holding represented which country in international cricket?",
+        "o": [
+          "Netherlands",
+          "West Indies",
+          "New Zealand",
+          "Pakistan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 2013 Women's ODI World Cup?",
+        "o": [
+          "South Africa",
+          "West Indies",
+          "Australia",
+          "England"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL side included Jason Holder in its 2026 squad?",
+        "o": [
+          "Rajasthan Royals",
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad",
+          "Gujarat Titans"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Courtney Walsh represented which country in international cricket?",
+        "o": [
+          "West Indies",
+          "Ireland",
+          "Nepal",
+          "Netherlands"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2009 Women's ODI World Cup?",
+        "o": [
+          "India",
+          "England",
+          "New Zealand",
+          "South Africa"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL side included Glenn Phillips in its 2026 squad?",
+        "o": [
+          "Rajasthan Royals",
+          "Royal Challengers Bengaluru",
+          "Gujarat Titans",
+          "Sunrisers Hyderabad"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Chris Gayle represented which country in international cricket?",
+        "o": [
+          "Scotland",
+          "South Africa",
+          "Sri Lanka",
+          "West Indies"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 2005 Women's ODI World Cup?",
+        "o": [
+          "Australia",
+          "England",
+          "India",
+          "New Zealand"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL side included Matthew Short in its 2026 squad?",
+        "o": [
+          "Gujarat Titans",
+          "Chennai Super Kings",
+          "Kolkata Knight Riders",
+          "Lucknow Super Giants"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Shivnarine Chanderpaul represented which country in international cricket?",
+        "o": [
+          "Australia",
+          "Bangladesh",
+          "West Indies",
+          "England"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2000 Women's ODI World Cup?",
+        "o": [
+          "India",
+          "South Africa",
+          "West Indies",
+          "New Zealand"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which IPL side included Mitchell Santner in its 2026 squad?",
+        "o": [
+          "Mumbai Indians",
+          "Rajasthan Royals",
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Curtly Ambrose represented which country in international cricket?",
+        "o": [
+          "Ireland",
+          "West Indies",
+          "Nepal",
+          "Netherlands"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 1997 Women's ODI World Cup?",
+        "o": [
+          "England",
+          "India",
+          "Australia",
+          "New Zealand"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL side included Krunal Pandya in its 2026 squad?",
+        "o": [
+          "Kolkata Knight Riders",
+          "Lucknow Super Giants",
+          "Mumbai Indians",
+          "Royal Challengers Bengaluru"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Jacques Kallis represented which country in international cricket?",
+        "o": [
+          "South Africa",
+          "Ireland",
+          "Nepal",
+          "Netherlands"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 1993 Women's ODI World Cup?",
+        "o": [
+          "West Indies",
+          "England",
+          "Australia",
+          "India"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which IPL side included Rahul Tripathi in its 2026 squad?",
+        "o": [
+          "Gujarat Titans",
+          "Lucknow Super Giants",
+          "Kolkata Knight Riders",
+          "Mumbai Indians"
+        ],
+        "a": 2
+      },
+      {
+        "p": "AB de Villiers represented which country in international cricket?",
+        "o": [
+          "Afghanistan",
+          "Australia",
+          "Bangladesh",
+          "South Africa"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 1988 Women's ODI World Cup?",
+        "o": [
+          "Australia",
+          "New Zealand",
+          "South Africa",
+          "West Indies"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Dale Steyn represented which country in international cricket?",
+        "o": [
+          "Bangladesh",
+          "South Africa",
+          "England",
+          "India"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 1982 Women's ODI World Cup?",
+        "o": [
+          "New Zealand",
+          "South Africa",
+          "Australia",
+          "West Indies"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Hashim Amla represented which country in international cricket?",
+        "o": [
+          "West Indies",
+          "Zimbabwe",
+          "Afghanistan",
+          "South Africa"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which team were champions of the 1978 Women's ODI World Cup?",
+        "o": [
+          "Australia",
+          "New Zealand",
+          "South Africa",
+          "West Indies"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Graeme Smith represented which country in international cricket?",
+        "o": [
+          "Zimbabwe",
+          "South Africa",
+          "Afghanistan",
+          "Australia"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which team were champions of the 1973 Women's ODI World Cup?",
+        "o": [
+          "West Indies",
+          "Australia",
+          "England",
+          "India"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Kagiso Rabada represented which country in international cricket?",
+        "o": [
+          "New Zealand",
+          "Pakistan",
+          "Scotland",
+          "South Africa"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Belinda Clark represented which country in international cricket?",
+        "o": [
+          "Australia",
+          "Bangladesh",
+          "England",
+          "India"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Shaun Pollock represented which country in international cricket?",
+        "o": [
+          "Scotland",
+          "South Africa",
+          "Sri Lanka",
+          "West Indies"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the champions of the 2025 World Test Championship final.",
+        "o": [
+          "Sri Lanka",
+          "West Indies",
+          "South Africa",
+          "Australia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the champions of the 2023 World Test Championship final.",
+        "o": [
+          "England",
+          "India",
+          "New Zealand",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the champions of the 2021 World Test Championship final.",
+        "o": [
+          "New Zealand",
+          "South Africa",
+          "Sri Lanka",
+          "West Indies"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the champions of the 2025 Champions Trophy.",
+        "o": [
+          "Australia",
+          "India",
+          "England",
+          "New Zealand"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the champions of the 2017 Champions Trophy.",
+        "o": [
+          "West Indies",
+          "Australia",
+          "Pakistan",
+          "England"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the champions of the 2013 Champions Trophy.",
+        "o": [
+          "Sri Lanka",
+          "West Indies",
+          "Australia",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the champions of the 2009 Champions Trophy.",
+        "o": [
+          "Australia",
+          "Pakistan",
+          "South Africa",
+          "Sri Lanka"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the champions of the 2006 Champions Trophy.",
+        "o": [
+          "New Zealand",
+          "Australia",
+          "Pakistan",
+          "South Africa"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the champions of the 2004 Champions Trophy.",
+        "o": [
+          "Pakistan",
+          "South Africa",
+          "West Indies",
+          "Sri Lanka"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the champions of the 2000 Champions Trophy.",
+        "o": [
+          "Pakistan",
+          "South Africa",
+          "Sri Lanka",
+          "New Zealand"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name the champions of the 1998 Champions Trophy.",
+        "o": [
+          "South Africa",
+          "England",
+          "India",
+          "New Zealand"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the champions of the 2026 Men's T20 World Cup.",
+        "o": [
+          "Pakistan",
+          "India",
+          "South Africa",
+          "Sri Lanka"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name the champions of the 2024 Men's T20 World Cup.",
+        "o": [
+          "Sri Lanka",
+          "West Indies",
+          "India",
+          "Australia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the champions of the 2022 Men's T20 World Cup.",
+        "o": [
+          "New Zealand",
+          "Pakistan",
+          "South Africa",
+          "England"
+        ],
+        "a": 3
+      }
+    ]
+  }
+}

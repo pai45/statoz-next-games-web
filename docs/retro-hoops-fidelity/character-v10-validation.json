@@ -1,0 +1,121 @@
+{
+  "gameId": "retro-hoops",
+  "agent": "street_hoop_artist",
+  "skill": "street-hoop-assets",
+  "build": "character-v10-local",
+  "assets": "10.0.0",
+  "rules": "2.0.0",
+  "changes": [
+    "Reconstructed tapered torso/waist and narrower upper arms, forearms, thighs/calves and shorts.",
+    "Forward basketball-ready/defensive weight and coordinated torso anticipation; simpler broad cloth/skin clusters.",
+    "Dynamic near-arm width/shading matches the new original anatomy.",
+    "Six original head identities, blue/red palettes, ground origin, simulation, AI, fullscreen joystick and host identity retained.",
+    "Held-phase primary/supporting hand anchors aligned with production ball positions; original abrupt held-ball lift remains."
+  ],
+  "checks": {
+    "rulesInputAndIntegrationTests": 86,
+    "assetIntegrity": 13,
+    "productionActionLoops": 16,
+    "decodedVideos": 16,
+    "sameSimulationBeforeAfterScenarios": 16,
+    "heldContactSequences": 8,
+    "mobileLifecycle": 12,
+    "teamScenarios": 6,
+    "galleryCombinations": 36,
+    "hostFlow": 6,
+    "lint": "passed with one unrelated retro-circuit/data.ts unused-variable warning",
+    "typecheck": "passed",
+    "staticBuild": "passed",
+    "preservedV9Files": 8,
+    "normalSpeedBrowserPlayback": 16,
+    "scopedDiff": "passed; CR-at-EOL accepted for raw asset metadata preserved by public/games/** -text"
+  },
+  "pack": {
+    "bodyFrameEntries": 2276,
+    "distinctBodyFrames": 1220,
+    "headFrameEntries": 36,
+    "atlasPages": 3,
+    "nativeArtwork": [
+      90,
+      80
+    ],
+    "canvas": [
+      144,
+      128
+    ],
+    "referenceRasterInputs": 0,
+    "previousPackPreserved": true
+  },
+  "corrections": [
+    {
+      "round": 1,
+      "finding": "Smooth supporting-hand lift detached the guide hand from the unchanged held ball.",
+      "correction": "Retain authoritative low/high held phases for support wrist; smooth torso anticipation only."
+    },
+    {
+      "round": 2,
+      "finding": "Primary-hand metadata in generator sheets still differed from the actual dynamic production wrist.",
+      "correction": "Align held-phase primary anchor to production positions and refresh generated sources/consumers."
+    }
+  ],
+  "fidelityMatrix": [
+    {
+      "feature": "Torso taper, limb mass, forward ready posture and cloth shading",
+      "status": "approximate",
+      "review": "Visually improved from V9; source pose/depth/camera are unmatched, so exact dimensions are unverified."
+    },
+    {
+      "feature": "Six blue/red original identities",
+      "status": "adapted",
+      "review": "Original fictional artwork; shared body rig remains."
+    },
+    {
+      "feature": "Primary/supporting held contact",
+      "status": "adapted",
+      "review": "Checked against captured authoritative ball positions; no recovered source timing claim."
+    },
+    {
+      "feature": "Native animation holds, input windows and hidden AI",
+      "status": "unverified",
+      "review": "Public-footage evidence cannot certify native algorithms or timing."
+    },
+    {
+      "feature": "Low-ball dunk-gather limb length",
+      "status": "approximate",
+      "review": "Unresolved reach overextension after two correction rounds. Proximity alone does not establish anatomically valid contact."
+    }
+  ],
+  "review": {
+    "structural": "passed",
+    "visual": "Source, first-athlete comparison, actual production held shot/dunk frames, directional family and phone scene inspected. Source likeness remains approximate.",
+    "sourceLikenessApproved": false,
+    "exactLikenessAchieved": false,
+    "nativeTimingRecovered": false,
+    "physicalDeviceTested": false,
+    "limitations": [
+      "Dunk-gather torso anticipation requires about45\u201349pixels of reach versus the authored41-pixel arm; hand proximity passes but the forearm can stretch. See remaining-visual-findings.json. A further correction requires override of the invoked skill two-round limit.",
+      "Source and production camera, action phase and court depth are not exactly aligned.",
+      "Source-specific full action silhouettes, unique body builds and native cadence remain unfinished.",
+      "Held shot/dunk ball height still changes abruptly at existing simulation phase boundaries.",
+      "Selection-marker clearance during raised-ball actions and other small presentation differences remain for later review.",
+      "Physical Android/iPhone performance remains untested."
+    ],
+    "actionVisualVerdict": "Unresolved low-ball dunk-gather forearm overextension; not approved as a complete motion pack.",
+    "additionalCorrection": "User override requested through async input; no third correction performed."
+  },
+  "hashes": {
+    "scripts/retro_hoops_character.py": "1aa359f8c2e523fb70b9e95140c5b6dcb46fe8fbbe08957385cfd2a0eff4a8ed",
+    "scripts/build-retro-hoops-authored.py": "feb88be4c3e47a770440b63cb6e76d9e52b61922899109af5b7d9bfe22a9732e",
+    "src/features/games/retro-hoops/contact-arm.ts": "01be7cc5d340046fcfd3b6832407034de076410ebe5145948c6f13d31322420f",
+    "src/features/games/retro-hoops/character-pack.ts": "635ccef3b87b016b77b977291606d632a7d50cbffa8eedf5f815647539e9d9b4",
+    "src/features/games/retro-hoops/reference-profile.ts": "0909edd7b711e8d817a33c398a792550f1104e81c892b7be919b7b339c277dfa",
+    "public/games/retro-hoops/authored-v10/manifest.json": "7993e8abffafc756af26a3b31292f77b6934b86d4ec0d23b1c8c7716f568ab6a",
+    "public/embedded-games/retro-hoops/index.html": "f369d73cd1ec1850d1f3b1671c45baba3392ce1a942f7da6a9e8c7098113fec4"
+  },
+  "release": {
+    "localOnly": true,
+    "pushed": false,
+    "published": false,
+    "pipelineActivated": false
+  }
+}

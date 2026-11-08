@@ -1,0 +1,123 @@
+{
+  "gameId": "retro-hoops",
+  "agent": "street_hoop_artist (executed inline by the parent session)",
+  "skill": "street-hoop-assets",
+  "build": "character-v21-local",
+  "assets": "21.0.0",
+  "rules": "2.0.0",
+  "scope": "volume-lit heads",
+  "changes": [
+    "Skull and jaw are one lit volume (profile jaw slightly forward); same light, ramps and outline rules as the body.",
+    "Hair, bandana and cap are lit dome masses clipped to the scalp; spikes are small lit spikes attached to the hair; ponytail is a lit tapered volume.",
+    "Features drawn as pixels over the lit skull: dark shades band with a glint, nose and ear shading, moustaches and goatee, headbands.",
+    "All six identities stay distinct in side, front and back views; 32x32 head layer and [16,16] anchor unchanged."
+  ],
+  "research": [],
+  "checks": {
+    "pipelineSteps": {
+      "art": "passed",
+      "bundle": "passed",
+      "console": "passed",
+      "contract": "passed",
+      "fidelity": "passed",
+      "host": "passed",
+      "lint": "passed",
+      "motion-build": "passed",
+      "motion-capture": "passed",
+      "motion-encode": "passed",
+      "pack": "passed",
+      "rules-tests": "passed",
+      "static-build": "passed",
+      "typecheck": "passed",
+      "wire": "passed"
+    },
+    "rulesInputAndIntegrationTests": 86,
+    "assetIntegrity": 13,
+    "rigContract": {
+      "frames": 2276,
+      "ballHoldingHandEndpointsUnchanged": true,
+      "freeHandClips": [
+        "backpedal",
+        "defend",
+        "neutral-a",
+        "neutral-b"
+      ],
+      "freeHandFramesChanged": 0,
+      "dunkPoses": 104,
+      "maxReach": 40.80441152620633,
+      "dribbleOverlayShoulderMatches": 12,
+      "changedAnchorKinds": {},
+      "scope": "V21 vs V20: foot origin, dribble-ball endpoints and every ball-holding hand endpoint unchanged; dunk shoulders/elbows unchanged and reachable. Non-ball ready/defend hands may be re-authored."
+    },
+    "productionActionLoops": 16,
+    "decodedVideos": 16,
+    "hostFlow": 6,
+    "mobileConsole": 12,
+    "lint": "passed (1 unrelated retro-circuit warning)",
+    "typecheck": "passed",
+    "staticBuild": "passed"
+  },
+  "pack": {
+    "bodyFrameEntries": 2276,
+    "distinctBodyFrames": 1186,
+    "headFrameEntries": 36,
+    "atlasPages": 3,
+    "referenceRasterInputs": 0,
+    "previousPackPreserved": true
+  },
+  "correctionRecord": "test-results/retro-hoops-character-v21/correction-record.json",
+  "fidelityMatrix": [
+    {
+      "feature": "Head rendering",
+      "status": "approximate",
+      "review": "Lit skull/hair masses like the observed native heads; features authored."
+    },
+    {
+      "feature": "Identity designs",
+      "status": "adapted",
+      "review": "Original six identities using observed motifs (shades, caps, headbands, flat-tops)."
+    },
+    {
+      "feature": "Native timing, input windows, hidden AI",
+      "status": "unverified",
+      "review": "Not recovered."
+    }
+  ],
+  "review": {
+    "structural": "passed",
+    "visual": "Rebuilt all six heads in the same lit style as the bodies after a 10x native comparison with GameLog heads: rounded lit skull and jaw, lit hair or headwear masses with highlights, then small pixel features (shades band, nose, ear, moustache, goatee, headbands, spikes, ponytail, cap brim).",
+    "gameplay": "Simulation/AI/input untouched; 86 tests pass.",
+    "sourceLikenessApproved": false,
+    "exactLikenessAchieved": false,
+    "nativeTimingRecovered": false,
+    "physicalDeviceTested": false,
+    "limitations": [
+      "Blond back view still reads as a smooth helmet-like mass; strand detail would help.",
+      "Street Hoop uses several venues by matchup; venue pass deferred until characters are done, per the user.",
+      "Source knock-down after super dunks has no simulation trigger (gameplay change needs approval).",
+      "Bodies stay per team; native timing and physical devices unverified."
+    ]
+  },
+  "hashes": {
+    "scripts/retro_hoops_character.py": "4441dff2e664f550ca0520ea6a7763ed7db7346c6cfa0728bd6be051f249cc98",
+    "scripts/retro_hoops_volume.py": "5a7eedccb15198ae2edac30074001a73829f7d02bd498c1dc963652bbedad459",
+    "scripts/build-retro-hoops-authored.py": "baf233c92a90735a0ef3f6e48d6f52067768a15491e8e15f09a35686f5318c1f",
+    "src/features/games/retro-hoops/contact-arm.ts": "0cc33db1e442cb1f88f083904e98ba23308c2370d73d6e0ba9f9c24fdb77fd57",
+    "src/features/games/retro-hoops/view.ts": "96403e0178bbb98c70b4efbe9b5650f1f766b86851a234e9f7fc736260d78778",
+    "src/features/games/retro-hoops/renderer.ts": "9202e82365872589a272c88ea2a9a78a0c84003e2e1c07201fcdfdefea9f5d78",
+    "src/features/games/retro-hoops/presentation.ts": "9577d626817d5ddcd8cdddc7ef38119efd6022bf3661c3c7ae3edad10aa2fcb6",
+    "src/features/games/retro-hoops/court.ts": "b4e4001ade42dc7d3f6e2496036bd370f661e188844fbf4966116d07bf7546ab",
+    "src/features/games/retro-hoops/crowd.ts": "dd761650932f702eb049330c36a9cc3b59d50890cef7d0c5f14424c2980bdd6e",
+    "src/features/games/retro-hoops/character-pack.ts": "b09c1193ac102c3e2fc625767621aec2e4078860a8664ef10557c5a0984ba0a6",
+    "src/features/games/retro-hoops/reference-profile.ts": "de3b34f2ad3d308edbfec05fe91642e744dfb9143f269c233acb0727731731a4",
+    "public/games/retro-hoops/authored-v21/manifest.json": "1ec74c080ac7dc49deae35b6cd5c8307169eb4994e1a4e5ecec2b8e618afc647",
+    "public/games/retro-hoops/credits.json": "cd13347f61f1cf4d1d77726aa668342b08ff5cdc492a85ee6cc2079eb3770284",
+    "public/embedded-games/retro-hoops/index.html": "6a10f13184027343b2c67b3c821bec8309735d7beb6ebde73da43122c5a9ceaa"
+  },
+  "release": {
+    "localOnly": true,
+    "pushed": false,
+    "published": false,
+    "pipelineActivated": false
+  }
+}

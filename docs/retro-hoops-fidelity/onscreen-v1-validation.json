@@ -1,0 +1,91 @@
+{
+  "gameId": "retro-hoops",
+  "build": "onscreen-v1-local",
+  "assets": "7.0.0",
+  "rules": "2.0.0",
+  "changes": [
+    "Analog radial joystick replaces the direction-pad buttons.",
+    "Joystick has proportional movement, radial dead zone, clamped thumb travel and independent pointer ownership.",
+    "Full-viewport game camera with floating lower-corner joystick and A/B actions; no reserved side panels.",
+    "Logical viewport width fits available aspect ratio at fixed 360 height, clamped by existing renderer to 320..900.",
+    "Safe-area-aware HUD and utility targets, adjustable touch size and left/right swap.",
+    "Pause, blur, cancellation, lost capture, rotation and disposal clear input and recenter thumb.",
+    "Shared fullscreen preference and orientation guard retained; no shared shell or Retro Football code changed."
+  ],
+  "checks": {
+    "rulesInputAndIntegrationTests": 86,
+    "browserLayoutAndLifecycle": 12,
+    "hostFlow": 6,
+    "lint": "passed",
+    "typecheck": "passed",
+    "staticBuild": "passed"
+  },
+  "viewports": [
+    [
+      844,
+      390
+    ],
+    [
+      915,
+      412
+    ],
+    [
+      667,
+      375
+    ],
+    [
+      568,
+      320
+    ],
+    [
+      1600,
+      720
+    ],
+    [
+      1280,
+      720
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "measuredExample": {
+    "viewport": [
+      844,
+      390
+    ],
+    "canvasCss": [
+      844,
+      390
+    ],
+    "logicalCanvas": [
+      779,
+      360
+    ],
+    "oldLogicalCanvas": [
+      514,
+      360
+    ]
+  },
+  "limitations": [
+    "Desktop Chromium/SwiftShader with emulated touch; physical Android/iOS checks remain unperformed.",
+    "Browser/OS controls fullscreen availability; unsupported fullscreen retains a fitted viewport.",
+    "Very wide ratios beyond 900/360 use contain fitting to preserve proportions.",
+    "Existing source-fidelity limitations from character-v7 remain."
+  ],
+  "hashes": {
+    "src/features/games/retro-hoops/game.tsx": "ab1c4039eb2ad736a4b406c7038e339f6906e824cae0c26db50c9a9822366c82",
+    "src/features/games/retro-hoops/input.ts": "0893d43c36c4f79dccc2b7417c5964a0905f57afb74a4534829594f4d2190d53",
+    "src/features/games/retro-hoops/joystick.tsx": "245e2714bb8f16553805554caaf4255994108c5849fb0cdf6b8da87686f2247d",
+    "src/features/games/retro-hoops/joystick-math.ts": "3dda7b40f42bce828fbd8d8a6480353ab3e8b49d863f5fb2818879a49525bb6b",
+    "src/features/games/retro-hoops/screen.module.css": "ed10bac18ec363c0ef274bdec1b3345a8ccbdc9b7f050f7b12ec60789e0a8404",
+    "public/embedded-games/retro-hoops/index.html": "746ceba3bee3ba11ada6082c998d3d54fdae74b6c529565bb30c928483781027"
+  },
+  "release": {
+    "localOnly": true,
+    "pushed": false,
+    "published": false,
+    "pipelineActivated": false
+  }
+}

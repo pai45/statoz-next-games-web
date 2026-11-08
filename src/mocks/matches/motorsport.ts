@@ -1,0 +1,6 @@
+import type { SportMatch } from "@/domain/matches";
+import { fixture, team } from "./definitions";
+const teams = { f1: team("formula-1", "Dutch Grand Prix", "F1", "#e10600", "#ffffff"), f1Belgium: team("formula-1-belgium", "Belgian Grand Prix", "F1", "#e10600", "#f7c948"), f1Italy: team("formula-1-italy", "Italian Grand Prix", "F1", "#e10600", "#009246"), indy: team("indycar-gateway", "Gateway 500", "INDY", "#001489", "#d71920"), field: team("race-field", "Race Field", "GRID", "#314158", "#90a1b9") };
+export const motorsportFixtures: SportMatch[] = [
+  fixture("f1_belgian_gp", "motorsport", "f1", teams.f1Belgium, teams.field, "2026-08-22T13:00:00.000Z", "finished", 180, 163000, { resultLine: "Verstappen won from pole" }), fixture("f1_dutch_practice", "motorsport", "f1", teams.f1, teams.field, "2026-08-25T11:30:00.000Z", "live", 90, 71400, { liveMinute: 38 }), fixture("f1_dutch_gp", "motorsport", "f1", teams.f1, teams.field, "2026-08-30T13:00:00.000Z", "scheduled", 200, 189000), fixture("indy_gateway_500", "motorsport", "indy", teams.indy, teams.field, "2026-08-30T18:00:00.000Z", "scheduled", 150, 82400), fixture("600057442", "motorsport", "f1", teams.f1Italy, teams.field, "2026-09-06T13:00:00.000Z", "finished", 200, 201000, { homeScore: "P1", awayScore: "53 LAPS", resultLine: "P1 : Kimi Antonelli" }),
+];

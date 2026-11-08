@@ -1,0 +1,188 @@
+/*
+ * The two moments a pick has: locking one in, and finding out.
+ *
+ * Both are full-screen scrims over the app, and both run on their own clock --
+ * the beats are keyframe delays rather than a driven animation, so they cost
+ * nothing to keep on screen.
+ */
+
+.scrim,
+.reveal {
+  position: fixed;
+  z-index: 90;
+  inset: 0;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  padding: 28px calc(28px + env(safe-area-inset-right)) 28px calc(28px + env(safe-area-inset-left));
+  text-align: center;
+}
+
+/* ---- Pick locked ----------------------------------------------------------- */
+
+.scrim {
+  background: color-mix(in srgb, var(--ds-color-background-primary) 88%, transparent);
+  animation: overlayOut 1850ms both;
+}
+@keyframes overlayOut { 0%, 85% { opacity: 1; } 100% { opacity: 0; } }
+
+.lockedRing {
+  display: grid;
+  width: 112px;
+  height: 112px;
+  place-items: center;
+  border: 2.5px solid var(--ds-color-success);
+  background: color-mix(in srgb, var(--ds-color-success) 12%, transparent);
+  box-shadow: 0 0 26px color-mix(in srgb, var(--ds-color-success) 62%, transparent);
+  color: var(--ds-color-success);
+  animation: ringPop 450ms cubic-bezier(.2, 1.5, .4, 1) both;
+}
+@keyframes ringPop { from { transform: scale(0); } }
+
+.lockedTitle {
+  margin-top: 24px;
+  color: var(--ds-color-text-default);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p21);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: .1em;
+  text-shadow: 0 0 16px color-mix(in srgb, var(--ds-color-success) 62%, transparent);
+}
+
+.lockedOutcome { margin-top: 10px; color: var(--ds-color-accent-gold); font-family: var(--ds-font-display); font-size:var(--ds-size-p13); font-weight:var(--ds-weight-black); letter-spacing: .11em; }
+
+.lockedPlate {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 12px;
+  padding: 10px 14px;
+  border: 1px solid var(--ds-color-border-default);
+  background: var(--ds-color-background-data);
+  color: var(--ds-color-text-default);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p10);
+  font-weight:var(--ds-weight-black);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: .06em;
+}
+.lockedShares { color: var(--ds-color-accent-cyan); }
+.lockedMax { color: var(--ds-color-success); }
+
+.lockedTitle,
+.lockedOutcome,
+.lockedPlate { animation: fadeUp 460ms 220ms both; }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(8px); } }
+
+.streakChip,
+.revealStreak {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 12px 0 0;
+  padding: 7px 12px;
+  border: 1px solid color-mix(in srgb, var(--ds-color-accent-gold) 70%, transparent);
+  background: color-mix(in srgb, var(--ds-color-accent-gold) 12%, transparent);
+  color: var(--ds-color-accent-gold);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p9);
+  font-weight:var(--ds-weight-black);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: .11em;
+}
+
+/* ---- Settlement reveal ----------------------------------------------------- */
+
+.reveal {
+  align-content: space-between;
+  background: color-mix(in srgb, var(--ds-color-background-primary) 96%, transparent);
+  cursor: pointer;
+}
+
+.revealTop { display: grid; justify-items: center; gap: 6px; animation: fadeUp 420ms both; }
+.revealEyebrow { color: var(--ds-color-accent-cyan); font-family: var(--ds-font-display); font-size:var(--ds-size-p10); font-weight:var(--ds-weight-black); letter-spacing: .22em; }
+.revealTitle { max-width: 30rem; margin: 6px 0 0; color: var(--ds-color-text-default); font-size:var(--ds-size-p15); font-weight:var(--ds-weight-bold); line-height: 1.25; }
+.revealSubtitle { margin: 0; color: var(--ds-color-text-muted); font-family: var(--ds-font-display); font-size:var(--ds-size-p10); font-weight:var(--ds-weight-black); font-variant-numeric: tabular-nums; letter-spacing: .13em; }
+
+/* Beat one: the verdict stamps in. */
+.stampSlot { position: relative; display: grid; height: 190px; place-items: center; }
+
+.stamp {
+  padding: 14px 26px;
+  border: 2px solid var(--verdict);
+  background: color-mix(in srgb, var(--verdict) 10%, transparent);
+  box-shadow: 0 0 26px color-mix(in srgb, var(--verdict) 50%, transparent);
+  color: var(--verdict);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p34);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: .09em;
+  animation: stampIn 670ms 224ms cubic-bezier(.2, 1.6, .4, 1) both;
+}
+@keyframes stampIn { from { transform: scale(0); } }
+
+/* A win throws light behind the stamp; nothing else on the screen glows. */
+.burst {
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  background: radial-gradient(
+    circle,
+    color-mix(in srgb, var(--verdict) 34%, transparent) 0%,
+    transparent 68%
+  );
+  animation: burstIn 560ms 900ms both;
+}
+@keyframes burstIn { from { opacity: 0; transform: scale(.7); } to { opacity: 1; transform: scale(1); } }
+
+/* Beat two: the coins move. */
+.coinFlow { display: grid; height: 54px; place-items: center; animation: fadeUp 620ms 1010ms both; }
+.coinWin { display: inline-flex; align-items: center; gap: 10px; }
+.coinWin b { color: var(--ds-color-accent-gold); font-family: var(--ds-font-display); font-size:var(--ds-size-p32); font-weight:var(--ds-weight-black); font-variant-numeric: tabular-nums; letter-spacing: .03em; text-shadow: 0 0 22px color-mix(in srgb, var(--ds-color-accent-gold) 55%, transparent); }
+.coinLoss { color: var(--ds-color-danger); font-family: var(--ds-font-display); font-size:var(--ds-size-p24); font-weight:var(--ds-weight-black); font-variant-numeric: tabular-nums; letter-spacing: .04em; opacity: .55; }
+.coinVoid { color: var(--ds-color-text-muted); font-family: var(--ds-font-display); font-size:var(--ds-size-p13); font-weight:var(--ds-weight-black); letter-spacing: .16em; }
+
+/* Beat three: the ticket totted up. */
+.summary { display: flex; width: min(100%, 30rem); gap: 8px; animation: fadeUp 680ms 1740ms both; }
+.summaryTile {
+  display: grid;
+  min-width: 0;
+  height: 56px;
+  flex: 1;
+  align-content: space-between;
+  padding: 8px 10px;
+  border: 1px solid var(--ds-color-border-default);
+  background: var(--ds-color-background-data);
+  text-align: left;
+}
+.summaryTile small { color: color-mix(in srgb, var(--ds-color-text-muted) 72%, transparent); font-family: var(--ds-font-display); font-size:var(--ds-size-p8); font-weight:var(--ds-weight-black); letter-spacing: .12em; }
+.summaryTile b { overflow: hidden; color: var(--ds-color-text-default); font-family: var(--ds-font-display); font-size:var(--ds-size-p13); font-weight:var(--ds-weight-black); font-variant-numeric: tabular-nums; letter-spacing: .03em; text-overflow: ellipsis; white-space: nowrap; }
+
+.streakSlot { display: grid; height: 56px; place-items: center; }
+.revealStreak { box-shadow: 0 0 16px color-mix(in srgb, var(--ds-color-accent-gold) 40%, transparent); font-size:var(--ds-size-p11); animation: stampIn 620ms 2180ms cubic-bezier(.2, 1.6, .4, 1) both; }
+
+.hint { margin: 0; color: var(--ds-color-text-muted); font-family: var(--ds-font-display); font-size:var(--ds-size-p9); font-weight:var(--ds-weight-black); letter-spacing: .16em; animation: fadeUp 280ms 2520ms both; }
+
+/* Tapping once lands every beat at its end state. */
+.revealStill .revealTop,
+.revealStill .stamp,
+.revealStill .burst,
+.revealStill .coinFlow,
+.revealStill .summary,
+.revealStill .revealStreak,
+.revealStill .hint { animation: none; opacity: 1; transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .scrim { animation: none; }
+  .lockedRing,
+  .lockedTitle,
+  .lockedOutcome,
+  .lockedPlate,
+  .revealTop,
+  .stamp,
+  .burst,
+  .coinFlow,
+  .summary,
+  .revealStreak,
+  .hint { animation: none; }
+}

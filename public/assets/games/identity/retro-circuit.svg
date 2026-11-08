@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 160" role="img" aria-label="Apexbreak 3"><title>Apexbreak 3</title>
+<defs><linearGradient id="speed" x2="0" y2="1"><stop stop-color="#F8B775"/><stop offset="1" stop-color="#C9464A"/></linearGradient></defs>
+<path d="M110 12 202 131H18z" fill="#202D40" stroke="#F8B775" stroke-width="4"/>
+<path d="M110 25 186 124H34z" fill="none" stroke="#C9464A" stroke-width="2"/>
+<path d="M110 36 67 113h86z" fill="#515B60" stroke="#F9DEAA" stroke-width="2"/>
+<path d="M110 36v75M86 79h49M76 99h68" fill="none" stroke="#F9DEAA" stroke-width="3" stroke-dasharray="11 8"/>
+<path d="M43 71h34m-42 10h35m-26 10h24m75-20h34m-27 10h35m-32 10h24" stroke="#F8B775" stroke-width="4"/>
+<path d="m66 88 14-20h59l15 20-11 22H77z" fill="#CC4647" stroke="#F8B775" stroke-width="4"/>
+<path d="m91 68 8-17h25l8 17" fill="#1B3042" stroke="#F8B775" stroke-width="3"/>
+<path d="M81 87h21m16 0h21" stroke="#FFE5AB" stroke-width="7"/>
+<path d="M76 106v9m68-9v9" stroke="#151D2C" stroke-width="10"/>
+<path d="M24 112h172v34H24z" fill="url(#speed)" stroke="#F8B775" stroke-width="3"/>
+<text x="110" y="138" text-anchor="middle" fill="#FFF0C5" stroke="#6C303A" stroke-width="2" paint-order="stroke" font-family="Impact,Arial Black,sans-serif" font-size="19" font-weight="900" letter-spacing=".8">APEXBREAK 3</text></svg>

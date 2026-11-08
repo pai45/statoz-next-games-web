@@ -1,0 +1,24 @@
+{
+  "version": "handheld-v1",
+  "private": true,
+  "sourceHtmlSha256": "b1856748e994223bc126414983d21fe55a8feaa70cb3f2e0e7b056b44b672ef8",
+  "offlineHtmlSha256": "73947273cf7c448320a1f3854a1212577acd3a2f1e3a0f208f9168c6f6714a9c",
+  "sourceEvidence": [
+    "Super International Cricket SNES reference frames 007/011/012/018",
+    "D2D2t1JfZDk requested 130.6–133.4 recording seconds; native cadence unknown",
+    "tn2SvnEA9w4 source-derived movement pack already pinned in the project"
+  ],
+  "heldPoses": "Source-derived runtime atlas unchanged. Bowler follow-through/recovery and distance-driven runner strides now used.",
+  "missing": [
+    "Keeper pursuit/throw/full dive",
+    "Native ROM timings, exact camera transitions and full close/opposite-facing running coverage",
+    "Human/physical-device/audio-listening approval"
+  ],
+  "implementation": [
+    "Full viewport handheld shell with landscape D-pad/face controls, fullscreen gesture and fallback",
+    "Current full match/contact simulation unchanged",
+    "Source-palette ground and boundary architecture rendered behind gameplay",
+    "Existing offline host/save/session bridge retained",
+    "Only cricket bundle rebuilt; manifest hashes for every game verified"
+  ]
+}

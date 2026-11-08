@@ -1,0 +1,79 @@
+{
+  "gameId": "retro-hoops",
+  "build": "character-v9-local",
+  "assets": "9.0.0",
+  "rules": "2.0.0",
+  "request": "Continue original Street Hoop reference-led athlete likeness work",
+  "changes": [
+    "Six stable player identities: blue dark visor/close crop/blond flat top, red cap/dark curls/blond sweep.",
+    "Thirty-six original directional/facing head tiles attached using the existing head anchor in Three and Canvas.",
+    "Explicit head/body occlusion for raised blocking arms; selection marker clears taller hair and caps.",
+    "Body animations, team palettes, gameplay rules/AI and fullscreen joystick preserved from V8."
+  ],
+  "checks": {
+    "rulesInputAndIntegrationTests": 86,
+    "assetIntegrity": 13,
+    "productionActionLoops": 16,
+    "decodedVideos": 16,
+    "sameSimulationBeforeAfterScenarios": 16,
+    "mobileLifecycle": 12,
+    "teamScenarios": 6,
+    "galleryCombinations": 36,
+    "hostFlow": 6,
+    "lint": "passed; one unrelated unused-variable warning in retro-circuit/data.ts",
+    "typecheck": "passed",
+    "staticBuild": "passed"
+  },
+  "pack": {
+    "bodyFrameEntries": 2276,
+    "distinctBodyFrames": 1210,
+    "headFrameEntries": 36,
+    "atlasPages": 3,
+    "headLayer": {
+      "canvas": [
+        32,
+        32
+      ],
+      "nativeArtwork": [
+        20,
+        20
+      ],
+      "anchor": [
+        16,
+        16
+      ],
+      "bodyContainsHead": false
+    },
+    "referenceRasterInputs": 0,
+    "previousPackPreserved": true
+  },
+  "review": {
+    "structural": "passed",
+    "visual": "Six-athlete sheet, actual production block/dunk/dribble frames, running inspector and mobile scene inspected; original family coherent at display size",
+    "sourceLikenessApproved": false,
+    "exactLikenessAchieved": false,
+    "nativeTimingRecovered": false,
+    "physicalDeviceTested": false,
+    "limitations": [
+      "Head profiles are authored approximations; exact source facial/hairstyle pixels are not recovered.",
+      "Actors retain a shared body construction and skin palette per kit. Individual body builds and distinctive action poses remain open.",
+      "Matched source camera/depth and native animation timing remain unverified.",
+      "Existing ball-raise transition and broader source-fidelity work remain open.",
+      "Physical Android/iPhone validation remains unperformed."
+    ]
+  },
+  "hashes": {
+    "scripts/retro_hoops_character.py": "3364c01eb749e96a197756e612feb7b059fdd0dc7d4ba195beee1490f1844267",
+    "scripts/build-retro-hoops-authored.py": "fdf7ceffe0b63d4d0796b2f43dcb71104b908c00df00d86bc91844940152f479",
+    "src/features/games/retro-hoops/presentation.ts": "1dbf738d1409ea745c730b84545957a9fb679658f6610cca585ab264a0edd0a1",
+    "src/features/games/retro-hoops/renderer.ts": "c3f0427415c6e68102a6da2c72785293e752c219d3a8e949b4640a1bad8b72f3",
+    "public/games/retro-hoops/authored-v9/manifest.json": "88218ed6ac77f6bbd6816bebf76c84687c2251d1743b0a570d6f0bded204546d",
+    "public/embedded-games/retro-hoops/index.html": "b2d774340e154a1a2d96726d106addb1c8991d64497cec503234d9443e3375b0"
+  },
+  "release": {
+    "localOnly": true,
+    "pushed": false,
+    "published": false,
+    "pipelineActivated": false
+  }
+}

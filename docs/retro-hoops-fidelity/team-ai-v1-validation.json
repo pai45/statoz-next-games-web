@@ -1,0 +1,45 @@
+{
+  "candidate": "retro-hoops-team-ai-v1",
+  "rules": "1.5.0",
+  "scope": "Future Games Web, Retro Hoops only",
+  "checks": {
+    "retroHoopsTests": {
+      "passed": 56,
+      "failed": 0
+    },
+    "typecheck": "passed",
+    "scopedLint": "passed",
+    "offlineHoopsBuild": "passed",
+    "productionScenarioChecks": 6,
+    "consoleChecks": 9,
+    "cameraCropRepeatedSwitches": "passed",
+    "bothDirectionVideoDecode": "passed"
+  },
+  "review": {
+    "contactSheetsInspected": true,
+    "referenceAIRecovered": false,
+    "physicalDevicesTested": false,
+    "courtGeometrySourceMatchApproved": false
+  },
+  "optionalRegression": {
+    "retroCircuit": "Stopped an optional slow run after its account test passed; no full-suite pass claimed for this revision."
+  },
+  "preview": {
+    "game": "http://127.0.0.1:8936/game.html",
+    "teamInspector": "http://127.0.0.1:8936/"
+  },
+  "sha256": {
+    "src/features/games/retro-hoops/off-ball.ts": "8fcde264be08388b2fbfdc79aa4235a7e7886b26d9d9feef944d08cc8d4c2927",
+    "src/features/games/retro-hoops/simulation.ts": "96381a0c94315bdc30fa3d085d1b1a95bf0d603820e24ca7f4499ca9e73f55a1",
+    "src/features/games/retro-hoops/presentation.ts": "d232fcad027af0003f3a1a23a53415c73047be2ca7a1cc82bb646b2edb06e3d4",
+    "src/features/games/retro-hoops/renderer.ts": "a44cda07ff300288f04bfa6bbd4461df25ee8376447e92418cb11519420ddcb0",
+    "tests/retro-hoops-team-ai.test.ts": "e2aaac403c8d798632afaefc2eec5633d98b169bc4c72c2ba791c7c9ca1c23ae"
+  },
+  "release": {
+    "pushed": false,
+    "pipelineActivated": false,
+    "published": false,
+    "flutterImported": false
+  },
+  "artifacts": "test-results/retro-hoops-team-ai-v1"
+}

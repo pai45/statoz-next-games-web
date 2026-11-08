@@ -1,0 +1,246 @@
+/*
+ * The shared shop-card surface and its furniture.
+ *
+ * One silhouette for all seven categories: square across the top, both bottom
+ * corners cut, an accent wash falling to the page black, and a 1px accent edge
+ * that follows the cut. The edge is a painted layer with the fill inset inside
+ * it, because a clip path crops a border away.
+ */
+
+.frame {
+  --shop-accent: var(--ds-color-accent-cyan);
+  --shop-tint: 12%;
+  --shop-edge: 40%;
+  --shop-edge-width: 1px;
+  position: relative;
+  min-width: 0;
+  height: 100%;
+}
+
+.enter {
+  animation: shop-card-enter 420ms both cubic-bezier(0.2, 0.8, 0.2, 1);
+  animation-delay: calc(var(--item-index, 0) * 22ms);
+}
+
+@keyframes shop-card-enter {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+
+.plate {
+  position: relative;
+  display: flex;
+  height: 100%;
+  min-height: 0;
+  flex-direction: column;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 12px),
+    calc(100% - 12px) 100%,
+    12px 100%,
+    0 calc(100% - 12px)
+  );
+  background: color-mix(in srgb, var(--shop-accent) var(--shop-edge), transparent);
+  transition: background-color 150ms ease-out;
+}
+
+/* The wash sits inside the edge, so exactly one pixel of accent shows. */
+.wash {
+  position: absolute;
+  inset: var(--shop-edge-width);
+  clip-path: inherit;
+  background: linear-gradient(
+    to bottom,
+    color-mix(in srgb, var(--shop-accent) var(--shop-tint), var(--ds-color-background-primary)),
+    var(--ds-color-background-primary)
+  );
+}
+
+.body {
+  position: relative;
+  display: flex;
+  height: 100%;
+  min-height: 0;
+  flex-direction: column;
+}
+
+/* Resting tiles brighten their edge on hover; nothing else moves. */
+.rest .plate:hover,
+.rest .plate:focus-within { --shop-edge: 55%; }
+
+/* Calm lift: a hard offset shadow under the tile, and the tile itself raised. */
+.elevated { --shop-edge: 55%; }
+.elevated .plate { transform: translateY(-2px); }
+.elevated .wash {
+  background: linear-gradient(
+    to bottom,
+    color-mix(in srgb, var(--shop-accent) 14%, var(--ds-color-background-primary)),
+    color-mix(in srgb, var(--ds-color-background-elevated) 92%, transparent),
+    var(--ds-color-background-primary)
+  );
+}
+
+.lift {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  transform: translateY(6px);
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 12px),
+    calc(100% - 12px) 100%,
+    12px 100%,
+    0 calc(100% - 12px)
+  );
+  background: var(--ds-color-fixture-shadow);
+}
+
+/* The single focal tile: a heavier edge and the only glow on the surface. */
+.focal {
+  --shop-edge: 90%;
+  --shop-edge-width: 1.6px;
+  filter: drop-shadow(0 0 22px color-mix(in srgb, var(--shop-accent) 32%, transparent));
+}
+
+/* ---- Tag ------------------------------------------------------------------- */
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 2px 6px;
+  border: 1px solid color-mix(in srgb, var(--shop-accent) 55%, transparent);
+  background: color-mix(in srgb, var(--shop-accent) 18%, transparent);
+  color: var(--shop-accent);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p8);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+/* ---- Price ----------------------------------------------------------------- */
+
+.price {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--ds-font-display);
+  font-weight:var(--ds-weight-black);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.priceCoins { color: var(--ds-color-text-default); }
+.priceDot { padding: 0 2px; color: var(--ds-color-text-muted); }
+.priceInr { font-variant-numeric: tabular-nums; }
+
+/* A deal's original price, struck through beside the discounted one. */
+.priceWas {
+  color: var(--ds-color-text-muted);
+  font-size: 0.85em;
+  text-decoration: line-through;
+  text-decoration-thickness: 1.5px;
+}
+
+/* ---- Footer rail ----------------------------------------------------------- */
+
+.footer {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  background: var(--ds-color-overlay-shop-footer);
+  color: inherit;
+}
+
+.footerButton {
+  cursor: pointer;
+  transition: transform 150ms ease, filter 150ms ease;
+}
+.footerButton:hover { filter: brightness(1.35); }
+.footerButton:active { transform: scale(0.97); }
+.footerButton:focus-visible { outline: 2px solid var(--shop-accent); outline-offset: -2px; }
+
+.footerLabel {
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p10);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: 1.4px;
+}
+
+/* ---- State stamp ----------------------------------------------------------- */
+
+.stampScrim {
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+  display: grid;
+  inset: 0;
+  place-items: center;
+  background: var(--ds-color-overlay-shop-ownership);
+}
+
+.stamp {
+  padding: 4px 12px;
+  transform: rotate(-8deg);
+  border: 1.5px solid var(--shop-accent);
+  background: color-mix(in srgb, var(--shop-accent) 14%, transparent);
+  box-shadow: 0 0 16px color-mix(in srgb, var(--shop-accent) 40%, transparent);
+  color: var(--shop-accent);
+  font-family: var(--ds-font-display);
+  font-size:var(--ds-size-p18);
+  font-weight:var(--ds-weight-black);
+  letter-spacing: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .enter { animation: none; }
+  .footerButton { transition: none; }
+  .footerButton:active { transform: none; }
+}
+
+/* ---- The equipped frame's ring --------------------------------------------- */
+
+/*
+ * A 4px band and a 2px bevel, both mixed from the one team colour the frame
+ * carries. Padding rather than borders, so the band can hold a gradient.
+ */
+.ring {
+  --frame-color: var(--ds-color-accent-cyan);
+  position: relative;
+  display: block;
+  padding: 4px;
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, white 45%, var(--frame-color)),
+    var(--frame-color),
+    color-mix(in srgb, black 35%, var(--frame-color))
+  );
+}
+
+.ringInner {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  border: 2px solid color-mix(in srgb, white 25%, var(--frame-color));
+}
+
+.ringGlow {
+  box-shadow: 0 0 12px color-mix(in srgb, var(--frame-color) 50%, transparent);
+}
+
+.ringOctagon {
+  clip-path: var(--ds-clip-octagon);
+}
+.ringOctagon .ringInner {
+  clip-path: var(--ds-clip-octagon);
+}

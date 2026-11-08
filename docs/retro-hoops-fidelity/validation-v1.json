@@ -1,0 +1,35 @@
+{
+  "candidate": "retro-hoops-fidelity-v1",
+  "status": "first implementation slice; fidelity not approved",
+  "validation": {
+    "gameTestsPassed": 46,
+    "browserChecksPassed": 9,
+    "typecheck": "passed",
+    "scopedLint": "passed",
+    "offlineGameBuild": "passed",
+    "workbench": [
+      "production renderer loads",
+      "one-tick step",
+      "local reference image loads",
+      "landmark capture",
+      "measurement JSON export"
+    ],
+    "visualReview": "844x390 playable screenshot inspected"
+  },
+  "preview": {
+    "game": "http://127.0.0.1:8934/game.html",
+    "alignment": "http://127.0.0.1:8934/"
+  },
+  "gaps": [
+    "source revision/settings remain unverified",
+    "no native input/timing capture",
+    "reference and current court composition remain different",
+    "physical phone not tested"
+  ],
+  "release": {
+    "pushed": false,
+    "pipelineActivated": false,
+    "published": false
+  },
+  "scope": "Future Games Web only"
+}

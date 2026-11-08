@@ -1,0 +1,23 @@
+/*
+ * The strip runs to the app column's right edge, so its tint and underline
+ * dissolve into the page there on wide screens (--shell-feather, 0 elsewhere).
+ * Unlayered, so it overrides UnderlineTabs' own background and border utilities.
+ * The tabs themselves stay fully opaque.
+ */
+.strip {
+  position: relative;
+  isolation: isolate;
+  border-bottom-width: 0;
+  background: none;
+}
+.strip::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-bottom: 1px solid;
+  border-color: inherit;
+  background: color-mix(in srgb, var(--ds-color-background-primary) 40%, transparent);
+  mask-image: linear-gradient(to left, transparent 0, #000 var(--shell-feather, 0px));
+  pointer-events: none;
+}

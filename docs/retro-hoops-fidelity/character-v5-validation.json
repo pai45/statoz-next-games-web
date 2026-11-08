@@ -1,0 +1,64 @@
+{
+  "gameId": "retro-hoops",
+  "build": "character-v5-local",
+  "assets": "5.0.0",
+  "rules": "2.0.0",
+  "changes": [
+    "Chest is constructed over a separate pelvis; jersey edges follow the action axis.",
+    "Run, pass, shot, defensive crouch and dunk have distinct chest/head offsets and shoulder roll.",
+    "Explicit bent-elbow running, relaxed ready arms and centred front/back travel.",
+    "Reduced oversized chest highlight and corrected violet-shorts hem colour.",
+    "Dynamic ball-contact arm now shares the tapered outline, shadows, highlights, cuff and hand construction of atlas art."
+  ],
+  "checks": {
+    "rulesAndIntegrationTests": 84,
+    "assetIntegrity": 8,
+    "productionActionLoops": 16,
+    "decodedVideos": 16,
+    "mobileLifecycle": 9,
+    "teamScenarios": 6,
+    "hostFlow": 6,
+    "lint": "passed",
+    "typecheck": "passed",
+    "staticBuild": "passed"
+  },
+  "pack": {
+    "frameEntries": 2276,
+    "distinctPixelFrames": 1264,
+    "sourceRasterInputs": 0,
+    "previousPackPreserved": true
+  },
+  "review": {
+    "structural": "passed",
+    "visual": "Incremental original-art improvement; source likeness remains incomplete",
+    "sourceLikenessApproved": false,
+    "exactLikenessAchieved": false,
+    "nativeTimingRecovered": false,
+    "physicalDeviceTested": false,
+    "inspected": [
+      "Reference frames 0016 and 0067",
+      "Native pose specimens and prior/current body layers",
+      "Production dribble and shot frames, pass contact sheet, two-team cycle sheet"
+    ],
+    "remaining": [
+      "Face and limb contours still differ from commercial reference art.",
+      "Source-specific footwork and exact apparent size are not matched.",
+      "Actual phone performance and complete matched-pose motion fidelity remain unverified."
+    ]
+  },
+  "sourceStudy": "reference-comparison.json",
+  "hashes": {
+    "scripts/build-retro-hoops-authored.py": "1a6caab86d99f38806d5b452d5ac99b58ca428e1e1b22f7c939d57ea9936301a",
+    "scripts/retro_hoops_character.py": "874c55d1a5936a6936c5959a410d4692fb19093189d97f213c2b13b7d0e4adb3",
+    "src/features/games/retro-hoops/contact-arm.ts": "52913be68887a4424fdf15cac2b844560068d427ed279a41ea9144f88724e480",
+    "src/features/games/retro-hoops/character-pack.ts": "3f6feac58af4a0440a8be00b34808be077f8f16aff7b0a9f8ed1a446f683567a",
+    "public/embedded-games/retro-hoops/index.html": "c5e24222c9c2953eca63f8e88d81bb0b3e853f2a8fc4520be229b30c08dda32a"
+  },
+  "baselinePackSha256": "f3a34b11651a15344f69579f0e13833e1fdb4b8854eb1f8f19057ea57915cda8",
+  "release": {
+    "localOnly": true,
+    "pushed": false,
+    "published": false,
+    "pipelineActivated": false
+  }
+}

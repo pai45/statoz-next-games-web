@@ -1,0 +1,124 @@
+{
+  "gameId": "retro-hoops",
+  "agent": "street_hoop_artist (executed inline by the parent session)",
+  "skill": "street-hoop-assets",
+  "build": "character-v23-local",
+  "assets": "23.0.0",
+  "rules": "2.0.0",
+  "scope": "measured source colour ramps and kit contrast",
+  "changes": [
+    "Skin ramps from measured clusters: blue team #62381c/#ad4d09/#df750e/#fea53d; red team #5c180c/#b54510/#e47435/#feaa61; near-black outlines.",
+    "Cloth ramps darkened toward measured values (blue jersey #233b78/#326cbd/#629ef7; red #7b0d02 to #e2300a).",
+    "Shading bands shifted so lit sides cover more of each form, matching the bright-orange-with-dark-edges look (atlas and live grip arm).",
+    "Red team: red tee, white sleeves, yellow chest band and charcoal shorts (original combination; previously orange shorts merged with skin)."
+  ],
+  "research": [],
+  "checks": {
+    "pipelineSteps": {
+      "art": "passed",
+      "bundle": "passed",
+      "console": "passed",
+      "contract": "passed",
+      "fidelity": "passed",
+      "host": "passed",
+      "lint": "passed",
+      "motion-build": "passed",
+      "motion-capture": "passed",
+      "motion-encode": "passed",
+      "pack": "passed",
+      "rules-tests": "passed",
+      "static-build": "passed",
+      "typecheck": "passed",
+      "wire": "passed"
+    },
+    "rulesInputAndIntegrationTests": 86,
+    "assetIntegrity": 13,
+    "rigContract": {
+      "frames": 2276,
+      "ballHoldingHandEndpointsUnchanged": true,
+      "freeHandClips": [
+        "backpedal",
+        "defend",
+        "neutral-a",
+        "neutral-b"
+      ],
+      "freeHandFramesChanged": 0,
+      "dunkPoses": 104,
+      "maxReach": 40.80441152620633,
+      "dribbleOverlayShoulderMatches": 12,
+      "changedAnchorKinds": {},
+      "scope": "V23 vs V22: foot origin, dribble-ball endpoints and every ball-holding hand endpoint unchanged; dunk shoulders/elbows unchanged and reachable. Non-ball ready/defend hands may be re-authored."
+    },
+    "productionActionLoops": 16,
+    "decodedVideos": 16,
+    "hostFlow": 6,
+    "mobileConsole": 12,
+    "lint": "passed (1 unrelated retro-circuit warning)",
+    "typecheck": "passed",
+    "staticBuild": "passed"
+  },
+  "pack": {
+    "bodyFrameEntries": 2276,
+    "distinctBodyFrames": 1184,
+    "headFrameEntries": 36,
+    "atlasPages": 3,
+    "referenceRasterInputs": 0,
+    "previousPackPreserved": true
+  },
+  "correctionRecord": "test-results/retro-hoops-character-v23/correction-record.json",
+  "fidelityMatrix": [
+    {
+      "feature": "Colour ramps and outlines",
+      "status": "approximate",
+      "review": "Derived from measured native sprite colour clusters."
+    },
+    {
+      "feature": "Kit contrast",
+      "status": "adapted",
+      "review": "Fictional kits using the observed jersey/shorts contrast."
+    },
+    {
+      "feature": "Native timing, input windows, hidden AI",
+      "status": "unverified",
+      "review": "Not recovered."
+    }
+  ],
+  "review": {
+    "structural": "passed",
+    "visual": "Re-coloured the cast from colour clusters measured on native GameLog sprites (frames 0048/0067): near-black outlines, deep saturated orange-brown skin ramps, darker cloth shadows; red team shorts changed to charcoal for the kit/skin contrast seen on Street Hoop teams.",
+    "gameplay": "Simulation/AI/input untouched; 86 tests pass.",
+    "sourceLikenessApproved": false,
+    "exactLikenessAchieved": false,
+    "nativeTimingRecovered": false,
+    "physicalDeviceTested": false,
+    "limitations": [
+      "Front-view tank top still reads slightly egg-shaped at the shoulders.",
+      "Front-view hands hang slightly below the source's hip-height hands.",
+      "Street Hoop uses several venues by matchup; venue pass deferred until characters are done, per the user.",
+      "Source knock-down after super dunks has no simulation trigger (gameplay change needs approval).",
+      "Bodies stay per team; native timing and physical devices unverified."
+    ]
+  },
+  "hashes": {
+    "scripts/retro_hoops_character.py": "bf6b73248bab140b0b188de3c3dfb04349240c4e85da009648b6c4da17ff67bc",
+    "scripts/retro_hoops_volume.py": "8c373075c12a3474d4c83f5f572f3265110b1fe1c2c3753f733a0574352b58b7",
+    "scripts/build-retro-hoops-authored.py": "eb83d509b95a9326dfa404c064180c5e875ae37a5ef54f116f5ea357c08e3e91",
+    "src/features/games/retro-hoops/contact-arm.ts": "5c49e58741a260a985cad2c476344777916acf1aa15e57e6e4edf72f26d165aa",
+    "src/features/games/retro-hoops/view.ts": "96403e0178bbb98c70b4efbe9b5650f1f766b86851a234e9f7fc736260d78778",
+    "src/features/games/retro-hoops/renderer.ts": "9202e82365872589a272c88ea2a9a78a0c84003e2e1c07201fcdfdefea9f5d78",
+    "src/features/games/retro-hoops/presentation.ts": "9577d626817d5ddcd8cdddc7ef38119efd6022bf3661c3c7ae3edad10aa2fcb6",
+    "src/features/games/retro-hoops/court.ts": "b4e4001ade42dc7d3f6e2496036bd370f661e188844fbf4966116d07bf7546ab",
+    "src/features/games/retro-hoops/crowd.ts": "dd761650932f702eb049330c36a9cc3b59d50890cef7d0c5f14424c2980bdd6e",
+    "src/features/games/retro-hoops/character-pack.ts": "fc47884bf7f24da458926dfcb8cd2a7784555a35be71cab162b5ae203b198341",
+    "src/features/games/retro-hoops/reference-profile.ts": "05e1a403c078667ebead8ff148268bab98a3b24988938702deb3c6ec92c80121",
+    "public/games/retro-hoops/authored-v23/manifest.json": "59295b0f2b972ce65f696f460a3e1ff7c7f117cdf9e6674e7007f4c5bdae39aa",
+    "public/games/retro-hoops/credits.json": "b68c5227f757605a0f142109bbb3d3e18ac8c3522c90929405382e485a9b560e",
+    "public/embedded-games/retro-hoops/index.html": "b723a07cee07bc08dd0c0da627abb476db7136882e51200195c28de6f85f5ca1"
+  },
+  "release": {
+    "localOnly": true,
+    "pushed": false,
+    "published": false,
+    "pipelineActivated": false
+  }
+}

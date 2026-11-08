@@ -1,0 +1,19 @@
+{
+  "version": "character-motion-3",
+  "kickAndReplay": "passed",
+  "models": [
+    {
+      "status": 200,
+      "bytes": 2906808,
+      "sha256": "e25d960b95e03248857f1040cbadded17ba34b8872dec90545e0aed6fd12ede5"
+    }
+  ],
+  "errors": [],
+  "failures": [
+    {
+      "state": "loading",
+      "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+      "error": "net::ERR_NETWORK_ACCESS_DENIED"
+    }
+  ]
+}

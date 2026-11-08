@@ -1,0 +1,99 @@
+/* Responsive presentation only; upstream game scripts and rules stay unchanged. */
+@media (pointer: coarse), (max-width: 750px), (max-width: 1024px) and (max-height: 500px) {
+  button, a, select, input { touch-action: manipulation; }
+  .brand { min-height: 44px; align-items: center; }
+  .utility-button, .help-button, .close-button, .segmented button, .quality-picker select { min-height: 44px; }
+  .help-button, .close-button { min-width: 44px; width: 44px; }
+  .quality-picker select, .setup-grid input, .setup-grid select { font-size: 16px; }
+  .setup-grid input, .setup-grid select { min-height: 48px; }
+  .setup-grid label { min-width: 0; font-size: 14px; }
+  .modal { position: fixed; inset: 0; padding: 8px; overflow: hidden; }
+  .modal-card, .setup-card { box-sizing: border-box; width: min(100%, 620px); max-height: calc(100dvh - 16px); overflow-y: auto; overscroll-behavior: contain; scroll-padding-block: 60px 20px; padding: 20px; }
+  .close-button { position: sticky; top: 0; right: auto; float: right; margin: 0 0 8px 8px; z-index: 2; background: var(--ink); }
+  .modal-card h2 { font-size: clamp(26px, 6vw, 36px); margin: 8px 0 16px; }
+  .modal-card p:not(.eyebrow), .help-steps li p { font-size: 13px !important; }
+  .help-shortcuts { flex-wrap: wrap; }
+}
+/* Hosted matches skip the upstream landing screen and setup entry points. */
+html[data-stadium-hosted] #intro,html[data-stadium-hosted] .masthead{display:none!important}
+
+@media (max-width: 750px), (max-width: 1024px) and (max-height: 500px) {
+  .masthead { box-sizing: border-box; min-height: 56px; padding: 6px 10px; gap: 8px; }
+  .brand { flex: 0 0 auto; gap: 4px; font-size: 10px; }
+  .brand-mark, .brand-edition, .venue { display: none; }
+  .header-tools { min-width: 0; gap: 6px; }
+  .quality-picker { min-width: 0; }
+  .quality-picker > span { display: none; }
+  .quality-picker select { width: 84px; max-width: 84px; padding-inline: 4px; }
+  .header-tools .utility-button { max-width: none; min-width: 0; padding: 6px 8px; font-size: 12px; }
+  .intro-copy { left: 7%; width: 86%; }
+  .scoreboard { left: 10px; top: 64px; width: clamp(160px, calc(100% - 144px), 230px); }
+  .scoreboard-title { font-size: 9px; padding: 6px 9px 0; letter-spacing: .06em; }
+  .scoreboard-main { padding: 4px 9px; }
+  .score-number { font-size: 30px; }
+  .overs-block > span { font-size: 18px; }
+  .chase-line { padding: 6px 8px; font-size: 10px; }
+  .batter-line, .over-label, .target-badge, .delivery-card, .hud-footer { display: none; }
+  .over-line { min-height: 28px; padding: 6px 8px; }
+  .history { flex-wrap: nowrap; }
+  .history > span { width: 16px; height: 16px; flex: 0 0 16px; }
+  .utility-tray { top: 64px; right: 10px; width: 110px; gap: 6px; }
+  .utility-tray .utility-button { min-width: 0; max-width: none; width: 100%; min-height: 44px; padding: 6px; font-size: 11px; line-height: 1.3; overflow-wrap: anywhere; }
+  .utility-tray kbd { display: none; }
+  .restart-button { margin: 0; }
+  .batting-dock, .legend-mode .batting-dock, .defending .batting-dock {
+    box-sizing: border-box; left: 10px; right: 10px; bottom: 10px; transform: none; width: auto; max-width: none;
+    display: grid; grid-template-columns: minmax(0, 1fr) 112px; grid-template-rows: auto auto; gap: 8px; padding: 8px;
+  }
+  .shot-control { min-width: 0; grid-column: 1; grid-row: 1; }
+  .segmented { box-sizing: border-box; height: 46px; }
+  .segmented button { min-width: 44px; padding: 0 4px; font-size: 12px; }
+  .timing-control, .defending .timing-control { min-width: 0; grid-column: 1; grid-row: 2; }
+  .defending .timing-control { grid-row: 1 / 3; }
+  .timing-meter { height: 10px; }
+  .control-label, .timing-labels { display: none; }
+  #swing, .legend-mode #swing { box-sizing: border-box; grid-column: 2; grid-row: 1 / 3; width: 100%; min-width: 0; max-width: 100%; min-height: 64px; margin: 0; padding: 8px; font-size: 14px; white-space: normal; }
+  .defending.legend-mode .batting-dock { grid-template-columns: 1fr; }
+  .defending.legend-mode #swing { grid-column: 1; }
+  .commentary { left: 14px; bottom: 116px; max-width: calc(100% - 28px); }
+  .commentary h2 { font-size: 20px; line-height: 1.15; margin: 0 0 4px; }
+  .commentary > p:last-child { font-size: 11px; margin: 0; }
+  .commentary .eyebrow { display: none; }
+}
+
+@media (max-width: 420px) {
+  .setup-grid { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+}
+@media (max-width: 750px) and (max-height: 620px) and (orientation: portrait) {
+  .intro-copy { top: 68px; bottom: 12px; max-height: calc(100% - 80px); overflow-y: auto; }
+  .intro h1 { font-size: 48px; margin: 12px 0; }
+  .intro .hero-copy, .intro-shortcut, .intro-footer { display: none; }
+  .challenge { margin-bottom: 14px; }
+}
+@media (max-width: 1024px) and (max-height: 500px) and (orientation: landscape) {
+  .intro-copy { inset: 64px 12px 12px; width: auto; max-height: none; display: grid; grid-template-columns: minmax(0, 1fr) minmax(180px, 240px); grid-template-rows: auto auto; align-content: center; align-items: center; column-gap: 24px; row-gap: 8px; }
+  .intro-copy > .eyebrow { grid-column: 1; grid-row: 1; margin: 0; font-size: 9px; }
+  .intro h1 { grid-column: 1; grid-row: 2; font-size: clamp(36px, 6vw, 52px); margin: 0; }
+  .intro .hero-copy, .challenge-note, .intro-shortcut, .intro-footer, .intro-caption { display: none; }
+  .challenge { grid-column: 2; grid-row: 1; margin: 0; gap: 16px; }
+  .challenge strong { font-size: 28px; }
+  .challenge div > span { font-size: 8px; }
+  .enter-button { grid-column: 2; grid-row: 2; min-width: 0; width: 100%; min-height: 48px; padding: 10px 12px; }
+  .loading { grid-column: 2; margin: 0; }
+  .error { grid-column: 1 / -1; }
+  .scoreboard { left: 12px; top: 64px; width: 176px; }
+  .utility-tray { top: 64px; right: 12px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); width: min(360px, calc(100% - 212px)); gap: 6px; }
+  .batting-dock, .legend-mode .batting-dock, .defending .batting-dock { left: auto; right: 12px; bottom: 12px; width: min(390px, calc(100% - 212px)); grid-template-columns: minmax(0, 1fr) 112px; }
+  .commentary { left: 12px; bottom: 12px; width: 176px; max-width: 176px; }
+  .commentary h2 { font-size: 17px; }
+  .commentary > p:last-child { display: none; }
+  .setup-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .setup-grid label:first-child { grid-column: 1 / -1; }
+}
+@media (max-width: 650px) and (max-height: 500px) and (orientation: landscape) {
+  .scoreboard, .commentary { width: 140px; max-width: 140px; }
+  .utility-tray, .batting-dock, .legend-mode .batting-dock, .defending .batting-dock { width: calc(100% - 176px); }
+  .commentary h2 { font-size: 16px; max-height: 3.6em; overflow: hidden; }
+  .scoreboard .history { gap: 2px; }
+  .scoreboard .rate { font-size: 6px; }
+}

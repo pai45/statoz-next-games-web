@@ -1,0 +1,50 @@
+[
+  {
+    "game": "stick-cricket",
+    "files": 16984,
+    "bytes": 189765093,
+    "missing": []
+  },
+  {
+    "game": "football-shooting",
+    "files": 47007,
+    "bytes": 241176528,
+    "missing": []
+  },
+  {
+    "game": "f1-racing",
+    "files": 1487,
+    "bytes": 994518113,
+    "missing": []
+  },
+  {
+    "game": "tennis-bits",
+    "files": 13078,
+    "bytes": 50414516,
+    "missing": []
+  },
+  {
+    "game": "archery-test",
+    "files": 61,
+    "bytes": 19952647,
+    "missing": []
+  },
+  {
+    "game": "penalty-shooters-2",
+    "files": 1929,
+    "bytes": 13419344,
+    "missing": []
+  },
+  {
+    "game": "soccer-real",
+    "files": 65,
+    "bytes": 10683427,
+    "missing": []
+  },
+  {
+    "game": "retro-innings",
+    "files": 1,
+    "bytes": 91115,
+    "missing": []
+  }
+]

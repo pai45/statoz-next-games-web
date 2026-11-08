@@ -1,0 +1,35 @@
+{
+  "version": "character-surface-6",
+  "date": "2026-10-25",
+  "tests": {
+    "shootoutPassed": 27,
+    "browserPassed": 6,
+    "browserFailed": 0,
+    "browserBasePath": "/statoz-games-web"
+  },
+  "lint": "pass; existing unrelated roadworks warning in Retro Circuit",
+  "typecheck": "pass",
+  "productionBuild": "pass",
+  "staticBuild": "pass",
+  "staticAssetHashesMatched": 19,
+  "trackedAssetBytes": 11381141,
+  "highReview": {
+    "errors": [],
+    "metrics": {
+      "drawCalls": 128,
+      "vertices": 295788
+    },
+    "browser": "155.0.8059.85"
+  },
+  "lowReview": {
+    "errors": [],
+    "metrics": {
+      "drawCalls": 128,
+      "vertices": 242124
+    },
+    "browser": "155.0.8059.85"
+  },
+  "physicalDevicePerformance": "unverified",
+  "visualParity": "Not 1:1 FIFA 14; generic heads and simplified hair/gloves/garment topology remain",
+  "deployment": "none"
+}

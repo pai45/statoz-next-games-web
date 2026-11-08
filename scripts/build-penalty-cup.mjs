@@ -1,0 +1,17 @@
+import {engineExternals,engineModulePrelude} from './build-game-engine.mjs';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { build } from 'esbuild';
+import sharp from 'sharp';
+
+/** All match assets resolve to embedded bytes; no hosted runtime dependencies. */
+export async function buildPenaltyCup({prelude}){
+ const root=process.cwd(),assets={};
+ async function addDirectory(dir,only){for(const entry of await fs.readdir(path.join(root,'public',dir),{withFileTypes:true})){if(!entry.isFile()||only&&!only.includes(entry.name)||!['.json','.webp','.png','.wav','.ogg'].includes(path.extname(entry.name))||entry.name==='PROVENANCE.json')continue;const p='/'+dir+'/'+entry.name,bytes=await fs.readFile(path.join(root,'public',p));assets[p]=`data:${{'.json':'application/json','.png':'image/png','.webp':'image/webp','.wav':'audio/wav','.ogg':'audio/ogg'}[path.extname(p)]};base64,${bytes.toString('base64')}`;}}
+ await addDirectory('assets/games/penalty-shootout/imported-characters');await addDirectory('assets/games/penalty-shootout/audio');await addDirectory('games/penalty-cup',['striker-kit-mask.png','keeper-kit-mask.png']);
+ const entry=`import React from 'react';import{createRoot}from'react-dom/client';import{PenaltyCupGame}from'./src/features/games/penalty-cup/game';const host=window.__STATOZ_HOST__;let id=0,disposed=false;const root=createRoot(document.getElementById('root'));const onEvent=event=>{if(event.type==='result')host.result(event.payload);else host.emit(event.type,event.payload);};const onExit=()=>host.emit('exit');const render=command=>root.render(<PenaltyCupGame onExit={onExit} onEvent={onEvent} hostCommand={command?{id:++id,type:command}:undefined}/>);host.command=command=>{if(disposed)return;if(command==='dispose'){disposed=true;root.unmount();}else render(command);};render();`;
+ const result=await build({stdin:{contents:entry,resolveDir:root,loader:'tsx'},bundle:true,write:false,outdir:'bundle',format:'esm',external:engineExternals,platform:'browser',target:'es2020',minify:true,jsx:'automatic',loader:{'.woff2':'dataurl'},tsconfig:path.join(root,'tsconfig.json'),plugins:[{name:'penalty-cup-offline-assets',setup(b){b.onResolve({filter:/^@\/shared\/config\/base-path$/},()=>({path:'cup-assets',namespace:'cup'}));b.onLoad({filter:/.*/,namespace:'cup'},()=>({contents:`const assets=${JSON.stringify(assets)};export const basePath='';export const publicAsset=p=>{if(p.startsWith('data:')||p.startsWith('blob:'))return p;const found=assets[p];if(!found)throw Error('Missing offline Penalty Cup asset: '+p);return found;};`,loader:'js'}));}}]});
+ const js=result.outputFiles.find(f=>f.path.endsWith('.js')).text,css=result.outputFiles.find(f=>f.path.endsWith('.css'))?.text??'';
+ await sharp(path.join(root,'public/games/penalty-cup/cover.svg')).resize(800,1000).png().toFile(path.join(root,'public/games/penalty-cup/cover.png'));
+ return `<!doctype html><html lang="en" data-game="penalty-cup"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Penalty Cup</title><style>html,body,#root{width:100%;height:100%;margin:0;overflow:hidden;background:#141b18}*{box-sizing:border-box}button{touch-action:manipulation}${css}</style></head><body><div id="root"></div>${prelude}${await engineModulePrelude(['core','audio'])}<script type="module">${js.replaceAll('</script','<\\/script')}</script></body></html>`;
+}

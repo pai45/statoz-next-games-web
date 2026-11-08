@@ -1,0 +1,12 @@
+{
+  "gameId": "yorker",
+  "file": "yorker.mp4",
+  "durationSeconds": 8,
+  "width": 1280,
+  "height": 720,
+  "fps": 12,
+  "source": "/embedded-games/yorker/index.html",
+  "method": "Actual local game runtime captured with Playwright; silent H.264 with restrained contrast/saturation grading.",
+  "sha256": "0a2d1508f538ac8c1e0f76bcbb3b27ad51d47ea225c9301cd9b97c585c65e9cd",
+  "bytes": 297127
+}

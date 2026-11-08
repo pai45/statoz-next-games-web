@@ -1,0 +1,17 @@
+# Retro Hoops / fullscreen joystick overlay
+
+Build `onscreen-v1-local`, assets `7.0.0`, rules `2.0.0`. User request: replace mobile direction buttons with a joystick and expand the court to the full landscape screen with controls overlaid like Retro Football. Blue/red art and simulation rules are retained. Local only: no push, pipeline activation or publication.
+
+The reserved plastic side-control columns are removed from this game. The court's canvas covers the full available viewport. A translucent radial joystick sits in one lower corner, with diagonal A/B action buttons in the opposite corner. Score/time, utility controls and super meters float over the screen with safe-area offsets. Left-handed controls swap the sides and Touch size still scales the targets. All controls remain at least 44 CSS pixels. Overlays hide and disable touch gameplay controls while loading, paused, in settings or showing results.
+
+The joystick accepts one captured pointer, ignores additional stick touches, supports any heading, uses a radial 16 percent dead zone and proportional movement outside it, and clamps thumb displacement. Action buttons retain independent pointer identities, including when an action finger touches before the joystick finger. Up/cancel/lost capture release only that input. Pause, blur/background, rotation and disposal clear input and recenter the thumb. Keyboard WASD/arrows and J/K remain supported through the same input owner.
+
+A ResizeObserver derives logical camera width from viewport aspect at a fixed logical height of 360, using the renderer's existing 320..900 bounds. At 844 by 390 CSS pixels, the game renders 779 by 360 logical pixels and fills the viewport without stretching characters. Very wide views beyond 900/360 retain contain fitting. Resize observation and listeners are removed on disposal.
+
+The shared fullscreen policy still requests browser fullscreen and landscape orientation where available. User settings and browser support govern this API; viewport fitting remains when fullscreen is blocked or exited. Portrait pauses the match, makes the game inert and requires explicit resume after rotating back. Shared shell source and other games are unchanged; this game's local CSS owns its overlay layout independently of the shared side-control preference.
+
+Validation: 86 tests, twelve browser layout/lifecycle checks, six exported host-flow checks, lint, typecheck and production/static build passed. Browser coverage: 844x390, 915x412, 667x375, 568x320, 1600x720, 1280x720 and portrait 390x844. Covered analog diagonals, sliding reversal, dead zone, two-finger action/movement, pointer cancellation/capture, blur, left-handed layout, settings sliders, pause, rotation, fullscreen entry/exit, host launch, complete match, one result, rematch, exit and re-entry. Production screenshots were inspected. The browser harness waits for coalesced pointer moves before assertions; an earlier immediate assertion race was corrected.
+
+Physical Android/iOS validation remains unperformed. Browser tests use Chromium/SwiftShader and emulated touch. Existing Street Hoop character/action fidelity gaps remain in `character-v7.md`; this controls revision makes no new parity claim.
+
+Play: http://127.0.0.1:8950/game.html . Preserved baseline source snapshots and browser screenshots are under `test-results/retro-hoops-onscreen-v1`. Editable sources are game-local `game.tsx`, `input.ts`, `joystick.tsx`, `joystick-math.ts` and `screen.module.css`.

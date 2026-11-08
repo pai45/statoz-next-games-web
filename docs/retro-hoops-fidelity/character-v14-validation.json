@@ -1,0 +1,152 @@
+{
+  "gameId": "retro-hoops",
+  "agent": "street_hoop_artist (executed inline by the parent session)",
+  "skill": "street-hoop-assets",
+  "build": "character-v14-local",
+  "assets": "14.0.0",
+  "rules": "2.0.0",
+  "scope": "Street Hoop likeness pass: athlete build/kits/identities, reference framing camera, dithered shadows and ball, street venue",
+  "changes": [
+    "Forward-leaning spine-aligned short jerseys with rounded backs; contrasting loose knee-length shorts; high-top shoes with socks; larger hands; five-tone warm skin ramps.",
+    "Source-style fictional kits: blue team sky-blue tank with lavender shorts; red team red raglan with white sleeves and orange shorts; chest/back numbers removed.",
+    "Six distinct original heads: bandana+shades, headband+spikes, buzz+goatee, blond+shades, backwards cap, red ponytail+headband.",
+    "Camera shows a 252-high window of the 360-high world (~1.43x closer) with two-axis follow; perspective farScale .86 -> .84. Presentation only.",
+    "Checkerboard-dithered player/ball shadows; 13px four-tone ball (draw size only).",
+    "Street venue: night buildings, brick wall, chain-link fence, standing/seated crowd, concrete curb, dark asphalt and pole-mounted baskets with unchanged rim anchors."
+  ],
+  "checks": {
+    "rulesInputAndIntegrationTests": 86,
+    "assetIntegrity": 13,
+    "rigContract": {
+      "frames": 2276,
+      "handAndFeetEndpointsUnchanged": true,
+      "dribbleBallEndpointsUnchanged": true,
+      "dunkPoses": 104,
+      "maxNearReach": 40.80441152620633,
+      "maxFarReach": 33.95585369269929,
+      "dribbleOverlayShoulderMatches": 12,
+      "changedAnchorKinds": {
+        "shoulders": 556,
+        "neck": 688,
+        "head": 688,
+        "toes": 416,
+        "heels": 416,
+        "ankles": 72,
+        "knees": 72,
+        "shoulder": 1080,
+        "elbows": 1080
+      },
+      "scope": "Every V14 frame keeps V13 foot origin, hand and dribble-ball endpoints; dunk shoulders/elbows unchanged and reachable by 21+20 arm. Shoulder/neck/head/toe anchors move with the authored V14 lean."
+    },
+    "productionActionLoops": 16,
+    "decodedVideos": 16,
+    "hostFlow": 6,
+    "mobileConsole": 12,
+    "lint": "passed (1 unrelated retro-circuit warning)",
+    "typecheck": "passed",
+    "staticBuild": "passed",
+    "simulationFilesUnchanged": [
+      "simulation.ts",
+      "off-ball.ts",
+      "action-spec.ts",
+      "motion.ts",
+      "reference-tuning.ts",
+      "input.ts",
+      "joystick.tsx",
+      "joystick-math.ts",
+      "persistence.ts",
+      "protocol.ts",
+      "audio.ts"
+    ],
+    "reviewToolingUpdated": [
+      "build-retro-hoops-motion-review.mjs canvases 546x252",
+      "encode-retro-hoops-motion.py frame size 546x252",
+      "check-retro-hoops-route.mjs canvas height 252",
+      "review-retro-hoops-console.mjs aspect uses 252"
+    ]
+  },
+  "pack": {
+    "bodyFrameEntries": 2276,
+    "distinctBodyFrames": 1204,
+    "headFrameEntries": 36,
+    "atlasPages": 3,
+    "referenceRasterInputs": 0,
+    "previousPackPreserved": true
+  },
+  "correctionRecord": "test-results/retro-hoops-character-v14/correction-record.json",
+  "fidelityMatrix": [
+    {
+      "feature": "Athlete lean, short jersey, loose shorts, high-tops, hands",
+      "status": "approximate",
+      "review": "Run/dribble closely follow source silhouettes at equal height; ready stance legs still V13."
+    },
+    {
+      "feature": "Kit construction (contrasting jersey/shorts, tank vs raglan)",
+      "status": "adapted",
+      "review": "Fictional palettes using the source construction; no team names, flags or logos."
+    },
+    {
+      "feature": "Distinct player identities",
+      "status": "adapted",
+      "review": "Six original heads; bodies remain per team."
+    },
+    {
+      "feature": "Camera framing and athlete screen share",
+      "status": "approximate",
+      "review": "Athletes ~28% of screen height like the recording; follow algorithm authored."
+    },
+    {
+      "feature": "Dithered shadows, ball",
+      "status": "approximate",
+      "review": "Checkerboard shadow and shaded ball match observed style; sizes authored."
+    },
+    {
+      "feature": "Venue (fence, crowd, asphalt, pole basket)",
+      "status": "approximate",
+      "review": "Arrangement from observed frames; all scenery code-drawn."
+    },
+    {
+      "feature": "Native pixel grid, frame holds, input windows, hidden AI",
+      "status": "unverified",
+      "review": "Not recovered."
+    }
+  ],
+  "review": {
+    "structural": "passed",
+    "visual": "Representative proof and production frames inspected; closer to source in framing, kit construction, lean and venue. Exact likeness unapproved.",
+    "gameplay": "Simulation/AI/input files byte-identical to V13; 86 tests pass; camera change is presentation only.",
+    "sourceLikenessApproved": false,
+    "exactLikenessAchieved": false,
+    "nativeTimingRecovered": false,
+    "physicalDeviceTested": false,
+    "limitations": [
+      "Ready/defend stance still uses V13 wide flat-thigh leg geometry, so shorts read blockier than the source knees-forward crouch (pose change, outside the two automatic rounds).",
+      "Blond identity back view reads like a helmet; red-team white sleeves flare wide in back view.",
+      "Near-side athletes can sit under the joystick and A/B overlays at the bottom corners; larger players make this more visible than in V13.",
+      "Crowd standing-row heads crop at the top when the camera follows play to the near sideline.",
+      "Bodies stay per team (one skin ramp and one build per team); per-player skin tone and body-build variety remain open.",
+      "Native frame holds, input windows, source camera algorithm and physical Android/iPhone performance remain unverified."
+    ]
+  },
+  "hashes": {
+    "scripts/retro_hoops_character.py": "4e4070f374a59d307537b447c4a4fbaf3c08063112debed8e36cceb2864bc3b0",
+    "scripts/build-retro-hoops-authored.py": "78d17d1676d0810cb9586e5ea4997e0599818b7308cf65e72198c2c38568a27b",
+    "src/features/games/retro-hoops/contact-arm.ts": "a91775381b3d5cb86417fa546c9c9db3bba3fe6976b7702714db06abb41d08cb",
+    "src/features/games/retro-hoops/view.ts": "96403e0178bbb98c70b4efbe9b5650f1f766b86851a234e9f7fc736260d78778",
+    "src/features/games/retro-hoops/renderer.ts": "9202e82365872589a272c88ea2a9a78a0c84003e2e1c07201fcdfdefea9f5d78",
+    "src/features/games/retro-hoops/presentation.ts": "9577d626817d5ddcd8cdddc7ef38119efd6022bf3661c3c7ae3edad10aa2fcb6",
+    "src/features/games/retro-hoops/court.ts": "b4e4001ade42dc7d3f6e2496036bd370f661e188844fbf4966116d07bf7546ab",
+    "src/features/games/retro-hoops/crowd.ts": "dd761650932f702eb049330c36a9cc3b59d50890cef7d0c5f14424c2980bdd6e",
+    "src/features/games/retro-hoops/character-pack.ts": "5afff96066227cd9ca297c72c55d87232fd0ff11ddf09434804847c61b46747e",
+    "src/features/games/retro-hoops/reference-profile.ts": "b27d29de1a81d65219d990be2978ef90555b7a157ee073cbf2da0c12e2c157d6",
+    "public/games/retro-hoops/authored-v14/manifest.json": "70fe122aa6dca7ebe141fd10d87caeeb9158a6102cf95883e5da4f79eace82ca",
+    "public/games/retro-hoops/credits.json": "5b41f3d5c8fa5957c71bac8be638b17c60440690812826cca65a5ca4480a6048",
+    "public/embedded-games/retro-hoops/index.html": "7bbf5f177d8b82b82cbf7bef1ceac289f44ee2fd3d466409f3e55ba0deed1651"
+  },
+  "release": {
+    "localOnly": true,
+    "pushed": false,
+    "published": false,
+    "pipelineActivated": false
+  }
+}

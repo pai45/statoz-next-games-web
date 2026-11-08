@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 160" role="img" aria-label="Pitchflare XI"><title>Pitchflare XI</title>
+<defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#F07842"/><stop offset="1" stop-color="#A82F43"/></linearGradient></defs>
+<path d="M12 20h196v112H12z" fill="#162C3B" stroke="#F3CE78" stroke-width="4"/>
+<path d="M20 28h180v95H20z" fill="none" stroke="#F07842" stroke-width="2"/>
+<path d="M23 78h174M110 29v54M38 36v30m144-30v30" fill="none" stroke="#397C7F" stroke-width="2"/>
+<path d="M22 29h30l-15 20H22zm176 0h-30l15 20h15z" fill="url(#sky)"/>
+<path d="m46 32 6 20-10-5-9 9 1-21m140-3-6 20 10-5 9 9-1-21" fill="#F3CE78"/>
+<path d="M49 69h122l-11 27H60z" fill="#234B53" stroke="#F3CE78" stroke-width="3"/>
+<path d="M76 91 93 47h34l17 44" fill="#F07842" stroke="#F3CE78" stroke-width="3"/>
+<circle cx="110" cy="68" r="21" fill="#F6E7BB" stroke="#182F3D" stroke-width="3"/>
+<path d="m110 55 11 8-4 13h-14l-4-13zm-20 10-5-7m44 7 5-7m-32 30-6 7m26-7 6 7" fill="#203749" stroke="#203749" stroke-width="3"/>
+<path d="M17 100h186v38H17z" fill="#A8323C" stroke="#F3CE78" stroke-width="3"/>
+<path d="M22 105h176v27H22z" fill="none" stroke="#E47F53" stroke-width="1"/>
+<text x="110" y="126" text-anchor="middle" fill="#FFF0C3" stroke="#502A35" stroke-width="2" paint-order="stroke" font-family="Impact,Arial Black,sans-serif" font-size="19" font-weight="900" letter-spacing="1">PITCHFLARE XI</text>
+<path d="M35 145h150" stroke="#F3CE78" stroke-width="3"/></svg>

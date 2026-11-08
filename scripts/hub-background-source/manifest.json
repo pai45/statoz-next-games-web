@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "provenance": "Original StatOz filled vector dioramas, 2026-10-15; game discovery cards inspire materials and depth only",
+  "artDirection": "Filled isometric sports worlds with faceted equipment, raised platforms and cast shadows",
+  "formats": {
+    "portrait": [
+      480,
+      960
+    ],
+    "wide": [
+      1440,
+      960
+    ]
+  },
+  "presentation": {
+    "transitionMs": 240,
+    "wideMinWidth": 768,
+    "overlay": {
+      "vertical": {
+        "stops": [
+          0,
+          0.22,
+          0.48,
+          0.76,
+          1
+        ],
+        "alpha": [
+          0.94,
+          0.68,
+          0.64,
+          0.76,
+          0.91
+        ]
+      },
+      "diagonal": {
+        "stops": [
+          0,
+          0.44,
+          1
+        ],
+        "alpha": [
+          0.9,
+          0.38,
+          0.82
+        ]
+      },
+      "edge": {
+        "stops": [
+          0,
+          0.62,
+          1
+        ],
+        "alpha": [
+          0.72,
+          0.24,
+          0.62
+        ]
+      }
+    }
+  },
+  "themes": {
+    "trending": "cyan",
+    "football": "cyan",
+    "cricket": "white",
+    "basketball": "gold",
+    "motorsport": "racing",
+    "tennis": "lime"
+  }
+}

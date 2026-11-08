@@ -1,0 +1,561 @@
+{
+  "version": "character-motion-4",
+  "bones": 60,
+  "clips": [
+    {
+      "name": "prepare",
+      "duration": 2.4,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "complete": [
+          2.4
+        ]
+      }
+    },
+    {
+      "name": "prepare_shift",
+      "duration": 2.4,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "complete": [
+          2.4
+        ]
+      }
+    },
+    {
+      "name": "kick_driven",
+      "duration": 1.9,
+      "fps": 30,
+      "contactSeconds": 1,
+      "blendSeconds": 0.14,
+      "markers": {
+        "leftPlant": [
+          0,
+          0.16,
+          0.4,
+          0.58,
+          0.84,
+          1.15,
+          1.66,
+          1.9
+        ],
+        "rightPlant": [
+          0.2,
+          0.36,
+          0.64,
+          0.72,
+          1.46,
+          1.9
+        ],
+        "toeOff": [
+          0.16,
+          0.36,
+          0.58,
+          0.72
+        ],
+        "contact": [
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "kick_placed",
+      "duration": 1.9,
+      "fps": 30,
+      "contactSeconds": 1,
+      "blendSeconds": 0.14,
+      "markers": {
+        "leftPlant": [
+          0,
+          0.16,
+          0.4,
+          0.58,
+          0.84,
+          1.15,
+          1.66,
+          1.9
+        ],
+        "rightPlant": [
+          0.2,
+          0.36,
+          0.64,
+          0.72,
+          1.46,
+          1.9
+        ],
+        "toeOff": [
+          0.16,
+          0.36,
+          0.58,
+          0.72
+        ],
+        "contact": [
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "kick_chip",
+      "duration": 1.9,
+      "fps": 30,
+      "contactSeconds": 1,
+      "blendSeconds": 0.14,
+      "markers": {
+        "leftPlant": [
+          0,
+          0.16,
+          0.4,
+          0.58,
+          0.84,
+          1.15,
+          1.66,
+          1.9
+        ],
+        "rightPlant": [
+          0.2,
+          0.36,
+          0.64,
+          0.72,
+          1.46,
+          1.9
+        ],
+        "toeOff": [
+          0.16,
+          0.36,
+          0.58,
+          0.72
+        ],
+        "contact": [
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "settle",
+      "duration": 1.5,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "complete": [
+          1.5
+        ]
+      }
+    },
+    {
+      "name": "celebrate",
+      "duration": 2.6,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "complete": [
+          2.6
+        ]
+      }
+    },
+    {
+      "name": "celebrate_fist",
+      "duration": 2.6,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "complete": [
+          2.6
+        ]
+      }
+    },
+    {
+      "name": "disappointed",
+      "duration": 2.6,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "complete": [
+          2.6
+        ]
+      }
+    },
+    {
+      "name": "disappointed_hands",
+      "duration": 2.6,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "complete": [
+          2.6
+        ]
+      }
+    },
+    {
+      "name": "keeper_ready",
+      "duration": 2,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "complete": [
+          2
+        ]
+      }
+    },
+    {
+      "name": "keeper_wave",
+      "duration": 2.2,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "complete": [
+          2.2
+        ]
+      }
+    },
+    {
+      "name": "keeper_crouch",
+      "duration": 2.2,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "complete": [
+          2.2
+        ]
+      }
+    },
+    {
+      "name": "keeper_shuffle_left",
+      "duration": 0.7,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "complete": [
+          0.7
+        ]
+      }
+    },
+    {
+      "name": "keeper_shuffle_right",
+      "duration": 0.7,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "complete": [
+          0.7
+        ]
+      }
+    },
+    {
+      "name": "centre_block",
+      "duration": 1.1,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "complete": [
+          1.1
+        ]
+      }
+    },
+    {
+      "name": "catch",
+      "duration": 1.2,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "complete": [
+          1.2
+        ]
+      }
+    },
+    {
+      "name": "parry_left",
+      "duration": 0.65,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "complete": [
+          0.65
+        ]
+      }
+    },
+    {
+      "name": "parry_right",
+      "duration": 0.65,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "complete": [
+          0.65
+        ]
+      }
+    },
+    {
+      "name": "recovery_left",
+      "duration": 1.3,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "complete": [
+          1.3
+        ]
+      }
+    },
+    {
+      "name": "recovery_right",
+      "duration": 1.3,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "complete": [
+          1.3
+        ]
+      }
+    },
+    {
+      "name": "dive_low_left",
+      "duration": 1.5,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "pushOff": [
+          0.1
+        ],
+        "landing": [
+          0.78
+        ],
+        "recovery": [
+          1.5
+        ]
+      }
+    },
+    {
+      "name": "dive_low_right",
+      "duration": 1.5,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "pushOff": [
+          0.1
+        ],
+        "landing": [
+          0.78
+        ],
+        "recovery": [
+          1.5
+        ]
+      }
+    },
+    {
+      "name": "dive_mid_left",
+      "duration": 1.5,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "pushOff": [
+          0.1
+        ],
+        "landing": [
+          0.78
+        ],
+        "recovery": [
+          1.5
+        ]
+      }
+    },
+    {
+      "name": "dive_mid_right",
+      "duration": 1.5,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "pushOff": [
+          0.1
+        ],
+        "landing": [
+          0.78
+        ],
+        "recovery": [
+          1.5
+        ]
+      }
+    },
+    {
+      "name": "dive_high_left",
+      "duration": 1.5,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "pushOff": [
+          0.1
+        ],
+        "landing": [
+          0.78
+        ],
+        "recovery": [
+          1.5
+        ]
+      }
+    },
+    {
+      "name": "dive_high_right",
+      "duration": 1.5,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "pushOff": [
+          0.1
+        ],
+        "landing": [
+          0.78
+        ],
+        "recovery": [
+          1.5
+        ]
+      }
+    },
+    {
+      "name": "dive_low",
+      "duration": 1.5,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "pushOff": [
+          0.1
+        ],
+        "landing": [
+          0.78
+        ],
+        "recovery": [
+          1.5
+        ]
+      }
+    },
+    {
+      "name": "dive_mid",
+      "duration": 1.5,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "pushOff": [
+          0.1
+        ],
+        "landing": [
+          0.78
+        ],
+        "recovery": [
+          1.5
+        ]
+      }
+    },
+    {
+      "name": "dive_high",
+      "duration": 1.5,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "pushOff": [
+          0.1
+        ],
+        "landing": [
+          0.78
+        ],
+        "recovery": [
+          1.5
+        ]
+      }
+    },
+    {
+      "name": "recovery",
+      "duration": 1.3,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "complete": [
+          1.3
+        ]
+      }
+    },
+    {
+      "name": "idle",
+      "duration": 2.4,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "complete": [
+          2.4
+        ]
+      }
+    },
+    {
+      "name": "keeper_shuffle",
+      "duration": 0.7,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "complete": [
+          0.7
+        ]
+      }
+    },
+    {
+      "name": "follow_through",
+      "duration": 1.9,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "complete": [
+          1.9
+        ]
+      }
+    },
+    {
+      "name": "parry",
+      "duration": 0.65,
+      "fps": 30,
+      "contactSeconds": null,
+      "blendSeconds": 0.14,
+      "markers": {
+        "complete": [
+          0.65
+        ]
+      }
+    }
+  ],
+  "ballContactSeconds": 1,
+  "aimLockSeconds": 0.9,
+  "presets": [
+    "crop",
+    "swept",
+    "curls",
+    "close"
+  ],
+  "source": "CC0 Blender Studio Human Base Meshes 1.4.1; original panelled garments, equipment, rig, face presets, world-anchored approach and animation"
+}

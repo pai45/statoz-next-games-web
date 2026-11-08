@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "statoz-games-web",
+  "product": "games",
+  "framework": "web",
+  "demoOnly": true,
+  "repository": "pai45/statoz-games-web",
+  "sourceRepository": "pai45/statoz_web",
+  "sourceSha": "5f5489b054ac2d8df3e39a637333794cf74260a2",
+  "capturedAt": "2026-10-20T04:41:42.578Z",
+  "snapshotSha256": "ae9c1197ce7cacbe0aa506ada2bec98a495d530484c9882ae3fa6e6524b2ae80",
+  "assets": "temporary demo assets; replacement planned; original rights and provenance retained",
+  "splitVersion": 1
+}

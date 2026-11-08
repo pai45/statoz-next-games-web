@@ -1,0 +1,82 @@
+{
+  "gameId": "retro-hoops",
+  "agent": "street_hoop_artist",
+  "skill": "street-hoop-assets",
+  "build": "character-v11-local",
+  "assets": "11.0.0",
+  "rules": "2.0.0",
+  "scope": "One extra user-authorized dunk-gather correction following the two automatic V10 correction rounds",
+  "authorization": {
+    "userAnswer": "Allow one extra correction",
+    "additionalCorrectionsUsed": 1,
+    "generalSkillLimitChanged": false
+  },
+  "changes": [
+    "Keep the forward crouched low-ball dunk chest/hips through the low held phase.",
+    "Switch torso to the existing lifted pose at the unchanged authoritative ball-lift event.",
+    "Both primary and support arms now reach their held wrists within authored41pixel arm length.",
+    "Other action artwork and all36headtiles are byte-identical to V10; simulation, AI, rules and controls unchanged."
+  ],
+  "checks": {
+    "rulesInputAndIntegrationTests": 86,
+    "assetIntegrity": 13,
+    "productionActionLoops": 16,
+    "decodedVideos": 16,
+    "normalSpeedBrowserPlayback": 16,
+    "sameSimulationBeforeAfterScenarios": 16,
+    "heldContactSequences": 8,
+    "dunkGatherReachPoses": 20,
+    "mobileLifecycle": 12,
+    "teamScenarios": 6,
+    "galleryCombinations": 36,
+    "hostFlow": 6,
+    "lint": "passed; see validation-lint.log for unrelated warnings",
+    "typecheck": "passed",
+    "staticBuild": "passed",
+    "preservedV10Files": 3093,
+    "allDunkReachPoses": 104
+  },
+  "reach": {
+    "authoredArmLength": 41,
+    "maxPrimaryReach": 40.80441,
+    "maxSupportReach": 33.95585,
+    "unchangedNondunkBodyFrames": 2172
+  },
+  "pack": {
+    "bodyFrameEntries": 2276,
+    "distinctBodyFrames": 1212,
+    "headFrameEntries": 36,
+    "atlasPages": 3,
+    "referenceRasterInputs": 0,
+    "previousPackPreserved": true
+  },
+  "review": {
+    "structural": "passed",
+    "targetDefect": "Dunk-gather shoulder/wrist reach is feasible in all checked low poses; before/after production frames inspected.",
+    "visual": "Targeted overextension corrected; source art likeness remains approximate.",
+    "sourceLikenessApproved": false,
+    "exactLikenessAchieved": false,
+    "nativeTimingRecovered": false,
+    "physicalDeviceTested": false,
+    "limitations": [
+      "Existing shot/dunk ball-lift jumps and corresponding pose transitions remain; continuous source raising is not claimed.",
+      "Source-specific full action silhouettes, distinct body builds and matched camera/depth remain unfinished.",
+      "Native holds, input windows, hidden AI and physical-device performance remain unverified."
+    ]
+  },
+  "hashes": {
+    "scripts/retro_hoops_character.py": "12ffd8a9a1c3bc29bb433d90d0db545633564b9428985aff7c39642bf838f9d1",
+    "scripts/build-retro-hoops-authored.py": "f9460577e6b53de6aa34ceaf86c1630356ddc6518fdf1bca2ca55b972fd1b1e1",
+    "src/features/games/retro-hoops/contact-arm.ts": "01be7cc5d340046fcfd3b6832407034de076410ebe5145948c6f13d31322420f",
+    "src/features/games/retro-hoops/character-pack.ts": "a5018d572f191431f17fb814529310f1abb25a50120fddd949c1fa4b24580f26",
+    "src/features/games/retro-hoops/reference-profile.ts": "752231c7074c1b55a2dd85903be749212cc2d0093a2b26a685852fb45d85f568",
+    "public/games/retro-hoops/authored-v11/manifest.json": "9c499b203b40cf2d689777054f206fb634e29ebf36bf28469c547164eb83a8fc",
+    "public/embedded-games/retro-hoops/index.html": "05e352fcb8b8f66f164d0bb435207c05bd04c9e88a0e434dcf0cdb5591831f6e"
+  },
+  "release": {
+    "localOnly": true,
+    "pushed": false,
+    "published": false,
+    "pipelineActivated": false
+  }
+}

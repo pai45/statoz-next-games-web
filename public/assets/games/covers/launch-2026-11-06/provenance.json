@@ -1,0 +1,82 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-11-06",
+  "kind": "original AI-generated game cover illustrations",
+  "approval": "reference; created at user request, publication approval not claimed",
+  "scope": "Six additions and two remade game identities, following the prior illustrated 3:2 cover family",
+  "technical": {
+    "width": 1536,
+    "height": 1024,
+    "ratio": "3:2",
+    "alpha": "opaque",
+    "filtering": "smooth",
+    "runtimeFormat": "WebP",
+    "nativeCardApprox": "330x220 mobile; 490x327 desktop"
+  },
+  "covers": [
+    {
+      "id": "hoop-legacy",
+      "title": "HOOP LEGACY",
+      "prompt": "Use case: stylized-concept. Asset type: finished landscape 3:2 game-library cover, 1536x1024. One full-bleed polished original game key-art illustration, vivid confident colors and a strong subject readable at 330x220. The only text is the exact game title, large and clear in distinctive game-specific display lettering within 10% safe margins. No borders, HUD, controls, tutorials, scores, store badges, watermarks, real-world sponsors or StatOz branding. Illustrated cover art, not a gameplay screenshot. Preserve coherent perspective and equipment anatomy. Title (verbatim): HOOP LEGACY. Premium stylized 3D basketball career cover with human-proportioned fictional athletes. Low courtside three-quarter camera: an athletic dark-skinned player in an unbranded orange jersey and black shorts rises toward a blacktop hoop with an orange basketball in one hand, strong believable dunk silhouette, natural anatomy, clear hand-ball contact. A rival in a white jersey contests below, with other players farther back to suggest half-court team play. Gritty urban outdoor blacktop, chain-link fence, brick neighborhood and a distant indoor arena subtly suggested by bright upper floodlights. Golden-hour orange light, charcoal asphalt, warm cream, a splash of deep red. Hero dominates right half. At upper left HOOP over LEGACY in thick cream condensed athletic letters with burnt-orange hard shadow. Mood: rise through local street basketball to greatness, no actual league or athlete references.",
+      "filename": "hoop-legacy.png",
+      "sha256": "5cb9371d5e0e67eb25860bb718c0924429ff63a45e711fb009a557f92b5ab1e9",
+      "webpBytes": 354566
+    },
+    {
+      "id": "holdover",
+      "title": "HOLDOVER",
+      "prompt": "Use case: stylized-concept. Asset type: finished landscape 3:2 game-library cover, 1536x1024. One full-bleed polished original game key-art illustration, vivid confident colors and a strong subject readable at 330x220. The only text is the exact game title, large and clear in distinctive game-specific display lettering within 10% safe margins. No borders, HUD, controls, tutorials, scores, store badges, watermarks, real-world sponsors or StatOz branding. Illustrated cover art, not a gameplay screenshot. Preserve coherent perspective and equipment anatomy. Title (verbatim): HOLDOVER. Tense cinematic stylized 3D long-range tactical marksman cover. Over-the-shoulder rear view of a fictional lone scout in muted olive field clothing, prone on a rocky overlook, steadying a precision rifle with telescopic sight and bipod, both aimed away into a vast dry mountain valley. Rifle supported plausibly, finger not featured. Distant desert settlement, switchback road, dusty layered mountains, low sun and drifting haze. No visible people or targets in the valley, no impacts, no blood or injury. Emphasize distance, patient observation and wind through a small streamer on the overlook. Charcoal, warm sand, bronze and olive palette, crisp silhouette, restrained dramatic lighting. Subject on lower right, expansive landscape behind. Upper left title HOLDOVER in large warm-ivory heavy block stencil-inspired letters, very legible, with subtle bronze underside. No reticle graphic, no crosshair, no extra slogans.",
+      "filename": "holdover.png",
+      "sha256": "54cd76e8f4def8205945da8402be7b5b801e4710afbe1206b559297415fb3658",
+      "webpBytes": 339636
+    },
+    {
+      "id": "portfolio-formula",
+      "title": "PORTFOLIO FORMULA",
+      "prompt": "Use case: stylized-concept. Asset type: finished landscape 3:2 game-library cover, 1536x1024. One full-bleed polished original game key-art illustration, vivid confident colors and a strong subject readable at 330x220. The only text is the exact game title, large and clear in distinctive game-specific display lettering within 10% safe margins. No borders, HUD, controls, tutorials, scores, store badges, watermarks, real-world sponsors or StatOz branding. Illustrated cover art, not a gameplay screenshot. Preserve coherent perspective and equipment anatomy. Title (verbatim): PORTFOLIO FORMULA. Premium stylized 3D night-circuit open-wheel racing cover. A vivid turquoise fictional formula racing car sweeps toward the viewer, correct four exposed black tires, visible helmet and cockpit, slim nose, front and rear wings, coherent suspension. Black tarmac glistening gently under warm white stadium floodlights, cream-blue kerbs, abstract metropolitan skyline at dusk. A white car and a red car trail the turquoise leader. Carefully composed low trackside three-quarter view, no cropped wings or wheels, foreground car concentrated lower-right two-thirds with upper-left space for title. Palette midnight charcoal, rich teal, silver, warm white and red accent. Upper left PORTFOLIO over FORMULA in large white condensed italic racing letters with turquoise hard dimensional edge. Slick night motorsport identity distinct from a sunny low-poly racer. No real racing teams, logos, licensing badges or real sponsors.",
+      "filename": "portfolio-formula.png",
+      "sha256": "506a7b9e5823137806995669a30ef40eab7ca4dd94d805c15b890f5bba55300d",
+      "webpBytes": 254268
+    },
+    {
+      "id": "longbow",
+      "title": "LONGBOW",
+      "prompt": "Use case: stylized-concept. Asset type: finished landscape 3:2 game-library cover, 1536x1024. One full-bleed polished original game key-art illustration, vivid confident colors and a strong subject readable at 330x220. The only text is the exact game title, large and clear in distinctive game-specific display lettering within 10% safe margins. No borders, HUD, controls, tutorials, scores, store badges, watermarks, real-world sponsors or StatOz branding. Illustrated cover art, not a gameplay screenshot. Preserve coherent perspective and equipment anatomy. Title (verbatim): LONGBOW. Original stylized 3D woodland archery key art. Rich forest-green and warm parchment, polished brass details and honey-colored wood. A tall traditional wooden longbow curves across the right foreground, with one arrow resting on it, feather fletching clear and shaft perfectly straight. Bow is upright; string and arrow align plausibly, no hands or people. Beyond it a long grassy archery lane leads to a single straw-backed circular target on a wooden stand, accurate white-black-blue-red-yellow concentric rings, with fluttering small red wind pennants along the lane. Soft rolling meadow, geometric pines and distant ridge in golden morning sunlight. Focus on beautiful bow craft, range depth and reading the wind; no fantasy armor or medieval combat. Upper left title LONGBOW in large elegant bold cream slab-serif letters edged in deep forest green with a subtle brass underside. Clear airy composition and enough contrast to read at mobile thumbnail size.",
+      "filename": "longbow.png",
+      "sha256": "0582c53f1aba1f22818da57f06b143dd9ec9d62e30e93fdf4e3fa8e801cea4e7",
+      "webpBytes": 457832
+    },
+    {
+      "id": "rim-rush",
+      "title": "RIM RUSH",
+      "prompt": "Use case: stylized-concept. Asset type: finished landscape 3:2 game-library cover, 1536x1024. One full-bleed polished original game key-art illustration, vivid confident colors and a strong subject readable at 330x220. The only text is the exact game title, large and clear in distinctive game-specific display lettering within 10% safe margins. No borders, HUD, controls, tutorials, scores, store badges, watermarks, real-world sponsors or StatOz branding. Illustrated cover art, not a gameplay screenshot. Preserve coherent perspective and equipment anatomy. Title (verbatim): RIM RUSH. Playful chunky stylized 3D one-on-one basketball duel on a rooftop court at orange sunset. Two original friendly exaggerated athletes with sturdy limbs, big readable faces and high-top sneakers face each other across center court: left player in a deep-green jersey jumps with arm extended to block, right player in orange is releasing a basketball toward the opposite basket. One hoop at each far end makes the two-way duel clear. One ball near a shooting hand, no duplicated basketballs or motion dots. Wide side-on three-quarter camera, warm hardwood-amber playing surface, deep court-green paint, brick rooftop ledge, soft skyline and warm clouds. Bold outlined forms, tactile smooth materials, warm dramatic rim light, sport-comedy energy. Upper left title RIM over RUSH in oversized playful warm-cream rounded block letters with burnt-orange extrusion. Keep action silhouettes clean below and right of lettering; no realistic pro-league branding.",
+      "filename": "rim-rush.png",
+      "sha256": "c00fc475a13ff2950b23dc01b7d37b59238282ce224201e4d082680efb1e575e",
+      "webpBytes": 238340
+    },
+    {
+      "id": "yorker",
+      "title": "YORKER",
+      "prompt": "Use case: stylized-concept. Asset type: finished landscape 3:2 game-library cover, 1536x1024. One full-bleed polished original game key-art illustration, vivid confident colors and a strong subject readable at 330x220. The only text is the exact game title, large and clear in distinctive game-specific display lettering within 10% safe margins. No borders, HUD, controls, tutorials, scores, store badges, watermarks, real-world sponsors or StatOz branding. Illustrated cover art, not a gameplay screenshot. Preserve coherent perspective and equipment anatomy. Title (verbatim): YORKER. Premium stylized 3D cricket bowling key art under powerful white floodlights at a night stadium. Dynamic low three-quarter camera close beside the bowling crease: fictional fast bowler in a plain deep-navy jersey and cream trousers delivers a red cricket ball with one raised straight bowling arm, natural overarm bowling action and balanced planted foot. The small red ball is visibly leaving the bowling hand; tan pitch stretches toward a distant helmeted batter in cream and a three-stump wicket. Hero bowler large on right, upper-left clear for title. Stadium crowd softly abstracted, dark blue sky, lush emerald outfield, brilliant white pools of light and subtle warm gold accents. Title YORKER large at upper left in cream condensed italic athletic lettering with gold underside. Clearly a bowler-focused cricket game, no batsman as the foreground hero. No national kits, real player likeness, logos, scores or trajectory HUD.",
+      "filename": "yorker.png",
+      "sha256": "c1ea8a0ab9acc91a488464c2273170feee6598282a000bc1f46706a0cd19438f",
+      "webpBytes": 222278
+    },
+    {
+      "id": "grand-prix-dash",
+      "title": "RALLY DASH",
+      "prompt": "Use case: stylized-concept. Asset type: finished landscape 3:2 game-library cover, 1536x1024. One full-bleed polished original game key-art illustration, vivid confident colors and a strong subject readable at 330x220. The only text is the exact game title, large and clear in distinctive game-specific display lettering within 10% safe margins. No borders, HUD, controls, tutorials, scores, store badges, watermarks, real-world sponsors or StatOz branding. Illustrated cover art, not a gameplay screenshot. Preserve coherent perspective and equipment anatomy. Title (verbatim): RALLY DASH. Bold original illustrated arcade rally cover with a top-down three-quarter racing-game feel, crisp simplified painted forms, graphic cel shading and warm sticker-poster character. A compact unbranded orange-and-cream rally hatchback with four wheels, roll cage and two modest spotlights throws a sweeping dust plume as it drifts around a gravel hairpin, rear tires tracing a clear sweeping line. No open-wheel car. Elevated aerial camera, car large in lower right, readable road snaking through dense dark-green forest with rock banks and red-white roadside marker posts, sunlight breaking through. Palette stage-board yellow, burnt rally orange, warm black, cream and forest green. Large upper-left title RALLY over DASH in cream weathered block racing letters with black edging and an orange offset. Energetic, tactile, designed for an accessible top-down rally game; no race sponsor logos, rally championship logos, extra words or numbers.",
+      "filename": "grand-prix-dash.png",
+      "sha256": "e9ed36fa2f9cd938d30125ef6f2124cd5677aca59a039113307a5bf98fef66bc",
+      "webpBytes": 355268
+    },
+    {
+      "id": "football-chess",
+      "title": "5V5 FOOTBALL CHESS",
+      "prompt": "Use case: stylized-concept. Asset type: finished landscape 3:2 game-library cover, 1536x1024. One full-bleed polished original game key-art illustration, vivid confident colors and a strong subject readable at 330x220. The only text is the exact game title, large and clear in distinctive game-specific display lettering within 10% safe margins. No borders, HUD, controls, tutorials, scores, store badges, watermarks, real-world sponsors or StatOz branding. Illustrated cover art, not a gameplay screenshot. Preserve coherent perspective and equipment anatomy. Title (verbatim): 5V5 FOOTBALL CHESS. Premium original tabletop-football strategy cover. A beautifully crafted small rectangular chessboard pitch sits on a walnut table, mown alternating grass-green square tiles, slim walnut border with brass corners, crisp white pitch markings and tiny goals at both ends. Miniature football player tokens on circular bases, one team warm ivory and the other charcoal ebony, five pieces per team with one each guarding the tiny goal. A little black-and-white football rests between two opposing tokens near the front-center. Board geometry is coherent, seven tiles long and five tiles wide. Miniatures are sculpted elegant anonymous footballers with readable silhouette, not realistic athletes; no actual chess kings or knights. Low isometric three-quarter product-illustration camera; board occupies center and lower right, softly shaded warm green backdrop. Upper left title 5V5 above FOOTBALL above CHESS in bold cream slab-serif lettering, dark green shadow and modest brass-gold edge. Tactile wood, ivory and brass, thoughtful sporting strategy mood. No glowing HUD, no cards, no sponsor marks.",
+      "filename": "football-chess.png",
+      "sha256": "6ba1ee0a25b0899cdbd8e213f6e4c2dbc859eae2d71cc7f291da1533bcd96ae2",
+      "webpBytes": 421808
+    }
+  ]
+}

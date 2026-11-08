@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "created": "2026-11-06",
+  "purpose": "Original text-free StatOz home spotlight backgrounds; existing cover notices retained at their sources.",
+  "assets": [
+    {
+      "gameId": "penalty-cup",
+      "file": "penalty-cup.webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 185738,
+      "sha256": "6a59b44ed00958ebca23b13d06ab3b7d3de9ac129c13b6fd2c59aba92c906161",
+      "generator": "Built-in image_gen",
+      "prompt": "Create one original text-free widescreen 16:9 game spotlight background for the StatOz game Penalty Cup. Use the referenced existing Penalty Cup cover only as the visual identity reference: cinematic richly illustrated realistic sports key art, green football kit, white shorts, bright floodlit football stadium at blue hour, golden light and lush turf. NEW COMPOSITION: the footballer taking the decisive penalty occupies the RIGHT THIRD of the panorama, full believable anatomy and foot/ball contact, goal and goalkeeper visible in the right/center distance. The LEFT 45% is atmospheric empty dark stadium and soft turf, uncluttered low-contrast navy shadow with no focal subjects, reserved for HTML headline and controls. Camera low and dramatic, rich physical light, high-end console game hero art. NO words, letters, numbers, logos, watermarks, text, UI or borders anywhere, including jerseys and advertising. Keep the ball visible, no floating duplicate limbs. 1920x1080 composition, landscape, non-transparent.",
+      "reference": "public/assets/games/covers/launch-2026-11-01/penalty-cup.webp",
+      "referenceSha256": "818190c510573d1052f634b6bd4b748636c540ed6a9bd2432c5224e3efda820f",
+      "sourceSha256": "5e8246c019408de035e1702fc4e846f26f3d1e4fd24032ec81ce44cf05f59f91"
+    },
+    {
+      "gameId": "hoop-legacy",
+      "file": "hoop-legacy.webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 199076,
+      "sha256": "478c3d9e03eb98e19277276e1d1620a0bb48e09da15cbdcdc964eed41991040f",
+      "generator": "Built-in image_gen",
+      "prompt": "Create one text-free widescreen 16:9 spotlight background for the original StatOz game hoop-legacy. Use the referenced existing cover as the visual identity reference only. Original fictional basketball player in orange unbranded jersey powering up for a dunk on a neighborhood blacktop, warm sunset clouds and brick buildings, hoop to far right. Preserve the existing cover's realistic illustrated sunset streetball identity; believable ball, fingers, hands, and anatomy. Player action and hoop concentrated on the right half. NEW WIDESCREEN COMPOSITION: leave LEFT 45% as quiet uncluttered atmospheric dark space with soft navy shadows reserved for HTML headline and controls, no focal subjects there. Large cinematic console-game key art, rich physical lighting, landscape 1920x1080 composition. NO words, letters, numbers, logos, watermarks, UI, borders, or typography anywhere, including clothing, signage and cars. Do not recreate the reference cover title; all final copy is rendered separately in HTML. Non-transparent.",
+      "reference": "public/assets/games/covers/launch-2026-11-06/hoop-legacy.webp",
+      "referenceSha256": "5cb9371d5e0e67eb25860bb718c0924429ff63a45e711fb009a557f92b5ab1e9",
+      "sourceSha256": "c3e46bd185230ecc4baf829dc126161d645becb9e7d7614e6eb01da808f97d53"
+    },
+    {
+      "gameId": "portfolio-formula",
+      "file": "portfolio-formula.webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 142252,
+      "sha256": "a87cf4c212dc20d9272e6cf61e15dca9c4c92225de17f5fb491649127b091dbd",
+      "generator": "Built-in image_gen",
+      "prompt": "Create one text-free widescreen 16:9 spotlight background for the original StatOz game portfolio-formula. Use the referenced existing cover as the visual identity reference only. An original unbranded turquoise open-wheel racing car on a wet floodlit night circuit, cyan rim lighting, dark violet and navy skyline, physical reflections, two distant rival cars. Preserve the reference cover's polished illustrated high-end racing identity. Main car fully visible at bottom right and action concentrated on right half. NEW WIDESCREEN COMPOSITION: leave LEFT 45% as quiet uncluttered atmospheric dark space with soft navy shadows reserved for HTML headline and controls, no focal subjects there. Large cinematic console-game key art, rich physical lighting, landscape 1920x1080 composition. NO words, letters, numbers, logos, watermarks, UI, borders, or typography anywhere, including clothing, signage and cars. Do not recreate the reference cover title; all final copy is rendered separately in HTML. Non-transparent.",
+      "reference": "public/assets/games/covers/formula-2026-11-06/formula.webp",
+      "referenceSha256": "051911d00c963a8f5e638d8b3f3985833275197831edb1fd5083729f31c0144f",
+      "sourceSha256": "b0b6d55239208669b52b96775c79bf3256699b8549e4fb587d15b48824abf9dc"
+    },
+    {
+      "gameId": "cricketer",
+      "file": "cricketer.webp",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 156842,
+      "sha256": "6f057cfc0340cdf169de9bbb0b986b1d30f1d15b7914af7d13b68db575c4f987",
+      "generator": "Built-in image_gen",
+      "prompt": "Create one text-free widescreen 16:9 spotlight background for the original StatOz game cricketer. Use the referenced existing cover as the visual identity reference only. An original fictional cricket batter in a red shirt, dark green helmet, cream pads and white gloves playing a strong cricket drive at a stadium. Preserve the cover's appealing slightly stylized 3D illustrated arcade identity, wooden bat, red cricket ball, stumps and distant wicketkeeper, believable hands and anatomy. Batting action concentrated on right half; early evening stadium sunlight and blue sky. NEW WIDESCREEN COMPOSITION: leave LEFT 45% as quiet uncluttered atmospheric dark space with soft navy shadows reserved for HTML headline and controls, no focal subjects there. Large cinematic console-game key art, rich physical lighting, landscape 1920x1080 composition. NO words, letters, numbers, logos, watermarks, UI, borders, or typography anywhere, including clothing, signage and cars. Do not recreate the reference cover title; all final copy is rendered separately in HTML. Non-transparent.",
+      "reference": "public/assets/games/covers/launch-2026-11-01/cricketer.webp",
+      "referenceSha256": "1a84ec3f0e8369e81354b2a5a5c0ebd1bc1be7c43a2720badac910cc21116ab3",
+      "sourceSha256": "cab27b5bf9af25af4533198917df0072578c8163375f021429fd78bc3eaef118"
+    }
+  ]
+}

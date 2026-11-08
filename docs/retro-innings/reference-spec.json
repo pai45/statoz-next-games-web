@@ -1,0 +1,623 @@
+{
+  "version": 1,
+  "date": "2026-10-21",
+  "reference": "Super International Cricket (SNES)",
+  "edition": "PAL manual; footage exact revision unverified",
+  "evidenceScope": "Supplied videos, preserved screenshots and manual only; no new native/emulator claim",
+  "private": true,
+  "inventoryStatus": "Finite initial control/feature inventory; complete mode/venue lists still need source-menu audit",
+  "sources": {
+    "M10": {
+      "file": "reference-study/manual-page-06.png",
+      "location": "Printed pp10-11",
+      "claim": "Toss/innings choice and overview",
+      "sha256": "0b70eb2aba81f6d4637f1b8588c0409ccbfc9775dde69671d39d54a8954496cf"
+    },
+    "M12": {
+      "file": "reference-study/manual-page-07.png",
+      "location": "Printed pp12-13",
+      "claim": "Four contextual batting buttons, modifiers, handedness",
+      "sha256": "b5911efe2e7d4611a0064c66d80ef751ffeb96a28861c6e14b7f5a4cea6af04d"
+    },
+    "M14": {
+      "file": "reference-study/manual-page-08.png",
+      "location": "Printed pp14-15",
+      "claim": "Running/grounding; two-press bowling; aim, types, speed, overs",
+      "sha256": "d84cbe18ec6a5bcf38130dfb0d10e3004b9941f9fc43300f4cf5f1d3686494ab"
+    },
+    "M16": {
+      "file": "reference-study/manual-page-09.png",
+      "location": "Printed pp16-17",
+      "claim": "Fielding controls; batting options, declare, scorecards",
+      "sha256": "2909fd40718588eddd3b66f2cadde5afebbc8eed80df28460b5b40f4be6cbcfe"
+    },
+    "M18": {
+      "file": "reference-study/manual-page-10.png",
+      "location": "Printed pp18-19",
+      "claim": "Bowler/approach/field options and delivery diagrams",
+      "sha256": "98f9eb9eb6002308395da3d8852ddbff437b4843db72b3f8687d94ea5dbdccd0"
+    },
+    "M20": {
+      "file": "reference-study/manual-page-11.png",
+      "location": "Printed pp20-21",
+      "claim": "Five presets, custom placement, one fielder/area and no-ball restriction",
+      "sha256": "dbd5e96c02fc5de90fa6607d1eafdb6b9e43c1707760e2acd47f5df14d9532b1"
+    },
+    "S007": {
+      "file": "reference-study/reference-007.bmp",
+      "location": "Saved bowling capture",
+      "claim": "Delivery composition, white landing cue, red ball, near-end actors",
+      "sha256": "f8cf2f3f4cd6367795b3068a249e6006f696dd605d277343bcbf214a1e7c7c47"
+    },
+    "S011": {
+      "file": "reference-study/reference-011.bmp",
+      "location": "Saved batting capture",
+      "claim": "Delivery composition and batter scale",
+      "sha256": "937d28f2df21b7f6c51ffbd449a6354082a5432419b073d85e7a27ba073d5886"
+    },
+    "S012": {
+      "file": "reference-study/reference-012.bmp",
+      "location": "Saved fielding capture",
+      "claim": "Field camera, selected marker, running inset",
+      "sha256": "552bead0a860cb88f8785f8026014bf8d9575d63616f371e7e958043ea68c809"
+    },
+    "S014": {
+      "file": "reference-study/reference-014.bmp",
+      "location": "Saved appeal capture",
+      "claim": "Contextual HOWZAT banner",
+      "sha256": "b4f0f9d1831920ded70d7d6ae4c1f9679fb364545196606384e569dff2a81e3b"
+    },
+    "S017": {
+      "file": "reference-study/reference-017.bmp",
+      "location": "Saved new-batter capture",
+      "claim": "Dedicated batter-change presentation",
+      "sha256": "3f8f65ffde079378e1611758ff8ece0b13c5e2b207585fa1ffa22e0a0b923871"
+    },
+    "S018": {
+      "file": "reference-study/reference-018.bmp",
+      "location": "Saved fielding capture",
+      "claim": "Field spacing, grass pattern, pitch/camera relation",
+      "sha256": "7cbc80cbdce3db6c7ee02b6c66c7e563e05dc5701562fb43e525aa1ef9c31582"
+    },
+    "V": {
+      "file": "handheld-v1/motion-study/manifest.json",
+      "location": "D2D2t1JfZDk requested130.6-133.4s; saved10fps analysis samples",
+      "claim": "Observed pose order, not native cadence or input records",
+      "sha256": "2b113bc8aff6b49f282485e1c3fbc0656ab1e4beaa9685551a33a877c519234d"
+    },
+    "R": {
+      "file": "reference-study/video-study/README.md",
+      "location": "Both supplied recordings and preserved excerpt inventory",
+      "claim": "Menu/setup/other action evidence and video limitations",
+      "sha256": "d845ee3cae6ad62bd1c5fb0bd614aebaac19c6b52a79b70181272a8603e53df3"
+    }
+  },
+  "features": [
+    {
+      "id": "META01",
+      "feature": "Edition/region and intended display aspect",
+      "source": "R",
+      "evidence": "inventory-or-adaptation",
+      "implementation": "unknown",
+      "current": "Unconfirmed; working256x224 cannot establish intended display ratio",
+      "next": "Verify edition and aspect from existing evidence; never combine conflicting editions",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "MENU01",
+      "feature": "Title, options and complete mode inventory",
+      "source": "R",
+      "evidence": "inventory-or-adaptation",
+      "implementation": "partial",
+      "current": "New home lobby is intentional app adaptation; source modes not implemented",
+      "next": "Audit source menu clips/manual beyond the already-inspected control pages",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "MENU02",
+      "feature": "Teams, match setup and initial innings choice",
+      "source": "M10",
+      "evidence": "manual-documented",
+      "implementation": "missing",
+      "current": "Fixed invented Harbour/Orchard, player bats first",
+      "next": "Document source setup and implement verified options without fake selectors",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "MENU03",
+      "feature": "Coin toss/weather presentation",
+      "source": "M10",
+      "evidence": "manual-documented",
+      "implementation": "missing",
+      "current": "No toss or weather state",
+      "next": "Record exact source choices and state consequences",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "BAT01",
+      "feature": "Crease movement",
+      "source": "M12",
+      "evidence": "manual-documented",
+      "implementation": "partial",
+      "current": "Lateral guard only and authored limits",
+      "next": "Compare full direction-pad movement with source framing",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "BAT02",
+      "feature": "Leg, straight, defensive and off strokes",
+      "source": "M12",
+      "evidence": "manual-documented",
+      "implementation": "partial",
+      "current": "Three tentative action families; straight missing",
+      "next": "Map all four documented controls to supported observed source actions",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "BAT03",
+      "feature": "Contextual ball-height stroke variation",
+      "source": "M12",
+      "evidence": "manual-documented",
+      "implementation": "missing",
+      "current": "One authored sequence per family",
+      "next": "Catalogue height-dependent variants without inferring unseen button presses",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "BAT04",
+      "feature": "Loft/power and left-handed control changes",
+      "source": "M12",
+      "evidence": "manual-documented",
+      "implementation": "partial",
+      "current": "Q/E modifiers; no handedness variants",
+      "next": "Verify effects and supported handedness/art",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "BAT05",
+      "feature": "Guard/anticipation/contact/follow-through/recovery",
+      "source": "V",
+      "evidence": "observed",
+      "implementation": "partial",
+      "current": "Source-derived pack; authored holds and contact windows",
+      "next": "Review one complete action and foot/grip/blade anchors before expansion",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "BAT06",
+      "feature": "Input timing, queuing and visible assist cue",
+      "source": "M12",
+      "evidence": "manual-documented",
+      "implementation": "authored",
+      "current": "Buffered strokes, Space shortcut and SWING NOW assist",
+      "next": "Measure from input-labelled evidence if available; retain practice assistance separately",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "BALL01",
+      "feature": "Ball release from raised hand",
+      "source": "V",
+      "evidence": "observed",
+      "implementation": "partial",
+      "current": "Crease correction aligns current release anchor",
+      "next": "Compare source hand/release pose and timestamp uncertainty",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "BALL02",
+      "feature": "Bounce arrow shape and actual bounce alignment",
+      "source": "S007",
+      "evidence": "observed",
+      "implementation": "partial",
+      "current": "White arrow and actual ground contact verified in app",
+      "next": "Source visibility/blink and targeting cadence remain unknown",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "BALL03",
+      "feature": "Four-direction landing target during bowling",
+      "source": "M14",
+      "evidence": "manual-documented",
+      "implementation": "implemented-unverified",
+      "current": "Implemented in this candidate; speed/range authored",
+      "next": "Manual control contract plus app/touch/physics tests; native calibration open",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "BALL04",
+      "feature": "Incoming flight, swing/cut/spin and bounce",
+      "source": "M18",
+      "evidence": "manual-documented",
+      "implementation": "partial",
+      "current": "Authored .67 bounce fraction, pace/spin durations",
+      "next": "Measure examples before replacing equations; no generic physics substitution",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "BOWL01",
+      "feature": "Two-press run-up and delivery release",
+      "source": "M14",
+      "evidence": "manual-documented",
+      "implementation": "partial",
+      "current": "Start/release implemented; one primary button",
+      "next": "Four-button contextual bowling controls still absent",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "BOWL02",
+      "feature": "Fast/medium delivery families",
+      "source": "M14",
+      "evidence": "manual-documented",
+      "implementation": "missing",
+      "current": "Only pace/spin plus line selectors",
+      "next": "Implement documented inswinger/offcutter/legcutter/outswinger cases with evidence",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "BOWL03",
+      "feature": "Spin delivery families and handedness",
+      "source": "M14",
+      "evidence": "manual-documented",
+      "implementation": "missing",
+      "current": "Single spin path; no handedness handling",
+      "next": "Implement documented offspin/flipper/arm-ball/legspin cases",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "BOWL04",
+      "feature": "Slow/faster/extra-fast modifiers",
+      "source": "M14",
+      "evidence": "manual-documented",
+      "implementation": "missing",
+      "current": "No player delivery-speed modifiers",
+      "next": "Add documented modifier contract and calibrate separately",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "BOWL05",
+      "feature": "No-ball at bowling crease",
+      "source": "M14",
+      "evidence": "manual-documented",
+      "implementation": "authored",
+      "current": "Late-time threshold; bowler intentionally clamped by user request",
+      "next": "Keep agreed crease constraint; source no-ball behaviour requires explicit reconciliation",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "BOWL06",
+      "feature": "Bowler/over/around wicket selection",
+      "source": "M18",
+      "evidence": "manual-documented",
+      "implementation": "missing",
+      "current": "Fixed bowler/approach; no bowler fatigue or limit",
+      "next": "Record source bowler menu and over-boundary rules",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "BOWL07",
+      "feature": "Run-up/gather/brace/release/recovery",
+      "source": "V",
+      "evidence": "observed",
+      "implementation": "partial",
+      "current": "Observed pose order; clipped-foot coverage and holds unresolved",
+      "next": "Compare complete sequence; no invented missing pose",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "RUN01",
+      "feature": "Run request and reversal",
+      "source": "M14",
+      "evidence": "manual-documented",
+      "implementation": "partial",
+      "current": "R/V instead of documented direction-pad running",
+      "next": "Preserve declared touch adaptation; verify run/reverse states",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "RUN02",
+      "feature": "Stretch/dive grounding at either end",
+      "source": "M14",
+      "evidence": "manual-documented",
+      "implementation": "missing",
+      "current": "No public grounding controls or full source action",
+      "next": "Study X/B grounding actions and actual bat/crease safety",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "RUN03",
+      "feature": "Two directions, speed and runner attributes",
+      "source": "M10",
+      "evidence": "manual-documented",
+      "implementation": "partial",
+      "current": "Distant strides; fixed1250ms run, no attribute speed",
+      "next": "Observed close/opposite assets and measured travel needed",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "RUN04",
+      "feature": "Running inset and completed-run representation",
+      "source": "M14",
+      "evidence": "manual-documented",
+      "implementation": "partial",
+      "current": "Authoritative runner positions, authored rectangular inset",
+      "next": "Compare source inset proportions, markers and meanings",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "FIELD01",
+      "feature": "Nearest-fielder assistance and directional speed-up",
+      "source": "M16",
+      "evidence": "manual-documented",
+      "implementation": "partial",
+      "current": "Nearest pursuit plus manual steering",
+      "next": "Match role selection and assistance from recorded cases",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "FIELD02",
+      "feature": "Fielder switch",
+      "source": "M16",
+      "evidence": "manual-documented",
+      "implementation": "partial",
+      "current": "Current switch cycles roles instead of closest",
+      "next": "Change to documented nearest selection with tests",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "FIELD03",
+      "feature": "Dive, leap and appeal without ball",
+      "source": "M16",
+      "evidence": "manual-documented",
+      "implementation": "missing",
+      "current": "No real dive/leap/appeal gameplay controls",
+      "next": "Need clear action evidence; do not repurpose a throw as a dive",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "FIELD04",
+      "feature": "Gather/hold/throw and both return ends",
+      "source": "M16",
+      "evidence": "manual-documented",
+      "implementation": "partial",
+      "current": "Source poses and anchors; automatic returns/timeouts authored",
+      "next": "Compare reach, handoff and manual/assisted return policy",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "FIELD05",
+      "feature": "Break stumps, catches and run-out",
+      "source": "M16",
+      "evidence": "manual-documented",
+      "implementation": "partial",
+      "current": "Caught/run-out/bowled, simplified checks",
+      "next": "Verify rules and action causality against source cases",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "FIELD06",
+      "feature": "Keeper receive/hold and optional throw coverage",
+      "source": "V",
+      "evidence": "observed",
+      "implementation": "partial",
+      "current": "Observed receive/hold retained; throw unfinished per user",
+      "next": "No throw completion claim without evidence",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "FIELD07",
+      "feature": "Presets, custom areas and placement restriction",
+      "source": "M20",
+      "evidence": "manual-documented",
+      "implementation": "missing",
+      "current": "Fixed balanced authored formation",
+      "next": "Implement five documented presets and legal custom placement",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "CAM01",
+      "feature": "Delivery camera, pitch/wicket/player scale",
+      "source": "S007",
+      "evidence": "observed",
+      "implementation": "partial",
+      "current": "Current crease-aligned frame; scale not parity-approved",
+      "next": "Compare registered landmarks in source/current viewer",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "CAM02",
+      "feature": "Post-hit field camera, tracking and selection marker",
+      "source": "S012",
+      "evidence": "observed",
+      "implementation": "partial",
+      "current": "Authored recovery gate and easing",
+      "next": "Measure event-aligned transitions and field spacing",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "CAM03",
+      "feature": "Keeper/running/close/distant camera variants",
+      "source": "S018",
+      "evidence": "observed",
+      "implementation": "partial",
+      "current": "Keeper flight camera authored; variants incomplete",
+      "next": "Catalogue each visible transition and deliberate asset scale",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "RULE01",
+      "feature": "Formats, full overs/wickets and innings",
+      "source": "M14",
+      "evidence": "manual-documented",
+      "implementation": "partial",
+      "current": "One over/three wickets is practice only",
+      "next": "Inventory all source formats; implement without inherited prototype caps",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "RULE02",
+      "feature": "Strike, over-end changes and batting order",
+      "source": "M14",
+      "evidence": "manual-documented",
+      "implementation": "partial",
+      "current": "Run parity, but fixed batter/team flow",
+      "next": "Audit ends/change-over/bowler/batter transitions",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "RULE03",
+      "feature": "Extras, dismissals, appeals and boundary cases",
+      "source": "M16",
+      "evidence": "manual-documented",
+      "implementation": "partial",
+      "current": "Simplified wide/no-ball/catch/bowled/run-out/4/6",
+      "next": "Audit every source case; no promise of unverified LBW/stumping",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "RULE04",
+      "feature": "Declare, batting/bowling scorecards and statistics",
+      "source": "M16",
+      "evidence": "manual-documented",
+      "implementation": "missing",
+      "current": "Basic totals/results only",
+      "next": "Implement source-documented menus and actual data",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "RULE05",
+      "feature": "Match result, tie, rematch and saved continuity",
+      "source": "M10",
+      "evidence": "manual-documented",
+      "implementation": "partial",
+      "current": "Two short innings and real result; local settings",
+      "next": "Verify source ending options; preserve app account isolation",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "ART01",
+      "feature": "Source character proportions, equipment and kit continuity",
+      "source": "S011",
+      "evidence": "observed",
+      "implementation": "partial",
+      "current": "Source-derived private pack; no generated athletes",
+      "next": "Review crops/occlusion at1x; fix supported defects only",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "ART02",
+      "feature": "Pitch, grass, boundary, stands and venue coverage",
+      "source": "S018",
+      "evidence": "observed",
+      "implementation": "partial",
+      "current": "Authored source-informed stadium reconstruction",
+      "next": "Compare same-camera landmarks/palette; inventory venues",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "HUD01",
+      "feature": "Score, overs, team and target hierarchy",
+      "source": "S007",
+      "evidence": "observed",
+      "implementation": "partial",
+      "current": "Independent rectangular score; authored size/font",
+      "next": "Compare scale and source score convention",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "HUD02",
+      "feature": "Appeal and boundary/wicket presentation",
+      "source": "S014",
+      "evidence": "observed",
+      "implementation": "partial",
+      "current": "Real event banners; no gameplay appeal action",
+      "next": "Separate appeal animation from decision logic",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "HUD03",
+      "feature": "New-batter and between-delivery screens",
+      "source": "S017",
+      "evidence": "observed",
+      "implementation": "missing",
+      "current": "Generic delivery/result feedback",
+      "next": "Add actual batter-change state and source information hierarchy",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "AUDIO01",
+      "feature": "Event audio, music, crowd and listening review",
+      "source": "R",
+      "evidence": "inventory-or-adaptation",
+      "implementation": "intentional-difference",
+      "current": "Original synthesized audio; no source recordings",
+      "next": "Verify triggers, loop/mute/pause and actual listening",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "APP01",
+      "feature": "Independent handheld lobby and game visual identity",
+      "source": "R",
+      "evidence": "inventory-or-adaptation",
+      "implementation": "intentional-difference",
+      "current": "User requested football-style physical shell/lobby; implemented here",
+      "next": "Test start/help/settings/home/resume/exit; host unchanged",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "APP02",
+      "feature": "Touch, landscape, fullscreen, keyboard and lifecycle",
+      "source": "R",
+      "evidence": "inventory-or-adaptation",
+      "implementation": "intentional-difference",
+      "current": "Web/handheld adaptation; headless tests available",
+      "next": "Physical phones, focus/interruptions and human feel remain required",
+      "sourceParityVerified": false
+    },
+    {
+      "id": "BUILD01",
+      "feature": "Single authoritative simulation in production HTML",
+      "source": "R",
+      "evidence": "inventory-or-adaptation",
+      "implementation": "implemented-unverified",
+      "current": "Builder now compiles simulation module into placeholder",
+      "next": "Test edited source affects compiled runtime; no stale duplicated engine",
+      "sourceParityVerified": false
+    }
+  ],
+  "stateMap": [
+    "Home lobby (intentional adaptation)",
+    "Settings/help (intentional adaptation)",
+    "Source setup/team/toss (missing)",
+    "Ready",
+    "Run-up/aim",
+    "Released incoming ball",
+    "Bounce",
+    "Batting action/contact or miss",
+    "Follow-through/recovery",
+    "Running/field ownership and throw",
+    "Keeper receive/hold",
+    "Dismissal/new batter (partial/missing)",
+    "Dead ball/next delivery",
+    "Over/innings change (partial)",
+    "Scorecard/declare (missing)",
+    "Match result/rematch"
+  ],
+  "adaptations": [
+    "Independent game style requested21October: physical Retro Football handheld language, original cricket lobby; host branding unchanged",
+    "Keyboard/touch inputs",
+    "Original audio",
+    "Current short format labelled practice",
+    "Private source-derived art; no publication"
+  ],
+  "priority": [
+    "Missing close/complete batting action and camera registration",
+    "Four-direction bowling landing arrow (implemented in candidate)",
+    "Closest fielder versus current cycling",
+    "Grounding/straight/contextual actions and full match structure"
+  ],
+  "completion": {
+    "inventoryRows": 49,
+    "sourceParityVerified": 0,
+    "warning": "Not a whole-game completion percentage; unknown native timing and missing modes remain open"
+  }
+}

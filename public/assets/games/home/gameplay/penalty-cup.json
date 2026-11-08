@@ -1,0 +1,12 @@
+{
+  "gameId": "penalty-cup",
+  "file": "penalty-cup.mp4",
+  "durationSeconds": 8,
+  "width": 1280,
+  "height": 720,
+  "fps": 12,
+  "source": "/embedded-games/penalty-cup/index.html",
+  "method": "Actual local game runtime captured with Playwright; silent H.264 with restrained contrast/saturation grading.",
+  "sha256": "3d1fe7b441b5a764156e91d27b04bc60bdf111f6053fa17a8c52cb015466a92f",
+  "bytes": 1306560
+}

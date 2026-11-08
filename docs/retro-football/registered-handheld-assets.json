@@ -1,0 +1,176 @@
+{
+  "current": [
+    {
+      "file": "motion-assets/run-n-2.png",
+      "assetId": "109401e8-2d86-4849-a4f3-b1214be8d36c",
+      "sha256": "96f59952680cbb4200e0bef653429ac4d768520c1100e1243ab97f1ebaca449f",
+      "approval": "reference"
+    },
+    {
+      "file": "motion-assets/orchard-run-n-2.png",
+      "assetId": "52a27ea1-5b70-465a-861c-9829a7740895",
+      "sha256": "738dedcc4c63c256c85f7fcfa7066eeabbc960c57c7d2831da85efe579f8cfaf",
+      "approval": "reference"
+    },
+    {
+      "file": "motion-assets/run-n-3.png",
+      "assetId": "2933f7e7-d956-4af7-8111-7fe040981068",
+      "sha256": "77b88838fb9acf57f7bad1179cdf95814cc6ccb4b31543b6129aad3dc232b482",
+      "approval": "reference"
+    },
+    {
+      "file": "motion-assets/orchard-run-n-3.png",
+      "assetId": "c3ef09d1-7d8c-47d3-9d60-0ffa940b77dc",
+      "sha256": "1156adee58672187cc622de1657b5599d95a8f640342aa8aca07ad8182e1f406",
+      "approval": "reference"
+    },
+    {
+      "file": "motion-assets/run-s-2.png",
+      "assetId": "3c8343a8-ad9b-465b-b9d6-b516bfc11a14",
+      "sha256": "021f2093d905941ca19cdf74cd51c89100fa66c9590b716645386f2e25ecdf7a",
+      "approval": "reference"
+    },
+    {
+      "file": "motion-assets/orchard-run-s-2.png",
+      "assetId": "5ab22ad2-ed58-4146-80d9-ac882c05d819",
+      "sha256": "8fe7d6ec1f7b4cd96b16b1afe24e14e9dd9d5c56b0b0b318b5945afc0098569c",
+      "approval": "reference"
+    },
+    {
+      "file": "motion-assets/run-s-3.png",
+      "assetId": "0f0e68aa-c28f-4f52-9c5e-fbffee74437c",
+      "sha256": "84d583c17534db4e8e2902b349a4d051a0fc79d12dd06578a61ead2950c63ca9",
+      "approval": "reference"
+    },
+    {
+      "file": "motion-assets/orchard-run-s-3.png",
+      "assetId": "7b75ac97-afcb-4a66-a7a9-229c0f841d87",
+      "sha256": "3f70cde6b8878a27fffdaf4e22f126d2db4c0e659bfc577681b9f7c7216cb25e",
+      "approval": "reference"
+    },
+    {
+      "file": "motion-assets/run-n-2-edit-mask.png",
+      "assetId": "175d8f2d-5560-4c92-87d8-16b9c1ff52f9",
+      "sha256": "503dbe0664c593280795ed010694513b7f7edc4c33ad934d66adcda46efad8d8",
+      "approval": "reference"
+    },
+    {
+      "file": "motion-assets/run-n-3-edit-mask.png",
+      "assetId": "75ece990-fc26-4995-9413-1329473e82b0",
+      "sha256": "5a47eafd049bdba0e675102011c71b9cfc09ed75746629f5ab06335e82d64944",
+      "approval": "reference"
+    },
+    {
+      "file": "motion-assets/run-s-2-edit-mask.png",
+      "assetId": "f2c4317f-c3e8-4a25-b111-250c3fd80850",
+      "sha256": "62161314f409e186ab843b6b591b6b151614a0f8142e45d603666fbd52407e93",
+      "approval": "reference"
+    },
+    {
+      "file": "motion-assets/run-s-3-edit-mask.png",
+      "assetId": "5f7ee460-6be9-44a9-bc0a-2827ae87ad7f",
+      "sha256": "2b178a7ac5ec9210faf0d737388968c2f5f1360341ced5b1ab0ec0bbbd63902c",
+      "approval": "reference"
+    },
+    {
+      "file": "motion-assets/native-review.png",
+      "assetId": "74c2fda7-1c4f-4a75-93f1-0264ba4c452f",
+      "sha256": "222f800c887d4ab116f7606ef679b66f7d1d17b3f4d9c0fee4599b15168484f1",
+      "approval": "reference"
+    },
+    {
+      "file": "../../public/games/retro-football/team-atlas.png",
+      "assetId": "dbf70bc7-acec-4278-917f-fe6468b0abf1",
+      "sha256": "5b012bfcf2cf22375c9da8a5638810922b6fbdaeb38026e4f2638695c01cccf6",
+      "approval": "reference"
+    }
+  ],
+  "history": [
+    {
+      "file": "motion-assets/run-n-2.png",
+      "assetId": "109401e8-2d86-4849-a4f3-b1214be8d36c",
+      "sha256": "96f59952680cbb4200e0bef653429ac4d768520c1100e1243ab97f1ebaca449f",
+      "approval": "reference"
+    },
+    {
+      "file": "motion-assets/orchard-run-n-2.png",
+      "assetId": "52a27ea1-5b70-465a-861c-9829a7740895",
+      "sha256": "738dedcc4c63c256c85f7fcfa7066eeabbc960c57c7d2831da85efe579f8cfaf",
+      "approval": "reference"
+    },
+    {
+      "file": "motion-assets/run-n-3.png",
+      "assetId": "2933f7e7-d956-4af7-8111-7fe040981068",
+      "sha256": "77b88838fb9acf57f7bad1179cdf95814cc6ccb4b31543b6129aad3dc232b482",
+      "approval": "reference"
+    },
+    {
+      "file": "motion-assets/orchard-run-n-3.png",
+      "assetId": "c3ef09d1-7d8c-47d3-9d60-0ffa940b77dc",
+      "sha256": "1156adee58672187cc622de1657b5599d95a8f640342aa8aca07ad8182e1f406",
+      "approval": "reference"
+    },
+    {
+      "file": "motion-assets/run-s-2.png",
+      "assetId": "3c8343a8-ad9b-465b-b9d6-b516bfc11a14",
+      "sha256": "021f2093d905941ca19cdf74cd51c89100fa66c9590b716645386f2e25ecdf7a",
+      "approval": "reference"
+    },
+    {
+      "file": "motion-assets/orchard-run-s-2.png",
+      "assetId": "5ab22ad2-ed58-4146-80d9-ac882c05d819",
+      "sha256": "8fe7d6ec1f7b4cd96b16b1afe24e14e9dd9d5c56b0b0b318b5945afc0098569c",
+      "approval": "reference"
+    },
+    {
+      "file": "motion-assets/run-s-3.png",
+      "assetId": "0f0e68aa-c28f-4f52-9c5e-fbffee74437c",
+      "sha256": "84d583c17534db4e8e2902b349a4d051a0fc79d12dd06578a61ead2950c63ca9",
+      "approval": "reference"
+    },
+    {
+      "file": "motion-assets/orchard-run-s-3.png",
+      "assetId": "7b75ac97-afcb-4a66-a7a9-229c0f841d87",
+      "sha256": "3f70cde6b8878a27fffdaf4e22f126d2db4c0e659bfc577681b9f7c7216cb25e",
+      "approval": "reference"
+    },
+    {
+      "file": "motion-assets/run-n-2-edit-mask.png",
+      "assetId": "175d8f2d-5560-4c92-87d8-16b9c1ff52f9",
+      "sha256": "503dbe0664c593280795ed010694513b7f7edc4c33ad934d66adcda46efad8d8",
+      "approval": "reference"
+    },
+    {
+      "file": "motion-assets/run-n-3-edit-mask.png",
+      "assetId": "75ece990-fc26-4995-9413-1329473e82b0",
+      "sha256": "5a47eafd049bdba0e675102011c71b9cfc09ed75746629f5ab06335e82d64944",
+      "approval": "reference"
+    },
+    {
+      "file": "motion-assets/run-s-2-edit-mask.png",
+      "assetId": "f2c4317f-c3e8-4a25-b111-250c3fd80850",
+      "sha256": "62161314f409e186ab843b6b591b6b151614a0f8142e45d603666fbd52407e93",
+      "approval": "reference"
+    },
+    {
+      "file": "motion-assets/run-s-3-edit-mask.png",
+      "assetId": "5f7ee460-6be9-44a9-bc0a-2827ae87ad7f",
+      "sha256": "2b178a7ac5ec9210faf0d737388968c2f5f1360341ced5b1ab0ec0bbbd63902c",
+      "approval": "reference"
+    },
+    {
+      "file": "motion-assets/native-review.png",
+      "assetId": "74c2fda7-1c4f-4a75-93f1-0264ba4c452f",
+      "sha256": "222f800c887d4ab116f7606ef679b66f7d1d17b3f4d9c0fee4599b15168484f1",
+      "approval": "reference"
+    },
+    {
+      "file": "../../public/games/retro-football/team-atlas.png",
+      "assetId": "dbf70bc7-acec-4278-917f-fe6468b0abf1",
+      "sha256": "5b012bfcf2cf22375c9da8a5638810922b6fbdaeb38026e4f2638695c01cccf6",
+      "approval": "reference"
+    }
+  ],
+  "importer": "Existing studio POST /api/assets",
+  "productionEligible": false
+}

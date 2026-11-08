@@ -1,0 +1,192 @@
+{
+  "$comment": "Athlete asset contract shared by the Blender scripts, pack.mjs, check.mjs and the runtime loader (src/game/world/athlete/assets.ts). See README.md.",
+  "version": 1,
+  "bones": [
+    "hips",
+    "spine",
+    "chest",
+    "neck",
+    "head",
+    "upperArmL",
+    "forearmL",
+    "handL",
+    "upperArmR",
+    "forearmR",
+    "handR",
+    "thighL",
+    "shinL",
+    "footL",
+    "thighR",
+    "shinR",
+    "footR",
+    "clavicleL",
+    "clavicleR"
+  ],
+  "levels": [
+    "lod1",
+    "lod0",
+    "hero"
+  ],
+  "slots": {
+    "body": {
+      "required": true,
+      "morphs": [
+        "build_lean",
+        "build_heavy",
+        "build_muscular"
+      ]
+    },
+    "head": {
+      "required": true,
+      "morphs": [
+        "build_lean",
+        "build_heavy",
+        "build_muscular",
+        "head_scale"
+      ],
+      "morphPrefix": "face_"
+    },
+    "eyes": {
+      "required": true,
+      "morphs": [
+        "head_scale"
+      ],
+      "morphPrefix": "face_",
+      "optionalMorphs": [
+        "build_lean",
+        "build_heavy",
+        "build_muscular"
+      ]
+    },
+    "brows": {
+      "required": true,
+      "morphs": [
+        "head_scale"
+      ],
+      "morphPrefix": "face_",
+      "optionalMorphs": [
+        "build_lean",
+        "build_heavy",
+        "build_muscular"
+      ]
+    },
+    "lashes": {
+      "required": true,
+      "morphs": [
+        "head_scale"
+      ],
+      "morphPrefix": "face_",
+      "optionalMorphs": [
+        "build_lean",
+        "build_heavy",
+        "build_muscular"
+      ]
+    },
+    "teeth": {
+      "required": false,
+      "morphs": [
+        "head_scale"
+      ],
+      "morphPrefix": "face_",
+      "optionalMorphs": [
+        "build_lean",
+        "build_heavy",
+        "build_muscular"
+      ]
+    },
+    "jersey": {
+      "required": true,
+      "morphs": [
+        "build_lean",
+        "build_heavy",
+        "build_muscular"
+      ]
+    },
+    "shorts": {
+      "required": true,
+      "morphs": [
+        "build_lean",
+        "build_heavy",
+        "build_muscular"
+      ]
+    },
+    "shoes": {
+      "required": true
+    },
+    "hair": {
+      "required": false,
+      "variants": [
+        "afro",
+        "hightop",
+        "bun",
+        "twists",
+        "braids",
+        "locs",
+        "buzz",
+        "fade",
+        "waves"
+      ]
+    },
+    "facialHairCards": {
+      "required": false,
+      "variants": [
+        "beard",
+        "full"
+      ]
+    },
+    "headband": {
+      "required": false
+    },
+    "wristbands": {
+      "required": false
+    },
+    "smoke": {
+      "required": false,
+      "labOnly": true,
+      "morphs": [
+        "smoke_inflate"
+      ]
+    }
+  },
+  "textures": {
+    "skinNormal": "tangent-space normal map, body + head atlas (MakeHuman UVs)",
+    "skinOrm": "R occlusion, G roughness, B oil/sheen mask",
+    "skinDetail": "tone-neutral: R luminance variation, G redness/flush mask, B melanin/darkening mask, A lips mask",
+    "skinRegions": "R sock mask, G arm-sleeve mask, B leg-sleeve mask, A reserved",
+    "facialHair": "R stubble, G goatee, B beard, A full (density masks, head UVs)",
+    "scalp": "R buzz, G fade, B waves, A high-top/twists fade band (density masks, head UVs)",
+    "clothMask": "R base, G trim, B trim2, A panel/piping",
+    "clothNormal": "baked drape wrinkles (tangent space)",
+    "weave": "tiling perforated-knit detail normal",
+    "shoeMask": "R upper, G accent, B midsole, A outsole (laces and lining in the normal map alpha-free zones)",
+    "hairAtlas": "R greyscale albedo, G alpha, B flow, A root-to-tip gradient"
+  },
+  "printZones": [
+    "jersey_front_number",
+    "jersey_front_wordmark",
+    "jersey_back_name",
+    "jersey_back_number",
+    "shorts_left_logo",
+    "shorts_right_number"
+  ],
+  "budgets": {
+    "lod1": {
+      "triangles": 55000,
+      "drawCalls": 8,
+      "bytes": 4000000
+    },
+    "lod0": {
+      "triangles": 110000,
+      "drawCalls": 9,
+      "bytes": 8000000
+    },
+    "hero": {
+      "triangles": 300000,
+      "drawCalls": 10,
+      "bytes": 20000000
+    }
+  },
+  "licenses": [
+    "CC0-1.0"
+  ]
+}

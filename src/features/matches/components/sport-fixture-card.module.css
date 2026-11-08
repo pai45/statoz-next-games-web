@@ -1,0 +1,99 @@
+.shell {
+  --fixture-state: var(--ds-color-fixture-predicted);
+  position: relative;
+  min-width: 0;
+  height: 100%;
+  isolation: isolate;
+}
+
+.lift {
+  position: absolute;
+  inset: 0;
+  transform: translateY(var(--ds-shape-fixture-lift));
+  clip-path: var(--ds-clip-fixture);
+  background: color-mix(in srgb, var(--fixture-state) 25%, transparent);
+}
+
+.frame {
+  position: relative;
+  height: 100%;
+  padding: 1.5px;
+  clip-path: var(--ds-clip-fixture);
+  background: color-mix(in srgb, var(--fixture-state) 25%, transparent);
+  transition: transform 150ms ease, background-color 150ms ease;
+}
+
+.inner {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  clip-path: var(--ds-clip-fixture);
+  background: var(--ds-color-fixture-base);
+}
+
+.body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 28px 16px 8px;
+  background: var(--ds-gradient-fixture-card);
+}
+
+.tag {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 50%;
+  display: flex;
+  width: var(--ds-shape-fixture-notch-width);
+  height: var(--ds-shape-fixture-notch-depth);
+  transform: translateX(-50%);
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.stretchedLink {
+  position: absolute;
+  z-index: 3;
+  inset: 0;
+  clip-path: var(--ds-clip-fixture);
+}
+
+.stretchedLink:focus-visible {
+  outline-offset: -3px;
+}
+
+.shell:hover .frame {
+  transform: translateY(-2px);
+}
+
+.shell:active .frame {
+  transform: translateY(0);
+}
+
+.setChip {
+  border: 1px solid color-mix(in srgb, var(--ds-color-accent-cyan) 35%, transparent);
+  border-radius: var(--ds-radius-md);
+  background: color-mix(in srgb, var(--ds-color-accent-cyan) 6%, transparent);
+}
+
+.footer {
+  display: flex;
+  min-height: 38px;
+  align-items: center;
+  gap: 8px;
+  border-top: 1px solid rgb(255 255 255 / 6%);
+  background: var(--ds-color-fixture-strip);
+  padding: 9px 16px;
+}
+
+.liveDot {
+  width: 6px;
+  height: 6px;
+  flex: 0 0 6px;
+  border-radius: 50%;
+  background: var(--ds-color-danger);
+  box-shadow: 0 0 6px var(--ds-color-danger);
+}

@@ -1,0 +1,25 @@
+{
+  "events": [
+    {
+      "event": "audio-start",
+      "seconds": 16.462
+    },
+    {
+      "event": "start",
+      "seconds": 16.918
+    },
+    {
+      "event": "kick",
+      "seconds": 19.691
+    }
+  ],
+  "metrics": {
+    "drawCalls": "86",
+    "fps": "73.8",
+    "devicePixelRatio": 1,
+    "webgl": true,
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3070 Ti Laptop GPU (0x000024A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "transportBytes": 4168194,
+    "browser": "156.0.8078.4"
+  }
+}

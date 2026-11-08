@@ -1,0 +1,19 @@
+{
+  "method": "Complete exact bundle filenames in preserved binary Addressables catalogue; no inference of arbitrary endpoints or ownership licence.",
+  "catalogSha256": "7faba946912a77ef587c5286cf20a44cbff0db9ac888a47c81e064d300c7b02e",
+  "declaredUniqueBundles": 752,
+  "alreadyCaptured": 751,
+  "newlySaved": 1,
+  "newBytes": 7758,
+  "missing": [],
+  "records": [
+    {
+      "path": "StreamingAssets/aa/WebGL/audio_sfx_dynamic_assets_assets_audio_sfx_vo_tennis_sfx_vo_mrbumbles_exert_4.wav_6e62271ce77d07cf7e6c1d663f2e5aee.bundle",
+      "url": "https://files.crazygames.com/tennis-bits/69/StreamingAssets/aa/WebGL/audio_sfx_dynamic_assets_assets_audio_sfx_vo_tennis_sfx_vo_mrbumbles_exert_4.wav_6e62271ce77d07cf7e6c1d663f2e5aee.bundle",
+      "status": 200,
+      "bytes": 7758,
+      "sha256": "db4ab94d81f73c92165ff8553b2f2316ec16330cb80588ca350dd384614fbf9b",
+      "representation": "Normally fetched decoded HTTP entity bytes, original static filename, no origin/SDK/header spoofing."
+    }
+  ]
+}

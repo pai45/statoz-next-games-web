@@ -1,0 +1,139 @@
+{
+  "gameId": "retro-hoops",
+  "agent": "street_hoop_artist (executed inline by the parent session)",
+  "skill": "street-hoop-assets",
+  "build": "character-v19-local",
+  "assets": "19.0.0",
+  "rules": "2.0.0",
+  "scope": "volume-shaded lean in-game figure",
+  "changes": [
+    "New original renderer scripts/retro_hoops_volume.py: limbs, torso, shorts, socks, seat and neck are tapered volumes along the existing rig joints, lit from one direction and quantised into five-tone ramps with a darker rim; one continuous outline per part group, so elbows and knees have no seams.",
+    "Measured in-game proportions: upper arm ~8px, forearm ~6px, thigh ~10px, shin ~7px wide; head drawn at 80% size; shoes at 80% size with visible white socks.",
+    "Jersey materials per pixel: chest band, raglan sleeve panels, tank-top bare shoulders and front scoop neck; broad front shoulder line.",
+    "Ready crouch arms bend with forearms forward at waist height (non-ball hands).",
+    "Live ball-holding arm (contact-arm.ts) ported to the same volume renderer, constants and palettes, mirrored per pixel for left-facing players.",
+    "V16's team-select bulk is retired for in-game sprites: those lineups are larger select-screen illustrations; in-game sprites are lean."
+  ],
+  "research": [
+    "https://www.youtube.com/watch?v=38Qlqw2re1w 360-1566s at 480p surveyed every 15s: venues and team kits for USA, Korea, Japan, China, England"
+  ],
+  "checks": {
+    "pipelineSteps": {
+      "art": "passed",
+      "bundle": "passed",
+      "console": "passed",
+      "contract": "passed",
+      "fidelity": "passed",
+      "host": "passed",
+      "lint": "passed",
+      "motion-build": "passed",
+      "motion-capture": "passed",
+      "motion-encode": "passed",
+      "pack": "passed",
+      "rules-tests": "passed",
+      "static-build": "passed",
+      "typecheck": "passed",
+      "wire": "passed"
+    },
+    "rulesInputAndIntegrationTests": 86,
+    "assetIntegrity": 13,
+    "rigContract": {
+      "frames": 2276,
+      "ballHoldingHandEndpointsUnchanged": true,
+      "freeHandClips": [
+        "backpedal",
+        "defend",
+        "neutral-a",
+        "neutral-b"
+      ],
+      "freeHandFramesChanged": 8,
+      "dunkPoses": 104,
+      "maxReach": 40.80441152620633,
+      "dribbleOverlayShoulderMatches": 12,
+      "changedAnchorKinds": {
+        "toes": 1196,
+        "heels": 1196,
+        "hands": 8,
+        "elbows": 8
+      },
+      "scope": "V19 vs V18: foot origin, dribble-ball endpoints and every ball-holding hand endpoint unchanged; dunk shoulders/elbows unchanged and reachable. Non-ball ready/defend hands may be re-authored."
+    },
+    "productionActionLoops": 16,
+    "decodedVideos": 16,
+    "hostFlow": 6,
+    "mobileConsole": 12,
+    "lint": "passed (1 unrelated retro-circuit warning)",
+    "typecheck": "passed",
+    "staticBuild": "passed"
+  },
+  "pack": {
+    "bodyFrameEntries": 2276,
+    "distinctBodyFrames": 1186,
+    "headFrameEntries": 36,
+    "atlasPages": 3,
+    "referenceRasterInputs": 0,
+    "previousPackPreserved": true
+  },
+  "correctionRecord": "test-results/retro-hoops-character-v19/correction-record.json",
+  "fidelityMatrix": [
+    {
+      "feature": "Figure rendering (lit gradients, continuous limbs, outlines)",
+      "status": "approximate",
+      "review": "Matches the observed in-game sprite rendering much more closely at 8x native comparison."
+    },
+    {
+      "feature": "In-game proportions (lean limbs, head, shoes)",
+      "status": "approximate",
+      "review": "Widths measured from native GameLog frames."
+    },
+    {
+      "feature": "Front/back construction",
+      "status": "approximate",
+      "review": "Broad shoulders achieved; jersey length still wrong."
+    },
+    {
+      "feature": "Native timing, input windows, hidden AI",
+      "status": "unverified",
+      "review": "Not recovered."
+    }
+  ],
+  "review": {
+    "structural": "passed",
+    "visual": "Rebuilt how athletes are drawn after an 8x native pixel study of GameLog frames 0048/0067: in-game Street Hoop sprites are lean and wiry with smooth lit gradients and continuous limbs, unlike our bulky flat-polygon figures with outlined joints.",
+    "gameplay": "Simulation/AI/input untouched; 86 tests pass.",
+    "sourceLikenessApproved": false,
+    "exactLikenessAchieved": false,
+    "nativeTimingRecovered": false,
+    "physicalDeviceTested": false,
+    "limitations": [
+      "Front/back jersey hangs too low between the legs (leotard look); fix next (V20).",
+      "Seat volume bulges behind the hips in run/dribble side views (bustle); fix next (V20).",
+      "Heads keep the earlier polygon construction at 80% scale; not yet volume-shaded.",
+      "Street Hoop uses several venues by matchup (brick street court with chain-link fence for USA/England, park court for Korea/Japan, Champion Ship arena for China, HIP HOP drapes/scaffold in the GameLog match); venue pass deferred until characters are done, per the user.",
+      "Source knock-down after super dunks has no simulation trigger (gameplay change needs approval).",
+      "Bodies stay per team; native timing and physical devices unverified."
+    ]
+  },
+  "hashes": {
+    "scripts/retro_hoops_character.py": "f0c304cbbcd0e7131273069dc9cf1cee30d17dfc930f7b86050b6f57bcc394f3",
+    "scripts/retro_hoops_volume.py": "c5161fdae22216afc4ca920bcabe875bdbb6e9e8947399cfa06dcafe7685510f",
+    "scripts/build-retro-hoops-authored.py": "24ee2a3de1aa14e7eee43ef99e8f4db3ce5e2179ce21ac714f61568eb48bf3f4",
+    "src/features/games/retro-hoops/contact-arm.ts": "0cc33db1e442cb1f88f083904e98ba23308c2370d73d6e0ba9f9c24fdb77fd57",
+    "src/features/games/retro-hoops/view.ts": "96403e0178bbb98c70b4efbe9b5650f1f766b86851a234e9f7fc736260d78778",
+    "src/features/games/retro-hoops/renderer.ts": "9202e82365872589a272c88ea2a9a78a0c84003e2e1c07201fcdfdefea9f5d78",
+    "src/features/games/retro-hoops/presentation.ts": "9577d626817d5ddcd8cdddc7ef38119efd6022bf3661c3c7ae3edad10aa2fcb6",
+    "src/features/games/retro-hoops/court.ts": "b4e4001ade42dc7d3f6e2496036bd370f661e188844fbf4966116d07bf7546ab",
+    "src/features/games/retro-hoops/crowd.ts": "dd761650932f702eb049330c36a9cc3b59d50890cef7d0c5f14424c2980bdd6e",
+    "src/features/games/retro-hoops/character-pack.ts": "51440b27673179b07b4ff49fdd746b3f7fad71a3cd2ff40136319df61450b02d",
+    "src/features/games/retro-hoops/reference-profile.ts": "39c31fd6c1e1c03c25a3da6f330f09994be6e77574d171d6f669845505a42a42",
+    "public/games/retro-hoops/authored-v19/manifest.json": "013f72873e8766f1606d4f448ca06112814f814b4ed657187f9b57929192591a",
+    "public/games/retro-hoops/credits.json": "a89e9e403b2a3b68b8d760c13f5f45532af16ccc6e36fd5bc25c9941f77b27bc",
+    "public/embedded-games/retro-hoops/index.html": "4c40358ed9033387c669975b9815d9176c6df22d9e7e251e7541c28ca9f1a439"
+  },
+  "release": {
+    "localOnly": true,
+    "pushed": false,
+    "published": false,
+    "pipelineActivated": false
+  }
+}

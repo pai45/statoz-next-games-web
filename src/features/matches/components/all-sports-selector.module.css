@@ -1,0 +1,116 @@
+.dialog {
+  width: 100vw;
+  max-width: none;
+  height: 100dvh;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: var(--ds-color-text-default);
+  background:
+    radial-gradient(circle at 50% 0%, rgb(0 229 255 / 8%), transparent 34rem),
+    var(--ds-color-background-primary);
+}
+
+.dialog::backdrop {
+  background: var(--ds-color-overlay-scrim);
+  backdrop-filter: blur(6px);
+}
+
+.surface {
+  min-height: 100%;
+  background-image:
+    linear-gradient(rgb(255 255 255 / 1%) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(255 255 255 / 1%) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.row {
+  --selector-accent: var(--ds-color-accent-cyan);
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 76px;
+  padding: 1px;
+  clip-path: var(--ds-clip-hud);
+  color: inherit;
+  background: color-mix(in srgb, var(--selector-accent) 42%, var(--ds-color-border-default));
+  transition: transform 150ms ease, filter 150ms ease;
+}
+
+.row::after {
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 0;
+  bottom: 12px;
+  width: 4px;
+  background: transparent;
+}
+
+.row:hover {
+  transform: translateY(-1px);
+}
+
+.row:active {
+  transform: translateY(0);
+}
+
+.selected {
+  background: var(--selector-accent);
+  filter: drop-shadow(0 0 12px color-mix(in srgb, var(--selector-accent) 14%, transparent));
+}
+
+.selected::after {
+  background: var(--selector-accent);
+  box-shadow: 0 0 10px color-mix(in srgb, var(--selector-accent) 70%, transparent);
+}
+
+.rowInner {
+  position: relative;
+  display: flex;
+  min-height: 74px;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 18px 10px 14px;
+  clip-path: var(--ds-clip-hud);
+  background:
+    linear-gradient(90deg, color-mix(in srgb, var(--selector-accent) 8%, transparent), transparent 46%),
+    var(--ds-color-background-elevated);
+}
+
+.iconPlate {
+  display: grid;
+  width: 46px;
+  height: 46px;
+  flex: 0 0 auto;
+  place-items: center;
+  clip-path: var(--ds-clip-octagon);
+  color: var(--selector-accent);
+  background: color-mix(in srgb, var(--selector-accent) 13%, var(--ds-color-background-muted));
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--selector-accent) 42%, transparent);
+  opacity: 0.62;
+}
+
+.selected .iconPlate {
+  opacity: 1;
+}
+
+.liveDot {
+  width: 6px;
+  height: 6px;
+  flex: 0 0 auto;
+  border-radius: 999px;
+  background: var(--ds-color-danger);
+  box-shadow: 0 0 8px color-mix(in srgb, var(--ds-color-danger) 72%, transparent);
+}
+
+@media (min-width: 768px) {
+  .row {
+    min-height: 82px;
+  }
+
+  .rowInner {
+    min-height: 80px;
+  }
+}

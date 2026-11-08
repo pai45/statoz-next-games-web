@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="100 -4 120 128" role="img" aria-label="Redacted trophy">
+  <title>Redacted trophy</title>
+  <path d="M136 24H184V56C184 71 173 82 160 82C147 82 136 71 136 56Z" fill="#16241d" stroke="#5cdfff" stroke-opacity="0.55" stroke-width="1.4"/>
+  <path d="M136 32H124V44C124 53 129 58 136 59" fill="none" stroke="#5cdfff" stroke-opacity="0.5" stroke-width="1.4"/>
+  <path d="M184 32H196V44C196 53 191 58 184 59" fill="none" stroke="#5cdfff" stroke-opacity="0.5" stroke-width="1.4"/>
+  <path d="M154 82H166V96H154Z" fill="#16241d" stroke="#5cdfff" stroke-opacity="0.55" stroke-width="1.4"/>
+  <rect x="136" y="96" width="48" height="10" fill="#5cdfff" fill-opacity="0.22" stroke="#5cdfff" stroke-opacity="0.5" stroke-width="1.2"/>
+  <rect x="104" y="46" width="112" height="9" fill="#5cdfff" fill-opacity="0.5"/>
+  <g fill="#5cdfff" fill-opacity="0.3">
+  <rect x="130" y="112" width="30" height="7"/>
+  <rect x="166" y="112" width="18" height="7"/>
+  </g>
+</svg>

@@ -1,0 +1,5017 @@
+{
+  "sport": "cricket",
+  "mode": "easy",
+  "version": 1,
+  "bands": {
+    "1": [
+      {
+        "p": "In cricket, what does “century” mean?",
+        "o": [
+          "100 runs by one batter",
+          "a lower-order batter sent in late",
+          "a player who both bats and bowls",
+          "a short ball rising at the batter"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 2026 IPL?",
+        "o": [
+          "Deccan Chargers",
+          "Royal Challengers Bengaluru",
+          "Delhi Capitals",
+          "Gujarat Titans"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In cricket, what does “half-century” mean?",
+        "o": [
+          "runs divided by dismissals",
+          "runs needed per over remaining",
+          "50 runs by one batter",
+          "runs per 100 balls faced"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 2025 IPL?",
+        "o": [
+          "Punjab Kings",
+          "Rajasthan Royals",
+          "Rising Pune Supergiant",
+          "Royal Challengers Bengaluru"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In cricket, what does “duck” mean?",
+        "o": [
+          "a batter dismissed for zero",
+          "an over with no runs charged",
+          "balls bowled per wicket",
+          "body illegally blocks the wicket"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 2024 IPL?",
+        "o": [
+          "Sunrisers Hyderabad",
+          "Kolkata Knight Riders",
+          "Chennai Super Kings",
+          "Deccan Chargers"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In cricket, what does “golden duck” mean?",
+        "o": [
+          "a cross-batted shot against spin",
+          "a front-foot shot through cover",
+          "a batter dismissed first ball",
+          "a leg-spinner's wrong'un"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 2023 IPL?",
+        "o": [
+          "Gujarat Titans",
+          "Kolkata Knight Riders",
+          "Mumbai Indians",
+          "Chennai Super Kings"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In cricket, what does “hat-trick” mean?",
+        "o": [
+          "three wickets in consecutive balls",
+          "striker breaks their own wicket",
+          "the strip between the wickets",
+          "the trailing Test side bats again"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 2022 IPL?",
+        "o": [
+          "Punjab Kings",
+          "Gujarat Titans",
+          "Rajasthan Royals",
+          "Rising Pune Supergiant"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In cricket, what does “maiden over” mean?",
+        "o": [
+          "five wickets in one innings",
+          "four runs as the ball reaches rope",
+          "an over with no runs charged",
+          "keeper breaks wicket out of ground"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 2021 IPL?",
+        "o": [
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad",
+          "Deccan Chargers",
+          "Chennai Super Kings"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In cricket, what does “yorker” mean?",
+        "o": [
+          "a ball pitching beside the toes",
+          "a back-foot shot square off side",
+          "a ball beyond normal batting reach",
+          "a ball moving away from the batter"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 2020 IPL?",
+        "o": [
+          "Gujarat Titans",
+          "Mumbai Indians",
+          "Kolkata Knight Riders",
+          "Punjab Kings"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In cricket, what does “bouncer” mean?",
+        "o": [
+          "an off-spinner's ball turning away",
+          "an over with no runs charged",
+          "a short ball rising at the batter",
+          "balls bowled per wicket"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team won the 2019 IPL?",
+        "o": [
+          "Rising Pune Supergiant",
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad",
+          "Mumbai Indians"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In cricket, what does “googly” mean?",
+        "o": [
+          "a leg-spinner's wrong'un",
+          "a front-foot shot through cover",
+          "a line marking a batter's ground",
+          "a lower-order batter sent in late"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team won the 2018 IPL?",
+        "o": [
+          "Deccan Chargers",
+          "Chennai Super Kings",
+          "Delhi Capitals",
+          "Gujarat Titans"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In cricket, what does “doosra” mean?",
+        "o": [
+          "runs divided by dismissals",
+          "runs needed per over remaining",
+          "an off-spinner's ball turning away",
+          "runs per 100 balls faced"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL team listed Virat Kohli in its 2026 squad?",
+        "o": [
+          "Chennai Super Kings",
+          "Delhi Capitals",
+          "Gujarat Titans",
+          "Royal Challengers Bengaluru"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In cricket, what does “inswinger” mean?",
+        "o": [
+          "a ball moving into the batter",
+          "a batter dismissed first ball",
+          "a batter dismissed for zero",
+          "a batter dismissed for zero twice"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL team listed Suryakumar Yadav in its 2026 squad?",
+        "o": [
+          "Royal Challengers Bengaluru",
+          "Mumbai Indians",
+          "Sunrisers Hyderabad",
+          "Chennai Super Kings"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In cricket, what does “outswinger” mean?",
+        "o": [
+          "balls bowled per wicket",
+          "body illegally blocks the wicket",
+          "a ball moving away from the batter",
+          "first-ball ducks in both innings"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL team listed Heinrich Klaasen in its 2026 squad?",
+        "o": [
+          "Gujarat Titans",
+          "Kolkata Knight Riders",
+          "Lucknow Super Giants",
+          "Sunrisers Hyderabad"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In cricket, what does “reverse swing” mean?",
+        "o": [
+          "late swing with an older ball",
+          "a ball pitching beside the toes",
+          "a batter dismissed first ball",
+          "a batter dismissed for zero"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL team listed Shubman Gill in its 2026 squad?",
+        "o": [
+          "Chennai Super Kings",
+          "Gujarat Titans",
+          "Delhi Capitals",
+          "Kolkata Knight Riders"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In cricket, what does “cover drive” mean?",
+        "o": [
+          "runs conceded per over",
+          "runs conceded per wicket",
+          "a front-foot shot through cover",
+          "runs divided by dismissals"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL team listed Rohit Sharma in its 2026 squad?",
+        "o": [
+          "Delhi Capitals",
+          "Gujarat Titans",
+          "Kolkata Knight Riders",
+          "Mumbai Indians"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In cricket, what does “square cut” mean?",
+        "o": [
+          "a back-foot shot square off side",
+          "first-ball ducks in both innings",
+          "five wickets in one innings",
+          "four runs as the ball reaches rope"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL team listed Sunil Narine in its 2026 squad?",
+        "o": [
+          "Rajasthan Royals",
+          "Kolkata Knight Riders",
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In cricket, what does “pull shot” mean?",
+        "o": [
+          "striker breaks their own wicket",
+          "the strip between the wickets",
+          "a shot to leg from a short ball",
+          "the trailing Test side bats again"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In cricket, what does “sweep shot” mean?",
+        "o": [
+          "a ball moving into the batter",
+          "a ball pitching beside the toes",
+          "a batter dismissed first ball",
+          "a cross-batted shot against spin"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In cricket, what does “nightwatchman” mean?",
+        "o": [
+          "a lower-order batter sent in late",
+          "Decision Review System",
+          "Duckworth-Lewis-Stern method",
+          "a back-foot shot square off side"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Sachin Tendulkar represent in international cricket?",
+        "o": [
+          "Australia",
+          "India",
+          "Bangladesh",
+          "England"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Virat Kohli represent in international cricket?",
+        "o": [
+          "Ireland",
+          "Nepal",
+          "India",
+          "Netherlands"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Rohit Sharma represent in international cricket?",
+        "o": [
+          "England",
+          "Ireland",
+          "Nepal",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did MS Dhoni represent in international cricket?",
+        "o": [
+          "India",
+          "Australia",
+          "Bangladesh",
+          "England"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Kapil Dev represent in international cricket?",
+        "o": [
+          "Nepal",
+          "India",
+          "Netherlands",
+          "New Zealand"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Sunil Gavaskar represent in international cricket?",
+        "o": [
+          "South Africa",
+          "Sri Lanka",
+          "India",
+          "West Indies"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Rahul Dravid represent in international cricket?",
+        "o": [
+          "Sri Lanka",
+          "West Indies",
+          "Zimbabwe",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Anil Kumble represent in international cricket?",
+        "o": [
+          "India",
+          "Sri Lanka",
+          "West Indies",
+          "Zimbabwe"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Jasprit Bumrah represent in international cricket?",
+        "o": [
+          "New Zealand",
+          "India",
+          "Pakistan",
+          "Scotland"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Ravichandran Ashwin represent in international cricket?",
+        "o": [
+          "Pakistan",
+          "Scotland",
+          "India",
+          "South Africa"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Ravindra Jadeja represent in international cricket?",
+        "o": [
+          "Zimbabwe",
+          "Afghanistan",
+          "Australia",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Virender Sehwag represent in international cricket?",
+        "o": [
+          "India",
+          "Sri Lanka",
+          "West Indies",
+          "Zimbabwe"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Sourav Ganguly represent in international cricket?",
+        "o": [
+          "Ireland",
+          "India",
+          "Nepal",
+          "Netherlands"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Yuvraj Singh represent in international cricket?",
+        "o": [
+          "Australia",
+          "Bangladesh",
+          "India",
+          "England"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Zaheer Khan represent in international cricket?",
+        "o": [
+          "Netherlands",
+          "New Zealand",
+          "Pakistan",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Mohammed Shami represent in international cricket?",
+        "o": [
+          "India",
+          "Zimbabwe",
+          "Afghanistan",
+          "Australia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Shubman Gill represent in international cricket?",
+        "o": [
+          "Australia",
+          "India",
+          "Bangladesh",
+          "England"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Suryakumar Yadav represent in international cricket?",
+        "o": [
+          "Afghanistan",
+          "Australia",
+          "India",
+          "Bangladesh"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Hardik Pandya represent in international cricket?",
+        "o": [
+          "Scotland",
+          "South Africa",
+          "Sri Lanka",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Rishabh Pant represent in international cricket?",
+        "o": [
+          "India",
+          "England",
+          "Ireland",
+          "Nepal"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Don Bradman represent in international cricket?",
+        "o": [
+          "New Zealand",
+          "Australia",
+          "Pakistan",
+          "Scotland"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Ricky Ponting represent in international cricket?",
+        "o": [
+          "Pakistan",
+          "Scotland",
+          "Australia",
+          "South Africa"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Shane Warne represent in international cricket?",
+        "o": [
+          "Sri Lanka",
+          "West Indies",
+          "Zimbabwe",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Glenn McGrath represent in international cricket?",
+        "o": [
+          "Australia",
+          "Bangladesh",
+          "England",
+          "India"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Adam Gilchrist represent in international cricket?",
+        "o": [
+          "New Zealand",
+          "Australia",
+          "Pakistan",
+          "Scotland"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Allan Border represent in international cricket?",
+        "o": [
+          "Nepal",
+          "Netherlands",
+          "Australia",
+          "New Zealand"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Steve Waugh represent in international cricket?",
+        "o": [
+          "England",
+          "India",
+          "Ireland",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Steve Smith represent in international cricket?",
+        "o": [
+          "Australia",
+          "India",
+          "Ireland",
+          "Nepal"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Pat Cummins represent in international cricket?",
+        "o": [
+          "Pakistan",
+          "Australia",
+          "Scotland",
+          "South Africa"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Mitchell Starc represent in international cricket?",
+        "o": [
+          "Ireland",
+          "Nepal",
+          "Australia",
+          "Netherlands"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Travis Head represent in international cricket?",
+        "o": [
+          "Ireland",
+          "Nepal",
+          "Netherlands",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country did Glenn Maxwell represent in international cricket?",
+        "o": [
+          "Australia",
+          "New Zealand",
+          "Pakistan",
+          "Scotland"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country did Ian Botham represent in international cricket?",
+        "o": [
+          "Bangladesh",
+          "England",
+          "India",
+          "Ireland"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country did Alastair Cook represent in international cricket?",
+        "o": [
+          "Bangladesh",
+          "India",
+          "England",
+          "Ireland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country did Joe Root represent in international cricket?",
+        "o": [
+          "Zimbabwe",
+          "Afghanistan",
+          "Australia",
+          "England"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What is the cricket meaning of “century”?",
+        "o": [
+          "100 runs by one batter",
+          "the strip between the wickets",
+          "the trailing Test side bats again",
+          "three stumps topped by two bails"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What is the cricket meaning of “half-century”?",
+        "o": [
+          "an extra after body contact",
+          "50 runs by one batter",
+          "an extra untouched by bat or body",
+          "an illegal ball costing an extra"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What is the cricket meaning of “duck”?",
+        "o": [
+          "first-ball ducks in both innings",
+          "five wickets in one innings",
+          "a batter dismissed for zero",
+          "four runs as the ball reaches rope"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What is the cricket meaning of “golden duck”?",
+        "o": [
+          "a shot to leg from a short ball",
+          "a tie-breaking extra over",
+          "an extra after body contact",
+          "a batter dismissed first ball"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What is the cricket meaning of “hat-trick”?",
+        "o": [
+          "three wickets in consecutive balls",
+          "overs with tighter fielding limits",
+          "runs conceded per over",
+          "runs conceded per wicket"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What is the cricket meaning of “maiden over”?",
+        "o": [
+          "six runs when the ball clears it",
+          "an over with no runs charged",
+          "striker breaks their own wicket",
+          "the strip between the wickets"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What is the cricket meaning of “yorker”?",
+        "o": [
+          "a leg-spinner's wrong'un",
+          "a line marking a batter's ground",
+          "a ball pitching beside the toes",
+          "a lower-order batter sent in late"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What is the cricket meaning of “bouncer”?",
+        "o": [
+          "Decision Review System",
+          "Duckworth-Lewis-Stern method",
+          "a back-foot shot square off side",
+          "a short ball rising at the batter"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What is the cricket meaning of “googly”?",
+        "o": [
+          "a leg-spinner's wrong'un",
+          "an off-spinner's ball turning away",
+          "an over with no runs charged",
+          "balls bowled per wicket"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What is the cricket meaning of “doosra”?",
+        "o": [
+          "wilfully blocking the fielders",
+          "an off-spinner's ball turning away",
+          "100 runs by one batter",
+          "50 runs by one batter"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What is the cricket meaning of “inswinger”?",
+        "o": [
+          "50 runs by one batter",
+          "Decision Review System",
+          "a ball moving into the batter",
+          "Duckworth-Lewis-Stern method"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What is the cricket meaning of “outswinger”?",
+        "o": [
+          "a batter dismissed for zero twice",
+          "a captain closes the innings early",
+          "a cross-batted shot against spin",
+          "a ball moving away from the batter"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What is the cricket meaning of “reverse swing”?",
+        "o": [
+          "late swing with an older ball",
+          "a ball moving away from the batter",
+          "a ball moving into the batter",
+          "a ball pitching beside the toes"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What is the cricket meaning of “cover drive”?",
+        "o": [
+          "the strip between the wickets",
+          "a front-foot shot through cover",
+          "the trailing Test side bats again",
+          "three stumps topped by two bails"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What is the cricket meaning of “square cut”?",
+        "o": [
+          "a cross-batted shot against spin",
+          "a front-foot shot through cover",
+          "a back-foot shot square off side",
+          "a leg-spinner's wrong'un"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What is the cricket meaning of “pull shot”?",
+        "o": [
+          "overs with tighter fielding limits",
+          "runs conceded per over",
+          "runs conceded per wicket",
+          "a shot to leg from a short ball"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What is the cricket meaning of “sweep shot”?",
+        "o": [
+          "a cross-batted shot against spin",
+          "overs with tighter fielding limits",
+          "runs conceded per over",
+          "runs conceded per wicket"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What is the cricket meaning of “nightwatchman”?",
+        "o": [
+          "100 runs by one batter",
+          "a lower-order batter sent in late",
+          "50 runs by one batter",
+          "Decision Review System"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which national team did Sachin Tendulkar play for?",
+        "o": [
+          "Bangladesh",
+          "England",
+          "India",
+          "Ireland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which national team did Virat Kohli play for?",
+        "o": [
+          "New Zealand",
+          "Pakistan",
+          "Scotland",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which national team did Rohit Sharma play for?",
+        "o": [
+          "India",
+          "Netherlands",
+          "New Zealand",
+          "Pakistan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which national team did MS Dhoni play for?",
+        "o": [
+          "West Indies",
+          "India",
+          "Zimbabwe",
+          "Afghanistan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which national team did Kapil Dev play for?",
+        "o": [
+          "South Africa",
+          "Sri Lanka",
+          "India",
+          "West Indies"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which national team did Sunil Gavaskar play for?",
+        "o": [
+          "New Zealand",
+          "Pakistan",
+          "Scotland",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which national team did Rahul Dravid play for?",
+        "o": [
+          "India",
+          "Afghanistan",
+          "Australia",
+          "Bangladesh"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which national team did Anil Kumble play for?",
+        "o": [
+          "Afghanistan",
+          "India",
+          "Australia",
+          "Bangladesh"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which national team did Jasprit Bumrah play for?",
+        "o": [
+          "Ireland",
+          "Nepal",
+          "India",
+          "Netherlands"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which national team did Ravichandran Ashwin play for?",
+        "o": [
+          "Zimbabwe",
+          "Afghanistan",
+          "Australia",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which national team did Ravindra Jadeja play for?",
+        "o": [
+          "India",
+          "Netherlands",
+          "New Zealand",
+          "Pakistan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which national team did Virender Sehwag play for?",
+        "o": [
+          "Ireland",
+          "India",
+          "Nepal",
+          "Netherlands"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which national team did Sourav Ganguly play for?",
+        "o": [
+          "England",
+          "Ireland",
+          "India",
+          "Nepal"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which national team did Yuvraj Singh play for?",
+        "o": [
+          "Ireland",
+          "Nepal",
+          "Netherlands",
+          "India"
+        ],
+        "a": 3
+      }
+    ],
+    "2": [
+      {
+        "p": "Which national team did Zaheer Khan play for?",
+        "o": [
+          "India",
+          "Sri Lanka",
+          "West Indies",
+          "Zimbabwe"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL team listed Ravindra Jadeja in its 2026 squad?",
+        "o": [
+          "Gujarat Titans",
+          "Rajasthan Royals",
+          "Kolkata Knight Riders",
+          "Lucknow Super Giants"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which national team did Mohammed Shami play for?",
+        "o": [
+          "West Indies",
+          "Zimbabwe",
+          "India",
+          "Afghanistan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL team listed Rishabh Pant in its 2026 squad?",
+        "o": [
+          "Kolkata Knight Riders",
+          "Mumbai Indians",
+          "Punjab Kings",
+          "Lucknow Super Giants"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which national team did Shubman Gill play for?",
+        "o": [
+          "India",
+          "Ireland",
+          "Nepal",
+          "Netherlands"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL team listed Jos Buttler in its 2026 squad?",
+        "o": [
+          "Lucknow Super Giants",
+          "Gujarat Titans",
+          "Mumbai Indians",
+          "Punjab Kings"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which national team did Suryakumar Yadav play for?",
+        "o": [
+          "Zimbabwe",
+          "Afghanistan",
+          "India",
+          "Australia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL team listed Hardik Pandya in its 2026 squad?",
+        "o": [
+          "Rajasthan Royals",
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad",
+          "Mumbai Indians"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which national team did Hardik Pandya play for?",
+        "o": [
+          "India",
+          "Netherlands",
+          "New Zealand",
+          "Pakistan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL team listed Travis Head in its 2026 squad?",
+        "o": [
+          "Rajasthan Royals",
+          "Sunrisers Hyderabad",
+          "Royal Challengers Bengaluru",
+          "Chennai Super Kings"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which national team did Rishabh Pant play for?",
+        "o": [
+          "Netherlands",
+          "New Zealand",
+          "India",
+          "Pakistan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL team listed Nicholas Pooran in its 2026 squad?",
+        "o": [
+          "Punjab Kings",
+          "Rajasthan Royals",
+          "Royal Challengers Bengaluru",
+          "Lucknow Super Giants"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which national team did Don Bradman play for?",
+        "o": [
+          "Australia",
+          "South Africa",
+          "Sri Lanka",
+          "West Indies"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL team listed MS Dhoni in its 2026 squad?",
+        "o": [
+          "Mumbai Indians",
+          "Chennai Super Kings",
+          "Punjab Kings",
+          "Rajasthan Royals"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which national team did Ricky Ponting play for?",
+        "o": [
+          "Nepal",
+          "Netherlands",
+          "Australia",
+          "New Zealand"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL team listed Sanju Samson in its 2026 squad?",
+        "o": [
+          "Mumbai Indians",
+          "Punjab Kings",
+          "Rajasthan Royals",
+          "Chennai Super Kings"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which national team did Shane Warne play for?",
+        "o": [
+          "Australia",
+          "Afghanistan",
+          "Bangladesh",
+          "England"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL team listed Yashasvi Jaiswal in its 2026 squad?",
+        "o": [
+          "Delhi Capitals",
+          "Rajasthan Royals",
+          "Gujarat Titans",
+          "Kolkata Knight Riders"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which national team did Glenn McGrath play for?",
+        "o": [
+          "West Indies",
+          "Zimbabwe",
+          "Australia",
+          "Afghanistan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL team listed KL Rahul in its 2026 squad?",
+        "o": [
+          "Rajasthan Royals",
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad",
+          "Delhi Capitals"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which national team did Adam Gilchrist play for?",
+        "o": [
+          "Australia",
+          "Netherlands",
+          "New Zealand",
+          "Pakistan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL team listed Ruturaj Gaikwad in its 2026 squad?",
+        "o": [
+          "Royal Challengers Bengaluru",
+          "Chennai Super Kings",
+          "Sunrisers Hyderabad",
+          "Delhi Capitals"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which national team did Allan Border play for?",
+        "o": [
+          "Pakistan",
+          "Scotland",
+          "Australia",
+          "South Africa"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL team listed Quinton de Kock in its 2026 squad?",
+        "o": [
+          "Sunrisers Hyderabad",
+          "Chennai Super Kings",
+          "Delhi Capitals",
+          "Mumbai Indians"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which national team did Steve Waugh play for?",
+        "o": [
+          "Australia",
+          "Nepal",
+          "Netherlands",
+          "New Zealand"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL team listed Rinku Singh in its 2026 squad?",
+        "o": [
+          "Sunrisers Hyderabad",
+          "Kolkata Knight Riders",
+          "Chennai Super Kings",
+          "Delhi Capitals"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which national team did Steve Smith play for?",
+        "o": [
+          "Netherlands",
+          "New Zealand",
+          "Australia",
+          "Pakistan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL team listed Abhishek Sharma in its 2026 squad?",
+        "o": [
+          "Lucknow Super Giants",
+          "Mumbai Indians",
+          "Punjab Kings",
+          "Sunrisers Hyderabad"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which national team did Pat Cummins play for?",
+        "o": [
+          "Australia",
+          "Sri Lanka",
+          "West Indies",
+          "Zimbabwe"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL team listed Sam Curran in its 2026 squad?",
+        "o": [
+          "Lucknow Super Giants",
+          "Rajasthan Royals",
+          "Mumbai Indians",
+          "Punjab Kings"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which national team did Mitchell Starc play for?",
+        "o": [
+          "India",
+          "Ireland",
+          "Australia",
+          "Nepal"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which national team did Travis Head play for?",
+        "o": [
+          "Scotland",
+          "South Africa",
+          "Sri Lanka",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which national team did Glenn Maxwell play for?",
+        "o": [
+          "Australia",
+          "Ireland",
+          "Nepal",
+          "Netherlands"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which national team did Ian Botham play for?",
+        "o": [
+          "Scotland",
+          "England",
+          "South Africa",
+          "Sri Lanka"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which national team did Alastair Cook play for?",
+        "o": [
+          "Zimbabwe",
+          "Afghanistan",
+          "England",
+          "Australia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which national team did Joe Root play for?",
+        "o": [
+          "Pakistan",
+          "Scotland",
+          "South Africa",
+          "England"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which definition fits the cricket term “century”?",
+        "o": [
+          "100 runs by one batter",
+          "three stumps topped by two bails",
+          "three wickets in consecutive balls",
+          "wicket broken while batter is out"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which definition fits the cricket term “half-century”?",
+        "o": [
+          "four runs as the ball reaches rope",
+          "50 runs by one batter",
+          "keeper breaks wicket out of ground",
+          "late swing with an older ball"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which definition fits the cricket term “duck”?",
+        "o": [
+          "striker breaks their own wicket",
+          "the strip between the wickets",
+          "a batter dismissed for zero",
+          "the trailing Test side bats again"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which definition fits the cricket term “golden duck”?",
+        "o": [
+          "50 runs by one batter",
+          "Decision Review System",
+          "Duckworth-Lewis-Stern method",
+          "a batter dismissed first ball"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which definition fits the cricket term “hat-trick”?",
+        "o": [
+          "three wickets in consecutive balls",
+          "runs divided by dismissals",
+          "runs needed per over remaining",
+          "runs per 100 balls faced"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which definition fits the cricket term “maiden over”?",
+        "o": [
+          "a player who both bats and bowls",
+          "an over with no runs charged",
+          "a short ball rising at the batter",
+          "a shot to leg from a short ball"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which definition fits the cricket term “yorker”?",
+        "o": [
+          "runs per 100 balls faced",
+          "six runs when the ball clears it",
+          "a ball pitching beside the toes",
+          "striker breaks their own wicket"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which definition fits the cricket term “bouncer”?",
+        "o": [
+          "wilfully blocking the fielders",
+          "100 runs by one batter",
+          "50 runs by one batter",
+          "a short ball rising at the batter"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which definition fits the cricket term “googly”?",
+        "o": [
+          "a leg-spinner's wrong'un",
+          "50 runs by one batter",
+          "Decision Review System",
+          "Duckworth-Lewis-Stern method"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which definition fits the cricket term “doosra”?",
+        "o": [
+          "an over with no runs charged",
+          "an off-spinner's ball turning away",
+          "balls bowled per wicket",
+          "body illegally blocks the wicket"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which definition fits the cricket term “inswinger”?",
+        "o": [
+          "a batter dismissed for zero",
+          "a batter dismissed for zero twice",
+          "a ball moving into the batter",
+          "a captain closes the innings early"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which definition fits the cricket term “outswinger”?",
+        "o": [
+          "an extra untouched by bat or body",
+          "an illegal ball costing an extra",
+          "an off-spinner's ball turning away",
+          "a ball moving away from the batter"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which definition fits the cricket term “reverse swing”?",
+        "o": [
+          "late swing with an older ball",
+          "an illegal ball costing an extra",
+          "an off-spinner's ball turning away",
+          "an over with no runs charged"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which definition fits the cricket term “cover drive”?",
+        "o": [
+          "an over with no runs charged",
+          "a front-foot shot through cover",
+          "balls bowled per wicket",
+          "body illegally blocks the wicket"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which definition fits the cricket term “square cut”?",
+        "o": [
+          "five wickets in one innings",
+          "four runs as the ball reaches rope",
+          "a back-foot shot square off side",
+          "keeper breaks wicket out of ground"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which definition fits the cricket term “pull shot”?",
+        "o": [
+          "runs divided by dismissals",
+          "runs needed per over remaining",
+          "runs per 100 balls faced",
+          "a shot to leg from a short ball"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which definition fits the cricket term “sweep shot”?",
+        "o": [
+          "a cross-batted shot against spin",
+          "Duckworth-Lewis-Stern method",
+          "a back-foot shot square off side",
+          "a ball beyond normal batting reach"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which definition fits the cricket term “nightwatchman”?",
+        "o": [
+          "a short ball rising at the batter",
+          "a lower-order batter sent in late",
+          "a shot to leg from a short ball",
+          "a tie-breaking extra over"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Sachin Tendulkar represented which country in international cricket?",
+        "o": [
+          "Zimbabwe",
+          "Afghanistan",
+          "India",
+          "Australia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Virat Kohli represented which country in international cricket?",
+        "o": [
+          "Afghanistan",
+          "Australia",
+          "Bangladesh",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Rohit Sharma represented which country in international cricket?",
+        "o": [
+          "India",
+          "New Zealand",
+          "Pakistan",
+          "Scotland"
+        ],
+        "a": 0
+      },
+      {
+        "p": "MS Dhoni represented which country in international cricket?",
+        "o": [
+          "Australia",
+          "India",
+          "Bangladesh",
+          "England"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Kapil Dev represented which country in international cricket?",
+        "o": [
+          "England",
+          "Ireland",
+          "India",
+          "Nepal"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Sunil Gavaskar represented which country in international cricket?",
+        "o": [
+          "West Indies",
+          "Zimbabwe",
+          "Afghanistan",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Rahul Dravid represented which country in international cricket?",
+        "o": [
+          "India",
+          "Australia",
+          "Bangladesh",
+          "England"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Anil Kumble represented which country in international cricket?",
+        "o": [
+          "New Zealand",
+          "India",
+          "Pakistan",
+          "Scotland"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Jasprit Bumrah represented which country in international cricket?",
+        "o": [
+          "Scotland",
+          "South Africa",
+          "India",
+          "Sri Lanka"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Ravichandran Ashwin represented which country in international cricket?",
+        "o": [
+          "Afghanistan",
+          "Australia",
+          "Bangladesh",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Ravindra Jadeja represented which country in international cricket?",
+        "o": [
+          "India",
+          "Sri Lanka",
+          "West Indies",
+          "Zimbabwe"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Virender Sehwag represented which country in international cricket?",
+        "o": [
+          "New Zealand",
+          "India",
+          "Pakistan",
+          "Scotland"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Sourav Ganguly represented which country in international cricket?",
+        "o": [
+          "Netherlands",
+          "New Zealand",
+          "India",
+          "Pakistan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Yuvraj Singh represented which country in international cricket?",
+        "o": [
+          "England",
+          "Ireland",
+          "Nepal",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Zaheer Khan represented which country in international cricket?",
+        "o": [
+          "India",
+          "Ireland",
+          "Nepal",
+          "Netherlands"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Mohammed Shami represented which country in international cricket?",
+        "o": [
+          "England",
+          "India",
+          "Ireland",
+          "Nepal"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Shubman Gill represented which country in international cricket?",
+        "o": [
+          "Nepal",
+          "Netherlands",
+          "India",
+          "New Zealand"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Suryakumar Yadav represented which country in international cricket?",
+        "o": [
+          "South Africa",
+          "Sri Lanka",
+          "West Indies",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Hardik Pandya represented which country in international cricket?",
+        "o": [
+          "India",
+          "England",
+          "Ireland",
+          "Nepal"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Rishabh Pant represented which country in international cricket?",
+        "o": [
+          "New Zealand",
+          "India",
+          "Pakistan",
+          "Scotland"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Don Bradman represented which country in international cricket?",
+        "o": [
+          "India",
+          "Ireland",
+          "Australia",
+          "Nepal"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Ricky Ponting represented which country in international cricket?",
+        "o": [
+          "England",
+          "India",
+          "Ireland",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Shane Warne represented which country in international cricket?",
+        "o": [
+          "Australia",
+          "New Zealand",
+          "Pakistan",
+          "Scotland"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Glenn McGrath represented which country in international cricket?",
+        "o": [
+          "Scotland",
+          "Australia",
+          "South Africa",
+          "Sri Lanka"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Adam Gilchrist represented which country in international cricket?",
+        "o": [
+          "Sri Lanka",
+          "West Indies",
+          "Australia",
+          "Zimbabwe"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Allan Border represented which country in international cricket?",
+        "o": [
+          "Scotland",
+          "South Africa",
+          "Sri Lanka",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Steve Waugh represented which country in international cricket?",
+        "o": [
+          "Australia",
+          "West Indies",
+          "Zimbabwe",
+          "Afghanistan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Steve Smith represented which country in international cricket?",
+        "o": [
+          "Zimbabwe",
+          "Australia",
+          "Afghanistan",
+          "Bangladesh"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Pat Cummins represented which country in international cricket?",
+        "o": [
+          "Netherlands",
+          "New Zealand",
+          "Australia",
+          "Pakistan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Mitchell Starc represented which country in international cricket?",
+        "o": [
+          "Pakistan",
+          "Scotland",
+          "South Africa",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Travis Head represented which country in international cricket?",
+        "o": [
+          "Australia",
+          "England",
+          "India",
+          "Ireland"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Glenn Maxwell represented which country in international cricket?",
+        "o": [
+          "Bangladesh",
+          "Australia",
+          "England",
+          "India"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Ian Botham represented which country in international cricket?",
+        "o": [
+          "Afghanistan",
+          "Australia",
+          "England",
+          "Bangladesh"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Alastair Cook represented which country in international cricket?",
+        "o": [
+          "South Africa",
+          "Sri Lanka",
+          "West Indies",
+          "England"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Joe Root represented which country in international cricket?",
+        "o": [
+          "England",
+          "Sri Lanka",
+          "West Indies",
+          "Zimbabwe"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In cricket, “century” describes what?",
+        "o": [
+          "striker breaks their own wicket",
+          "100 runs by one batter",
+          "the strip between the wickets",
+          "the trailing Test side bats again"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In cricket, “half-century” describes what?",
+        "o": [
+          "runs needed per over remaining",
+          "runs per 100 balls faced",
+          "50 runs by one batter",
+          "six runs when the ball clears it"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In cricket, “duck” describes what?",
+        "o": [
+          "Decision Review System",
+          "Duckworth-Lewis-Stern method",
+          "a back-foot shot square off side",
+          "a batter dismissed for zero"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In cricket, “golden duck” describes what?",
+        "o": [
+          "a batter dismissed first ball",
+          "body illegally blocks the wicket",
+          "first-ball ducks in both innings",
+          "five wickets in one innings"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In cricket, “hat-trick” describes what?",
+        "o": [
+          "wicket broken while batter is out",
+          "three wickets in consecutive balls",
+          "wilfully blocking the fielders",
+          "100 runs by one batter"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In cricket, “maiden over” describes what?",
+        "o": [
+          "100 runs by one batter",
+          "50 runs by one batter",
+          "an over with no runs charged",
+          "Decision Review System"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In cricket, “yorker” describes what?",
+        "o": [
+          "a player who both bats and bowls",
+          "a short ball rising at the batter",
+          "a shot to leg from a short ball",
+          "a ball pitching beside the toes"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In cricket, “bouncer” describes what?",
+        "o": [
+          "a short ball rising at the batter",
+          "50 runs by one batter",
+          "Decision Review System",
+          "Duckworth-Lewis-Stern method"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In cricket, “googly” describes what?",
+        "o": [
+          "body illegally blocks the wicket",
+          "a leg-spinner's wrong'un",
+          "first-ball ducks in both innings",
+          "five wickets in one innings"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In cricket, “doosra” describes what?",
+        "o": [
+          "Decision Review System",
+          "Duckworth-Lewis-Stern method",
+          "an off-spinner's ball turning away",
+          "a back-foot shot square off side"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In cricket, “inswinger” describes what?",
+        "o": [
+          "a cross-batted shot against spin",
+          "a front-foot shot through cover",
+          "a leg-spinner's wrong'un",
+          "a ball moving into the batter"
+        ],
+        "a": 3
+      }
+    ],
+    "3": [
+      {
+        "p": "In cricket, “outswinger” describes what?",
+        "o": [
+          "a ball moving away from the batter",
+          "runs needed per over remaining",
+          "runs per 100 balls faced",
+          "six runs when the ball clears it"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL team listed Axar Patel in its 2026 squad?",
+        "o": [
+          "Mumbai Indians",
+          "Delhi Capitals",
+          "Punjab Kings",
+          "Rajasthan Royals"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In cricket, “reverse swing” describes what?",
+        "o": [
+          "wicket broken while batter is out",
+          "wilfully blocking the fielders",
+          "late swing with an older ball",
+          "100 runs by one batter"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL team listed Shreyas Iyer in its 2026 squad?",
+        "o": [
+          "Mumbai Indians",
+          "Rajasthan Royals",
+          "Royal Challengers Bengaluru",
+          "Punjab Kings"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In cricket, “cover drive” describes what?",
+        "o": [
+          "a front-foot shot through cover",
+          "Decision Review System",
+          "Duckworth-Lewis-Stern method",
+          "a back-foot shot square off side"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL team listed Shivam Dube in its 2026 squad?",
+        "o": [
+          "Kolkata Knight Riders",
+          "Chennai Super Kings",
+          "Lucknow Super Giants",
+          "Mumbai Indians"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In cricket, “square cut” describes what?",
+        "o": [
+          "six runs when the ball clears it",
+          "striker breaks their own wicket",
+          "a back-foot shot square off side",
+          "the strip between the wickets"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL team listed Phil Salt in its 2026 squad?",
+        "o": [
+          "Sunrisers Hyderabad",
+          "Chennai Super Kings",
+          "Delhi Capitals",
+          "Royal Challengers Bengaluru"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In cricket, “pull shot” describes what?",
+        "o": [
+          "a shot to leg from a short ball",
+          "three wickets in consecutive balls",
+          "wicket broken while batter is out",
+          "wilfully blocking the fielders"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2026 IPL?",
+        "o": [
+          "Punjab Kings",
+          "Royal Challengers Bengaluru",
+          "Rajasthan Royals",
+          "Rising Pune Supergiant"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In cricket, “sweep shot” describes what?",
+        "o": [
+          "a tie-breaking extra over",
+          "an extra after body contact",
+          "a cross-batted shot against spin",
+          "an extra untouched by bat or body"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2025 IPL?",
+        "o": [
+          "Sunrisers Hyderabad",
+          "Chennai Super Kings",
+          "Deccan Chargers",
+          "Royal Challengers Bengaluru"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In cricket, “nightwatchman” describes what?",
+        "o": [
+          "a lower-order batter sent in late",
+          "six runs when the ball clears it",
+          "striker breaks their own wicket",
+          "the strip between the wickets"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2024 IPL?",
+        "o": [
+          "Delhi Capitals",
+          "Kolkata Knight Riders",
+          "Gujarat Titans",
+          "Mumbai Indians"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In international cricket, Sachin Tendulkar played for which nation?",
+        "o": [
+          "South Africa",
+          "Sri Lanka",
+          "India",
+          "West Indies"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2023 IPL?",
+        "o": [
+          "Rising Pune Supergiant",
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad",
+          "Chennai Super Kings"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In international cricket, Virat Kohli played for which nation?",
+        "o": [
+          "India",
+          "Scotland",
+          "South Africa",
+          "Sri Lanka"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2022 IPL?",
+        "o": [
+          "Chennai Super Kings",
+          "Gujarat Titans",
+          "Deccan Chargers",
+          "Delhi Capitals"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In international cricket, Rohit Sharma played for which nation?",
+        "o": [
+          "Pakistan",
+          "Scotland",
+          "India",
+          "South Africa"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2021 IPL?",
+        "o": [
+          "Kolkata Knight Riders",
+          "Mumbai Indians",
+          "Punjab Kings",
+          "Chennai Super Kings"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In international cricket, MS Dhoni played for which nation?",
+        "o": [
+          "India",
+          "Ireland",
+          "Nepal",
+          "Netherlands"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2020 IPL?",
+        "o": [
+          "Rajasthan Royals",
+          "Mumbai Indians",
+          "Rising Pune Supergiant",
+          "Royal Challengers Bengaluru"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In international cricket, Kapil Dev played for which nation?",
+        "o": [
+          "South Africa",
+          "Sri Lanka",
+          "India",
+          "West Indies"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which team were champions of the 2019 IPL?",
+        "o": [
+          "Chennai Super Kings",
+          "Deccan Chargers",
+          "Delhi Capitals",
+          "Mumbai Indians"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In international cricket, Sunil Gavaskar played for which nation?",
+        "o": [
+          "India",
+          "England",
+          "Ireland",
+          "Nepal"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which team were champions of the 2018 IPL?",
+        "o": [
+          "Kolkata Knight Riders",
+          "Chennai Super Kings",
+          "Mumbai Indians",
+          "Punjab Kings"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In international cricket, Rahul Dravid played for which nation?",
+        "o": [
+          "Bangladesh",
+          "England",
+          "India",
+          "Ireland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL side included Virat Kohli in its 2026 squad?",
+        "o": [
+          "Kolkata Knight Riders",
+          "Lucknow Super Giants",
+          "Mumbai Indians",
+          "Royal Challengers Bengaluru"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In international cricket, Anil Kumble played for which nation?",
+        "o": [
+          "India",
+          "Afghanistan",
+          "Australia",
+          "Bangladesh"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL side included Suryakumar Yadav in its 2026 squad?",
+        "o": [
+          "Gujarat Titans",
+          "Mumbai Indians",
+          "Kolkata Knight Riders",
+          "Lucknow Super Giants"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In international cricket, Jasprit Bumrah played for which nation?",
+        "o": [
+          "Afghanistan",
+          "Australia",
+          "India",
+          "Bangladesh"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In international cricket, Ravichandran Ashwin played for which nation?",
+        "o": [
+          "Zimbabwe",
+          "Afghanistan",
+          "Australia",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In international cricket, Ravindra Jadeja played for which nation?",
+        "o": [
+          "India",
+          "Afghanistan",
+          "Australia",
+          "Bangladesh"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In international cricket, Virender Sehwag played for which nation?",
+        "o": [
+          "West Indies",
+          "India",
+          "Zimbabwe",
+          "Afghanistan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In international cricket, Sourav Ganguly played for which nation?",
+        "o": [
+          "Sri Lanka",
+          "West Indies",
+          "India",
+          "Zimbabwe"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In international cricket, Yuvraj Singh played for which nation?",
+        "o": [
+          "Ireland",
+          "Nepal",
+          "Netherlands",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In international cricket, Zaheer Khan played for which nation?",
+        "o": [
+          "India",
+          "Sri Lanka",
+          "West Indies",
+          "Zimbabwe"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In international cricket, Mohammed Shami played for which nation?",
+        "o": [
+          "Netherlands",
+          "India",
+          "New Zealand",
+          "Pakistan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In international cricket, Shubman Gill played for which nation?",
+        "o": [
+          "Ireland",
+          "Nepal",
+          "India",
+          "Netherlands"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In international cricket, Suryakumar Yadav played for which nation?",
+        "o": [
+          "Scotland",
+          "South Africa",
+          "Sri Lanka",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In international cricket, Hardik Pandya played for which nation?",
+        "o": [
+          "India",
+          "Afghanistan",
+          "Australia",
+          "Bangladesh"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In international cricket, Rishabh Pant played for which nation?",
+        "o": [
+          "Netherlands",
+          "India",
+          "New Zealand",
+          "Pakistan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In international cricket, Don Bradman played for which nation?",
+        "o": [
+          "South Africa",
+          "Sri Lanka",
+          "Australia",
+          "West Indies"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In international cricket, Ricky Ponting played for which nation?",
+        "o": [
+          "Zimbabwe",
+          "Afghanistan",
+          "Bangladesh",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In international cricket, Shane Warne played for which nation?",
+        "o": [
+          "Australia",
+          "Afghanistan",
+          "Bangladesh",
+          "England"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In international cricket, Glenn McGrath played for which nation?",
+        "o": [
+          "Netherlands",
+          "Australia",
+          "New Zealand",
+          "Pakistan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In international cricket, Adam Gilchrist played for which nation?",
+        "o": [
+          "Afghanistan",
+          "Bangladesh",
+          "Australia",
+          "England"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In international cricket, Allan Border played for which nation?",
+        "o": [
+          "South Africa",
+          "Sri Lanka",
+          "West Indies",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In international cricket, Steve Waugh played for which nation?",
+        "o": [
+          "Australia",
+          "Nepal",
+          "Netherlands",
+          "New Zealand"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In international cricket, Steve Smith played for which nation?",
+        "o": [
+          "Netherlands",
+          "Australia",
+          "New Zealand",
+          "Pakistan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In international cricket, Pat Cummins played for which nation?",
+        "o": [
+          "Zimbabwe",
+          "Afghanistan",
+          "Australia",
+          "Bangladesh"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In international cricket, Mitchell Starc played for which nation?",
+        "o": [
+          "Sri Lanka",
+          "West Indies",
+          "Zimbabwe",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In international cricket, Travis Head played for which nation?",
+        "o": [
+          "Australia",
+          "Scotland",
+          "South Africa",
+          "Sri Lanka"
+        ],
+        "a": 0
+      },
+      {
+        "p": "In international cricket, Glenn Maxwell played for which nation?",
+        "o": [
+          "West Indies",
+          "Australia",
+          "Zimbabwe",
+          "Afghanistan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "In international cricket, Ian Botham played for which nation?",
+        "o": [
+          "New Zealand",
+          "Pakistan",
+          "England",
+          "Scotland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "In international cricket, Alastair Cook played for which nation?",
+        "o": [
+          "New Zealand",
+          "Pakistan",
+          "Scotland",
+          "England"
+        ],
+        "a": 3
+      },
+      {
+        "p": "In international cricket, Joe Root played for which nation?",
+        "o": [
+          "England",
+          "Afghanistan",
+          "Australia",
+          "Bangladesh"
+        ],
+        "a": 0
+      },
+      {
+        "p": "How is “century” defined in cricket?",
+        "o": [
+          "the trailing Test side bats again",
+          "100 runs by one batter",
+          "three stumps topped by two bails",
+          "three wickets in consecutive balls"
+        ],
+        "a": 1
+      },
+      {
+        "p": "How is “half-century” defined in cricket?",
+        "o": [
+          "the strip between the wickets",
+          "the trailing Test side bats again",
+          "50 runs by one batter",
+          "three stumps topped by two bails"
+        ],
+        "a": 2
+      },
+      {
+        "p": "How is “duck” defined in cricket?",
+        "o": [
+          "a captain closes the innings early",
+          "a cross-batted shot against spin",
+          "a front-foot shot through cover",
+          "a batter dismissed for zero"
+        ],
+        "a": 3
+      },
+      {
+        "p": "How is “golden duck” defined in cricket?",
+        "o": [
+          "a batter dismissed first ball",
+          "a batter dismissed for zero",
+          "a batter dismissed for zero twice",
+          "a captain closes the innings early"
+        ],
+        "a": 0
+      },
+      {
+        "p": "How is “hat-trick” defined in cricket?",
+        "o": [
+          "a ball moving away from the batter",
+          "three wickets in consecutive balls",
+          "a ball moving into the batter",
+          "a ball pitching beside the toes"
+        ],
+        "a": 1
+      },
+      {
+        "p": "How is “maiden over” defined in cricket?",
+        "o": [
+          "balls bowled per wicket",
+          "body illegally blocks the wicket",
+          "an over with no runs charged",
+          "first-ball ducks in both innings"
+        ],
+        "a": 2
+      },
+      {
+        "p": "How is “yorker” defined in cricket?",
+        "o": [
+          "the strip between the wickets",
+          "the trailing Test side bats again",
+          "three stumps topped by two bails",
+          "a ball pitching beside the toes"
+        ],
+        "a": 3
+      },
+      {
+        "p": "How is “bouncer” defined in cricket?",
+        "o": [
+          "a short ball rising at the batter",
+          "Duckworth-Lewis-Stern method",
+          "a back-foot shot square off side",
+          "a ball beyond normal batting reach"
+        ],
+        "a": 0
+      },
+      {
+        "p": "How is “googly” defined in cricket?",
+        "o": [
+          "a back-foot shot square off side",
+          "a leg-spinner's wrong'un",
+          "a ball beyond normal batting reach",
+          "a ball moving away from the batter"
+        ],
+        "a": 1
+      },
+      {
+        "p": "How is “doosra” defined in cricket?",
+        "o": [
+          "first-ball ducks in both innings",
+          "five wickets in one innings",
+          "an off-spinner's ball turning away",
+          "four runs as the ball reaches rope"
+        ],
+        "a": 2
+      },
+      {
+        "p": "How is “inswinger” defined in cricket?",
+        "o": [
+          "a tie-breaking extra over",
+          "an extra after body contact",
+          "an extra untouched by bat or body",
+          "a ball moving into the batter"
+        ],
+        "a": 3
+      },
+      {
+        "p": "How is “outswinger” defined in cricket?",
+        "o": [
+          "a ball moving away from the batter",
+          "Decision Review System",
+          "Duckworth-Lewis-Stern method",
+          "a back-foot shot square off side"
+        ],
+        "a": 0
+      },
+      {
+        "p": "How is “reverse swing” defined in cricket?",
+        "o": [
+          "a tie-breaking extra over",
+          "late swing with an older ball",
+          "an extra after body contact",
+          "an extra untouched by bat or body"
+        ],
+        "a": 1
+      },
+      {
+        "p": "How is “cover drive” defined in cricket?",
+        "o": [
+          "leaving through injury or illness",
+          "next ball bars most dismissals",
+          "a front-foot shot through cover",
+          "overs with tighter fielding limits"
+        ],
+        "a": 2
+      },
+      {
+        "p": "How is “square cut” defined in cricket?",
+        "o": [
+          "a batter dismissed for zero",
+          "a batter dismissed for zero twice",
+          "a captain closes the innings early",
+          "a back-foot shot square off side"
+        ],
+        "a": 3
+      },
+      {
+        "p": "How is “pull shot” defined in cricket?",
+        "o": [
+          "a shot to leg from a short ball",
+          "a ball beyond normal batting reach",
+          "a ball moving away from the batter",
+          "a ball moving into the batter"
+        ],
+        "a": 0
+      },
+      {
+        "p": "How is “sweep shot” defined in cricket?",
+        "o": [
+          "late swing with an older ball",
+          "a cross-batted shot against spin",
+          "leaving through injury or illness",
+          "next ball bars most dismissals"
+        ],
+        "a": 1
+      },
+      {
+        "p": "How is “nightwatchman” defined in cricket?",
+        "o": [
+          "a leg-spinner's wrong'un",
+          "a line marking a batter's ground",
+          "a lower-order batter sent in late",
+          "a player who both bats and bowls"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name Sachin Tendulkar's international side.",
+        "o": [
+          "New Zealand",
+          "Pakistan",
+          "Scotland",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name Virat Kohli's international side.",
+        "o": [
+          "India",
+          "Bangladesh",
+          "England",
+          "Ireland"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name Rohit Sharma's international side.",
+        "o": [
+          "New Zealand",
+          "India",
+          "Pakistan",
+          "Scotland"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name MS Dhoni's international side.",
+        "o": [
+          "New Zealand",
+          "Pakistan",
+          "India",
+          "Scotland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name Kapil Dev's international side.",
+        "o": [
+          "England",
+          "Ireland",
+          "Nepal",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name Sunil Gavaskar's international side.",
+        "o": [
+          "India",
+          "Pakistan",
+          "Scotland",
+          "South Africa"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name Rahul Dravid's international side.",
+        "o": [
+          "Australia",
+          "India",
+          "Bangladesh",
+          "England"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name Anil Kumble's international side.",
+        "o": [
+          "Scotland",
+          "South Africa",
+          "India",
+          "Sri Lanka"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name Jasprit Bumrah's international side.",
+        "o": [
+          "Nepal",
+          "Netherlands",
+          "New Zealand",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name Ravichandran Ashwin's international side.",
+        "o": [
+          "India",
+          "West Indies",
+          "Zimbabwe",
+          "Afghanistan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name Ravindra Jadeja's international side.",
+        "o": [
+          "Nepal",
+          "India",
+          "Netherlands",
+          "New Zealand"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name Virender Sehwag's international side.",
+        "o": [
+          "England",
+          "Ireland",
+          "India",
+          "Nepal"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name Sourav Ganguly's international side.",
+        "o": [
+          "Bangladesh",
+          "England",
+          "Ireland",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name Yuvraj Singh's international side.",
+        "o": [
+          "India",
+          "Nepal",
+          "Netherlands",
+          "New Zealand"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name Zaheer Khan's international side.",
+        "o": [
+          "Ireland",
+          "India",
+          "Nepal",
+          "Netherlands"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name Mohammed Shami's international side.",
+        "o": [
+          "Sri Lanka",
+          "West Indies",
+          "India",
+          "Zimbabwe"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name Shubman Gill's international side.",
+        "o": [
+          "Nepal",
+          "Netherlands",
+          "New Zealand",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name Suryakumar Yadav's international side.",
+        "o": [
+          "India",
+          "Netherlands",
+          "New Zealand",
+          "Pakistan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name Hardik Pandya's international side.",
+        "o": [
+          "Sri Lanka",
+          "India",
+          "West Indies",
+          "Zimbabwe"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name Rishabh Pant's international side.",
+        "o": [
+          "New Zealand",
+          "Pakistan",
+          "India",
+          "Scotland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name Don Bradman's international side.",
+        "o": [
+          "India",
+          "Ireland",
+          "Nepal",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name Ricky Ponting's international side.",
+        "o": [
+          "Australia",
+          "South Africa",
+          "Sri Lanka",
+          "West Indies"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name Shane Warne's international side.",
+        "o": [
+          "New Zealand",
+          "Australia",
+          "Pakistan",
+          "Scotland"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name Glenn McGrath's international side.",
+        "o": [
+          "India",
+          "Ireland",
+          "Australia",
+          "Nepal"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name Adam Gilchrist's international side.",
+        "o": [
+          "Nepal",
+          "Netherlands",
+          "New Zealand",
+          "Australia"
+        ],
+        "a": 3
+      }
+    ],
+    "4": [
+      {
+        "p": "Name Allan Border's international side.",
+        "o": [
+          "Australia",
+          "Scotland",
+          "South Africa",
+          "Sri Lanka"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL side included Heinrich Klaasen in its 2026 squad?",
+        "o": [
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad",
+          "Chennai Super Kings",
+          "Delhi Capitals"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name Steve Waugh's international side.",
+        "o": [
+          "West Indies",
+          "Zimbabwe",
+          "Australia",
+          "Afghanistan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL side included Shubman Gill in its 2026 squad?",
+        "o": [
+          "Sunrisers Hyderabad",
+          "Chennai Super Kings",
+          "Delhi Capitals",
+          "Gujarat Titans"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name Steve Smith's international side.",
+        "o": [
+          "Australia",
+          "Zimbabwe",
+          "Afghanistan",
+          "Bangladesh"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL side included Rohit Sharma in its 2026 squad?",
+        "o": [
+          "Chennai Super Kings",
+          "Mumbai Indians",
+          "Delhi Capitals",
+          "Gujarat Titans"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name Pat Cummins's international side.",
+        "o": [
+          "Netherlands",
+          "New Zealand",
+          "Australia",
+          "Pakistan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL side included Sunil Narine in its 2026 squad?",
+        "o": [
+          "Punjab Kings",
+          "Rajasthan Royals",
+          "Royal Challengers Bengaluru",
+          "Kolkata Knight Riders"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name Mitchell Starc's international side.",
+        "o": [
+          "Australia",
+          "England",
+          "India",
+          "Ireland"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL side included Ravindra Jadeja in its 2026 squad?",
+        "o": [
+          "Kolkata Knight Riders",
+          "Rajasthan Royals",
+          "Lucknow Super Giants",
+          "Mumbai Indians"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name Travis Head's international side.",
+        "o": [
+          "England",
+          "India",
+          "Australia",
+          "Ireland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL side included Rishabh Pant in its 2026 squad?",
+        "o": [
+          "Mumbai Indians",
+          "Punjab Kings",
+          "Rajasthan Royals",
+          "Lucknow Super Giants"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name Glenn Maxwell's international side.",
+        "o": [
+          "Australia",
+          "Scotland",
+          "South Africa",
+          "Sri Lanka"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL side included Jos Buttler in its 2026 squad?",
+        "o": [
+          "Rajasthan Royals",
+          "Gujarat Titans",
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name Ian Botham's international side.",
+        "o": [
+          "Afghanistan",
+          "Australia",
+          "England",
+          "Bangladesh"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL side included Hardik Pandya in its 2026 squad?",
+        "o": [
+          "Chennai Super Kings",
+          "Delhi Capitals",
+          "Gujarat Titans",
+          "Mumbai Indians"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Name Alastair Cook's international side.",
+        "o": [
+          "England",
+          "Ireland",
+          "Nepal",
+          "Netherlands"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL side included Travis Head in its 2026 squad?",
+        "o": [
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad",
+          "Chennai Super Kings",
+          "Delhi Capitals"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Name Joe Root's international side.",
+        "o": [
+          "India",
+          "Ireland",
+          "England",
+          "Nepal"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL side included Nicholas Pooran in its 2026 squad?",
+        "o": [
+          "Mumbai Indians",
+          "Punjab Kings",
+          "Rajasthan Royals",
+          "Lucknow Super Giants"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What does a cricket scorer mean by “century”?",
+        "o": [
+          "100 runs by one batter",
+          "three wickets in consecutive balls",
+          "wicket broken while batter is out",
+          "wilfully blocking the fielders"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL side included MS Dhoni in its 2026 squad?",
+        "o": [
+          "Punjab Kings",
+          "Chennai Super Kings",
+          "Rajasthan Royals",
+          "Royal Challengers Bengaluru"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What does a cricket scorer mean by “half-century”?",
+        "o": [
+          "a back-foot shot square off side",
+          "a ball beyond normal batting reach",
+          "50 runs by one batter",
+          "a ball moving away from the batter"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL side included Sanju Samson in its 2026 squad?",
+        "o": [
+          "Punjab Kings",
+          "Rajasthan Royals",
+          "Royal Challengers Bengaluru",
+          "Chennai Super Kings"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What does a cricket scorer mean by “duck”?",
+        "o": [
+          "a batter dismissed for zero",
+          "a tie-breaking extra over",
+          "an extra after body contact",
+          "an extra untouched by bat or body"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL side included Yashasvi Jaiswal in its 2026 squad?",
+        "o": [
+          "Royal Challengers Bengaluru",
+          "Rajasthan Royals",
+          "Sunrisers Hyderabad",
+          "Chennai Super Kings"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What does a cricket scorer mean by “golden duck”?",
+        "o": [
+          "overs with tighter fielding limits",
+          "runs conceded per over",
+          "a batter dismissed first ball",
+          "runs conceded per wicket"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL side included KL Rahul in its 2026 squad?",
+        "o": [
+          "Punjab Kings",
+          "Rajasthan Royals",
+          "Royal Challengers Bengaluru",
+          "Delhi Capitals"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What does a cricket scorer mean by “hat-trick”?",
+        "o": [
+          "three wickets in consecutive balls",
+          "a front-foot shot through cover",
+          "a leg-spinner's wrong'un",
+          "a line marking a batter's ground"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL side included Ruturaj Gaikwad in its 2026 squad?",
+        "o": [
+          "Rajasthan Royals",
+          "Chennai Super Kings",
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What does a cricket scorer mean by “maiden over”?",
+        "o": [
+          "a ball pitching beside the toes",
+          "a batter dismissed first ball",
+          "an over with no runs charged",
+          "a batter dismissed for zero"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What does a cricket scorer mean by “yorker”?",
+        "o": [
+          "a tie-breaking extra over",
+          "an extra after body contact",
+          "an extra untouched by bat or body",
+          "a ball pitching beside the toes"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What does a cricket scorer mean by “bouncer”?",
+        "o": [
+          "a short ball rising at the batter",
+          "a ball beyond normal batting reach",
+          "a ball moving away from the batter",
+          "a ball moving into the batter"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What does a cricket scorer mean by “googly”?",
+        "o": [
+          "four runs as the ball reaches rope",
+          "a leg-spinner's wrong'un",
+          "keeper breaks wicket out of ground",
+          "late swing with an older ball"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What does a cricket scorer mean by “doosra”?",
+        "o": [
+          "a ball beyond normal batting reach",
+          "a ball moving away from the batter",
+          "an off-spinner's ball turning away",
+          "a ball moving into the batter"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What does a cricket scorer mean by “inswinger”?",
+        "o": [
+          "first-ball ducks in both innings",
+          "five wickets in one innings",
+          "four runs as the ball reaches rope",
+          "a ball moving into the batter"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What does a cricket scorer mean by “outswinger”?",
+        "o": [
+          "a ball moving away from the batter",
+          "a shot to leg from a short ball",
+          "a tie-breaking extra over",
+          "an extra after body contact"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What does a cricket scorer mean by “reverse swing”?",
+        "o": [
+          "the trailing Test side bats again",
+          "late swing with an older ball",
+          "three stumps topped by two bails",
+          "three wickets in consecutive balls"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What does a cricket scorer mean by “cover drive”?",
+        "o": [
+          "a batter dismissed for zero",
+          "a batter dismissed for zero twice",
+          "a front-foot shot through cover",
+          "a captain closes the innings early"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What does a cricket scorer mean by “square cut”?",
+        "o": [
+          "an extra after body contact",
+          "an extra untouched by bat or body",
+          "an illegal ball costing an extra",
+          "a back-foot shot square off side"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What does a cricket scorer mean by “pull shot”?",
+        "o": [
+          "a shot to leg from a short ball",
+          "a cross-batted shot against spin",
+          "a front-foot shot through cover",
+          "a leg-spinner's wrong'un"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What does a cricket scorer mean by “sweep shot”?",
+        "o": [
+          "100 runs by one batter",
+          "a cross-batted shot against spin",
+          "50 runs by one batter",
+          "Decision Review System"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What does a cricket scorer mean by “nightwatchman”?",
+        "o": [
+          "runs divided by dismissals",
+          "runs needed per over remaining",
+          "a lower-order batter sent in late",
+          "runs per 100 balls faced"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country was Sachin Tendulkar's international team?",
+        "o": [
+          "Ireland",
+          "Nepal",
+          "Netherlands",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country was Virat Kohli's international team?",
+        "o": [
+          "India",
+          "Scotland",
+          "South Africa",
+          "Sri Lanka"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country was Rohit Sharma's international team?",
+        "o": [
+          "Pakistan",
+          "India",
+          "Scotland",
+          "South Africa"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country was MS Dhoni's international team?",
+        "o": [
+          "South Africa",
+          "Sri Lanka",
+          "India",
+          "West Indies"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country was Kapil Dev's international team?",
+        "o": [
+          "South Africa",
+          "Sri Lanka",
+          "West Indies",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country was Sunil Gavaskar's international team?",
+        "o": [
+          "India",
+          "Sri Lanka",
+          "West Indies",
+          "Zimbabwe"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country was Rahul Dravid's international team?",
+        "o": [
+          "Bangladesh",
+          "India",
+          "England",
+          "Ireland"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country was Anil Kumble's international team?",
+        "o": [
+          "Bangladesh",
+          "England",
+          "India",
+          "Ireland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country was Jasprit Bumrah's international team?",
+        "o": [
+          "Pakistan",
+          "Scotland",
+          "South Africa",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country was Ravichandran Ashwin's international team?",
+        "o": [
+          "India",
+          "Sri Lanka",
+          "West Indies",
+          "Zimbabwe"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country was Ravindra Jadeja's international team?",
+        "o": [
+          "South Africa",
+          "India",
+          "Sri Lanka",
+          "West Indies"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country was Virender Sehwag's international team?",
+        "o": [
+          "Pakistan",
+          "Scotland",
+          "India",
+          "South Africa"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country was Sourav Ganguly's international team?",
+        "o": [
+          "New Zealand",
+          "Pakistan",
+          "Scotland",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country was Yuvraj Singh's international team?",
+        "o": [
+          "India",
+          "Ireland",
+          "Nepal",
+          "Netherlands"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country was Zaheer Khan's international team?",
+        "o": [
+          "Sri Lanka",
+          "India",
+          "West Indies",
+          "Zimbabwe"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country was Mohammed Shami's international team?",
+        "o": [
+          "Bangladesh",
+          "England",
+          "India",
+          "Ireland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country was Shubman Gill's international team?",
+        "o": [
+          "Netherlands",
+          "New Zealand",
+          "Pakistan",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country was Suryakumar Yadav's international team?",
+        "o": [
+          "India",
+          "England",
+          "Ireland",
+          "Nepal"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country was Hardik Pandya's international team?",
+        "o": [
+          "Pakistan",
+          "India",
+          "Scotland",
+          "South Africa"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country was Rishabh Pant's international team?",
+        "o": [
+          "Pakistan",
+          "Scotland",
+          "India",
+          "South Africa"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country was Don Bradman's international team?",
+        "o": [
+          "West Indies",
+          "Zimbabwe",
+          "Afghanistan",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country was Ricky Ponting's international team?",
+        "o": [
+          "Australia",
+          "New Zealand",
+          "Pakistan",
+          "Scotland"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country was Shane Warne's international team?",
+        "o": [
+          "England",
+          "Australia",
+          "India",
+          "Ireland"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country was Glenn McGrath's international team?",
+        "o": [
+          "Afghanistan",
+          "Bangladesh",
+          "Australia",
+          "England"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country was Adam Gilchrist's international team?",
+        "o": [
+          "South Africa",
+          "Sri Lanka",
+          "West Indies",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country was Allan Border's international team?",
+        "o": [
+          "Australia",
+          "South Africa",
+          "Sri Lanka",
+          "West Indies"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country was Steve Waugh's international team?",
+        "o": [
+          "Nepal",
+          "Australia",
+          "Netherlands",
+          "New Zealand"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country was Steve Smith's international team?",
+        "o": [
+          "Netherlands",
+          "New Zealand",
+          "Australia",
+          "Pakistan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country was Pat Cummins's international team?",
+        "o": [
+          "Zimbabwe",
+          "Afghanistan",
+          "Bangladesh",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country was Mitchell Starc's international team?",
+        "o": [
+          "Australia",
+          "New Zealand",
+          "Pakistan",
+          "Scotland"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country was Travis Head's international team?",
+        "o": [
+          "Scotland",
+          "Australia",
+          "South Africa",
+          "Sri Lanka"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which country was Glenn Maxwell's international team?",
+        "o": [
+          "Netherlands",
+          "New Zealand",
+          "Australia",
+          "Pakistan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which country was Ian Botham's international team?",
+        "o": [
+          "Nepal",
+          "Netherlands",
+          "New Zealand",
+          "England"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which country was Alastair Cook's international team?",
+        "o": [
+          "England",
+          "Australia",
+          "Bangladesh",
+          "India"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which country was Joe Root's international team?",
+        "o": [
+          "Netherlands",
+          "England",
+          "New Zealand",
+          "Pakistan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which cricket definition matches “century”?",
+        "o": [
+          "wilfully blocking the fielders",
+          "50 runs by one batter",
+          "100 runs by one batter",
+          "Decision Review System"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which cricket definition matches “half-century”?",
+        "o": [
+          "a ball pitching beside the toes",
+          "a batter dismissed first ball",
+          "a batter dismissed for zero",
+          "50 runs by one batter"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which cricket definition matches “duck”?",
+        "o": [
+          "a batter dismissed for zero",
+          "five wickets in one innings",
+          "four runs as the ball reaches rope",
+          "keeper breaks wicket out of ground"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which cricket definition matches “golden duck”?",
+        "o": [
+          "a player who both bats and bowls",
+          "a batter dismissed first ball",
+          "a short ball rising at the batter",
+          "a shot to leg from a short ball"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which cricket definition matches “hat-trick”?",
+        "o": [
+          "a lower-order batter sent in late",
+          "a player who both bats and bowls",
+          "three wickets in consecutive balls",
+          "a short ball rising at the batter"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which cricket definition matches “maiden over”?",
+        "o": [
+          "runs needed per over remaining",
+          "runs per 100 balls faced",
+          "six runs when the ball clears it",
+          "an over with no runs charged"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which cricket definition matches “yorker”?",
+        "o": [
+          "a ball pitching beside the toes",
+          "three wickets in consecutive balls",
+          "wicket broken while batter is out",
+          "wilfully blocking the fielders"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which cricket definition matches “bouncer”?",
+        "o": [
+          "Decision Review System",
+          "a short ball rising at the batter",
+          "Duckworth-Lewis-Stern method",
+          "a back-foot shot square off side"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which cricket definition matches “googly”?",
+        "o": [
+          "Decision Review System",
+          "Duckworth-Lewis-Stern method",
+          "a leg-spinner's wrong'un",
+          "a back-foot shot square off side"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which cricket definition matches “doosra”?",
+        "o": [
+          "balls bowled per wicket",
+          "body illegally blocks the wicket",
+          "first-ball ducks in both innings",
+          "an off-spinner's ball turning away"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which cricket definition matches “inswinger”?",
+        "o": [
+          "a ball moving into the batter",
+          "runs conceded per over",
+          "runs conceded per wicket",
+          "runs divided by dismissals"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which cricket definition matches “outswinger”?",
+        "o": [
+          "runs conceded per over",
+          "a ball moving away from the batter",
+          "runs conceded per wicket",
+          "runs divided by dismissals"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which cricket definition matches “reverse swing”?",
+        "o": [
+          "a player who both bats and bowls",
+          "a short ball rising at the batter",
+          "late swing with an older ball",
+          "a shot to leg from a short ball"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which cricket definition matches “cover drive”?",
+        "o": [
+          "six runs when the ball clears it",
+          "striker breaks their own wicket",
+          "the strip between the wickets",
+          "a front-foot shot through cover"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Which cricket definition matches “square cut”?",
+        "o": [
+          "a back-foot shot square off side",
+          "runs divided by dismissals",
+          "runs needed per over remaining",
+          "runs per 100 balls faced"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which cricket definition matches “pull shot”?",
+        "o": [
+          "a line marking a batter's ground",
+          "a shot to leg from a short ball",
+          "a lower-order batter sent in late",
+          "a player who both bats and bowls"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Which cricket definition matches “sweep shot”?",
+        "o": [
+          "a player who both bats and bowls",
+          "a short ball rising at the batter",
+          "a cross-batted shot against spin",
+          "a shot to leg from a short ball"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which cricket definition matches “nightwatchman”?",
+        "o": [
+          "a captain closes the innings early",
+          "a cross-batted shot against spin",
+          "a front-foot shot through cover",
+          "a lower-order batter sent in late"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Sachin Tendulkar played international cricket for which country?",
+        "o": [
+          "India",
+          "Australia",
+          "Bangladesh",
+          "England"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Virat Kohli played international cricket for which country?",
+        "o": [
+          "Bangladesh",
+          "India",
+          "England",
+          "Ireland"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Rohit Sharma played international cricket for which country?",
+        "o": [
+          "Scotland",
+          "South Africa",
+          "India",
+          "Sri Lanka"
+        ],
+        "a": 2
+      },
+      {
+        "p": "MS Dhoni played international cricket for which country?",
+        "o": [
+          "Zimbabwe",
+          "Afghanistan",
+          "Australia",
+          "India"
+        ],
+        "a": 3
+      }
+    ],
+    "5": [
+      {
+        "p": "Kapil Dev played international cricket for which country?",
+        "o": [
+          "India",
+          "England",
+          "Ireland",
+          "Nepal"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL side included Quinton de Kock in its 2026 squad?",
+        "o": [
+          "Royal Challengers Bengaluru",
+          "Mumbai Indians",
+          "Sunrisers Hyderabad",
+          "Chennai Super Kings"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Sunil Gavaskar played international cricket for which country?",
+        "o": [
+          "Bangladesh",
+          "England",
+          "India",
+          "Ireland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL side included Rinku Singh in its 2026 squad?",
+        "o": [
+          "Gujarat Titans",
+          "Lucknow Super Giants",
+          "Mumbai Indians",
+          "Kolkata Knight Riders"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Rahul Dravid played international cricket for which country?",
+        "o": [
+          "India",
+          "England",
+          "Ireland",
+          "Nepal"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL side included Abhishek Sharma in its 2026 squad?",
+        "o": [
+          "Kolkata Knight Riders",
+          "Sunrisers Hyderabad",
+          "Lucknow Super Giants",
+          "Mumbai Indians"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Anil Kumble played international cricket for which country?",
+        "o": [
+          "Scotland",
+          "South Africa",
+          "India",
+          "Sri Lanka"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL side included Sam Curran in its 2026 squad?",
+        "o": [
+          "Kolkata Knight Riders",
+          "Lucknow Super Giants",
+          "Mumbai Indians",
+          "Rajasthan Royals"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Jasprit Bumrah played international cricket for which country?",
+        "o": [
+          "India",
+          "Zimbabwe",
+          "Afghanistan",
+          "Australia"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL side included Axar Patel in its 2026 squad?",
+        "o": [
+          "Lucknow Super Giants",
+          "Delhi Capitals",
+          "Mumbai Indians",
+          "Punjab Kings"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Ravichandran Ashwin played international cricket for which country?",
+        "o": [
+          "South Africa",
+          "Sri Lanka",
+          "India",
+          "West Indies"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL side included Shreyas Iyer in its 2026 squad?",
+        "o": [
+          "Lucknow Super Giants",
+          "Mumbai Indians",
+          "Rajasthan Royals",
+          "Punjab Kings"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Ravindra Jadeja played international cricket for which country?",
+        "o": [
+          "India",
+          "Australia",
+          "Bangladesh",
+          "England"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Which IPL side included Shivam Dube in its 2026 squad?",
+        "o": [
+          "Punjab Kings",
+          "Chennai Super Kings",
+          "Rajasthan Royals",
+          "Royal Challengers Bengaluru"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Virender Sehwag played international cricket for which country?",
+        "o": [
+          "Zimbabwe",
+          "Afghanistan",
+          "India",
+          "Australia"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Which IPL side included Phil Salt in its 2026 squad?",
+        "o": [
+          "Chennai Super Kings",
+          "Delhi Capitals",
+          "Gujarat Titans",
+          "Royal Challengers Bengaluru"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Sourav Ganguly played international cricket for which country?",
+        "o": [
+          "India",
+          "West Indies",
+          "Zimbabwe",
+          "Afghanistan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the champions of the 2026 IPL.",
+        "o": [
+          "Mumbai Indians",
+          "Royal Challengers Bengaluru",
+          "Punjab Kings",
+          "Rajasthan Royals"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Yuvraj Singh played international cricket for which country?",
+        "o": [
+          "Nepal",
+          "Netherlands",
+          "India",
+          "New Zealand"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the champions of the 2025 IPL.",
+        "o": [
+          "Rising Pune Supergiant",
+          "Sunrisers Hyderabad",
+          "Chennai Super Kings",
+          "Royal Challengers Bengaluru"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Zaheer Khan played international cricket for which country?",
+        "o": [
+          "India",
+          "Ireland",
+          "Nepal",
+          "Netherlands"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the champions of the 2024 IPL.",
+        "o": [
+          "Deccan Chargers",
+          "Kolkata Knight Riders",
+          "Delhi Capitals",
+          "Gujarat Titans"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Mohammed Shami played international cricket for which country?",
+        "o": [
+          "New Zealand",
+          "Pakistan",
+          "India",
+          "Scotland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the champions of the 2023 IPL.",
+        "o": [
+          "Mumbai Indians",
+          "Punjab Kings",
+          "Rajasthan Royals",
+          "Chennai Super Kings"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Shubman Gill played international cricket for which country?",
+        "o": [
+          "India",
+          "Nepal",
+          "Netherlands",
+          "New Zealand"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the champions of the 2022 IPL.",
+        "o": [
+          "Rising Pune Supergiant",
+          "Gujarat Titans",
+          "Royal Challengers Bengaluru",
+          "Sunrisers Hyderabad"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Suryakumar Yadav played international cricket for which country?",
+        "o": [
+          "Afghanistan",
+          "Australia",
+          "India",
+          "Bangladesh"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Name the champions of the 2021 IPL.",
+        "o": [
+          "Gujarat Titans",
+          "Kolkata Knight Riders",
+          "Mumbai Indians",
+          "Chennai Super Kings"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Hardik Pandya played international cricket for which country?",
+        "o": [
+          "India",
+          "Nepal",
+          "Netherlands",
+          "New Zealand"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Name the champions of the 2020 IPL.",
+        "o": [
+          "Punjab Kings",
+          "Mumbai Indians",
+          "Rajasthan Royals",
+          "Rising Pune Supergiant"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Rishabh Pant played international cricket for which country?",
+        "o": [
+          "New Zealand",
+          "Pakistan",
+          "India",
+          "Scotland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Don Bradman played international cricket for which country?",
+        "o": [
+          "Nepal",
+          "Netherlands",
+          "New Zealand",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Ricky Ponting played international cricket for which country?",
+        "o": [
+          "Australia",
+          "Ireland",
+          "Nepal",
+          "Netherlands"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Shane Warne played international cricket for which country?",
+        "o": [
+          "Scotland",
+          "Australia",
+          "South Africa",
+          "Sri Lanka"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Glenn McGrath played international cricket for which country?",
+        "o": [
+          "Sri Lanka",
+          "West Indies",
+          "Australia",
+          "Zimbabwe"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Adam Gilchrist played international cricket for which country?",
+        "o": [
+          "Bangladesh",
+          "England",
+          "India",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Allan Border played international cricket for which country?",
+        "o": [
+          "Australia",
+          "Sri Lanka",
+          "West Indies",
+          "Zimbabwe"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Steve Waugh played international cricket for which country?",
+        "o": [
+          "Afghanistan",
+          "Australia",
+          "Bangladesh",
+          "England"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Steve Smith played international cricket for which country?",
+        "o": [
+          "Bangladesh",
+          "England",
+          "Australia",
+          "India"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Pat Cummins played international cricket for which country?",
+        "o": [
+          "Netherlands",
+          "New Zealand",
+          "Pakistan",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Mitchell Starc played international cricket for which country?",
+        "o": [
+          "Australia",
+          "West Indies",
+          "Zimbabwe",
+          "Afghanistan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Travis Head played international cricket for which country?",
+        "o": [
+          "England",
+          "Australia",
+          "India",
+          "Ireland"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Glenn Maxwell played international cricket for which country?",
+        "o": [
+          "India",
+          "Ireland",
+          "Australia",
+          "Nepal"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Ian Botham played international cricket for which country?",
+        "o": [
+          "West Indies",
+          "Zimbabwe",
+          "Afghanistan",
+          "England"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Alastair Cook played international cricket for which country?",
+        "o": [
+          "England",
+          "West Indies",
+          "Zimbabwe",
+          "Afghanistan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Joe Root played international cricket for which country?",
+        "o": [
+          "Scotland",
+          "England",
+          "South Africa",
+          "Sri Lanka"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What does the term “century” refer to in cricket?",
+        "o": [
+          "Decision Review System",
+          "Duckworth-Lewis-Stern method",
+          "100 runs by one batter",
+          "a back-foot shot square off side"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What does the term “half-century” refer to in cricket?",
+        "o": [
+          "a lower-order batter sent in late",
+          "a player who both bats and bowls",
+          "a short ball rising at the batter",
+          "50 runs by one batter"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What does the term “duck” refer to in cricket?",
+        "o": [
+          "a batter dismissed for zero",
+          "runs divided by dismissals",
+          "runs needed per over remaining",
+          "runs per 100 balls faced"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What does the term “golden duck” refer to in cricket?",
+        "o": [
+          "the strip between the wickets",
+          "a batter dismissed first ball",
+          "the trailing Test side bats again",
+          "three stumps topped by two bails"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What does the term “hat-trick” refer to in cricket?",
+        "o": [
+          "an off-spinner's ball turning away",
+          "an over with no runs charged",
+          "three wickets in consecutive balls",
+          "balls bowled per wicket"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What does the term “maiden over” refer to in cricket?",
+        "o": [
+          "a line marking a batter's ground",
+          "a lower-order batter sent in late",
+          "a player who both bats and bowls",
+          "an over with no runs charged"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What does the term “yorker” refer to in cricket?",
+        "o": [
+          "a ball pitching beside the toes",
+          "an illegal ball costing an extra",
+          "an off-spinner's ball turning away",
+          "an over with no runs charged"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What does the term “bouncer” refer to in cricket?",
+        "o": [
+          "a back-foot shot square off side",
+          "a short ball rising at the batter",
+          "a ball beyond normal batting reach",
+          "a ball moving away from the batter"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What does the term “googly” refer to in cricket?",
+        "o": [
+          "first-ball ducks in both innings",
+          "five wickets in one innings",
+          "a leg-spinner's wrong'un",
+          "four runs as the ball reaches rope"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What does the term “doosra” refer to in cricket?",
+        "o": [
+          "Duckworth-Lewis-Stern method",
+          "a back-foot shot square off side",
+          "a ball beyond normal batting reach",
+          "an off-spinner's ball turning away"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What does the term “inswinger” refer to in cricket?",
+        "o": [
+          "a ball moving into the batter",
+          "runs needed per over remaining",
+          "runs per 100 balls faced",
+          "six runs when the ball clears it"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What does the term “outswinger” refer to in cricket?",
+        "o": [
+          "wilfully blocking the fielders",
+          "a ball moving away from the batter",
+          "100 runs by one batter",
+          "50 runs by one batter"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What does the term “reverse swing” refer to in cricket?",
+        "o": [
+          "six runs when the ball clears it",
+          "striker breaks their own wicket",
+          "late swing with an older ball",
+          "the strip between the wickets"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What does the term “cover drive” refer to in cricket?",
+        "o": [
+          "an illegal ball costing an extra",
+          "an off-spinner's ball turning away",
+          "an over with no runs charged",
+          "a front-foot shot through cover"
+        ],
+        "a": 3
+      },
+      {
+        "p": "What does the term “square cut” refer to in cricket?",
+        "o": [
+          "a back-foot shot square off side",
+          "a ball moving into the batter",
+          "a ball pitching beside the toes",
+          "a batter dismissed first ball"
+        ],
+        "a": 0
+      },
+      {
+        "p": "What does the term “pull shot” refer to in cricket?",
+        "o": [
+          "an off-spinner's ball turning away",
+          "a shot to leg from a short ball",
+          "an over with no runs charged",
+          "balls bowled per wicket"
+        ],
+        "a": 1
+      },
+      {
+        "p": "What does the term “sweep shot” refer to in cricket?",
+        "o": [
+          "five wickets in one innings",
+          "four runs as the ball reaches rope",
+          "a cross-batted shot against spin",
+          "keeper breaks wicket out of ground"
+        ],
+        "a": 2
+      },
+      {
+        "p": "What does the term “nightwatchman” refer to in cricket?",
+        "o": [
+          "four runs as the ball reaches rope",
+          "keeper breaks wicket out of ground",
+          "late swing with an older ball",
+          "a lower-order batter sent in late"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Identify the country represented by Sachin Tendulkar.",
+        "o": [
+          "India",
+          "West Indies",
+          "Zimbabwe",
+          "Afghanistan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Identify the country represented by Virat Kohli.",
+        "o": [
+          "Scotland",
+          "India",
+          "South Africa",
+          "Sri Lanka"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Identify the country represented by Rohit Sharma.",
+        "o": [
+          "Pakistan",
+          "Scotland",
+          "India",
+          "South Africa"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Identify the country represented by MS Dhoni.",
+        "o": [
+          "Bangladesh",
+          "England",
+          "Ireland",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Identify the country represented by Kapil Dev.",
+        "o": [
+          "India",
+          "South Africa",
+          "Sri Lanka",
+          "West Indies"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Identify the country represented by Sunil Gavaskar.",
+        "o": [
+          "New Zealand",
+          "India",
+          "Pakistan",
+          "Scotland"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Identify the country represented by Rahul Dravid.",
+        "o": [
+          "Bangladesh",
+          "England",
+          "India",
+          "Ireland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Identify the country represented by Anil Kumble.",
+        "o": [
+          "Bangladesh",
+          "England",
+          "Ireland",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Identify the country represented by Jasprit Bumrah.",
+        "o": [
+          "India",
+          "Ireland",
+          "Nepal",
+          "Netherlands"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Identify the country represented by Ravichandran Ashwin.",
+        "o": [
+          "Scotland",
+          "India",
+          "South Africa",
+          "Sri Lanka"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Identify the country represented by Ravindra Jadeja.",
+        "o": [
+          "Netherlands",
+          "New Zealand",
+          "India",
+          "Pakistan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Identify the country represented by Virender Sehwag.",
+        "o": [
+          "Ireland",
+          "Nepal",
+          "Netherlands",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Identify the country represented by Sourav Ganguly.",
+        "o": [
+          "India",
+          "England",
+          "Ireland",
+          "Nepal"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Identify the country represented by Yuvraj Singh.",
+        "o": [
+          "Netherlands",
+          "India",
+          "New Zealand",
+          "Pakistan"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Identify the country represented by Zaheer Khan.",
+        "o": [
+          "Sri Lanka",
+          "West Indies",
+          "India",
+          "Zimbabwe"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Identify the country represented by Mohammed Shami.",
+        "o": [
+          "West Indies",
+          "Zimbabwe",
+          "Afghanistan",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Identify the country represented by Shubman Gill.",
+        "o": [
+          "India",
+          "Netherlands",
+          "New Zealand",
+          "Pakistan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Identify the country represented by Suryakumar Yadav.",
+        "o": [
+          "Sri Lanka",
+          "India",
+          "West Indies",
+          "Zimbabwe"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Identify the country represented by Hardik Pandya.",
+        "o": [
+          "Bangladesh",
+          "England",
+          "India",
+          "Ireland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Identify the country represented by Rishabh Pant.",
+        "o": [
+          "Pakistan",
+          "Scotland",
+          "South Africa",
+          "India"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Identify the country represented by Don Bradman.",
+        "o": [
+          "Australia",
+          "West Indies",
+          "Zimbabwe",
+          "Afghanistan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Identify the country represented by Ricky Ponting.",
+        "o": [
+          "Bangladesh",
+          "Australia",
+          "England",
+          "India"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Identify the country represented by Shane Warne.",
+        "o": [
+          "England",
+          "India",
+          "Australia",
+          "Ireland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Identify the country represented by Glenn McGrath.",
+        "o": [
+          "Pakistan",
+          "Scotland",
+          "South Africa",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Identify the country represented by Adam Gilchrist.",
+        "o": [
+          "Australia",
+          "Netherlands",
+          "New Zealand",
+          "Pakistan"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Identify the country represented by Allan Border.",
+        "o": [
+          "South Africa",
+          "Australia",
+          "Sri Lanka",
+          "West Indies"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Identify the country represented by Steve Waugh.",
+        "o": [
+          "New Zealand",
+          "Pakistan",
+          "Australia",
+          "Scotland"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Identify the country represented by Steve Smith.",
+        "o": [
+          "Pakistan",
+          "Scotland",
+          "South Africa",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Identify the country represented by Pat Cummins.",
+        "o": [
+          "Australia",
+          "Zimbabwe",
+          "Afghanistan",
+          "Bangladesh"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Identify the country represented by Mitchell Starc.",
+        "o": [
+          "India",
+          "Australia",
+          "Ireland",
+          "Nepal"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Identify the country represented by Travis Head.",
+        "o": [
+          "Scotland",
+          "South Africa",
+          "Australia",
+          "Sri Lanka"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Identify the country represented by Glenn Maxwell.",
+        "o": [
+          "Afghanistan",
+          "Bangladesh",
+          "England",
+          "Australia"
+        ],
+        "a": 3
+      },
+      {
+        "p": "Identify the country represented by Ian Botham.",
+        "o": [
+          "England",
+          "India",
+          "Ireland",
+          "Nepal"
+        ],
+        "a": 0
+      },
+      {
+        "p": "Identify the country represented by Alastair Cook.",
+        "o": [
+          "Scotland",
+          "England",
+          "South Africa",
+          "Sri Lanka"
+        ],
+        "a": 1
+      },
+      {
+        "p": "Identify the country represented by Joe Root.",
+        "o": [
+          "West Indies",
+          "Zimbabwe",
+          "England",
+          "Afghanistan"
+        ],
+        "a": 2
+      },
+      {
+        "p": "Choose the correct cricket meaning of “century”.",
+        "o": [
+          "wicket broken while batter is out",
+          "wilfully blocking the fielders",
+          "50 runs by one batter",
+          "100 runs by one batter"
+        ],
+        "a": 3
+      }
+    ]
+  }
+}

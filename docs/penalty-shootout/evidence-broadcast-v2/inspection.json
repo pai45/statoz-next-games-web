@@ -1,0 +1,23 @@
+{
+  "errors": [],
+  "metrics": [
+    {
+      "name": "desktop",
+      "drawCalls": "78",
+      "fps": "44.3",
+      "overflow": false
+    },
+    {
+      "name": "portrait",
+      "drawCalls": "79",
+      "fps": "51.0",
+      "overflow": false
+    },
+    {
+      "name": "landscape",
+      "drawCalls": "79",
+      "fps": "55.2",
+      "overflow": false
+    }
+  ]
+}

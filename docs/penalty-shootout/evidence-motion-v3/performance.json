@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-21",
+  "browser": "156.0.8078.4",
+  "host": {
+    "os": "10.0.26200",
+    "cpu": "12th Gen Intel(R) Core(TM) i7-12650H",
+    "memoryGiB": 16
+  },
+  "results": [
+    {
+      "name": "desktop",
+      "viewport": [
+        1280,
+        800
+      ],
+      "seconds": 15.01290000001192,
+      "frames": 1126,
+      "meanFps": 75.00216480487488,
+      "p95FrameMs": 13.5,
+      "drawCalls": 72,
+      "canvas": [
+        1088,
+        680
+      ],
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3070 Ti Laptop GPU (0x000024A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "name": "portrait-emulation",
+      "viewport": [
+        412,
+        915
+      ],
+      "seconds": 15.01109999998808,
+      "frames": 1125,
+      "meanFps": 74.94454103969011,
+      "p95FrameMs": 13.5,
+      "drawCalls": 111,
+      "canvas": [
+        412,
+        685
+      ],
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3070 Ti Laptop GPU (0x000024A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "name": "landscape-emulation",
+      "viewport": [
+        915,
+        412
+      ],
+      "seconds": 15.000999999988078,
+      "frames": 1125,
+      "meanFps": 74.99500033337071,
+      "p95FrameMs": 13.5,
+      "drawCalls": 110,
+      "canvas": [
+        915,
+        412
+      ],
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3070 Ti Laptop GPU (0x000024A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "limitation": "15-second headless samples on this desktop GPU. Phone viewports are emulated; sustained physical phone performance remains unverified."
+}

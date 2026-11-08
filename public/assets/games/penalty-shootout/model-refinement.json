@@ -1,0 +1,15 @@
+{
+  "version": "character-shoulders-8",
+  "originalFeatures": [
+    "continuous chest-clavicle-upper-arm sleeve weights",
+    "upper-arm skin follows raised arms",
+    "construction v7 torso, gloves, hands and faces retained"
+  ],
+  "preserved": [
+    "60-bone skeleton",
+    "35 animation clip names",
+    "physical dimensions and contacts",
+    "input and progression contracts"
+  ],
+  "limits": "Fabric still stretches under a fully raised arm; no cloth simulation"
+}
