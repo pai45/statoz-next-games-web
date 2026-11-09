@@ -15,7 +15,7 @@ import { recordStreakActivity } from "@/features/streaks/activity";
  * for browser-local state.
  */
 
-const storageKey = "statoz.next.games.shootout.v1";
+const storageKey = "statoz.next.games-web.shootout.v1";
 
 /** One finished shootout, as the lobby's Match History lists it. */
 export type ShootoutHistoryEntry = {

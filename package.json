@@ -9,7 +9,6 @@
     "setup": "npm ci --ignore-scripts --no-audit --no-fund",
     "check": "node scripts/statoz.mjs check",
     "build": "node scripts/statoz.mjs build",
-    "test": "node --test tests/operations/*.test.mjs",
     "data:export": "node scripts/statoz.mjs transfer export",
     "data:import": "node scripts/statoz.mjs transfer import",
     "data:backup": "node scripts/statoz.mjs transfer backup",

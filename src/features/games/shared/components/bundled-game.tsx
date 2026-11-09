@@ -4,7 +4,6 @@ import {useEffect, useRef, useState} from 'react';
 import {useGameReturn} from '../hooks/use-game-return';
 import Link from 'next/link';
 import {Button} from '@statoz/design-system/games';
-import {publicAsset} from '@/shared/config';
 import {useAuthSession} from '@/features/auth';
 import {guideFor} from '@/features/how-to-play';
 import type {GameLauncherProps} from '../../components/game-launcher';

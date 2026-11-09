@@ -6,9 +6,6 @@ import { usesMobileLandscape } from "../shared/mobile-viewport/policy";
 import { isGameEnabled } from "@/domain/demo-product";
 import { GameAssetGate } from "@/features/device-assets";
 import { BundledGame } from '../shared/components/bundled-game';
-import { isBundledGame } from '../shared/bundled-game-config';
-import type { ComponentType } from "react";
-import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -29,7 +26,6 @@ import { sportForGame, type GameEntry } from "@/mocks/games";
 import type { GameId } from "../types";
 import { GameLandingAdProvider } from "../shared/components/game-landing-ad";
 
-import { GamePlaceholder } from "./game-placeholder";
 import { GameVisitTracker } from "./game-visit-tracker";
 
 export type GameLauncherProps = {
@@ -38,8 +34,8 @@ export type GameLauncherProps = {
 };
 
 /**
- * The games that exist. Anything absent falls through to the placeholder, which
- * says so plainly rather than 404ing — every tile in the app leads somewhere.
+ * Every game is played from the pinned game library, inside BundledGame's
+ * sandboxed iframe. No gameplay code lives in this repository.
  */
 export function GameSurface({game,entry}:GameLauncherProps){return <BundledGame game={game} entry={entry}/>;}
 

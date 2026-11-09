@@ -18,7 +18,6 @@ domain, server, and shared modules.
 - `src/shared`: Non-visual configuration, providers, hooks, styles, and
   utilities that do not contain feature-specific business rules.
 - `public/assets`: Static media served by URL.
-- `tests/e2e`: Cross-feature browser journeys.
 
 ## Route plan
 

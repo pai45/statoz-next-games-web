@@ -14,9 +14,9 @@ import { divisionFor } from "../engine/setup";
  * moves a five-a-side club onto a 4-4-2.
  */
 
-export const careerKey = "statoz.next.games.pitch-duel.v4";
-export const v3CareerKey = "statoz.next.games.pitch-duel.v3";
-export const legacyCareerKey = "statoz.next.games.pitch-duel.reboot.v2";
+export const careerKey = "statoz.next.games-web.pitch-duel.v4";
+export const v3CareerKey = "statoz.next.games-web.pitch-duel.v3";
+export const legacyCareerKey = "statoz.next.games-web.pitch-duel.reboot.v2";
 export const historyLimit = 30;
 
 export type MatchResult = {

@@ -17,7 +17,7 @@ export type OpenGolfProgress = {
 
 /** Same key BundledGame writes for the account-scoped bundle save. */
 export function openGolfSaveKey(account: string | null): string {
-  return "statoz.next.games.bundle.open-golf." + encodeURIComponent(account || "guest");
+  return "statoz.next.games-web.bundle.open-golf." + encodeURIComponent(account || "guest");
 }
 
 function record(value: unknown): Record<string, unknown> | null {
