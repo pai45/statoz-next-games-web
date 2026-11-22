@@ -46,10 +46,43 @@ jobs:
     if: inputs.kind == 'pages'
     needs: verify
     runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: read
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      # Pages identifies a deployment by its build version. actions/deploy-pages always uses the
+      # run's commit, and a game-only delivery reuses the unchanged host commit, so Pages would
+      # answer with the earlier deployment and keep serving it. Each request gets its own version.
       - name: Deploy accepted bytes
         id: deployment
-        uses: actions/deploy-pages@v4
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BUILD_VERSION: ${{ inputs.request }}
+        run: |
+          set -euo pipefail
+          [[ "$BUILD_VERSION" =~ ^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$ ]] || { echo "Request is not a release request id"; exit 1; }
+          api="$GITHUB_API_URL/repos/$GITHUB_REPOSITORY"
+          auth=(-H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28")
+          artifact=$(curl -sS --fail-with-body "${auth[@]}" "$api/actions/runs/$GITHUB_RUN_ID/artifacts?name=github-pages" | jq -er '.artifacts | map(select(.name == "github-pages")) | if length == 1 then .[0].id else error("expected one github-pages artifact") end')
+          oidc=$(curl -sS --fail-with-body -H "Authorization: Bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" "$ACTIONS_ID_TOKEN_REQUEST_URL" | jq -er .value)
+          echo "::add-mask::$oidc"
+          body=$(jq -n --argjson artifact "$artifact" --arg version "$BUILD_VERSION" --arg token "$oidc" '{artifact_id: $artifact, pages_build_version: $version, oidc_token: $token}')
+          created=$(curl -sS --fail-with-body "${auth[@]}" -X POST "$api/pages/deployments" -d "$body")
+          id=$(jq -er .id <<<"$created"); page_url=$(jq -er .page_url <<<"$created")
+          echo "Created Pages deployment $id for artifact $artifact (build version $BUILD_VERSION)"
+          for attempt in $(seq 1 120); do
+            # A failed status request or deployment_attempt_error is temporary; keep polling.
+            status=$(curl -sS --fail-with-body "${auth[@]}" "$api/pages/deployments/$id" | jq -er .status) || status=unknown_status
+            echo "Pages deployment status: $status"
+            case "$status" in
+              succeed) echo "page_url=$page_url" >> "$GITHUB_OUTPUT"; exit 0 ;;
+              deployment_failed|deployment_perms_error|deployment_content_failed|deployment_cancelled|deployment_lost) exit 1 ;;
+            esac
+            sleep 5
+          done
+          echo "Pages deployment did not finish within 10 minutes"; exit 1
